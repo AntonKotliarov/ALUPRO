@@ -1,0 +1,1038 @@
+//******************************************************************************
+//Opisy                                                                  *WALA*
+//******************************************************************************
+
+    GRUPA[OK_WALA_DW1_2Z_3S]=
+      <
+         NAZWA='WALA - 2 завіси 3-секційні'
+         OPIS='Двері відкриванням всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'	
+         WAZNOSC_OKUCIA=30		 
+      >
+    GRUPA[OK_WALA_DW2_2Z_3S]=
+      <
+         NAZWA='WALA - 2 завіси 3-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'		 
+         WAZNOSC_OKUCIA=30	
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DW3_2Z_3S		 
+      >
+    GRUPA[OK_WALA_DW3_2Z_3S]=
+      <
+         NAZWA='WALA - 2 завіси 3-секційні'
+         OPIS='Двері двостулкові без ручки відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'
+         WAZNOSC_OKUCIA=30			 
+      >
+	  
+    GRUPA[OK_WALA_DZ1_2Z_3S]=
+      <
+         NAZWA='WALA - 2 завіси 3-секційні'
+         OPIS='Двері відкриванням назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'	
+         WAZNOSC_OKUCIA=30			 
+      >
+    GRUPA[OK_WALA_DZ2_2Z_3S]=
+      <
+         NAZWA='WALA - 2 завіси 3-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'	
+         WAZNOSC_OKUCIA=30	
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DZ3_2Z_3S			 
+      >
+    GRUPA[OK_WALA_DZ3_2Z_3S]=
+      <
+         NAZWA='WALA - 2 завіси 3-секційні'
+         OPIS='Двері двостулкові без ручки відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'	
+         WAZNOSC_OKUCIA=30			 
+      >
+	  
+    GRUPA[OK_WALA_DW1_3Z_3S]=
+      <
+         NAZWA='WALA - 3 завіси 3-секційні'
+         OPIS='Двері відкриванням всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=60			 
+      >
+    GRUPA[OK_WALA_DW2_3Z_3S]=
+      <
+         NAZWA='WALA - 3 завіси 3-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=60	
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DW3_3Z_3S		 
+      >
+    GRUPA[OK_WALA_DW3_3Z_3S]=
+      <
+         NAZWA='WALA - 3 завіси 3-секційні'
+         OPIS='Двері двостулкові без ручки відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=60			 
+      >
+	  
+    GRUPA[OK_WALA_DZ1_3Z_3S]=
+      <
+         NAZWA='WALA - 3 завіси 3-секційні'
+         OPIS='Двері відкриванням назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'
+         WAZNOSC_OKUCIA=60			 
+      >
+    GRUPA[OK_WALA_DZ2_3Z_3S]=
+      <
+         NAZWA='WALA - 3 завіси 3-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=60		
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DZ3_3Z_3S			 
+      >
+    GRUPA[OK_WALA_DZ3_3Z_3S]=
+      <
+         NAZWA='WALA - 3 завіси 3-секційні'
+         OPIS='Двері двостулкові без ручки відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=60			 
+      >
+	  
+    GRUPA[OK_WALA_DW1_2Z_2S]=
+      <
+         NAZWA='WALA - 2 завіси 2-секційні'
+         OPIS='Двері відкриванням всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'
+         WAZNOSC_OKUCIA=30			 
+      >
+    GRUPA[OK_WALA_DW2_2Z_2S]=
+      <
+         NAZWA='WALA - 2 завіси 2-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'
+         WAZNOSC_OKUCIA=30	
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DW3_2Z_2S			 
+      >
+    GRUPA[OK_WALA_DW3_2Z_2S]=
+      <
+         NAZWA='WALA - 2 завіси 2-секційні'
+         OPIS='Двері двостулкові без ручки відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'
+         WAZNOSC_OKUCIA=30			 
+      >
+	  
+    GRUPA[OK_WALA_DZ1_2Z_2S]=
+      <
+         NAZWA='WALA - 2 завіси 2-секційні'
+         OPIS='Двері відкриванням назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'	
+         WAZNOSC_OKUCIA=30			 
+      >
+    GRUPA[OK_WALA_DZ2_2Z_2S]=
+      <
+         NAZWA='WALA - 2 завіси 2-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'
+         WAZNOSC_OKUCIA=30	
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DZ3_2Z_2S			 
+      >
+    GRUPA[OK_WALA_DZ3_2Z_2S]=
+      <
+         NAZWA='WALA - 2 завіси 2-секційні'
+         OPIS='Двері двостулкові без ручки відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'	
+         WAZNOSC_OKUCIA=30			 
+      >
+	  
+    GRUPA[OK_WALA_DW1_3Z_2S]=
+      <
+         NAZWA='WALA - 3 завіси 2-секційні'
+         OPIS='Двері відкриванням всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+			 
+         WAZNOSC_OKUCIA=150		
+      >
+    GRUPA[OK_WALA_DW2_3Z_2S]=
+      <
+         NAZWA='WALA - 3 завіси 2-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DW3_3Z_2S	
+			 
+         WAZNOSC_OKUCIA=150				
+      >
+    GRUPA[OK_WALA_DW3_3Z_2S]=
+      <
+         NAZWA='WALA - 3 завіси 2-секційні'
+         OPIS='Двері двостулкові без ручки відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=150		
+      >
+    GRUPA[OK_WALA_DZ1_3Z_2S]=
+      <
+         NAZWA='WALA - 3 завіси 2-секційні'
+         OPIS='Двері відкриванням назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'
+         WAZNOSC_OKUCIA=150			 
+      >
+	  
+    GRUPA[OK_WALA_DZ2_3Z_2S]=
+      <
+         NAZWA='WALA - 3 завіси 2-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DZ3_3Z_2S				 
+         WAZNOSC_OKUCIA=150				
+      >
+    GRUPA[OK_WALA_DZ3_3Z_2S]=
+      <
+         NAZWA='WALA - 3 завіси 2-секційні'
+         OPIS='Двері двостулкові без ручки відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=150				 
+      >
+
+    GRUPA[OK_WALA_DW1_4Z_3S]=
+      <
+         NAZWA='WALA - 4 завіси 3-секційні'
+         OPIS='Двері відкриванням всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45			 
+      >
+    GRUPA[OK_WALA_DW2_4Z_3S]=
+      <
+         NAZWA='WALA - 4 завіси 3-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'		 
+         WAZNOSC_OKUCIA=45
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DW3_4Z_3S			 
+      >
+    GRUPA[OK_WALA_DW3_4Z_3S]=
+      <
+         NAZWA='WALA - 4 завіси 3-секційні'
+         OPIS='Двері двостулкові без ручки відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'
+         WAZNOSC_OKUCIA=45		 
+      >
+    GRUPA[OK_WALA_DZ1_4Z_3S]=
+      <
+         NAZWA='WALA - 4 завіси 3-секційні'
+         OPIS='Двері відкриванням назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45		 
+      >
+    GRUPA[OK_WALA_DZ2_4Z_3S]=
+      <
+         NAZWA='WALA - 4 завіси 3-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45	
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DZ3_4Z_3S			 
+      >
+    GRUPA[OK_WALA_DZ3_4Z_3S]=
+      <
+         NAZWA='WALA - 4 завіси 3-секційні'
+         OPIS='Двері двостулкові без ручки відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45			 
+      >	
+
+    GRUPA[OK_WALA_DW1_4Z_2S]=
+      <
+         NAZWA='WALA - 4 завіси 2-секційні'
+         OPIS='Двері відкриванням всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45		 
+      >
+    GRUPA[OK_WALA_DW2_4Z_2S]=
+      <
+         NAZWA='WALA - 4 завіси 2-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'
+         WAZNOSC_OKUCIA=45
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DW3_4Z_2S			 
+      >
+    GRUPA[OK_WALA_DW3_4Z_2S]=
+      <
+         NAZWA='WALA - 4 завіси 2-секційні'
+         OPIS='Двері двостулкові без ручки відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45		 
+      >
+    GRUPA[OK_WALA_DZ1_4Z_2S]=
+      <
+         NAZWA='WALA - 4 завіси 2-секційні'
+         OPIS='Двері відкриванням назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'
+         WAZNOSC_OKUCIA=45		 
+      >
+    GRUPA[OK_WALA_DZ2_4Z_2S]=
+      <
+         NAZWA='WALA - 4 завіси 2-секційні'
+         OPIS='Двері двостулкові з ручкою відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_WALA_DZ3_4Z_2S		 
+      >
+    GRUPA[OK_WALA_DZ3_4Z_2S]=
+      <
+         NAZWA='WALA - 4 завіси 2-секційні'
+         OPIS='Двері двостулкові без ручки відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45		 
+      >	  
+//******************************************************************************
+// Gdzie mozna stosowac
+//******************************************************************************
+    GRUPA[
+                    OK_WALA_DW1_2Z_2S    ,
+                    OK_WALA_DW2_2Z_2S    ,
+                    OK_WALA_DW3_2Z_2S    ,
+
+                    OK_WALA_DW1_3Z_2S    ,
+                    OK_WALA_DW2_3Z_2S    ,
+                    OK_WALA_DW3_3Z_2S    ,
+					
+					OK_WALA_DW1_4Z_2S    ,
+					OK_WALA_DW2_4Z_2S    ,
+					OK_WALA_DW3_4Z_2S    			                    
+
+         ]=
+      <
+    GDY_SYSTEM=   [  DEF_SYS_W77 ]
+    GDY_WARIANT_SKRZYDLA=  [  WAR_W77 ]
+	
+    FILTR_NAZWA        = 'Варіант завіси'
+    FILTR_WARTOSC      = 'Завіси 2-секційна'
+    FILTR_NAZWA        = 'Виробник'
+    FILTR_WARTOSC      = 'WALA'		
+      >
+    GRUPA[
+                    OK_WALA_DZ1_2Z_2S    ,
+                    OK_WALA_DZ2_2Z_2S    ,
+                    OK_WALA_DZ3_2Z_2S    ,
+
+                    OK_WALA_DZ1_3Z_2S    ,
+                    OK_WALA_DZ2_3Z_2S    ,
+                    OK_WALA_DZ3_3Z_2S    ,
+					
+					OK_WALA_DZ1_4Z_2S    ,
+					OK_WALA_DZ2_4Z_2S    ,
+					OK_WALA_DZ3_4Z_2S    			                    
+
+         ]=
+      <
+    GDY_SYSTEM=   [  DEF_SYS_W77 ]
+    GDY_WARIANT_SKRZYDLA=  [  WAR_W77 ]
+	
+    FILTR_NAZWA        = 'Варіант завіси'
+    FILTR_WARTOSC      = 'Завіси 2-секційна'
+    FILTR_NAZWA        = 'Виробник'
+    FILTR_WARTOSC      = 'WALA'		  
+      >
+
+    GRUPA[
+                    OK_WALA_DW1_2Z_3S    ,
+                    OK_WALA_DW2_2Z_3S    ,
+                    OK_WALA_DW3_2Z_3S    ,
+
+                    OK_WALA_DW1_3Z_3S    ,
+                    OK_WALA_DW2_3Z_3S    ,
+                    OK_WALA_DW3_3Z_3S    ,
+					
+					OK_WALA_DW1_4Z_3S    ,
+					OK_WALA_DW2_4Z_3S    ,
+					OK_WALA_DW3_4Z_3S     				                    
+
+         ]=
+      <
+    GDY_SYSTEM=   [  DEF_SYS_W77 ]
+    GDY_WARIANT_SKRZYDLA=  [  WAR_W77 ]
+	
+    FILTR_NAZWA        = 'Варіант завіси'
+    FILTR_WARTOSC      = 'Завіси 3-секційна'
+    FILTR_NAZWA        = 'Виробник'
+    FILTR_WARTOSC      = 'WALA'	
+      >	  
+    GRUPA[
+                    OK_WALA_DZ1_2Z_3S    ,
+                    OK_WALA_DZ2_2Z_3S    ,
+                    OK_WALA_DZ3_2Z_3S    ,
+
+                    OK_WALA_DZ1_3Z_3S    ,
+                    OK_WALA_DZ2_3Z_3S    ,
+                    OK_WALA_DZ3_3Z_3S    ,
+					
+					OK_WALA_DZ1_4Z_3S    ,
+					OK_WALA_DZ2_4Z_3S    ,
+					OK_WALA_DZ3_4Z_3S    				                    
+
+         ]=
+      <
+    GDY_SYSTEM=   [  DEF_SYS_W77 ]
+    GDY_WARIANT_SKRZYDLA=  [  WAR_W77 ]
+	
+    FILTR_NAZWA        = 'Варіант завіси'
+    FILTR_WARTOSC      = 'Завіси 3-секційна'
+    FILTR_NAZWA        = 'Виробник'
+    FILTR_WARTOSC      = 'WALA'	
+      >
+
+//******************************************************************************
+// Rozmiary
+//******************************************************************************
+    GRUPA[
+                    OK_WALA_DW1_2Z_2S    ,
+                    OK_WALA_DW2_2Z_2S    ,
+                    OK_WALA_DW3_2Z_2S    ,
+                    OK_WALA_DZ1_2Z_2S    ,
+                    OK_WALA_DZ2_2Z_2S    ,
+                    OK_WALA_DZ3_2Z_2S    
+         ]=
+      <
+      DO_B=1250
+      DO_H=2150
+      DO_M=110
+      >
+    GRUPA[
+                    OK_WALA_DW1_2Z_3S    ,
+                    OK_WALA_DW2_2Z_3S    ,
+                    OK_WALA_DW3_2Z_3S    ,
+                    OK_WALA_DZ1_2Z_3S    ,
+                    OK_WALA_DZ2_2Z_3S    ,
+                    OK_WALA_DZ3_2Z_3S    
+         ]=
+      <
+      DO_B=1250
+      DO_H=2150
+      DO_M=130
+      >
+    GRUPA[
+                    OK_WALA_DW1_3Z_2S    ,
+                    OK_WALA_DW2_3Z_2S    ,
+                    OK_WALA_DW3_3Z_2S    ,
+                    OK_WALA_DZ1_3Z_2S    ,
+                    OK_WALA_DZ2_3Z_2S    ,
+                    OK_WALA_DZ3_3Z_2S    
+
+         ]=
+      <
+      DO_B=1250
+      DO_H=2500
+      DO_M=140
+      >
+    GRUPA[
+                    OK_WALA_DW1_3Z_3S    ,
+                    OK_WALA_DW2_3Z_3S    ,
+                    OK_WALA_DW3_3Z_3S    ,
+                    OK_WALA_DZ1_3Z_3S    ,
+                    OK_WALA_DZ2_3Z_3S    ,
+                    OK_WALA_DZ3_3Z_3S    
+
+         ]=
+      <
+      DO_B=1250
+      DO_H=2500
+      DO_M=160
+      >
+    GRUPA[
+                    OK_WALA_DW1_4Z_3S    ,
+                    OK_WALA_DW2_4Z_3S    ,
+                    OK_WALA_DW3_4Z_3S    ,
+                    OK_WALA_DZ1_4Z_3S    ,
+                    OK_WALA_DZ2_4Z_3S    ,
+                    OK_WALA_DZ3_4Z_3S    
+                  
+         ]=
+      <
+      DO_B=1250
+      DO_H=3000
+      DO_M=200
+      >
+    GRUPA[
+                    OK_WALA_DW1_4Z_2S    ,
+                    OK_WALA_DW2_4Z_2S    ,
+                    OK_WALA_DW3_4Z_2S    ,
+                    OK_WALA_DZ1_4Z_2S    ,
+                    OK_WALA_DZ2_4Z_2S    ,
+                    OK_WALA_DZ3_4Z_2S    
+                  
+         ]=
+      <
+      DO_B=1250
+      DO_H=3000
+      DO_M=180
+      >
+//******************************************************************************
+// Rodzaje
+//******************************************************************************
+
+    GRUPA[
+         OK_WALA_DW1_2Z_2S,
+         OK_WALA_DW1_3Z_2S,
+         OK_WALA_DW1_4Z_2S		 
+         ]=
+      <
+      RODZAJ=OKUCIE_D_WEWN
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='zawesa_wewn_2z.VCT'
+	  ROZMIAR_X=95
+	  ROZMIAR_Y=91
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=-30
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK	 
+	>	  
+  >
+    GRUPA[
+         OK_WALA_DW1_2Z_3S,
+         OK_WALA_DW1_3Z_3S,
+		 OK_WALA_DW1_4Z_3S
+         ]=
+      <
+      RODZAJ=OKUCIE_D_WEWN
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='zawesa_wewn_3z.VCT'
+	  ROZMIAR_X=95
+	  ROZMIAR_Y=136
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=-30
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK
+	>	  
+  >	  
+    GRUPA[
+         OK_WALA_DW2_2Z_2S,
+         OK_WALA_DW2_3Z_2S,
+         OK_WALA_DW2_4Z_2S
+         ]=
+      <
+      RODZAJ=OKUCIE_D_WEWN2
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='zawesa_wewn_2z.VCT'
+	  ROZMIAR_X=95
+	  ROZMIAR_Y=91
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=-30
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK
+	>	
+  >
+    GRUPA[
+         OK_WALA_DW2_2Z_3S,
+         OK_WALA_DW2_3Z_3S,
+		 OK_WALA_DW2_4Z_3S
+         ]=
+      <
+      RODZAJ=OKUCIE_D_WEWN2
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='zawesa_wewn_3z.VCT'
+	  ROZMIAR_X=95
+	  ROZMIAR_Y=136
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=-30
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK
+	>	
+  >
+  
+    GRUPA[
+         OK_WALA_DW3_2Z_2S,
+         OK_WALA_DW3_3Z_2S,
+         OK_WALA_DW3_4Z_2S
+         ]=
+      <
+      RODZAJ=OKUCIE_D_WEWN2bk
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='zawesa_wewn_2z.VCT'
+	  ROZMIAR_X=95
+	  ROZMIAR_Y=91
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=-30
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK	  
+	>	
+  >
+    GRUPA[
+         OK_WALA_DW3_2Z_3S,
+         OK_WALA_DW3_3Z_3S,
+         OK_WALA_DW3_4Z_3S		 
+         ]=
+      <
+      RODZAJ=OKUCIE_D_WEWN2bk
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='zawesa_wewn_3z.VCT'
+	  ROZMIAR_X=95
+	  ROZMIAR_Y=136
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=-30
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK
+	>	
+  >
+    GRUPA[
+         OK_WALA_DZ1_2Z_2S,
+         OK_WALA_DZ1_3Z_2S,
+         OK_WALA_DZ1_4Z_2S
+         ]=
+  <
+      RODZAJ=OKUCIE_D_ZEWN  
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+		RYSUJ=TAK
+        RYSUNEK='zawesa_zewn_2z_OUT.VCT'
+		ROZMIAR_X=95
+		ROZMIAR_Y=91
+		POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+		POLOZENIE_RYSUNKU_X=-13
+		POLOZENIE_RYSUNKU_Y=0
+		LUSTRZANE_ODBICIE=TAK
+//        DLA_WIDOKU=1
+	>
+  >
+
+  
+    GRUPA[
+         OK_WALA_DZ1_2Z_3S,
+         OK_WALA_DZ1_3Z_3S,
+         OK_WALA_DZ1_4Z_3S
+         ]=
+  <
+      RODZAJ=OKUCIE_D_ZEWN  
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='zawesa_zewn_3z.VCT'
+	  ROZMIAR_X=95
+	  ROZMIAR_Y=136
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=-13
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK
+	>
+  >  
+
+    GRUPA[
+         OK_WALA_DZ2_2Z_3S,
+         OK_WALA_DZ2_3Z_3S,		 
+         OK_WALA_DZ2_4Z_3S	
+         ]=
+      <
+      RODZAJ=OKUCIE_D_ZEWN2
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='zawesa_zewn_3z.VCT'
+	  ROZMIAR_X=95
+	  ROZMIAR_Y=136
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=-13
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK
+	>
+  >
+    GRUPA[
+         OK_WALA_DZ2_2Z_2S,
+         OK_WALA_DZ2_3Z_2S,
+         OK_WALA_DZ2_4Z_2S		 
+         ]=
+      <
+      RODZAJ=OKUCIE_D_ZEWN2
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+		RYSUJ=TAK
+        RYSUNEK='zawesa_zewn_2z.VCT'
+		ROZMIAR_X=95
+		ROZMIAR_Y=91
+		POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+		POLOZENIE_RYSUNKU_X=-13
+		POLOZENIE_RYSUNKU_Y=0
+		LUSTRZANE_ODBICIE=TAK
+	>
+  >  
+    GRUPA[
+         OK_WALA_DZ3_2Z_2S,
+         OK_WALA_DZ3_3Z_2S,
+         OK_WALA_DZ3_4Z_2S		 
+         ]=
+      <
+      RODZAJ=OKUCIE_D_ZEWN2bk
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+		RYSUJ=TAK
+        RYSUNEK='zawesa_zewn_2z.VCT'
+		ROZMIAR_X=95
+		ROZMIAR_Y=91
+		POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+		POLOZENIE_RYSUNKU_X=-13
+		POLOZENIE_RYSUNKU_Y=0
+		LUSTRZANE_ODBICIE=TAK
+	>
+  >
+    GRUPA[
+         OK_WALA_DZ3_2Z_3S,
+         OK_WALA_DZ3_3Z_3S,		 
+         OK_WALA_DZ3_4Z_3S	
+         ]=
+      <
+      RODZAJ=OKUCIE_D_ZEWN2bk
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='zawesa_zewn_3z.VCT'
+	  ROZMIAR_X=95
+	  ROZMIAR_Y=136
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=-13
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK
+	>
+  >  
+
+//******************************************************************************
+// materialy
+//******************************************************************************
+    //Otw.zewn 2 skrzydelka
+    //****************************************************************
+    GRUPA[
+         OK_WALA_DZ1_2Z_2S,
+         OK_WALA_DZ2_2Z_2S,
+         OK_WALA_DZ3_2Z_2S,
+         OK_WALA_DZ1_3Z_2S,
+         OK_WALA_DZ2_3Z_2S,
+         OK_WALA_DZ3_3Z_2S,
+         OK_WALA_DZ1_4Z_2S,
+         OK_WALA_DZ2_4Z_2S,
+         OK_WALA_DZ3_4Z_2S		 
+         ]=
+      <
+	 //Zawias 1
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+	 //Zawias 2                                                                                                         
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=2 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >
+      >
+    GRUPA[
+         OK_WALA_DZ1_3Z_2S,
+         OK_WALA_DZ2_3Z_2S,
+         OK_WALA_DZ3_3Z_2S,
+         OK_WALA_DZ1_4Z_2S,
+         OK_WALA_DZ2_4Z_2S,
+         OK_WALA_DZ3_4Z_2S			 
+         ]=
+      <
+	 //Zawias 3
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >
+      >
+    GRUPA[
+         OK_WALA_DZ1_4Z_2S,
+         OK_WALA_DZ2_4Z_2S,
+         OK_WALA_DZ3_4Z_2S
+         ]=
+      <
+	 //Zawias 4
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >
+      >
+
+    //Otw.zewn 3 skrzydelka
+    //****************************************************************
+    GRUPA[
+         OK_WALA_DZ1_2Z_3S,
+         OK_WALA_DZ2_2Z_3S,
+         OK_WALA_DZ3_2Z_3S,
+         OK_WALA_DZ1_3Z_3S,
+         OK_WALA_DZ2_3Z_3S,
+         OK_WALA_DZ3_3Z_3S,
+         OK_WALA_DZ1_4Z_3S,
+         OK_WALA_DZ2_4Z_3S,
+         OK_WALA_DZ3_4Z_3S 		 
+         ]=
+      <
+	 //Zawias 1
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+	 //Zawias 2                                                                                                       
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=2 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >			 
+      >
+
+    GRUPA[
+         OK_WALA_DZ1_3Z_3S,
+         OK_WALA_DZ2_3Z_3S,
+         OK_WALA_DZ3_3Z_3S,
+         OK_WALA_DZ1_4Z_3S,
+         OK_WALA_DZ2_4Z_3S,
+         OK_WALA_DZ3_4Z_3S 		 
+         ]=
+      <
+	 //Zawias 3
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >		 
+   		 
+      >
+    GRUPA[
+         OK_WALA_DZ1_4Z_3S,
+         OK_WALA_DZ2_4Z_3S,
+         OK_WALA_DZ3_4Z_3S 
+         ]=
+      <
+	 //Zawias 4
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >				 
+   		 
+      >	  
+    //Otw.wewn 2 skrzydelka
+    //****************************************************************
+    GRUPA[
+         OK_WALA_DW1_2Z_2S,
+         OK_WALA_DW2_2Z_2S,
+         OK_WALA_DW3_2Z_2S,
+         OK_WALA_DW1_3Z_2S,
+         OK_WALA_DW2_3Z_2S,
+         OK_WALA_DW3_3Z_2S,
+         OK_WALA_DW1_4Z_2S,
+         OK_WALA_DW2_4Z_2S,
+         OK_WALA_DW3_4Z_2S		 
+         ]=
+      <
+	 //Zawias 1
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+	 //Zawias 2                                                                                                         
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=2 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >		 
+      >
+    GRUPA[
+         OK_WALA_DW1_3Z_2S,
+         OK_WALA_DW2_3Z_2S,
+         OK_WALA_DW3_3Z_2S,
+         OK_WALA_DW1_4Z_2S,
+         OK_WALA_DW2_4Z_2S,
+         OK_WALA_DW3_4Z_2S			 
+         ]=
+      <                                                                                                   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >		 
+      >
+    GRUPA[
+         OK_WALA_DW1_4Z_2S,
+         OK_WALA_DW2_4Z_2S,
+         OK_WALA_DW3_4Z_2S
+         ]=
+      <
+	 //Zawias 4
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020456X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >			 
+      >
+
+
+    //Otw.wewn 3 skrzydelka
+    //****************************************************************
+    GRUPA[
+         OK_WALA_DW1_2Z_3S,
+         OK_WALA_DW2_2Z_3S,
+         OK_WALA_DW3_2Z_3S,
+         OK_WALA_DW1_3Z_3S,
+         OK_WALA_DW2_3Z_3S,
+         OK_WALA_DW3_3Z_3S,
+         OK_WALA_DW1_4Z_3S,
+         OK_WALA_DW2_4Z_3S,
+         OK_WALA_DW3_4Z_3S 		 
+         ]=
+      <
+	 //Zawias 1
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+	 //Zawias 2                                                                                                       
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=2 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >			 
+      >
+    GRUPA[
+         OK_WALA_DW1_3Z_3S,
+         OK_WALA_DW2_3Z_3S,
+         OK_WALA_DW3_3Z_3S,
+         OK_WALA_DW3_3Z_3S,
+         OK_WALA_DW1_4Z_3S,
+         OK_WALA_DW2_4Z_3S,
+         OK_WALA_DW3_4Z_3S 		 
+         ]=
+      <
+	 //Zawias 3
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >				 
+      >
+    GRUPA[
+         OK_WALA_DW1_4Z_3S,
+         OK_WALA_DW2_4Z_3S,
+         OK_WALA_DW3_4Z_3S 
+         ]=
+      <
+	 //Zawias 4
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_MX8020457X  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_WX_50SD5100 ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >				 
+      >
+
+//Rysunki "1" i "2" dla drzwi dwuskrz.
+//******************************  
+GRUPA[
+                    OK_WALA_DW2_2Z_2S    ,
+                    OK_WALA_DW3_2Z_2S    ,
+                    OK_WALA_DZ2_2Z_2S    ,
+                    OK_WALA_DZ3_2Z_2S    ,
+
+                    OK_WALA_DW2_3Z_2S    ,
+                    OK_WALA_DW3_3Z_2S    ,
+                    OK_WALA_DZ2_3Z_2S    ,
+                    OK_WALA_DZ3_3Z_2S    ,
+					
+					OK_WALA_DW2_4Z_2S    ,
+					OK_WALA_DW3_4Z_2S    ,
+					OK_WALA_DZ2_4Z_2S    ,
+					OK_WALA_DZ3_4Z_2S    ,
+
+                    OK_WALA_DW2_2Z_3S    ,
+                    OK_WALA_DW3_2Z_3S    ,
+                    OK_WALA_DZ2_2Z_3S    ,
+                    OK_WALA_DZ3_2Z_3S    ,
+                                   
+                    OK_WALA_DW2_3Z_3S    ,
+                    OK_WALA_DW3_3Z_3S    ,
+                    OK_WALA_DZ2_3Z_3S    ,
+                    OK_WALA_DZ3_3Z_3S    ,
+					              
+					OK_WALA_DW2_4Z_3S    ,
+					OK_WALA_DW3_4Z_3S    ,
+					OK_WALA_DZ2_4Z_3S    ,
+					OK_WALA_DZ3_4Z_3S    						
+     ]=
+  <
+    ELEMENT[N]=< 
+             KOD=0 
+			 GDY_OKUCIE=[OKUCIE_D_ZEWN2,OKUCIE_D_WEWN2] 
+             RYSUNEK_FUNKCJI='Jedynka.BMP'
+             ROZMIAR_X=18*3
+             ROZMIAR_Y=32*3
+             POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO
+             POLOZENIE_RYSUNKU_FUNKCJI_DY=20
+             POLOZENIE_RYSUNKU_FUNKCJI_DX=10
+             POLOZENIE_RYSUNKU=PUNKT_PRAWY
+             LUSTRZANE_ODBICIE_RYSUNKU=NIE   
+             >
+  ELEMENT[N]=< 
+             KOD=0 
+			 GDY_OKUCIE=[OKUCIE_D_ZEWN2BK,OKUCIE_D_WEWN2BK] 
+             RYSUNEK_FUNKCJI='Dwojka.BMP'
+             ROZMIAR_X=26*3
+             ROZMIAR_Y=34*3
+             POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO
+             POLOZENIE_RYSUNKU_FUNKCJI_DY=20
+             POLOZENIE_RYSUNKU_FUNKCJI_DX=10
+             POLOZENIE_RYSUNKU=PUNKT_PRAWY
+             LUSTRZANE_ODBICIE_RYSUNKU=NIE   
+             >
+  > 
+   //Blokady
+   //**********************************************************************
+
+    GRUPA[
+         OK_WALA_DZ3_2Z_2S,
+         OK_WALA_DZ3_3Z_2S,
+         OK_WALA_DZ3_2Z_3S,
+         OK_WALA_DZ3_3Z_3S,
+         OK_WALA_DW3_2Z_2S,
+         OK_WALA_DW3_3Z_2S,
+         OK_WALA_DW3_2Z_3S,
+         OK_WALA_DW3_3Z_3S,		 
+         OK_WALA_DZ3_4Z_2S,
+         OK_WALA_DZ3_4Z_3S,
+         OK_WALA_DW3_4Z_2S,
+         OK_WALA_DW3_4Z_3S		 
+         ]=
+      <
+         ELEMENT[ N ]= < KOD=E_3722A ILOSC=2 >
+         ELEMENT[ N ]= < KOD=E_3733  ILOSC=1 >
+         ELEMENT[ N ]= < KOD=E_3735A ILOSC=1 >
+       >

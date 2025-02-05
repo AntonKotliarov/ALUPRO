@@ -1,0 +1,476 @@
+//    #ifdef TALSOFT  
+//  GRUPA[DE_ZAMOK_3TZ]=
+//    <
+//    NAZWA='Замок многозапорный KFV с 2-мя гор. доп. риг.'
+//    OPIS='Замок многозапорный KFV с 2-мя гор. доп. риг.'
+//    RODZAJ=OKUCIE_KLAMKA
+//    DODATEK=TAK
+//    CZY_POCHWYT=NIE
+//    RODZAJE_DLA_KLAMKI=[
+//                        OKUCIE_D_WEWN,
+//                        OKUCIE_D_WEWN2,
+//                        OKUCIE_D_ZEWN,
+//                        OKUCIE_D_ZEWN2
+//                        ]
+//
+//    GDY_KONSTRUKCJA=
+//      [
+//     TS_C60_RamaDZ,
+//     TS_C60_RamaDW,
+//     TS_SYSTEM_C60,	 
+//     TS_C67_RamaDZ,
+//     TS_C67_RamaDW,	 
+//     TS_SYSTEM_C67,		 
+//     TS_FASADA_TALISMAN_T48,
+//     TS_FASADA_TALISMAN_T50,
+//     TS_FASADA_TALISMAN_T50SD,
+//     TS_FASADA_TALISMAN_TBM60F,
+//     TS_FASADA_TALISMAN_TF50K	 
+//      ]
+//    //Zamki
+//      ELEMENT[N]=< KOD=E_KFV0362   ILOSC=1 >
+//      ELEMENT[N]=< KOD=E_KFV0369   ILOSC=2 >
+//      ELEMENT[N]=< KOD=E_KFV0370   ILOSC=1 >//  RYSUNEK_FUNKCJI='zamok_3tocka.VCT' POLOZENIE_RYSUNKU=PUNKT_PRAWY POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO POLOZENIE_RYSUNKU_FUNKCJI_DY=3 POLOZENIE_RYSUNKU_FUNKCJI_DX=30 LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+//      ELEMENT[ N ]=<KOD=E_5056_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C60]>//цилиндр
+//      ELEMENT[ N ]=<KOD=E_5057_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C67]>//цилиндр  
+//      ELEMENT[ N ]=<KOD=E_1031_02         ILOSC=1 > //накладка на цилиндр
+//	  >
+//    #endif
+  GRUPA[DE_ZAMOK_3TZ_BRAK]=
+    <
+    NAZWA='Замок многозапорный комплект'
+    OPIS='Замок многозапорный (с отв. планками+цилиндр+накладки)'
+    RODZAJ=OKUCIE_KLAMKA
+    DODATEK=TAK
+    CZY_POCHWYT=NIE
+    RODZAJE_DLA_KLAMKI=[
+                        OKUCIE_D_WEWN,
+                        OKUCIE_D_WEWN2,
+                        OKUCIE_D_ZEWN,
+                        OKUCIE_D_ZEWN2
+                        ]
+    GDY_KONSTRUKCJA=
+      [
+     TS_C60_RamaDZ,
+     TS_C60_RamaDW,
+     TS_SYSTEM_C60,	
+     TS_C67_RamaDZ,
+     TS_C67_RamaDW,	 
+     TS_SYSTEM_C67,	
+     TS_TC65_RamaDZ,
+     TS_TC65_RamaDW,
+     TS_TC75_RamaDZ,
+     TS_TC75_RamaDW,
+     TS_TC95_RamaDZ,
+     TS_TC95_RamaDW,	 
+     TS_SYSTEM_TC57P,
+     TS_SYSTEM_TC75,	
+     TS_SYSTEM_TC95,		 
+     TS_FASADA_TALISMAN_T48,
+	 TS_FASADA_TALISMAN_TB248,
+     TS_FASADA_TALISMAN_T50,
+     TS_FASADA_TALISMAN_T50SD,
+     TS_FASADA_TALISMAN_TBM60F,
+     TS_FASADA_TALISMAN_TF50K	 
+      ]
+    //Zamki
+      ELEMENT[N]=< KOD=E_ZAMOK_3TZ_BRAK ILOSC=1>
+	  >
+
+GRUPA[ZM_drzwi_ofice_3030]=
+  <
+  NAZWA='Замок с роликом Stublina (3031.00)'
+  OPIS= 'Замок с роликом Stublina'
+  SYSTEMY=[DEF_SYS_C60,DEF_SYS_C67] 
+
+  WYMIAR_OKUCIA='Klamka'
+  RODZAJ=OKUCIE_KLAMKA
+  DODATEK=TAK
+  CZY_POCHWYT=NIE  
+  RODZAJE_DLA_KLAMKI=[OKUCIE_D_WEWN,OKUCIE_D_WEWN2,OKUCIE_D_ZEWN,OKUCIE_D_ZEWN2,OKUCIE_D_ZEWN2bk,OKUCIE_D_WEWN2bk]
+
+  ELEMENT[ N ]=<KOD=E_5056_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C60]>//цилиндр
+  ELEMENT[ N ]=<KOD=E_5057_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C67]>//цилиндр  
+  ELEMENT[ N ]=<KOD=E_3031_00         ILOSC=1 >                          //замок
+  ELEMENT[ N ]=<KOD=E_3016_00_Ni      ILOSC=1 >                          //планка   
+  ELEMENT[ N ]=<KOD=E_1031_02         ILOSC=1                            //накладка на цилиндр
+
+  RYSUNEK_FUNKCJI='ZAMOK.vct'
+  ROZMIAR_X=30 ROZMIAR_Y=76  
+  POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+  POLOZENIE_RYSUNKU_FUNKCJI_DY=3 
+  POLOZENIE_RYSUNKU_FUNKCJI_DX=61
+  POLOZENIE_RYSUNKU=PUNKT_PRAWY
+  LUSTRZANE_ODBICIE_RYSUNKU=TAK
+  >	
+ >  
+	
+GRUPA[ZM_drzwi_3020]=
+  <
+  NAZWA='Замок с защелкой Stublina (3021)'
+  OPIS= 'Замок с защелкой Stublina'
+  SYSTEMY=[DEF_SYS_C60,DEF_SYS_C67] 
+  
+  WYMIAR_OKUCIA='Klamka'
+  RODZAJ=OKUCIE_KLAMKA
+  DODATEK=TAK
+  CZY_POCHWYT=NIE   
+  RODZAJE_DLA_KLAMKI=[OKUCIE_D_WEWN,OKUCIE_D_WEWN2,OKUCIE_D_ZEWN,OKUCIE_D_ZEWN2]
+
+  ELEMENT[ N ]=<KOD=E_5056_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C60]>//цилиндр
+  ELEMENT[ N ]=<KOD=E_5057_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C67]>//цилиндр  
+  ELEMENT[ N ]=<KOD=E_3021_00         ILOSC=1 > 
+  ELEMENT[ N ]=<KOD=E_3016_00_Ni      ILOSC=1 >  
+  ELEMENT[ N ]=<KOD=E_1031_02         ILOSC=1 
+
+  RYSUNEK_FUNKCJI='ZAMOK.vct'
+  ROZMIAR_X=30 ROZMIAR_Y=76  
+  POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+  POLOZENIE_RYSUNKU_FUNKCJI_DY=3 
+  POLOZENIE_RYSUNKU_FUNKCJI_DX=55
+  POLOZENIE_RYSUNKU=PUNKT_PRAWY
+  LUSTRZANE_ODBICIE_RYSUNKU=TAK
+  > 	
+ > 	 
+ 
+GRUPA[ZM_drzwi_3021]=
+  <
+  NAZWA='Замок с защелкой Stublina (3021)'
+  OPIS= 'Замок с защелкой Stublina'
+  SYSTEMY=[DEF_SYS_D40,DEF_SYS_TPB36] 
+
+  WYMIAR_OKUCIA='Klamka'  
+  RODZAJ=OKUCIE_KLAMKA
+  DODATEK=TAK
+  CZY_POCHWYT=NIE    
+  RODZAJE_DLA_KLAMKI=[OKUCIE_D_WEWN,OKUCIE_D_WEWN2,OKUCIE_D_ZEWN,OKUCIE_D_ZEWN2]
+
+  ELEMENT[ N ]=<KOD=E_1012_00      ILOSC=1 > 
+  ELEMENT[ N ]=<KOD=E_5053_00_520  ILOSC=1 >
+  ELEMENT[ N ]=<KOD=E_3016_00_Ni   ILOSC=1 >  
+  ELEMENT[ N ]=<KOD=E_3021_00      ILOSC=1 
+  
+  RYSUNEK_FUNKCJI='ZAMOK.vct'
+  ROZMIAR_X=30 ROZMIAR_Y=76  
+  POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+  POLOZENIE_RYSUNKU_FUNKCJI_DY=3 
+  POLOZENIE_RYSUNKU_FUNKCJI_DX=60
+  POLOZENIE_RYSUNKU=PUNKT_PRAWY
+  LUSTRZANE_ODBICIE_RYSUNKU=TAK  
+  >
+ > 
+ 
+GRUPA[ZM_drzwi_3021_BAR]=
+  <
+  NAZWA='Замок с защелкой Stublina (3021) (цилиндр с барашком)'
+  OPIS= 'Замок с защелкой Stublina'
+  SYSTEMY=[DEF_SYS_D40,DEF_SYS_TPB36] 
+
+  WYMIAR_OKUCIA='Klamka'  
+  RODZAJ=OKUCIE_KLAMKA
+  DODATEK=TAK
+  CZY_POCHWYT=NIE    
+  RODZAJE_DLA_KLAMKI=[OKUCIE_D_WEWN,OKUCIE_D_WEWN2,OKUCIE_D_ZEWN,OKUCIE_D_ZEWN2]
+
+  ELEMENT[ N ]=<KOD=E_1012_00      ILOSC=1 > 
+  ELEMENT[ N ]=<KOD=E_5100_00_520  ILOSC=1 GDY_SKRZYDLO=[TP_SkrzydloDrzwiowe_DZ1, TP_SkrzydloDrzwiowe_DZ2] POZYCJA_ELEMENTU=STRONA_PRAWA>
+  ELEMENT[ N ]=<KOD=E_5108_00_520  ILOSC=1 GDY_SKRZYDLO=[TP_SkrzydloDrzwiowe_DW1, TP_SkrzydloDrzwiowe_DW2] POZYCJA_ELEMENTU=STRONA_PRAWA>  
+  ELEMENT[ N ]=<KOD=E_3016_00_Ni   ILOSC=1 >  
+  ELEMENT[ N ]=<KOD=E_3021_00      ILOSC=1 
+  
+  RYSUNEK_FUNKCJI='ZAMOK.vct'
+  ROZMIAR_X=30 ROZMIAR_Y=76  
+  POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+  POLOZENIE_RYSUNKU_FUNKCJI_DY=3 
+  POLOZENIE_RYSUNKU_FUNKCJI_DX=60
+  POLOZENIE_RYSUNKU=PUNKT_PRAWY
+  LUSTRZANE_ODBICIE_RYSUNKU=TAK  
+  >
+ >  
+ 
+GRUPA[ZM_drzwi_ofice_3031]=
+  <
+  NAZWA='Замок с роликом Stublina (3031.00)'
+  OPIS= 'Замок с роликом Stublina'
+  SYSTEMY=[DEF_SYS_D40,DEF_SYS_TPB36] 
+
+  WYMIAR_OKUCIA='Klamka'    
+  RODZAJ=OKUCIE_KLAMKA
+  DODATEK=TAK
+  CZY_POCHWYT=NIE    
+  RODZAJE_DLA_KLAMKI=[OKUCIE_D_WEWN,OKUCIE_D_WEWN2,OKUCIE_D_ZEWN,OKUCIE_D_ZEWN2,OKUCIE_D_ZEWN2bk,OKUCIE_D_WEWN2bk]
+
+  ELEMENT[ N ]=<KOD=E_1012_00             ILOSC=1 >  
+  ELEMENT[ N ]=<KOD=E_3031_00             ILOSC=1 >
+  ELEMENT[ N ]=<KOD=E_5053_00_520         ILOSC=1 >
+  ELEMENT[ N ]=<KOD=E_3016_00_Ni          ILOSC=1   
+  
+  RYSUNEK_FUNKCJI='ZAMOK.vct'
+  ROZMIAR_X=30 ROZMIAR_Y=76  
+  POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+  POLOZENIE_RYSUNKU_FUNKCJI_DY=4 
+  POLOZENIE_RYSUNKU_FUNKCJI_DX=60
+  POLOZENIE_RYSUNKU=PUNKT_PRAWY
+  LUSTRZANE_ODBICIE_RYSUNKU=TAK  
+  >
+ >   
+ 
+//GRUPA[DE_ZAMOK_3TZ_STUBLINA_3045_30_10P]=
+//    <
+//    NAZWA='Замок многозапорный 3045.30.10/P (под нажимную ручки)'
+//    OPIS= 'Замок многозапорный (с отв. планками)'
+//    RODZAJ=OKUCIE_KLAMKA
+//    DODATEK=TAK
+//    CZY_POCHWYT=NIE
+//    RODZAJE_DLA_KLAMKI=[
+//                        OKUCIE_D_WEWN,
+//                        OKUCIE_D_WEWN2,
+//                        OKUCIE_D_ZEWN,
+//                        OKUCIE_D_ZEWN2
+//                        ]
+//						
+//	OSTRZEZENIE_WARUNEK='H<2000'
+//	OSTRZEZENIE_TEKST='Размер многозапорного замка 1650мм'	
+//
+//  	    PYTANIA=
+//          <
+//          PYTANIE=
+//            <
+//            NR=TYP_CILINDRA
+//            NAZWA='Тип цилиндра:'
+//            OPIS= 'Тип цилиндра'
+//
+//            ODPOWIEDZ=< NR=TYP_CILINDRA_OBICHN       NAZWA='Цилиндр на два ключа'            OPIS='' RYSUNEK     = 'cilindr_stublina.bmp'  PRIORYTET=1 >
+//            ODPOWIEDZ=< NR=TYP_CILINDRA_VOROTOK      NAZWA='Цилиндр с воротком'              OPIS='' RYSUNEK     = '5100_00_520.jpg'       PRIORYTET=0 >			
+//            >	
+//	      > 	
+//						
+//    GDY_KONSTRUKCJA=
+//      [
+//        TS_C60_RamaDZ,
+//        TS_C60_RamaDW,
+//        TS_SYSTEM_C60,	 
+//        TS_C67_RamaDZ,
+//        TS_C67_RamaDW,	 
+//        TS_SYSTEM_C67,	
+//        TS_FASADA_TALISMAN_T48,
+//        TS_FASADA_TALISMAN_T50,
+//        TS_FASADA_TALISMAN_T50SD,
+//        TS_FASADA_TALISMAN_TBM60F,
+//		TS_FASADA_TALISMAN_TB248,
+//        TS_FASADA_TALISMAN_TF50K	 
+//      ]
+//	  
+//      ELEMENT[ N ]=<KOD=E_5056_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C60]   POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518            DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_OBICHN> >> //цилиндр
+//      ELEMENT[ N ]=<KOD=E_5057_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C67]   POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518            DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_OBICHN> >> //цилиндр  
+//      ELEMENT[ N ]=<KOD=E_5104_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C60]   POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518            DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_VOROTOK> >> //цилиндр
+//      ELEMENT[ N ]=<KOD=E_5105_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C67]   POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518            DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_VOROTOK> >> //цилиндр    
+//      ELEMENT[ N ]=<KOD=E_1012_00         ILOSC=1                              POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518 PRZEKROJ_ILE_RYSUNKOW=2>  
+//	  
+//    //Zamki
+//      ELEMENT[N]=< KOD=E_3045_50     ILOSC=1 POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518 >
+//      ELEMENT[N]=< KOD=E_3045_30_10P ILOSC=1 POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518 
+//  
+//      RYSUNEK_FUNKCJI='ZAMOK_3045_30_10P.vct'
+//      ROZMIAR_X=75 ROZMIAR_Y=1650  
+//      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+//      POLOZENIE_RYSUNKU_FUNKCJI_DY=0 
+//      POLOZENIE_RYSUNKU_FUNKCJI_DX=50
+//      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+//      LUSTRZANE_ODBICIE_RYSUNKU=TAK  
+//	  >	  
+//	>  
+//	  
+//GRUPA[DE_ZAMOK_3TZ_STUBLINA_3046_30_10P]=
+//    <
+//    NAZWA='Замок многозапорный 3046.30.10/P (под офисную ручки)'
+//    OPIS='Замок многозапорный (с отв. планками)'
+//    RODZAJ=OKUCIE_KLAMKA
+//    DODATEK=TAK
+//    CZY_POCHWYT=NIE
+//    RODZAJE_DLA_KLAMKI=[
+//                        OKUCIE_D_WEWN,
+//                        OKUCIE_D_WEWN2,
+//                        OKUCIE_D_ZEWN,
+//                        OKUCIE_D_ZEWN2
+//                        ]
+//						
+//	OSTRZEZENIE_WARUNEK='H<2000'
+//	OSTRZEZENIE_TEKST='Размер многозапорного замка 1650мм'	
+//
+//  	    PYTANIA=
+//          <
+//          PYTANIE=
+//            <
+//            NR=TYP_CILINDRA
+//            NAZWA='Тип цилиндра:'
+//            OPIS= 'Тип цилиндра'
+//
+//            ODPOWIEDZ=< NR=TYP_CILINDRA_OBICHN       NAZWA='Цилиндр на два ключа'            OPIS='' RYSUNEK     = 'cilindr_stublina.bmp'  PRIORYTET=1 >
+//            ODPOWIEDZ=< NR=TYP_CILINDRA_VOROTOK      NAZWA='Цилиндр с воротком'              OPIS='' RYSUNEK     = '5100_00_520.jpg'       PRIORYTET=0 >			
+//            >	
+//	      > 	
+//								
+//    GDY_KONSTRUKCJA=
+//      [
+//     TS_C60_RamaDZ,
+//     TS_C60_RamaDW,
+//     TS_SYSTEM_C60,	 
+//     TS_C67_RamaDZ,
+//     TS_C67_RamaDW,	 
+//     TS_SYSTEM_C67,	
+//     TS_FASADA_TALISMAN_T48,
+//     TS_FASADA_TALISMAN_T50,
+//     TS_FASADA_TALISMAN_T50SD,
+//     TS_FASADA_TALISMAN_TBM60F,
+//	 TS_FASADA_TALISMAN_TB248,
+//     TS_FASADA_TALISMAN_TF50K	 
+//      ]
+//	  
+//      ELEMENT[ N ]=<KOD=E_5056_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C60]     POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518          DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_OBICHN>  >>  //цилиндр
+//      ELEMENT[ N ]=<KOD=E_5057_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C67]     POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518          DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_OBICHN>  >>  //цилиндр  
+//      ELEMENT[ N ]=<KOD=E_5104_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C60]     POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518          DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_VOROTOK> >> //цилиндр
+//      ELEMENT[ N ]=<KOD=E_5105_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_C67]     POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518          DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_VOROTOK> >> //цилиндр  
+//      ELEMENT[ N ]=<KOD=E_1012_00         ILOSC=1                                POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518 PRZEKROJ_ILE_RYSUNKOW=2>//накладка на цилиндр	  
+//	  
+//    //Zamki
+//      ELEMENT[N]=< KOD=E_3045_50     ILOSC=1 POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518 >
+//      ELEMENT[N]=< KOD=E_3046_30_10P ILOSC=1 POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518 
+//  
+//      RYSUNEK_FUNKCJI='ZAMOK_3045_30_10P.vct'
+//      ROZMIAR_X=75 ROZMIAR_Y=1650  
+//      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+//      POLOZENIE_RYSUNKU_FUNKCJI_DY=0 
+//      POLOZENIE_RYSUNKU_FUNKCJI_DX=50
+//      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+//      LUSTRZANE_ODBICIE_RYSUNKU=TAK   
+//  >  
+// >  
+ 
+ 
+ 
+GRUPA[DE_ZAMOK_3TZ_STUBLINA_3045_30_10P_TS65]=
+    <
+    NAZWA='Замок многозапорный 3045.30.10/P (под нажимную ручки)'
+    OPIS= 'Замок многозапорный (с отв. планками)'
+    RODZAJ=OKUCIE_KLAMKA
+    DODATEK=TAK
+    CZY_POCHWYT=NIE
+    RODZAJE_DLA_KLAMKI=[
+                        OKUCIE_D_WEWN,
+                        OKUCIE_D_WEWN2,
+                        OKUCIE_D_ZEWN,
+                        OKUCIE_D_ZEWN2
+                        ]
+						
+	OSTRZEZENIE_WARUNEK='H<2000'
+	OSTRZEZENIE_TEKST='Размер многозапорного замка 1650мм'	
+
+  	    PYTANIA=
+          <
+          PYTANIE=
+            <
+            NR=TYP_CILINDRA
+            NAZWA='Тип цилиндра:'
+            OPIS= 'Тип цилиндра'
+
+            ODPOWIEDZ=< NR=TYP_CILINDRA_OBICHN       NAZWA='Цилиндр на два ключа'            OPIS='' RYSUNEK     = 'cilindr_stublina.bmp'  PRIORYTET=1 >
+            ODPOWIEDZ=< NR=TYP_CILINDRA_VOROTOK      NAZWA='Цилиндр с воротком'              OPIS='' RYSUNEK     = '5100_00_520.jpg'       PRIORYTET=0 >			
+            >	
+	      > 	
+						
+    GDY_KONSTRUKCJA=
+      [
+     TS_TC65_RamaDZ,
+     TS_TC65_RamaDW,
+     TS_SYSTEM_TC57P,	 
+     TS_FASADA_TALISMAN_T48,
+     TS_FASADA_TALISMAN_T50,
+     TS_FASADA_TALISMAN_T50SD,
+     TS_FASADA_TALISMAN_TBM60F,
+	 TS_FASADA_TALISMAN_TB248,
+     TS_FASADA_TALISMAN_TF50K	 
+      ]
+	  
+    KIEDY_WLASCIWOSC='SZKRZYDLO_BIG'
+	
+      ELEMENT[ N ]=<KOD=E_5056_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_TC57P] DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_OBICHN> >> //цилиндр
+      ELEMENT[ N ]=<KOD=E_5104_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_TC57P] DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_VOROTOK> >> //цилиндр
+      ELEMENT[ N ]=<KOD=E_1012_00         ILOSC=1 >	
+	  
+    //Zamki
+      ELEMENT[N]=< KOD=E_3045_50     ILOSC=1 POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518     KIEDY_WLASCIWOSC='SZKRZYDLO_BIG'>
+      ELEMENT[N]=< KOD=E_3045_30_10P ILOSC=1 POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518     KIEDY_WLASCIWOSC='SZKRZYDLO_BIG'
+  
+      RYSUNEK_FUNKCJI='ZAMOK_3045_30_10P.vct'
+      ROZMIAR_X=75 ROZMIAR_Y=1650  
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      POLOZENIE_RYSUNKU_FUNKCJI_DY=0 
+      POLOZENIE_RYSUNKU_FUNKCJI_DX=50
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK  
+	  >	  
+	>  
+	  
+GRUPA[DE_ZAMOK_3TZ_STUBLINA_3046_30_10P_TS65]=
+    <
+    NAZWA='Замок многозапорный 3046.30.10/P (под офисную ручки)'
+    OPIS='Замок многозапорный (с отв. планками)'
+    RODZAJ=OKUCIE_KLAMKA
+    DODATEK=TAK
+    CZY_POCHWYT=NIE
+    RODZAJE_DLA_KLAMKI=[
+                        OKUCIE_D_WEWN,
+                        OKUCIE_D_WEWN2,
+                        OKUCIE_D_ZEWN,
+                        OKUCIE_D_ZEWN2
+                        ]
+						
+	OSTRZEZENIE_WARUNEK='H<2000'
+	OSTRZEZENIE_TEKST='Размер многозапорного замка 1650мм'	
+
+  	    PYTANIA=
+          <
+          PYTANIE=
+            <
+            NR=TYP_CILINDRA
+            NAZWA='Тип цилиндра:'
+            OPIS= 'Тип цилиндра'
+
+            ODPOWIEDZ=< NR=TYP_CILINDRA_OBICHN       NAZWA='Цилиндр на два ключа'            OPIS='' RYSUNEK     = 'cilindr_stublina.bmp'  PRIORYTET=1 >
+            ODPOWIEDZ=< NR=TYP_CILINDRA_VOROTOK      NAZWA='Цилиндр с воротком'              OPIS='' RYSUNEK     = '5100_00_520.jpg'       PRIORYTET=0 >			
+            >	
+	      > 	
+								
+    GDY_KONSTRUKCJA=
+      [
+     TS_TC65_RamaDZ,
+     TS_TC65_RamaDW,
+     TS_SYSTEM_TC57P,	 
+     TS_FASADA_TALISMAN_T48,
+     TS_FASADA_TALISMAN_T50,
+     TS_FASADA_TALISMAN_T50SD,
+     TS_FASADA_TALISMAN_TBM60F,
+	 TS_FASADA_TALISMAN_TB248,
+     TS_FASADA_TALISMAN_TF50K	 
+      ]
+	  
+    KIEDY_WLASCIWOSC='SZKRZYDLO_BIG'	 
+
+
+      ELEMENT[ N ]=<KOD=E_5056_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_TC57P] DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_OBICHN>  >>  //цилиндр
+      ELEMENT[ N ]=<KOD=E_5104_00_520     ILOSC=1 KIEDY_SYSTEM=[DEF_SYS_TC57P] DLA_PYTAN=< WARUNEK=<PYT=TYP_CILINDRA ODP=TYP_CILINDRA_VOROTOK> >> //цилиндр
+      ELEMENT[ N ]=<KOD=E_1012_00         ILOSC=1 >//накладка на цилиндр	
+      //Zamki
+      ELEMENT[N]=< KOD=E_3045_50     ILOSC=1 POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518     KIEDY_WLASCIWOSC='SZKRZYDLO_BIG'>
+      ELEMENT[N]=< KOD=E_3046_30_10P ILOSC=1 POZYCJA_ELEMENTU=STRONA_PRAWA PRZEKROJ_NR=518     KIEDY_WLASCIWOSC='SZKRZYDLO_BIG' 
+  
+      RYSUNEK_FUNKCJI='ZAMOK_3045_30_10P.vct'
+      ROZMIAR_X=75 ROZMIAR_Y=1650  
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      POLOZENIE_RYSUNKU_FUNKCJI_DY=0 
+      POLOZENIE_RYSUNKU_FUNKCJI_DX=50
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK   
+  >  
+ >   

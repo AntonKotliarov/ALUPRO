@@ -1,0 +1,20 @@
+//***********************************************************************
+//Рама в фасад
+//***********************************************************************
+SKRZYDLO[ WNG_PROEM_WIN_NVF]=
+  <
+       NAZWA=       'Проєм під вікно'
+       OPIS =       'Проєм під вікно. Система НВФ'
+       KATEGORIA=   'Проєм під вікно'
+       ZASTOSOWANIE=[TS_Proem]
+       SYSTEMY=	    [DEF_SYS_NVF_HPL_PANEL]
+       RYSUNEK=     '.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_NVF_HPL_PROEM_NVF]
+       STANDARD[POL_PRAWO] =  [PRF_NVF_HPL_PROEM_NVF]
+       STANDARD[POL_GORA]  =  [PRF_NVF_HPL_PROEM_NVF]
+       STANDARD[POL_DOL]   =  [PRF_NVF_HPL_PROEM_NVF]
+       STANDARD[POL_INNE]  =  [PRF_NVF_HPL_PROEM_NVF]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_NVF_HPL_PANEL]
+       WARIANT=WAR_NVF_HPL_PANEL
+  >      

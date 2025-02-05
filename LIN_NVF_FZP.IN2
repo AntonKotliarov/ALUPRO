@@ -1,0 +1,193 @@
+////***********************//***********************//********************************
+//T90
+////***********************//***********************//********************************
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_FZP_Horizontal_PAS_3687	
+            ]
+    PROFIL2=[
+            PRF_NVF_FZP_Vertical_PAS_3609		
+      ]
+    ZACHODZENIE_A=36
+    ZACHODZENIE_B=36
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_5_10_DIN7337 ILE=2 > 
+	  
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3687_01       ILE=1 > 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3687_02       ILE=1 >   
+      AKCESORIA_SZTUKI=< KOD=E_ALP_FZP_ANCHER            ILE=2 > 
+
+      AKCESORIA_SZTUKI=< KOD=E_M5x16_DIN933              ILE=1 >   
+      AKCESORIA_SZTUKI=< KOD=E_Sam4_2x19_DIN7981         ILE=1 >   
+      >	  
+  >  
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_FZP_Horizontal_PAS_3687	
+            ]
+    PROFIL2=[
+            PRF_NVF_FZP_Vertical_PAS_3683		
+      ]
+    ZACHODZENIE_A=40
+    ZACHODZENIE_B=40
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_5_10_DIN7337 ILE=2 > 
+	  
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3687_01       ILE=1 > 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3687_02       ILE=1 >   
+      AKCESORIA_SZTUKI=< KOD=E_ALP_FZP_ANCHER            ILE=2 > 
+
+      AKCESORIA_SZTUKI=< KOD=E_M5x16_DIN933              ILE=1 >   
+      AKCESORIA_SZTUKI=< KOD=E_Sam4_2x19_DIN7981         ILE=1 >   
+      >	  
+  >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_FZP_Horizontal_PAS_3687_WALL	
+            ]
+    PROFIL2=[
+            PRF_NVF_FZP_Vertical_PAS_3609,
+            PRF_NVF_FZP_Vertical_PAS_3683,
+            PRF_NVF_FZP_Vertical_YP90 ,
+			PRF_NVF_FZP_Vertical_YM90				
+      ]
+    ZACHODZENIE_A=36
+    ZACHODZENIE_B=36
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_5_10_DIN7337 ILE=2 > 
+	  
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3687_01       ILE=1 GDY_PARAMETR='PROFIL_U_DOLU=0'> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3687_02       ILE=1 GDY_PARAMETR='PROFIL_U_DOLU=1'>   
+      AKCESORIA_SZTUKI=< KOD=E_ALP_FZP_ANCHER            ILE=1 GDY_PARAMETR='PROFIL_U_DOLU=0'> 
+      AKCESORIA_SZTUKI=< KOD=E_ALP_FZP_ANCHER            ILE=1 GDY_PARAMETR='PROFIL_U_DOLU=1'> 	  
+
+      AKCESORIA_SZTUKI=< KOD=E_M5x16_DIN933              ILE=1 GDY_PARAMETR='PROFIL_U_DOLU=0'>   
+      AKCESORIA_SZTUKI=< KOD=E_Sam4_2x19_DIN7981         ILE=1 GDY_PARAMETR='PROFIL_U_DOLU=0'>   
+      >	  
+  >    
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_FZP_Horizontal_PAS_3687	
+            ]
+    PROFIL2=[
+            PRF_NVF_FZP_Vertical_YP90 ,
+			PRF_NVF_FZP_Vertical_YM90
+      ]
+    ZACHODZENIE_A=36
+    ZACHODZENIE_B=36
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_5_10_DIN7337 ILE=2 > 
+	  
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3687_01       ILE=1 > 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3687_02       ILE=1 >   
+      AKCESORIA_SZTUKI=< KOD=E_ALP_FZP_ANCHER            ILE=2 > 
+
+      AKCESORIA_SZTUKI=< KOD=E_M5x16_DIN933              ILE=1 >   
+      AKCESORIA_SZTUKI=< KOD=E_Sam4_2x19_DIN7981         ILE=1 >   	  
+      > 
+  >   
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_FZP_Horizontal_PAS_3687	
+            ]
+    PROFIL2=[
+            PRF_NVF_FZP_Vertical_Keram_Wall			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      >
+  >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_FZP_Horizontal_Keram_Wall	
+            ]
+    PROFIL2=[
+            PRF_NVF_FZP_Vertical_PAS_3609,
+            PRF_NVF_FZP_Vertical_PAS_3683			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <	    
+	  >    	  
+  >  
+
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_FZP_Horizontal_Keram_Wall	
+            ]
+    PROFIL2=[
+            PRF_NVF_FZP_Vertical_YP90 ,
+			PRF_NVF_FZP_Vertical_YM90	
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      < 	  
+      >  
+  >      
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_FZP_Horizontal_Keram_Wall	
+            ]
+    PROFIL2=[
+            PRF_NVF_FZP_Vertical_Keram_Wall			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      >
+  >      
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_FZP_Horizontal_Keram_Wing	
+            ]
+    PROFIL2=[
+            PRF_NVF_FZP_Vertical_PAS_3609,
+            PRF_NVF_FZP_Vertical_PAS_3683,
+            PRF_NVF_FZP_Horizontal_PAS_3687,
+            PRF_NVF_FZP_Horizontal_Keram_Wall,
+            PRF_NVF_FZP_Vertical_Keram_Wall,
+            PRF_NVF_FZP_Horizontal_Keram_Wing,
+	        PRF_NVF_FZP_Vertical_YM90,
+	        PRF_NVF_FZP_Vertical_YP90	
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      >
+  >     

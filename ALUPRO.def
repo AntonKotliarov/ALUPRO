@@ -1,0 +1,137 @@
+#INCLUDE 'TYPES.LAL'
+#INCLUDE 'PROSTE.LAL'
+#INCLUDE 'LACZNIKI.LAL'	
+#INCLUDE 'OK_PROST.LAL'
+#INCLUDE 'OKUCIE.LAL'
+#INCLUDE 'REST.LAL'
+#INCLUDE 'TYPES_P.LAL'
+#INCLUDE 'TYPES_W.LAL'
+#INCLUDE 'ZLOZONE.LAL'
+
+//**************************
+
+SYSTEM_PROFILI=
+  <
+    KLUCZ_SYSTEMU = [ 100 ]
+    NAZWA         = 'ALUPRO'
+    OPIS          = 'SYSTEMY FASADOWE-ALUMINIOWE – ALUPRO'
+    RYSUNEK       = 'ALP.BMP'
+    KOD_SYSTEMU   = 'ALP'
+    METODA_DODAWANIA_KOLORU=DODAJ_KOLOR_ZAMIEN
+    ZNAK_ZAMIENIANY_NA_KOLOR='X'
+
+    PRODUCENT=
+      <
+        NAZWA=   'ALUPRO'
+        OPIS =   'ALUPRO'
+        ADRES1=  'ul.'
+        ADRES2=  ''
+        TELEFON= ' fax:'
+      >
+	  
+    DODATKOWE_RODZAJE_SZKLA=
+     <
+     TYP_SZKLA=RODZAJ_PLITA
+     NAZWA='Ïëèòà'
+     RYSOWAC_JAK_TYP_SZKLA=RODZAJ_SZYBY_IZOLACJA
+     >	  
+	 
+    DODATKOWE_RODZAJE_SZKLA=
+     <
+     TYP_SZKLA=RODZAJ_SZYBY_HPL
+     NAZWA='HPL'
+     RYSOWAC_JAK_TYP_SZKLA=RODZAJ_SZYBY_IZOLACJA
+     >	 
+
+    #INCLUDE 'KOLOR.INC'
+    #INCLUDE 'SYSTEMS.INC'
+    #INCLUDE 'PROSTE.INC'
+
+    PARAMETRY
+			<
+		jakie_przekroje = nowe_przekroje	
+        RODZAJ_SYSTEMU                        =SYSTEM_ALUMINIUM
+        SYSTEM_NR                             =65536*1024
+        OKUCIA_STALE                          ='ALUPRO.FUR'  
+        PODSTAWOWA_SZYBA                      =1001
+        PODSTAWOWY_KOLOR                      =DEF_KOLOR_0
+        METODA_KLIPSOWANIA                    =KLIPSUJ_0STOPNI
+        MINIMALNA_GRUBOSC_SZYBY               =0
+        MAKSYMALNA_GRUBOSC_SZYBY              =2000
+        STANDARDOWA_MIN_DLG_BELKI             =6600
+        STANDARDOWA_MAX_DLG_BELKI             =6600
+        STANDARDOWY_SKOK_DLUGOSCI_BELKI       =0
+        STANDARDOWE_WGLEBIENIE_PODSZYBOWE     =0
+		
+        ELEMENT_NIE_LICZONY                   = E_BRAK_PROFILE	
+        ELEMENT_NIE_LICZONY                   = E_BRAK_PROFILE_NVF	
+        ELEMENT_NIE_LICZONY                   = E_BRAK_PROFILE_NVF_GLUE		
+        ELEMENT_NIE_LICZONY                   = E_BRAK_PROFILE_NVF_KASETA                    
+        ELEMENT_NIE_LICZONY                   = E_BRAK_PROFILE_NVF_NAVESKA   
+        ELEMENT_NIE_LICZONY                   = E_BRAK_PROFILE_NVF_NAVESKA_FZP   
+        ELEMENT_NIE_LICZONY                   = E_BRAK_PROFILE_NVF_NAVESKA_FZP2   		
+        ELEMENT_NIE_LICZONY                   = E_BRAK_KLAMKA   				
+      >
+
+    #INCLUDE 'TYPES_P.INC'
+    #INCLUDE 'MATERIAL_DO_FASAD_F50.INC'		
+    #INCLUDE 'MATERIAL_DO_FASAD_NVF.INC'				
+    #INCLUDE 'TYPES_W0.INC'
+    #INCLUDE 'TYPES_W.INC'
+    #INCLUDE 'CLIPGUMS.INC'
+    #INCLUDE 'ZLOZONE.INC'
+    #INCLUDE 'LINKS.INC'
+    #INCLUDE 'OVERLAYS.INC'
+    #INCLUDE 'STANDARD.INC'
+    #INCLUDE 'CROSSYST.INC'
+	#INCLUDE 'GROUPS.INC'
+  >
+
+        
+
+SYSTEM_OKUC=
+  <
+    NAZWA         = 'ALUPRO-OKUCIA'
+    OPIS          = 'OKUCIA DLA SYSTEMÓW OKIENNO DRZWIOWYCH I FASADOWYCH - ALUMINIOWE - ALUPRO'
+    RYSUNEK       = 'TAL.BMP'
+    KOD_SYSTEMU   = 'ALUPRO'   
+    METODA_DODAWANIA_KOLORU=DODAJ_KOLOR_ZAMIEN
+    ZNAK_ZAMIENIANY_NA_KOLOR='X'
+
+    PRODUCENT=
+      <
+        NAZWA=   'ALUPRO'
+        OPIS =   'ALUPRO'
+        ADRES1=  'ul. '
+        ADRES2=  ''
+        TELEFON= ''
+      >
+	  
+    #INCLUDE 'KOLOR.INC'
+    #INCLUDE 'SYSTEMS.INC'
+    #INCLUDE 'OK_PROST.INC'
+
+    ZESTAWY=
+      <
+         #INCLUDE 'OK_OKNA_FAPIM.IN2'		 
+         #INCLUDE 'OK_OKNA_STUBLINA.IN2'		 	 		 
+         #INCLUDE 'OK_DRZWI_FAPIM_NAKLAD.in2'	
+         #INCLUDE 'OK_DRZWI_FAPIM_ROLLER.in2'
+         #INCLUDE 'OK_DRZWI_WALA_HID.in2'
+         #INCLUDE 'OK_DRZWI_STUBLINA_NAKLAD.in2'
+         #INCLUDE 'OK_DRZWI_WALA_NAKLAD.in2'
+         #INCLUDE 'KL_DRZWI_W77.in2'		 
+         //#INCLUDE 'kl_OKNA.IN2'
+         //#INCLUDE 'OK_DRZWI_C60.IN2'
+         //#INCLUDE 'OK_DRZWI_WALA.IN2'
+      >
+ >
+
+ZLOZONE_GRUPY=
+  <
+  >  
+
+ LACZNIKI=
+<
+  #INCLUDE 'LACZNIKI.INC'
+>  

@@ -1,0 +1,269 @@
+//********************************************************************************
+// Стыковка стоек по высоте
+
+PRZESLO[P_PROSTE_F50]=
+  <
+  NAZWA=     'З"єднувальний профіль F50-302/303/304/305/306'
+  OPIS=      'З"єднувальний профіль F50-302/303/304/305/306'
+  KATEGORIA= 'Стиковка стойок по висоті'
+  RYSUNEK=   'SPOSOB_LACZENIA_PROSTE_F50.png'
+	
+  SYSTEMY= [DEF_SYS_F50]
+        DODATKOWE_PARAMETRY=
+          <
+        LICZBA_RZECZYWISTA=<
+                   KLUCZ='SLUP_SZCZELINA'
+				   PYTANIE='Розмір паза між стійками D(мм)=L(м)х2.4[mm]:'
+                   STANDARDOWO='10'
+                   MIN_WARTOSC=2
+                   MAX_WARTOSC=20
+                 >
+        LICZBA_RZECZYWISTA=<
+                   KLUCZ='WYSOKOSC_CALOSC'
+				   PYTANIE='Довжина з"єднувальної труби [mm]:'
+                   STANDARDOWO='300'
+                   MIN_WARTOSC=100
+                   MAX_WARTOSC=1000
+                 >
+        LICZBA_RZECZYWISTA=<
+                   KLUCZ='WYSOKOSC_GORA'
+		           PYTANIE='Довжина виступаючої частини (вверх) [mm]:'
+                   STANDARDOWO='150'
+                   MIN_WARTOSC=50
+                   MAX_WARTOSC=500
+                 >
+        LICZBA_RZECZYWISTA=< 
+		           KLUCZ='DOCISK_PRZESUNIECIE'
+				   PYTANIE='Полож. притискної планки відносно. полож. стійки [mm]'
+                   STANDARDOWO='50'
+                   MIN_WARTOSC=-7000
+                   MAX_WARTOSC=7000
+                 >
+        LICZBA_RZECZYWISTA=< 
+		           KLUCZ='DOCISK_SZCZELINA'
+				   PYTANIE='Розмір паза пртисної планки D(мм)=L(м)х2.4:'
+                   STANDARDOWO='10'
+                   MIN_WARTOSC=2
+                   MAX_WARTOSC=20
+                 >
+        LICZBA_RZECZYWISTA=< 
+		           KLUCZ='LISTWA_PRZESUNIECIE'
+				   PYTANIE='Полож. кришки відносно полож. стійки[mm]'
+                   STANDARDOWO='50'
+                   MIN_WARTOSC=-7000
+                   MAX_WARTOSC=7000
+                 >
+        LICZBA_RZECZYWISTA=< 
+		           KLUCZ='LISTWA_SZCZELINA'
+				   PYTANIE='Розмір паза кришки D(мм)=L(м)х2.4:'
+                   STANDARDOWO='10'
+                   MIN_WARTOSC=2
+                   MAX_WARTOSC=20
+                 >
+          >
+    DLA_PROFILI=
+      [
+     PRF_F50_SLP_F50_102   ,
+     PRF_F50_SLP_F50_103   ,
+     PRF_F50_SLP_F50_104  ,
+     PRF_F50_SLP_F50_105  ,
+     PRF_F50_SLP_F50_106  ,
+     PRF_F50_SLP_F50_107  ,	 
+
+     PRF_F50_WSLP_F50_102  ,
+     PRF_F50_WSLP_F50_103  ,
+     PRF_F50_WSLP_F50_104 ,
+     PRF_F50_WSLP_F50_105 ,
+     PRF_F50_WSLP_F50_106 ,
+     PRF_F50_WSLP_F50_107 		
+      ]
+    MATERIALY=
+      <
+    //Труба	  
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1739
+            KOD=      E_ALP_F50_302
+            PAR_ILOSC=    '1'
+            PAR_DLUGOSC='WYSOKOSC_CALOSC'
+            PAR_KAT1='0'
+            PAR_KAT2='0'
+			KOLOR=KOLOR_SUROWY
+            DLA_PROFILI=
+              [
+		         PRF_F50_SLP_F50_102,
+                 PRF_F50_WSLP_F50_102			 
+              ]
+          >
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1739
+            KOD=      E_ALP_F50_303
+            PAR_ILOSC=    '1'
+            PAR_DLUGOSC='WYSOKOSC_CALOSC'
+            PAR_KAT1='0'
+            PAR_KAT2='0'
+			KOLOR=KOLOR_SUROWY
+            DLA_PROFILI=
+              [
+		         PRF_F50_SLP_F50_103,
+                 PRF_F50_WSLP_F50_103			 
+              ]
+          >		  
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1739
+            KOD=      E_ALP_F50_304
+            PAR_ILOSC=    '1'
+            PAR_DLUGOSC='WYSOKOSC_CALOSC'
+            PAR_KAT1='0'
+            PAR_KAT2='0'
+			KOLOR=KOLOR_SUROWY
+            DLA_PROFILI=
+              [
+		         PRF_F50_SLP_F50_104,
+                 PRF_F50_WSLP_F50_104			 
+              ]
+          >		
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1739
+            KOD=      E_ALP_F50_305
+            PAR_ILOSC=    '1'
+            PAR_DLUGOSC='WYSOKOSC_CALOSC'
+            PAR_KAT1='0'
+            PAR_KAT2='0'
+			KOLOR=KOLOR_SUROWY
+            DLA_PROFILI=
+              [
+		         PRF_F50_SLP_F50_105,
+                 PRF_F50_WSLP_F50_105			 
+              ]
+          >		
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1739
+            KOD=      E_ALP_F50_306
+            PAR_ILOSC=    '1'
+            PAR_DLUGOSC='WYSOKOSC_CALOSC'
+            PAR_KAT1='0'
+            PAR_KAT2='0'
+			KOLOR=KOLOR_SUROWY
+            DLA_PROFILI=
+              [
+		         PRF_F50_SLP_F50_106,
+                 PRF_F50_WSLP_F50_106,
+		         PRF_F50_SLP_F50_107,
+                 PRF_F50_WSLP_F50_107					 
+              ]
+          >		
+    //Детали
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1750
+            KOD=E_F50_D001
+            PAR_ILOSC=    '2+2*(WYSOKOSC_CALOSC>500)'
+      >
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1750
+            KOD=E_F50_D002
+            PAR_ILOSC=    '2+2*(WYSOKOSC_CALOSC>500)'
+      >	
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1750
+            KOD=E_Sam4_2x16_DIN7982
+            PAR_ILOSC=    '8+8*(WYSOKOSC_CALOSC>500)'
+			GDY_PARAMETR='METIZ=0'
+      >	  	  
+    //Капельник		  
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1750
+            KOD=E_F50_D01030
+            PAR_ILOSC=    '1'
+			GDY_PARAMETR='DETAL_KAPELNIKA_F50=0'
+      >
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1750
+            KOD=E_F50_D01040
+            PAR_ILOSC=    '1'
+			GDY_PARAMETR='DETAL_KAPELNIKA_F50=1'
+      >	  
+    //Переток конденсата		  
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1751
+            KOD=E_F50_611_01
+            PAR_ILOSC=    '2'
+      >	  
+   >
+>
+
+
+
+//*****************************
+//Угловое
+
+PRZESLO[P_KATOWE_F50]=
+  <
+    NAZWA=     'З"єднувальний профіль F50.320X'
+    OPIS=      'З"єднувальний профіль F50.320X'
+    KATEGORIA= 'Стиковка стойок від кутом'
+    RYSUNEK=   'SPOSOB_LACZENIA_KATOWE_F50.png'
+    SYSTEMY=   [DEF_SYS_F50]
+
+    DODATKOWE_PARAMETRY=
+      <
+        LICZBA_RZECZYWISTA=
+		    <
+              KLUCZ='KAT_CIECIA'
+              PYTANIE='Кут нахилу (0-відсутній нахил)'
+              STANDARDOWO='0'
+              MIN_WARTOSC=-90
+              MAX_WARTOSC=180
+              RYSUNEK     = 'ygolnaklona.bmp'
+              ROZMIAR_RYSUNKU=200						   
+            >			 
+      >
+      DLA_PROFILI=
+        [
+     PRF_F50_SLP_F50_102  ,
+     PRF_F50_SLP_F50_103  ,
+     PRF_F50_SLP_F50_104  ,
+     PRF_F50_SLP_F50_105  ,
+     PRF_F50_SLP_F50_106  ,
+     PRF_F50_SLP_F50_107  ,	 
+
+     PRF_F50_WSLP_F50_102 ,
+     PRF_F50_WSLP_F50_103 ,
+     PRF_F50_WSLP_F50_104 ,
+     PRF_F50_WSLP_F50_105 ,
+     PRF_F50_WSLP_F50_106 ,
+     PRF_F50_WSLP_F50_107 			
+        ]	  
+    MATERIALY=
+      <
+        WYLICZENIE=
+          <
+            KOD=      E_ALP_F50_320
+            PAR_ILOSC=    '2'
+            PAR_DLUGOSC='FASADA_H_SRODEK+(166*(ABS(TAN_S(KAT_CIECIA/2))))'
+            PAR_KAT1='-KAT_CIECIA/2'
+			KOLOR=KOLOR_SUROWY
+            PAR_KAT2='KAT_CIECIA/2'	
+          >
+        WYLICZENIE=
+          <
+            KOD=     E_Sam3_5x22_DIN7982
+            PAR_ILOSC=    '4'	
+          >		  
+        WYLICZENIE=
+          <
+            KOD=      E_F50_110A13
+            PAR_ILOSC=    '4'
+          >		 
+      >
+  >

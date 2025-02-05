@@ -1,0 +1,790 @@
+TXT
+ZESTAWY=
+  <
+    OBIEKTY=
+      [
+        PUNKTY_ZESTAWU=
+          <
+          NAZWA='PUNKTY_T48_SLUP'
+          OPIS=''
+          PUNKTY=['PUNKT_SZKLO_T48';'PUNKT_DOCISK_T48';'PUNKT_LISTWA_T48';'PUNKT_USZ_ZOWN_T48']
+          JAK_WYMIAROWAC=1
+          JAKI_PARAMETR1=0
+          JAKI_PARAMETR2=2
+          WARTOSCI=
+            <
+              OBIEKTY=
+                [
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    14.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['8.4';'';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    30.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['7.8';'';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    50.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['2.2';'0';'0';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    54.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['1.8';'';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    70.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['-2';'';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=     0.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['10';'';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['-5.7';'';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -10.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['17.5';'';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -20.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['23.5';'';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -30.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['26.5';'';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -40.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['29.3';'';'';'']
+                    >
+                ]
+            >
+          PARAMETR1_APROKSYMACJE=[0;0;0;0]
+          PARAMETR2_APROKSYMACJE=[0;0;0;0]
+          PARAMETR1_APROKSYMOWAC=N
+          PARAMETR2_APROKSYMOWAC=N
+          >
+        ;
+        PUNKTY_ZESTAWU=
+          <
+          NAZWA='PUNKTY_TF50K_SLUP'
+          OPIS=''
+          PUNKTY=['PUNKT_SZKLO_TF50K';'PUNKT_DOCISK_TF50K';'PUNKT_LISTWA_TF50K';'PUNKT_SZKLO_W_TF50K']
+          JAK_WYMIAROWAC=2
+          JAKI_PARAMETR1=5
+          JAKI_PARAMETR2=2
+          WARTOSCI=
+            <
+              OBIEKTY=
+                [
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=     0.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['11';'0';'0';'11']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=     0.00000
+                    PARAMETR2=    44.00000
+                    WARTOSCI=['11';'0';'0';'11']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    10.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['9';'0';'0';'9']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    10.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['9';'0';'0';'9']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    20.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['4.7';'';'';'4.7']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -10.00000
+                    PARAMETR2=    26.00000
+                    WARTOSCI=['11.8';'0';'0';'11.8']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -60.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['25.65';'0';'0';'25.65']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    20.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['4.7';'';'';'4.7']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    40.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['5.7';'';'';'5.7']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    40.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['5.7';'';'';'5.7']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    60.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['-1.2';'';'';'-1.2']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    60.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['-1.2';'';'';'-1.2']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['-1.3';'';'';'-1.3']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=    44.00000
+                    WARTOSCI=['-1.3';'';'';'-1.3+12']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -10.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['13.3';'0';'0';'13.3']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -60.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['34.8';'0';'0';'34.8']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -20.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['16';'0';'0';'16']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -20.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['18.8';'0';'0';'18.8']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -70.00000
+                    PARAMETR2=    26.00000
+                    WARTOSCI=['29.45';'0';'0';'29.45']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -70.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['40.5';'0';'0';'40.5']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    26.00000
+                    WARTOSCI=['36.86';'0';'0';'36.86']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    40.00000
+                    WARTOSCI=['48.2';'0';'0';'48.2-12']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['-1.3';'';'';'-1.3']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=    36.00000
+                    WARTOSCI=['-1.3-5';'';'';'-1.3']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=    40.00000
+                    WARTOSCI=['-1.3';'';'';'-1.3+8']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    36.00000
+                    WARTOSCI=['48.2';'0';'0';'48.2-8']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    44.00000
+                    WARTOSCI=['48.2';'0';'0';'48.2-12']
+                    >
+                ]
+            >
+          PARAMETR1_APROKSYMACJE=[0;0;0;0]
+          PARAMETR2_APROKSYMACJE=[0;0;0;0]
+          PARAMETR1_APROKSYMOWAC=N
+          PARAMETR2_APROKSYMOWAC=N
+          >
+        ;
+        PUNKTY_ZESTAWU=
+          <
+          NAZWA='PUNKTY_TB248_SLUP'
+          OPIS=''
+          PUNKTY=['PUNKT_SZKLO_TB248';'PUNKT_DOCISK_TB248';'PUNKT_LISTWA_TB248';'PUNKT_SZKLO_W_TB248']
+          JAK_WYMIAROWAC=1
+          JAKI_PARAMETR1=0
+          JAKI_PARAMETR2=2
+          WARTOSCI=
+            <
+              OBIEKTY=
+                [
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=     0.00000
+                    PARAMETR2=     4.00000
+                    WARTOSCI=['11';'0';'0';'11']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=     0.00000
+                    PARAMETR2=    38.00000
+                    WARTOSCI=['11';'0';'0';'11']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    30.00000
+                    PARAMETR2=     4.00000
+                    WARTOSCI=['11.7';'0';'0';'11.7']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    30.00000
+                    PARAMETR2=    38.00000
+                    WARTOSCI=['6.8';'0';'0';'6.8']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    50.00000
+                    PARAMETR2=     4.00000
+                    WARTOSCI=['7.7';'0';'0';'7.7']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -20.00000
+                    PARAMETR2=     4.00000
+                    WARTOSCI=['17';'0';'0';'17']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -60.00000
+                    PARAMETR2=    26.00000
+                    WARTOSCI=['27,1';'0';'0';'27.1']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    50.00000
+                    PARAMETR2=    38.00000
+                    WARTOSCI=['2.3';'0';'0';'2.3']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    70.00000
+                    PARAMETR2=     4.00000
+                    WARTOSCI=['10.4';'0';'0';'10.4']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    70.00000
+                    PARAMETR2=    38.00000
+                    WARTOSCI=['-4.1';'0';'0';'-4.1']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=     4.00000
+                    WARTOSCI=['0';'0';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=     8.00000
+                    WARTOSCI=['-4';'0';'0';'-4']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -20.00000
+                    PARAMETR2=    38.00000
+                    WARTOSCI=['17';'0';'0';'17']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -60.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['27,1';'0';'0';'27.1']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -40.00000
+                    PARAMETR2=     4.00000
+                    WARTOSCI=['18.6';'0';'0';'18.6']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -40.00000
+                    PARAMETR2=    38.00000
+                    WARTOSCI=['27.1';'0';'0';'27.1']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -70.00000
+                    PARAMETR2=     4.00000
+                    WARTOSCI=['27.1';'0';'0';'27.1']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -70.00000
+                    PARAMETR2=    38.00000
+                    WARTOSCI=['38.8';'0';'0';'38.8']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=     4.00000
+                    WARTOSCI=['21.2';'0';'0';'21.2']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    30.00000
+                    WARTOSCI=['38.8';'0';'0';'38.8']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=    10.00000
+                    WARTOSCI=['4.5';'0';'0';'4.5']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=    12.00000
+                    WARTOSCI=['1.9';'0';'0';'1.9']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=    16.00000
+                    WARTOSCI=['3.1';'0';'0';'3.1']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    90.00000
+                    PARAMETR2=    38.00000
+                    WARTOSCI=['-10.4';'0';'0';'-10.4']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    70.00000
+                    PARAMETR2=    12.00000
+                    WARTOSCI=['6.2';'0';'0';'6.2']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    70.00000
+                    PARAMETR2=    16.00000
+                    WARTOSCI=['3.4';'0';'0';'3.4']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    70.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['-2.7';'0';'0';'-2.7']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    50.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['2.3';'0';'0';'2.3']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    50.00000
+                    PARAMETR2=    10.00000
+                    WARTOSCI=['5.3';'0';'0';'5.3']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    50.00000
+                    PARAMETR2=    30.00000
+                    WARTOSCI=['2.3';'0';'0';'5.3']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    30.00000
+                    PARAMETR2=    16.00000
+                    WARTOSCI=['6,8';'0';'0';'6.8']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -70.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['36';'0';'0';'36']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -70.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['28.7';'0';'0';'28.7']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    12.00000
+                    WARTOSCI=['28.5';'0';'0';'28.5']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    10.00000
+                    WARTOSCI=['24.9';'0';'0';'24.9']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    16.00000
+                    WARTOSCI=['33.8';'0';'0';'33.8']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['38.7';'0';'0';'38.7']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    32.00000
+                    WARTOSCI=['40.3+10';'0';'0';'40.3']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    34.00000
+                    WARTOSCI=['40.3+10';'0';'0';'40.3']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    36.00000
+                    WARTOSCI=['40.3+10';'0';'0';'40.3']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    38.00000
+                    WARTOSCI=['40.3+15';'0';'0';'40.3']
+                    >
+                ]
+            >
+          PARAMETR1_APROKSYMACJE=[0;0;0;0]
+          PARAMETR2_APROKSYMACJE=[0;0;0;0]
+          PARAMETR1_APROKSYMOWAC=N
+          PARAMETR2_APROKSYMOWAC=N
+          >
+        ;
+        PUNKTY_ZESTAWU=
+          <
+          NAZWA='PUNKTY_T50_SLUP'
+          OPIS=''
+          PUNKTY=['PUNKT_SZKLO_T50';'PUNKT_DOCISK_T50';'PUNKT_LISTWA_T50']
+          JAK_WYMIAROWAC=1
+          JAKI_PARAMETR1=0
+          JAKI_PARAMETR2=2
+          WARTOSCI=
+            <
+              OBIEKTY=
+                [
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=     0.00000
+                    PARAMETR2=     4.00000
+                    WARTOSCI=['11';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=     0.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['11';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    10.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['9';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    10.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['9';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    20.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['8.9';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -10.00000
+                    PARAMETR2=    26.00000
+                    WARTOSCI=['11.8';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -60.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['25.65';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    20.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['8.9';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    40.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['5.7';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    40.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['5.7';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    60.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['-1.2';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    60.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['-1.2';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    80.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['-1.3';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=    80.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['-1.3';'';'']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -10.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['13.3';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -60.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['34.8';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -20.00000
+                    PARAMETR2=    24.00000
+                    WARTOSCI=['16';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -20.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['18.8';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -70.00000
+                    PARAMETR2=    26.00000
+                    WARTOSCI=['29.45';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -70.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['40.5';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    26.00000
+                    WARTOSCI=['36.86';'0';'0']
+                    >
+                  ;
+                  PUNKT_ZESTAWU=
+                    <
+                    PARAMETR1=   -90.00000
+                    PARAMETR2=    42.00000
+                    WARTOSCI=['48.2';'0';'0']
+                    >
+                ]
+            >
+          PARAMETR1_APROKSYMACJE=[0;0;0]
+          PARAMETR2_APROKSYMACJE=[0;0;0]
+          PARAMETR1_APROKSYMOWAC=N
+          PARAMETR2_APROKSYMOWAC=N
+          >
+      ]
+  >
+>

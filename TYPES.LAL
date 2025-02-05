@@ -1,0 +1,376 @@
+//STRONA
+#DEFINE STRONA_SRODKOWA                        0
+#DEFINE STRONA_LEWA                            1
+#DEFINE STRONA_PRAWA                           2
+
+//RODZAJE PROFILI
+#DEFINE PROFIL_OKIENNY                          1
+#DEFINE PROFIL_DRZWIOWY                         2
+#DEFINE PROFIL_WZM_W                            4
+#DEFINE PROFIL_WZM_Z                            8
+#DEFINE PROFIL_WZM_WZ                          16
+#DEFINE PROFIL_74420                           32
+#DEFINE PROFIL_74421                           64
+#DEFINE PROFIL_WAH                            128
+#DEFINE PROFIL_74415                          256
+#DEFINE PROFIL_74924                          512
+
+//PROFIL_ORIENTATION
+#DEFINE ORIENTACJA_UKOS                0
+#DEFINE ORIENTACJA_POZIOM              1
+#DEFINE ORIENTACJA_PION                2
+#DEFINE ORIENTACJA_LUK                 3
+
+//PROFIL_POSITION
+#DEFINE POL_SRODEK                     0
+#DEFINE POL_LEWO                       1
+#DEFINE POL_GORA                       2
+#DEFINE POL_PRAWO                      3
+#DEFINE POL_DOL                        4
+#DEFINE POL_INNE		               5
+#DEFINE MOZE_UKOS                      0
+#DEFINE MOZE_POZIOM                    1
+#DEFINE MOZE_PION                      2
+#DEFINE MOZE_LUK                       3
+
+//Klasy skrzyde³
+#DEFINE SK_ZEWNETRZNE                  0
+#DEFINE SK_SRODEK                      1
+#DEFINE SK_PRZEJSCIE                   2
+#DEFINE SK_SKRZYDLO                    3
+#DEFINE SK_WEWNETRZNE                  4
+#DEFINE SK_GRUPA                       5
+#DEFINE SK_GRUPY_ZLOZONE               6
+
+//Sposob dobrania kolorów
+#DEFINE BRAK_KOLORU                    0
+#DEFINE KOLOR_CALOSCI                  1
+#DEFINE KOLOR_ZEWN                     2
+#DEFINE KOLOR_WEWN                     3
+#DEFINE KOLOR_SUROWY                   4
+#DEFINE KOLOR_ODWROTNIE                5
+
+#DEFINE KOLOR_ANOD_06                  6   //5+1
+#DEFINE KOLOR_ANOD_21                  7   //5+2
+
+
+#DEFINE DODAJ_KOLOR_ZAMIEN             0
+#DEFINE DODAJ_KOLOR_ZA_KODEM           1
+#DEFINE DODAJ_KOLOR_MIESZANY           2
+
+//Ñïîñîá ñîåäèíåíèÿ ïðîôèëåé (ïîä êàêèì óãëîì)
+#DEFINE KAT_0                          0
+#DEFINE KAT_45                         1
+#DEFINE KAT_JAK_PROFIL                 2
+#DEFINE KAT_JAK_SKRZYDLO               3
+#DEFINE KAT_NAROZNY                    4
+#DEFINE KAT_POLACZENIE_T               5
+#DEFINE NEG_KAT_JAK_PROFIL	           6
+#DEFINE KAT_JAK_ANTY_T                 7
+#DEFINE KAT_JAK_SKRZYDLO_DRZWI         8
+
+//Sposób liczenia materia³u
+#DEFINE LICZ_NA_PROFIL                 0
+#DEFINE LICZ_NA_ODCINEK                1
+
+
+#define DOD_RYSUNEK_PROSTOKAT 								0
+#define DOD_RYSUNEK_ODCINEK       							1
+
+//Sposób utworzenia skrzyd³a
+#DEFINE TYP_SKRZYDLA_OKIENNE           0
+#DEFINE TYP_SKRZYDLA_RUCHOMY_SLUPEK    1
+#DEFINE TYP_SKRZYDLA_PIVOT             2
+#DEFINE TYP_SKRZYDLA_DRZWIOWE          3
+#DEFINE TYP_SKRZYDLA_PRZESUWNE         4
+#DEFINE TYP_SKRZYDLA_JAK_FASADA        5
+#DEFINE TYP_SKRZYDLA_SPIRALA           6
+#DEFINE TYP_SKRZYDLA_ZAWIAS_PROSTY     7
+#DEFINE TYP_SKRZYDLA_DRZWIOWE_GORA_PROSTA 8
+
+//Rodzaj elementów ze wzglêdu na jednostki
+#DEFINE LICZYC_NA_SZTUKI               0
+#DEFINE LICZYC_NA_METRY                1
+#DEFINE LICZYC_JAK_PROFILE             2
+#DEFINE LICZYC_JAK_SZYBY               3
+
+//Rodzaje wypelnien prosty
+#DEFINE RODZAJ_SZYBY_BRAK              0
+#DEFINE RODZAJ_SZYBY_SZYBA1            1
+#DEFINE RODZAJ_SZYBY_SZYBA2            2
+#DEFINE RODZAJ_SZYBY_SZYBA3            3
+#DEFINE RODZAJ_SZYBY_BLACHA            4
+#DEFINE RODZAJ_SZYBY_PANEL             5
+#DEFINE RODZAJ_SZYBY_IZOLACJA          6
+#DEFINE RODZAJ_SZYBY_RAMKA             7
+#DEFINE RODZAJ_SZYBY_SZYBA0            8
+#DEFINE RODZAJ_SZYBY_MODUL_NP0         9
+#DEFINE RODZAJ_SZYBY_MODUL_NP         10
+#DEFINE RODZAJ_SZYBY_CS_ZESP          11
+#DEFINE RODZAJ_SZYBY_SZYBA2_MSG       12
+#DEFINE RODZAJ_SZYBY_katownik_msg     13
+#DEFINE RODZAJ_SZYBY_panel_msg        14
+#DEFINE RODZAJ_SZYBY_WYPELNIENIE_EI   15
+
+#DEFINE RODZAJ_SZYBY_SZYBAPOJ         16
+
+#DEFINE RODZAJ_SZYBY_WYPELNIENIE_EI_FASADA    17
+#DEFINE RODZAJ_SZYBY_SZYBA2_STRUKTURA         18
+#DEFINE RODZAJ_SZYBY_SZYBA1_strips            19
+
+#DEFINE RODZAJ_SZYBY_SZYBA2US                 20
+#define RODZAJ_SZYBY_KASETA           21
+#define RODZAJ_SZYBY_TAFLA            22
+#define RODZAJ_SZYBY_SZYBA00          23
+#define RODZAJ_SZYBY_KOMPOZIT1        24
+#define RODZAJ_SZYBY_SZYBA00_TBR      25
+
+#define RODZAJ_SZYBY_POLYCARBON       26
+#define RODZAJ_PLITA                  27
+
+#DEFINE RODZAJ_SZYBY_SZYBA2_STR            28
+#DEFINE RODZAJ_SZYBY_SZYBA3_STR            29
+
+#DEFINE RODZAJ_SZYBY_SZYBA_SPEC            30
+#DEFINE RODZAJ_SPEC_PAKET                  31
+
+#DEFINE RODZAJ_PENOPOLISTIROL              32
+#DEFINE RODZAJ_LIST_OCINK_POLIM            33
+
+#DEFINE RODZAJ_SZYBY_HPL                   34
+
+#DEFINE RODZAJ_SZYBY_SZYBA2_TB63_120                   35
+
+
+
+//Metody klipsowania
+#DEFINE KLIPSUJ_0STOPNI			0
+#DEFINE KLIPSUJ_45STOPNI	        1
+
+//Rodzaje okuc
+#DEFINE OKUCIE_BRAK                             0
+#DEFINE OKUCIE_UCHYLNE                          1
+#DEFINE OKUCIE_ROZWIERANE                       2
+#DEFINE OKUCIE_UR                               3
+#DEFINE OKUCIE_RP                               4
+#DEFINE OKUCIE_ROZWIERANE_RP                    5
+#DEFINE OKUCIE_UR_RP                            6
+#DEFINE OKUCIE_PIVOT 		                    7
+#DEFINE OKUCIE_PRZESUWNE                        8
+#DEFINE OKUCIE_STALE                            9
+#DEFINE OKUCIE_ZEWN                            10
+#DEFINE OKUCIE_ZEWN_RP                         11
+#DEFINE OKUCIE_RP_Z                            12
+#DEFINE OKUCIE_D_WEWN                          13 //dwieri âíóòðü 1 ñòâ
+#DEFINE OKUCIE_D_WEWN2                         14
+#DEFINE OKUCIE_D_WEWN2BK                       15
+#DEFINE OKUCIE_D_ZEWN                          16
+#DEFINE OKUCIE_D_ZEWN2                         17
+#DEFINE OKUCIE_D_ZEWN2BK                       18
+#DEFINE OKUCIE_D_WAHD                          19
+#DEFINE OKUCIE_D_WAHD2                         20
+#DEFINE OKUCIE_D_WAHD2BK                       21
+#DEFINE OKUCIE_D_PRZESUWNE_S                   22
+#DEFINE OKUCIE_D_PRZESUWNE_R                   23
+#DEFINE OKUCIE_D_PRZESUWNE_P                   24
+#DEFINE OKUCIE_KLAMKA                          25
+#DEFINE OKUCIE_UCHYLNE_Z                       26
+#DEFINE OKUCIE_STALE_Z                         27
+#DEFINE OKUCIE_PODAWCZE_RUCHOME_PION           28
+#DEFINE OKUCIE_PODAWCZE_RUCHOME_POZIOM         29
+#DEFINE OKUCIE_AUTOMAT_ZK                      30
+#DEFINE OKUCIE_UCH_PRZES                       31
+#DEFINE OKUCIE_RU                              32
+#DEFINE OKUCIE_RU_RP                           33
+#DEFINE OKUCIE_RP_UR                           34
+#DEFINE OKUCIE_RP_RU                           35
+#DEFINE OKUCIE_UCHYLNE_ZG                      36 
+#DEFINE OKUCIE_UCHYLNE_G                       38
+#DEFINE OKUCIE_ZEWN_B                          39 //10
+#DEFINE OKUCIE_ROZWIERANE_FIX                  40 //2
+#DEFINE OKUCIE_UCHYLNE_FIX                     41 //1
+#DEFINE OKUCIE_UCHYLNE_G_FIX                   42 //1
+#DEFINE OKUCIE_PODAWCZE_RUCHOME_POZIOM_2       43
+#DEFINE OKUCIE_PODAWCZE_RUCHOME_POZIOM_3       44
+#DEFINE OKUCIE_FDO                             1
+//36,37,38
+
+//**************************#DEFINE OKUCIE_UCH_PRZES_2                     43
+
+
+#DEFINE OKUCIE_ZEWN_74311                        44
+#DEFINE OKUCIE_UCHYLNE_Z_74311                   45
+#DEFINE OKUCIE_UCHYLNE_ZG_74311                  46 
+
+#DEFINE OKUCIE_UCHYLNE_ZG_MSG                    47
+#DEFINE OKUCIE_ROZWIERANE_MSG                    48
+#DEFINE OKUCIE_UCHYLNE_Z_74312                   49
+#DEFINE OKUCIE_UCHYLNE_ZG_74312                  50
+
+#DEFINE OKUCIE_WYSUWNE                           51
+
+
+//Áàëêîííàÿ äâåðü
+  #DEFINE OKUCIE_ROZWIERANE_B                      51
+//#DEFINE OKUCIE_UR_BD                             52
+//#DEFINE OKUCIE_ROZWIERANE_BD                     53
+//#DEFINE OKUCIE_ROZWIERANE_RP_BD                  54
+//#DEFINE OKUCIE_RP_BD                             55
+//#DEFINE OKUCIE_UR_RP_BD                          56
+
+#DEFINE OKUCIE_ODCHYLNE_Z_OBROTOWE                 57
+#DEFINE OKUCIE_ODCHYLNE_Z                          58
+
+#DEFINE OKUCIE_UNIWERSALNE_56304                 75
+
+#DEFINE OKUCIE_RP_UCH_PRZES                           95 //okucie nr 31+64 (taki sam sposób mocowania)
+
+
+//Rodzaj polaczen
+#DEFINE POLACZENIE_NAROZNE90                    0
+#DEFINE POLACZENIE_NAROZNE                      1
+#DEFINE POLACZENIE_T90                          2
+#DEFINE POLACZENIE_T                            3
+#DEFINE POLACZENIE_THOT90                       4
+#DEFINE POLACZENIE_THOT                         5
+
+//Rodzaje parametrow
+#DEFINE PARAMETR_WYMIAR                         0
+#DEFINE PARAMETR_KOLOR                          1
+#DEFINE PARAMETR_GRUPA                          2
+#DEFINE PARAMETR_ELEMENT_PROSTY                 3
+#DEFINE PARAMETR_ELEMENT_ZLOZONY                4
+
+//Rodzaje systemow
+#DEFINE SYSTEM_ALUMINIUM  0
+#DEFINE SYSTEM_PCW        1
+#DEFINE SYSTEM_DREWNO     2
+#DEFINE SYSTEM_INNE       3
+
+//Rodzaj akcesoriow ze wzgledu kiedy uzyty
+#DEFINE UZYTY_DO_KONSTRUKCJI 0
+#DEFINE UZYTY_DO_SZKLENIA    1
+#DEFINE UZYTY_DO_MONTAZU     2
+
+
+#DEFINE PUNKT_LEWY_GORNY     0
+#DEFINE PUNKT_LEWY_DOLNY     1
+#DEFINE PUNKT_PRAWY_GORNY    2
+#DEFINE PUNKT_PRAWY_DOLNY    3
+#DEFINE PUNKT_LEWY           4
+#DEFINE PUNKT_PRAWY          5
+#DEFINE PUNKT_GORNY          6
+#DEFINE PUNKT_DOLNY          7
+#DEFINE PUNKT_W_SRODKU       8
+
+#DEFINE DEF_LISTWA       1
+#DEFINE DEF_LISTWA2      2
+#DEFINE DEF_LISTWA3      3    //1 kat rozny od 0
+#DEFINE DEF_LISTWA4      4    //2 katy rozne od 0
+
+#DEFINE POL_NAROZ 0
+#DEFINE POL_TVERT 1
+#DEFINE POL_THORZ 2
+
+#DEFINE SZEROKOSC_PRZEZ_COSINUS_KATA 1
+
+#DEFINE PUNKT_KAT_JAK_PROFIL				0
+#DEFINE PUNKT_KAT_JAK_SKRZYDLO_DRZWI			1     /// K¥TY DO PROFILI ODWRACAJ¥CYCH
+#DEFINE PUNKT_KAT_JAK_PROFIL_UJEMNIE			2     ////
+#DEFINE PUNKT_KAT_JAK_SKRZYDLO_DRZWI_UJEMNIE		3
+#DEFINE PUNKT_KAT_JAK_POLACZENIE_T			4
+#DEFINE PUNKT_KAT_JAK_POLACZENIE_narozne		5
+#DEFINE PUNKT_KAT_JAK_POLACZENIE_T_ujemnie		6
+#DEFINE PUNKT_KAT_JAK_POLACZENIE_narozne_ujemnie	7
+#DEFINE PUNKT_KAT_0					8
+#DEFINE PUNKT_KAT_DOWOLNY				9    
+#DEFINE PUNKT_MATERIALU                                10
+#DEFINE PUNKT_KAT_NAROZNIE                             11
+///// KAT_WARTOSC=35
+
+
+//Metoda obliczeñ cieplnych
+#DEFINE METODA_OKIENNA 0
+#DEFINE METODA_KOMPONENTOWA 1
+#DEFINE METODA_POJEDYNCZA 2
+
+//+++++++++++++++++++++++++++++++
+#DEFINE LIS_MASKUJACA 1
+#DEFINE LIS_DOCISKOWA 2
+#DEFINE LIS_INNA1 3
+#DEFINE LIS_INNA2 4
+#DEFINE LIS_INNA3 5
+#DEFINE LIS_IGNORUJ_PODZIALY 6
+
+//#DEFINE TYP_DO_SPRAWDZENIA_ZAWIASU_OKIENNY 1
+
+#DEFINE STARE_PRZEKROJE                                1
+#DEFINE NOWE_PRZEKROJE                                 2
+//+++++++++++++++++++++++++++++++
+#DEFINE PRZEKIEROWANIE_WLASCIWEMAKRO                   3
+
+
+//Jakie rzuty grup z³o?onych:
+#DEFINE JAKIE_RZUTY_1                                  0
+#DEFINE JAKIE_RZUTY_2X1                                1
+#DEFINE JAKIE_RZUTY_1X2                                2
+#DEFINE JAKIE_RZUTY_1X3                                3
+#DEFINE JAKIE_RZUTY_3X1                                4
+#DEFINE JAKIE_RZUTY_2X2                                5
+#DEFINE JAKIE_RZUTY_1X4                                6
+#DEFINE JAKIE_RZUTY_4X1                                7
+//widok dla rzutu
+#DEFINE RZUT_OD_GORY                                   0
+#DEFINE RZUT_Z_LEWEJ                                   1
+#DEFINE RZUT_Z_PRAWEJ                                  2
+#DEFINE RZUT_Z_DOLU                                    3
+#DEFINE RZUT_Z_PRZODU                                  4
+#DEFINE RZUT_Z_TYLU                                    5
+#DEFINE RZUT_SE                                        6
+#DEFINE RZUT_SW                                        7
+#DEFINE RZUT_NE                                        8
+#DEFINE RZUT_NW                                        9
+
+#DEFINE textBlack                                      0
+#DEFINE textBlue                                       1
+#DEFINE textRed                                        2
+#DEFINE textGreen                                      3
+#DEFINE textLineBlack                                  4
+#DEFINE textLineBlue                                   5
+#DEFINE textLineRed                                    6
+#DEFINE textLineGreen                                  7
+
+#define ANGLE_SYMMETRIC 0
+#DEFINE ANGLE_NONSYMMETRIC_A 1
+#DEFINE ANGLE_NONSYMMETRIC_B 2
+#DEFINE ANGLE_BOTH_A 3
+#DEFINE ANGLE_BOTH_B 4
+
+//RODZAJE PROFILI
+#DEFINE RODZAJ_PROFILU_ZWYKLY                          1
+#DEFINE RODZAJ_PROFILU_SZEROKI                         2
+#DEFINE RODZAJ_PROFILU_DRZWIOWY                        4
+#DEFINE RODZAJ_PROFILU_Z_TUBA                          8
+#DEFINE RODZAJ_PROFILU_SZCZELINA                      16
+#DEFINE RODZAJ_PROFILU_PROG                           32
+#DEFINE RODZAJ_PROFILU_PODZIAL                        64
+#DEFINE RODZAJ_PROFILU_RUCHOMY_SLUPEK                128
+#DEFINE RODZAJ_PROFILU_POPRZECZKA                    256
+#DEFINE RODZAJ_PROFILU_POPRZECZKA_SZEROKA            512
+#DEFINE RODZAJ_PROFILU_POPRZECZKA_TUBA              1024
+#DEFINE RODZAJ_PROFILU_SKRZYDLO                     2048
+#DEFINE RODZAJ_PROFILU_SKRZYDLO_SZEROKIE            4096
+#DEFINE RODZAJ_PROFILU_SKRZYDLO_DRZWIOWE            8192
+#DEFINE RODZAJ_PROFILU_POPRZECZKA_DRZWIOWA         16384
+#DEFINE RODZAJ_PROFILU_FASADA                      32768
+#DEFINE RODZAJ_PROFILU_FASADA_SZCZELINA            65536
+#DEFINE RODZAJ_PROFILU_KONCOWY                    131072
+#DEFINE RODZAJ_PROFILU_LACZNIK                    262144
+#DEFINE RODZAJ_PROFILU_KONCOWY_SZCZELINA          524288
+#DEFINE RODZAJ_PROFILU_DRZWIOWY_FAS              1048576
+#DEFINE RODZAJ_PROFILU_WSZYSTKIE                 2097151
+#DEFINE RODZAJ_PROFILU_EUROROWEK                 2097152
+#DEFINE RODZAJ_PROFILU_BEZ_EUROROWKA             4194304
+#DEFINE RODZAJ_PROFILU_ZAWIAS_WR_1               8388608
+#DEFINE RODZAJ_PROFILU_ZAWIAS_WR_2              16777216
+#DEFINE RODZAJ_PROFILU_ZAWIAS_WR_3              33554432

@@ -1,0 +1,549 @@
+//******************************************************************************
+//Opisy                                                                  *FAPIM*
+//******************************************************************************
+
+    GRUPA[OK_FAPIM_DW1_2Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 2 завіси (роликові)'
+         OPIS='Двері відкриванням всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'	
+         WAZNOSC_OKUCIA=30		 
+      >
+    GRUPA[OK_FAPIM_DW2_2Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako- 2 завіси (роликові)'
+         OPIS='Двері двостулкові з ручкою відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'		 
+         WAZNOSC_OKUCIA=30	
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_FAPIM_DW3_2Z_3S_ROLLER		 
+      >
+    GRUPA[OK_FAPIM_DW3_2Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 2 завіси (роликові)'
+         OPIS='Двері двостулкові без ручки відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'
+         WAZNOSC_OKUCIA=30			 
+      >
+	  
+    GRUPA[OK_FAPIM_DZ1_2Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 2 завіси (роликові)'
+         OPIS='Двері відкриванням назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'	
+         WAZNOSC_OKUCIA=30			 
+      >
+    GRUPA[OK_FAPIM_DZ2_2Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 2 завіси (роликові)'
+         OPIS='Двері двостулкові з ручкою відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'	
+         WAZNOSC_OKUCIA=30	
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_FAPIM_DZ3_2Z_3S_ROLLER			 
+      >
+    GRUPA[OK_FAPIM_DZ3_2Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 2 завіси (роликові)'
+         OPIS='Двері двостулкові без ручки відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='2Zawiasy'	
+         WAZNOSC_OKUCIA=30			 
+      >
+	  
+    GRUPA[OK_FAPIM_DW1_3Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 3 завіси (роликові)'
+         OPIS='Двері відкриванням всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=60			 
+      >
+    GRUPA[OK_FAPIM_DW2_3Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 3 завіси (роликові)'
+         OPIS='Двері двостулкові з ручкою відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=60	
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_FAPIM_DW3_3Z_3S_ROLLER		 
+      >
+    GRUPA[OK_FAPIM_DW3_3Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 3 завіси (роликові)'
+         OPIS='Двері двостулкові без ручки відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=60			 
+      >
+	  
+    GRUPA[OK_FAPIM_DZ1_3Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 3 завіси (роликові)'
+         OPIS='Двері відкриванням назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'
+         WAZNOSC_OKUCIA=60			 
+      >
+    GRUPA[OK_FAPIM_DZ2_3Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 3 завіси (роликові)'
+         OPIS='Двері двостулкові з ручкою відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=60		
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_FAPIM_DZ3_3Z_3S_ROLLER			 
+      >
+    GRUPA[OK_FAPIM_DZ3_3Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 3 завіси (роликові)'
+         OPIS='Двері двостулкові без ручки відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='3Zawiasy'	
+         WAZNOSC_OKUCIA=60			 
+      >
+
+
+    GRUPA[OK_FAPIM_DW1_4Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 4 завіси (роликові)'
+         OPIS='Двері відкриванням всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45			 
+      >
+    GRUPA[OK_FAPIM_DW2_4Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 4 завіси (роликові)'
+         OPIS='Двері двостулкові з ручкою відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'		 
+         WAZNOSC_OKUCIA=45
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_FAPIM_DW3_4Z_3S_ROLLER			 
+      >
+    GRUPA[OK_FAPIM_DW3_4Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 4 завіси (роликові)'
+         OPIS='Двері двостулкові без ручки відкривання всередину. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'
+         WAZNOSC_OKUCIA=45		 
+      >
+    GRUPA[OK_FAPIM_DZ1_4Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 4 завіси (роликові)'
+         OPIS='Двері відкриванням назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45		 
+      >
+    GRUPA[OK_FAPIM_DZ2_4Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 4 завіси (роликові)'
+         OPIS='Двері двостулкові з ручкою відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45	
+         ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_FAPIM_DZ3_4Z_3S_ROLLER			 
+      >
+    GRUPA[OK_FAPIM_DZ3_4Z_3S_ROLLER]=
+      <
+         NAZWA='FAPIM Monako - 4 завіси (роликові)'
+         OPIS='Двері двостулкові без ручки відкривання назовні. Натиснути кнопку: "Вибрати"'
+         WYMIAR_OKUCIA='4Zawiasy'	
+         WAZNOSC_OKUCIA=45			 
+      >	
+//******************************************************************************
+// Gdzie mozna stosowac
+//******************************************************************************
+    GRUPA[
+                    OK_FAPIM_DW1_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DW2_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DW3_2Z_3S_ROLLER    ,
+
+                    OK_FAPIM_DW1_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DW2_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DW3_3Z_3S_ROLLER    ,
+					
+					OK_FAPIM_DW1_4Z_3S_ROLLER    ,
+					OK_FAPIM_DW2_4Z_3S_ROLLER    ,
+					OK_FAPIM_DW3_4Z_3S_ROLLER     				                    
+
+         ]=
+      <
+    GDY_SYSTEM=   [  DEF_SYS_W77 ]
+    GDY_WARIANT_SKRZYDLA=  [  WAR_W77 ]
+	
+    FILTR_NAZWA        = 'Варіант завіси'
+    FILTR_WARTOSC      = 'Завіси роликові'
+    FILTR_NAZWA        = 'Виробник'
+    FILTR_WARTOSC      = 'FAPIM'	
+      >	  
+    GRUPA[
+                    OK_FAPIM_DZ1_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ2_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ3_2Z_3S_ROLLER    ,
+
+                    OK_FAPIM_DZ1_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ2_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ3_3Z_3S_ROLLER    ,
+					
+					OK_FAPIM_DZ1_4Z_3S_ROLLER    ,
+					OK_FAPIM_DZ2_4Z_3S_ROLLER    ,
+					OK_FAPIM_DZ3_4Z_3S_ROLLER    				                    
+
+         ]=
+      <
+    GDY_SYSTEM=   [  DEF_SYS_W77 ]
+    GDY_WARIANT_SKRZYDLA=  [  WAR_W77 ]
+	
+    FILTR_NAZWA        = 'Варіант завіси'
+    FILTR_WARTOSC      = 'Завіси роликові'
+    FILTR_NAZWA        = 'Виробник'
+    FILTR_WARTOSC      = 'FAPIM'	
+      >
+
+//******************************************************************************
+// Rozmiary
+//******************************************************************************
+    GRUPA[
+                    OK_FAPIM_DW1_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DW2_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DW3_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ1_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ2_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ3_2Z_3S_ROLLER    
+         ]=
+      <
+      DO_B=1250
+      DO_H=2150
+      DO_M=130
+      >
+    GRUPA[
+                    OK_FAPIM_DW1_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DW2_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DW3_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ1_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ2_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ3_3Z_3S_ROLLER    
+
+         ]=
+      <
+      DO_B=1250
+      DO_H=2500
+      DO_M=160
+      >
+    GRUPA[
+                    OK_FAPIM_DW1_4Z_3S_ROLLER    ,
+                    OK_FAPIM_DW2_4Z_3S_ROLLER    ,
+                    OK_FAPIM_DW3_4Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ1_4Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ2_4Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ3_4Z_3S_ROLLER    
+                  
+         ]=
+      <
+      DO_B=1250
+      DO_H=3000
+      DO_M=200
+      >
+//******************************************************************************
+// Rodzaje
+//******************************************************************************
+
+    GRUPA[
+         OK_FAPIM_DW1_2Z_3S_ROLLER,
+         OK_FAPIM_DW1_3Z_3S_ROLLER,
+		 OK_FAPIM_DW1_4Z_3S_ROLLER
+         ]=
+      <
+      RODZAJ=OKUCIE_D_WEWN
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='simonswerk.VCT'
+	  ROZMIAR_X=22
+	  ROZMIAR_Y=178
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=0
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK	 
+	>	  
+  >	  
+
+    GRUPA[
+         OK_FAPIM_DW2_2Z_3S_ROLLER,
+         OK_FAPIM_DW2_3Z_3S_ROLLER,
+		 OK_FAPIM_DW2_4Z_3S_ROLLER
+         ]=
+      <
+      RODZAJ=OKUCIE_D_WEWN2
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='simonswerk.VCT'
+	  ROZMIAR_X=22
+	  ROZMIAR_Y=178
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=0
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK	 
+	>	
+  >
+
+    GRUPA[
+         OK_FAPIM_DW3_2Z_3S_ROLLER,
+         OK_FAPIM_DW3_3Z_3S_ROLLER,
+         OK_FAPIM_DW3_4Z_3S_ROLLER		 
+         ]=
+      <
+      RODZAJ=OKUCIE_D_WEWN2bk
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='simonswerk.VCT'
+	  ROZMIAR_X=22
+	  ROZMIAR_Y=178
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=0
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK	 
+	>	
+  >
+  
+    GRUPA[
+         OK_FAPIM_DZ1_2Z_3S_ROLLER,
+         OK_FAPIM_DZ1_3Z_3S_ROLLER,
+         OK_FAPIM_DZ1_4Z_3S_ROLLER
+         ]=
+  <
+      RODZAJ=OKUCIE_D_ZEWN  
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='simonswerk.VCT'
+	  ROZMIAR_X=22
+	  ROZMIAR_Y=178
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=0
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK	 
+	>
+  >  
+
+    GRUPA[
+         OK_FAPIM_DZ2_2Z_3S_ROLLER,
+         OK_FAPIM_DZ2_3Z_3S_ROLLER,		 
+         OK_FAPIM_DZ2_4Z_3S_ROLLER	
+         ]=
+      <
+      RODZAJ=OKUCIE_D_ZEWN2
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='simonswerk.VCT'
+	  ROZMIAR_X=22
+	  ROZMIAR_Y=178
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=0
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK	 
+	>
+  >
+    GRUPA[
+         OK_FAPIM_DZ3_2Z_3S_ROLLER,
+         OK_FAPIM_DZ3_3Z_3S_ROLLER,		 
+         OK_FAPIM_DZ3_4Z_3S_ROLLER	
+         ]=
+      <
+      RODZAJ=OKUCIE_D_ZEWN2bk
+      WYMIAROW_OKUCIA_RYSUNEK=
+      <
+	  RYSUJ=TAK
+      RYSUNEK='simonswerk.VCT'
+	  ROZMIAR_X=22
+	  ROZMIAR_Y=178
+	  POLOZENIE_RYSUNKU=PUNKT_W_SRODKU
+	  POLOZENIE_RYSUNKU_X=0
+	  POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK	 
+	>
+  >  
+
+//******************************************************************************
+// materialy
+//******************************************************************************
+    //Otw.zewn 3 skrzydelka
+    //****************************************************************
+    GRUPA[
+         OK_FAPIM_DZ1_2Z_3S_ROLLER,
+         OK_FAPIM_DZ2_2Z_3S_ROLLER,
+         OK_FAPIM_DZ3_2Z_3S_ROLLER,
+         OK_FAPIM_DZ1_3Z_3S_ROLLER,
+         OK_FAPIM_DZ2_3Z_3S_ROLLER,
+         OK_FAPIM_DZ3_3Z_3S_ROLLER,
+         OK_FAPIM_DZ1_4Z_3S_ROLLER,
+         OK_FAPIM_DZ2_4Z_3S_ROLLER,
+         OK_FAPIM_DZ3_4Z_3S_ROLLER 		 
+         ]=
+      <
+	 //Zawias 1
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+	 //Zawias 2                                                                                                       
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_7220F  ILOSC=2 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >			 
+      >
+
+    GRUPA[
+         OK_FAPIM_DZ1_3Z_3S_ROLLER,
+         OK_FAPIM_DZ2_3Z_3S_ROLLER,
+         OK_FAPIM_DZ3_3Z_3S_ROLLER,
+         OK_FAPIM_DZ1_4Z_3S_ROLLER,
+         OK_FAPIM_DZ2_4Z_3S_ROLLER,
+         OK_FAPIM_DZ3_4Z_3S_ROLLER 		 
+         ]=
+      <
+	 //Zawias 3
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_7220F  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >		   		 
+      >
+    GRUPA[
+         OK_FAPIM_DZ1_4Z_3S_ROLLER,
+         OK_FAPIM_DZ2_4Z_3S_ROLLER,
+         OK_FAPIM_DZ3_4Z_3S_ROLLER 
+         ]=
+      <
+	 //Zawias 4
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_7220F  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >				  		 
+      >	  
+
+    //Otw.wewn 3 skrzydelka
+    //****************************************************************
+    GRUPA[
+         OK_FAPIM_DW1_2Z_3S_ROLLER,
+         OK_FAPIM_DW2_2Z_3S_ROLLER,
+         OK_FAPIM_DW3_2Z_3S_ROLLER,
+         OK_FAPIM_DW1_3Z_3S_ROLLER,
+         OK_FAPIM_DW2_3Z_3S_ROLLER,
+         OK_FAPIM_DW3_3Z_3S_ROLLER,
+         OK_FAPIM_DW1_4Z_3S_ROLLER,
+         OK_FAPIM_DW2_4Z_3S_ROLLER,
+         OK_FAPIM_DW3_4Z_3S_ROLLER 		 
+         ]=
+      <
+	 //Zawias 1
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+	 //Zawias 2                                                                                                       
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_7220A  ILOSC=2 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >			 
+      >
+    GRUPA[
+         OK_FAPIM_DW1_3Z_3S_ROLLER,
+         OK_FAPIM_DW2_3Z_3S_ROLLER,
+         OK_FAPIM_DW3_3Z_3S_ROLLER,
+         OK_FAPIM_DW3_3Z_3S_ROLLER,
+         OK_FAPIM_DW1_4Z_3S_ROLLER,
+         OK_FAPIM_DW2_4Z_3S_ROLLER,
+         OK_FAPIM_DW3_4Z_3S_ROLLER 		 
+         ]=
+      <
+	 //Zawias 3
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_7220A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >				 
+      >
+    GRUPA[
+         OK_FAPIM_DW1_4Z_3S_ROLLER,
+         OK_FAPIM_DW2_4Z_3S_ROLLER,
+         OK_FAPIM_DW3_4Z_3S_ROLLER 
+         ]=
+      <
+	 //Zawias 4
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_OKIENNY   KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_Z     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_DRZWIOWY  KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_W     KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+         ELEMENT[ N ]= < KOD=E_7202A  ILOSC=1 POZYCJA_ELEMENTU=STRONA_LEWA DOZWOLONY_PROFILU_TYP=PROFIL_WZM_WZ    KOLOR=KOLOR_ZEWN  PRZEKROJ_NR=517   >   
+                                                                                                                      
+         ELEMENT[ N ]= < KOD=E_7220A  ILOSC=2 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=518  >				 
+      >
+
+//Rysunki "1" i "2" dla drzwi dwuskrz.
+//******************************  
+GRUPA[
+                    OK_FAPIM_DW2_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DW3_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ2_2Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ3_2Z_3S_ROLLER    ,
+                                   
+                    OK_FAPIM_DW2_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DW3_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ2_3Z_3S_ROLLER    ,
+                    OK_FAPIM_DZ3_3Z_3S_ROLLER    ,
+					              
+					OK_FAPIM_DW2_4Z_3S_ROLLER    ,
+					OK_FAPIM_DW3_4Z_3S_ROLLER    ,
+					OK_FAPIM_DZ2_4Z_3S_ROLLER    ,
+					OK_FAPIM_DZ3_4Z_3S_ROLLER    						
+     ]=
+  <
+    ELEMENT[N]=< 
+             KOD=0 
+			 GDY_OKUCIE=[OKUCIE_D_ZEWN2,OKUCIE_D_WEWN2] 
+             RYSUNEK_FUNKCJI='Jedynka.BMP'
+             ROZMIAR_X=18*3
+             ROZMIAR_Y=32*3
+             POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO
+             POLOZENIE_RYSUNKU_FUNKCJI_DY=20
+             POLOZENIE_RYSUNKU_FUNKCJI_DX=10
+             POLOZENIE_RYSUNKU=PUNKT_PRAWY
+             LUSTRZANE_ODBICIE_RYSUNKU=NIE   
+             >
+  ELEMENT[N]=< 
+             KOD=0 
+			 GDY_OKUCIE=[OKUCIE_D_ZEWN2BK,OKUCIE_D_WEWN2BK] 
+             RYSUNEK_FUNKCJI='Dwojka.BMP'
+             ROZMIAR_X=26*3
+             ROZMIAR_Y=34*3
+             POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO
+             POLOZENIE_RYSUNKU_FUNKCJI_DY=20
+             POLOZENIE_RYSUNKU_FUNKCJI_DX=10
+             POLOZENIE_RYSUNKU=PUNKT_PRAWY
+             LUSTRZANE_ODBICIE_RYSUNKU=NIE   
+             >
+  > 
+   //Blokady
+   //**********************************************************************
+
+    GRUPA[
+         OK_FAPIM_DZ3_2Z_3S_ROLLER,
+         OK_FAPIM_DZ3_3Z_3S_ROLLER,
+         OK_FAPIM_DW3_2Z_3S_ROLLER,
+         OK_FAPIM_DW3_3Z_3S_ROLLER,		 
+         OK_FAPIM_DZ3_4Z_3S_ROLLER,
+         OK_FAPIM_DW3_4Z_3S_ROLLER		 
+         ]=
+      <
+         ELEMENT[ N ]= < KOD=E_3722A ILOSC=2 >
+         ELEMENT[ N ]= < KOD=E_3733  ILOSC=1 >
+         ELEMENT[ N ]= < KOD=E_3735A ILOSC=1 >
+       >

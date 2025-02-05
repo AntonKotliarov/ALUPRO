@@ -1,0 +1,308 @@
+//*****************************************************************************
+//PROFILE
+//*****************************************************************************
+
+#define PRF_F50_SLP_F50_101                               1
+#define PRF_F50_SLP_F50_102                               2
+#define PRF_F50_SLP_F50_103                               3
+#define PRF_F50_SLP_F50_104                               4
+#define PRF_F50_SLP_F50_105                               5
+#define PRF_F50_SLP_F50_106                               6
+#define PRF_F50_SLP_F50_107                               7
+#define PRF_F50_RYG_F50_201                               8
+#define PRF_F50_RYG_F50_220                               9
+#define PRF_F50_RYG_F50_202                               10
+#define PRF_F50_RYG_F50_203                               11
+#define PRF_F50_RYG_F50_204                               12
+#define PRF_F50_RYG_F50_205                               13
+#define PRF_F50_RYG_F50_206                               14
+#define PRF_F50_RYG_F50_207                               15
+
+#define LIS_RYG_PAC_4013_PAC_4014                          16
+#define LIS_SLP_PAC_4013_PAC_4015                          17
+
+#define PRF_F50_WSLP_F50_102                              18
+#define PRF_F50_WSLP_F50_103                              19
+#define PRF_F50_WSLP_F50_104                              20
+#define PRF_F50_WSLP_F50_105                              21
+#define PRF_F50_WSLP_F50_106                              22
+#define PRF_F50_WSLP_F50_107                              23
+
+#define PRF_F50_WRYG_F50_220                              24
+#define PRF_F50_WRYG_F50_202                              25
+#define PRF_F50_WRYG_F50_203                              26
+#define PRF_F50_WRYG_F50_204                              27
+#define PRF_F50_WRYG_F50_205                              28
+#define PRF_F50_WRYG_F50_206                              29
+#define PRF_F50_WRYG_F50_207                              30
+
+#define P_PROSTE_F50                                      31
+#define P_KATOWE_F50                                      32
+
+#define PRF_F50_SLY_F50_102_F50_101                       33
+
+#DEFINE PRF_F50_BRAK0                                     34
+#DEFINE PRF_F50_BRAK                                      35
+													      
+#DEFINE LIS_SLP_PAC_4025                                  36
+#DEFINE LIS_RYG_PAC_4024                                  37  	      
+		
+#define PRF_RAMA_OKIENNA_ALP_W77_101                      38
+#define PRF_RAMA_OKIENNA_ALP_W77_102                      39
+#define PRF_RAMA_OKIENNA_ALP_W77_103                      40
+#define PRF_RAMA_OKIENNA_ALP_W77_104                      41
+#define PRF_RAMA_OKIENNA_ALP_W77_105                      42
+#define PRF_SLP_OKIENNA_ALP_W77_301                       43
+#define PRF_SLP_OKIENNA_ALP_W77_302                       44
+#define PRF_SLP_OKIENNA_ALP_W77_303                       45
+#define PRF_SLP_OKIENNA_ALP_W77_304                       46
+#define PRF_SLP_OKIENNA_ALP_W77_305                       47
+#define PRF_SLP_OKIENNA_ALP_W77_306                       48
+#define PRF_SLP_OKIENNA_ALP_W77_307                       49
+#define PRF_WZM_SLP_OKIENNA_ALP_W77_311                   50
+#define PRF_WZM_SLP_OKIENNA_ALP_W77_312                   51
+#define PRF_SKRZYDLO_OKIENNA_ALP_W77_201                  52
+#define PRF_SKRZYDLO_OKIENNA_ALP_W77_202                  53
+#define PRF_SKRZYDLO_OKIENNA_ALP_W77_203                  54
+#define PRF_SKRZYDLO_OKIENNA_ALP_W77_204                  55
+#define PRF_SKRZYDLO_OKIENNA_ALP_W77_205                  56
+#define PRF_SKRZYDLO_OKIENNA_ALP_W77_206                  57
+#define PRF_SKRZYDLO_OKIENNA_ALP_W77_207                  58
+#define PRF_SKRZYDLO_OKIENNA_ALP_W77_208                  59
+#define PRF_RAMA_DRZWIOWA_DZ_ALP_W77_401                  60
+#define PRF_RAMA_DRZWIOWA_DW_ALP_W77_402                  61
+#define PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403                 62
+#define PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404                 63
+#define PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501              64
+#define PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503              65
+#define PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502              66
+#define PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504              67
+#define PRF_PODZ_DW_ALP_W77_613                           68
+#define PRF_PODZ_DZ_ALP_W77_612                           69
+#define PRF_PODZ_DX_ALP_W77                               70
+#define PRF_RCHS_ALP_W77_610                              71
+#define PRF_RCHS_ALP_W77_611                              72
+#define PRF_PROG_ALP_W77_614                              73
+#define PRF_PROG_ALP_W77_615                              74
+
+#define WNG_RAMA_OF_W77_104                               75
+#define WNG_SKRZ_OK1_W77_205_R                            76
+#define WNG_SKRZ_OK1_W77_206_R                            77
+#define WNG_SKRZ_OK1_W77_207_R                            78
+#define WNG_SKRZ_OK1_W77_208_R                            79
+#define WNG_SKRZ_OK1_W77_205_UR                           80
+#define WNG_SKRZ_OK1_W77_206_UR                           81
+#define WNG_SKRZ_OK1_W77_207_UR                           82
+#define WNG_SKRZ_OK1_W77_208_UR                           83
+#define WNG_SKRZ_OK1_W77_205_U                            84
+#define WNG_SKRZ_OK1_W77_206_U                            85
+#define WNG_SKRZ_OK1_W77_207_U                            86
+#define WNG_SKRZ_OK1_W77_208_U                            87
+#define WNG_SKRZ_OK2_W77_205_R                            88
+#define WNG_SKRZ_OK2_W77_206_R                            89
+#define WNG_SKRZ_OK2_W77_207_R                            90
+#define WNG_SKRZ_OK2_W77_208_R                            91
+#define WNG_SKRZ_OK3_W77_205_R                            92
+#define WNG_SKRZ_OK3_W77_206_R                            93
+#define WNG_SKRZ_OK3_W77_207_R                            94
+#define WNG_SKRZ_OK3_W77_208_R                            95
+#define WNG_SKRZ_OK2_W77_205_UR                           96
+#define WNG_SKRZ_OK2_W77_206_UR                           97
+#define WNG_SKRZ_OK2_W77_207_UR                           98
+#define WNG_SKRZ_OK2_W77_208_UR                           99
+#define WNG_SKRZ_OK1_W77_201_R                            100
+#define WNG_SKRZ_OK1_W77_202_R                            101
+#define WNG_SKRZ_OK1_W77_203_R                            102
+#define WNG_SKRZ_OK1_W77_204_R                            103
+#define WNG_SKRZ_OK1_W77_201_UR                           104
+#define WNG_SKRZ_OK1_W77_202_UR                           105
+#define WNG_SKRZ_OK1_W77_203_UR                           106
+#define WNG_SKRZ_OK1_W77_204_UR                           107
+#define WNG_SKRZ_OK1_W77_201_U                            108
+#define WNG_SKRZ_OK1_W77_202_U                            109
+#define WNG_SKRZ_OK1_W77_203_U                            110
+#define WNG_SKRZ_OK1_W77_204_U                            111
+#define WNG_SKRZ_OK2_W77_201_R                            112
+#define WNG_SKRZ_OK2_W77_202_R                            113
+#define WNG_SKRZ_OK2_W77_203_R                            114
+#define WNG_SKRZ_OK2_W77_204_R                            115
+#define WNG_SKRZ_OK3_W77_201_R                            116
+#define WNG_SKRZ_OK3_W77_202_R                            117
+#define WNG_SKRZ_OK3_W77_203_R                            118
+#define WNG_SKRZ_OK3_W77_204_R                            119
+#define WNG_SKRZ_OK2_W77_201_UR                           120
+#define WNG_SKRZ_OK2_W77_202_UR                           121
+#define WNG_SKRZ_OK2_W77_203_UR                           122
+#define WNG_SKRZ_OK2_W77_204_UR                           123
+
+#define WNG_SKRZ_DW1_W77_502                              124
+#define WNG_SKRZ_DW2_W77_502                              125
+#define WNG_SKRZ_DW3_W77_502rs                            126
+#define WNG_SKRZ_DW1_W77_504                              127
+#define WNG_SKRZ_DW2_W77_504                              128
+#define WNG_SKRZ_DW3_W77_504rs                            129
+#define WNG_SKRZ_DZ1_W77_501                              130
+#define WNG_SKRZ_DZ2_W77_501                              131
+#define WNG_SKRZ_DZ3_W77_501rs                            132
+#define WNG_SKRZ_DZ1_W77_503                              133
+#define WNG_SKRZ_DZ2_W77_503                              134
+#define WNG_SKRZ_DZ3_W77_503rs                            135
+
+#define WNG_SKRZ_DW3_W77_502                              136
+#define WNG_SKRZ_DW3_W77_504                              137
+#define WNG_SKRZ_DZ3_W77_501                              138
+#define WNG_SKRZ_DZ3_W77_503                              139
+
+#define WNG_RAMA_DZF_W77_403                              140
+#define WNG_RAMA_DWF_W77_404                              141
+
+#define PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602      142
+#define PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602      143
+#define PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602      144
+#define PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602      145
+
+#define WNG_SKRZ_DZ1_W77_501_W77_602                      146
+#define WNG_SKRZ_DZ2_W77_501_W77_602                      147
+#define WNG_SKRZ_DZ3_W77_501_W77_602rs                    148
+#define WNG_SKRZ_DZ3_W77_501_W77_602                      149
+#define WNG_SKRZ_DZ1_W77_503_W77_602                      150
+#define WNG_SKRZ_DZ2_W77_503_W77_602                      151
+#define WNG_SKRZ_DZ3_W77_503_W77_602rs                    152
+#define WNG_SKRZ_DZ3_W77_503_W77_602                      153
+#define WNG_SKRZ_DW1_W77_502_W77_602                      154
+#define WNG_SKRZ_DW2_W77_502_W77_602                      155
+#define WNG_SKRZ_DW3_W77_502_W77_602rs                    156
+#define WNG_SKRZ_DW3_W77_502_W77_602                      157
+#define WNG_SKRZ_DW1_W77_504_W77_602                      158
+#define WNG_SKRZ_DW2_W77_504_W77_602                      159
+#define WNG_SKRZ_DW3_W77_504_W77_602rs                    160
+#define WNG_SKRZ_DW3_W77_504_W77_602                      161
+
+#define PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90           162
+#define PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90           163
+
+#define PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45           164 		
+#define PRF_SLY_OKIENNA_ALP_W77_314_W77_101_M45           165
+
+#define PRF_SLY_OKIENNA_ALP_W77_301_W77_315_0_60          166
+#define PRF_SLY_OKIENNA_ALP_W77_101_W77_315_10_55         167
+
+#define PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608             168
+#define PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608_P           169
+#define PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Keram        170
+#define PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wall         171
+#define PRF_NVF_KERAM_KLIAM_Vertical_Keram_Wall           172
+#define PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wing         173
+#define PRF_NVF_KERAM_KLIAM_Vertical_YM90                 174
+#define PRF_NVF_KERAM_KLIAM_Vertical_YP90                 175
+
+#define PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844             176
+#define PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844_P	          177
+
+#define SPLIT_NVF_KERAM_KLIAM           	              178
+
+#define PRF_NVF_KERAM_KLIAM_Vertical_PAS_3426_YP90        179
+#define WNG_RAMA_OF_W77_101                               180
+
+#define PRF_NVF_KERAM_GLUE_Vertical_PAS_3608              181
+#define PRF_NVF_KERAM_GLUE_Vertical_PAS_3608_P            182
+#define PRF_NVF_KERAM_GLUE_Vertical_PAS_3844              183
+#define PRF_NVF_KERAM_GLUE_Vertical_PAS_3844_P            184
+#define PRF_NVF_KERAM_GLUE_Horizontal_Keram_Keram         185
+#define PRF_NVF_KERAM_GLUE_Horizontal_Keram_Wall          186
+#define PRF_NVF_KERAM_GLUE_Vertical_Keram_Wall            187
+#define PRF_NVF_KERAM_GLUE_Horizontal_Keram_Wing          188
+#define PRF_NVF_KERAM_GLUE_Vertical_YM90                  189
+#define PRF_NVF_KERAM_GLUE_Vertical_YP90                  190
+#define PRF_NVF_KERAM_GLUE_Vertical_PAS_3426_YP90         191
+
+#define PRF_NVF_AKP_Vertical_PAS_3609                     192
+//#define PRF_NVF_AKP_Vertical_PAS_3609_P                   193
+//#define PRF_NVF_AKP_Vertical_PAS_3844                     194
+//#define PRF_NVF_AKP_Vertical_PAS_3844_P                   195
+#define PRF_NVF_AKP_Horizontal_Keram_Keram                196
+#define PRF_NVF_AKP_Horizontal_Keram_Wall                 197
+#define PRF_NVF_AKP_Vertical_Keram_Wall                   198
+#define PRF_NVF_AKP_Horizontal_Keram_Wing                 199
+#define PRF_NVF_AKP_Vertical_YM90                         200
+#define PRF_NVF_AKP_Vertical_YP90                         201
+//#define PRF_NVF_AKP_Vertical_PAS_3426_YP90                202
+
+#define PRF_NVF_HPL_PANEL_Vertical_PAS_3608               203
+#define PRF_NVF_HPL_PANEL_Vertical_PAS_3608_P             204
+#define PRF_NVF_HPL_PANEL_Vertical_PAS_3844               205
+#define PRF_NVF_HPL_PANEL_Vertical_PAS_3844_P             206
+#define PRF_NVF_HPL_PANEL_Horizontal_Keram_Keram          207
+#define PRF_NVF_HPL_PANEL_Horizontal_Keram_Wall           208
+#define PRF_NVF_HPL_PANEL_Vertical_Keram_Wall             209
+#define PRF_NVF_HPL_PANEL_Horizontal_Keram_Wing           210
+#define PRF_NVF_HPL_PANEL_Vertical_YM90                   211
+#define PRF_NVF_HPL_PANEL_Vertical_YP90                   212
+//#define PRF_NVF_HPL_PANEL_Vertical_PAS_3426_YP90          213
+
+#define PRF_NVF_FZP_Vertical_PAS_3609                     214
+#define PRF_NVF_FZP_Horizontal_PAS_3687                   215
+#define PRF_NVF_FZP_Horizontal_Keram_Wall                 216
+#define PRF_NVF_FZP_Vertical_Keram_Wall                   217
+#define PRF_NVF_FZP_Horizontal_Keram_Wing                 218
+#define PRF_NVF_FZP_Vertical_YM90                         219
+#define PRF_NVF_FZP_Vertical_YP90                         220
+#define PRF_NVF_FZP_Horizontal_PAS_3687_WALL              221
+#define PRF_NVF_FZP_Vertical_PAS_3683                     222
+
+#define PRF_NVF_HPL_PROEM_NVF                             223
+#define WNG_PROEM_WIN_NVF                                 224
+
+
+
+
+//******************************************************************************
+//Szk³o i szprosy                                             
+//******************************************************************************
+#DEFINE SZYBA_00                          4000
+#DEFINE SZYBA_0                           4001
+#DEFINE SZYBA_1                           4002
+#DEFINE SZYBA_2                           4003
+#DEFINE SZYBA_3                           4004
+#DEFINE SZYBA_1R1                         4005
+#DEFINE SZYBA_B                           4006
+#DEFINE SZYBA_BIB                         4007
+#DEFINE SZYBA_BB                          4008
+#DEFINE SZYBA_PIB                         4009
+#DEFINE SZYBA_PB                          4010
+#DEFINE SZYBA_BIP                         4011
+#DEFINE SZYBA_BP                          4012
+#DEFINE SZYBA_PIP                         4013
+#DEFINE SZYBA_PP                          4014
+#DEFINE SZYBA_MODUL_NIEPRZ_Z1             4015
+#DEFINE SZYBA_MODUL_NIEPRZ_Z2             4016
+#DEFINE SZYBA_MODUL_NIEPRZ_IZO            4017
+#DEFINE SZYBA_MODUL_NIEPRZ                4018
+#DEFINE SZYBA_IZOLACJA                    4019
+#DEFINE SZYBA_NIETYPOWA                   4020									      
+#DEFINE SZPROS_1D                         4021
+#DEFINE SZPROS_2D                         4022
+#DEFINE SZPROS_3D                         4023
+#DEFINE SZPROS_1N                         4024
+#DEFINE SZPROS_2N                         4025
+#DEFINE SZPROS_3N                         4026								      
+#define SZYBA_KASETA                      4027
+#define SZYBA_TAFLA                       4028								      
+#define SZYBA_1_1                         4029
+#define SZYBA_P_P                         4030
+#define SZYBA_3R1                         4031
+#define SZYBA_DOUBLEGLASS_DOUBLEGLASS_DR1 4032
+#define SZYBA_B_B                         4033								      						      
+#DEFINE SZYBA_00_TBR2                     4034								      
+#DEFINE SZYBA_POLYCARBON                  4035									      
+#define SZYBA_0_0                         4036									      
+#DEFINE SZYBA_2_STR                       4037
+#DEFINE SZYBA_3_STR                       4038								      
+#define SZYBA_33333                       4039									      
+#define SZYBA_PENOPOLISTIROL              4040   									      
+#define SZYBA_LIST_OCINK_POLIM            4041								      
+#define SZYBA_HPL                         4042							      
+#DEFINE SZYBA_00_LEER                     4043
+#DEFINE SZYBA_00_LEER_T5                  4044
+#DEFINE SZYBA_PANEL_GERDA_PARAMETRYCZNY   4045
+

@@ -1,0 +1,521 @@
+//Standard
+#DEFINE TP_Sciana                       0
+#DEFINE TP_Szyba                        1
+
+//******************************************
+//Fasada
+//******************************************
+#DEFINE TP_Fasada_Slup			           2
+#DEFINE TP_Fasada_Rygiel		           3
+#DEFINE TP_Fasada_SlupSciana		       4
+#DEFINE TP_Fasada_RygielSciana		       5
+#DEFINE TP_Fasada_OknoPolaciowe            6
+
+#DEFINE TP_Fasada_RamaStruktura            7
+#DEFINE TP_Fasada_RamaPolStruktura         8
+#DEFINE TP_Fasada_SkrzydloStruktura        9
+#DEFINE TP_Fasada_SkrzydloPolStruktura    10
+
+//******************************************
+//Struktura
+//******************************************
+
+#DEFINE TP_Struktura_Slup                   11
+#DEFINE TP_Struktura_Rygiel                 12
+#DEFINE TP_Struktura_SlupSciana             13
+#DEFINE TP_Struktura_RygielSciana           14
+
+#DEFINE TP_Struktura_SkrzydloStruktura      15
+#DEFINE TP_Struktura_SkrzydloPolStruktura   16
+
+#DEFINE TP_Fasada_PodProgiem           17
+
+//******************************************
+//Przesuwne
+//******************************************
+#DEFINE TP_RamaAuto2_Dol1               18
+#DEFINE TP_RamaAuto2_Gora              19
+#DEFINE TP_RamaAuto2_Bok               20
+#DEFINE TP_RamaAuto2_Podzial12         21
+#DEFINE TP_RamaAuto2_Podzial11         22
+#DEFINE TP_RamaAuto2_Podzial22         23
+
+#DEFINE TP_RamaAuto3_Dol               24
+#DEFINE TP_RamaAuto3_Gora              25
+#DEFINE TP_RamaAuto3_Bok               26
+#DEFINE TP_RamaAuto3_Podzial12         27
+#DEFINE TP_RamaAuto3_Podzial23         28
+#DEFINE TP_RamaAuto3_Podzial11         29
+#DEFINE TP_RamaAuto3_Podzial22         30
+#DEFINE TP_RamaAuto3_Podzial33         31
+
+#DEFINE TP_SkrzAuto21_Gora             32
+#DEFINE TP_SkrzAuto21_Dol              33
+#DEFINE TP_SkrzAuto21_Rama             34
+#DEFINE TP_SkrzAuto21_PodzialXX        35
+#DEFINE TP_SkrzAuto21_PodzialXY        36
+#DEFINE TP_SkrzAuto22_Gora             37
+#DEFINE TP_SkrzAuto22_Dol              38
+#DEFINE TP_SkrzAuto22_Rama             39
+#DEFINE TP_SkrzAuto22_PodzialXX        40
+#DEFINE TP_SkrzAuto22_PodzialXY        41
+
+#DEFINE TP_SkrzAuto31_Gora             42
+#DEFINE TP_SkrzAuto31_Dol              43
+#DEFINE TP_SkrzAuto31_PodzialXX        44
+#DEFINE TP_SkrzAuto31_PodzialXY        45
+#DEFINE TP_SkrzAuto31_Rama             46
+#DEFINE TP_SkrzAuto32_Gora             47
+#DEFINE TP_SkrzAuto32_Dol              48
+#DEFINE TP_SkrzAuto32_PodzialXX        49
+#DEFINE TP_SkrzAuto32_PodzialXY        50
+#DEFINE TP_SkrzAuto32_PodzialXZ        51
+#DEFINE TP_SkrzAuto32_Rama             52
+#DEFINE TP_SkrzAuto33_Gora             53
+#DEFINE TP_SkrzAuto33_Dol              54
+#DEFINE TP_SkrzAuto33_PodzialXX        55
+#DEFINE TP_SkrzAuto33_PodzialXY        56
+#DEFINE TP_SkrzAuto33_Rama             57
+
+#DEFINE TP_SkrzAuto2_PoprzeczkaPion    58
+#DEFINE TP_SkrzAuto2_PoprzeczkaPoziom  59
+#DEFINE TP_SkrzAuto3_PoprzeczkaPion    60
+#DEFINE TP_SkrzAuto3_PoprzeczkaPoziom  61
+
+//******************************************
+//Obramowanie
+//******************************************
+#DEFINE TP_PolaczoneKonstrukcje_RamaPion        62
+#DEFINE TP_PolaczoneKonstrukcje_RamaDol         63
+#DEFINE TP_PolaczoneKonstrukcje_RamaGora        64
+#DEFINE TP_PolaczoneKonstrukcje_RamaInna        65
+#DEFINE TP_PolaczoneKonstrukcje_Brak            66
+#DEFINE TP_PolaczoneKonstrukcje_LacznikPion     67
+#DEFINE TP_PolaczoneKonstrukcje_LacznikPoziom   68
+
+//******************************************
+//Rama stala - tylko szklo
+//******************************************
+#DEFINE TP_RamaStala_RamaDoFasady_FOM           69
+#DEFINE TP_RamaStala_RamaPion                   70
+#DEFINE TP_RamaStala_RamaDol                    71
+#DEFINE TP_RamaStala_RamaGora                   72
+#DEFINE TP_RamaStala_RamaInna                   73
+#DEFINE TP_RamyStala_PoprzeczkaPion             74
+#DEFINE TP_RamyStala_PoprzeczkaPoziom           75
+
+
+//******************************************
+//Rama okienna - szklo i skrzydla okienne
+//******************************************
+#DEFINE TP_RamaOkienna_RamaDoFasady             76
+#DEFINE TP_RamaOkienna_RamaPion                 77
+#DEFINE TP_RamaOkienna_RamaDol                  78
+#DEFINE TP_RamaOkienna_RamaGora                 79
+#DEFINE TP_RamaOkienna_RamaInna                 80
+#DEFINE TP_RamaOkienna_PoprzeczkaPion           81
+#DEFINE TP_RamaOkienna_PoprzeczkaPoziom         82
+#DEFINE TP_RamaOkienna_SzczelinaBalkonu         83
+#DEFINE TP_RamaOkienna_RuchomySlupek            84
+#DEFINE TP_RamaOkienna_PodzialOknaPodawczego    85
+#DEFINE TP_RamaOkienna_SzczelinaOknaPodawczego  86
+
+
+//******************************************
+//Rama okienna zewnêtrzna - szklo i skrzydla okienne
+//******************************************
+#DEFINE TP_RamaOkiennaZ_RamaDoFasady            87
+#DEFINE TP_RamaOkiennaZ_Rama                    88
+#DEFINE TP_RamaOkiennaZ_Poprzeczka              89
+#DEFINE TP_RamaOkiennaZ_RuchomySlupek           90
+
+//******************************************
+//Skrzyd³a okienne
+//******************************************
+#DEFINE TP_SkrzydloOkienne_Zawias                 91
+#DEFINE TP_SkrzydloOkienne_Gora                   92
+#DEFINE TP_SkrzydloOkienne_Dol                    93
+#DEFINE TP_SkrzydloOkienne_Klamka                 94
+#DEFINE TP_SkrzydloOkienne_Inne                   95
+#DEFINE TP_SkrzydloOkienne_PrzyRuchomymSlupku     96
+#DEFINE TP_SkrzydloOkienne_ZRuchomymSlupkiem      97
+#DEFINE TP_SkrzydloOkienne_PoprzeczkaBalkonowa    98
+#DEFINE TP_SkrzydloOkienne_PoprzeczkaPionowa      99
+#DEFINE TP_SkrzydloOkienne_PoprzeczkaPozioma     100
+
+#DEFINE TP_RamaOkienna_RuchomySlupekVirtualny                 101
+#DEFINE TP_SkrzydloOkienne_PrzyRuchomymSlupkuVirtualny        102
+#DEFINE TP_SkrzydloOkienne_ZRuchomymSlupkiemVirtualny         103
+
+//******************************************
+//Skrzydla obrotowe
+//******************************************
+#DEFINE TP_SkrzydloOkienne_ObrotoweCale          104
+#DEFINE TP_SkrzydloOkienne_ObrotowePodzielone    105
+
+//******************************************
+//Skrzydla wychylne
+//******************************************
+#DEFINE TP_SkrzydloOkienneZ_O1                   106
+#DEFINE TP_SkrzydloOkienneZ_O2                   107
+#DEFINE TP_SkrzydloOkienneZ_O3                   108
+
+//******************************************
+//Skrzydla podawcze
+//******************************************
+#DEFINE TP_SkrzydloPodawcze_PrzyPodzialeRuchome  109
+#DEFINE TP_SkrzydloPodawcze_PrzyPodzialeStale    110
+#DEFINE TP_SkrzydloPodawcze_BokStale             111
+#DEFINE TP_SkrzydloPodawcze_BokRuchome           112
+#DEFINE TP_SkrzydloPodawcze_DoRamyStale          113
+#DEFINE TP_SkrzydloPodawcze_DoRamyRuchome        114
+#DEFINE TP_SkrzydloPodawcze_DoSzczelinyRuchome   115
+
+//******************************************
+//Skrzydla poszerzone
+//******************************************
+#DEFINE TP_SkrzydloOkiennePosz_O1                116
+
+
+//******************************************
+//Rama drzwiowa
+//******************************************
+#DEFINE TP_RamaDrzwiowa_DZDoFasady              117
+#DEFINE TP_RamaDrzwiowa_DWDoFasady              118
+#DEFINE TP_RamaDrzwiowa_DHDoFasady              119
+#DEFINE TP_RamaDrzwiowa_DWZDoFasady             120
+#DEFINE TP_RamaDrzwiowa_DWBezpDoFasady          121
+#DEFINE TP_RamaDrzwiowa_DZBezpDoFasady          122
+#DEFINE TP_RamaDrzwiowa_DZ                      123
+#DEFINE TP_RamaDrzwiowa_DW                      124
+#DEFINE TP_RamaDrzwiowa_DHK                     125
+#DEFINE TP_RamaDrzwiowa_DWZ                     126
+#DEFINE TP_RamaDrzwiowa_DWBezp                  127
+#DEFINE TP_RamaDrzwiowa_DZBezp                  128
+#DEFINE TP_RamaDrzwiowa_PodzialDZ               129
+#DEFINE TP_RamaDrzwiowa_PodzialDW               130
+#DEFINE TP_RamaDrzwiowa_PodzialDH               131
+#DEFINE TP_RamaDrzwiowa_PodzialDWZ              132
+#DEFINE TP_RamaDrzwiowa_PodzialDZBezp           133
+#DEFINE TP_RamaDrzwiowa_PodzialDWBezp           134
+#DEFINE TP_RamaDrzwiowa_RuchomySlupekDZ         135
+#DEFINE TP_RamaDrzwiowa_RuchomySlupekDW         136
+
+#DEFINE TP_RamaDrzwiowa_ProgDZ                  137
+#DEFINE TP_RamaDrzwiowa_ProgDW                  138
+#DEFINE TP_RamaDrzwiowa_ProgDH                  139
+#DEFINE TP_RamaDrzwiowa_ProgDWZ                 140
+#DEFINE TP_RamaDrzwiowa_ProgDZBezp              141
+#DEFINE TP_RamaDrzwiowa_ProgDWBezp              142
+#DEFINE TP_RamaDrzwiowa_SzczotkaDZ              143
+#DEFINE TP_RamaDrzwiowa_SzczotkaDW              144
+#DEFINE TP_RamaDrzwiowa_SzczotkaDH              145
+#DEFINE TP_RamaDrzwiowa_SzczotkaDWZ             146
+#DEFINE TP_RamaDrzwiowa_SzczotkaDZBezp          147
+#DEFINE TP_RamaDrzwiowa_SzczotkaDWBezp          148
+#DEFINE TP_RamaDrzwiowa_Prog2DZ                 149
+#DEFINE TP_RamaDrzwiowa_Prog2DW                 150
+#DEFINE TP_RamaDrzwiowa_Prog2DH                 151
+#DEFINE TP_RamaDrzwiowa_Prog2DWZ                152
+#DEFINE TP_RamaDrzwiowa_Prog2DWBezp             153
+#DEFINE TP_RamaDrzwiowa_Prog2DZBezp             154
+
+//******************************************
+//Skrzydla drzwiowe
+//******************************************
+#DEFINE TP_SkrzydloDrzwiowe_DW1                              155
+#DEFINE TP_SkrzydloDrzwiowe_DW2                              156
+#DEFINE TP_SkrzydloDrzwiowe_DW3                              157
+#DEFINE TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1       158
+#DEFINE TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2       159
+#DEFINE TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka    160
+#DEFINE TP_SkrzydloDrzwiowe_DW1Poprzeczka                    161
+
+#DEFINE TP_SkrzydloDrzwiowe_DZ1                              162
+#DEFINE TP_SkrzydloDrzwiowe_DZ2                              163
+#DEFINE TP_SkrzydloDrzwiowe_DZ3                              164
+#DEFINE TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1       165
+#DEFINE TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2       166
+#DEFINE TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka    167
+#DEFINE TP_SkrzydloDrzwiowe_DZ1Poprzeczka                    168
+
+#DEFINE TP_SkrzydloDrzwiowe_DH1                              169
+#DEFINE TP_SkrzydloDrzwiowe_DH2                              170
+#DEFINE TP_SkrzydloDrzwiowe_DH3                              171
+#DEFINE TP_SkrzydloDrzwiowe_DH1PoprzeczkaDrzwiowaProg1       172
+#DEFINE TP_SkrzydloDrzwiowe_DH1PoprzeczkaDrzwiowaProg2       173
+#DEFINE TP_SkrzydloDrzwiowe_DH1PoprzeczkaDrzwiowaSzczotka    174
+#DEFINE TP_SkrzydloDrzwiowe_DH1Poprzeczka                    175
+
+#DEFINE TP_SkrzydloDrzwiowe_DW1Bezp                           176
+#DEFINE TP_SkrzydloDrzwiowe_DW2Bezp                           177
+#DEFINE TP_SkrzydloDrzwiowe_DW3Bezp                           178
+#DEFINE TP_SkrzydloDrzwiowe_DW1BezpPoprzeczkaDrzwiowaProg1    179
+#DEFINE TP_SkrzydloDrzwiowe_DW1BezpPoprzeczkaDrzwiowaProg2    180
+#DEFINE TP_SkrzydloDrzwiowe_DW1BezpPoprzeczkaDrzwiowaSzczotka 181
+#DEFINE TP_SkrzydloDrzwiowe_DW1BezpPoprzeczka                 182
+
+#DEFINE TP_SkrzydloDrzwiowe_DZ1Bezp                           183
+#DEFINE TP_SkrzydloDrzwiowe_DZ2Bezp                           184
+#DEFINE TP_SkrzydloDrzwiowe_DZ3Bezp                           185
+#DEFINE TP_SkrzydloDrzwiowe_DZ1BezpPoprzeczkaDrzwiowaProg1    186
+#DEFINE TP_SkrzydloDrzwiowe_DZ1BezpPoprzeczkaDrzwiowaProg2    187
+#DEFINE TP_SkrzydloDrzwiowe_DZ1BezpPoprzeczkaDrzwiowaSzczotka 188
+#DEFINE TP_SkrzydloDrzwiowe_DZ1BezpPoprzeczka                 189
+
+#DEFINE TP_SkrzydloDrzwiowe_DWZ_W1                            190
+#DEFINE TP_SkrzydloDrzwiowe_DWZ_W2                            191
+#DEFINE TP_SkrzydloDrzwiowe_DWZ_Z1                            192
+#DEFINE TP_SkrzydloDrzwiowe_DWZ_Z2                            193
+
+//******************************************
+//Ramy uniwersalne - szklo,okna,drzwi,automaty
+//******************************************
+#DEFINE TP_RamaUniw_RamaDoFasady                              194
+#DEFINE TP_RamaUniw_RamaPion                                  195
+#DEFINE TP_RamaUniw_RamaDol                                   196
+#DEFINE TP_RamaUniw_RamaGora                                  197
+#DEFINE TP_RamaUniw_RamaInna                                  198
+#DEFINE TP_RamaUniw_PoprzeczkaPion                            199
+#DEFINE TP_RamaUniw_PoprzeczkaPoziom                          200
+
+//******************************************
+//Drzwi szklane
+//******************************************
+#DEFINE TP_RamaDrzwiowa_ProgS                                 201
+#DEFINE TP_SkrzydloSzklane_S1                                 202
+#DEFINE TP_SkrzydloSzklane_S2                                 203
+#DEFINE TP_SkrzydloSzklane_S3                                 204
+#DEFINE TP_SkrzydloSzklane_SDol                               205
+#DEFINE TP_SkrzydloSzklane_Podzial                            206
+
+#DEFINE TP_Fasada_Strips                                      207
+#DEFINE TP_Otwor                                              208
+
+#DEFINE TP_RamaAutoOK_DoFasady                                210
+#DEFINE TP_PodzialAutoOK                                      211
+#DEFINE TP_ProgAutoOK                                         212
+#DEFINE TP_RamaAutoOK_Zawias                                  213
+#DEFINE TP_RamaAutoOK_Klamka                                  214
+#DEFINE TP_PoprzeczkaAutoOK                                   215
+#DEFINE TP_SkrzydloAutoOK_RamaZawias                              216
+#DEFINE TP_SkrzydloAutoOK_Podzial                             217
+#DEFINE TP_SkrzydloAutoOK_RamaKlamka                              218
+#DEFINE TP_SkrzydloAutoOK_Gora                                219
+#DEFINE TP_SkrzydloAutoOK_Dol                                 220
+#DEFINE TP_PolaczoneKonstrukcje_LacznikPoprzeczek             221
+
+#DEFINE TP_RamaAutoOK_ZawiasJakoPoprzeczka                    222
+#DEFINE TP_RamaAutoOK_KlamkaJakoPoprzeczka                    223
+
+#DEFINE TP_RamaUniw_Poprzeczka_O_DW                           224
+#DEFINE TP_RamaUniw_Poprzeczka_O_DZ                           225
+#DEFINE TP_RamaAuto2_Dol2                                     226
+#DEFINE TP_RamaDrzwiowa_DHZ                     227
+#DEFINE TP_RamaDrzwiowa_DHG                     228
+#DEFINE TP_SkrzydloDrzwiowe_DH1K                229
+#DEFINE TP_SkrzydloDrzwiowe_DZ2v                              230
+#DEFINE TP_SkrzydloDrzwiowe_DW2v                              231
+
+
+#DEFINE TP_Fasada_RygielGora                               232
+#DEFINE TP_Fasada_RygielDol                                233
+#DEFINE TP_RamaOkiennaZ_Rama2                              234
+#DEFINE TP_OscieznicaAutoOK                                   235
+
+
+#DEFINE TP_RamaOkienna_Poprzeczka1Skrz      236
+#DEFINE TP_RamaOkienna_Poprzeczka2Skrz      237
+
+#DEFINE TP_Fasada_SEGMENT                   238
+#define TP_RamaDoFasadyWentylowanej         239
+//******************************************
+//Peregorodka
+//******************************************
+#DEFINE TP_Peregorodka_Slup			            240
+#DEFINE TP_Peregorodka_Rygiel		            241
+#DEFINE TP_Peregorodka_SlupSciana		        242
+#DEFINE TP_Peregorodka_RygielSciana		        243
+#DEFINE TP_Peregorodka_RygielGora               244
+#DEFINE TP_Peregorodka_RygielDol                245
+#DEFINE TP_Peregorodka_PodProgiem               246
+
+#DEFINE TP_RamaDrzwiowa_DZDoPeregorodka         247
+#DEFINE TP_RamaDrzwiowa_DWDoPeregorodka         248
+//******************************************
+//PF
+//******************************************
+#DEFINE TP_PF_SL			            249
+#DEFINE TP_PF_SL_polowk		            250
+#DEFINE TP_PF_RG		                251
+#DEFINE TP_PF_RG_polowk		            252
+#DEFINE TP_Fasada_Szczelina             253
+
+#DEFINE TP_RamaStala_TON4_RamaDoFasady_T50 254
+
+#DEFINE TP_RamaVentReschetki_RamaDoOkna          255
+#DEFINE TP_RamaStala_RamaDoFasady_TON2           256
+#DEFINE TP_RamaStala_RamaDoFasady_HOP           257
+#DEFINE TP_RamaStala_RamaDoFasady_OPS1          258
+
+#DEFINE TP_VENTRECHETKA_Slup                    259
+#DEFINE TP_VENTRECHETKA_SlupSciana              260
+#DEFINE TP_VENTRECHETKA_Rygiel                  261
+#DEFINE TP_VENTRECHETKA_RygielGora              262
+#DEFINE TP_VENTRECHETKA_RygielDol               263
+#DEFINE TP_VENTRECHETKA_RygielSciana            264
+
+#DEFINE TP_Harmonijki_Pion                      265
+#DEFINE TP_Harmonijki_Poziom                    266
+#DEFINE TP_Harmonijki_Prog                      267
+
+#DEFINE TP_Fasada_PodRamaRigel                  268
+#DEFINE TP_RamaRigelOkienna_RamaDoFasady        269
+
+#DEFINE TP_TPB36_RamaPoziom                     270
+#DEFINE TP_TPB36_RamaPion                       271
+#DEFINE TP_TPB36_Podzial12                      272
+#DEFINE TP_TPB36_Podzial22                      273
+#DEFINE TP_TPB36_Skrz                           274
+
+#DEFINE TP_RamaDrzwiowa_Okienna_SzczotkaDZ      275
+#DEFINE TP_RamaDrzwiowa_Okienna_SzczotkaDW      276
+#DEFINE TP_11_PoprzeczkaSkrzydla                277
+#DEFINE TP_11_Skrzydlo1                         278
+#DEFINE TP_11_Skrzydlo2                         279
+
+#DEFINE TP_11_Rama2Dol                          280
+#DEFINE TP_11_Rama2                             281
+#DEFINE TP_11_Rama3Dol                          282
+#DEFINE TP_11_Rama3                             283
+#DEFINE TP_11_Podzial2                          284
+#DEFINE TP_11_PodzialX                          285
+#DEFINE TP_11_Podzial1                          286
+
+#DEFINE TP_Skrzydlo_DH                          287
+#DEFINE TP_SLUP_SKRAJ                           288
+#DEFINE TP_SLUP_SRODEK                          289
+#DEFINE TP_RYGIEL_SRODEK                        290
+#DEFINE TP_RYGIEL_GORA                          291
+#DEFINE TP_RYGIEL_DOL                           292
+#DEFINE TP_Prog                                 293
+#DEFINE TP_KopniakDrzwi                         294
+
+#DEFINE TP_Skrzydlo_DHprzyRP                    295
+#DEFINE TP_Podzial_DH                           296
+#DEFINE TP_Skrzydlo_DHRP                        297
+
+#DEFINE TP_11_Skrzydlo2a                        298
+
+#DEFINE TP_11_Skrzydlo3                        299
+#DEFINE TP_11_Podzial3                         300
+#DEFINE TP_11_Skrzydlo2b                       301
+#DEFINE TP_11_Skrzydlo3a                       302
+
+#DEFINE TP_TPB36_RamaUniw_PoprzeczkaPion       303
+#DEFINE TP_TPB36_RamaUniw_PoprzeczkaPoziom     304
+#DEFINE TP_11_Rama_srodek                      305
+
+#DEFINE TP_50_Fasada_Slup			           306
+#DEFINE TP_50_Fasada_Rygiel		               307
+#DEFINE TP_50_Fasada_SlupSciana		           308
+#DEFINE TP_50_Fasada_RygielSciana		       309
+
+#DEFINE TP_50_Fasada_RygielGora                310
+#DEFINE TP_50_Fasada_RygielDol                 311 
+
+#DEFINE TP_TPB36_111_RamaUniw_PoprzeczkaPoziom 312
+
+#DEFINE TP_111_Skrzydlo1                       313
+#DEFINE TP_111_Skrzydlo2                       314
+#DEFINE TP_111_Skrzydlo3a                      315
+#DEFINE TP_111_Skrzydlo3b                      316
+#DEFINE TP_111_Skrzydlo3                       317
+#DEFINE TP_111_Skrzydlo2a                      318
+#DEFINE TP_111_Skrzydlo2b                      319
+
+#DEFINE TP_TPB36_111_RamaUniw_PoprzeczkaPion   320
+
+#DEFINE TP_11_Podzial4                         321
+
+#DEFINE TP_111_Skrzydlo4a                      322
+#DEFINE TP_111_Skrzydlo4b                      323
+#DEFINE TP_111_Skrzydlo4                       324
+#DEFINE TP_111_Skrzydlo1_dol                   325
+
+#DEFINE TP_111_Skrzydlo2c                      326
+
+#define TP_RamaDoFasadyWentylowanej_PION       327
+
+#DEFINE TP_PAN_RAMA_2S                         328
+#DEFINE TP_PAN_WING_12                         329
+#DEFINE TP_PAN_WING_12_GORA                    330
+#DEFINE TP_PAN_WING_22A                        331
+#DEFINE TP_PAN_WING_22B                        332
+#DEFINE TP_PAN_WING_22A_GORA                   333
+#DEFINE TP_PAN_WING_22B_GORA                   334
+#DEFINE TP_PAN_PODZ12                          335
+#DEFINE TP_PAN_PODZ22                          336
+#DEFINE TP_PAN_WING_12_PION                    337
+
+#DEFINE TP_PAN_RAMA_3S                         338
+#DEFINE TP_PAN_WING_33A                        339
+#DEFINE TP_PAN_WING_33B                        340
+#DEFINE TP_PAN_WING_33A_GORA                   341
+#DEFINE TP_PAN_WING_33B_GORA                   342
+#DEFINE TP_PAN_PODZ23                          343
+#DEFINE TP_PAN_PODZ33                          344
+#DEFINE TP_PAN_WING_13                         345
+#DEFINE TP_PAN_WING_13_GORA                    346
+#DEFINE TP_PAN_WING_13_PION                    347
+#DEFINE TP_PAN_WING_23B                        348
+#DEFINE TP_PAN_WING_23B_GORA                   349
+#DEFINE TP_PAN_RAMA_2S_FIX                     350
+#DEFINE TP_PAN_PODZ12_FIX                      351
+#DEFINE TP_Rama_OF                             352
+
+#DEFINE TP_PAN_PODZ22_P90                      353
+#DEFINE TP_PAN_PODZ33_P90                      354
+#DEFINE TP_Stala_poprzeczka                    355
+#DEFINE TP_PAN_RAMA_2S_PION                    356
+
+#DEFINE TP_PAN_RAMA_2S_PION_FIX                    357
+#DEFINE TP_Prog_FIX                                358
+#DEFINE TP_PAN_WING_12_FIX                         359
+#DEFINE TP_PAN_WING_12_PION_FIX                    360                                           
+#DEFINE TP_PAN_WING_12_GORA_FIX                    361
+#DEFINE TP_PAN_RAMA_2S_PION_FIX_MOVE               362
+#DEFINE TP_PAN_RAMA_3S_PION_FIX                    363
+#DEFINE TP_PAN_RAMA_3S_PION_FIX_MOVE               364
+#DEFINE TP_PAN_RAMA_3S_FIX                         365
+#DEFINE TP_Prog_3S_FIX                             366
+#DEFINE TP_RamaStala_RamaDoFasady_TOB4             367
+
+#DEFINE TP_RamaHarm_RuchomySlupek_Szyna            368
+#DEFINE TP_RamaHarm_RuchomySlupek_Ruchomy          369
+#DEFINE TP_RamaHarm_RuchomySlupek_Ruchomy_tz       370
+#DEFINE TP_SkrzydloHarm_PrzyRuchomymSlupku_Szyna   371
+#DEFINE TP_SkrzydloHarm_ZRuchomymSlupkiem_Szyna    372
+#DEFINE TP_SkrzydloHarm_PrzyRuchomymSlupku_Ruchomy 373
+#DEFINE TP_SkrzydloHarm_ZRuchomymSlupkiem_Ruchomy  374
+	
+#DEFINE TP_SkrzydloDrzwiowe_Proem                  375
+
+#DEFINE TP_SkrzydloWentylacyjne                    376
+
+#DEFINE TP_SLIDER_WINDOW_SkrzydloD                 377
+#DEFINE TP_SLIDER_WINDOW_SkrzydloD_L               378
+#DEFINE TP_SLIDER_WINDOW_SkrzydloG                 379
+#DEFINE TP_SLIDER_WINDOW_SkrzydloG_L               380
+#DEFINE TP_SLIDER_WINDOW_Rama_PION                 381
+#DEFINE TP_SLIDER_WINDOW_Podzial12_poziom          382
+#DEFINE TP_SLIDER_WINDOW_Podzial12_poziom_L        383
+
+#DEFINE TP_SLIDER_WINDOW_Rama_GORA                 384
+#DEFINE TP_SLIDER_WINDOW_Rama_DOL                  385
+
+#DEFINE TP_RamaOkienna_RuchomySlupek_PVC           386                
+#DEFINE TP_SkrzydloOkienne_ZRuchomymSlupkiem_PVC   387
+#DEFINE TP_SkrzydloOkienne_PrzyRuchomymSlupku_PVC  388
+
+

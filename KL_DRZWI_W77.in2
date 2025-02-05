@@ -1,0 +1,203 @@
+GRUPA[KL_DRZWI_KLAMKA_OFICE]=
+  <
+  NAZWA='Ручка офісная'
+  OPIS= 'Ручка офісная'
+  SYSTEMY=[DEF_SYS_W77] 
+  
+  FILTR_NAZWA        = 'Тип ручки'
+  FILTR_WARTOSC      = 'Ручка офисная'
+
+
+  WYMIAR_OKUCIA='Klamka_1050'
+  WAZNOSC_OKUCIA=20   
+  RODZAJ=OKUCIE_KLAMKA
+  RODZAJE_DLA_KLAMKI=[OKUCIE_D_WEWN,OKUCIE_D_WEWN2,OKUCIE_D_ZEWN,OKUCIE_D_ZEWN2,OKUCIE_D_WEWN2BK,OKUCIE_D_ZEWN2BK]
+  
+  //ручки
+  ELEMENT[ N ]=<KOD=E_KLAMKA_OFICE        ILOSC=1     KOLOR  =KOLOR_CALOSCI RYSUNEK_FUNKCJI='KLAMKA_F206.vct'              POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO RYSUNEK_PROST_MM='35'  RYSUNEK_ROWN_MM='H-HANDLE_POINT1'    POLOZENIE_RYSUNKU=PUNKT_PRAWY LUSTRZANE_ODBICIE_RYSUNKU=TAK PRZEKROJ_ILE_RYSUNKOW=1 POZYCJA=POL_PRAWO >
+  ELEMENT[ N ]=<KOD=E_KLAMKA_OFICE_FIX    ILOSC=1     KOLOR  =KOLOR_CALOSCI>
+  
+  RYSUJ_FUNKCJE=NIE  
+ >
+ 
+GRUPA[KL_DRZWI_KLAMKA_OFICE_LOCK]=
+  <
+  NAZWA='Ручка офісная  + замок с роликом'
+  OPIS= 'Ручка офісная  + замок с роликом (вибір)'
+  SYSTEMY=[DEF_SYS_W77] 
+  
+  FILTR_NAZWA        = 'Тип ручки'
+  FILTR_WARTOSC      = 'Ручка офисная'
+  
+  	    PYTANIA=
+          <
+             PYTANIE=
+             <
+               NR    = PLock_DOOR
+               NAZWA = 'Вибір замка:'
+               OPIS  = 'Вибір замка:'
+       
+               ODPOWIEDZ=< NR=PLock_DOOR_1T         NAZWA='Замок 1-но точковий Stublina'            OPIS=''   PRIORYTET=1 RYSUNEK='.jpg' >
+               ODPOWIEDZ=< NR=PLock_DOOR_3T_1650    NAZWA='Замок 3-х точковий із клямкою, 1650mm'   OPIS=''   PRIORYTET=0 RYSUNEK='.jpg' >	
+               ODPOWIEDZ=< NR=PLock_DOOR_3T_2200    NAZWA='Замок 3-х точковий із клямкою, 2200mm'   OPIS=''   PRIORYTET=0 RYSUNEK='.jpg' >				   
+       		 >						 
+	      >	    
+
+  WYMIAR_OKUCIA='Klamka_1050'
+  WAZNOSC_OKUCIA=20   
+  RODZAJ=OKUCIE_KLAMKA
+  RODZAJE_DLA_KLAMKI=[OKUCIE_D_WEWN,OKUCIE_D_WEWN2,OKUCIE_D_ZEWN,OKUCIE_D_ZEWN2]
+  
+  //ручки
+  ELEMENT[ N ]=<KOD=E_KLAMKA_OFICE        ILOSC=1     KOLOR  =KOLOR_CALOSCI RYSUNEK_FUNKCJI='KLAMKA_F206.vct'              POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO RYSUNEK_PROST_MM='35'  RYSUNEK_ROWN_MM='H-HANDLE_POINT1'    POLOZENIE_RYSUNKU=PUNKT_PRAWY LUSTRZANE_ODBICIE_RYSUNKU=TAK PRZEKROJ_ILE_RYSUNKOW=1 POZYCJA=POL_PRAWO >
+  ELEMENT[ N ]=<KOD=E_KLAMKA_OFICE_FIX    ILOSC=1     KOLOR  =KOLOR_CALOSCI>
+  
+  //замок
+  ELEMENT[ N ]=<KOD=E_3031_00             ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PLock_DOOR  ODP=PLock_DOOR_1T >> >   
+  ELEMENT[ N ]=<KOD=E_3046_30_P           ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PLock_DOOR  ODP=PLock_DOOR_3T_1650 >> > 
+  ELEMENT[ N ]=<KOD=E_3046_30_10_P        ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PLock_DOOR  ODP=PLock_DOOR_3T_2200 >> >   
+  
+  //ответка  
+  ELEMENT[ N ]=<KOD=E_3093_30_P           ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PLock_DOOR ODP=PLock_DOOR_1T >> >  
+  ELEMENT[ N ]=<KOD=E_3093_60             ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PLock_DOOR ODP=PLock_DOOR_3T_1650  ODP=PLock_DOOR_3T_2200>> >   
+  
+  //цилиндр
+  ELEMENT[ N ]=<KOD=E_5057_00_520         ILOSC=1 >   
+  
+  //накладка
+  ELEMENT[ N ]=<KOD=E_1031_02_313         ILOSC=1 >    
+    
+  WYMIAROW_OKUCIA_RYSUNEK=
+      <
+      RYSUJ=TAK
+      RYSUNEK='klamka_ofice_p.bmp'
+      ROZMIAR_X=160
+      ROZMIAR_Y=300
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      POLOZENIE_RYSUNKU_X=5
+      POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK
+  	>	
+      RYSUJ_FUNKCJE=NIE  
+ >
+ 
+GRUPA[KL_DRZWI_KLAMKA_NAGIM_LOCK]=
+  <
+  NAZWA='Ручка натискна (вибір)  + замок з клямкою'
+  OPIS= 'Ручка натискна (вибір)  + замок з клямкою'
+  SYSTEMY=[DEF_SYS_W77] 
+  
+  FILTR_NAZWA        = 'Тип ручки'
+  FILTR_WARTOSC      = 'Ручка натискна' 
+  
+  	    PYTANIA=
+          <
+             PYTANIE=
+             <
+               NR    = PKlamka_DOOR
+               NAZWA = 'Вибір ручки:'
+               OPIS  = 'Вибір ручки:'
+       
+               ODPOWIEDZ=< NR=PKlamka_DOOR_FAPIM       NAZWA='Ручка Fapim 2053'           OPIS=''   PRIORYTET=1 RYSUNEK='.jpg' >
+               ODPOWIEDZ=< NR=PKlamka_DOOR_STUBLINA    NAZWA='Ручка Stublina 1032.00.X'   OPIS=''   PRIORYTET=0 RYSUNEK='.jpg' >	
+       		 >		
+
+             PYTANIE=
+             <
+               NR    = PLock_DOOR
+               NAZWA = 'Вибір замка:'
+               OPIS  = 'Вибір замка:'
+       
+               ODPOWIEDZ=< NR=PLock_DOOR_1T         NAZWA='Замок 1-но точковий Stublina'            OPIS=''   PRIORYTET=1 RYSUNEK='.jpg' >
+               ODPOWIEDZ=< NR=PLock_DOOR_3T_1650    NAZWA='Замок 3-х точковий із клямкою, 1650mm'   OPIS=''   PRIORYTET=0 RYSUNEK='.jpg' >	
+               ODPOWIEDZ=< NR=PLock_DOOR_3T_2200    NAZWA='Замок 3-х точковий із клямкою, 2200mm'   OPIS=''   PRIORYTET=0 RYSUNEK='.jpg' >				   
+       		 >						 
+	      >	  
+
+  WYMIAR_OKUCIA='Klamka_1050'
+  WAZNOSC_OKUCIA=20   
+  RODZAJ=OKUCIE_KLAMKA
+  RODZAJE_DLA_KLAMKI=[OKUCIE_D_WEWN,OKUCIE_D_WEWN2,OKUCIE_D_ZEWN,OKUCIE_D_ZEWN2]
+  
+  //ручки
+  ELEMENT[ N ]=<KOD=E_2053                ILOSC=1     
+          KOLOR  =KOLOR_CALOSCI 
+		  RYSUNEK_FUNKCJI='klamka_fapim_roz_zam.vct'     
+		  POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+		  RYSUNEK_PROST_MM='35'  
+		  RYSUNEK_ROWN_MM='H+50-HANDLE_POINT1' 
+		  POLOZENIE_RYSUNKU=PUNKT_PRAWY 
+		  LUSTRZANE_ODBICIE_RYSUNKU=TAK 
+		  PRZEKROJ_ILE_RYSUNKOW=1 
+		  POZYCJA=POL_PRAWO 
+		  DLA_PYTAN = < WARUNEK=< PYT=PKlamka_DOOR ODP=PKlamka_DOOR_FAPIM >> 
+		  >
+		  
+  ELEMENT[ N ]=<KOD=E_1032_00_X            ILOSC=1     
+          KOLOR  =KOLOR_CALOSCI 
+		  RYSUNEK_FUNKCJI='klamka_fapim_roz_zam.vct'     
+		  POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+		  RYSUNEK_PROST_MM='35'  
+		  RYSUNEK_ROWN_MM='H+50-HANDLE_POINT1' 
+		  POLOZENIE_RYSUNKU=PUNKT_PRAWY 
+		  LUSTRZANE_ODBICIE_RYSUNKU=TAK 
+		  PRZEKROJ_ILE_RYSUNKOW=1 
+		  POZYCJA=POL_PRAWO 
+		  DLA_PYTAN = < WARUNEK=< PYT=PKlamka_DOOR ODP=PKlamka_DOOR_STUBLINA >> 
+		  >		  
+  
+  //замок
+  ELEMENT[ N ]=<KOD=E_3021_00             ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PLock_DOOR  ODP=PLock_DOOR_1T >> > 
+  ELEMENT[ N ]=<KOD=E_3045_30_P           ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PLock_DOOR  ODP=PLock_DOOR_3T_1650 >> > 
+  ELEMENT[ N ]=<KOD=E_3045_35_10_P        ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PLock_DOOR  ODP=PLock_DOOR_3T_2200 >> > 
+  
+  //ответка
+  ELEMENT[ N ]=<KOD=E_3096_30_P           ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_DOOR ODP=PKlamka_DOOR_FAPIM >    WARUNEK=< PYT=PLock_DOOR ODP=PLock_DOOR_1T >> > 
+  ELEMENT[ N ]=<KOD=E_3093_30_P           ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_DOOR ODP=PKlamka_DOOR_STUBLINA > WARUNEK=< PYT=PLock_DOOR ODP=PLock_DOOR_1T >> > 
+  
+  ELEMENT[ N ]=<KOD=E_3093_60             ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PLock_DOOR ODP=PLock_DOOR_3T_1650  ODP=PLock_DOOR_3T_2200>> > 
+  
+  //цилиндр
+  ELEMENT[ N ]=<KOD=E_5080_00_520         ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_DOOR ODP=PKlamka_DOOR_FAPIM >> >  
+  ELEMENT[ N ]=<KOD=E_5057_00_520         ILOSC=1 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_DOOR ODP=PKlamka_DOOR_STUBLINA >> >  
+  
+  //накладка
+  ELEMENT[ N ]=<KOD=E_1031_02_313         ILOSC=1 >    
+    
+  WYMIAROW_OKUCIA_RYSUNEK=
+      <
+      RYSUJ=TAK
+      RYSUNEK='klamka_ofice_p.bmp'
+      ROZMIAR_X=160
+      ROZMIAR_Y=300
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      POLOZENIE_RYSUNKU_X=5
+      POLOZENIE_RYSUNKU_Y=0
+	  LUSTRZANE_ODBICIE=TAK
+  	>	
+      RYSUJ_FUNKCJE=NIE  
+ > 
+ 
+GRUPA[KL_drzwi_brak]=
+  <
+  NAZWA='Отсутствует ручка дверная (пасивная створка)'
+  OPIS='Отсутствует ручка дверная (пасивная створка)'
+  SYSTEMY=[DEF_SYS_W77]  
+
+  RODZAJ=OKUCIE_KLAMKA
+  WAZNOSC_OKUCIA=80     
+  RODZAJE_DLA_KLAMKI=[OKUCIE_D_ZEWN2bk,OKUCIE_D_WEWN2bk]
+  RYSUJ_FUNKCJE=NIE  
+  >  
+  
+GRUPA[KL_drzwi_brak2]=
+  <
+  NAZWA='Отсутствует ручка дверная'
+  OPIS='Отсутствует ручка дверная'
+  SYSTEMY=[DEF_SYS_W77]  
+
+  RODZAJ=OKUCIE_KLAMKA
+  WAZNOSC_OKUCIA=0    
+  RODZAJE_DLA_KLAMKI = [OKUCIE_D_WEWN,OKUCIE_D_WEWN2,OKUCIE_D_ZEWN,OKUCIE_D_ZEWN2]  
+  RYSUJ_FUNKCJE=NIE  
+  >     

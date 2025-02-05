@@ -1,0 +1,418 @@
+//******************************************************************************
+//ПРИЖИМНЫЕ ПЛАНКИ И КРЫШКИ
+//******************************************************************************
+//++++++++++++++++++++++++++++++++
+//TYP_LISTWY=1 прижимная планка 110025
+//++++++++++++++++++++++++++++++++
+LISTWA[
+      LIS_SLP_PAC_4013_PAC_4015
+      ]=
+  <
+  NAZWA='F50.401+PAC_4015 (S)'
+  OPIS='Притискна планка F50.401 + кришка F50.502'
+  KATEGORIA='Притискна планка F50.401 + кришка F50.502'
+  RYSUNEK='PAC_4013_PAC_4015.vct'
+  SYSTEMY=[DEF_SYS_F50]
+  TYP_LISTWY=1  
+
+  MATERIALY=
+    <
+    //listwa dociskowa
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_401
+        KAT_ZEROWY_OD=-10.1 //-5*2
+        KAT_ZEROWY_DO=+10.1 //+5*2		
+        KOLOR  = KOLOR_SUROWY
+        ILE    = 1
+        DLUGOSC= 'OS_PROFILU(0)'
+        PAR_A=DEF_LISTWA2
+	    GDY_PARAMETR='(PROFIL_ANGLE_SYMMETRIC=1)'		
+       > 
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_401
+        KAT_ZEROWY_OD=-10.1 //-5*2
+        KAT_ZEROWY_DO=+10.1 //+5*2		
+        KOLOR  = KOLOR_SUROWY
+        ILE    = 1
+        DLUGOSC= 'OS_PROFILU(0)'
+        PAR_A=DEF_LISTWA2
+	    GDY_PARAMETR='(PROFIL_ANGLE_SYMMETRIC=0)'		
+       >	   
+    //listwa maskujaca
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_502
+        KAT_ZEROWY_OD=-10.1 //-5*2
+        KAT_ZEROWY_DO=+10.1 //+5*2		
+        KOLOR  = KOLOR_ZEWN
+        ILE    = 1
+        DLUGOSC= 'OS_PROFILU(0)'
+        PAR_A=DEF_LISTWA
+	    GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'	
+      >
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_502
+        KAT_ZEROWY_OD=-10.1 //-5*2
+        KAT_ZEROWY_DO=+10.1 //+5*2				
+        KOLOR  = KOLOR_ZEWN
+        ILE    = 1
+        DLUGOSC= 'OS_PROFILU(0)'
+        PAR_A=DEF_LISTWA
+	    GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=0'	
+      >	  	  
+    >
+  >
+  
+LISTWA[
+      LIS_SLP_PAC_4025
+      ]=
+  <
+  NAZWA='F50.403 (S)'
+  OPIS='Притискна планка F50.403'
+  KATEGORIA='Притискна планка F50.403'
+  RYSUNEK='100057X.vct'
+  SYSTEMY=[DEF_SYS_F50]
+  TYP_LISTWY=2 
+
+  MATERIALY=
+    <
+    //listwa dociskowa
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_403
+        KAT_ZEROWY_OD=-10.1 //-5*2
+        KAT_ZEROWY_DO=+10.1 //+5*2		
+        KOLOR  = KOLOR_ZEWN
+        ILE    = 1
+        DLUGOSC= 'OS_PROFILU(0)'
+        PAR_A=DEF_LISTWA2
+	    GDY_PARAMETR='(PROFIL_ANGLE_SYMMETRIC=1)'		
+       > 
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_403
+        KAT_ZEROWY_OD=-10.1 //-5*2
+        KAT_ZEROWY_DO=+10.1 //+5*2		
+        KOLOR  = KOLOR_ZEWN
+        ILE    = 1
+        DLUGOSC= 'OS_PROFILU(0)'
+        PAR_A=DEF_LISTWA2
+	    GDY_PARAMETR='(PROFIL_ANGLE_SYMMETRIC=0)'		
+       >	   	  
+    >
+  >  
+  
+LISTWA[
+      LIS_RYG_PAC_4013_PAC_4014
+      ]=
+  <
+  NAZWA='F50.401+F50.501 (R)'
+  OPIS='Притискна планка F50.401 + кришка F50.501'
+  KATEGORIA='Притискна планка F50.401 + кришка F50.501'
+  RYSUNEK='PAC_4013_PAC_4014.vct'
+  SYSTEMY=[DEF_SYS_F50]
+  TYP_LISTWY=1  
+
+  MATERIALY=
+    <
+    //listwa dociskowa
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_401
+        KOLOR  = KOLOR_SUROWY
+        ILE    = 1
+        DLUGOSC= 'OS_PROFILU(0)-D(1)'
+        PAR_A=DEF_LISTWA2
+       > 
+    //listwa maskujaca
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_501	
+        KOLOR  = KOLOR_ZEWN
+        ILE    = 1
+        DLUGOSC= 'OS_PROFILU(0)-D(1)'
+        PAR_A=DEF_LISTWA
+      >  
+    >
+  >  
+  
+LISTWA[
+      LIS_RYG_PAC_4024
+      ]=
+  <
+  NAZWA='F50.402 (R)'
+  OPIS='Притискна планка F50.402'
+  KATEGORIA='Притискна планка F50.402'
+  RYSUNEK='100056X.vct'
+  SYSTEMY=[DEF_SYS_F50]
+  TYP_LISTWY=2
+
+  MATERIALY=
+    <
+    //listwa dociskowa
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_402
+        KOLOR  = KOLOR_SUROWY
+        ILE    = 1
+        DLUGOSC= 'OS_PROFILU(0)-D(1)'
+        PAR_A=DEF_LISTWA2
+       > 
+    >
+  >    
+  
+LISTWA[
+		   LIS_SLP_PAC_4013_PAC_4015,
+		   LIS_SLP_PAC_4025
+      ]=
+  <
+  MATERIALY=
+    <  
+//Угловые 10...30*   
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_504
+            KOLOR  = KOLOR_ZEWN
+            ILE    = 1
+            KAT_ZEROWY_OD=+10 
+            KAT_ZEROWY_DO=+30		
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            PAR_A  = DEF_LISTWA
+	        GDY_PARAMETR='(PROFIL_ANGLE_SYMMETRIC=1)*(PLANKA_DLA_110026=0)'				
+          >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_506
+            KOLOR  = KOLOR_ZEWN
+            ILE    = 1
+            KAT_ZEROWY_OD=+10 
+            KAT_ZEROWY_DO=+30 		
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            PAR_A  = DEF_LISTWA
+	        GDY_PARAMETR='(PROFIL_ANGLE_SYMMETRIC=1)*(PLANKA_DLA_110026=1)'				
+          >	  
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_404
+            KOLOR  = KOLOR_SUROWY
+            ILE    = 1
+            KAT_ZEROWY_OD=+10 
+            KAT_ZEROWY_DO=+30		
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            PAR_A  = DEF_LISTWA2
+			
+	        GDY_PARAMETR='(PROFIL_ANGLE_SYMMETRIC=1)'				
+          >  
+//Угловые 30...60*  		  
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_505
+            KOLOR  = KOLOR_ZEWN
+            ILE    = 1
+            KAT_ZEROWY_OD=+30.1 
+            KAT_ZEROWY_DO=+50.0 
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            PAR_A  = DEF_LISTWA
+	        GDY_PARAMETR='(PROFIL_ANGLE_SYMMETRIC=1)*(PLANKA_DLA_110026=0)'				
+          >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_506
+            KOLOR  = KOLOR_ZEWN
+            ILE    = 1
+            KAT_ZEROWY_OD=+30.1 
+            KAT_ZEROWY_DO=+50.0 
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            PAR_A  = DEF_LISTWA
+	        GDY_PARAMETR='(PROFIL_ANGLE_SYMMETRIC=1)*(PLANKA_DLA_110026=1)'				
+          >	  
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_405
+            KOLOR  = KOLOR_SUROWY
+            ILE    = 1
+            KAT_ZEROWY_OD=+30.1 
+            KAT_ZEROWY_DO=+50.0 
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            PAR_A  = DEF_LISTWA2
+	        GDY_PARAMETR='(PROFIL_ANGLE_SYMMETRIC=1)'				
+          >	  		  
+//60...80
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_401
+        KAT_ZEROWY_OD=+50.1 
+        KAT_ZEROWY_DO=+90.0	
+        KOLOR  = KOLOR_SUROWY
+        ILE    = 1
+        DLUGOSC= 'OS_PROFILU(0)'
+        PAR_A=DEF_LISTWA2
+	    GDY_PARAMETR='(PROFIL_ANGLE_SYMMETRIC=1)'		
+       >   
+    //listwa maskujaca
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_502
+        KAT_ZEROWY_OD=+50.1 
+        KAT_ZEROWY_DO=+90.0	
+        KOLOR  = KOLOR_ZEWN
+        ILE    = 1
+        DLUGOSC= 'OS_PROFILU(0)'
+        PAR_A=DEF_LISTWA
+	    GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'	
+      >
+    PROFIL=
+      <
+        KOD    = E_ALP_F50_605
+        KAT_ZEROWY_OD=+50.1 
+        KAT_ZEROWY_DO=+90.0	
+        KOLOR  = KOLOR_ZEWN
+        ILE    = 2
+        DLUGOSC= 'OS_PROFILU(0)'
+        PAR_A=DEF_LISTWA
+	    GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'	
+      >	  
+    AKCESORIA_SZTUKI=
+      <
+        PRZEKROJ_NR=1000				  	  	  
+        KOD    =E_Sam4_2x16_DIN7982
+        ILE    = 2
+        CO     = 225			
+        KAT_ZEROWY_OD=+50.1 
+        KAT_ZEROWY_DO=+90.0	
+	    GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'				
+      >		 
+	  
+	  
+
+//-90...-10
+		  PROFIL=
+          <
+            KOD    = E_ALP_F50_506
+            KOLOR  = KOLOR_ZEWN
+            ILE    = 1
+            KAT_ZEROWY_OD=-90.5
+            KAT_ZEROWY_DO=-10.5
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            PAR_A  = DEF_LISTWA
+	        GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'							
+          >  
+        PROFIL=
+          <
+            KOD    =E_ALP_F50_406
+            KOLOR  =KOLOR_ZEWN
+            ILE    = 1
+            KAT_ZEROWY_OD=-90.5
+            KAT_ZEROWY_DO=-10.5 
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            PAR_A  = DEF_LISTWA2
+	        GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'				
+          >	 
+        AKCESORIA_METRY=
+          <
+            KOD    = E_F50_H005
+            ILE    = 2
+            KAT_ZEROWY_OD=-80.5 
+            KAT_ZEROWY_DO=-10.5 			
+            DLUGOSC= 'OS_PROFILU(0)'
+	        GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'					
+          >			
+        AKCESORIA_SZTUKI=
+         <
+            KOD    =E_Sam4_2x19_DIN7981
+            ILE    = 2
+            CO     = 225			
+            KAT_ZEROWY_OD=-90.5 
+            KAT_ZEROWY_DO=-10.5
+	        GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'				
+         >		
+		 PROFIL=
+          <
+            KOD    = E_ALP_F50_606
+            KOLOR  = KOLOR_WEWN
+            ILE    = 2
+            KAT_ZEROWY_OD=-49.5 
+            KAT_ZEROWY_DO=-39.5
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+	        GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'				
+          >			
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_607
+            KOLOR  = KOLOR_WEWN
+            ILE    = 2
+            KAT_ZEROWY_OD=-60.5 
+            KAT_ZEROWY_DO=-49.5 
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL				
+	        GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'				
+          >				  	
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_608
+            KOLOR  = KOLOR_WEWN
+            ILE    = 2
+            KAT_ZEROWY_OD=-75.5 
+            KAT_ZEROWY_DO=-64.5 
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL				
+	        GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'				
+          >		
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_609
+            KOLOR  = KOLOR_WEWN
+            ILE    = 2
+            KAT_ZEROWY_OD=-80.5 
+            KAT_ZEROWY_DO=-75.5 
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL				
+	        GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'				
+          >		
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_610
+            KOLOR  = KOLOR_WEWN
+            ILE    = 2
+            KAT_ZEROWY_OD=-90.5 
+            KAT_ZEROWY_DO=-89.5 
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL				
+	        GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'				
+          >				  
+        AKCESORIA_SZTUKI=
+         <
+            KOD    =E_Sam4_2x19_DIN7981
+            ILE    = 2
+            CO     = 225			
+            KAT_ZEROWY_OD=-90.5 
+            KAT_ZEROWY_DO=-10.5 
+	        GDY_PARAMETR='PROFIL_ANGLE_SYMMETRIC=1'				
+         >				  		  
+       >		
+    >			  

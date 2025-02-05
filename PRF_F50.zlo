@@ -1,0 +1,1818 @@
+//******************************************************************************
+//СТОЙКА
+//******************************************************************************
+FPROFIL[ PRF_F50_BRAK ]=
+  <
+    NAZWA=       'Отсутствует профиль'
+    OPIS=	     'Отсутствует профиль'
+    KATEGORIA=   'Другой'
+    RYSUNEK=	 'Brak.bmp'
+
+    IX=               500
+    IY=               500
+	
+    LOKALNA_ZMIENNA='PROFIL_GRUBOSC=500'  
+    SZEROKOSC=50
+    SZEROKOSC_WZOR='50'	
+    POLOWA=25	
+    POLOWA_WZOR='25'		
+    RYSOWAC=NIE
+    SYSTEMY=[DEF_SYS_F50]
+    ZASTOSOWANIE=    [
+            TP_50_FASADA_RYGIEL,
+			TP_50_FASADa_RYGIELgora,
+			tp_50_fasada_rygieldol,
+			TP_50_Fasada_RygielSciana,
+			TP_Fasada_PodProgiem,
+			TP_50_Fasada_Slup,
+			TP_50_Fasada_SlupSciana			
+                     ]
+    LISTWA=[
+            //LIS_bez_kruchki_TF50K	
+           ]
+		   
+    OS_LISTWY2_TEXT      = '25'
+    OS_LISTWY_TEXT       = '25'		   
+		   
+    MATERIALY=
+      <
+     >
+  >
+FPROFIL[ PRF_F50_BRAK0 ]=
+  <
+    NAZWA=    'Нулевой профиль'
+    OPIS=	  'Нулевой профиль'
+    KATEGORIA='Другой'
+    RYSUNEK=	 'Brak.bmp'
+
+    IX=               500
+    IY=               500
+	
+    LOKALNA_ZMIENNA='PROFIL_GRUBOSC=500'  
+    SZEROKOSC=0
+    RYSOWAC=NIE
+    SYSTEMY=[DEF_SYS_F50]
+    ZASTOSOWANIE=    [
+            TP_50_FASADA_RYGIEL,
+			TP_50_FASADa_RYGIELgora,
+			tp_50_fasada_rygieldol,
+			TP_50_Fasada_RygielSciana,
+			TP_Fasada_PodProgiem,
+			TP_50_Fasada_Slup,
+			TP_50_Fasada_SlupSciana			
+                     ]
+    LISTWA=[
+            //LIS_bez_kruchki_TF50K	
+           ]
+    MATERIALY=
+      <
+     >
+  >  
+//******************************************************************************
+//СТОЙКА
+//******************************************************************************
+FPROFIL[ PRF_F50_SLP_F50_101 ]=
+  <
+    NAZWA=       'F50.101X IX=1.6'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_101.VCT'
+
+    IX=               1.6
+    IY=               5.4
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_101
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >
+FPROFIL[ PRF_F50_SLP_F50_102 ]=
+  <
+    NAZWA=       'F50.102X IX=38.4'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_102.VCT'
+
+    IX=               38.4
+    IY=               18
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_102
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >  
+FPROFIL[ PRF_F50_SLP_F50_103 ]=
+  <
+    NAZWA=       'F50.103X IX=74.3'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_103.VCT'
+
+    IX=               74.3
+    IY=               22.2
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_103
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >    
+FPROFIL[ PRF_F50_SLP_F50_104 ]=
+  <
+    NAZWA=       'F50.104X IX=126.4'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_104.VCT'
+
+    IX=               126.4
+    IY=               27.6
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_104
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >    
+FPROFIL[ PRF_F50_SLP_F50_105 ]=
+  <
+    NAZWA=       'F50.105X IX=194.4'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_105.VCT'
+
+    IX=               194.4
+    IY=               32.1
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_105
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >    
+FPROFIL[ PRF_F50_SLP_F50_106 ]=
+  <
+    NAZWA=       'F50.106X IX=311.1'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_106.VCT'
+
+    IX=               311.1
+    IY=               37.7
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_106
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >      
+FPROFIL[ PRF_F50_SLP_F50_107 ]=
+  <
+    NAZWA=       'F50.107X IX=566.6'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_107.VCT'
+
+    IX=               566.6
+    IY=               49.9
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_107
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >    
+  
+//******************************************************************************
+//СТОЙКА С УСИЛИТЕЛЕМ 
+//******************************************************************************
+
+FPROFIL[ PRF_F50_WSLP_F50_102 ]=
+  <
+    NAZWA=       'F50.102X + F50.302X IX=49.2'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_102.VCT'
+
+    IX=               38.4+10.8
+    IY=               18+8.7
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_102
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_302
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >		
+     >
+  >  
+FPROFIL[ PRF_F50_WSLP_F50_103 ]=
+  <
+    NAZWA=       'F50.103X + F50.303X IX=107.3'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_103.VCT'
+
+    IX=               74.3+33
+    IY=               22.2+10.9
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_103
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_303
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >    
+FPROFIL[ PRF_F50_WSLP_F50_104 ]=
+  <
+    NAZWA=       'F50.104X + F50.304X IX=197.2'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_104.VCT'
+
+    IX=               126.4+70.8
+    IY=               27.6+13.3
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_104
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_304
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >    
+FPROFIL[ PRF_F50_WSLP_F50_105 ]=
+  <
+    NAZWA=       'F50.105X + F50.305X IX=321.3'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_105.VCT'
+
+    IX=               194.4+126.9
+    IY=               32.1+15.6
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_105
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_305
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >    
+FPROFIL[ PRF_F50_WSLP_F50_106 ]=
+  <
+    NAZWA=       'F50.106X + F50.306X IX=515.2'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_106.VCT'
+
+    IX=               311.1+204.1
+    IY=               37.7+17.9
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_106
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_306
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >      
+FPROFIL[ PRF_F50_WSLP_F50_107 ]=
+  <
+    NAZWA=       'F50.107X + F50.306X IX=770.7'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_107.VCT'
+
+    IX=               566.6+204.1
+    IY=               49.9+17.9
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_107
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_306
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >    
+
+//******************************************************************************
+//РИГЕЛИ
+//******************************************************************************
+FPROFIL[ PRF_F50_RYG_F50_201 ]=
+  <
+    NAZWA=       'F50.201X IX=0.4'
+    OPIS=	     'Профіль ригеля. Система Ф50'
+    RYSUNEK=	 'F50_201.VCT'
+
+    IX=               0.4
+    IY=               2.9
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_201
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >    
+
+FPROFIL[ PRF_F50_RYG_F50_220 ]=
+  <
+    NAZWA=       'F50.220X IX=14.1'
+    OPIS=	     'Профіль ригеля. Система Ф50'
+    RYSUNEK=	 'F50_220.VCT'
+
+    IX=               14.1
+    IY=               12.4
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=36
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_220
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >    
+FPROFIL[ PRF_F50_RYG_F50_202 ]=
+  <
+    NAZWA=       'F50.202X IX=33.1'
+    OPIS=	     'Профіль ригеля. Система Ф50'
+    RYSUNEK=	 'F50_202.VCT'
+
+    IX=               33.1
+    IY=               17.8
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=36
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_202
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >    
+FPROFIL[ PRF_F50_RYG_F50_203 ]=
+  <
+    NAZWA=       'F50.203X IX=63.4'
+    OPIS=	     'Профіль ригеля. Система Ф50'
+    RYSUNEK=	 'F50_203.VCT'
+
+    IX=               63.4
+    IY=               22.2
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=57
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_203
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >  
+FPROFIL[ PRF_F50_RYG_F50_204 ]=
+  <
+    NAZWA=       'F50.204X IX=119.4'
+    OPIS=	     'Профіль ригеля. Система Ф50'
+    RYSUNEK=	 'F50_204.VCT'
+
+    IX=              119.4
+    IY=               29.8
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=78
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_204
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >    
+FPROFIL[ PRF_F50_RYG_F50_205 ]=
+  <
+    NAZWA=       'F50.205X IX=174.7'
+    OPIS=	     'Профіль ригеля. Система Ф50'
+    RYSUNEK=	 'F50_205.VCT'
+
+    IX=              174.7
+    IY=               30.8
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=99
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_205
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >    
+FPROFIL[ PRF_F50_RYG_F50_206 ]=
+  <
+    NAZWA=       'F50.206X IX=258.3'
+    OPIS=	     'Профіль ригеля. Система Ф50'
+    RYSUNEK=	 'F50_206.VCT'
+
+    IX=              258.3
+    IY=               36.6
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=120
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_206
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >   
+FPROFIL[ PRF_F50_RYG_F50_207 ]=
+  <
+    NAZWA=       'F50.207X IX=433.4'
+    OPIS=	     'Профіль ригеля. Система Ф50'
+    RYSUNEK=	 'F50_207.VCT'
+
+    IX=              433.4
+    IY=               44.4
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=120
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_207
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+     >
+  >  
+  
+
+//******************************************************************************
+//РИГЕЛИ УСИЛЕННЫЕ
+//******************************************************************************
+
+FPROFIL[ PRF_F50_WRYG_F50_220 ]=
+  <
+    NAZWA=       'F50.220X + F50.302X IX=24.9'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_220.VCT'
+
+    IX=               14.1+10.8
+    IY=               12.4+8.7
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_220
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_302
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >    
+FPROFIL[ PRF_F50_WRYG_F50_202 ]=
+  <
+    NAZWA=       'F50.202X + F50.302X IX=43.9'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_202.VCT'
+
+    IX=               33.1+10.8
+    IY=               17.8+8.7
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_202
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_302
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >    
+FPROFIL[ PRF_F50_WRYG_F50_203 ]=
+  <
+    NAZWA=       'F50.203X + F50.303X IX=96.4'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_203.VCT'
+
+    IX=               63.4+33
+    IY=               22.2+10.9
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_203
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_303
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >  
+FPROFIL[ PRF_F50_WRYG_F50_204 ]=
+  <
+    NAZWA=       'F50.204X + F50.304X IX=190.2'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_204.VCT'
+
+    IX=              119.4+70.8
+    IY=               29.8+13.3
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_204
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_304
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >    
+FPROFIL[ PRF_F50_WRYG_F50_205 ]=
+  <
+    NAZWA=       'F50.205X + F50.305X IX=301.6'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_205.VCT'
+
+    IX=              174.7+126.9
+    IY=               30.8+15.6
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_205
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_305
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >    
+FPROFIL[ PRF_F50_WRYG_F50_206 ]=
+  <
+    NAZWA=       'F50.206X + F50.306X IX=462.4'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_2012.VCT'
+
+    IX=              258.3+204.1
+    IY=               36.6+17.9
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_206
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_306
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >   
+FPROFIL[ PRF_F50_WRYG_F50_207 ]=
+  <
+    NAZWA=       'F50.207X + F50.306X IX=637.5'
+    OPIS=	     'Профіль стійки. Система Ф50'
+    RYSUNEK=	 'F50_207.VCT'
+
+    IX=              433.4+204.1
+    IY=               44.4+17.9
+
+    SZEROKOSC=50
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_207
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_306
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+        >			
+     >
+  >    
+  
+//******************************************************************************
+//ПОВОРОТ СТОЙКИ НА +90*
+//******************************************************************************
+//******************************************************************************
+//ПОВОРОТ +90*
+//******************************************************************************
+
+FPROFIL[PRF_F50_SLY_F50_102_F50_101]=
+  <
+    NAZWA_HTML=      'F50.102X + F50.101X [+90*]'
+    OPIS=	         'Профіль стійки 60мм 90*. Система Ф50'
+    RYSUNEK=	     'F50_102_F50_101.VCT'	
+		
+    SZEROKOSC=60+64
+	POLOWA=60	
+	PROMIEN=0
+    WYSOKOSC_SRODKA=124
+    PROFIL_NAROZNY=90
+	PUNKT_BAZOWY='25'
+    KAT_ZEROWY_OD=90
+    KAT_ZEROWY_DO=90 	
+	
+	CS_PODWOJNY_PROFIL_SZEROKOSC=50	
+
+    ZMIENNA='F50_SLUP_KANTOWA_90=1'	
+	
+    LISTWA_ILE=2
+		
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_101
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			CS_bok=4
+          >
+        PROFIL=
+          <
+            KOD    = E_ALP_F50_102
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			CS_bok=5 
+          >		
+        AKCESORIA_SZTUKI=
+            <
+            PRZEKROJ_NR=1290				  
+            KOD    = E_Sam4_2x19_DIN7981
+            ILE    = 2
+            CO     = 350
+            MINIMUM= 2
+            GDY_PARAMETR='(METIZ=0)'
+       >				  	  
+    >
+ >      
+//*****************************************************************************
+// ВАРИАНТЫ И СИСТЕМЫ
+//******************************************************************************
+
+FPROFIL[
+     PRF_F50_BRAK0,
+	 PRF_F50_BRAK,
+     PRF_F50_SLP_F50_101  ,
+     PRF_F50_SLP_F50_102  ,
+     PRF_F50_SLP_F50_103  ,
+     PRF_F50_SLP_F50_104  ,
+     PRF_F50_SLP_F50_105  ,
+     PRF_F50_SLP_F50_106  ,
+     PRF_F50_SLP_F50_107  ,	 
+
+     PRF_F50_WSLP_F50_102 ,
+     PRF_F50_WSLP_F50_103 ,
+     PRF_F50_WSLP_F50_104 ,
+     PRF_F50_WSLP_F50_105 ,
+     PRF_F50_WSLP_F50_106 ,
+     PRF_F50_WSLP_F50_107 ,
+	 
+     PRF_F50_RYG_F50_201  ,
+     PRF_F50_RYG_F50_220  ,
+     PRF_F50_RYG_F50_202  ,
+     PRF_F50_RYG_F50_203  ,
+     PRF_F50_RYG_F50_204  ,
+     PRF_F50_RYG_F50_205  ,
+     PRF_F50_RYG_F50_206  ,
+     PRF_F50_RYG_F50_207  ,
+	 
+     PRF_F50_WRYG_F50_220 ,
+     PRF_F50_WRYG_F50_202 ,
+     PRF_F50_WRYG_F50_203 ,
+     PRF_F50_WRYG_F50_204 ,
+     PRF_F50_WRYG_F50_205 ,
+     PRF_F50_WRYG_F50_206 ,
+     PRF_F50_WRYG_F50_207 ,
+
+     PRF_F50_SLY_F50_102_F50_101 	 
+         ]=
+    <
+    WARIANT     = WAR_FASADA_F50
+    SYSTEMY     = [DEF_SYS_F50]
+    RYSOWAC     = TAK
+    >
+
+//******************************************************************************
+// КАТЕГОРИИ
+//******************************************************************************
+FPROFIL[
+     PRF_F50_SLP_F50_101   ,
+     PRF_F50_SLP_F50_102   ,
+     PRF_F50_SLP_F50_103   ,
+     PRF_F50_SLP_F50_104  ,
+     PRF_F50_SLP_F50_105  ,
+     PRF_F50_SLP_F50_106  ,
+     PRF_F50_SLP_F50_107  	
+         ]=
+    <
+    KATEGORIA='Стійки'
+    >
+	
+FPROFIL[
+	 PRF_F50_WSLP_F50_102  ,
+     PRF_F50_WSLP_F50_103  ,
+     PRF_F50_WSLP_F50_104 ,
+     PRF_F50_WSLP_F50_105 ,
+     PRF_F50_WSLP_F50_106 ,
+     PRF_F50_WSLP_F50_107 	
+         ]=
+    <
+    KATEGORIA='Стійки підсилені'
+    >	
+
+FPROFIL[
+     PRF_F50_RYG_F50_201   ,
+     PRF_F50_RYG_F50_220   ,
+     PRF_F50_RYG_F50_202   ,
+     PRF_F50_RYG_F50_203   ,
+     PRF_F50_RYG_F50_204  ,
+     PRF_F50_RYG_F50_205  ,
+     PRF_F50_RYG_F50_206  ,
+     PRF_F50_RYG_F50_207 
+         ]=
+    <
+    KATEGORIA='Ригелі'
+    >	
+
+FPROFIL[
+     PRF_F50_WRYG_F50_220  ,
+     PRF_F50_WRYG_F50_202  ,
+     PRF_F50_WRYG_F50_203  ,
+     PRF_F50_WRYG_F50_204 ,
+     PRF_F50_WRYG_F50_205 ,
+     PRF_F50_WRYG_F50_206 ,
+     PRF_F50_WRYG_F50_207 	 
+         ]=
+    <
+    KATEGORIA='Ригелі підсилені'
+    >	
+
+FPROFIL[
+     PRF_F50_SLY_F50_102_F50_101	 
+         ]=
+    <
+    KATEGORIA='Повороти + 90*'
+    >	
+
+//******************************************************************************
+// ИСПОЛЬЗОВАНИЕ 
+//******************************************************************************
+FPROFIL[
+     PRF_F50_SLP_F50_101  ,
+     PRF_F50_SLP_F50_102  ,
+     PRF_F50_SLP_F50_103  ,
+     PRF_F50_SLP_F50_104  ,
+     PRF_F50_SLP_F50_105  ,
+     PRF_F50_SLP_F50_106  ,
+     PRF_F50_SLP_F50_107  ,
+	 
+	 PRF_F50_WSLP_F50_102 ,
+     PRF_F50_WSLP_F50_103 ,
+     PRF_F50_WSLP_F50_104 ,
+     PRF_F50_WSLP_F50_105 ,
+     PRF_F50_WSLP_F50_106 ,
+     PRF_F50_WSLP_F50_107 ,
+
+     PRF_F50_SLY_F50_102_F50_101 ,
+     PRF_F50_SLY_F50_102_F50_101	 
+      ]=
+    <
+    ZASTOSOWANIE=    [
+                      TP_50_FASADA_SLUP, //стойка в середине
+                      TP_50_Fasada_SlupSciana //стойка крайняя
+                     ]
+    LISTWA=[
+        LIS_SLP_PAC_4013_PAC_4015,
+		LIS_SLP_PAC_4025
+           ]
+	MATERIAL_DO_FASAD='FASAD_F50_S'
+       >
+  
+FPROFIL[
+     PRF_F50_RYG_F50_201   ,
+     PRF_F50_RYG_F50_220   ,
+     PRF_F50_RYG_F50_202   ,
+     PRF_F50_RYG_F50_203   ,
+     PRF_F50_RYG_F50_204  ,
+     PRF_F50_RYG_F50_205  ,
+     PRF_F50_RYG_F50_206  ,
+     PRF_F50_RYG_F50_207  ,
+	 
+     PRF_F50_WRYG_F50_220  ,
+     PRF_F50_WRYG_F50_202  ,
+     PRF_F50_WRYG_F50_203  ,
+     PRF_F50_WRYG_F50_204 ,
+     PRF_F50_WRYG_F50_205 ,
+     PRF_F50_WRYG_F50_206 ,
+     PRF_F50_WRYG_F50_207 	 	 
+      ]=
+  <
+    ZASTOSOWANIE=    [
+                        TP_50_FASADA_RYGIEL,
+			            TP_50_FASADa_RYGIELgora,
+			            tp_50_fasada_rygieldol,
+			            TP_50_Fasada_RygielSciana
+                     ]
+    LISTWA=[
+        LIS_RYG_PAC_4013_PAC_4014,
+		LIS_RYG_PAC_4024
+           ]
+    MATERIAL_DO_FASAD='FASAD_F50_R'
+  >
+//******************************************************************************
+//УПЛОТНИТЕЛИ СТОЙКИ
+//******************************************************************************
+FPROFIL[
+     PRF_F50_BRAK0         ,
+	 PRF_F50_BRAK          ,
+     PRF_F50_SLP_F50_101  ,
+     PRF_F50_SLP_F50_102  ,
+     PRF_F50_SLP_F50_103  ,
+     PRF_F50_SLP_F50_104  ,
+     PRF_F50_SLP_F50_105  ,
+     PRF_F50_SLP_F50_106  ,
+     PRF_F50_SLP_F50_107  ,
+
+	 PRF_F50_WSLP_F50_102 ,
+     PRF_F50_WSLP_F50_103 ,
+     PRF_F50_WSLP_F50_104 ,
+     PRF_F50_WSLP_F50_105 ,
+     PRF_F50_WSLP_F50_106 ,
+     PRF_F50_WSLP_F50_107
+         ]=
+     <
+    USZCZELNIENIE=   DEF_USZ_FASAD_F50
+    >
+	
+FPROFIL[
+     PRF_F50_SLY_F50_102_F50_101	 
+         ]=
+     <
+    USZCZELNIENIE=   DEF_USZ_FASAD_F50
+	
+    OS_SZYBY =      13
+    OS_KLIPSA=      13
+	
+    PUNKTY=
+       <
+    PUNKT=< NAZWA='KRAWEDZ_SLUPA' ZACHODZENIE=  0  BOKA=TAK BOKB=TAK    PION=TAK POZIOM=TAK >
+       >
+    >
+//******************************************************************************
+//УПЛОТНИТЕЛИ РИГЕЛЯ
+//******************************************************************************
+FPROFIL[
+     PRF_F50_RYG_F50_201  ,
+     PRF_F50_RYG_F50_220  ,
+     PRF_F50_RYG_F50_202  ,
+     PRF_F50_RYG_F50_203  ,
+     PRF_F50_RYG_F50_204  ,
+     PRF_F50_RYG_F50_205  ,
+     PRF_F50_RYG_F50_206  ,
+     PRF_F50_RYG_F50_207  ,
+	 
+     PRF_F50_WRYG_F50_220  ,
+     PRF_F50_WRYG_F50_202  ,
+     PRF_F50_WRYG_F50_203  ,
+     PRF_F50_WRYG_F50_204 ,
+     PRF_F50_WRYG_F50_205 ,
+     PRF_F50_WRYG_F50_206 ,
+     PRF_F50_WRYG_F50_207 	 	 
+         ]=
+
+     <
+    USZCZELNIENIE=   DEF_USZ_FASAD_F50
+	
+    OS_SZYBY =      13
+    OS_KLIPSA=      13
+    PUNKTY=
+       <
+    PUNKT=< NAZWA='KRAWEDZ_SLUPA' ZACHODZENIE=  0  BOKA=TAK BOKB=TAK    PION=TAK POZIOM=TAK >
+       >
+    >
+//******************************************************************************
+//УГЛОВЫЕ СТОЙКИ
+//******************************************************************************
+
+FPROFIL[
+     PRF_F50_SLP_F50_101  ,
+     PRF_F50_SLP_F50_102  ,
+     PRF_F50_SLP_F50_103  ,
+     PRF_F50_SLP_F50_104  ,
+     PRF_F50_SLP_F50_105  ,
+     PRF_F50_SLP_F50_106  ,
+     PRF_F50_SLP_F50_107  ,
+	 
+	 PRF_F50_WSLP_F50_102 ,
+     PRF_F50_WSLP_F50_103 ,
+     PRF_F50_WSLP_F50_104 ,
+     PRF_F50_WSLP_F50_105 ,
+     PRF_F50_WSLP_F50_106 ,
+     PRF_F50_WSLP_F50_107 		 
+        ]=
+  <
+    RYSOWAC              = TAK
+    SZEROKOSC_WZOR       = '25/COS(PROFIL_ANGLE_A)+25/COS(PROFIL_ANGLE_B)'
+	POLOWA_WZOR          = '25/COS(PROFIL_ANGLE_A)'
+	
+    SZEROKOSC_NIETYPOWA  = NIE
+    OD_KATA              = -90
+    DO_KATA              = +90
+    PROMIEN              = 0.001
+	
+	RODZAJ_KATA=ANGLE_BOTH_B
+	
+    ZESTAW_PUNKTOW       = 'PUNKTY_SLUP_F50'
+    SZYBA_TEXT           = 'PUNKT_SZKLO_FASAD_F50   + F50_CORRECT_ZACHODZENIE_X'
+    SZYBA_W_TEXT         = 'PUNKT_SZKLO_W_FASAD_F50 + F50_CORRECT_ZACHODZENIE_W_X'	
+    OS_LISTWY2_TEXT      = 'PUNKT_DOCISK_FASAD_F50'
+    OS_LISTWY_TEXT       = 'PUNKT_LISTWA_FASAD_F50'
+    //LOKALNA_ZMIENNA='GLASS_MIDDLE_SHIFT=0'	
+  >
+
+//******************************************************************************
+//КОМПЛЕКТАЦИЯ К СТОЙКЕ (капельник)
+//******************************************************************************
+FPROFIL[
+     PRF_F50_SLP_F50_101  ,
+     PRF_F50_SLP_F50_102  ,
+     PRF_F50_SLP_F50_103  ,
+     PRF_F50_SLP_F50_104  ,
+     PRF_F50_SLP_F50_105  ,
+     PRF_F50_SLP_F50_106  ,
+     PRF_F50_SLP_F50_107  ,
+	 
+	 PRF_F50_WSLP_F50_102 ,
+     PRF_F50_WSLP_F50_103 ,
+     PRF_F50_WSLP_F50_104 ,
+     PRF_F50_WSLP_F50_105 ,
+     PRF_F50_WSLP_F50_106 ,
+     PRF_F50_WSLP_F50_107 ,
+	 
+     PRF_F50_SLY_F50_102_F50_101 ,
+     PRF_F50_SLY_F50_102_F50_101	 	 
+      ]=
+  <
+    MATERIALY=
+      <
+       //капельник
+	   AKCESORIA_SZTUKI=
+         <
+         KOD    =E_F50_D01030
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         TYLKO_U_DOLU
+         GDY_PARAMETR='DETAL_KAPELNIKA_F50=0'	
+        >	
+	   AKCESORIA_SZTUKI=
+         <
+         KOD    =E_F50_D01040
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         TYLKO_U_DOLU
+         GDY_PARAMETR='DETAL_KAPELNIKA_F50=1'	
+        >				
+      >
+   >  
+//******************************************************************************
+//КОМПЛЕКТАЦИЯ К РИГЕЛЮ (подкладки под ст-т + Держ. ст-та)
+//******************************************************************************
+
+FPROFIL[
+     PRF_F50_RYG_F50_201  ,
+     PRF_F50_RYG_F50_220  ,
+     PRF_F50_RYG_F50_202  ,
+     PRF_F50_RYG_F50_203  ,
+     PRF_F50_RYG_F50_204  ,
+     PRF_F50_RYG_F50_205  ,
+     PRF_F50_RYG_F50_206  ,
+     PRF_F50_RYG_F50_207  ,
+	 
+     PRF_F50_WRYG_F50_220 ,
+     PRF_F50_WRYG_F50_202 ,
+     PRF_F50_WRYG_F50_203 ,
+     PRF_F50_WRYG_F50_204 ,
+     PRF_F50_WRYG_F50_205 ,
+     PRF_F50_WRYG_F50_206 ,
+     PRF_F50_WRYG_F50_207 	 	 
+      ]=
+  <
+    BLAD_WARUNEK='(MASA_NAD>120)*((GRUBOSC_NAD>=6)*(GRUBOSC_NAD<=36))'
+    BLAD_TEKST='Максимальна допустима вага до 120кг!'		
+	  
+    BLAD_WARUNEK='(MASA_NAD>300)*((GRUBOSC_NAD>=38)*(GRUBOSC_NAD<=65))'
+    BLAD_TEKST='Максимальна допустима вага до 300кг!'	  
+  
+    MATERIALY=
+      <
+       //Держ. ст-та
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_ALP_F50_601_14
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=5.5
+         DO_MAX_GR_SZKLA=8.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=0)'	 
+         >			 
+       WYLICZENIE=
+         <
+         KOD=E_ALP_F50_601 
+         KOLOR=KOLOR_SUROWY			 
+         PAR_ILOSC='2'	
+	     PAR_DLUGOSC='80'	  
+	     PAR_KAT1='0'
+	     PAR_KAT2='0'
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=5.5
+         DO_MAX_GR_SZKLA=8.5	 
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=1)'	 
+          >	
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_PODKL_100_8_3
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=5.5
+         DO_MAX_GR_SZKLA=8.5
+         >			 		  
+//****************************	
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_ALP_F50_601_32
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=23.5
+         DO_MAX_GR_SZKLA=28.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=0)'	 
+         >			 
+       WYLICZENIE=
+         <
+         KOD=E_ALP_F50_601 
+         KOLOR=KOLOR_SUROWY			 
+         PAR_ILOSC='2'	
+	     PAR_DLUGOSC='100'	  
+	     PAR_KAT1='0'
+	     PAR_KAT2='0'
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=23.5
+         DO_MAX_GR_SZKLA=28.5	 
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=1)'	 
+          >		
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_PODKL_100_26_3
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=23.5
+         DO_MAX_GR_SZKLA=28.5
+         >			  	  
+//****************************
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_ALP_F50_601_38
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=29.5
+         DO_MAX_GR_SZKLA=34.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=0)'	 
+         >			 
+       WYLICZENIE=
+         <
+         KOD=E_ALP_F50_601 
+         KOLOR=KOLOR_SUROWY			 
+         PAR_ILOSC='2'	
+	     PAR_DLUGOSC='100'	  
+	     PAR_KAT1='0'
+	     PAR_KAT2='0'
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=29.5
+         DO_MAX_GR_SZKLA=34.5	 
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=1)'	 
+          >		
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_PODKL_100_32_3
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=29.5
+         DO_MAX_GR_SZKLA=34.5
+         >			  		  
+//****************************		
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_ALP_F50_601_44
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=35.5
+         DO_MAX_GR_SZKLA=40.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=0)*(MASA_NAD<=120)'	 
+         >		
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_ALP_F50_602_44
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=35.5
+         DO_MAX_GR_SZKLA=40.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=0)*((MASA_NAD>=120)*(MASA_NAD<=300))'	 
+         >				 
+       WYLICZENIE=
+         <
+         KOD=E_ALP_F50_601 
+         KOLOR=KOLOR_SUROWY			 
+         PAR_ILOSC='2'	
+	     PAR_DLUGOSC='100'	  
+	     PAR_KAT1='0'
+	     PAR_KAT2='0'
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=35.5
+         DO_MAX_GR_SZKLA=40.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=1)*(MASA_NAD<=120)'	 
+          >		
+       WYLICZENIE=
+         <
+         KOD=E_ALP_F50_602 
+         KOLOR=KOLOR_SUROWY			 
+         PAR_ILOSC='2'	
+	     PAR_DLUGOSC='150'	  
+	     PAR_KAT1='0'
+	     PAR_KAT2='0'
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=35.5
+         DO_MAX_GR_SZKLA=40.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=1)*((MASA_NAD>=120)*(MASA_NAD<=300))'	 
+          >	
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_Sam5_5x38_DIN7981
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 6
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=35.5
+         DO_MAX_GR_SZKLA=40.5
+         GDY_PARAMETR='((MASA_NAD>=120)*(MASA_NAD<=300))'	 		 
+         >			  
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_PODKL_100_38_3
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=35.5
+         DO_MAX_GR_SZKLA=40.5
+         >				  		  
+//****************************	
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_ALP_F50_601_50
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=41.5
+         DO_MAX_GR_SZKLA=46.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=0)*(MASA_NAD<=120)'	 
+         >		
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_ALP_F50_602_50
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=41.5
+         DO_MAX_GR_SZKLA=46.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=0)*((MASA_NAD>=120)*(MASA_NAD<=300))'	 
+         >				
+       WYLICZENIE=
+         <
+         KOD=E_ALP_F50_601 
+         KOLOR=KOLOR_SUROWY			 
+         PAR_ILOSC='2'	
+	     PAR_DLUGOSC='100'	  
+	     PAR_KAT1='0'
+	     PAR_KAT2='0'
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=41.5
+         DO_MAX_GR_SZKLA=46.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=1)*(MASA_NAD<=120)'	 
+          >		
+       WYLICZENIE=
+         <
+         KOD=E_ALP_F50_602 
+         KOLOR=KOLOR_SUROWY			 
+         PAR_ILOSC='2'	
+	     PAR_DLUGOSC='150'	  
+	     PAR_KAT1='0'
+	     PAR_KAT2='0'
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=41.5
+         DO_MAX_GR_SZKLA=46.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=1)*((MASA_NAD>=120)*(MASA_NAD<=300))'	 
+          >	
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_Sam5_5x38_DIN7981
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 6
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=41.5
+         DO_MAX_GR_SZKLA=46.5
+         GDY_PARAMETR='((MASA_NAD>=120)*(MASA_NAD<=300))'	 		 
+         >			  
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_PODKL_100_44_3
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=41.5
+         DO_MAX_GR_SZKLA=46.5
+         >			  		  		  
+//****************************		
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_ALP_F50_601_56
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=47.5
+         DO_MAX_GR_SZKLA=52.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=0)*(MASA_NAD<=120)'	 
+         >		
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_ALP_F50_602_56
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=47.5
+         DO_MAX_GR_SZKLA=52.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=0)*((MASA_NAD>=120)*(MASA_NAD<=300))'	 
+         >				
+       WYLICZENIE=
+         <
+         KOD=E_ALP_F50_601 
+         KOLOR=KOLOR_SUROWY			 
+         PAR_ILOSC='2'	
+	     PAR_DLUGOSC='100'	  
+	     PAR_KAT1='0'
+	     PAR_KAT2='0'
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=47.5
+         DO_MAX_GR_SZKLA=52.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=1)*(MASA_NAD<=120)'	 
+          >		
+       WYLICZENIE=
+         <
+         KOD=E_ALP_F50_602 
+         KOLOR=KOLOR_SUROWY			 
+         PAR_ILOSC='2'	
+	     PAR_DLUGOSC='150'	  
+	     PAR_KAT1='0'
+	     PAR_KAT2='0'
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=47.5
+         DO_MAX_GR_SZKLA=52.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=1)*((MASA_NAD>=120)*(MASA_NAD<=300))'	 
+          >	
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_Sam5_5x38_DIN7981
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 6
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=47.5
+         DO_MAX_GR_SZKLA=52.5
+         GDY_PARAMETR='((MASA_NAD>=120)*(MASA_NAD<=300))'	 		 
+         >			  
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_PODKL_100_50_3
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=47.5
+         DO_MAX_GR_SZKLA=52.5
+         >			  	  
+//****************************	
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_ALP_F50_602_60
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=53.5
+         DO_MAX_GR_SZKLA=54.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=0)*(GLASS_SUPPORT_F50_HEAVY=0)'	 
+         >					
+       WYLICZENIE=
+         <
+         KOD=E_ALP_F50_602 
+         KOLOR=KOLOR_SUROWY			 
+         PAR_ILOSC='2'	
+	     PAR_DLUGOSC='150'	  
+	     PAR_KAT1='0'
+	     PAR_KAT2='0'
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=53.5
+         DO_MAX_GR_SZKLA=54.5
+         GDY_PARAMETR='(GLASS_SUPPORT_PROFILE=1)*(GLASS_SUPPORT_F50_HEAVY=0)'	 
+          >		
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_Sam5_5x38_DIN7981
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 6
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=53.5
+         DO_MAX_GR_SZKLA=54.5
+         GDY_PARAMETR='(GLASS_SUPPORT_F50_HEAVY=0)'	 		 
+         >				  
+	   AKCESORIA_SZTUKI=
+         <
+         PRZEKROJ_NR=942		 
+         KOD    =E_PODKL_100_54_3
+         KOLOR  =KOLOR_CALOSCI
+         ILE    = 2
+         KIEDY  = [TP_Szyba]
+         NA_ODCINKU=TAK
+         TYLKO_U_GORY
+         OD_MAX_GR_SZKLA=53.5
+         DO_MAX_GR_SZKLA=54.5
+         GDY_PARAMETR='(GLASS_SUPPORT_F50_HEAVY=0)'	 		 		 
+         >			  
+      >
+   >
+   
+FPROFIL[	
+     //PRF_F50_RYG_F50_203  ,
+     PRF_F50_RYG_F50_204  ,
+     PRF_F50_RYG_F50_205  ,
+     PRF_F50_RYG_F50_206  ,
+     PRF_F50_RYG_F50_207  ,
+	 
+     PRF_F50_WRYG_F50_204 ,
+     PRF_F50_WRYG_F50_205 ,
+     PRF_F50_WRYG_F50_206 ,
+     PRF_F50_WRYG_F50_207 
+      ]=
+  <
+			
+        DODATKOWE_PARAMETRY
+          <			  
+            Z_LISTY=
+        	  <
+			  KATEGORIA      ='Main'
+        	  KLUCZ		     ='GLASS_SUPPORT_F50_HEAVY'
+	          PYTANIE		 ='Варіант опори під склопакет:'
+	          STANDARDOWO	 ='0'
+	          ELEMENT		 ='Стандартний (макс. 200кг)'          INDEKS=0
+	          ELEMENT		 ='Підсиленні  (макс. 700кг)'          INDEKS=1
+
+              RYSUNEK        = 'GLASS_SUPPORT_F50_HEAVY.vct'
+              ROZMIAR_RYSUNKU=150	
+
+              WLACZONA_KONTROLKA_GDY = '(GRUBOSC_NAD=54)'
+		      WIDOCZNA_KONTROLKA_GDY = '(GRUBOSC_NAD=54)'
+	          WIDOCZNY_RYSUNEK_GDY   = '(GRUBOSC_NAD=54)'
+        	  >				  
+           >
+        >	     

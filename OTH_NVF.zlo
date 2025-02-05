@@ -1,0 +1,66 @@
+//******************************************************************************
+// Podziaіy
+//******************************************************************************
+PRZESLO[SPLIT_NVF_KERAM_KLIAM]=
+  <
+  NAZWA='З"єднання вертикальних направляючих (ПАС-1601.01)'
+  OPIS='З"єднання вертикальних направляючих'
+  KATEGORIA='З"єднання вертикальних направляючих'  
+  RYSUNEK=   'Stukovka_D0100702.vct'    
+
+      SYSTEMY= [DEF_SYS_NVF_KERAM_KLIAM]
+        DODATKOWE_PARAMETRY=
+          <
+          LICZBA_RZECZYWISTA=
+		   <
+             KLUCZ='SZCZELINA'
+			 PYTANIE='Розмір паза між стійками [mm]:'					 
+             STANDARDOWO='10'
+             MIN_WARTOSC=0
+             MAX_WARTOSC=20
+           >
+          LICZBA_RZECZYWISTA=
+		   <
+             KLUCZ='WYSOKOSC_CALOSC'
+			 PYTANIE='Довжина з"єднувальної труби [mm]:'
+             STANDARDOWO='200'
+             MIN_WARTOSC=100
+             MAX_WARTOSC=1000
+             WIDZIANE    = NIE			 
+           >	
+          LICZBA_RZECZYWISTA=
+		   <
+             KLUCZ='WYSOKOSC_GORA'
+		     PYTANIE='Довжина виступаючої частини (вверх) [mm]:'
+             STANDARDOWO='100'
+             MIN_WARTOSC=50
+             MAX_WARTOSC=250
+             WIDZIANE    = NIE			 			 
+           >		   
+          >
+            DLA_PROFILI=
+              [
+              PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608,
+	          PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608_P,
+              PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844,
+	          PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844_P,
+              PRF_NVF_KERAM_KLIAM_Vertical_Keram_Wall,
+	          PRF_NVF_KERAM_KLIAM_Vertical_YM90,
+	          PRF_NVF_KERAM_KLIAM_Vertical_YP90			
+              ]		  
+    MATERIALY=
+      <
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=305
+            KOD=      E_ALP_NVF_PAS_1601_01
+            PAR_ILOSC=    '1'
+          >	  
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=305
+            KOD=      E_ALP_NVF_Zakl_5_10_DIN7337
+            PAR_ILOSC=    '4'
+          >	  		  
+     >
+>

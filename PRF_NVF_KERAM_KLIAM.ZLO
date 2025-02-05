@@ -1,0 +1,523 @@
+//******************************************************************************
+// Profile
+//******************************************************************************
+
+FPROFIL[PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Keram]=
+  <
+  NAZWA='Поділ між плитами'
+  OPIS='Горизонтальне січенні'
+  KATEGORIA= 'Січення'
+  RYSUNEK='68B20 2-2'
+  SZEROKOSC=8
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=289
+            KOD    =E_BRAK_PROFILE_NVF
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >      
+     >
+  >
+  
+FPROFIL[PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wing]=
+  <
+  NAZWA='Конец плити, вікно чи двері'
+  OPIS='Верхнє/нижнє примикання до вікна'
+  KATEGORIA= 'Січення'
+  RYSUNEK='68B20 3-3'
+  SZEROKOSC=8
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=289
+            KOD    =E_BRAK_PROFILE_NVF
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >      	  
+      >
+>
+  
+FPROFIL[PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wall]=
+  <
+  NAZWA='Стіна горизонтальна'
+  OPIS='Верхнє/нижнє примикання до вікна'
+  KATEGORIA= 'Січення'
+  RYSUNEK='68B20 9-9'
+  SZEROKOSC=0
+  
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=289
+            KOD    =E_BRAK_PROFILE_NVF
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >      
+     >  
+  >
+
+FPROFIL[PRF_NVF_KERAM_KLIAM_Vertical_Keram_Wall]=
+  <
+    NAZWA='Стіна вертикальна'
+    OPIS=''
+    KATEGORIA= 'Направляюча' 
+    RYSUNEK='68B20 9-9'
+    SZEROKOSC=0
+  >
+
+FPROFIL[ PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608 ]=
+  <
+    NAZWA=     'ПАС-3608X вертикальний (стиковочний)'
+    OPIS=	   'Вертикальне січення (стиковочний)'
+    KATEGORIA= '1) Направляюча (стиковочна)' 
+    RYSUNEK=   'PAS_3608_Pion.VCT'
+
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=70
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    =E_ALP_NVF_PAS_3608
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >
+        AKCESORIA_SZTUKI=
+          <
+            KOD=E_ALP_NVF_Zakl_4_8_DIN7337
+            ILE=2
+            TYLKO_W_PRZEKROJACH
+          >
+        AKCESORIA_SZTUKI=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_ALP_NVF_KLAMER_LINE
+            ILE=1
+		    TYLKO_W_PRZEKROJACH
+          >
+     >
+  >
+  
+FPROFIL[ PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844 ]=
+  <
+    NAZWA=     'ПАС-3844X вертикальний (крайня)'
+    OPIS=	   'Вертикальне січення (крайня)'
+    KATEGORIA= '3) Направляюча (крайня)' 
+    RYSUNEK=   'PAS_3844_Pion.VCT'
+
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=35
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    =E_ALP_NVF_PAS_3844
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >
+        AKCESORIA_SZTUKI=
+          <
+            KOD=E_ALP_NVF_Zakl_4_8_DIN7337
+            ILE=2
+            TYLKO_W_PRZEKROJACH
+          >
+        AKCESORIA_SZTUKI=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_ALP_NVF_KLAMER_BOK
+            ILE=1
+		    TYLKO_W_PRZEKROJACH
+          >
+     >
+  >  
+  
+FPROFIL[ PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608_P ]=
+  <
+    NAZWA=     'ПАС-3608X Вертикаль (проміжний)'
+    OPIS=	   'Вертикальне січення (проміжний)'
+    KATEGORIA= '2) Направляюча (проміжна)' 
+    RYSUNEK=   'PAS_3608_Pion_P.VCT'
+
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=70
+    WYSOKOSC_SRODKA=0
+    NIE_DZIELI_SZKLA 	
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    =E_ALP_NVF_PAS_3608
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >
+        AKCESORIA_SZTUKI=
+          <
+            KOD=E_ALP_NVF_Zakl_4_8_DIN7337
+            ILE=2
+            TYLKO_W_PRZEKROJACH
+          >
+        AKCESORIA_SZTUKI=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_ALP_NVF_KLAMER_LINE
+            ILE=1
+		    TYLKO_W_PRZEKROJACH
+          >
+     >
+  >  
+  
+FPROFIL[ PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844_P ]=
+  <
+    NAZWA=     'ПАС-3844X вертикальний (проміжний)'
+    OPIS=	   'Вертикальне січення (проміжний)'
+    KATEGORIA= '2) Направляюча (проміжна)' 
+    RYSUNEK=   'PAS_3844_Pion_P.VCT'
+
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=35
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    =E_ALP_NVF_PAS_3844
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >
+        AKCESORIA_SZTUKI=
+          <
+            KOD=E_ALP_NVF_Zakl_4_8_DIN7337
+            ILE=2
+            TYLKO_W_PRZEKROJACH
+          >
+        AKCESORIA_SZTUKI=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_ALP_NVF_KLAMER_BOK
+            ILE=1
+		    TYLKO_W_PRZEKROJACH
+          >
+     >
+  >    
+//********************************************  
+//Поворотные
+//********************************************  
+FPROFIL[ PRF_NVF_KERAM_KLIAM_Vertical_YP90 ]=
+  <
+    NAZWA=     'Поворот +90 (50х50х2мм)'
+    OPIS=	   'Вертикальне кутове cічення'
+    KATEGORIA= '4) Направляюча (поворот)' 
+    RYSUNEK=   'NVF_KERAM_KLIAM_Vertical_YP90_50_50_2.VCT'
+
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=100
+    WYSOKOSC_SRODKA=1
+    PROFIL_NAROZNY=90	
+
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    = E_ALP_NVF_50_50_2
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >
+        AKCESORIA_SZTUKI=
+          <
+            KOD=E_ALP_NVF_Zakl_4_8_DIN7337
+            ILE=4
+            TYLKO_W_PRZEKROJACH
+          >
+        AKCESORIA_SZTUKI=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_ALP_NVF_KLAMER_BOK
+            ILE=2
+		    TYLKO_W_PRZEKROJACH
+          >
+        AKCESORIA_SZTUKI=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_ALP_NVF_KLAMER_START
+            ILE=1
+		    TYLKO_W_PRZEKROJACH
+          >		  
+     >
+  >
+  
+FPROFIL[ PRF_NVF_KERAM_KLIAM_Vertical_PAS_3426_YP90 ]=
+  <
+    NAZWA=     'Поворот +90 (ПАС-3426)'
+    OPIS=	   'Вертикальне кутове cічення'
+    KATEGORIA= '4) Направляюча (поворот)' 
+    RYSUNEK=   'NVF_KERAM_KLIAM_Vertical_PAS_3426_YP90.VCT'
+
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=100
+    WYSOKOSC_SRODKA=1
+    PROFIL_NAROZNY=90	
+
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    = E_ALP_NVF_PAS_3426
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >
+        AKCESORIA_SZTUKI=
+          <
+            KOD=E_ALP_NVF_Zakl_4_8_DIN7337
+            ILE=4
+            TYLKO_W_PRZEKROJACH
+          >
+        AKCESORIA_SZTUKI=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_ALP_NVF_KLAMER_BOK
+            ILE=2
+		    TYLKO_W_PRZEKROJACH
+          >
+        AKCESORIA_SZTUKI=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_ALP_NVF_KLAMER_START
+            ILE=1
+		    TYLKO_W_PRZEKROJACH
+          >		  
+     >
+  >  
+FPROFIL[ PRF_NVF_KERAM_KLIAM_Vertical_YM90 ]=
+  <
+    NAZWA=     'ПАС-3844 + ПАС-3844 Поворот -90*'
+    OPIS=	   'Вертикальне кутове cічення'
+    KATEGORIA= '4) Направляюча (поворот)' 
+    RYSUNEK=   'PAS_3844_PAS_3844_90m.VCT'
+
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=35+38+13+35
+	PROMIEN=1
+	PUNKT_BAZOWY='35+38'	
+    WYSOKOSC_SRODKA=1
+    PROFIL_NAROZNY=-90	
+
+	CS_PODWOJNY_PROFIL_SZEROKOSC=35	
+	
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    =E_ALP_NVF_PAS_3844
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+			CS_bok=4				
+        >
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    =E_ALP_NVF_PAS_3844
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+			CS_bok=5				
+        >		
+        AKCESORIA_SZTUKI=
+          <
+            KOD=E_ALP_NVF_Zakl_4_8_DIN7337
+            ILE=4
+            TYLKO_W_PRZEKROJACH
+          >
+        AKCESORIA_SZTUKI=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_ALP_NVF_KLAMER_BOK
+            ILE=2
+		    TYLKO_W_PRZEKROJACH
+          >
+        AKCESORIA_SZTUKI=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_ALP_NVF_KLAMER_START
+            ILE=1
+		    TYLKO_W_PRZEKROJACH
+          >	
+     >
+  >  
+//******************************************************************************
+// Zastosowania
+//******************************************************************************
+FPROFIL[
+       PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608,
+	   PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608_P
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_Slup]
+  SZYBA_TEXT='(70-8)/2'
+  >
+
+FPROFIL[
+	   PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844_P	   
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_Slup]
+  SZYBA_TEXT='35'
+  >  
+
+FPROFIL[
+	   PRF_NVF_KERAM_KLIAM_Vertical_YP90,
+	   PRF_NVF_KERAM_KLIAM_Vertical_PAS_3426_YP90
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_Slup]
+  SZYBA_B_TEXT='48'
+  SZYBA_A_TEXT='62'  
+  >
+  
+FPROFIL[
+	   PRF_NVF_KERAM_KLIAM_Vertical_YM90
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_Slup]
+  SZYBA_B_TEXT='57.5'
+  SZYBA_A_TEXT='48-5.5'  
+  >
+  
+FPROFIL[
+       PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Keram
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_Rygiel]
+  SZYBA_B_TEXT='0.8'
+  SZYBA_A_TEXT='-0.8'  
+  NIE_RYSUJ_PODZIALOW=tak
+  NIE_LICZ_ELEMENTOW_MOCUJACYCH=tak
+  >
+
+FPROFIL[
+       PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wall
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_RygielSciana]
+  SZYBA_TEXT='-1.6*(PROFIL_U_DOLU=0)+0*(PROFIL_U_DOLU=1)'
+  NIE_RYSUJ_PODZIALOW=tak
+  NIE_LICZ_ELEMENTOW_MOCUJACYCH=tak
+  >
+
+FPROFIL[
+       PRF_NVF_KERAM_KLIAM_Vertical_Keram_Wall
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_SlupSciana]
+  SZYBA_TEXT='KASETA_SCIANA_BOK'
+  NIE_RYSUJ_PODZIALOW=tak
+  NIE_LICZ_ELEMENTOW_MOCUJACYCH=tak
+  >
+  
+FPROFIL[
+       PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_SlupSciana]
+  SZYBA_TEXT='35+KASETA_SCIANA_BOK'
+  NIE_RYSUJ_PODZIALOW=tak
+  NIE_LICZ_ELEMENTOW_MOCUJACYCH=tak
+  >  
+
+FPROFIL[
+       PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wing
+       ]=
+  <
+  ZASTOSOWANIE=[TP_RamaDoFasadyWentylowanej,TP_RamaDoFasadyWentylowanej_PION]
+  //SZYBA_A_TEXT='33+KASETA_SKRZYDLO_BOK*(PION)+KASETA_SKRZYDLO_TOP*(POZIOM)*(GRUBOSC_NAD=0)+KASETA_SKRZYDLO_BOTTOM*(POZIOM)*(GRUBOSC_NAD#0)'
+  SZYBA_A_TEXT='0'
+  SZYBA_B_TEXT='0'
+  NIE_RYSUJ_PODZIALOW=tak
+  NIE_LICZ_ELEMENTOW_MOCUJACYCH=tak
+  >
+
+FPROFIL[
+       PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608,
+	   PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608_P,
+       PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844,
+	   PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844_P,
+       PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Keram,
+       PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wall,
+       PRF_NVF_KERAM_KLIAM_Vertical_Keram_Wall,
+       PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wing,
+	   PRF_NVF_KERAM_KLIAM_Vertical_YM90,
+	   PRF_NVF_KERAM_KLIAM_Vertical_YP90,
+	   PRF_NVF_KERAM_KLIAM_Vertical_PAS_3426_YP90
+       ]=
+  <
+  WARIANT=WAR_NVF_KERAM_KLIAM
+  SYSTEMY=[DEF_SYS_NVF_KERAM_KLIAM]
+  USZCZELNIENIE=DEF_USZ_NVF_KERAM_KLIAM
+  >
+

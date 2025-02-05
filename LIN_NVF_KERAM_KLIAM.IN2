@@ -1,0 +1,386 @@
+////***********************//***********************//********************************
+//T90
+////***********************//***********************//********************************
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Keram	
+            ]
+    PROFIL2=[
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_LINE      ILE=1 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_LINE      ILE=1 PAR_B=1  > 	    
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=4 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=4 PAR_B=1  > 	    	  
+      >
+	  
+      DODATKOWY_RYSUNEK=
+      < 
+        RYSUNEK      = 'KLAMER_LINE_SHOW.vct'
+        X0           = '-35' 
+        Y0           = '-35' 
+        XK           = '35' 
+        YK           = '35' 
+        WSPOLRZEDNE_PROFILU
+        DODAC_PUNKTY
+        GDY_PARAMETR='(PRZY_SCIANIE=0)*(PROFIL2_PRZY_SCIANIE=0)*(SHOW_KLIAMER=1)' //nie dzia³a	
+      >	
+      
+      DODATKOWY_RYSUNEK=
+      < 
+        RYSUNEK      = 'KLAMER_LINE_SHOW.vct'
+        X0           = '-35' 
+        Y0           = '-35' 
+        XK           = '35' 
+        YK           = '35' 
+        WSPOLRZEDNE_PROFILU
+        DODAC_PUNKTY
+        GDY_PARAMETR='(PRZY_SCIANIE=0)*(PROFIL2_PRZY_SCIANIE=1)*(SHOW_KLIAMER=1)' //nie dzia³a	
+      >		  
+  >  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Keram	
+            ]
+    PROFIL2=[
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608_P			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_LINE      ILE=1 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_LINE      ILE=1 PAR_B=1  > 	
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=4 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=4 PAR_B=1  > 	 	  
+      >
+	  
+      DODATKOWY_RYSUNEK=
+      < 
+        RYSUNEK      = 'KLAMER_LINE_SHOW.vct'
+        X0           = '-35' 
+        Y0           = '-35' 
+        XK           = '35' 
+        YK           = '35' 
+        WSPOLRZEDNE_PROFILU
+        DODAC_PUNKTY
+        GDY_PARAMETR='(PRZY_SCIANIE=0)*(PROFIL2_PRZY_SCIANIE=0)*(SHOW_KLIAMER=1)' //nie dzia³a	
+      >	
+      
+      DODATKOWY_RYSUNEK=
+      < 
+        RYSUNEK      = 'KLAMER_LINE_SHOW.vct'
+        X0           = '-35' 
+        Y0           = '-35' 
+        XK           = '35' 
+        YK           = '35' 
+        WSPOLRZEDNE_PROFILU
+        DODAC_PUNKTY
+        GDY_PARAMETR='(PRZY_SCIANIE=0)*(PROFIL2_PRZY_SCIANIE=1)*(SHOW_KLIAMER=1)' //nie dzia³a	
+      >		  
+  >   
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Keram	
+            ]
+    PROFIL2=[
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844_P,
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844 				
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_BOK     ILE=1 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_BOK     ILE=1 PAR_B=1  > 	
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=4 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=4 PAR_B=1  > 	 	  
+      >
+	  
+      DODATKOWY_RYSUNEK=
+      < 
+        RYSUNEK      = 'KLAMER_BOK_SHOW.vct'
+        X0           = '-35' 
+        Y0           = '-35' 
+        XK           = '35' 
+        YK           = '35' 
+        WSPOLRZEDNE_PROFILU
+        DODAC_PUNKTY
+        GDY_PARAMETR='(PRZY_SCIANIE=0)*(PROFIL2_PRZY_SCIANIE=0)*(SHOW_KLIAMER=1)' //nie dzia³a	
+      >	
+      
+      DODATKOWY_RYSUNEK=
+      < 
+        RYSUNEK      = 'KLAMER_BOK_SHOW.vct'
+        X0           = '-35' 
+        Y0           = '-35' 
+        XK           = '35' 
+        YK           = '35' 
+        WSPOLRZEDNE_PROFILU
+        DODAC_PUNKTY
+        GDY_PARAMETR='(PRZY_SCIANIE=0)*(PROFIL2_PRZY_SCIANIE=1)*(SHOW_KLIAMER=1)' //nie dzia³a	
+      >		  
+  >     
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Keram	
+            ]
+    PROFIL2=[
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3426_YP90,
+            PRF_NVF_KERAM_KLIAM_Vertical_YP90	      ,
+			PRF_NVF_KERAM_KLIAM_Vertical_YM90
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_BOK      ILE=2 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_BOK      ILE=2 PAR_B=1  > 
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_START    ILE=1 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_START    ILE=1 PAR_B=1  > 		  
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=4 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=4 PAR_B=1  > 	 	  
+      >
+
+      DODATKOWY_RYSUNEK=
+      < 
+        RYSUNEK      = 'KLAMER_BOK_SHOW.vct'
+        X0           = '25' 
+        Y0           = '25' 
+        XK           = '100' 
+        YK           = '100' 
+        WSPOLRZEDNE_PROFILU
+        DODAC_PUNKTY
+        GDY_PARAMETR='(PRZY_SCIANIE=0)*(PROFIL2_PRZY_SCIANIE=0)*(SHOW_KLIAMER=1)' //nie dzia³a	
+      >	
+      
+      DODATKOWY_RYSUNEK=
+      < 
+        RYSUNEK      = 'KLAMER_BOK_SHOW.vct'
+        X0           = '25' 
+        Y0           = '25' 
+        XK           = '100' 
+        YK           = '100' 
+        WSPOLRZEDNE_PROFILU
+        DODAC_PUNKTY
+        GDY_PARAMETR='(PRZY_SCIANIE=0)*(PROFIL2_PRZY_SCIANIE=1)*(SHOW_KLIAMER=1)' //nie dzia³a	
+      >		  
+  >   
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Keram	
+            ]
+    PROFIL2=[
+            PRF_NVF_KERAM_KLIAM_Vertical_Keram_Wall			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      >
+  >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wall	
+            ]
+    PROFIL2=[
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_START     ILE=1 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_START     ILE=1 PAR_B=1  > 
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=2 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=2 PAR_B=1  > 		  
+	  >
+  
+  DODATKOWY_RYSUNEK=
+  < 
+    RYSUNEK      = 'KLAMER_START_SHOW.vct'
+    X0           = '-35' 
+    Y0           = '35' 
+    XK           = '35' 
+    YK           = '-35' 
+    WSPOLRZEDNE_PROFILU
+    DODAC_PUNKTY
+    GDY_PARAMETR='(PRZY_SCIANIE=1)*(PROFIL_U_DOLU=1)*(SHOW_KLIAMER=1)' //nie dzia³a
+  >	  
+  DODATKOWY_RYSUNEK=
+  < 
+    RYSUNEK      = 'KLAMER_START_SHOW.vct'
+    X0           = '-35' 
+    Y0           = '-35' 
+    XK           = '35' 
+    YK           = '35' 
+    WSPOLRZEDNE_PROFILU
+    DODAC_PUNKTY
+    GDY_PARAMETR='(PRZY_SCIANIE=1)*(PROFIL_U_GORY=1)*(SHOW_KLIAMER=1)' //nie dzia³a
+   >	    	  
+  >  
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wall	
+            ]
+    PROFIL2=[
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608_P,
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844_P,
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844 			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_START    ILE=1 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_START    ILE=1 PAR_B=1  > 
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=2 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=2 PAR_B=1  > 		  
+	  >
+  
+  DODATKOWY_RYSUNEK=
+  < 
+    RYSUNEK      = 'KLAMER_START_SHOW.vct'
+    X0           = '-35' 
+    Y0           = '35' 
+    XK           = '35' 
+    YK           = '-35' 
+    WSPOLRZEDNE_PROFILU
+    DODAC_PUNKTY
+    GDY_PARAMETR='(PRZY_SCIANIE=1)*(PROFIL_U_DOLU=1)*(SHOW_KLIAMER=1)' //nie dzia³a
+  >	  
+  DODATKOWY_RYSUNEK=
+  < 
+    RYSUNEK      = 'KLAMER_START_SHOW.vct'
+    X0           = '-35' 
+    Y0           = '-35' 
+    XK           = '35' 
+    YK           = '35' 
+    WSPOLRZEDNE_PROFILU
+    DODAC_PUNKTY
+    GDY_PARAMETR='(PRZY_SCIANIE=1)*(PROFIL_U_GORY=1)*(SHOW_KLIAMER=1)' //nie dzia³a
+   >	    	  
+  >  
+
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wall	
+            ]
+    PROFIL2=[
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3426_YP90,
+            PRF_NVF_KERAM_KLIAM_Vertical_YP90		  ,
+			PRF_NVF_KERAM_KLIAM_Vertical_YM90	
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_START    ILE=2 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_START    ILE=2 PAR_B=1  > 
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_START    ILE=1 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_KLAMER_START    ILE=1 PAR_B=1  > 		  
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=4 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_DIN7337 ILE=4 PAR_B=1  > 	 	  
+      >
+	  
+      DODATKOWY_RYSUNEK=
+      < 
+        RYSUNEK      = 'KLAMER_START_SHOW.vct'
+        X0           = '25' 
+        Y0           = '25' 
+        XK           = '100' 
+        YK           = '100' 
+        WSPOLRZEDNE_PROFILU
+        DODAC_PUNKTY
+        GDY_PARAMETR='(PRZY_SCIANIE=1)*(PROFIL_U_DOLU=1)*(SHOW_KLIAMER=1)' //nie dzia³a
+      >	
+      
+      DODATKOWY_RYSUNEK=
+      < 
+        RYSUNEK      = 'KLAMER_START_SHOW.vct'
+        X0           = '25' 
+        Y0           = '25' 
+        XK           = '100' 
+        YK           = '100' 
+        WSPOLRZEDNE_PROFILU
+        DODAC_PUNKTY
+        GDY_PARAMETR='(PRZY_SCIANIE=1)*(PROFIL_U_GORY=1)*(SHOW_KLIAMER=1)' //nie dzia³a
+      >		  
+  >      
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wall	
+            ]
+    PROFIL2=[
+            PRF_NVF_KERAM_KLIAM_Vertical_Keram_Wall			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      >
+  >      
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wing	
+            ]
+    PROFIL2=[
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608,
+	        PRF_NVF_KERAM_KLIAM_Vertical_PAS_3608_P,
+            PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844,
+	        PRF_NVF_KERAM_KLIAM_Vertical_PAS_3844_P,
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Keram,
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wall,
+            PRF_NVF_KERAM_KLIAM_Vertical_Keram_Wall,
+            PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wing,
+	        PRF_NVF_KERAM_KLIAM_Vertical_YM90,
+	        PRF_NVF_KERAM_KLIAM_Vertical_YP90,
+	        PRF_NVF_KERAM_KLIAM_Vertical_PAS_3426_YP90			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      >
+  >     

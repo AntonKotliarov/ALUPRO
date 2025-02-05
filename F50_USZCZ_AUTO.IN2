@@ -1,0 +1,156 @@
+//*****************************
+//USZCZELKI 
+//*****************************
+       WARUNEK1='(WOLNE_MIEJSCE<0)' 	  
+       BLAD['ќтсутствует решение дл€ данного заполнени€!']	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=2.5)*(WOLNE_MIEJSCE<=3)'  	  
+       USZCZELKA[E_RP_34;'SWIATLO_DLG';csGumsInside]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=4.5)*(WOLNE_MIEJSCE<=5)'  	  
+       USZCZELKA[E_RP_33;'SWIATLO_DLG';csGumsInside]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=6.5)*(WOLNE_MIEJSCE<=7)'  	  
+       USZCZELKA[E_RP_32;'SWIATLO_DLG';csGumsInside]	
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=7.5)*(WOLNE_MIEJSCE<=8.5)'	  
+       USZCZELKA[E_RP_31;'SWIATLO_DLG';csGumsInside]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=9.5)*(WOLNE_MIEJSCE<=10.5)'  //+	  
+       USZCZELKA[E_RP_30;'SWIATLO_DLG';csGumsInside]			   
+
+       WARUNEK1='(WOLNE_MIEJSCE>=12.5)*(WOLNE_MIEJSCE<=13)'	  //+
+       USZCZELKA[E_RP_34;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL1]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=14.5)*(WOLNE_MIEJSCE<=15)'	  //+
+       USZCZELKA[E_RP_33;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL1]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=16.5)*(WOLNE_MIEJSCE<=17)'	  //+
+       USZCZELKA[E_RP_32;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL1]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=18)*(WOLNE_MIEJSCE<=18.5)'	  //+ 
+       USZCZELKA[E_RP_31;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL1]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=20)*(WOLNE_MIEJSCE<=20.5)'	  //+
+       USZCZELKA[E_RP_30;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL1]	
+	   
+
+       WARUNEK1='(WOLNE_MIEJSCE>=22)*(WOLNE_MIEJSCE<=23)'	  //+
+       USZCZELKA[E_RP_32;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H002;'SWIATLO_DLG';csAdapterL1]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=24)*(WOLNE_MIEJSCE<=25)'	  //+ 
+       USZCZELKA[E_RP_33;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=26)*(WOLNE_MIEJSCE<=27)'	  //+  
+       USZCZELKA[E_RP_32;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=28)*(WOLNE_MIEJSCE<=28.5)'	  //+
+       USZCZELKA[E_RP_31;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=30)*(WOLNE_MIEJSCE<=30.5)'	  //+
+       USZCZELKA[E_RP_30;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	   
+	   
+
+       WARUNEK1='(WOLNE_MIEJSCE>=32)*(WOLNE_MIEJSCE<=33)'	  //+ 
+       USZCZELKA[E_RP_34;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL2]		   
+
+       WARUNEK1='(WOLNE_MIEJSCE>=34)*(WOLNE_MIEJSCE<=35)'	  //+ 
+       USZCZELKA[E_RP_33;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL2]	
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=36)*(WOLNE_MIEJSCE<=37)'	  //+
+       USZCZELKA[E_RP_32;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL2]	
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=38)*(WOLNE_MIEJSCE<=38.5)*(MAX_GR_SZKLA#36)'	  //+
+       USZCZELKA[E_RP_31;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL2]	
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=38)*(WOLNE_MIEJSCE<=38.5)*(MAX_GR_SZKLA=36)'	  //+
+       USZCZELKA[E_RP_31;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H002;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H002;'SWIATLO_DLG';csAdapterL2]		   
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=40)*(WOLNE_MIEJSCE<=40.5)*(MAX_GR_SZKLA#36)'	//+  
+       USZCZELKA[E_RP_30;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL2]	
+
+       WARUNEK1='(WOLNE_MIEJSCE>=40)*(WOLNE_MIEJSCE<=40.5)*(MAX_GR_SZKLA=36)'	//+  
+       USZCZELKA[E_RP_30;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H002;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H002;'SWIATLO_DLG';csAdapterL2]		   
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=42)*(WOLNE_MIEJSCE<=43)'	  
+       USZCZELKA[E_RP_34;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL2]		   
+
+       WARUNEK1='(WOLNE_MIEJSCE>=44)*(WOLNE_MIEJSCE<=45)'	  
+       USZCZELKA[E_RP_33;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL2]	
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=46)*(WOLNE_MIEJSCE<=47)'	  
+       USZCZELKA[E_RP_32;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL2]	
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=48)*(WOLNE_MIEJSCE<=48.5)'	  //+
+       USZCZELKA[E_RP_31;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL2]	
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=50)*(WOLNE_MIEJSCE<=50.5)'	  //+
+       USZCZELKA[E_RP_30;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL2]		
+	   
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=52)*(WOLNE_MIEJSCE<=53)'	  
+       USZCZELKA[E_RP_34;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL2]	
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL3]		   
+
+       WARUNEK1='(WOLNE_MIEJSCE>=54)*(WOLNE_MIEJSCE<=55)'	 //+ 
+       USZCZELKA[E_RP_33;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL2]	
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL3]		
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=56)*(WOLNE_MIEJSCE<=57)'	  //+
+       USZCZELKA[E_RP_32;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL2]	
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL3]		
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=58)*(WOLNE_MIEJSCE<=58.5)'	  
+       USZCZELKA[E_RP_31;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL2]	
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL3]		
+	   
+       WARUNEK1='(WOLNE_MIEJSCE>=60)*(WOLNE_MIEJSCE<=60.5)'	  
+       USZCZELKA[E_RP_30;'SWIATLO_DLG';csGumsInside]		
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL1]	
+       PROFIL[E_F50_H003;'SWIATLO_DLG';csAdapterL2]	
+       PROFIL[E_F50_H001;'SWIATLO_DLG';csAdapterL3]		
+	   
+	   
+	   WARUNEK1='' 			

@@ -1,0 +1,1692 @@
+    GRUPA[KL_okno_PO_v_komplekte]=
+      <
+        NAZWA='Ручка входить в комплект фурнітури'
+        OPIS='Ручка оконная'
+        WAZNOSC_OKUCIA=0
+		RODZAJ=OKUCIE_KLAMKA
+        RODZAJE_DLA_KLAMKI=[OKUCIE_ROZWIERANE,OKUCIE_ROZWIERANE_RP,OKUCIE_UR,OKUCIE_UR_RP,OKUCIE_UCHYLNE,OKUCIE_UCHYLNE_G,OKUCIE_UCHYLNE_Z]
+        GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW1,TS_RamaOkienna_OBW2,TS_RamaOkienna_PVC_OW1,TS_RamaOkienna_PVC_OW2,TS_RamaOkienna_SkrzydloWentylacyjne,TS_RamaOkienna_OUP1,TS_RamaOkienna_OUP2,TS_RamaOkienna_OUP3]	
+		
+        RYSUNEK='strelka.png'		
+		
+        CZY_POCHWYT=NIE
+        RYSUJ_FUNKCJE=NIE
+      >		
+	  
+    GRUPA[KL_okna_brak]=
+      <
+        NAZWA='Відсутня ручка віконна'
+        OPIS='Отсутствует ручка оконная'
+        SYSTEMY=[DEF_SYS_W77]  
+    
+        RODZAJ=OKUCIE_KLAMKA
+        WAZNOSC_OKUCIA=80     
+        RODZAJE_DLA_KLAMKI=[OKUCIE_RP,OKUCIE_ROZWIERANE_RP]
+        GDY_KONSTRUKCJA=[TS_RamaOkienna_PVC_OW3,TS_RamaOkienna_OW3]
+		RYSUJ_FUNKCJE=NIE  
+      >  		  
+
+ GRUPA[OK_ROZW_BRAK]=
+      <
+         NAZWA='Без фурнітури'  
+         OPIS='Без фурнітури'
+         RODZAJ=OKUCIE_ROZWIERANE
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+		 
+         OSTRZEZENIE_WARUNEK='1'
+         OSTRZEZENIE_TEKST='Без фурнітури!'				 
+
+         PAR_A_TEKST='Высота ручки'
+	     PAR_A_STANDARDOWO='H/2'
+         OD_B=450 DO_B=2500
+         OD_H=500 DO_H=2500
+      > 
+    GRUPA[OK_UR_BRAK]=
+      <
+         NAZWA='Без фурнітури'  
+         OPIS='Без фурнітури'
+         RODZAJ=OKUCIE_UR
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+		 
+         OSTRZEZENIE_WARUNEK='1'
+         OSTRZEZENIE_TEKST='Без фурнітури!'				 
+
+         PAR_A_TEKST='Высота ручки'
+	     PAR_A_STANDARDOWO='H/2'
+         OD_B=450 DO_B=2500
+         OD_H=500 DO_H=2500
+      > 
+    GRUPA[OK_RP_BRAK]=
+      <
+         NAZWA='Без фурнітури'  
+         OPIS='Без фурнітури'
+         RODZAJ=OKUCIE_ROZWIERANE_RP
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+		 
+         OSTRZEZENIE_WARUNEK='1'
+         OSTRZEZENIE_TEKST='Без фурнітури!'				 
+
+         PAR_A_TEKST='Высота ручки'
+	     PAR_A_STANDARDOWO='H/2'
+         OD_B=450 DO_B=2500
+         OD_H=500 DO_H=2500
+      >
+    GRUPA[OK_RPP_BRAK]=
+      <
+         NAZWA='Без фурнітури'  
+         OPIS='Без фурнітури'
+         RODZAJ=OKUCIE_RP
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+		 
+         OSTRZEZENIE_WARUNEK='1'
+         OSTRZEZENIE_TEKST='Без фурнітури!'				 
+
+         PAR_A_TEKST='Высота ручки'
+	     PAR_A_STANDARDOWO='H/2'
+         OD_B=450 DO_B=2500
+         OD_H=500 DO_H=2500
+      >
+
+    GRUPA[OK_URP_BRAK]=
+      <
+         NAZWA='Без фурнітури'  
+         OPIS='Без фурнітури'
+         RODZAJ=OKUCIE_UR_RP
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+		 
+         OSTRZEZENIE_WARUNEK='1'
+         OSTRZEZENIE_TEKST='Без фурнітури!'				 
+
+         PAR_A_TEKST='Высота ручки'
+	     PAR_A_STANDARDOWO='H/2'
+         OD_B=450 DO_B=2500
+         OD_H=500 DO_H=2500
+      >
+    GRUPA[OK_UCHYLNE_BRAK]=
+      <
+         NAZWA='Без фурнітури'  
+         OPIS='Без фурнітури'
+         RODZAJ=OKUCIE_UCHYLNE
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+		 
+         OSTRZEZENIE_WARUNEK='1'
+         OSTRZEZENIE_TEKST='Без фурнітури!'				 
+
+         PAR_A_TEKST='Высота ручки'
+	     PAR_A_STANDARDOWO='H/2'
+         OD_B=450 DO_B=2500
+         OD_H=500 DO_H=2500
+      >	  
+    GRUPA[OK_UCHYLNE_G_BRAK]=
+      <
+         NAZWA='Без фурнітури'  
+         OPIS='Без фурнітури'
+         RODZAJ=OKUCIE_UCHYLNE_ZG
+         GDY_KONSTRUKCJA= [TS_FASADA_RAMASTALA, TS_Fasada_RamaTon2, TS_Fasada_RamaOps1,TS_Fasada_RamaHOP, TS_Fasada_RamaTon4,TS_Fasada_RamaTMC]
+		 
+         OSTRZEZENIE_WARUNEK='1'
+         OSTRZEZENIE_TEKST='Без фурнітури!'				 
+
+         PAR_A_TEKST='Высота ручки'
+	     PAR_A_STANDARDOWO='H/2'
+         OD_B=450 DO_B=2500
+         OD_H=500 DO_H=2500
+      >	 		
+	  
+//******************************************************************************
+
+   GRUPA[OK_R1_VIS_FAPIM]=
+      <
+         NAZWA='FAPIM - Фурнітура П (видима, 150кг)'
+         OPIS='Фурнітура для поворотного вікна Fapim. Натисніть кнопку: "Вибрати"'
+         RODZAJ=OKUCIE_ROZWIERANE
+
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+      >	
+    GRUPA[OK_R2_VIS_FAPIM]=
+      <
+         NAZWA='FAPIM - Фурнітура П (видима, 150кг) [Активна]'
+         OPIS='Фурнітура для П стулки для 2-х стулкового вікна зі штульпом Fapim. Натисніть кнопку: "Вибрати"'
+         RODZAJ=OKUCIE_ROZWIERANE_RP 
+		
+		ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_R3_VIS_FAPIM	
+
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'			 	
+      >	
+   GRUPA[OK_R1_VIS_FAPIM,OK_R2_VIS_FAPIM]=
+      <
+      PYTANIA=
+      <
+             PYTANIE=
+             <
+               NR    = PKlamka_FAPIM
+               NAZWA = 'Вибір ручки'
+               OPIS  = 'Вибір ручки'
+       
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0757B     NAZWA='Ручка 0757B'                   OPIS=''                  PRIORYTET=1 RYSUNEK='0757B.jpg' >
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0530B     NAZWA='Ручка 0530B'                   OPIS=''                  PRIORYTET=0 RYSUNEK='0530B.jpg' >	
+       		>	
+       >	 	  
+	  
+         WAZNOSC_OKUCIA=80
+		 
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]			 
+
+         WYMIAR_OKUCIA = 'KLAMKA'		 
+         
+         OD_B=400 DO_B=1300
+         OD_H=500 DO_H=2600
+	     DO_M=150
+		 
+         ZLOZONY_LIMIT = 'OK_R1_VIS_FAPIM'  
+         RYSUNEK='OK_R1_VIS_FAPIM.bmp'			 
+		 
+         OSTRZEZENIE_WARUNEK='(B/H)>1.25'
+         OSTRZEZENIE_TEKST='Співвідношення ширини стулки до її висоти не повинно перевищувати 1.25'
+		 
+    //******** KLAMKI ZEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_outside.vct'
+      ROZMIAR_X=32 ROZMIAR_Y=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      RYSUNEK_PROST_MM = '30' 
+      RYSUNEK_ROWN_MM = 'H+45-WYS_KLAMKI'  	  	  
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=2
+	  >		 
+		 
+    //******** KLAMKI WEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_inside.vct'
+      ROZMIAR_X=32 ROZMIAR_Y=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      RYSUNEK_PROST_MM = '30' 
+      RYSUNEK_ROWN_MM = 'H+45-WYS_KLAMKI'  	  
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=1
+	  >				 		 
+		 
+	 //**************klamka******************	 
+	 ELEMENT[ N ]=<KOD=E_0757B   ILOSC=1     OD_B=400 DO_B=1300 OD_H=500 DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0757B >> > 
+	 ELEMENT[ N ]=<KOD=E_0530B   ILOSC=1     OD_B=400 DO_B=1300 OD_H=500 DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0530B >> > 	 
+	 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=400  DO_B=1000 OD_H=500  DO_H=1000>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=2     OD_B=400  DO_B=1000 OD_H=500  DO_H=1000>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=2     OD_B=400  DO_B=1000 OD_H=500  DO_H=1000>
+	 ELEMENT[ N ]=<KOD=E_1615i	 ILOSC=1     OD_B=400  DO_B=1000 OD_H=500  DO_H=1000>	
+	 ELEMENT[ N ]=<KOD=E_9800A	 ILOSC=2     OD_B=400  DO_B=1000 OD_H=500  DO_H=1000 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=517>   //RYSUNEK_FUNKCJI='ZAW_WEWN_fapim.bmp'   ROZMIAR_X=35   ROZMIAR_Y=125  POLOZENIE_RYSUNKU_FUNKCJI=POL_LEWO     POLOZENIE_RYSUNKU_FUNKCJI_DY=0     POLOZENIE_RYSUNKU_FUNKCJI_DX=90 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>	 
+         ////////////////////////////////////////                                      
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=500  DO_H=1000> 
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=500  DO_H=1000> 
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4     OD_B=1000 DO_B=1300 OD_H=500  DO_H=1000> 	
+	 ELEMENT[ N ]=<KOD=E_1515A	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=500  DO_H=1000> 	
+	 ELEMENT[ N ]=<KOD=E_9826B 	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=500  DO_H=1000 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=517>   //RYSUNEK_FUNKCJI='ZAW_WEWN_fapim.bmp'   ROZMIAR_X=35   ROZMIAR_Y=125  POLOZENIE_RYSUNKU_FUNKCJI=POL_LEWO     POLOZENIE_RYSUNKU_FUNKCJI_DY=0     POLOZENIE_RYSUNKU_FUNKCJI_DX=25 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+         ////////////////////////////////////////        
+         ////////////////////////////////////////                                     		 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=400  DO_B=600  OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=3     OD_B=400  DO_B=600  OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=3     OD_B=400  DO_B=600  OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1615i	 ILOSC=1     OD_B=400  DO_B=600  OD_H=1000 DO_H=1800>	
+	 ELEMENT[ N ]=<KOD=E_1622	 ILOSC=1     OD_B=400  DO_B=600  OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_9800A	 ILOSC=2     OD_B=400  DO_B=600  OD_H=1000 DO_H=1800 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=517>   //RYSUNEK_FUNKCJI='ZAW_WEWN_fapim.bmp'   ROZMIAR_X=35   ROZMIAR_Y=125  POLOZENIE_RYSUNKU_FUNKCJI=POL_LEWO     POLOZENIE_RYSUNKU_FUNKCJI_DY=0     POLOZENIE_RYSUNKU_FUNKCJI_DX=90 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>	
+         ////////////////////////////////////////                                     		 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=600  DO_B=1000 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=3     OD_B=600  DO_B=1000 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=3     OD_B=600  DO_B=1000 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1615i	 ILOSC=1     OD_B=600  DO_B=1000 OD_H=1000 DO_H=1800>	
+	 ELEMENT[ N ]=<KOD=E_1622	 ILOSC=1     OD_B=600  DO_B=1000 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_9826B	 ILOSC=2     OD_B=600  DO_B=1000 OD_H=1000 DO_H=1800 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=517>   //RYSUNEK_FUNKCJI='ZAW_WEWN_fapim.bmp'   ROZMIAR_X=35   ROZMIAR_Y=125  POLOZENIE_RYSUNKU_FUNKCJI=POL_LEWO     POLOZENIE_RYSUNKU_FUNKCJI_DY=0     POLOZENIE_RYSUNKU_FUNKCJI_DX=90 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>	
+         ////////////////////////////////////////                                     		 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=3     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=5     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1515A	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1622	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800>	
+	 ELEMENT[ N ]=<KOD=E_9826B	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=517>   //RYSUNEK_FUNKCJI='ZAW_WEWN_fapim.bmp'   ROZMIAR_X=35   ROZMIAR_Y=125  POLOZENIE_RYSUNKU_FUNKCJI=POL_LEWO     POLOZENIE_RYSUNKU_FUNKCJI_DY=0     POLOZENIE_RYSUNKU_FUNKCJI_DX=90 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+         ////////////////////////////////////////        
+         ////////////////////////////////////////  	 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=400  DO_B=600  OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=4     OD_B=400  DO_B=600  OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4     OD_B=400  DO_B=600  OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_1615i	 ILOSC=1     OD_B=400  DO_B=600  OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_1622	 ILOSC=2     OD_B=400  DO_B=600  OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_9800A	 ILOSC=3     OD_B=400  DO_B=600  OD_H=1800 DO_H=2600 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=517>   //RYSUNEK_FUNKCJI='ZAW_WEWN_fapim.bmp'   ROZMIAR_X=35   ROZMIAR_Y=125  POLOZENIE_RYSUNKU_FUNKCJI=POL_LEWO     POLOZENIE_RYSUNKU_FUNKCJI_DY=0     POLOZENIE_RYSUNKU_FUNKCJI_DX=90 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>	 
+         ////////////////////////////////////////                                     		  
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=600  DO_B=1000 OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=4     OD_B=600  DO_B=1000 OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4     OD_B=600  DO_B=1000 OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_1615i	 ILOSC=1     OD_B=600  DO_B=1000 OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_1622	 ILOSC=2     OD_B=600  DO_B=1000 OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_9826B	 ILOSC=3     OD_B=600  DO_B=1000 OD_H=1800 DO_H=2600 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=517>   //RYSUNEK_FUNKCJI='ZAW_WEWN_fapim.bmp'   ROZMIAR_X=35   ROZMIAR_Y=125  POLOZENIE_RYSUNKU_FUNKCJI=POL_LEWO     POLOZENIE_RYSUNKU_FUNKCJI_DY=0     POLOZENIE_RYSUNKU_FUNKCJI_DX=90 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>	 
+         ////////////////////////////////////////                                     		  
+	 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=5     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=7     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2600>	
+	 ELEMENT[ N ]=<KOD=E_1515A	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_1622	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2600>
+	 ELEMENT[ N ]=<KOD=E_9826B	 ILOSC=3     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2600 POZYCJA_ELEMENTU=STRONA_LEWA PRZEKROJ_NR=517>   //RYSUNEK_FUNKCJI='ZAW_WEWN_fapim.bmp'   ROZMIAR_X=35   ROZMIAR_Y=125  POLOZENIE_RYSUNKU_FUNKCJI=POL_LEWO     POLOZENIE_RYSUNKU_FUNKCJI_DY=0     POLOZENIE_RYSUNKU_FUNKCJI_DX=90 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>	 
+	     ////////////////////////////////////////
+	 	 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-147'      OD_B=400  DO_B=1000 >                        
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-191'  OD_B=400  DO_B=1000 >   
+	 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-190'      OD_B=1000 DO_B=1300 >                        
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-209'  OD_B=1000 DO_B=1300 >
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-750'               OD_B=1000 DO_B=1300 >   	    	 
+      >
+
+   GRUPA[OK_R1_HID_FAPIM]=
+      <
+         NAZWA='FAPIM MAGICUBE - Фурнітура П (прихована, 180кг)'
+         OPIS='Фурнітура для поворотного вікна Fapim. Натисніть кнопку: "Вибрати"'
+         RODZAJ=OKUCIE_ROZWIERANE
+
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+      >	
+    GRUPA[OK_R2_HID_FAPIM]=
+      <
+         NAZWA='FAPIM MAGICUBE - Фурнітура П (прихована, 180кг) [Активна]'
+         OPIS='Фурнітура для П стулки для 2-х стулкового вікна зі штульпом Fapim. Натисніть кнопку: "Вибрати"'
+         RODZAJ=OKUCIE_ROZWIERANE_RP 
+		
+		ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_R3_HID_FAPIM	
+
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'			 	
+      >	
+   GRUPA[OK_R1_HID_FAPIM,OK_R2_HID_FAPIM]=
+      <
+      PYTANIA=
+      <
+             PYTANIE=
+             <
+               NR    = PKlamka_FAPIM
+               NAZWA = 'Вибір ручки'
+               OPIS  = 'Вибір ручки'
+       
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0757B     NAZWA='Ручка 0757B'                   OPIS=''                  PRIORYTET=1 RYSUNEK='0757B.jpg' >
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0530B     NAZWA='Ручка 0530B'                   OPIS=''                  PRIORYTET=0 RYSUNEK='0530B.jpg' >	
+       		>	
+       >	 	  
+	  
+         WAZNOSC_OKUCIA=80
+		 
+         ZLOZONY_LIMIT = 'OK_R1_HID_FAPIM'  
+         RYSUNEK='OK_R1_HID_FAPIM.bmp'			 
+		 
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]			 
+
+         WYMIAR_OKUCIA = 'KLAMKA'		 
+         
+         OD_B=401 DO_B=1300
+         OD_H=450 DO_H=2400
+	     DO_M=180
+		 
+         OSTRZEZENIE_WARUNEK='(B/H)>1.25'
+         OSTRZEZENIE_TEKST='Співвідношення ширини стулки до її висоти не повинно перевищувати 1.25'
+		 
+    //******** KLAMKI ZEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_outside.vct'
+      ROZMIAR_X=32 ROZMIAR_Y=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      RYSUNEK_PROST_MM = '30' 
+      RYSUNEK_ROWN_MM = 'H+45-WYS_KLAMKI'  	  	  
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=2
+	  >		 
+		 
+    //******** KLAMKI WEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_inside.vct'
+      ROZMIAR_X=32 ROZMIAR_Y=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      RYSUNEK_PROST_MM = '30' 
+      RYSUNEK_ROWN_MM = 'H+45-WYS_KLAMKI'  	  
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=1
+	  >				 		 
+		 
+	 //**************klamka******************	 
+	 ELEMENT[ N ]=<KOD=E_0757B   ILOSC=1     OD_B=401 DO_B=1300 OD_H=500 DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0757B >> > 
+	 ELEMENT[ N ]=<KOD=E_0530B   ILOSC=1     OD_B=401 DO_B=1300 OD_H=500 DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0530B >> > 	 
+													
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=450  DO_H=1000>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=2     OD_B=401  DO_B=1000 OD_H=450  DO_H=1000>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=2     OD_B=401  DO_B=1000 OD_H=450  DO_H=1000>
+	 ELEMENT[ N ]=<KOD=E_1615i	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=450  DO_H=1000>	
+	 ELEMENT[ N ]=<KOD=E_1204R	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=450  DO_H=1000 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1204L	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=450  DO_H=1000 STRONA_ZK=STRONA_LEWA>	 
+         ////////////////////////////////////////                                      
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=450  DO_H=1000> 
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=450  DO_H=1000> 
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4     OD_B=1000 DO_B=1300 OD_H=450  DO_H=1000> 	
+	 ELEMENT[ N ]=<KOD=E_1515A	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=450  DO_H=1000> 	
+	 ELEMENT[ N ]=<KOD=E_1204R	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=450  DO_H=1000 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1204L	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=450  DO_H=1000 STRONA_ZK=STRONA_LEWA>	 
+	 ////////////////////////////////////////        
+         ////////////////////////////////////////                                     		 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=3     OD_B=401  DO_B=1000 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=3     OD_B=401  DO_B=1000 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1615i	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=1000 DO_H=1800>	
+	 ELEMENT[ N ]=<KOD=E_1622	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1204R	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=1000 DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1204L	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=1000 DO_H=1800 STRONA_ZK=STRONA_LEWA>	 
+         ////////////////////////////////////////                                     		 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=3     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=5     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1515A	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800>
+	 ELEMENT[ N ]=<KOD=E_1622	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800>	
+	 ELEMENT[ N ]=<KOD=E_1204R	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1204L	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=1000 DO_H=1800 STRONA_ZK=STRONA_LEWA>	 
+         ////////////////////////////////////////        
+         ////////////////////////////////////////  	 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=1800 DO_H=2400>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=4     OD_B=401  DO_B=1000 OD_H=1800 DO_H=2400>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4     OD_B=401  DO_B=1000 OD_H=1800 DO_H=2400>
+	 ELEMENT[ N ]=<KOD=E_1615i	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=1800 DO_H=2400>
+	 ELEMENT[ N ]=<KOD=E_1622	 ILOSC=2     OD_B=401  DO_B=1000 OD_H=1800 DO_H=2400>
+	 ELEMENT[ N ]=<KOD=E_1204R	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=1800 DO_H=2400 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1204L	 ILOSC=1     OD_B=401  DO_B=1000 OD_H=1800 DO_H=2400 STRONA_ZK=STRONA_LEWA>	 
+         ////////////////////////////////////////                                     		  	 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2400>
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=5     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2400>
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=7     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2400>	
+	 ELEMENT[ N ]=<KOD=E_1515A	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2400>
+	 ELEMENT[ N ]=<KOD=E_1622	 ILOSC=2     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2400>
+	 ELEMENT[ N ]=<KOD=E_1204R	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2400 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1204L	 ILOSC=1     OD_B=1000 DO_B=1300 OD_H=1800 DO_H=2400 STRONA_ZK=STRONA_LEWA>	 
+	     ////////////////////////////////////////
+	 	 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-147'      OD_B=401  DO_B=1000 >                        
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-191'  OD_B=401  DO_B=1000 >   
+	 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-190'      OD_B=1000 DO_B=1300 >                        
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-209'  OD_B=1000 DO_B=1300 >
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-750'               OD_B=1000 DO_B=1300 >   	    	 
+      >
+
+//******************************************************************************
+
+	  GRUPA[OK_UR1_VIS_FAPIM]=
+      <    	  
+      NAZWA='Fapim Galicube - Фурнітура вікна ПВ (видима, 150кг)'  
+      OPIS='Фурнітура для поворотно-ухильні вікна Fapim. Натисніть кнопку: "Вибрати"'
+      RODZAJ=OKUCIE_UR
+	  
+      LOKALNA_ZMIENNA='FURNITURA_FAPIM=1'		  
+
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+		 
+  	    PYTANIA=
+          <
+             PYTANIE=
+             <
+               NR    = PKlamka_FAPIM
+               NAZWA = 'Вибір ручки'
+               OPIS  = 'Вибір ручки'
+       
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0757B     NAZWA='Ручка 0757B'                   OPIS=''                  PRIORYTET=1 RYSUNEK='0757B.jpg' >
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0530B     NAZWA='Ручка 0530B'                   OPIS=''                  PRIORYTET=0 RYSUNEK='0530B.jpg' >	
+       		>	
+          PYTANIE=
+            <
+            NR=FURNITURA_VENT
+            NAZWA='Використовувати пристрій мікровентиляції (1618) для поворотно-відкидного механізму:'
+            OPIS='Використовувати пристрій мікровентиляції (1618) для поворотно-відкидного механізму'
+			
+            ODPOWIEDZ=< NR=FURNITURA_VENT_YES       NAZWA='З мікровентиляцією'     OPIS='' RYSUNEK     = ''  PRIORYTET=0 >
+            ODPOWIEDZ=< NR=FURNITURA_VENT_NO        NAZWA='Без мікровентиляцією'   OPIS='' RYSUNEK     = ''  PRIORYTET=1 >
+            >					
+	      >		
+		  
+      GDY_WARIANT_SKRZYDLA=[WAR_W77]
+      GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]	
+	  
+      OD_B=364 DO_B=1700
+      OD_H=450 DO_H=2600
+
+      WAZNOSC_OKUCIA=80	  
+	  
+      ZLOZONY_LIMIT = 'OK_UR1_VIS_FAPIM'  
+      RYSUNEK='OK_UR1_VIS_FAPIM.bmp'			  
+	  	  
+      OSTRZEZENIE_WARUNEK='(B/H)>1.2'
+      OSTRZEZENIE_TEKST='Соотношение B/H должно быть меньше 1.2'
+	  
+      WYMIAR_OKUCIA = 'KLAMKA'	
+
+    //******** KLAMKI ZEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_outside.vct'
+      ROZMIAR_X=32 ROZMIAR_Y=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      RYSUNEK_PROST_MM = '30' 
+      RYSUNEK_ROWN_MM = 'H+45-WYS_KLAMKI'  	  	  
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=2
+	  >		 
+		 
+    //******** KLAMKI WEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_inside.vct'
+      ROZMIAR_X=32 ROZMIAR_Y=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      RYSUNEK_PROST_MM = '30' 
+      RYSUNEK_ROWN_MM = 'H+45-WYS_KLAMKI'  	  
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=1
+	  >		
+	  
+	  //**************klamka******************	 
+	 ELEMENT[ N ]=<KOD=E_0757B   ILOSC=1     OD_B=364  DO_B=1700 OD_H=450  DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0757B >> > 
+	 ELEMENT[ N ]=<KOD=E_0530B   ILOSC=1     OD_B=364  DO_B=1700 OD_H=450  DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0530B >> > 
+													   
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1447	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 	
+	 //ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 > 
+	 //ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 > 
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1447A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> >  	
+	 //ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 > 
+	 //ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 > 
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 > 	
+	 ELEMENT[ N ]=<KOD=E_1447B	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 	
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=2     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 > 
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1447C	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> >  
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=2     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1447	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1447A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >	
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 	
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >	
+	 ELEMENT[ N ]=<KOD=E_1447B	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=3     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1447C	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=3     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  	  
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1447A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=4     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >	  
+      ////////////////////////////////////////  	  
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+	 ELEMENT[ N ]=<KOD=E_1447B	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >		
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 	
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=5     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=6     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+      ////////////////////////////////////////  	  
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1447C	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=5     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=6     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+      ////////////////////////////////////////  	  
+      ////////////////////////////////////////  	    
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1447A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=6     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=6     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >	  
+      ////////////////////////////////////////  	    
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1447B	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >		
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=7     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=8     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >		  
+      ////////////////////////////////////////  	    
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1447C	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=7     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=8     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+      ////////////////////////////////////////  	    
+      ////////////////////////////////////////  	    
+
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-147'                            >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-191'                        >
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-334'                 OD_B=364  DO_B=401  OD_H=450  DO_H=1000 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-372'                 OD_B=401  DO_B=750  OD_H=450  DO_H=1000 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-496'                 OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-1074'                OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 >
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-334'                 OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-372'                 OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-173'               OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-496'                 OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-173'               OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-1074'                OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-173'               OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >	  
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-372'                 OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-173'             OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-496'                 OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-173'             OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-1074'                OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-173'             OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >	
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-372'                 OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-136'             OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >		  	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-496'                 OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-136'             OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-1074'                OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-136'             OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >		  
+      >
+
+
+	  GRUPA[OK_UR2_VIS_FAPIM]=
+      <    
+         NAZWA='Fapim Galicube - Фурнітура вікна ПВ (видима, 150кг) [Активна]' 
+         OPIS='Фурнітура для ПВ стулки для 2-х стул. вікна для шт. Fapim. Натисніть кнопку: "Вибрати"'
+         RODZAJ=OKUCIE_UR_RP
+		 ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_R3_VIS_FAPIM	
+
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+		 
+  	    PYTANIA=
+          <
+             PYTANIE=
+             <
+               NR    = PKlamka_FAPIM
+               NAZWA = 'Вибір ручки'
+               OPIS  = 'Вибір ручки'
+       
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0757B     NAZWA='Ручка 0757B'                   OPIS=''                  PRIORYTET=1 RYSUNEK='0757B.jpg' >
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0530B     NAZWA='Ручка 0530B'                   OPIS=''                  PRIORYTET=0 RYSUNEK='0530B.jpg' >	
+       		>	
+          PYTANIE=
+            <
+            NR=FURNITURA_VENT
+            NAZWA='Використовувати пристрій мікровентиляції (1618) для поворотно-відкидного механізму:'
+            OPIS='Використовувати пристрій мікровентиляції (1618) для поворотно-відкидного механізму'
+			
+            ODPOWIEDZ=< NR=FURNITURA_VENT_YES       NAZWA='З мікровентиляцією'     OPIS='' RYSUNEK     = ''  PRIORYTET=0 >
+            ODPOWIEDZ=< NR=FURNITURA_VENT_NO        NAZWA='Без мікровентиляцією'   OPIS='' RYSUNEK     = ''  PRIORYTET=1 >
+            >				
+	      >		
+		  
+      GDY_WARIANT_SKRZYDLA=[WAR_W77]
+      GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]
+
+      OD_B=364 DO_B=1700
+      OD_H=450 DO_H=2600
+
+      WAZNOSC_OKUCIA=80	 
+  
+      ZLOZONY_LIMIT = 'OK_UR1_VIS_FAPIM'  
+      RYSUNEK='OK_UR1_VIS_FAPIM.bmp'			  
+	  	  
+      OSTRZEZENIE_WARUNEK='(B/H)>1.2'
+      OSTRZEZENIE_TEKST='Соотношение B/H должно быть меньше 1.2'
+	  
+      WYMIAR_OKUCIA = 'KLAMKA'	
+
+    //******** KLAMKI ZEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_outside.vct'
+      ROZMIAR_X=32 ROZMIAR_Y=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      RYSUNEK_PROST_MM = '30' 
+      RYSUNEK_ROWN_MM = 'H+45-WYS_KLAMKI'  	  	  
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=2
+	  >		 
+		 
+    //******** KLAMKI WEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_inside.vct'
+      ROZMIAR_X=32 ROZMIAR_Y=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      RYSUNEK_PROST_MM = '30' 
+      RYSUNEK_ROWN_MM = 'H+45-WYS_KLAMKI'  	  
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=1
+	  >		
+	  
+	  //**************klamka******************	 
+	 ELEMENT[ N ]=<KOD=E_0757B   ILOSC=1     OD_B=364  DO_B=1700 OD_H=450  DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0757B >> > 
+	 ELEMENT[ N ]=<KOD=E_0530B   ILOSC=1     OD_B=364  DO_B=1700 OD_H=450  DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0530B >> > 
+													   
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1447	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=364  DO_B=401  OD_H=450  DO_H=1000 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 	
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1447A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=401  DO_B=750  OD_H=450  DO_H=1000 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> >  	
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 > 	
+	 ELEMENT[ N ]=<KOD=E_1447B	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 	
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1447C	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> >  
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=3     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=4     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=5     OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 > 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1447	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1462A	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=2     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=2     OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1447A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >	
+	 ELEMENT[ N ]=<KOD=E_1462A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 	
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=2     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=2     OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >	
+	 ELEMENT[ N ]=<KOD=E_1447B	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1462A	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=3     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4     OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1447C	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1462A	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=3     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4     OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  	  
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1447A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1462A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=4     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4     OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >	  
+      ////////////////////////////////////////  	  
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+	 ELEMENT[ N ]=<KOD=E_1447B	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >		
+	 ELEMENT[ N ]=<KOD=E_1462A	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 	
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=5     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=6     OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	
+      ////////////////////////////////////////  	  
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1447C	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1462A	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=5     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=6     OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+      ////////////////////////////////////////  	  
+      ////////////////////////////////////////  	    
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1447A	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=6     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=6     OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >	  
+      ////////////////////////////////////////  	    
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1447B	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >		
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=7     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=8     OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >		  
+      ////////////////////////////////////////  	    
+	 ELEMENT[ N ]=<KOD=E_1410A	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1447C	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1618	 ILOSC=1     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=FURNITURA_VENT ODP=FURNITURA_VENT_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=7     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=8     OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	
+      ////////////////////////////////////////  	    
+      ////////////////////////////////////////  	    
+
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-147'                            >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-191'                        >
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-334'                 OD_B=364  DO_B=401  OD_H=450  DO_H=1000 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-372'                 OD_B=401  DO_B=750  OD_H=450  DO_H=1000 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-496'                 OD_B=750  DO_B=1200 OD_H=450  DO_H=1000 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-1074'                OD_B=1200 DO_B=1700 OD_H=450  DO_H=1000 >
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-334'                 OD_B=364  DO_B=401  OD_H=1000 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-372'                 OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-173'               OD_B=401  DO_B=750  OD_H=1000 DO_H=1800 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-496'                 OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=3 DLUGOSC='B/2-137'               OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-173'               OD_B=750  DO_B=1200 OD_H=1000 DO_H=1800 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-1074'                OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=3 DLUGOSC='B/2-137'               OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-173'               OD_B=1200 DO_B=1700 OD_H=1000 DO_H=1800 >	  
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-372'                 OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-173'             OD_B=401  DO_B=750  OD_H=1800 DO_H=2100 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-496'                 OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=3 DLUGOSC='B/2-137'               OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-173'             OD_B=750  DO_B=1200 OD_H=1800 DO_H=2100 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-1074'                OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=3 DLUGOSC='B/2-137'               OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-173'             OD_B=1200 DO_B=1700 OD_H=1800 DO_H=2100 >	
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-372'                 OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-136'             OD_B=401  DO_B=750  OD_H=2100 DO_H=2600 >		  	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-496'                 OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-136'             OD_B=750  DO_B=1200 OD_H=2100 DO_H=2600 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-1074'                OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-136'             OD_B=1200 DO_B=1700 OD_H=2100 DO_H=2600 >		  
+      >
+
+
+//******************************************************************************
+
+    GRUPA[OK_UR1_HID_FAPIM]=
+      <
+      NAZWA='FAPIM MAGICUBE - Фурнітура вікна ПВ (прихована, 180кг)'  
+      OPIS='Фурнітура для поворотно-ухильні вікна Fapim. Натисніть кнопку: "Вибрати"'
+      RODZAJ=OKUCIE_UR
+	  
+      LOKALNA_ZMIENNA='FURNITURA_FAPIM=1'		  
+
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+		 
+  	    PYTANIA=
+          <
+             PYTANIE=
+             <
+               NR    = PKlamka_FAPIM
+               NAZWA = 'Вибір ручки'
+               OPIS  = 'Вибір ручки'
+       
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0757B     NAZWA='Ручка 0757B'                   OPIS=''                  PRIORYTET=1 RYSUNEK='0757B.jpg' >
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0530B     NAZWA='Ручка 0530B'                   OPIS=''                  PRIORYTET=0 RYSUNEK='0530B.jpg' >	
+       		>					
+	      >		
+      >	
+
+    GRUPA[OK_UR2_HID_FAPIM]=
+      <
+         NAZWA='FAPIM MAGICUBE - Фурнітура вікна ПВ (прихована, 180кг) [Активна]' 
+         OPIS='Фурнітура для ПВ стулки для 2-х стул. вікна для шт. Fapim. Натисніть кнопку: "Вибрати"'
+         RODZAJ=OKUCIE_UR_RP
+		 ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_R3_HID_FAPIM	
+
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+		 
+  	    PYTANIA=
+          <
+             PYTANIE=
+             <
+               NR    = PKlamka_FAPIM
+               NAZWA = 'Вибір ручки'
+               OPIS  = 'Вибір ручки'
+       
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0757B     NAZWA='Ручка 0757B'                   OPIS=''                  PRIORYTET=1 RYSUNEK='0757B.jpg' >
+               ODPOWIEDZ=< NR=PKlamka_FAPIM_0530B     NAZWA='Ручка 0530B'                   OPIS=''                  PRIORYTET=0 RYSUNEK='0530B.jpg' >	
+       		>				
+	      >			
+      >	
+
+	  GRUPA[OK_UR1_HID_FAPIM,OK_UR2_HID_FAPIM]=
+      <    
+      GDY_WARIANT_SKRZYDLA=[WAR_W77]
+      GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]	  
+
+      OD_B=422 DO_B=1700
+      OD_H=450 DO_H=2600
+
+      WAZNOSC_OKUCIA=80	  
+	  
+      ZLOZONY_LIMIT = 'OK_UR1_HID_FAPIM'  
+      RYSUNEK='OK_UR1_HID_FAPIM.bmp'			  	  
+	  	  
+      OSTRZEZENIE_WARUNEK='(B/H)>1.2'
+      OSTRZEZENIE_TEKST='Соотношение B/H должно быть меньше 1.2'
+	  
+      WYMIAR_OKUCIA = 'KLAMKA'	
+
+    //******** KLAMKI ZEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_outside.vct'
+      ROZMIAR_X=32 ROZMIAR_Y=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      RYSUNEK_PROST_MM = '30' 
+      RYSUNEK_ROWN_MM = 'H+45-WYS_KLAMKI'  	  	  
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=2
+	  >		 
+		 
+    //******** KLAMKI WEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_inside.vct'
+      ROZMIAR_X=32 ROZMIAR_Y=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_PRAWO 
+      RYSUNEK_PROST_MM = '30' 
+      RYSUNEK_ROWN_MM = 'H+45-WYS_KLAMKI'  	  
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=1
+	  >		
+	  
+	  //**************klamka******************	 
+	 ELEMENT[ N ]=<KOD=E_0757B   ILOSC=1     OD_B=422  DO_B=1700 OD_H=450  DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0757B >> > 
+	 ELEMENT[ N ]=<KOD=E_0530B   ILOSC=1     OD_B=422  DO_B=1700 OD_H=450  DO_H=2600 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0530B >> > 
+	 	 
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=422  DO_B=900  OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=422  DO_B=900  OD_H=450  DO_H=1000 >  
+	 ELEMENT[ N ]=<KOD=E_1200R	 ILOSC=1     OD_B=422  DO_B=900  OD_H=450  DO_H=1000 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1200L	 ILOSC=1     OD_B=422  DO_B=900  OD_H=450  DO_H=1000 STRONA_ZK=STRONA_LEWA>	 	 
+      ////////////////////////////////////////                                
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=900  DO_B=1000 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=900  DO_B=1000 OD_H=450  DO_H=1000 >  
+	 ELEMENT[ N ]=<KOD=E_1201R	 ILOSC=1     OD_B=900  DO_B=1000 OD_H=450  DO_H=1000 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1201L	 ILOSC=1     OD_B=900  DO_B=1000 OD_H=450  DO_H=1000 STRONA_ZK=STRONA_LEWA>	 	 
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=450  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=2	 OD_B=1000 DO_B=1700 OD_H=450  DO_H=1000 > 	 
+	 ELEMENT[ N ]=<KOD=E_1201R	 ILOSC=1     OD_B=1000 DO_B=1700 OD_H=450  DO_H=1000 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1201L	 ILOSC=1     OD_B=1000 DO_B=1700 OD_H=450  DO_H=1000 STRONA_ZK=STRONA_LEWA>	 	 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////                              
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=422  DO_B=900  OD_H=1000 DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=422  DO_B=900  OD_H=1000 DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1	 OD_B=422  DO_B=900  OD_H=1000 DO_H=1800 > 	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=2	 OD_B=422  DO_B=900  OD_H=1000 DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=2	 OD_B=422  DO_B=900  OD_H=1000 DO_H=1800 > 	 
+	 ELEMENT[ N ]=<KOD=E_1200R	 ILOSC=1     OD_B=422  DO_B=900  OD_H=1000 DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1200L	 ILOSC=1     OD_B=422  DO_B=900  OD_H=1000 DO_H=1800 STRONA_ZK=STRONA_LEWA>	 	 
+      ////////////////////////////////////////                              
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=900  DO_B=1000 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=900  DO_B=1000 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1	 OD_B=900  DO_B=1000 OD_H=1000 DO_H=1800 >	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=2	 OD_B=900  DO_B=1000 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=3	 OD_B=900  DO_B=1000 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1201R	 ILOSC=1     OD_B=900  DO_B=1000 OD_H=1000 DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1201L	 ILOSC=1     OD_B=900  DO_B=1000 OD_H=1000 DO_H=1800 STRONA_ZK=STRONA_LEWA>	 		 
+      ////////////////////////////////////////                              
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2	 OD_B=1000 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=3	 OD_B=1000 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4	 OD_B=1000 DO_B=1700 OD_H=1000 DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_1201R	 ILOSC=1     OD_B=1000 DO_B=1700 OD_H=1000 DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1201L	 ILOSC=1     OD_B=1000 DO_B=1700 OD_H=1000 DO_H=1800 STRONA_ZK=STRONA_LEWA>	 	
+      ////////////////////////////////////////                              
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=422  DO_B=900  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=422  DO_B=900  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1	 OD_B=422  DO_B=900  OD_H=1800 DO_H=2100 >	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=4	 OD_B=422  DO_B=900  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=4	 OD_B=422  DO_B=900  OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1200R	 ILOSC=1     OD_B=422  DO_B=900  OD_H=1800 DO_H=2100 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1200L	 ILOSC=1     OD_B=422  DO_B=900  OD_H=1800 DO_H=2100 STRONA_ZK=STRONA_LEWA>	 
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=900  DO_B=1000 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=900  DO_B=1000 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1	 OD_B=900  DO_B=1000 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=4	 OD_B=900  DO_B=1000 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=5	 OD_B=900  DO_B=1000 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1201R	 ILOSC=1     OD_B=900  DO_B=1000 OD_H=1800 DO_H=2100 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1201L	 ILOSC=1     OD_B=900  DO_B=1000 OD_H=1800 DO_H=2100 STRONA_ZK=STRONA_LEWA>	 	 
+      ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2	 OD_B=1000 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=5	 OD_B=1000 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=6	 OD_B=1000 DO_B=1700 OD_H=1800 DO_H=2100 >
+	 ELEMENT[ N ]=<KOD=E_1201R	 ILOSC=1     OD_B=1000 DO_B=1700 OD_H=1800 DO_H=2100 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1201L	 ILOSC=1     OD_B=1000 DO_B=1700 OD_H=1800 DO_H=2100 STRONA_ZK=STRONA_LEWA>	 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////                             	
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=422  DO_B=900  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=422  DO_B=900  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1	 OD_B=422  DO_B=900  OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=6	 OD_B=422  DO_B=900  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=6	 OD_B=422  DO_B=900  OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1200R	 ILOSC=1     OD_B=422  DO_B=900  OD_H=2100 DO_H=2600  STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1200L	 ILOSC=1     OD_B=422  DO_B=900  OD_H=2100 DO_H=2600  STRONA_ZK=STRONA_LEWA>	 
+      ////////////////////////////////////////                             	
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=900  DO_B=1000 OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=900  DO_B=1000 OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=1	 OD_B=900  DO_B=1000 OD_H=2100 DO_H=2600 >	
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=6	 OD_B=900  DO_B=1000 OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=7	 OD_B=900  DO_B=1000 OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1201R	 ILOSC=1     OD_B=900  DO_B=1000 OD_H=2100 DO_H=2600  STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1201L	 ILOSC=1     OD_B=900  DO_B=1000 OD_H=2100 DO_H=2600  STRONA_ZK=STRONA_LEWA>	
+      ////////////////////////////////////////                             	
+
+	 ELEMENT[ N ]=<KOD=E_1461	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1559	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1495Ai	 ILOSC=2	 OD_B=1000 DO_B=1700 OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1455	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1581H	 ILOSC=1	 OD_B=1000 DO_B=1700 OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1596C	 ILOSC=7	 OD_B=1000 DO_B=1700 OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1597i	 ILOSC=8	 OD_B=1000 DO_B=1700 OD_H=2100 DO_H=2600 >
+	 ELEMENT[ N ]=<KOD=E_1201R	 ILOSC=1     OD_B=1000 DO_B=1700 OD_H=2100 DO_H=2600  STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_1201L	 ILOSC=1     OD_B=1000 DO_B=1700 OD_H=2100 DO_H=2600  STRONA_ZK=STRONA_LEWA>	
+      ////////////////////////////////////////  	    
+      ////////////////////////////////////////  	    
+
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-147'                            >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-191'                        >
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-391'                 OD_B=422  DO_B=900  OD_H=450  DO_H=2600 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-623'                 OD_B=900  DO_B=1000 OD_H=450  DO_H=2600 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-947'                 OD_B=1000 DO_B=1700 OD_H=450  DO_H=2600 >
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=1000 DO_B=1700 OD_H=450  DO_H=2600 >
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-173'               OD_B=900  DO_B=1700 OD_H=1000 DO_H=1800 >
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-136'             OD_B=422  DO_B=1700 OD_H=1800 DO_H=2100 >
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-136'             OD_B=422  DO_B=1700 OD_H=2100 DO_H=2600 >		  
+      >
+
+//******************************************************************************
+
+    GRUPA[OK_R3_VIS_FAPIM]=
+      <
+         NAZWA='Fapim Galicube - Фурнітура для пасивної стулки (зі штульпом)'
+         OPIS='Фурнітура для поворотно вікна Fapim. Натисніть кнопку: "Вибрати"'
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_KONSTRUKCJA=[TS_RamaOkienna_OW3,TS_RamaOkienna_OBW3]	
+		 RODZAJ=OKUCIE_RP
+		 
+         LOKALNA_ZMIENNA='FURNITURA_FAPIM=1'		
+
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+		 
+         WAZNOSC_OKUCIA=80
+		 
+         OD_B=364 DO_B=1700
+         OD_H=450 DO_H=2600
+		 
+         ZLOZONY_LIMIT = 'OK_R1_VIS_FAPIM'  
+         RYSUNEK='OK_R1_VIS_FAPIM.bmp'			 
+		 
+         WYMIAR_OKUCIA = 'KLAMKA'			 
+
+         TERAZ_OD_B=364  TERAZ_DO_B=1200   TERAZ_OD_H=450  TERAZ_DO_H=1000
+         ELEMENT[N]=< KOD=E_1414A  ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_1615i  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_1503B  ILOSC=1 >	
+		 
+         TERAZ_OD_B=1200 TERAZ_DO_B=1700  TERAZ_OD_H=450  TERAZ_DO_H=1000
+         ELEMENT[N]=< KOD=E_1414A  ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_1503B  ILOSC=1 >	
+		 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  
+	  
+         TERAZ_OD_B=364  TERAZ_DO_B=1700   TERAZ_OD_H=1000 TERAZ_DO_H=1800
+         ELEMENT[N]=< KOD=E_1414A  ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_1615i  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_1503B  ILOSC=1 >	
+		 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  
+	  
+         TERAZ_OD_B=401  TERAZ_DO_B=1700   TERAZ_OD_H=1800 TERAZ_DO_H=2100
+         ELEMENT[N]=< KOD=E_1414A  ILOSC=1 >		
+         ELEMENT[N]=< KOD=E_1500B  ILOSC=1 >			 
+         ELEMENT[N]=< KOD=E_1615i  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_1622   ILOSC=1 >
+		 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  
+	  
+         TERAZ_OD_B=401  TERAZ_DO_B=750   TERAZ_OD_H=2100 TERAZ_DO_H=2600
+         ELEMENT[N]=< KOD=E_1414A  ILOSC=1 >		
+         ELEMENT[N]=< KOD=E_1501   ILOSC=1 >			 
+         ELEMENT[N]=< KOD=E_1622   ILOSC=2 >
+	  
+         TERAZ_OD_B=750  TERAZ_DO_B=1200  TERAZ_OD_H=2100 TERAZ_DO_H=2600
+         ELEMENT[N]=< KOD=E_1414A  ILOSC=1 >		
+         ELEMENT[N]=< KOD=E_1501   ILOSC=1 >			 
+         ELEMENT[N]=< KOD=E_1622   ILOSC=2 >		 
+         ELEMENT[N]=< KOD=E_1495Ai ILOSC=2 >		 
+         ELEMENT[N]=< KOD=E_1596C  ILOSC=2 >		 
+         ELEMENT[N]=< KOD=E_1597i  ILOSC=2 >		 
+	  
+         TERAZ_OD_B=1200 TERAZ_DO_B=1700  TERAZ_OD_H=2100 TERAZ_DO_H=2600
+         ELEMENT[N]=< KOD=E_1414A  ILOSC=1 >		
+         ELEMENT[N]=< KOD=E_1501   ILOSC=1 >			 
+         ELEMENT[N]=< KOD=E_1622   ILOSC=2 >		 
+         ELEMENT[N]=< KOD=E_1495Ai ILOSC=2 >		 
+         ELEMENT[N]=< KOD=E_1596C  ILOSC=2 >		 
+         ELEMENT[N]=< KOD=E_1597i  ILOSC=2 >			 
+		 	 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  	  
+
+         TERAZ_RESET
+		 
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-143'        OD_B=401  DO_B=1700 OD_H=2100  DO_H=2600 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-175'    OD_B=401  DO_B=1700 OD_H=2100  DO_H=2600 > 
+		 
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=750  DO_B=1700 OD_H=2100  DO_H=2600 >
+      >
+	  
+
+    GRUPA[OK_R3_HID_FAPIM]=
+      <
+         NAZWA='Fapim MAGICUBE - Фурнітура для пасивної стулки (зі штульпом)'
+         OPIS='Фурнітура для поворотно вікна Fapim. Натисніть кнопку: "Вибрати"'
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_KONSTRUKCJA=[TS_RamaOkienna_OW3,TS_RamaOkienna_OBW3]
+		 RODZAJ=OKUCIE_RP		 
+		 
+         LOKALNA_ZMIENNA='FURNITURA_FAPIM=1'		
+
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+		 
+         WAZNOSC_OKUCIA=80
+		 
+         OD_B=422 DO_B=1700
+         OD_H=480 DO_H=2400
+		 
+         ZLOZONY_LIMIT = 'OK_R1_HID_FAPIM'  
+         RYSUNEK='OK_R1_HID_FAPIM.bmp'			 
+		 
+         WYMIAR_OKUCIA = 'KLAMKA'			 
+
+         TERAZ_OD_B=422  TERAZ_DO_B=1700   TERAZ_OD_H=480  TERAZ_DO_H=1000
+	     ELEMENT[N]=< KOD=E_1201R  ILOSC=1     STRONA_ZK=STRONA_PRAWA>	 
+	     ELEMENT[N]=< KOD=E_1201L  ILOSC=1     STRONA_ZK=STRONA_LEWA >		 
+         ELEMENT[N]=< KOD=E_1615i  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_1503B  ILOSC=1 >	
+		 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  
+	  
+         TERAZ_OD_B=422  TERAZ_DO_B=1700   TERAZ_OD_H=1000 TERAZ_DO_H=1800
+	     ELEMENT[N]=< KOD=E_1201R  ILOSC=1     STRONA_ZK=STRONA_PRAWA>	 
+	     ELEMENT[N]=< KOD=E_1201L  ILOSC=1     STRONA_ZK=STRONA_LEWA >		
+         ELEMENT[N]=< KOD=E_1615i  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_1503B  ILOSC=1 >	
+		 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  
+	  
+         TERAZ_OD_B=422  TERAZ_DO_B=1700   TERAZ_OD_H=1800 TERAZ_DO_H=2100
+	     ELEMENT[N]=< KOD=E_1201R  ILOSC=1     STRONA_ZK=STRONA_PRAWA>	 
+	     ELEMENT[N]=< KOD=E_1201L  ILOSC=1     STRONA_ZK=STRONA_LEWA >			 
+         ELEMENT[N]=< KOD=E_1500B  ILOSC=1 >			 
+         ELEMENT[N]=< KOD=E_1615i  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_1622   ILOSC=1 >
+		 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  
+	  
+         TERAZ_OD_B=422  TERAZ_DO_B=1000   TERAZ_OD_H=2100 TERAZ_DO_H=2400
+	     ELEMENT[N]=< KOD=E_1201R  ILOSC=1     STRONA_ZK=STRONA_PRAWA>	 
+	     ELEMENT[N]=< KOD=E_1201L  ILOSC=1     STRONA_ZK=STRONA_LEWA >			
+         ELEMENT[N]=< KOD=E_1501   ILOSC=1 >			 
+         ELEMENT[N]=< KOD=E_1622   ILOSC=2 >
+	  
+         TERAZ_OD_B=1000 TERAZ_DO_B=1700  TERAZ_OD_H=2100 TERAZ_DO_H=2400
+	     ELEMENT[N]=< KOD=E_1201R  ILOSC=1     STRONA_ZK=STRONA_PRAWA>	 
+	     ELEMENT[N]=< KOD=E_1201L  ILOSC=1     STRONA_ZK=STRONA_LEWA >			
+         ELEMENT[N]=< KOD=E_1501   ILOSC=1 >			 
+         ELEMENT[N]=< KOD=E_1622   ILOSC=2 >		 
+         ELEMENT[N]=< KOD=E_1495Ai ILOSC=2 >		 
+         ELEMENT[N]=< KOD=E_1596C  ILOSC=2 >		 
+         ELEMENT[N]=< KOD=E_1597i  ILOSC=2 >		 		 
+		 	 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  	  
+
+         TERAZ_RESET
+		 
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-143'        OD_B=422  DO_B=1700 OD_H=2100  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-175'    OD_B=422  DO_B=1700 OD_H=2100  DO_H=2400 > 
+		 
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-137'               OD_B=1000 DO_B=1700 OD_H=2100  DO_H=2400 >
+      >	  
+
+//*********************************************************************************************
+//Окно откидное***** О фурнитура
+//*********************************************************************************************
+	  
+   GRUPA[OK_U2_VIS_FAPIM]=
+      <
+         NAZWA='Fapim - Фурнітура відкидної створки-вікна (ручка зверху)'
+         OPIS='Фурнітура відкидної створки-вікна Fapim'
+         RODZAJ=OKUCIE_UCHYLNE
+		 
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+
+         PYTANIA=
+         <
+                PYTANIE=
+                <
+                  NR    = PKlamka_FAPIM
+                  NAZWA = 'Вибір ручки'
+                  OPIS  = 'Вибір ручки'
+          
+                  ODPOWIEDZ=< NR=PKlamka_FAPIM_0757B     NAZWA='Ручка 0757B'                   OPIS=''                  PRIORYTET=1 RYSUNEK='0757B.jpg' >
+                  ODPOWIEDZ=< NR=PKlamka_FAPIM_0530B     NAZWA='Ручка 0530B'                   OPIS=''                  PRIORYTET=0 RYSUNEK='0530B.jpg' >	
+          		>	
+          >	 		 
+		 
+         WAZNOSC_OKUCIA=80
+
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+		 
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+		 
+         LOKALNA_ZMIENNA='FURNITURA_FAPIM=1'	
+		        
+         OD_B=400    DO_B=2400
+         OD_H=300    DO_H=1200
+
+         ZLOZONY_LIMIT = 'OK_U2_VIS_FAPIM'  
+         RYSUNEK='OK_U2_VIS_FAPIM.bmp'			 
+		 	 
+         OSTRZEZENIE_WARUNEK='(B/H)>1.2'
+         OSTRZEZENIE_TEKST='Соотношение B/H должно быть меньше 1.2'
+				
+    //******** KLAMKI ZEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_outside_POZIOM.vct'
+      ROZMIAR_Y=32 ROZMIAR_X=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_GORA 
+      POLOZENIE_RYSUNKU_FUNKCJI_DY=2.5 
+      POLOZENIE_RYSUNKU_FUNKCJI_DX=56
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=2
+	  >		 
+		 
+    //******** KLAMKI WEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_inside_POZIOM.vct'
+      ROZMIAR_Y=32 ROZMIAR_X=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_GORA 
+      POLOZENIE_RYSUNKU_FUNKCJI_DY=2.5
+      POLOZENIE_RYSUNKU_FUNKCJI_DX=38
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=1
+	  >				 	
+
+	 //**************klamka******************	 
+	 ELEMENT[ N ]=<KOD=E_0757B   ILOSC=1     OD_B=400  DO_B=2400 OD_H=300  DO_H=1200 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0757B >> > 
+	 ELEMENT[ N ]=<KOD=E_0530B   ILOSC=1     OD_B=400  DO_B=2400 OD_H=300  DO_H=1200 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0530B >> > 	 
+																 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1596C   ILOSC=1     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 	
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=1     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=1     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3214A   ILOSC=1     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3224B   ILOSC=2     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_9826B   ILOSC=2     OD_B=400  DO_B=515  OD_H=300  DO_H=450>   //RYSUNEK_FUNKCJI='ZAW_WEWN_OTK_fapim.bmp'   ROZMIAR_X=125   ROZMIAR_Y=35  POLOZENIE_RYSUNKU_FUNKCJI=POL_DOL     POLOZENIE_RYSUNKU_FUNKCJI_DY=5    POLOZENIE_RYSUNKU_FUNKCJI_DX=5 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+                                                                                 
+  ////////////////////////////////////////     
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1596C   ILOSC=1     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 	
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3214A   ILOSC=1     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3224B   ILOSC=2     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_9826B   ILOSC=2     OD_B=515  DO_B=1200 OD_H=300  DO_H=450>   //RYSUNEK_FUNKCJI='ZAW_WEWN_OTK_fapim.bmp'   ROZMIAR_X=125   ROZMIAR_Y=35  POLOZENIE_RYSUNKU_FUNKCJI=POL_DOL     POLOZENIE_RYSUNKU_FUNKCJI_DY=5    POLOZENIE_RYSUNKU_FUNKCJI_DX=5 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+                                                                                 
+  ////////////////////////////////////////     
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1596C   ILOSC=1     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450> 	
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=3     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3224B   ILOSC=2     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_9826B   ILOSC=3     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450>   //RYSUNEK_FUNKCJI='ZAW_WEWN_OTK_fapim.bmp'   ROZMIAR_X=125   ROZMIAR_Y=35  POLOZENIE_RYSUNKU_FUNKCJI=POL_DOL     POLOZENIE_RYSUNKU_FUNKCJI_DY=5    POLOZENIE_RYSUNKU_FUNKCJI_DX=5 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+                                                                                                            
+  ////////////////////////////////////////     
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1596C   ILOSC=4     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450> 	
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=4     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3224B   ILOSC=2     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_9826B   ILOSC=3     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450>   //RYSUNEK_FUNKCJI='ZAW_WEWN_OTK_fapim.bmp'   ROZMIAR_X=125   ROZMIAR_Y=35  POLOZENIE_RYSUNKU_FUNKCJI=POL_DOL     POLOZENIE_RYSUNKU_FUNKCJI_DY=5    POLOZENIE_RYSUNKU_FUNKCJI_DX=5 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+                                                                                                                                            
+  ////////////////////////////////////////     
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1596C   ILOSC=4     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450> 	
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=4     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3224B   ILOSC=2     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_9826B   ILOSC=4     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450>   //RYSUNEK_FUNKCJI='ZAW_WEWN_OTK_fapim.bmp'   ROZMIAR_X=125   ROZMIAR_Y=35  POLOZENIE_RYSUNKU_FUNKCJI=POL_DOL     POLOZENIE_RYSUNKU_FUNKCJI_DY=5    POLOZENIE_RYSUNKU_FUNKCJI_DX=5 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+                            
+  ////////////////////////////////////////     
+  ////////////////////////////////////////     
+
+	 ELEMENT[ N ]=<KOD=E_1457AH  ILOSC=1     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1515A   ILOSC=2     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=1     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_9826B   ILOSC=2     OD_B=400  DO_B=515  OD_H=450  DO_H=1200>   //RYSUNEK_FUNKCJI='ZAW_WEWN_OTK_fapim.bmp'   ROZMIAR_X=125   ROZMIAR_Y=35  POLOZENIE_RYSUNKU_FUNKCJI=POL_DOL     POLOZENIE_RYSUNKU_FUNKCJI_DY=5    POLOZENIE_RYSUNKU_FUNKCJI_DX=5 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+                                                             
+  ////////////////////////////////////////                      
+
+	 ELEMENT[ N ]=<KOD=E_1457AH  ILOSC=1     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1515A   ILOSC=2     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=1     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_9826B   ILOSC=2     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200>   //RYSUNEK_FUNKCJI='ZAW_WEWN_OTK_fapim.bmp'   ROZMIAR_X=125   ROZMIAR_Y=35  POLOZENIE_RYSUNKU_FUNKCJI=POL_DOL     POLOZENIE_RYSUNKU_FUNKCJI_DY=5    POLOZENIE_RYSUNKU_FUNKCJI_DX=5 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+                                                                         
+  ////////////////////////////////////////                      
+
+	 ELEMENT[ N ]=<KOD=E_1457AH  ILOSC=2     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1515A   ILOSC=2     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=1     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_9826B   ILOSC=3     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200>   //RYSUNEK_FUNKCJI='ZAW_WEWN_OTK_fapim.bmp'   ROZMIAR_X=125   ROZMIAR_Y=35  POLOZENIE_RYSUNKU_FUNKCJI=POL_DOL     POLOZENIE_RYSUNKU_FUNKCJI_DY=5    POLOZENIE_RYSUNKU_FUNKCJI_DX=5 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+                                                                                                        
+  ////////////////////////////////////////                           
+
+	 ELEMENT[ N ]=<KOD=E_1457AH  ILOSC=3     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1515A   ILOSC=2     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=1     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_9826B   ILOSC=3     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200>   //RYSUNEK_FUNKCJI='ZAW_WEWN_OTK_fapim.bmp'   ROZMIAR_X=125   ROZMIAR_Y=35  POLOZENIE_RYSUNKU_FUNKCJI=POL_DOL     POLOZENIE_RYSUNKU_FUNKCJI_DY=5    POLOZENIE_RYSUNKU_FUNKCJI_DX=5 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+                                                                                                                                                   
+  ////////////////////////////////////////                          
+
+	 ELEMENT[ N ]=<KOD=E_1457AH  ILOSC=3     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1515A   ILOSC=2     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=1     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_9826B   ILOSC=4     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200>   //RYSUNEK_FUNKCJI='ZAW_WEWN_OTK_fapim.bmp'   ROZMIAR_X=125   ROZMIAR_Y=35  POLOZENIE_RYSUNKU_FUNKCJI=POL_DOL     POLOZENIE_RYSUNKU_FUNKCJI_DY=5    POLOZENIE_RYSUNKU_FUNKCJI_DX=5 POLOZENIE_RYSUNKU=PUNKT_LEWY LUSTRZANE_ODBICIE_RYSUNKU=TAK>
+                                          
+  ////////////////////////////////////////     
+  ////////////////////////////////////////  
+
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-107'               OD_B=400  DO_B=2400 OD_H=300  DO_H=450  >  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-134'               OD_B=400  DO_B=2400 OD_H=300  DO_H=450  >  
+	
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-107'               OD_B=400  DO_B=1200 OD_H=450  DO_H=1200 >  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-182'               OD_B=400  DO_B=1200 OD_H=450  DO_H=1200 >  
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='150'                   OD_B=1200 DO_B=2400 OD_H=450  DO_H=1200 >  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='75'                    OD_B=1200 DO_B=2400 OD_H=450  DO_H=1200 >  
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-685'                 OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200 >  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='B/2-426'               OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200 >  
+
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-182'        OD_B=400  DO_B=2400 OD_H=450  DO_H=1200 >
+      >
+	  
+	  
+   GRUPA[OK_U2_HID_FAPIM]=
+      <
+         NAZWA='Fapim MAGICUBE - Фурнітура відкидної створки-вікна (ручка зверху)'
+         OPIS='Фурнітура відкидної створки-вікна Fapim'
+         RODZAJ=OKUCIE_UCHYLNE
+		 
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+
+         PYTANIA=
+         <
+                PYTANIE=
+                <
+                  NR    = PKlamka_FAPIM
+                  NAZWA = 'Вибір ручки'
+                  OPIS  = 'Вибір ручки'
+          
+                  ODPOWIEDZ=< NR=PKlamka_FAPIM_0757B     NAZWA='Ручка 0757B'                   OPIS=''                  PRIORYTET=1 RYSUNEK='0757B.jpg' >
+                  ODPOWIEDZ=< NR=PKlamka_FAPIM_0530B     NAZWA='Ручка 0530B'                   OPIS=''                  PRIORYTET=0 RYSUNEK='0530B.jpg' >	
+          		>	
+          >	 		 
+		 
+         WAZNOSC_OKUCIA=80
+
+         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+		 
+         FILTR_NAZWA        = 'Виробник'
+         FILTR_WARTOSC      = 'FAPIM'	
+		 
+         LOKALNA_ZMIENNA='FURNITURA_FAPIM=1'	
+		        
+         OD_B=400    DO_B=2400
+         OD_H=300    DO_H=1200
+
+         ZLOZONY_LIMIT = 'OK_U2_VIS_FAPIM'  
+         RYSUNEK='OK_U2_VIS_FAPIM.bmp'			 
+		 	 
+         OSTRZEZENIE_WARUNEK='(B/H)>1.2'
+         OSTRZEZENIE_TEKST='Соотношение B/H должно быть меньше 1.2'
+				
+    //******** KLAMKI ZEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_outside_POZIOM.vct'
+      ROZMIAR_Y=32 ROZMIAR_X=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_GORA 
+      POLOZENIE_RYSUNKU_FUNKCJI_DY=2.5 
+      POLOZENIE_RYSUNKU_FUNKCJI_DX=56
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=2
+	  >		 
+		 
+    //******** KLAMKI WEWN *****
+
+      ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
+	  
+      RYSUNEK_FUNKCJI='handle_inside_POZIOM.vct'
+      ROZMIAR_Y=32 ROZMIAR_X=155 
+      POLOZENIE_RYSUNKU_FUNKCJI=POL_GORA 
+      POLOZENIE_RYSUNKU_FUNKCJI_DY=2.5
+      POLOZENIE_RYSUNKU_FUNKCJI_DX=38
+      POLOZENIE_RYSUNKU=PUNKT_PRAWY
+      LUSTRZANE_ODBICIE_RYSUNKU=TAK	  
+	  DLA_WIDOKU=1
+	  >				 	
+
+	 //**************klamka******************	 
+	 ELEMENT[ N ]=<KOD=E_0757B   ILOSC=1     OD_B=400  DO_B=2400 OD_H=300  DO_H=1200 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0757B >> > 
+	 ELEMENT[ N ]=<KOD=E_0530B   ILOSC=1     OD_B=400  DO_B=2400 OD_H=300  DO_H=1200 DLA_PYTAN = < WARUNEK=< PYT=PKlamka_FAPIM ODP=PKlamka_FAPIM_0530B >> > 	 
+																 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1596C   ILOSC=1     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 	
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=1     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=1     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3214A   ILOSC=1     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3224B   ILOSC=2     OD_B=400  DO_B=515  OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_1208    ILOSC=2     OD_B=400  DO_B=515  OD_H=300  DO_H=450>   
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=1     OD_B=400  DO_B=515  OD_H=300  DO_H=450>   
+                                                                                 
+  ////////////////////////////////////////     
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1596C   ILOSC=1     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 	
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3214A   ILOSC=1     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3224B   ILOSC=2     OD_B=515  DO_B=1200 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_1208    ILOSC=2     OD_B=515  DO_B=1200 OD_H=300  DO_H=450>    
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=1     OD_B=515  DO_B=1200 OD_H=300  DO_H=450>   
+	 
+  ////////////////////////////////////////     
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1596C   ILOSC=1     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450> 	
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=3     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3224B   ILOSC=2     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_1208    ILOSC=2     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450>     
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=2     OD_B=1200 DO_B=1600 OD_H=300  DO_H=450>    
+	 
+  ////////////////////////////////////////     
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1596C   ILOSC=4     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450> 	
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=4     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3224B   ILOSC=2     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_1208    ILOSC=2     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450>      
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=2     OD_B=1600 DO_B=2200 OD_H=300  DO_H=450>    
+	 
+  ////////////////////////////////////////     
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1596C   ILOSC=4     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450> 	
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=4     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_3224B   ILOSC=2     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450> 
+	 ELEMENT[ N ]=<KOD=E_1208    ILOSC=2     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450>       
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=3     OD_B=2200 DO_B=2400 OD_H=300  DO_H=450>   
+	 
+  ////////////////////////////////////////     
+  ////////////////////////////////////////     
+
+	 ELEMENT[ N ]=<KOD=E_1456    ILOSC=1     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=1     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1515A   ILOSC=2     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=1     OD_B=400  DO_B=515  OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1208    ILOSC=2     OD_B=400  DO_B=515  OD_H=450  DO_H=1200>       
+	 
+  ////////////////////////////////////////                      
+
+	 ELEMENT[ N ]=<KOD=E_1456    ILOSC=1     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1515A   ILOSC=2     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=1     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200>  
+	 ELEMENT[ N ]=<KOD=E_1208    ILOSC=2     OD_B=515  DO_B=1200 OD_H=450  DO_H=1200>   
+	 
+  ////////////////////////////////////////                      
+
+	 ELEMENT[ N ]=<KOD=E_1456    ILOSC=2     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1515A   ILOSC=2     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=2     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200>  
+	 ELEMENT[ N ]=<KOD=E_1208    ILOSC=2     OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200>  
+	 
+  ////////////////////////////////////////                           
+
+	 ELEMENT[ N ]=<KOD=E_1456    ILOSC=3     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1515A   ILOSC=2     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=2     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200>   
+	 ELEMENT[ N ]=<KOD=E_1208    ILOSC=2     OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200>   
+	 
+  ////////////////////////////////////////                          
+
+	 ELEMENT[ N ]=<KOD=E_1456    ILOSC=3     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1559    ILOSC=1     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1597i   ILOSC=2     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_1615i   ILOSC=2     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1515A   ILOSC=2     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_1622    ILOSC=3     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200>   
+	 ELEMENT[ N ]=<KOD=E_1208    ILOSC=2     OD_B=2200 DO_B=2400 OD_H=450  DO_H=1200>   
+	 
+  ////////////////////////////////////////     
+  ////////////////////////////////////////  
+
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-107'               OD_B=400  DO_B=2400 OD_H=300  DO_H=450  >  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-134'               OD_B=400  DO_B=2400 OD_H=300  DO_H=450  >  
+	
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-107'               OD_B=400  DO_B=1200 OD_H=450  DO_H=1200 >  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-182'               OD_B=400  DO_B=1200 OD_H=450  DO_H=1200 >  
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='150'                   OD_B=1200 DO_B=2400 OD_H=450  DO_H=1200 >  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='75'                    OD_B=1200 DO_B=2400 OD_H=450  DO_H=1200 >  
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-685'                 OD_B=1200 DO_B=1600 OD_H=450  DO_H=1200 >  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='B/2-426'               OD_B=1600 DO_B=2200 OD_H=450  DO_H=1200 >  
+
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-182'        OD_B=400  DO_B=2400 OD_H=450  DO_H=1200 >
+      >	  

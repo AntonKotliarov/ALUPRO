@@ -1,0 +1,25 @@
+NAKLADANIE=
+      <
+        FUTRYNA=  [                 
+             PRF_NVF_KERAM_KLIAM_Horizontal_Keram_Wing		 
+                  ]
+        SKRZYDLO= [
+             PRF_RAMA_OKIENNA_ALP_W77_101	 
+                  ]
+        ZACHODZENIE_TEKST='-FRAME_BOK*(PION)-FRAME_TOP*(POZIOM)*(GRUBOSC_NAD#0)-FRAME_BOTTOM*(POZIOM)*(GRUBOSC_NAD=0)'
+
+        ZACHODZENIE_Y='FRAME_DEEP'		
+      >   	
+
+NAKLADANIE=
+      <
+        FUTRYNA=  [                 
+             PRF_NVF_KERAM_GLUE_Horizontal_Keram_Wing		 
+                  ]
+        SKRZYDLO= [
+             PRF_RAMA_OKIENNA_ALP_W77_101	 
+                  ]
+        ZACHODZENIE_TEKST='-FRAME_BOK*(PION)-FRAME_TOP*(POZIOM)*(GRUBOSC_NAD#0)-FRAME_BOTTOM*(POZIOM)*(GRUBOSC_NAD=0)'
+
+        ZACHODZENIE_Y='FRAME_DEEP'		
+      >   		  	  

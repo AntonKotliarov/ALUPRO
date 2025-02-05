@@ -1,0 +1,10 @@
+ //Dla oscieznic i skrzydel
+    USZCZELNIENIE=
+      <
+        TYP             = DEF_USZ_FASAD_F50
+        MAX_OD          = 5.5	
+        MAX_DO          = 54.5				
+        OD              = 5.5
+        DO              = 54.5		
+        SKURCZ_SZKLO    = 0 // размер ст-та, если необходимо сделать меньше или больше
+      >   

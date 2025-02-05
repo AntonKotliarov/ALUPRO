@@ -1,0 +1,143 @@
+#DEFINE E_GU_RYSUNEK                  -3
+#DEFINE E_0757B                       -4
+#DEFINE E_1559                        -5
+#DEFINE E_1596C                       -6
+#DEFINE E_1597i                       -7
+#DEFINE E_1615i                       -8
+#DEFINE E_1515A                       -9
+#DEFINE E_9800A                       -10
+#DEFINE E_9826B                       -11
+#DEFINE E_1622                        -12
+#DEFINE E_BRAK_KLAMKA                 -13
+#DEFINE E_0530B                       -14
+#DEFINE E_1204R                       -15
+#DEFINE E_1204L                       -16
+#DEFINE E_1410A                       -17
+#DEFINE E_1447                        -18
+#DEFINE E_1447A                       -19
+#DEFINE E_1447B                       -20
+#DEFINE E_1447C                       -21
+#DEFINE E_1461                        -22
+#DEFINE E_1618                        -23
+#DEFINE E_1455                        -24
+#DEFINE E_1581H                       -25
+#DEFINE E_1495Ai                      -26
+#DEFINE E_1200R                       -27
+#DEFINE E_1200L                       -28
+#DEFINE E_1201R                       -29
+#DEFINE E_1201L                       -30
+#DEFINE E_1462A                       -31
+#DEFINE E_1414A                       -32
+#DEFINE E_1503B                       -33
+#DEFINE E_1500B                       -34
+#DEFINE E_1501                        -35
+#DEFINE E_3214A                       -36
+#DEFINE E_3224B                       -37
+#DEFINE E_1457AH                      -38
+
+#DEFINE E_7010VA                      -39
+#DEFINE E_7013VA                      -40
+#DEFINE E_6605i                       -41
+#DEFINE E_3722A                       -42
+#DEFINE E_3733                        -43
+#DEFINE E_3735A                       -44
+
+#DEFINE E_7202A                       -45
+#DEFINE E_7220F                       -46
+#DEFINE E_7220A                       -47
+
+#DEFINE E_WU1R_1C_2A_3B               -48
+#DEFINE E_WU1R_1C_2A_3A               -49
+
+#DEFINE E_2067_00                     -50
+#DEFINE E_2150_65                     -51
+#DEFINE E_2110_00                     -52
+
+#DEFINE E_MX8020456X                  -53
+#DEFINE E_WX_50SD5100                 -54
+#DEFINE E_MX8020457X                  -55
+
+#DEFINE E_KLAMKA_OFICE_FIX            -56
+									  
+#DEFINE E_2501F                       -57
+#DEFINE E_2501B                       -58
+#DEFINE E_2620                        -59
+#DEFINE E_DORMA_Gege_35_65            -60
+#DEFINE E_1031_02_313                 -61
+#DEFINE E_KLAMKA_OFICE                -62
+#DEFINE E_2053                        -63
+#DEFINE E_1208                        -64
+#DEFINE E_1456                        -65
+
+#DEFINE E_3062_00                     -66
+#DEFINE E_3060_00                     -67
+#DEFINE E_3012_20                     -68
+#DEFINE E_3110_00                     -69
+#DEFINE E_2050_65                     -70
+
+#DEFINE E_5080_00_520                 -71
+
+#DEFINE E_TS_2000_NV_BC               -72
+#DEFINE E_TS_4000_TS_2000             -73
+
+#DEFINE E_3031_00                     -74
+#DEFINE E_3021_00                     -75
+#DEFINE E_3096_30_P                   -76
+
+#DEFINE E_7050VA                      -77
+#DEFINE E_7063VA                      -78
+#DEFINE E_7140A                       -79
+#DEFINE E_6666S5                      -80
+
+#DEFINE E_1001_00_X                   -81
+#DEFINE E_4040_20                     -82
+#DEFINE E_4004_00                     -83
+#DEFINE E_2022_00_X                   -84
+#DEFINE E_4010_03                     -85
+#DEFINE E_4010_20                     -86
+#DEFINE E_2011_00_X                   -87
+#DEFINE E_4003_00                     -88
+#DEFINE E_2101_00                     -89
+#DEFINE E_4045_00                     -90
+#DEFINE E_4010_60                     -91
+#DEFINE E_4036_00_X                   -92
+#DEFINE E_4035_00_X                   -93
+#DEFINE E_4037_00_X                   -94
+#DEFINE E_4010_50                     -95
+#DEFINE E_4010_28                     -96
+#DEFINE E_4116_30R                    -97
+#DEFINE E_4116_30L                    -98
+#DEFINE E_4070_20                     -99
+#DEFINE E_4010_10                     -100
+#DEFINE E_4115_30R                    -101
+#DEFINE E_4115_30L                    -102
+#DEFINE E_4001_00                     -103
+#DEFINE E_4005_00                     -104
+#DEFINE E_1002_00_X                   -105
+//#DEFINE E_1002_00_X                   -106
+#DEFINE E_4009_30                     -107
+#DEFINE E_4020_40                     -108
+#DEFINE E_4020_01_X                   -109
+#DEFINE E_4020_18                     -110
+#DEFINE E_4020_19_X                   -111
+#DEFINE E_4020_70                     -112
+#DEFINE E_4020_71                     -113
+#DEFINE E_4020_20                     -114
+#DEFINE E_4020_60                     -115
+
+#DEFINE E_2069_00                     -116
+#DEFINE E_2112_00                     -117
+#DEFINE E_3062_00_X                   -118
+#DEFINE E_3060_00_X                   -119
+
+#DEFINE E_1032_00_X                   -120
+#DEFINE E_3045_30_P                   -121
+#DEFINE E_3045_35_10_P                -122
+#DEFINE E_3093_30_P                   -123
+#DEFINE E_5057_00_520                 -124
+#DEFINE E_3093_60                     -125
+
+#DEFINE E_3046_30_P                   -126
+#DEFINE E_3046_30_10_P                -127
+
+

@@ -1,0 +1,605 @@
+SZPROS[ SZPROS_DR40_SLP_B08005X]=
+  <
+    NAZWA=    'B08005X'
+    OPIS=	  'Профиль 30 mm. Система Д40'
+    KATEGORIA='Импост'
+    SZEROKOSC=30
+    ZEWNATRZ= E_B08005
+    RYSUNEK='B08005.VCT'	
+	
+    SYSTEMY= [DEF_SYS_DR40]	
+	
+    MATERIALY=
+       <
+        AKCESORIA_SZTUKI=
+          <
+         KOD    = E_390D1700
+         ILE    = 4
+          >	
+        AKCESORIA_SZTUKI=
+         <
+         KOD    = E_ZaklOtp_4_8x8_DIN7337
+         ILE    = 16
+	     GDY_PARAMETR='METIZ=0'				  
+         >	    
+      >
+  >
+
+SZPROS[ SZPROS_BRAK]=
+  <
+    NAZWA=    'Отсутствует профиль'
+    OPIS=	  'Отсутствует профиль'
+    KATEGORIA='Другой'
+    RYSUNEK=	     'Brak.bmp'
+    SZEROKOSC=48
+    ZEWNATRZ=E_BRAK_PROFILE
+    RYSUNEK=	     'Brak.bmp'
+	
+    SYSTEMY= [
+        DEF_SYS_T48            	,
+        DEF_SYS_C60            	,
+        DEF_SYS_C67            	,
+        DEF_SYS_T50             ,
+        DEF_SYS_T50SD          	,
+        DEF_SYS_PF             	,
+        DEF_SYS_C60_HARM       	,
+        DEF_SYS_KC2_1          	,
+        DEF_SYS_T38            	,
+        DEF_SYS_KC2_2          	,
+        DEF_SYSTEM_GORIZONT    	,
+        DEF_SYS_TBM60F         	,
+        DEF_SYS_KC2_3          	,
+        DEF_SYS_D40            	,
+        DEF_SYS_TPO38          	,
+        DEF_SYS_TPD38          	,
+        DEF_SYSTEM_TBP1        	,
+        DEF_SYSTEM_TBP2        	,
+        DEF_SYSTEM_TBP3        	,
+        DEF_SYS_TKP            	,
+        DEF_SYSTEM_TBP4        	,
+        DEF_SYS_TNF03          	,
+        DEF_SYS_TF50K          	,
+        DEF_SYS_TB248          	,
+        DEF_SYS_TC57P          	,
+        DEF_SYS_XOT            	,
+        DEF_SYS_TSK            	,
+        DEF_SYS_TPB36          	,
+        DEF_SYS_TBM60F_48      	,
+        DEF_SYS_TC75           	,
+        DEF_SYS_TC95           	,
+        DEF_SYS_TAD117         	,
+        DEF_SYS_TPV            	,
+        DEF_SYS_TPV_ECO        	,
+        DEF_SYS_PAN            	,
+        DEF_SYS_TB50           	,
+        DEF_SYS_FB50           	,
+        DEF_SYS_RESIDENCE      	,
+        DEF_SYS_TS77           	,
+        DEF_SYS_TG40           	,
+        DEF_SYS_RESIDENCE_DR1  	,
+        DEF_SYS_TB63_120       	
+        ]		
+			
+	
+    MATERIALY=
+       <
+       >	   
+    >
+
+
+
+
+
+SZPROS[ SZPROS_T48_SLP_148002]=
+  <
+    NAZWA=    'Фальш-ригель 148002X'
+    OPIS=	  'Фальш-ригели Т48'
+    KATEGORIA='Фальш-ригели Т48'
+    SZEROKOSC=48
+    ZEWNATRZ=E_148002XX
+    RYSUNEK='148002.VCT'	
+	
+    SYSTEMY= [DEF_SYS_T48, DEF_SYS_TF50K, DEF_SYS_TB248]	
+	
+    MATERIALY=
+       <
+       WYLICZENIE=
+         <
+         PRZEKROJ_NR=30
+         KOD    = E_02025
+         PAR_ILOSC='2'
+		 PAR_DLUGOSC='SWIATLO_DLG'
+         >
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x16_DIN7981
+              ILE    = 4
+		      GDY_PARAMETR='METIZ=0'				  
+       >	
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x19_DIN7981
+              ILE    = 2
+	    	  GDY_PARAMETR='METIZ=0'				  
+       >	   
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_148D03x
+              ILE    = 2
+		      GDY_PARAMETR='METIZ=0'				  
+       >	   
+    >
+  >
+
+SZPROS[ SZPROS_T48_SLP_148003]=
+  <
+    NAZWA=    'Фальш-ригель 148003X'
+    OPIS=	  'Фальш-ригели Т48'
+    KATEGORIA='Фальш-ригели Т48'
+    SZEROKOSC=48
+    ZEWNATRZ=E_148003XX
+    RYSUNEK='148003.VCT'	
+	
+    SYSTEMY= [DEF_SYS_T48, DEF_SYS_TF50K, DEF_SYS_TB248]		
+	
+    MATERIALY=
+      <
+       WYLICZENIE=
+         <
+         PRZEKROJ_NR=30
+         KOD    = E_02025
+         PAR_ILOSC='2'
+		 PAR_DLUGOSC='SWIATLO_DLG'
+         >
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x16_DIN7981
+              ILE    = 8
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x19_DIN7981
+              ILE    = 2
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	   
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_148D05x
+              ILE    = 2
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	   
+    >	
+  >
+
+SZPROS[ SZPROS_T48_SLP_148004]=
+  <
+    NAZWA=    'Фальш-ригель 148004X'
+    OPIS=	  'Фальш-ригели Т48'
+    KATEGORIA='Фальш-ригели Т48'
+    SZEROKOSC=48
+    ZEWNATRZ=E_148004XX
+    RYSUNEK='148004.VCT'	
+	
+    SYSTEMY= [DEF_SYS_T48, DEF_SYS_TF50K, DEF_SYS_TB248]		
+	
+    MATERIALY=
+      <
+       WYLICZENIE=
+         <
+         PRZEKROJ_NR=30
+         KOD    = E_02025
+         PAR_ILOSC='2'
+		 PAR_DLUGOSC='SWIATLO_DLG'
+         >
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x16_DIN7981
+              ILE    = 4
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x19_DIN7981
+              ILE    = 2
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	   
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_148D08x
+              ILE    = 2
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	   
+    >	
+  >
+  
+SZPROS[ SZPROS_T48_SLP_148005]=
+  <
+    NAZWA=    'Фальш-ригель 148005X'
+    OPIS=	  'Фальш-ригели Т48'
+    KATEGORIA='Фальш-ригели Т48'
+    SZEROKOSC=48
+    ZEWNATRZ=E_148005XX
+    RYSUNEK='148005.VCT'	
+	
+    SYSTEMY= [DEF_SYS_T48, DEF_SYS_TF50K, DEF_SYS_TB248]		
+	
+    MATERIALY=
+       <
+       WYLICZENIE=
+         <
+         PRZEKROJ_NR=30
+         KOD    = E_02025
+         PAR_ILOSC='2'
+		 PAR_DLUGOSC='SWIATLO_DLG'
+         >
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x16_DIN7981
+              ILE    = 8
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x19_DIN7981
+              ILE    = 2
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	   
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_148D10x
+              ILE    = 2
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	   
+    >	
+  >  
+  
+ SZPROS[ SZPROS_T48_SLP_148006]=
+  <
+    NAZWA=    'Фальш-ригель 148006X'
+    OPIS=	  'Фальш-ригели Т48'
+    KATEGORIA='Фальш-ригели Т48'
+    SZEROKOSC=48
+    ZEWNATRZ=E_148006XX
+    RYSUNEK='148006.VCT'	
+	
+    SYSTEMY= [DEF_SYS_T48, DEF_SYS_TF50K, DEF_SYS_TB248]		
+	
+    MATERIALY=
+
+<
+       WYLICZENIE=
+         <
+         PRZEKROJ_NR=30
+         KOD    = E_02025
+         PAR_ILOSC='2'
+		 PAR_DLUGOSC='SWIATLO_DLG'
+         >
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x16_DIN7981
+              ILE    = 12
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x19_DIN7981
+              ILE    = 2
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	   
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_148D46x
+              ILE    = 2
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	   
+    >	
+  > 
+  
+SZPROS[ SZPROS_T48_SLP_148007]=
+  <
+    NAZWA=    'Фальш-ригель 148007X'
+    OPIS=	  'Фальш-ригели Т48'
+    KATEGORIA='Фальш-ригели Т48'
+    SZEROKOSC=48
+    ZEWNATRZ=E_148007XX
+    RYSUNEK='148007.VCT'	
+	
+    SYSTEMY= [DEF_SYS_T48, DEF_SYS_TF50K, DEF_SYS_TB248]		
+	
+    MATERIALY=
+
+<
+       WYLICZENIE=
+         <
+         PRZEKROJ_NR=30
+         KOD    = E_02025
+         PAR_ILOSC='2'
+		 PAR_DLUGOSC='SWIATLO_DLG'
+         >
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x16_DIN7981
+              ILE    = 12
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x19_DIN7981
+              ILE    = 2
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	   
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_148D48x
+              ILE    = 2
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	   
+    >	
+  >
+
+SZPROS[SZPROS_OTLIV_A03018]=
+  <
+    NAZWA=    'Отлив A03018X'
+    OPIS=	  'Отлив A03018X'
+    KATEGORIA='Отливы'
+    SZEROKOSC=17
+    ZEWNATRZ=E_A03018XX
+    RYSUNEK='A03018.VCT'	
+	
+    SYSTEMY= [
+        DEF_SYS_T48            	,
+        DEF_SYS_C60            	,
+        DEF_SYS_C67            	,
+        DEF_SYS_T50             ,
+        DEF_SYS_T50SD          	,
+        DEF_SYS_PF             	,
+        DEF_SYS_C60_HARM       	,
+        DEF_SYS_KC2_1          	,
+        DEF_SYS_T38            	,
+        DEF_SYS_KC2_2          	,
+        DEF_SYSTEM_GORIZONT    	,
+        DEF_SYS_TBM60F         	,
+        DEF_SYS_KC2_3          	,
+        DEF_SYS_D40            	,
+        DEF_SYS_TPO38          	,
+        DEF_SYS_TPD38          	,
+        DEF_SYSTEM_TBP1        	,
+        DEF_SYSTEM_TBP2        	,
+        DEF_SYSTEM_TBP3        	,
+        DEF_SYS_TKP            	,
+        DEF_SYSTEM_TBP4        	,
+        DEF_SYS_TNF03          	,
+        DEF_SYS_TF50K          	,
+        DEF_SYS_TB248          	,
+        DEF_SYS_TC57P          	,
+        DEF_SYS_XOT            	,
+        DEF_SYS_TSK            	,
+        DEF_SYS_TPB36          	,
+        DEF_SYS_TBM60F_48      	,
+        DEF_SYS_TC75           	,
+        DEF_SYS_TC95           	,
+        DEF_SYS_TAD117         	,
+        DEF_SYS_TPV            	,
+        DEF_SYS_TPV_ECO        	,
+        DEF_SYS_PAN            	,
+        DEF_SYS_TB50           	,
+        DEF_SYS_FB50           	,
+        DEF_SYS_RESIDENCE      	,
+        DEF_SYS_TS77           	,
+        DEF_SYS_TG40           	,
+        DEF_SYS_RESIDENCE_DR1  	,
+        DEF_SYS_TB63_120       	
+        ]		
+		
+    MATERIALY=
+
+<
+        AKCESORIA_SZTUKI=
+              <
+              KOD    = E_Sam4_8x16_DIN7981
+              ILE    = 1
+              CO     = 250
+              MINIMUM= 2
+	    	  GDY_PARAMETR='METIZ=0'			  
+       >	
+    >	
+  >  
+  
+  
+SZPROS[SZPROS_OTLIV_A03015]=
+  <
+    NAZWA=    'Отлив A03015X'
+    OPIS=	  'Отлив A03015X (без учета торцевых заглушек, стыковочных элементов)'
+    KATEGORIA='Отливы'
+    SZEROKOSC=111
+    ZEWNATRZ=E_A03015XX
+    RYSUNEK='SZPROS_A03015.VCT'
+	
+    SYSTEMY= [
+        DEF_SYS_T48            	,
+        DEF_SYS_C60            	,
+        DEF_SYS_C67            	,
+        DEF_SYS_T50             ,
+        DEF_SYS_T50SD          	,
+        DEF_SYS_PF             	,
+        DEF_SYS_C60_HARM       	,
+        DEF_SYS_KC2_1          	,
+        DEF_SYS_T38            	,
+        DEF_SYS_KC2_2          	,
+        DEF_SYSTEM_GORIZONT    	,
+        DEF_SYS_TBM60F         	,
+        DEF_SYS_KC2_3          	,
+        DEF_SYS_D40            	,
+        DEF_SYS_TPO38          	,
+        DEF_SYS_TPD38          	,
+        DEF_SYSTEM_TBP1        	,
+        DEF_SYSTEM_TBP2        	,
+        DEF_SYSTEM_TBP3        	,
+        DEF_SYS_TKP            	,
+        DEF_SYSTEM_TBP4        	,
+        DEF_SYS_TNF03          	,
+        DEF_SYS_TF50K          	,
+        DEF_SYS_TB248          	,
+        DEF_SYS_TC57P          	,
+        DEF_SYS_XOT            	,
+        DEF_SYS_TSK            	,
+        DEF_SYS_TPB36          	,
+        DEF_SYS_TBM60F_48      	,
+        DEF_SYS_TC75           	,
+        DEF_SYS_TC95           	,
+        DEF_SYS_TAD117         	,
+        DEF_SYS_TPV            	,
+        DEF_SYS_TPV_ECO        	,
+        DEF_SYS_PAN            	,
+        DEF_SYS_TB50           	,
+        DEF_SYS_FB50           	,
+        DEF_SYS_RESIDENCE      	,
+        DEF_SYS_TS77           	,
+        DEF_SYS_TG40           	,
+        DEF_SYS_RESIDENCE_DR1  	,
+        DEF_SYS_TB63_120       	
+        ]		
+			
+	
+    MATERIALY=
+       <
+       WYLICZENIE=
+         <
+         PRZEKROJ_NR=30
+         KOD    = E_A03016XX
+         PAR_ILOSC='1'
+		 PAR_DLUGOSC='50'
+         KOLOR  =KOLOR_ZEWN		 
+         >
+        AKCESORIA_SZTUKI=
+         <
+         KOD    = E_Sam4_2x13_DIN7981
+         ILE    = 1
+	     GDY_PARAMETR='METIZ=0'			  
+         >	
+        AKCESORIA_SZTUKI=
+          <
+         KOD    = E_Sam4_2x13_DIN7981
+         ILE    = 4
+	     GDY_PARAMETR='METIZ=0'			  
+       >		   
+    >	
+  >    
+  
+SZPROS[SZPROS_OTLIV_A03015_A03017]=
+  <
+    NAZWA=    'Отлив A03015X+A03017X'
+    OPIS=	  'Отлив A03015X+A03017X (без учета торцевых заглушек, стыковочных элементов)'
+    KATEGORIA='Отливы'
+    SZEROKOSC=217
+    ZEWNATRZ=E_A03015XX
+    ZEWNATRZ=E_A03016XX	
+    RYSUNEK='SZPROS_A03015_A03017.VCT'
+	
+    SYSTEMY= [
+        DEF_SYS_T48            	,
+        DEF_SYS_C60            	,
+        DEF_SYS_C67            	,
+        DEF_SYS_T50             ,
+        DEF_SYS_T50SD          	,
+        DEF_SYS_PF             	,
+        DEF_SYS_C60_HARM       	,
+        DEF_SYS_KC2_1          	,
+        DEF_SYS_T38            	,
+        DEF_SYS_KC2_2          	,
+        DEF_SYSTEM_GORIZONT    	,
+        DEF_SYS_TBM60F         	,
+        DEF_SYS_KC2_3          	,
+        DEF_SYS_D40            	,
+        DEF_SYS_TPO38          	,
+        DEF_SYS_TPD38          	,
+        DEF_SYSTEM_TBP1        	,
+        DEF_SYSTEM_TBP2        	,
+        DEF_SYSTEM_TBP3        	,
+        DEF_SYS_TKP            	,
+        DEF_SYSTEM_TBP4        	,
+        DEF_SYS_TNF03          	,
+        DEF_SYS_TF50K          	,
+        DEF_SYS_TB248          	,
+        DEF_SYS_TC57P          	,
+        DEF_SYS_XOT            	,
+        DEF_SYS_TSK            	,
+        DEF_SYS_TPB36          	,
+        DEF_SYS_TBM60F_48      	,
+        DEF_SYS_TC75           	,
+        DEF_SYS_TC95           	,
+        DEF_SYS_TAD117         	,
+        DEF_SYS_TPV            	,
+        DEF_SYS_TPV_ECO        	,
+        DEF_SYS_PAN            	,
+        DEF_SYS_TB50           	,
+        DEF_SYS_FB50           	,
+        DEF_SYS_RESIDENCE      	,
+        DEF_SYS_TS77           	,
+        DEF_SYS_TG40           	,
+        DEF_SYS_RESIDENCE_DR1  	,
+        DEF_SYS_TB63_120       	
+        ]		
+			
+	
+    MATERIALY=
+       <
+       WYLICZENIE=
+         <
+         PRZEKROJ_NR=30
+         KOD    = E_A03017XX
+         PAR_ILOSC='1'
+		 PAR_DLUGOSC='SWIATLO_DLG'
+         KOLOR  =KOLOR_ZEWN		 
+         >		  
+       WYLICZENIE=
+         <
+         PRZEKROJ_NR=30
+         KOD    = E_A03016XX
+         PAR_ILOSC='1'
+		 PAR_DLUGOSC='50'
+         KOLOR  =KOLOR_ZEWN		 
+         >
+        AKCESORIA_SZTUKI=
+         <
+         KOD    = E_Sam4_2x13_DIN7981
+         ILE    = 1
+	     GDY_PARAMETR='METIZ=0'			  
+         >	
+        AKCESORIA_SZTUKI=
+          <
+         KOD    = E_Sam4_2x13_DIN7981
+         ILE    = 4
+	     GDY_PARAMETR='METIZ=0'			  
+       >		
+        AKCESORIA_SZTUKI=
+          <
+         KOD    = E_ZaklOtp_4x10
+         ILE    = 10
+	     GDY_PARAMETR='METIZ=0'			  
+       >			   
+    >	
+  >      
+  
+  
+  
+  
+//SZPROS[ SZPROS_T48_SLP_148008]=
+//  <
+//    NAZWA=    'Фальш-ригель 148008X'
+//    OPIS=	  'Фальш-ригели Т48'
+//    KATEGORIA='Фальш-ригели Т48'
+//    SZEROKOSC=48
+//    ZEWNATRZ=E_148008XX
+//
+//  >  
+//  
+//SZPROS[ SZPROS_T48_SLP_148009]=
+//  <
+//    NAZWA=    'Фальш-ригель 148009X'
+//    OPIS=	  'Фальш-ригели Т48'
+//    KATEGORIA='Фальш-ригели Т48'
+//    SZEROKOSC=48
+//    ZEWNATRZ=E_148009XX
+//  >  

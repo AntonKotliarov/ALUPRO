@@ -1,0 +1,1740 @@
+//***********************************************************************
+//Рама в фасад
+//***********************************************************************
+SKRZYDLO[ WNG_RAMA_OF_W77_101]=
+  <
+       NAZWA=       'W77.101X'
+       OPIS =       'Рама оконная 55мм. Система W77'
+       KATEGORIA=   'W77 Окна'
+       ZASTOSOWANIE=[TS_W77_windows]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_101.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_RAMA_OKIENNA_ALP_W77_101]
+       STANDARD[POL_PRAWO] =  [PRF_RAMA_OKIENNA_ALP_W77_101]
+       STANDARD[POL_GORA]  =  [PRF_RAMA_OKIENNA_ALP_W77_101]
+       STANDARD[POL_DOL]   =  [PRF_RAMA_OKIENNA_ALP_W77_101]
+       STANDARD[POL_INNE]  =  [PRF_RAMA_OKIENNA_ALP_W77_101]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       ZMIENNA='OKNO_W77=1'	 	   
+  >      
+SKRZYDLO[ WNG_RAMA_OF_W77_104]=
+  <
+       NAZWA=       'W77.104X'
+       OPIS =       'Рама оконная 70мм. Система W77'
+       KATEGORIA=   'W77 Окна'
+       ZASTOSOWANIE=[TS_Fasada_RamaOkienna]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_104.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_RAMA_OKIENNA_ALP_W77_104]
+       STANDARD[POL_PRAWO] =  [PRF_RAMA_OKIENNA_ALP_W77_104]
+       STANDARD[POL_GORA]  =  [PRF_RAMA_OKIENNA_ALP_W77_104]
+       STANDARD[POL_DOL]   =  [PRF_RAMA_OKIENNA_ALP_W77_104]
+       STANDARD[POL_INNE]  =  [PRF_RAMA_OKIENNA_ALP_W77_104]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       ZMIENNA='OKNO_W77=1'	 	   
+  >      
+//***********************************************************************
+//Створки оконные (ПВХ)
+//***********************************************************************
+SKRZYDLO[ WNG_SKRZ_OK1_W77_205_R  ]=
+  <
+       NAZWA_HTML=  'W77.205X поворотна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 72мм. Фурнитура поворотна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_205.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK1_W77_206_R  ]=
+  <
+       NAZWA_HTML=  'W77.206X поворотна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 82мм. Фурнитура поворотна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_206.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK1_W77_207_R  ]=
+  <
+       NAZWA_HTML=  'W77.207X поворотна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 92мм. Фурнитура поворотна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_207.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK1_W77_208_R  ]=
+  <
+       NAZWA_HTML=  'W77.208X поворотна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 108мм. Фурнитура поворотна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_208.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK	 	   
+  >    
+
+
+SKRZYDLO[ WNG_SKRZ_OK1_W77_205_UR  ]=
+  <
+       NAZWA_HTML=  'W77.205X поворотно-ухильна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 72мм. Фурнитура поворотно-ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_205.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK1_W77_206_UR  ]=
+  <
+       NAZWA_HTML=  'W77.206X поворотно-ухильна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 82мм. Фурнитура поворотно-ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_206.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK1_W77_207_UR  ]=
+  <
+       NAZWA_HTML=  'W77.207X поворотно-ухильна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 92мм. Фурнитура поворотно-ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_207.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK1_W77_208_UR  ]=
+  <
+       NAZWA_HTML=  'W77.208X поворотно-ухильна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 108мм. Фурнитура поворотно-ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_208.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >    
+
+
+SKRZYDLO[ WNG_SKRZ_OK1_W77_205_U  ]=
+  <
+       NAZWA_HTML=  'W77.205X ухильна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 72мм. Фурнитура ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_205.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK1_W77_206_U  ]=
+  <
+       NAZWA_HTML=  'W77.206X ухильна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 82мм. Фурнитура ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_206.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK1_W77_207_U  ]=
+  <
+       NAZWA_HTML=  'W77.207X ухильна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 92мм. Фурнитура ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_207.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK1_W77_208_U  ]=
+  <
+       NAZWA_HTML=  'W77.208X ухильна <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 108мм. Фурнитура ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_208.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >      
+  
+
+SKRZYDLO[ WNG_SKRZ_OK2_W77_205_R  ]=
+  <
+       NAZWA_HTML=  'W77.205X поворотна без штульпа <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 72мм. Фурнитура поворотна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_205.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK2_W77_206_R  ]=
+  <
+       NAZWA_HTML=  'W77.206X поворотна без штульпа <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 82мм. Фурнитура поворотна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_206.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK2_W77_207_R  ]=
+  <
+       NAZWA_HTML=  'W77.207X поворотна без штульпа <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 92мм. Фурнитура поворотна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_207.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK2_W77_208_R  ]=
+  <
+       NAZWA_HTML=  'W77.208X поворотна без штульпа <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 108мм. Фурнитура поворотна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_208.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >      
+
+
+SKRZYDLO[ WNG_SKRZ_OK3_W77_205_R  ]=
+  <
+       NAZWA_HTML=  'W77.205X поворотна зі штульпом <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 72мм. Фурнитура поворотна зі штульпом. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_205.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK3_W77_206_R  ]=
+  <
+       NAZWA_HTML=  'W77.206X поворотна зі штульпом <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 82мм. Фурнитура поворотна зі штульпом. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_206.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK3_W77_207_R  ]=
+  <
+       NAZWA_HTML=  'W77.207X поворотна зі штульпом <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 92мм. Фурнитура поворотна зі штульпом. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_207.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK3_W77_208_R  ]=
+  <
+       NAZWA_HTML=  'W77.208X поворотна зі штульпом <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 108мм. Фурнитура поворотна зі штульпом. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_208.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >    
+
+  
+
+SKRZYDLO[ WNG_SKRZ_OK2_W77_205_UR  ]=
+  <
+       NAZWA_HTML=  'W77.205X поворотно-ухильна без штульпа <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 72мм. Фурнитура поворотно-ухильна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_205.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_205]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK2_W77_206_UR  ]=
+  <
+       NAZWA_HTML=  'W77.206X поворотно-ухильна без штульпа <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 82мм. Фурнитура поворотно-ухильна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_206.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_206]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK2_W77_207_UR  ]=
+  <
+       NAZWA_HTML=  'W77.207X поворотно-ухильна без штульпа <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 92мм. Фурнитура поворотно-ухильна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_207.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_207]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK2_W77_208_UR  ]=
+  <
+       NAZWA_HTML=  'W77.208X поворотно-ухильна без штульпа <b><font face="verdana" color="clred">ПВХ</font></b>'
+       OPIS =       'Стулка віконна 108мм. Фурнитура поворотно-ухильна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_PVC_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_208.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_208]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >    
+
+
+//***********************************************************************
+//Створки оконные (алюминиевый паз)
+//***********************************************************************
+SKRZYDLO[ WNG_SKRZ_OK1_W77_201_R  ]=
+  <
+       NAZWA_HTML=  'W77.201X поворотна'
+       OPIS =       'Стулка віконна 72мм. Фурнитура поворотна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_OK1_W77_202_R  ]=
+  <
+       NAZWA_HTML=  'W77.202X поворотна'
+       OPIS =       'Стулка віконна 82мм. Фурнитура поворотна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK
+  >  
+SKRZYDLO[ WNG_SKRZ_OK1_W77_203_R  ]=
+  <
+       NAZWA_HTML=  'W77.203X поворотна'
+       OPIS =       'Стулка віконна 92мм. Фурнитура поворотна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK
+  >    
+SKRZYDLO[ WNG_SKRZ_OK1_W77_204_R  ]=
+  <
+       NAZWA_HTML=  'W77.204X поворотна'
+       OPIS =       'Стулка віконна 108мм. Фурнитура поворотна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK	 	   
+  >    
+
+
+SKRZYDLO[ WNG_SKRZ_OK1_W77_201_UR  ]=
+  <
+       NAZWA_HTML=  'W77.201X поворотно-ухильна'
+       OPIS =       'Стулка віконна 72мм. Фурнитура поворотно-ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK1_W77_202_UR  ]=
+  <
+       NAZWA_HTML=  'W77.202X поворотно-ухильна'
+       OPIS =       'Стулка віконна 82мм. Фурнитура поворотно-ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK1_W77_203_UR  ]=
+  <
+       NAZWA_HTML=  'W77.203X поворотно-ухильна'
+       OPIS =       'Стулка віконна 92мм. Фурнитура поворотно-ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK1_W77_204_UR  ]=
+  <
+       NAZWA_HTML=  'W77.204X поворотно-ухильна'
+       OPIS =       'Стулка віконна 108мм. Фурнитура поворотно-ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >    
+
+
+SKRZYDLO[ WNG_SKRZ_OK1_W77_201_U  ]=
+  <
+       NAZWA_HTML=  'W77.201X ухильна'
+       OPIS =       'Стулка віконна 72мм. Фурнитура ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK1_W77_202_U  ]=
+  <
+       NAZWA_HTML=  'W77.202X ухильна'
+       OPIS =       'Стулка віконна 82мм. Фурнитура ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK1_W77_203_U  ]=
+  <
+       NAZWA_HTML=  'W77.203X ухильна'
+       OPIS =       'Стулка віконна 92мм. Фурнитура ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK1_W77_204_U  ]=
+  <
+       NAZWA_HTML=  'W77.204X ухильна'
+       OPIS =       'Стулка віконна 108мм. Фурнитура ухильна. Система W77'
+       KATEGORIA=   'W77 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >      
+  
+
+SKRZYDLO[ WNG_SKRZ_OK2_W77_201_R  ]=
+  <
+       NAZWA_HTML=  'W77.201X поворотна без штульпа'
+       OPIS =       'Стулка віконна 72мм. Фурнитура поворотна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK2_W77_202_R  ]=
+  <
+       NAZWA_HTML=  'W77.202X поворотна без штульпа'
+       OPIS =       'Стулка віконна 82мм. Фурнитура поворотна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK2_W77_203_R  ]=
+  <
+       NAZWA_HTML=  'W77.203X поворотна без штульпа'
+       OPIS =       'Стулка віконна 92мм. Фурнитура поворотна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK2_W77_204_R  ]=
+  <
+       NAZWA_HTML=  'W77.204X поворотна без штульпа'
+       OPIS =       'Стулка віконна 108мм. Фурнитура поворотна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >      
+
+
+SKRZYDLO[ WNG_SKRZ_OK3_W77_201_R  ]=
+  <
+       NAZWA_HTML=  'W77.201X поворотна зі штульпом'
+       OPIS =       'Стулка віконна 72мм. Фурнитура поворотна зі штульпом. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK3_W77_202_R  ]=
+  <
+       NAZWA_HTML=  'W77.202X поворотна зі штульпом'
+       OPIS =       'Стулка віконна 82мм. Фурнитура поворотна зі штульпом. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK3_W77_203_R  ]=
+  <
+       NAZWA_HTML=  'W77.203X поворотна зі штульпом'
+       OPIS =       'Стулка віконна 92мм. Фурнитура поворотна зі штульпом. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK3_W77_204_R  ]=
+  <
+       NAZWA_HTML=  'W77.204X поворотна зі штульпом'
+       OPIS =       'Стулка віконна 108мм. Фурнитура поворотна зі штульпом. Система W77'
+       KATEGORIA=   'W77 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >    
+
+  
+
+SKRZYDLO[ WNG_SKRZ_OK2_W77_201_UR  ]=
+  <
+       NAZWA_HTML=  'W77.201X поворотно-ухильна без штульпа'
+       OPIS =       'Стулка віконна 72мм. Фурнитура поворотно-ухильна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK2_W77_202_UR  ]=
+  <
+       NAZWA_HTML=  'W77.202X поворотно-ухильна без штульпа'
+       OPIS =       'Стулка віконна 82мм. Фурнитура поворотно-ухильна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK2_W77_203_UR  ]=
+  <
+       NAZWA_HTML=  'W77.203X поворотно-ухильна без штульпа'
+       OPIS =       'Стулка віконна 92мм. Фурнитура поворотно-ухильна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK2_W77_204_UR  ]=
+  <
+       NAZWA_HTML=  'W77.204X поворотно-ухильна без штульпа'
+       OPIS =       'Стулка віконна 108мм. Фурнитура поворотно-ухильна без штульпа. Система W77'
+       KATEGORIA=   'W77 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK=     'W77_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_W77_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >    
+
+////***********************************************************************
+////Ramy drzwiowe
+////***********************************************************************
+//
+//SKRZYDLO[ WNG_RAMA_DRZWIOWA_DZ_W77_0104     ]=
+//  <
+//       NAZWA='W77.0104-x h=70mm'
+//       OPIS ='Рама дверная. Система W77'
+//       KATEGORIA='W77 Двери'
+//       ZASTOSOWANIE=[TS_BRZ_W77_RamaDZ]
+//       SYSTEMY=	    [DEF_SYS_W77]
+//       RYSUNEK='W77_0104.VCT'
+//       STANDARD[POL_LEWO]  =  [PRF_RAMA_DRZWIOWA_DZ_BRZ_W77_0104]
+//       STANDARD[POL_PRAWO] =  [PRF_RAMA_DRZWIOWA_DZ_BRZ_W77_0104]
+//       STANDARD[POL_GORA]  =  [PRF_RAMA_DRZWIOWA_DZ_BRZ_W77_0104]
+//       STANDARD[POL_DOL]   =  [PRF_PROG_BRZ_W77_0405]
+//       STANDARD[POL_INNE]  =  [PRF_RAMA_DRZWIOWA_DZ_BRZ_W77_0104]
+//       SKRZYDLO=TYP_SKRZYDLA_DRZWIOWE
+//       DOZWOLONE_WARIANTY=[WAR_W77]
+//       WARIANT=WAR_W77
+//  >
+//SKRZYDLO[ WNG_RAMA_DRZWIOWA_DW_W77_0105      ]=
+//  <
+//       NAZWA='W77.0105-x h=70mm'
+//       OPIS ='Рама дверная. Система W77'
+//       KATEGORIA='W77 Двери'
+//       ZASTOSOWANIE=[TS_BRZ_W77_RamaDW]
+//       SYSTEMY=	    [DEF_SYS_W77]
+//       RYSUNEK='W77_0105.VCT'
+//       STANDARD[POL_LEWO]  =  [PRF_RAMA_DRZWIOWA_DW_BRZ_W77_0105]
+//       STANDARD[POL_PRAWO] =  [PRF_RAMA_DRZWIOWA_DW_BRZ_W77_0105]
+//       STANDARD[POL_GORA]  =  [PRF_RAMA_DRZWIOWA_DW_BRZ_W77_0105]
+//       STANDARD[POL_DOL]   =  [PRF_PROG_BRZ_W77_0405]          
+//       STANDARD[POL_INNE]  =  [PRF_RAMA_DRZWIOWA_DW_BRZ_W77_0105]
+//       SKRZYDLO=TYP_SKRZYDLA_DRZWIOWE
+//       DOZWOLONE_WARIANTY=[WAR_W77]
+//       WARIANT=WAR_W77
+//  >    
+////***********************************************************************
+////Rama drzwiowe fasad
+////***********************************************************************  
+//SKRZYDLO[ WNG_RAMA_DZF_W77_0308]=
+//  <
+//       NAZWA='W77.0308-x h=94mm'
+//       OPIS ='Рама дверная. Система W77'
+//       KATEGORIA='W77 Двери'
+//       ZASTOSOWANIE=[TS_Fasada_RamaDZ]
+//       SYSTEMY=	    [DEF_SYS_W77]
+//       RYSUNEK='W77_0308.VCT'
+//       STANDARD[POL_LEWO]  =  [PRF_RAMA_DRZWIOWE_DZ_BRZ_W77_0308]
+//       STANDARD[POL_PRAWO] =  [PRF_RAMA_DRZWIOWE_DZ_BRZ_W77_0308]
+//       STANDARD[POL_GORA]  =  [PRF_RAMA_DRZWIOWE_DZ_BRZ_W77_0308]
+//       STANDARD[POL_DOL]   =  [PRF_PROG_BRZ_W77_0405]
+//       STANDARD[POL_INNE]  =  [PRF_RAMA_DRZWIOWE_DZ_BRZ_W77_0308]
+//       SKRZYDLO=TYP_SKRZYDLA_DRZWIOWE
+//       DOZWOLONE_WARIANTY=[WAR_W77]
+//       WARIANT=WAR_W77	  
+//       ZMIENNA='DVERI_W77=1'		   
+//  >
+//SKRZYDLO[ WNG_RAMA_DWF_W77_0307      ]=
+//  <
+//       NAZWA='W77.0307-x h=94mm'
+//       OPIS ='Рама дверная. Система W77'
+//       KATEGORIA='W77 Двери'
+//       ZASTOSOWANIE=[TS_Fasada_RamaDW]
+//       SYSTEMY=	    [DEF_SYS_W77]
+//       RYSUNEK='W77_0307.VCT'
+//       STANDARD[POL_LEWO]  =  [PRF_RAMA_DRZWIOWE_DW_BRZ_W77_0307]
+//       STANDARD[POL_PRAWO] =  [PRF_RAMA_DRZWIOWE_DW_BRZ_W77_0307]
+//       STANDARD[POL_GORA]  =  [PRF_RAMA_DRZWIOWE_DW_BRZ_W77_0307]
+//       STANDARD[POL_DOL]   =  [PRF_PROG_BRZ_W77_0405]
+//       STANDARD[POL_INNE]  =  [PRF_RAMA_DRZWIOWE_DW_BRZ_W77_0307]
+//       SKRZYDLO=TYP_SKRZYDLA_DRZWIOWE
+//       DOZWOLONE_WARIANTY=[WAR_W77]
+//       WARIANT=WAR_W77 	 
+//       ZMIENNA='DVERI_W77=1'		   
+//  >  
+//
+
+
+//***********************************************************************
+//Skrzydla drzwiowe
+//***********************************************************************
+SKRZYDLO[WNG_SKRZ_DW1_W77_502]=
+  <
+       NAZWA='W77.502-x h=95mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_502.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW2_W77_502]=
+  <
+       NAZWA='W77.502-x h=95mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_502.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_502rs]=
+  <
+       NAZWA='W77.502-x h=95mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DW3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_502.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_502]=
+  <
+       NAZWA='W77.502-x h=95mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_502.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >  
+//**************************
+SKRZYDLO[WNG_SKRZ_DW1_W77_504]=
+  <
+       NAZWA='W77.504-x h=103mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_504.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW2_W77_504]=
+  <
+       NAZWA='W77.504-x h=103mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_504.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_504rs]=
+  <
+       NAZWA='W77.504-x h=103mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DW3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_504.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_504]=
+  <
+       NAZWA='W77.504-x h=103mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_504.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+
+
+//***************************
+//***************************  
+  
+SKRZYDLO[WNG_SKRZ_DZ1_W77_501]=
+  <
+       NAZWA='W77.501-x h=95mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DZ1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_501.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ2_W77_501]=
+  <
+       NAZWA='W77.501-x h=95mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DZ2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_501.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_501rs]=
+  <
+       NAZWA='W77.501-x h=95mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_501.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_501]=
+  <
+       NAZWA='W77.501-x h=95mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_501.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+  
+//**********************************
+
+SKRZYDLO[WNG_SKRZ_DZ1_W77_503]=
+  <
+       NAZWA='W77.503-x h=103mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DZ1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_503.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ2_W77_503]=
+  <
+       NAZWA='W77.503-x h=103mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DZ2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_503.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_503rs]=
+  <
+       NAZWA='W77.503-x h=103mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_503.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_503]=
+  <
+       NAZWA='W77.503-x h=103mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_503.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >      
+  
+  
+//***********************************************************************
+//COKOL OUT
+//***********************************************************************  
+  
+SKRZYDLO[WNG_SKRZ_DZ1_W77_501_W77_602]=
+  <
+       NAZWA='W77.501x + W77.602x h=193mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DZ1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_501_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ2_W77_501_W77_602]=
+  <
+       NAZWA='W77.501x + W77.602x h=193mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DZ2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_501_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_501_W77_602rs]=
+  <
+       NAZWA='W77.501x + W77.602x h=193mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_501_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_501_W77_602]=
+  <
+       NAZWA='W77.501x + W77.602x h=193mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_501_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+    
+//**********************************
+
+SKRZYDLO[WNG_SKRZ_DZ1_W77_503_W77_602]=
+  <
+       NAZWA='W77.503x + W77.602x h=201mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DZ1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_503_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ2_W77_503_W77_602]=
+  <
+       NAZWA='W77.503x + W77.602x h=201mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DZ2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_503_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_503_W77_602rs]=
+  <
+       NAZWA='W77.503x + W77.602x h=201mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_503_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_503_W77_602]=
+  <
+       NAZWA='W77.503x + W77.602x h=201mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_503_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >      
+    
+  
+//***********************************************************************
+//COKOL IN
+//***********************************************************************
+SKRZYDLO[WNG_SKRZ_DW1_W77_502_W77_602]=
+  <
+       NAZWA='W77.502x + W77.602x h=193mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_502_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW2_W77_502_W77_602]=
+  <
+       NAZWA='W77.502x + W77.602x h=193mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_502_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_502_W77_602rs]=
+  <
+       NAZWA='W77.502x + W77.602x h=193mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DW3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_502_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_502_W77_602]=
+  <
+       NAZWA='W77.502x + W77.602x h=193mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_502_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >  
+//**************************
+SKRZYDLO[WNG_SKRZ_DW1_W77_504_W77_602]=
+  <
+       NAZWA='W77.504x + W77.602x h=201mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_504_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW2_W77_504_W77_602]=
+  <
+       NAZWA='W77.504x + W77.602x h=201mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_504_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_504_W77_602rs]=
+  <
+       NAZWA='W77.504x + W77.602x h=201mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DW3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_504_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_504_W77_602]=
+  <
+       NAZWA='W77.504x + W77.602x h=201mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA='Стулка дверей W77 (з цокольним профілем)'
+       ZASTOSOWANIE=[TS_Drzwi_DW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_504_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+
+
+  
+  
+//***********************************************************************
+//Rama drzwiowe fasad
+//***********************************************************************  
+SKRZYDLO[ WNG_RAMA_DZF_W77_403]=
+  <
+       NAZWA='W77.403x h=95mm'
+       OPIS ='Рама дверная. Система W77'
+       KATEGORIA='W77 Двери'
+       ZASTOSOWANIE=[TS_Fasada_RamaDZ]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_403.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403]
+       STANDARD[POL_PRAWO] =  [PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403]
+       STANDARD[POL_GORA]  =  [PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403]
+       STANDARD[POL_DOL]   =  [PRF_PROG_ALP_W77_614]
+       STANDARD[POL_INNE]  =  [PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403]
+       SKRZYDLO=TYP_SKRZYDLA_DRZWIOWE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77	  
+       ZMIENNA='DVERI_W77=1'		   
+  >
+SKRZYDLO[ WNG_RAMA_DWF_W77_404 ]=
+  <
+       NAZWA='W77.404x h=95mm'
+       OPIS ='Рама дверная. Система W77'
+       KATEGORIA='W77 Двери'
+       ZASTOSOWANIE=[TS_Fasada_RamaDW]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W75_0307.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404]
+       STANDARD[POL_PRAWO] =  [PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404]
+       STANDARD[POL_GORA]  =  [PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404]
+       STANDARD[POL_DOL]   =  [PRF_PROG_ALP_W77_614]
+       STANDARD[POL_INNE]  =  [PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404]
+       SKRZYDLO=TYP_SKRZYDLA_DRZWIOWE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77	  
+       ZMIENNA='DVERI_W77=1'			   
+  >    

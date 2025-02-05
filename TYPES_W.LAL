@@ -1,0 +1,332 @@
+//178
+//Standard
+#DEFINE TS_Sciana             0
+#DEFINE TS_Szyba              1
+
+//***********************************************
+// Glowne skrzydla 2-100 - rozne w roznych syst.
+//***********************************************
+
+#DEFINE TS_FASADA_F50                   2
+#DEFINE TS_W77_windows                  3
+#DEFINE TS_W77_RamaDZ                   4
+#DEFINE TS_W77_RamaDW                   5
+#DEFINE TS_NVF_KERAM_KLIAM              6
+#DEFINE TS_NVF_KERAM_GLUE               7
+#DEFINE TS_NVF_AKP                      8
+#DEFINE TS_NVF_HPL_PANEL                9
+#DEFINE TS_NVF_FZP                      10
+
+
+
+//******************************************
+// Fasada
+//******************************************
+#DEFINE TS_Fasada_OknoPolaciowe                   101
+#DEFINE TS_Fasada_RamaStruktury                   102
+#DEFINE TS_Fasada_Struktura                       103
+#DEFINE TS_Fasada_RamaPolStruktury                104
+#DEFINE TS_Fasada_PolStruktura                    105
+#DEFINE TS_Fasada_RamaStala                       106
+#DEFINE TS_Fasada_RamaOkienna                     107
+#DEFINE TS_Fasada_RamaUniwers                     108
+#DEFINE TS_Fasada_RamaOkiennaZ                    109
+#DEFINE TS_Fasada_RamaDW                          110
+#DEFINE TS_Fasada_RamaDZ                          111
+#DEFINE TS_Fasada_RamaDH                          112
+#DEFINE TS_Fasada_RamaDWZ                         113
+#DEFINE TS_Fasada_RamaDWBezp                      114
+#DEFINE TS_Fasada_RamaDZBezp                      115
+#DEFINE TS_Fasada_RamaDAuto2                      116
+#DEFINE TS_Fasada_RamaDAuto3                      117
+//******************************************
+// Struktura
+//******************************************
+#DEFINE TS_Struktura_StrukturaSkrzydloStale       118
+#DEFINE TS_Struktura_StrukturaSkrzydloUchylne     119
+#DEFINE TS_Struktura_PolStrukturaSkrzydloStale    120
+#DEFINE TS_Struktura_PolStrukturaSkrzydloUchylne  121
+
+
+
+//******************************************
+// Okna
+//******************************************
+#DEFINE TS_RamaOkienna_OW1                        122
+#DEFINE TS_RamaOkienna_OW2                        123
+#DEFINE TS_RamaOkienna_OW3                        124
+#DEFINE TS_RamaOkienna_OW2v                       125
+#DEFINE TS_RamaOkienna_OW3v                       126
+#DEFINE TS_RamaOkienna_OUP1                       127
+#DEFINE TS_RamaOkienna_OUP2                       128
+#DEFINE TS_RamaOkienna_OUP3                       129
+#DEFINE TS_RamaOkienna_OZ1                        130
+#DEFINE TS_RamaOkienna_OZ2                        131
+#DEFINE TS_RamaOkienna_OZ3                        178
+#DEFINE TS_RamaOkienna_Obrotowe                   132
+#DEFINE TS_RamaOkienna_OBW1                       133
+#DEFINE TS_RamaOkienna_OBW2                       134
+#DEFINE TS_RamaOkienna_OBW3                       135
+#DEFINE TS_RamaOkienna_OBZ1                       136
+#DEFINE TS_RamaOkienna_OBZ2                       137
+#DEFINE TS_RamaOkienna_OBZ3                       138
+#DEFINE TS_RamaOkienna_SkrzydloHarmonijkowe       139
+#DEFINE TS_RamaOkienna_SkrzydloO1Posz             140
+#DEFINE TS_RamaOkienna_SkrzydloO2Posz             141
+#DEFINE TS_RamaOkienna_SkrzydloO3Posz             142
+#DEFINE TS_RamaOkienna_PodawczePionStale          143
+#DEFINE TS_RamaOkienna_PodawczePionRuch           144
+#DEFINE TS_RamaOkienna_PodawczePoziomStale        145
+#DEFINE TS_RamaOkienna_PodawczePoziomRuch         146
+
+
+//******************************************
+//Drzwi
+//******************************************
+#DEFINE TS_Drzwi_DW1                              147
+#DEFINE TS_Drzwi_DW2                              148
+#DEFINE TS_Drzwi_DW3v                             149
+#DEFINE TS_Drzwi_DZ1                              150
+#DEFINE TS_Drzwi_DZ2                              151
+#DEFINE TS_Drzwi_DZ3v                             152
+#DEFINE TS_Drzwi_DH1                              153
+#DEFINE TS_Drzwi_DH2                              154
+#DEFINE TS_Drzwi_DH3                              155
+#DEFINE TS_Drzwi_DWZ_W                            156
+#DEFINE TS_Drzwi_DWZ_Z                            157
+#DEFINE TS_Drzwi_DW1b                             158
+#DEFINE TS_Drzwi_DW2b                             159
+#DEFINE TS_Drzwi_DW3b                             160
+#DEFINE TS_Drzwi_DZ1b                             161
+#DEFINE TS_Drzwi_DZ2b                             162
+#DEFINE TS_Drzwi_DZ3b                             163
+#DEFINE TS_Tafla1                                 164
+#DEFINE TS_Tafla2                                 165
+#DEFINE TS_Tafla3                                 166
+
+
+//******************************************
+//Automaty
+//******************************************
+#DEFINE TS_RamaAutomatu_Skrzydlo12R               167
+#DEFINE TS_RamaAutomatu_Skrzydlo22R               168
+#DEFINE TS_RamaAutomatu_Skrzydlo22R2              169
+#DEFINE TS_RamaAutomatu_Skrzydlo13R               170
+#DEFINE TS_RamaAutomatu_Skrzydlo23R               171
+#DEFINE TS_RamaAutomatu_Skrzydlo33R               172
+#DEFINE TS_RamaAutomatu_Skrzydlo33R2              173
+#DEFINE TS_RamaAutomatu_Skrzydlo12S               174
+#DEFINE TS_RamaAutomatu_Skrzydlo13S               175
+
+#DEFINE TS_Drzwi_DW3                              176
+#DEFINE TS_Drzwi_DZ3                              177
+
+#DEFINE TS_Fasada_Strips                          179
+#DEFINE TS_Otwor                                  180
+
+#DEFINE TS_AutomatOK_RamaDoFasady                 181
+#DEFINE TS_AutomatOK_Skrzydlo1                    182
+#DEFINE TS_AutomatOK_Skrzydlo2                    183
+#DEFINE TS_AutomatOK_Skrzydlo3                    184
+#DEFINE TS_RamaOkienna_OWH                        185
+
+#DEFINE TS_Drzwi_DW4                              186
+
+#DEFINE TS_Drzwi_DB1                              187
+#DEFINE TS_Drzwi_DB2                              188
+#DEFINE TS_Drzwi_DB3                              189
+#DEFINE TS_Drzwi_DB4                              190
+#DEFINE TS_Drzwi_DB5                              191
+#DEFINE TS_Drzwi_DB6                              192
+#DEFINE TS_Drzwi_DB7                              193
+#DEFINE TS_Drzwi_DB8                              194
+#DEFINE TS_Drzwi_DB1a                              195
+#DEFINE TS_Drzwi_DB3a                              196
+
+#DEFINE TS_Drzwi_DB9                              197
+#DEFINE TS_Drzwi_DB10                              198
+
+#DEFINE TS_Drzwi_DB11                              199
+#DEFINE TS_Drzwi_DB12                              200
+#DEFINE TS_Drzwi_DB13                              201
+#DEFINE TS_Drzwi_DB14                              202
+#DEFINE TS_Drzwi_DB15                              203
+#DEFINE TS_Drzwi_DB16                              204
+#DEFINE TS_Drzwi_DB9a                              205
+#DEFINE TS_Drzwi_DB11a                              206
+
+#DEFINE TS_RamaOkienna_OH2       207
+#DEFINE TS_RamaOkienna_OH3       208
+#DEFINE TS_RamaOkienna_OH4       209
+
+#DEFINE TS_Fasada_RamaStala_dach    210
+
+#DEFINE TS_Fasada_Rama_HV           211
+
+#DEFINE TS_Drzwi_74_Db1                        212
+#DEFINE TS_Drzwi_74_db2                        213   
+#DEFINE TS_Drzwi_74_db3                        214
+#DEFINE TS_Drzwi_74_DB4                        215
+#DEFINE TS_Drzwi_74_Db5                        216
+#DEFINE TS_Drzwi_74_Db6                        217
+#DEFINE TS_Drzwi_74_DB7                        218
+#DEFINE TS_Drzwi_74_Db8                        219
+#DEFINE TS_Drzwi_74_DB9                        220
+#DEFINE TS_Drzwi_74_db10                       221  
+#DEFINE TS_Drzwi_74_Db1a                       222
+#DEFINE TS_Drzwi_74_db3a                       223
+
+#DEFINE TS_Drzwi_74_Db11                        224
+#DEFINE TS_Drzwi_74_db12                        225 
+#DEFINE TS_Drzwi_74_db13                        226 
+#DEFINE TS_Drzwi_74_DB14                        227
+#DEFINE TS_Drzwi_74_Db15                        228
+#DEFINE TS_Drzwi_74_Db16                        229
+#DEFINE TS_Drzwi_74_DB17                        230
+#DEFINE TS_Drzwi_74_Db18                        231
+#DEFINE TS_Drzwi_74_DB19                        232
+#DEFINE TS_Drzwi_74_Db20                        233
+#DEFINE TS_Drzwi_74_Db11a                       234
+#DEFINE TS_Drzwi_74_db13a                       235  
+
+#DEFINE TS_Fasada_SEGMENT                       236
+#define TS_Fasada_RamaTon2                      237
+#define TS_Fasada_RamaOps1                      238
+#define TS_RamaOkienna_T38                      239
+#define TS_Fasada_RamaHOP                       240
+#define TS_Fasada_RamaDZ_D40                    241
+#define TS_Drzwi_T38_Fasad                      242
+
+#define TS_Fasada_RamaBalkonna                  243
+#define TS_Peregorodka_RamaDZ                   244
+#define TS_Fasada_RamaOkienna_T38               245
+#define TS_Peregorodka_RamaOkienna_T38          246
+#define TS_Fasada_RamaDZB                       247
+#define TS_Peregorodka_RamaDW                   248
+#define TS_Fasada_RamaDW_D40                    249
+
+#define TS_Fasada_RamaOkienna_TBM               250
+
+#define TS_Fasada_RamaDZ_TBM                    251
+#define TS_Fasada_RamaDW_TBM                    252
+#define TS_Fasada_RamaOkienna_Holod             253
+#define TS_Peregorodka_RamaOZ                   256
+#define TS_Peregorodka2_RamaOW                  257
+#define TS_Peregorodka_RamaOW                   258
+#define TS_Fasada_RamaTon4                      259
+
+#define TS_Fasada_RamaBalkonna_TBM              260
+#define TS_Fasada_Vent_Reshetki_TBR2            261
+#define TS_Fasada_Vent_Reshetki_TBR1            262
+
+#define TS_Dveri_Vent_Reshetki_TBR2             263
+#DEFINE TS_Fasada_RamaRigelOkienna              264
+
+#DEFINE TS_Fasada_RamaOkienna_PVC               265
+
+#DEFINE TS_Dveri_Vent_Reshetki_TBR1             266
+
+#DEFINE TS_RamaOkienna_PVC_OW1                  267
+
+#define TS_TPB36_SkrzydloS12                    268
+#define TS_TPB36_SkrzydloS21                    269
+#define TS_TPB36_Skrzydlo122_A                  270
+#define TS_TPB36_Skrzydlo122_B                  271
+
+#define TS_11_Skrzydlo1                         272
+#define TS_11_Skrzydlo2                         273
+#define TS_11_Skrzydlo3                         274
+
+#define TS_111_Skrzydlo1                        275
+#define TS_111_Skrzydlo2                        276
+#define TS_111_Skrzydlo3a                       277
+#define TS_111_Skrzydlo3b                       278
+
+#DEFINE TS_RamaOkienna_PVC_OW2                  279
+#DEFINE TS_RamaOkienna_PVC_OW3                  280
+
+#DEFINE TS_SLIDE_S21_FIX                        281
+#DEFINE TS_SLIDE_S21_FIX2                       282
+#define TS_SLIDE_S31_FIX                        283
+
+#define TS_Fasada_RamaStala_TOB4                284
+#define TS_LEER_TB50                            285
+#define TS_LEER_TB50_T5                         286
+#define TS_PANEL_RESIDANCE                      287
+
+#define TS_Fasada_RamaTOT                       288
+
+#define TS_RamaHarm_Skrz_Pojedyncze             289
+#define TS_RamaHarm_ZRuchomym_PrzySzynie        290
+#define TS_RamaHarm_ZSzyna_PrzyRuchomym         291
+#define TS_RamaHarm_Rama_PrzyRuchomym           292
+#define TS_RamaHarm_ZRuchomym_Rama              293
+#define TS_RamaHarm_ZRuchomym_RrzyRCHS          294
+#define TS_RamaHarm_ZRuchomym_zRCHS             295
+#define TS_RamaHarm_ZSzyna_RrzyRCHS             296
+#define TS_RamaHarm_ZSzyna_zRCHS                297
+#define TS_RamaHarm_ZSzyna_Rama                 298
+
+#define TS_RamaHarm_Skrz_Pojedyncze2            299
+
+#define TS_Proem            					300
+
+#define TS_RamaOkienna_SkrzydloWentylacyjne     301
+#define TS_Fasada_RamaOkiennaWentylacyjne       302
+
+#define TS_SLIDER_WINDOW_SkrzydloDS21           303
+#define TS_SLIDER_WINDOW_SkrzydloGS12           304
+
+#define TS_SLIDE_S21_FIX3                       305
+
+#define TS_Drzwi_DZ_D40                         306
+#define TS_Drzwi_DZ2_D40                        307
+#define TS_Drzwi_DZ3_D40                        308
+#define TS_Drzwi_DW_D40                         309
+#define TS_Drzwi_DW2_D40                        310
+#define TS_Drzwi_DW3_D40                        311
+
+#define TS_TKP_SK_WAH1                          312
+#define TS_TKP_SK_WAH2                          313
+#define TS_TKP_SK_WAH3                          314
+
+#define TS_SLIDE_S21                            315
+#DEFINE TS_SLIDE_S31                            316
+#define TS_SLIDE_S22A                           317
+#define TS_SLIDE_S22B                           318
+#define TS_SLIDE_S32                            319
+#define TS_SLIDE_S33A                           320
+#define TS_SLIDE_S33B                           321
+
+#DEFINE TS_Fasada_RamaTMC                       322
+
+
+
+
+(*
+====
+   ====
+
+====  ====
+   ====
+
+====
+   ====|====
+
+====       =====
+   ====|====
+
+
+
+====
+   ====
+      ====
+
+====        ====
+   ====  ====
+      ====
+
+====             ====
+   ====       ====
+      ====|====
+*)

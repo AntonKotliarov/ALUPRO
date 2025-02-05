@@ -1,0 +1,161 @@
+////***********************//***********************//********************************
+//T90
+////***********************//***********************//********************************
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_AKP_Horizontal_Keram_Keram	
+            ]
+    PROFIL2=[
+            PRF_NVF_AKP_Vertical_PAS_3609			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3686_01              ILE=2 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3686_01              ILE=2 PAR_B=1  > 
+														        
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3685_01              ILE=4 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3685_01              ILE=2 PAR_B=1  > 	
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_12_DIN7337      ILE=8 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_12_DIN7337      ILE=4 PAR_B=1  > 	   	  
+
+      AKCESORIA_SZTUKI=< KOD=E_M6_8_DIN914                      ILE=2 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_M6_8_DIN914                      ILE=2 PAR_B=1  > 
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_12_DIN7337      ILE=1 GDY_PARAMETR='VARIANT_NVF_AKP=0' > 	    
+      >	  
+  >  
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_AKP_Horizontal_Keram_Keram	
+            ]
+    PROFIL2=[
+            PRF_NVF_AKP_Vertical_YP90	      ,
+			PRF_NVF_AKP_Vertical_YM90
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3686_01         ILE=2  > 
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3685_01         ILE=4  > 	
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_12_DIN7337 ILE=8  > 	   	  
+      AKCESORIA_SZTUKI=< KOD=E_M6_8_DIN914                 ILE=2  > 
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_12_DIN7337      ILE=1 GDY_PARAMETR='VARIANT_NVF_AKP=0' > 	 	  
+      > 
+  >   
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_AKP_Horizontal_Keram_Keram	
+            ]
+    PROFIL2=[
+            PRF_NVF_AKP_Vertical_Keram_Wall			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      >
+  >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_AKP_Horizontal_Keram_Wall	
+            ]
+    PROFIL2=[
+            PRF_NVF_AKP_Vertical_PAS_3609			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3686_01              ILE=1 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3686_01              ILE=1 PAR_B=1  > 
+														        
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3685_01              ILE=2 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3685_01              ILE=1 PAR_B=1  > 	
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_12_DIN7337      ILE=4 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_12_DIN7337      ILE=2 PAR_B=1  > 	   	  
+
+      AKCESORIA_SZTUKI=< KOD=E_M6_8_DIN914                      ILE=1 PAR_B=2+4> 	    
+      AKCESORIA_SZTUKI=< KOD=E_M6_8_DIN914                      ILE=1 PAR_B=1  > 
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_12_DIN7337      ILE=1 GDY_PARAMETR='(VARIANT_NVF_AKP=0)*(PROFIL_U_DOLU#1)' > 	    
+	  >    	  
+  >  
+
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_AKP_Horizontal_Keram_Wall	
+            ]
+    PROFIL2=[
+            PRF_NVF_AKP_Vertical_YP90 ,
+			PRF_NVF_AKP_Vertical_YM90	
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3686_01         ILE=1  > 
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_PAS_3685_01         ILE=2  > 	
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_12_DIN7337 ILE=2  > 	   	  
+      AKCESORIA_SZTUKI=< KOD=E_M6_8_DIN914                 ILE=1  > 
+
+      AKCESORIA_SZTUKI=< KOD=E_ALP_NVF_Zakl_4_8_12_DIN7337 ILE=1 GDY_PARAMETR='(VARIANT_NVF_AKP=0)*(PROFIL_U_DOLU#1)' > 	 	  
+      >  
+  >      
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_AKP_Horizontal_Keram_Wall	
+            ]
+    PROFIL2=[
+            PRF_NVF_AKP_Vertical_Keram_Wall			
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      >
+  >      
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_NVF_AKP_Horizontal_Keram_Wing	
+            ]
+    PROFIL2=[
+            PRF_NVF_AKP_Vertical_PAS_3609,
+            PRF_NVF_AKP_Horizontal_Keram_Keram,
+            PRF_NVF_AKP_Horizontal_Keram_Wall,
+            PRF_NVF_AKP_Vertical_Keram_Wall,
+            PRF_NVF_AKP_Horizontal_Keram_Wing,
+	        PRF_NVF_AKP_Vertical_YM90,
+	        PRF_NVF_AKP_Vertical_YP90	
+      ]
+    ZACHODZENIE_A=0
+    ZACHODZENIE_B=0
+    MATERIALY=
+      <
+      >
+  >     

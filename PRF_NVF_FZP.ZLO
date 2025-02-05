@@ -1,0 +1,475 @@
+//******************************************************************************
+// Profile
+//******************************************************************************
+
+FPROFIL[PRF_NVF_FZP_Horizontal_PAS_3687]=
+  <
+    NAZWA=     'ПАС-3687X горизонтальний'
+    OPIS=      'Горизонтальне січенні'
+    KATEGORIA= 'Січення'
+    RYSUNEK=   'PAS_3687.VCT'
+    SZEROKOSC=69
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=289
+            KOD    = E_ALP_NVF_PAS_3687
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >      	
+        AKCESORIA_SZTUKI=
+           <
+            PRZEKROJ_NR=100		  
+            KOD    = E_ALP_NVF_PAS_3687_01 
+            ILE    = 1
+		    TYLKO_W_PRZEKROJACH		   
+           >	
+        AKCESORIA_SZTUKI=
+           <
+            PRZEKROJ_NR=100		  
+            KOD    = E_ALP_NVF_PAS_3687_02 
+            ILE    = 1
+		    TYLKO_W_PRZEKROJACH		   
+           >	
+        AKCESORIA_SZTUKI=
+           <
+            PRZEKROJ_NR=100		  
+            KOD    = E_ALP_FZP_ANCHER 
+            ILE    = 2
+		    TYLKO_W_PRZEKROJACH		   
+           >			   
+       >
+  >
+  
+FPROFIL[PRF_NVF_FZP_Horizontal_PAS_3687_WALL]=
+  <
+    NAZWA=     'ПАС-3687X горизонтальний (верх/низ)'
+    OPIS=      'Горизонтальне січенні'
+    KATEGORIA= 'Січення'
+    RYSUNEK=   'PAS_3687.VCT'
+    SZEROKOSC=69
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=289
+            KOD    = E_ALP_NVF_PAS_3687
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >      	
+        AKCESORIA_SZTUKI=
+           <
+            PRZEKROJ_NR=100		  
+            KOD    = E_ALP_NVF_PAS_3687_01 
+            ILE    = 1
+		    TYLKO_W_PRZEKROJACH	
+            GDY_PARAMETR='PROFIL_U_DOLU=0' 					
+           >	
+        AKCESORIA_SZTUKI=
+           <
+            PRZEKROJ_NR=100		  
+            KOD    = E_ALP_NVF_PAS_3687_02 
+            ILE    = 1
+		    TYLKO_W_PRZEKROJACH	
+            GDY_PARAMETR='PROFIL_U_DOLU=1' 			
+           >	
+        AKCESORIA_SZTUKI=
+           <
+            PRZEKROJ_NR=100		  
+            KOD    = E_ALP_FZP_ANCHER 
+            ILE    = 2
+		    TYLKO_W_PRZEKROJACH		   
+           >			   
+       >
+  >  
+  
+FPROFIL[PRF_NVF_FZP_Horizontal_Keram_Wing]=
+  <
+  NAZWA='Конец касети, вікно чи двері'
+  OPIS='Верхнє/нижнє примикання до вікна'
+  KATEGORIA= 'Січення'
+  RYSUNEK='68B20 3-3'
+  SZEROKOSC=8
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=289
+            KOD    =E_BRAK_PROFILE_NVF_KASETA
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >      	  
+      >
+>
+  
+FPROFIL[PRF_NVF_FZP_Horizontal_Keram_Wall]=
+  <
+  NAZWA='Стіна горизонтальна'
+  OPIS='Верхнє/нижнє примикання до вікна'
+  KATEGORIA= 'Січення'
+  RYSUNEK='68B20 9-9'
+  SZEROKOSC=0
+  
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=289
+            KOD    =E_BRAK_PROFILE_NVF_KASETA
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >      
+     >  
+  >
+
+FPROFIL[PRF_NVF_FZP_Vertical_Keram_Wall]=
+  <
+    NAZWA='Стіна вертикальна'
+    OPIS=''
+    KATEGORIA= 'Направляюча' 
+    RYSUNEK='68B20 9-9'
+    SZEROKOSC=0
+  >
+
+FPROFIL[ PRF_NVF_FZP_Vertical_PAS_3609 ]=
+  <
+    NAZWA=     'ПАС-3609X вертикальний (стиковочний)'
+    OPIS=	   'Вертикальне січення (стиковочний)'
+    KATEGORIA= '1) Направляюча (стиковочна)' 
+    RYSUNEK=   'PAS_3609_Pion_FZP.VCT'
+
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=80
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    =E_ALP_NVF_PAS_3609
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >
+        PROFIL=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_BRAK_PROFILE_NVF_NAVESKA_FZP
+            ILE=1
+            DLUGOSC= 'OS_ODCINKA(0)'			
+		    TYLKO_W_PRZEKROJACH
+            KIEDY  =[
+                    TP_Szyba
+                    ]	
+            //GDY_PARAMETR='PROFIL_LEFT#1'	            										
+          >
+        PROFIL=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_BRAK_PROFILE_NVF_NAVESKA_FZP2
+            ILE=1
+            DLUGOSC= 'OS_ODCINKA(0)'			
+		    TYLKO_W_PRZEKROJACH
+            KIEDY  =[
+                    TP_Szyba
+                    ]	
+            //GDY_PARAMETR='PROFIL_RIGHT#1'	            					
+          >		  
+     >
+  >
+  
+FPROFIL[ PRF_NVF_FZP_Vertical_PAS_3683 ]=
+  <
+    NAZWA=     'ПАС-3683X вертикальний (крайня)'
+    OPIS=	   'Вертикальне січення (крайня)'
+    KATEGORIA= '1) Направляюча (стиковочна)' 
+    RYSUNEK=   'PAS_3683_Pion_FZP.VCT'
+
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=40
+    WYSOKOSC_SRODKA=0
+
+    MATERIALY=
+      <
+        //Profil
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    =E_ALP_NVF_PAS_3683
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >
+        PROFIL=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_BRAK_PROFILE_NVF_NAVESKA_FZP
+            ILE=1
+            DLUGOSC= 'OS_ODCINKA(0)'			
+		    TYLKO_W_PRZEKROJACH
+            KIEDY  =[
+                    TP_Szyba
+                    ]	
+            //GDY_PARAMETR='PROFIL_LEFT#1'	            										
+          >
+        PROFIL=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_BRAK_PROFILE_NVF_NAVESKA_FZP2
+            ILE=1
+            DLUGOSC= 'OS_ODCINKA(0)'			
+		    TYLKO_W_PRZEKROJACH
+            KIEDY  =[
+                    TP_Szyba
+                    ]	
+            //GDY_PARAMETR='PROFIL_RIGHT#1'	            					
+          >		  
+     >
+  >  
+
+//********************************************  
+//Поворотные
+//********************************************  
+FPROFIL[ PRF_NVF_FZP_Vertical_YP90 ]=
+  <
+    NAZWA=     'Поворот +90 (ПАС-3609X + ПАС-3609X)'
+    OPIS=	   'Вертикальне кутове cічення'
+    KATEGORIA= '4) Направляюча (поворот)' 
+    RYSUNEK=   'NVF_FZP_Vertical_YP90.VCT'
+
+    IX=               0
+    IY=               0
+
+    PROMIEN        = 1
+    PROFIL_NAROZNY=90
+    
+    SZEROKOSC      = 80*2+2*204.5
+    CS_PODWOJNY_PROFIL_SZEROKOSC = 80   
+
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    = E_ALP_NVF_PAS_3609
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >  
+        PROFIL=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_BRAK_PROFILE_NVF_NAVESKA_FZP
+            ILE=2
+            DLUGOSC= 'OS_ODCINKA(0)'			
+		    TYLKO_W_PRZEKROJACH
+            KIEDY  =[
+                    TP_Szyba
+                    ]	
+            //GDY_PARAMETR='PROFIL_LEFT#1'	            										
+          >
+        PROFIL=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_BRAK_PROFILE_NVF_NAVESKA_FZP2
+            ILE=2
+            DLUGOSC= 'OS_ODCINKA(0)'			
+		    TYLKO_W_PRZEKROJACH
+            KIEDY  =[
+                    TP_Szyba
+                    ]	
+            //GDY_PARAMETR='PROFIL_RIGHT#1'	            					
+          >		  
+     >
+  >
+
+FPROFIL[ PRF_NVF_FZP_Vertical_YM90 ]=
+  <
+    NAZWA=     'Поворот -90 (ПАС-3609X + ПАС-3609X)'
+    OPIS=	   'Вертикальне кутове cічення'
+    KATEGORIA= '4) Направляюча (поворот)' 
+    RYSUNEK=   'NVF_FZP_Vertical_YM90 .VCT'
+
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=2*80+2*61.5
+	PROMIEN=1
+    PROFIL_NAROZNY=-90	
+
+	CS_PODWOJNY_PROFIL_SZEROKOSC=80	
+	
+    MATERIALY=
+      <
+        PROFIL=
+          <
+            PRZEKROJ_NR=1368
+            KOD    = E_ALP_NVF_PAS_3609
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0
+        >  
+        PROFIL=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_BRAK_PROFILE_NVF_NAVESKA_FZP
+            ILE=2
+            DLUGOSC= 'OS_ODCINKA(0)'			
+		    TYLKO_W_PRZEKROJACH
+            KIEDY  =[
+                    TP_Szyba
+                    ]	
+            //GDY_PARAMETR='PROFIL_LEFT#1'	            										
+          >
+        PROFIL=
+          <
+            PRZEKROJ_NR=311
+            KOD=E_BRAK_PROFILE_NVF_NAVESKA_FZP2
+            ILE=2
+            DLUGOSC= 'OS_ODCINKA(0)'			
+		    TYLKO_W_PRZEKROJACH
+            KIEDY  =[
+                    TP_Szyba
+                    ]	
+            //GDY_PARAMETR='PROFIL_RIGHT#1'	            					
+          >		  	
+     >
+  >  
+//******************************************************************************
+// Zastosowania
+//******************************************************************************
+FPROFIL[
+       PRF_NVF_FZP_Vertical_PAS_3609
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_Slup]
+  //SZYBA_TEXT='(80-6)/2'
+  
+  SZYBA_B_TEXT='(80-6)/2'
+  SZYBA_A_TEXT='(80-6)/2'    
+  >
+  
+FPROFIL[
+       PRF_NVF_FZP_Vertical_PAS_3683
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_SlupSciana]
+  SZYBA_B_TEXT='(80-6)/2'
+  SZYBA_A_TEXT='(80-6)/2'    
+  >  
+
+FPROFIL[
+	   PRF_NVF_FZP_Vertical_YP90
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_Slup]
+  SZYBA_B_TEXT='(80*2+2*204.5)/2+61.3'
+  SZYBA_A_TEXT='(80*2+2*204.5)/2+61.3'  
+  >
+  
+FPROFIL[
+	   PRF_NVF_FZP_Vertical_YM90
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_Slup]
+  SZYBA_B_TEXT='57.5+65.7-15'
+  SZYBA_A_TEXT='48-5.5+65.7'  
+  >
+  
+FPROFIL[
+       PRF_NVF_FZP_Horizontal_PAS_3687
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_Rygiel]
+  SZYBA_A_TEXT='34.5'
+  SZYBA_B_TEXT='31.5-3'  
+  NIE_RYSUJ_PODZIALOW=tak
+  NIE_LICZ_ELEMENTOW_MOCUJACYCH=tak
+  >
+  
+FPROFIL[
+       PRF_NVF_FZP_Horizontal_PAS_3687_WALL
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_RygielSciana]
+  SZYBA_TEXT='61*(PROFIL_U_DOLU=0)+69*(PROFIL_U_DOLU=1)'
+  NIE_RYSUJ_PODZIALOW=tak
+  NIE_LICZ_ELEMENTOW_MOCUJACYCH=tak
+  >  
+
+FPROFIL[
+       PRF_NVF_FZP_Horizontal_Keram_Wall
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_RygielSciana]
+  SZYBA_TEXT='-1.6*(PROFIL_U_DOLU=0)+0*(PROFIL_U_DOLU=1)'
+  NIE_RYSUJ_PODZIALOW=tak
+  NIE_LICZ_ELEMENTOW_MOCUJACYCH=tak
+  >
+
+FPROFIL[
+       PRF_NVF_FZP_Vertical_Keram_Wall
+       ]=
+  <
+  ZASTOSOWANIE=[TP_Fasada_SlupSciana]
+  SZYBA_TEXT='KASETA_SCIANA_BOK'
+  NIE_RYSUJ_PODZIALOW=tak
+  NIE_LICZ_ELEMENTOW_MOCUJACYCH=tak
+  >
+
+FPROFIL[
+       PRF_NVF_FZP_Horizontal_Keram_Wing
+       ]=
+  <
+  ZASTOSOWANIE=[TP_RamaDoFasadyWentylowanej,TP_RamaDoFasadyWentylowanej_PION]
+  //SZYBA_A_TEXT='33+KASETA_SKRZYDLO_BOK*(PION)+KASETA_SKRZYDLO_TOP*(POZIOM)*(GRUBOSC_NAD=0)+KASETA_SKRZYDLO_BOTTOM*(POZIOM)*(GRUBOSC_NAD#0)'
+  SZYBA_A_TEXT='0'
+  SZYBA_B_TEXT='0'
+  NIE_RYSUJ_PODZIALOW=tak
+  NIE_LICZ_ELEMENTOW_MOCUJACYCH=tak
+  >
+
+FPROFIL[
+       PRF_NVF_FZP_Vertical_PAS_3609,
+	   PRF_NVF_FZP_Vertical_PAS_3683,
+       PRF_NVF_FZP_Horizontal_PAS_3687,
+	   PRF_NVF_FZP_Horizontal_PAS_3687_WALL,
+       PRF_NVF_FZP_Horizontal_Keram_Wall,
+       PRF_NVF_FZP_Vertical_Keram_Wall,
+       PRF_NVF_FZP_Horizontal_Keram_Wing,
+	   PRF_NVF_FZP_Vertical_YM90,
+	   PRF_NVF_FZP_Vertical_YP90
+       ]=
+  <
+  WARIANT=WAR_NVF_FZP
+  SYSTEMY=[DEF_SYS_NVF_FZP]
+  USZCZELNIENIE=DEF_USZ_NVF_FZP
+  >
+

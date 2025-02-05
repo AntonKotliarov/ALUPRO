@@ -1,0 +1,81 @@
+//******************************************************************************
+//Systemy:
+//******************************************************************************
+#DEFINE DEF_SYS_F50                1
+#DEFINE DEF_SYS_W77                2
+#DEFINE DEF_SYS_NVF_KERAM_KLIAM    3
+#DEFINE DEF_SYS_NVF_KERAM_GLUE     4
+#DEFINE DEF_SYS_NVF_AKP            5
+#DEFINE DEF_SYS_NVF_HPL_PANEL      6
+#DEFINE DEF_SYS_NVF_FZP            7
+
+
+//******************************************************************************
+//Lista kolorow
+//******************************************************************************
+#DEFINE DEF_KOLOR_0                0
+#DEFINE DEF_KOLOR_1_G1             1
+#DEFINE DEF_KOLOR_2_G2             2
+#DEFINE DEF_KOLOR_3_G3             3
+#DEFINE DEF_KOLOR_4_G4             4
+#DEFINE DEF_KOLOR_5_DWU            5
+
+
+//******************************************************************************
+//Uszczelnienia
+//******************************************************************************
+#DEFINE DEF_USZ_FASAD_F50          0
+#DEFINE DEF_USZ_ALP_W77            1
+#DEFINE DEF_USZ_ALP_W77_SKR        2
+#DEFINE DEF_USZ_NVF_KERAM_KLIAM    3
+#DEFINE DEF_USZ_NVF_KERAM_GLUE     4
+#DEFINE DEF_USZ_NVF_AKP            5
+#DEFINE DEF_USZ_NVF_HPL_PANEL      6
+#DEFINE DEF_USZ_NVF_FZP            7
+
+
+//******************************************************************************
+//Kolory - grupy cen
+//******************************************************************************
+//#DEFINE CG_SUROWY                1
+//#DEFINE CG_0                     1
+
+
+//******************************************************************************
+//kombinacje skrzydeі
+//******************************************************************************
+#DEFINE KOMBINACJE_PAN             1
+#DEFINE KOMBINACJE_PAN_PAG         2
+#DEFINE KOMBINACJE_PAN_PAS         3
+#DEFINE KOMBINACJE_PAN_PAT         4
+#DEFINE KOMBINACJE_PAN_PAU         5
+
+
+//******************************************************************************
+//Lista GROUP kolorow
+//******************************************************************************
+#DEFINE CG_0                       1
+#DEFINE CG_1                       2
+#DEFINE CG_2                       4
+#DEFINE CG_3                       8
+#DEFINE CG_4                       16
+#DEFINE CG_5                       32
+#DEFINE CG_6                       64
+#DEFINE CG_7                       128						           
+#DEFINE CG_WSZYSTKIE               256
+
+
+//******************************************************************************
+//Warianty
+//******************************************************************************
+#DEFINE WAR_DEFAULT                0
+#DEFINE WAR_FASADA_F50             1
+#DEFINE WAR_W77                    2
+#DEFINE WAR_NVF_KERAM_KLIAM        3
+#DEFINE WAR_NVF_KERAM_GLUE         4
+#DEFINE WAR_NVF_AKP                5
+#DEFINE WAR_NVF_HPL_PANEL          6
+#DEFINE WAR_NVF_FZP                7
+
+
+

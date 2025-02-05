@@ -1,0 +1,687 @@
+SZYBA[SZYBA_0]=
+  <
+    KATEGORIA='X) Другие'
+    NAZWA= 'Отсутствует остекление'
+    OPIS=  'Отсутствует остекление'
+    RYSUNEK=   'GLASS_0.BMP'
+    SZYBA=     RODZAJ_SZYBY_SZYBA0
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows     		
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50,
+        DEF_SYS_W77  		
+            ] 
+  > 
+
+SZYBA[SZYBA_00]=
+  <
+    KATEGORIA='X) Другие'
+    NAZWA= 'Отсутствует остекление'
+    OPIS=  'Отсутствует остекление'
+    RYSUNEK=   'GLASS_0.BMP'
+    SZYBA=     RODZAJ_SZYBY_SZYBA00
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+    DLA_TYPOW_RAM=[
+ 		
+                  ]
+    SYSTEMY=[
+
+            ] 
+  >
+SZYBA[SZYBA_00_TBR2]=
+  <
+    KATEGORIA='X) Другие'
+    NAZWA= 'Отсутствует остекление'
+    OPIS=  'Отсутствует остекление'
+    RYSUNEK=   'GLASS_0.BMP'
+    SZYBA=     RODZAJ_SZYBY_SZYBA00_TBR
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+    POZIOMA_LINIA='STEP_TBR'
+    DLA_TYPOW_RAM=[
+	
+                  ]
+    SYSTEMY=[
+
+            ] 
+  >
+  
+SZYBA[SZYBA_00_LEER]=
+  <
+    KATEGORIA='X) Другие'
+    NAZWA= 'Леер'
+    OPIS=  'Леер'
+    RYSUNEK=   'GLASS_0.BMP'
+    SZYBA=     RODZAJ_SZYBY_SZYBA00_TBR
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+    PIONOWA_LINIA='STEP_TB50'
+	
+    DLA_TYPOW_RAM=[
+                  ]
+    SYSTEMY=[
+        	
+            ] 
+  >  
+SZYBA[SZYBA_00_LEER_T5]=
+  <
+    KATEGORIA='X) Другие'
+    NAZWA= 'Леер T5'
+    OPIS=  'Леер T5'
+    RYSUNEK=   'GLASS_0.BMP'
+    SZYBA=     RODZAJ_SZYBY_SZYBA00_TBR
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+    POZIOMA_LINIA='STEP_TB50'
+	
+    DLA_TYPOW_RAM=[
+	
+                  ]
+    SYSTEMY=[
+        	
+            ] 
+  >    
+SZYBA[SZYBA_1]=
+  <
+    KATEGORIA='A) Остекление'
+    NAZWA=    'Стекло одинарное'
+    OPIS=     'Стекло одинарное'
+    RYSUNEK=  'GLASS_1.BMP'
+    SZYBA=     RODZAJ_SZYBY_SZYBA1
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50,
+        DEF_SYS_W77   		
+            ] 
+  >
+
+SZYBA[SZYBA_2]=
+  <
+    KATEGORIA= 'A) Остекление'
+    NAZWA=     'Стеклопакет однокамерный'
+    OPIS=      'Стеклопакет однокамерный'
+    RYSUNEK=   'GLASS_2.BMP'
+    SZYBA=     RODZAJ_SZYBY_SZYBA2
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50,
+        DEF_SYS_W77   		
+            ] 
+  >
+  
+SZYBA[SZYBA_3]=
+  <
+    KATEGORIA='A) Остекление'
+    NAZWA=    'Стеклопакет двухкамерный'
+    OPIS=     'Стеклопакет двухкамерный'
+    RYSUNEK=   'GLASS_3.BMP'
+    SZYBA=     RODZAJ_SZYBY_SZYBA3
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  >
+  
+  
+//SZYBA[SZYBA_2_TB63_120]=
+//  <
+//    KATEGORIA= 'A) Остекление'
+//    NAZWA=     'Триплекс'
+//    OPIS=      'Триплекс'
+//    RYSUNEK=   'GLASS_2.BMP'
+//    SZYBA=     RODZAJ_SZYBY_SZYBA2_TB63_120
+//    IZOLACJA=  RODZAJ_SZYBY_BRAK
+//    SZYBA2=    RODZAJ_SZYBY_BRAK
+//
+//    DLA_TYPOW_RAM=[
+//        
+//                  ]
+//    SYSTEMY=[
+//	    				  
+//		] 
+//  >  
+  
+SZYBA[SZYBA_1R1]=
+  <
+    KATEGORIA='A) Остекление'
+    NAZWA=    'Стеклопакет однокамерный (формула)'
+    OPIS=     'Стеклопакет однокамерный (формула)'
+    RYSUNEK=   'GLASS_2.BMP'
+    SZYBA=     RODZAJ_SZYBY_SZYBA1
+    IZOLACJA=  RODZAJ_SZYBY_RAMKA
+    SZYBA2=    RODZAJ_SZYBY_SZYBA1
+	
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  
+  >
+
+SZYBA[SZYBA_3R1]=
+  <
+    KATEGORIA='A) Остекление'
+    NAZWA= 'Стеклопакет двухкамерный (формула)'
+    OPIS=  'Стеклопакет двухкамерный (формула)'
+    RYSUNEK=   'GLASS_3.BMP'
+    SZYBA     = RODZAJ_SZYBY_SZYBA1
+    IZOLACJA  = RODZAJ_SZYBY_SZYBA1
+    SZYBA2    = RODZAJ_SZYBY_SZYBA1
+    ILE_RAMEK = 2
+	
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  > 
+ 
+ 
+SZYBA[SZYBA_B]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'Лист'
+    OPIS= 'Лист, панель, изоляция'
+    KRATKA=    'KRAT_BLACHA.BMP'
+    RYSUNEK=   'GLASS_B.BMP'
+    SZYBA=     RODZAJ_SZYBY_BLACHA
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+	
+    DLA_TYPOW_RAM=[
+	                  
+                  ]
+     SYSTEMY=[
+	                       
+            ] 
+  
+  >
+  
+SZYBA[SZYBA_HPL]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'HPL-панель'
+    OPIS= 'HPL-панель'
+    KRATKA=    'GLASS_HPL.BMP'
+//    RYSUNEK=   'GLASS_HPL.BMP'
+    SZYBA=     RODZAJ_SZYBY_HPL
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+	
+    DLA_TYPOW_RAM=[
+            TS_NVF_HPL_PANEL,
+			TS_NVF_KERAM_GLUE 
+                  ]
+    SYSTEMY=[
+            DEF_SYS_NVF_HPL_PANEL,
+			DEF_SYS_NVF_KERAM_GLUE
+            ] 
+  >  
+
+SZYBA[SZYBA_BIB]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'Лист+Изоляция+Лист '
+    OPIS= 'С двух сторон лист, в середине изоляция'
+    KRATKA=    'KRAT_BLACHA.BMP'
+    RYSUNEK=   'GLASS_BIB.BMP'
+    SZYBA=     RODZAJ_SZYBY_BLACHA
+    IZOLACJA=  RODZAJ_SZYBY_IZOLACJA
+    SZYBA2=    RODZAJ_SZYBY_BLACHA
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  
+  >
+
+SZYBA[SZYBA_BB]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA=    'С одной стороны лист'
+    OPIS=     'С одной стороны лист, отсутствует изоляция'
+    KRATKA=    'KRAT_BLACHA.BMP'
+    RYSUNEK=   'GLASS_BB.BMP'
+
+    SZYBA=     RODZAJ_SZYBY_BLACHA
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BLACHA
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  >
+SZYBA[SZYBA_PIB]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'Панель+лист и изоляция'
+    OPIS= 'Снаружи панель, изнутри лист, в середине изоляция'
+    KRATKA=    'KRAT_BLACHA.BMP'
+    RYSUNEK=   'GLASS_PIB.BMP'
+    SZYBA=     RODZAJ_SZYBY_PANEL
+    IZOLACJA=  RODZAJ_SZYBY_IZOLACJA
+    SZYBA2=    RODZAJ_SZYBY_BLACHA
+	
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50,
+        DEF_SYS_W77   		
+            ] 
+  
+  >
+
+SZYBA[SZYBA_PB]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'Панель+лист'
+    OPIS= 'Снаружи панель, изнутри лист, без изоляция'
+    RYSUNEK=   'GLASS_PB.BMP'
+    SZYBA=     RODZAJ_SZYBY_PANEL
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BLACHA
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  >
+
+SZYBA[SZYBA_BIP]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'Лист+панель и изоляция'
+    OPIS= 'Снаружи лист, изнутри панель, в середине изоляция'
+    RYSUNEK=   'GLASS_BIP.BMP'
+    SZYBA=     RODZAJ_SZYBY_BLACHA
+    IZOLACJA=  RODZAJ_SZYBY_IZOLACJA
+    SZYBA2=    RODZAJ_SZYBY_PANEL
+	
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  
+  >
+
+SZYBA[SZYBA_BP]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'Лист+панель'
+    OPIS= 'Снаружи лист, изнутри панель, без изоляция'
+    RYSUNEK=   'GLASS_BP.BMP'
+    SZYBA=     RODZAJ_SZYBY_BLACHA
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_PANEL
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  >
+
+SZYBA[SZYBA_PIP]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'С двух сторон панель+изоляция'
+    OPIS= 'С двух сторон панель, всередине изоляция'
+    RYSUNEK=   'GLASS_PIP.BMP'
+    SZYBA=     RODZAJ_SZYBY_PANEL
+    IZOLACJA=  RODZAJ_SZYBY_IZOLACJA
+    SZYBA2=    RODZAJ_SZYBY_PANEL
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  >
+
+SZYBA[SZYBA_PP]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'С двух сторон панель'
+    OPIS= 'С двух сторон панель без изоляции'
+    RYSUNEK=   'GLASS_PP.BMP'
+    SZYBA=     RODZAJ_SZYBY_PANEL
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_PANEL
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  >
+
+SZYBA[SZYBA_MODUL_NIEPRZ_Z1]=
+  <
+    KATEGORIA='M) Фасадный модуль'
+    NAZWA= 'Модуль непрозрачный с одинарным стеклом'
+    OPIS= 'Модуль непрозрачный с одинарным стеклом'
+    RYSUNEK=   'GLASS_MNP1.BMP'
+    KRATKA=    'KRAT_MNP.BMP'
+    SZYBA=     RODZAJ_SZYBY_SZYBA1
+    IZOLACJA=  RODZAJ_SZYBY_MODUL_NP
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  >
+SZYBA[SZYBA_MODUL_NIEPRZ_Z2]=
+  <
+    KATEGORIA='M) Фасадный модуль'
+    NAZWA= 'Модуль непрозрачный со стеклопакетом'
+    OPIS= 'Модуль непрозрачный со стеклопакетом'
+    RYSUNEK=   'GLASS_MNP2.BMP'
+    KRATKA=    'KRAT_MNP.BMP'
+    SZYBA=     RODZAJ_SZYBY_SZYBA2
+    IZOLACJA=  RODZAJ_SZYBY_MODUL_NP
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  
+  >
+
+SZYBA[SZYBA_MODUL_NIEPRZ_IZO]=
+  <
+    KATEGORIA='M) Фасадный модуль'
+    NAZWA= 'Модуль непрозрачный с изоляцией'
+    OPIS= 'Модуль непрозрачный с изоляцией'
+    RYSUNEK=   'GLASS_MNPIZ.BMP'
+    KRATKA=    'KRAT_MNP.BMP'
+    SZYBA=     RODZAJ_SZYBY_IZOLACJA
+    IZOLACJA=  RODZAJ_SZYBY_MODUL_NP
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  
+  >
+
+SZYBA[SZYBA_MODUL_NIEPRZ]=
+  <
+    KATEGORIA='M) Фасадный модуль'
+    NAZWA= 'Модуль непрозрачный'
+    OPIS= 'Модуль непрозрачный'
+    RYSUNEK=   'GLASS_MNP.BMP'
+    KRATKA=    'KRAT_MNP.BMP'
+    SZYBA=     RODZAJ_SZYBY_MODUL_NP0
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  >
+
+SZYBA[SZYBA_IZOLACJA]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'Изоляция'
+    OPIS= 'Изоляция'
+    RYSUNEK=   'GLASS_IZO.BMP'
+  //  KRATKA=    'KRAT_IZO.BMP'
+    SZYBA=     RODZAJ_SZYBY_IZOLACJA
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  >
+
+SZYBA[SZYBA_KASETA]=
+  <
+    KATEGORIA='K) Касета'
+    NAZWA= 'Касета'
+    OPIS= ''
+    RYSUNEK=   'GLASS0.BMP'
+    SZYBA=     RODZAJ_SZYBY_KASETA
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+            TS_NVF_AKP
+                  ]
+     SYSTEMY=[
+			DEF_SYS_NVF_AKP
+            ]
+  >
+SZYBA[SZYBA_TAFLA]=
+  <
+    KATEGORIA='T) Плита'
+    NAZWA= 'Плита'
+    OPIS= ''
+    RYSUNEK=   'GLASS0.BMP'
+    SZYBA=     RODZAJ_PLITA
+    IZOLACJA=  RODZAJ_SZYBY_BRAK	
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+            TS_NVF_KERAM_KLIAM,
+			TS_NVF_KERAM_GLUE,
+			TS_NVF_FZP
+                  ]
+     SYSTEMY=[
+   		    DEF_SYS_NVF_KERAM_KLIAM,
+			DEF_SYS_NVF_KERAM_GLUE,
+			DEF_SYS_NVF_FZP
+            ]
+  >
+SZYBA[SZYBA_NIETYPOWA]=
+  <
+    KATEGORIA='X) Другие'
+    NAZWA= 'Любой материал'
+    OPIS= 'Любой материал с описанием названия и цены'
+    RYSUNEK=   'GLASS0.BMP'
+    SZYBA=     RODZAJ_SZYBY_BRAK
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  
+  >
+SZYBA[SZYBA_POLYCARBON]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'Поликарбонат'
+    OPIS=  'Поликарбонат'
+    RYSUNEK=   'polikarbonat.jpg'
+    SZYBA=     RODZAJ_SZYBY_panel_msg
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+		TS_FASADA_F50,
+        TS_W77_windows 	
+            ] 
+    SYSTEMY=[
+        DEF_SYS_F50 ,
+        DEF_SYS_W77  		
+            ] 
+  >  
+SZYBA[SZYBA_PENOPOLISTIROL]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'Пенополистирол'
+    OPIS=  'Пенополистирол'
+    RYSUNEK=   'polikarbonat.jpg'
+    SZYBA=     RODZAJ_PENOPOLISTIROL
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+
+    DLA_TYPOW_RAM=[
+                  ]
+     SYSTEMY=[
+            ] 
+  >   
+SZYBA[SZYBA_LIST_OCINK_POLIM]=
+  <
+    KATEGORIA='B) Лист, панель, изоляция'
+    NAZWA= 'Лист оцинкованный с полим. покрытием'
+    OPIS= 'Лист оцинкованный с полим. покрытием'
+    KRATKA=    'KRAT_BLACHA.BMP'
+    RYSUNEK=   'GLASS_B.BMP'
+    SZYBA=     RODZAJ_LIST_OCINK_POLIM
+    IZOLACJA=  RODZAJ_SZYBY_BRAK
+    SZYBA2=    RODZAJ_SZYBY_BRAK
+	
+    DLA_TYPOW_RAM=[
+                  ]
+    SYSTEMY=      [
+                  ] 
+  >  
+SZYBA[SZYBA_1_1]=
+  <
+    NAZWA= 'Стекло наружн. + стекло внутр.'
+    OPIS= ''
+    KATEGORIA='A) Остекление'
+    RYSUNEK=   'glass_T38.bmp'
+    SZYBA=     RODZAJ_SZYBY_SZYBA1
+    IZOLACJA=  RODZAJ_SZYBY_BRAK  
+    SZYBA2=    RODZAJ_SZYBY_SZYBA1
+    DODAJ_GRUBOSC=60
+
+    DLA_TYPOW_RAM=[
+                    			 
+                  ]
+     SYSTEMY=[
+   		 
+             ] 
+   >
+SZYBA[SZYBA_DOUBLEGLASS_DOUBLEGLASS_DR1]=
+  <
+    NAZWA= 'Стеклопакет наружн. + Стеклопакет внутр.'
+    OPIS= ''
+    KATEGORIA='A) Остекление'
+    RYSUNEK=   'DR1.bmp'
+    SZYBA=     RODZAJ_SZYBY_BLACHA
+    IZOLACJA=  RODZAJ_SZYBY_BRAK  
+    SZYBA2=    RODZAJ_SZYBY_BLACHA
+    DODAJ_GRUBOSC=35
+
+    DLA_TYPOW_RAM=[			 
+					 					 
+                  ]
+     SYSTEMY=[	 
+		      			 
+             ] 
+   >   
+
+SZYBA[SZYBA_B_B]=
+  <
+    NAZWA= 'Композит наружн. + Композит внутр.'
+    OPIS= ''
+    KATEGORIA='B) Лист, панель, изоляция'
+    RYSUNEK=   'glass_T38.bmp'
+    SZYBA=     RODZAJ_SZYBY_BLACHA
+    IZOLACJA=  RODZAJ_SZYBY_BRAK  
+    SZYBA2=    RODZAJ_SZYBY_BLACHA
+    DODAJ_GRUBOSC=60
+
+    DLA_TYPOW_RAM=[
+		         			 
+                  ]
+    SYSTEMY=     [
+                 		 
+                  ] 
+   >   

@@ -1,0 +1,13 @@
+//***********************************************************
+//”плотнители дл€ рамы
+//***********************************************************
+   USZCZELNIENIE= <TYP=DEF_USZ_NVF_KERAM_KLIAM  OD=9.5  DO=10.5  SKURCZ_SZKLO=0 >	
+
+   USZCZELNIENIE= <TYP=DEF_USZ_NVF_KERAM_GLUE   OD=9.5  DO=10.5  SKURCZ_SZKLO=0 >	  	     
+   USZCZELNIENIE= <TYP=DEF_USZ_NVF_KERAM_GLUE   OD=5.5  DO=6.5   SKURCZ_SZKLO=0 >	
+   
+   USZCZELNIENIE= <TYP=DEF_USZ_NVF_AKP          OD=2.5  DO=10.5  SKURCZ_SZKLO=0 >	  	  
+   USZCZELNIENIE= <TYP=DEF_USZ_NVF_HPL_PANEL    OD=5.5  DO=6.5   SKURCZ_SZKLO=0 >	  	  
+   
+   USZCZELNIENIE= <TYP=DEF_USZ_NVF_FZP          OD=2.5  DO=30.5  SKURCZ_SZKLO=0 >	  	  
+

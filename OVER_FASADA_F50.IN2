@@ -1,0 +1,85 @@
+    NAKLADANIE=
+      <
+        PRZEKROJ_NR=111
+        FUTRYNA=  [
+               PRF_F50_SLP_F50_101  ,
+               PRF_F50_SLP_F50_102  ,
+               PRF_F50_SLP_F50_103  ,
+               PRF_F50_SLP_F50_104  ,
+               PRF_F50_SLP_F50_105  ,
+               PRF_F50_SLP_F50_106  ,
+               PRF_F50_SLP_F50_107  ,	 
+          
+               PRF_F50_WSLP_F50_102 ,
+               PRF_F50_WSLP_F50_103 ,
+               PRF_F50_WSLP_F50_104 ,
+               PRF_F50_WSLP_F50_105 ,
+               PRF_F50_WSLP_F50_106 ,
+               PRF_F50_WSLP_F50_107 ,
+          	 
+               PRF_F50_RYG_F50_201  ,
+               PRF_F50_RYG_F50_220  ,
+               PRF_F50_RYG_F50_202  ,
+               PRF_F50_RYG_F50_203  ,
+               PRF_F50_RYG_F50_204  ,
+               PRF_F50_RYG_F50_205  ,
+               PRF_F50_RYG_F50_206  ,
+               PRF_F50_RYG_F50_207  ,
+          	 
+               PRF_F50_WRYG_F50_220 ,
+               PRF_F50_WRYG_F50_202 ,
+               PRF_F50_WRYG_F50_203 ,
+               PRF_F50_WRYG_F50_204 ,
+               PRF_F50_WRYG_F50_205 ,
+               PRF_F50_WRYG_F50_206 ,
+               PRF_F50_WRYG_F50_207 
+                  ]
+        SKRZYDLO= [
+               //PRF_TF50K_OKSTRUKTTON4_114002XX
+                  ]
+        ZACHODZENIE=13   
+        ZACHODZENIE_Y='-DISTANCIA+3'			
+      >
+	  
+    NAKLADANIE=
+      <
+        PRZEKROJ_NR=111
+        FUTRYNA=  [
+               PRF_F50_SLP_F50_101  ,
+               PRF_F50_SLP_F50_102  ,
+               PRF_F50_SLP_F50_103  ,
+               PRF_F50_SLP_F50_104  ,
+               PRF_F50_SLP_F50_105  ,
+               PRF_F50_SLP_F50_106  ,
+               PRF_F50_SLP_F50_107  ,	 
+          
+               PRF_F50_WSLP_F50_102 ,
+               PRF_F50_WSLP_F50_103 ,
+               PRF_F50_WSLP_F50_104 ,
+               PRF_F50_WSLP_F50_105 ,
+               PRF_F50_WSLP_F50_106 ,
+               PRF_F50_WSLP_F50_107 ,
+          	 
+               PRF_F50_RYG_F50_201  ,
+               PRF_F50_RYG_F50_220  ,
+               PRF_F50_RYG_F50_202  ,
+               PRF_F50_RYG_F50_203  ,
+               PRF_F50_RYG_F50_204  ,
+               PRF_F50_RYG_F50_205  ,
+               PRF_F50_RYG_F50_206  ,
+               PRF_F50_RYG_F50_207  ,
+          	 
+               PRF_F50_WRYG_F50_220 ,
+               PRF_F50_WRYG_F50_202 ,
+               PRF_F50_WRYG_F50_203 ,
+               PRF_F50_WRYG_F50_204 ,
+               PRF_F50_WRYG_F50_205 ,
+               PRF_F50_WRYG_F50_206 ,
+               PRF_F50_WRYG_F50_207 			
+                  ]
+        SKRZYDLO= [
+               //PRF_TF50K_TMC_115C02
+                  ]
+        ZACHODZENIE=13   ///DO SPRAWDZ
+        ZACHODZENIE_Y='-DISTANCIA+3'			
+      >	  	  

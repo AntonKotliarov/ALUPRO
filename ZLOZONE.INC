@@ -1,0 +1,35 @@
+ELEMENTY_ZLOZONE=
+  <
+//    //Inne
+    #INCLUDE 'GLASS.ZLO'
+
+    //F50
+    #INCLUDE 'PRF_F50.ZLO' 	
+    #INCLUDE 'LIS_F50.ZLO' 		
+    #INCLUDE 'OTH_F50.ZLO'		
+	
+    //W77
+    #INCLUDE 'PRF_W77.ZLO' 		
+    #INCLUDE 'WNG_W77.ZLO' 		
+
+    //NVF KLIAM
+    #INCLUDE 'PRF_NVF_KERAM_KLIAM.ZLO' 	
+
+    //NVF GLUE
+    #INCLUDE 'PRF_NVF_KERAM_GLUE.ZLO' 	
+	
+    //NVF AKP
+    #INCLUDE 'PRF_NVF_AKP.ZLO' 	
+
+    //NVF HPL_PANEL
+    #INCLUDE 'PRF_NVF_HPL_PANEL.ZLO'	
+	
+    #INCLUDE 'OTH_NVF.ZLO'	
+	
+    //NVF FZP
+    #INCLUDE 'PRF_NVF_FZP.ZLO' 	
+    #INCLUDE 'WNG_NVF.ZLO' 	
+  >
+
+
+
