@@ -1,6 +1,6 @@
 KOLORY=
   <
-    KOLOR[DEF_KOLOR_0]=
+    KOLOR[DEF_KOLOR_0]= 
       <
         NAZWA           = '*00'
         OPIS            = '00 Без покриття'
