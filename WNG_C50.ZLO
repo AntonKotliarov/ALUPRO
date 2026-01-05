@@ -1,0 +1,780 @@
+//***********************************************************************
+//Створки оконные (алюминиевый паз) БАЛК
+//***********************************************************************
+SKRZYDLO[ WNG_SKRZ_BK1_C50_202_R  ]=
+  <
+       NAZWA_HTML=  'C50.202X поворотна'
+       OPIS =       'Стулка віконна 79мм. Фурнитура поворотна. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OBW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_BALKONA_ALP_C50_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_BALKONA_ALP_C50_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_BALKONA_ALP_C50_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_BALKONA_ALP_C50_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_BALKONA_ALP_C50_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50_SKRZ_BK, WAR_C50]
+       WARIANT=WAR_C50_SKRZ_BK
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK
+       ZMIENNA='TYPE_OF_THESHOOLD_C50_BW=0'  
+  >  
+SKRZYDLO[ WNG_SKRZ_BK1_C50_203_R  ]=
+  <
+       NAZWA_HTML=  'C50.203X поворотна'
+       OPIS =       'Стулка віконна 89мм. Фурнитура поворотна. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OBW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_BALKONA_ALP_C50_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_BALKONA_ALP_C50_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_BALKONA_ALP_C50_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_BALKONA_ALP_C50_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_BALKONA_ALP_C50_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50_SKRZ_BK, WAR_C50]
+       WARIANT=WAR_C50_SKRZ_BK
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK
+       ZMIENNA='TYPE_OF_THESHOOLD_C50_BW=0'  
+  >   
+SKRZYDLO[ WNG_SKRZ_BK1_C50_204_R  ]=
+  <
+       NAZWA_HTML=  'C50.204X поворотна'
+       OPIS =       'Стулка віконна 105мм. Фурнитура поворотна. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OBW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_BALKONA_ALP_C50_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_BALKONA_ALP_C50_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_BALKONA_ALP_C50_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_BALKONA_ALP_C50_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_BALKONA_ALP_C50_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50_SKRZ_BK, WAR_C50]
+       WARIANT=WAR_C50_SKRZ_BK
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK	 	   
+       ZMIENNA='TYPE_OF_THESHOOLD_C50_BW=0'  
+  >   
+//***********************************************************************
+//Створки оконные (алюминиевый паз)
+//***********************************************************************
+SKRZYDLO[ WNG_SKRZ_OK1_C50_201_R  ]=
+  <
+       NAZWA_HTML=  'C50.201X поворотна'
+       OPIS =       'Стулка віконна 69мм. Фурнитура поворотна. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_OK1_C50_202_R  ]=
+  <
+       NAZWA_HTML=  'C50.202X поворотна'
+       OPIS =       'Стулка віконна 79мм. Фурнитура поворотна. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK
+  >  
+SKRZYDLO[ WNG_SKRZ_OK1_C50_203_R  ]=
+  <
+       NAZWA_HTML=  'C50.203X поворотна'
+       OPIS =       'Стулка віконна 89мм. Фурнитура поворотна. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK
+  >    
+SKRZYDLO[ WNG_SKRZ_OK1_C50_204_R  ]=
+  <
+       NAZWA_HTML=  'C50.204X поворотна'
+       OPIS =       'Стулка віконна 105мм. Фурнитура поворотна. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_ROZWIERANE]
+       KLAMKI=TAK	 	   
+  >    
+
+
+SKRZYDLO[ WNG_SKRZ_OK1_C50_201_UR  ]=
+  <
+       NAZWA_HTML=  'C50.201X поворотно-ухильна'
+       OPIS =       'Стулка віконна 69мм. Фурнитура поворотно-ухильна. Система C50'
+       KATEGORIA=   'C50 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK1_C50_202_UR  ]=
+  <
+       NAZWA_HTML=  'C50.202X поворотно-ухильна'
+       OPIS =       'Стулка віконна 79мм. Фурнитура поворотно-ухильна. Система C50'
+       KATEGORIA=   'C50 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK1_C50_203_UR  ]=
+  <
+       NAZWA_HTML=  'C50.203X поворотно-ухильна'
+       OPIS =       'Стулка віконна 89мм. Фурнитура поворотно-ухильна. Система C50'
+       KATEGORIA=   'C50 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK1_C50_204_UR  ]=
+  <
+       NAZWA_HTML=  'C50.204X поворотно-ухильна'
+       OPIS =       'Стулка віконна 105мм. Фурнитура поворотно-ухильна. Система C50'
+       KATEGORIA=   'C50 Вікно поворотно-ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UR]
+       KLAMKI=TAK	 	   
+  >    
+
+
+SKRZYDLO[ WNG_SKRZ_OK1_C50_201_U  ]=
+  <
+       NAZWA_HTML=  'C50.201X ухильна'
+       OPIS =       'Стулка віконна 69мм. Фурнитура ухильна. Система C50'
+       KATEGORIA=   'C50 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK1_C50_202_U  ]=
+  <
+       NAZWA_HTML=  'C50.202X ухильна'
+       OPIS =       'Стулка віконна 79мм. Фурнитура ухильна. Система C50'
+       KATEGORIA=   'C50 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK1_C50_203_U  ]=
+  <
+       NAZWA_HTML=  'C50.203X ухильна'
+       OPIS =       'Стулка віконна 89мм. Фурнитура ухильна. Система C50'
+       KATEGORIA=   'C50 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK1_C50_204_U  ]=
+  <
+       NAZWA_HTML=  'C50.204X ухильна'
+       OPIS =       'Стулка віконна 105мм. Фурнитура ухильна. Система C50'
+       KATEGORIA=   'C50 Вікно ухильне'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UCHYLNE]
+       KLAMKI=TAK	 	   
+  >      
+  
+
+SKRZYDLO[ WNG_SKRZ_OK2_C50_201_R  ]=
+  <
+       NAZWA_HTML=  'C50.201X поворотна без штульпа'
+       OPIS =       'Стулка віконна 69мм. Фурнитура поворотна без штульпа. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK2_C50_202_R  ]=
+  <
+       NAZWA_HTML=  'C50.202X поворотна без штульпа'
+       OPIS =       'Стулка віконна 79мм. Фурнитура поворотна без штульпа. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK2_C50_203_R  ]=
+  <
+       NAZWA_HTML=  'C50.203X поворотна без штульпа'
+       OPIS =       'Стулка віконна 89мм. Фурнитура поворотна без штульпа. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK2_C50_204_R  ]=
+  <
+       NAZWA_HTML=  'C50.204X поворотна без штульпа'
+       OPIS =       'Стулка віконна 105мм. Фурнитура поворотна без штульпа. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_ROZWIERANE_RP]
+       KLAMKI=TAK	 	   
+  >      
+
+
+SKRZYDLO[ WNG_SKRZ_OK3_C50_201_R  ]=
+  <
+       NAZWA_HTML=  'C50.201X поворотна зі штульпом'
+       OPIS =       'Стулка віконна 69мм. Фурнитура поворотна зі штульпом. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW3]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK3_C50_202_R  ]=
+  <
+       NAZWA_HTML=  'C50.202X поворотна зі штульпом'
+       OPIS =       'Стулка віконна 79мм. Фурнитура поворотна зі штульпом. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW3]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK3_C50_203_R  ]=
+  <
+       NAZWA_HTML=  'C50.203X поворотна зі штульпом'
+       OPIS =       'Стулка віконна 89мм. Фурнитура поворотна зі штульпом. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW3]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK3_C50_204_R  ]=
+  <
+       NAZWA_HTML=  'C50.204X поворотна зі штульпом'
+       OPIS =       'Стулка віконна 105мм. Фурнитура поворотна зі штульпом. Система C50'
+       KATEGORIA=   'C50 Вікно поворотне зі штульпом'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW3]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_RP]
+       KLAMKI=TAK	 	   
+  >    
+
+  
+
+SKRZYDLO[ WNG_SKRZ_OK2_C50_201_UR  ]=
+  <
+       NAZWA_HTML=  'C50.201X поворотно-ухильна без штульпа'
+       OPIS =       'Стулка віконна 69мм. Фурнитура поворотно-ухильна без штульпа. Система C50'
+       KATEGORIA=   'C50 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_201.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_201]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >
+SKRZYDLO[ WNG_SKRZ_OK2_C50_202_UR  ]=
+  <
+       NAZWA_HTML=  'C50.202X поворотно-ухильна без штульпа'
+       OPIS =       'Стулка віконна 79мм. Фурнитура поворотно-ухильна без штульпа. Система C50'
+       KATEGORIA=   'C50 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_202.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_202]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >  
+SKRZYDLO[ WNG_SKRZ_OK2_C50_203_UR  ]=
+  <
+       NAZWA_HTML=  'C50.203X поворотно-ухильна без штульпа'
+       OPIS =       'Стулка віконна 89мм. Фурнитура поворотно-ухильна без штульпа. Система C50'
+       KATEGORIA=   'C50 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_203.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_203]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >    
+SKRZYDLO[ WNG_SKRZ_OK2_C50_204_UR  ]=
+  <
+       NAZWA_HTML=  'C50.204X поворотно-ухильна без штульпа'
+       OPIS =       'Стулка віконна 105мм. Фурнитура поворотно-ухильна без штульпа. Система C50'
+       KATEGORIA=   'C50 Вікно поворотно-ухильне без штульпа'
+       ZASTOSOWANIE=[TS_RamaOkienna_OW2]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK=     'C50_204.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_OKIENNA_ALP_C50_204]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_UR_RP]
+       KLAMKI=TAK	 	   
+  >    
+
+
+//***********************************************************************
+//Skrzydla drzwiowe
+//***********************************************************************
+SKRZYDLO[WNG_SKRZ_DW1_C50_206]=
+  <
+       NAZWA='C50.206x h=90mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються всередину. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DW1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK='C50_206.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_D_WEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW2_C50_206]=
+  <
+       NAZWA='C50.206x h=90mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються всередину. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DW2]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK='C50_206.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_D_WEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_C50_206]=
+  <
+       NAZWA='C50.206x h=90mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DW3]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK='C50_206.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+
+
+//***************************
+//***************************  
+  
+SKRZYDLO[WNG_SKRZ_DZ1_C50_207]=
+  <
+       NAZWA='C50.207x h=90mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються назовні. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DZ1]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK='C50_207.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_D_ZEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ2_C50_207]=
+  <
+       NAZWA='C50.207x h=90mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються назовні. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DZ2]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK='C50_207.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_D_ZEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ3_C50_207]=
+  <
+       NAZWA='C50.207x h=90mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3]
+       SYSTEMY=	    [DEF_SYS_C50]
+       RYSUNEK='C50_207.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50]
+       WARIANT=WAR_C50
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+
+//***********************************************************************
+//Skrzydla drzwiowe CD
+//***********************************************************************
+SKRZYDLO[WNG_SKRZ_DW1_C50_208_CD]=
+  <
+       NAZWA='C50.208x h=96.5mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються всередину. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DW1_CD]
+       SYSTEMY=	    [DEF_SYS_C50_CD]
+       RYSUNEK='C50_208.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50_CD]
+       WARIANT=WAR_C50_CD
+       OKUCIA=[OKUCIE_D_WEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW2_C50_208_CD]=
+  <
+       NAZWA='C50.208x h=96.5mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються всередину. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DW2_CD]
+       SYSTEMY=	    [DEF_SYS_C50_CD]
+       RYSUNEK='C50_208.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50_CD]
+       WARIANT=WAR_C50_CD
+       OKUCIA=[OKUCIE_D_WEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_C50_208_CD]=
+  <
+       NAZWA='C50.208x h=96.5mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DW3_CD]
+       SYSTEMY=	    [DEF_SYS_C50_CD]
+       RYSUNEK='C50_208.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50_CD]
+       WARIANT=WAR_C50_CD
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+
+
+//***************************
+//***************************  
+  
+SKRZYDLO[WNG_SKRZ_DZ1_C50_209_CD]=
+  <
+       NAZWA='C50.209x h=96.5mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються назовні. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DZ1_CD]
+       SYSTEMY=	    [DEF_SYS_C50_CD]
+       RYSUNEK='C50_209.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50_CD]
+       WARIANT=WAR_C50_CD
+       OKUCIA=[OKUCIE_D_ZEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ2_C50_209_CD]=
+  <
+       NAZWA='C50.209x h=96.5mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються назовні. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DZ2_CD]
+       SYSTEMY=	    [DEF_SYS_C50_CD]
+       RYSUNEK='C50_207.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50_CD]
+       WARIANT=WAR_C50_CD
+       OKUCIA=[OKUCIE_D_ZEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ3_C50_209_CD]=
+  <
+       NAZWA='C50.209x h=96.5mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система C50'
+       KATEGORIA='Стулка дверей C50'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3_CD]
+       SYSTEMY=	    [DEF_SYS_C50_CD]
+       RYSUNEK='C50_207.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_C50_CD]
+       WARIANT=WAR_C50_CD
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >    

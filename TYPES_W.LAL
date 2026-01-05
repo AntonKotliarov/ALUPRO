@@ -16,8 +16,11 @@
 #DEFINE TS_NVF_AKP                      8
 #DEFINE TS_NVF_HPL_PANEL                9
 #DEFINE TS_NVF_FZP                      10
-
-
+#DEFINE TS_C50_windows                  11
+#DEFINE TS_C50_RamaDZ                   12
+#DEFINE TS_C50_RamaDW                   13
+#DEFINE TS_C50_RamaDZ_CD                14
+#DEFINE TS_C50_RamaDW_CD                15
 
 //******************************************
 // Fasada
@@ -299,6 +302,14 @@
 #define TS_SLIDE_S33B                           321
 
 #DEFINE TS_Fasada_RamaTMC                       322
+
+#define TS_Drzwi_DZ1_CD                         323
+#define TS_Drzwi_DZ2_CD                         324
+#define TS_Drzwi_DZ3_CD                         325
+
+#define TS_Drzwi_DW1_CD                         326
+#define TS_Drzwi_DW2_CD                         327
+#define TS_Drzwi_DW3_CD                         328	
 
 
 

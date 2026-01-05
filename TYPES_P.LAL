@@ -353,8 +353,8 @@
 
 #DEFINE TP_RamaStala_TON4_RamaDoFasady_T50 254
 
-#DEFINE TP_RamaVentReschetki_RamaDoOkna          255
-#DEFINE TP_RamaStala_RamaDoFasady_TON2           256
+#DEFINE TP_RamaVentReschetki_RamaDoOkna         255
+#DEFINE TP_RamaStala_RamaDoFasady_TON2          256
 #DEFINE TP_RamaStala_RamaDoFasady_HOP           257
 #DEFINE TP_RamaStala_RamaDoFasady_OPS1          258
 
@@ -517,5 +517,12 @@
 #DEFINE TP_RamaOkienna_RuchomySlupek_PVC           386                
 #DEFINE TP_SkrzydloOkienne_ZRuchomymSlupkiem_PVC   387
 #DEFINE TP_SkrzydloOkienne_PrzyRuchomymSlupku_PVC  388
+
+#DEFINE TP_RamaDrzwiowa_ProgDZ0                    389
+#DEFINE TP_RamaDrzwiowa_ProgDW0                    390
+
+#DEFINE TP_RamaDrzwiowa_ProgDZ_CD                  391
+#DEFINE TP_RamaDrzwiowa_ProgDW_CD                  392
+#DEFINE TP_RamaOkienna_SzczelinaBalkonu0           393
 
 

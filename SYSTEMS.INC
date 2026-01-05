@@ -15,7 +15,15 @@ PODSYSTEM[DEF_SYS_W77]=
         KATEGORIA   = 'Вікна та двері'
         RYSUNEK     = 'W77.BMP'
         KOD         = 'W77'
-      >	  
+      >	
+PODSYSTEM[DEF_SYS_C50]=
+      <
+        NAZWA       = 'C50 - Вікна та двері'
+        OPIS        = 'Вікна та двері C50. Ширина профилю 50мм'
+        KATEGORIA   = 'Вікна та двері'
+        RYSUNEK     = 'C50.BMP'
+        KOD         = 'C50'
+      >	 	  
 PODSYSTEM[DEF_SYS_NVF_KERAM_KLIAM]=
       <
         NAZWA       = 'Плити керамограніту на кляймерах'

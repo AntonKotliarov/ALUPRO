@@ -537,8 +537,73 @@
 #DEFINE E_ALP_FZP_ANCHER                              503
 #DEFINE E_M5x16_DIN933                                504
 #DEFINE E_Sam3_5x9_5_DIN7982                          505
+#DEFINE E_ALP_DG1020                                  506
+#DEFINE E_RP_21                                       507
+#DEFINE E_Sam3_5x38_DIN7982                           508
+#DEFINE E_RP_22                                       509
 
+#DEFINE E_RP_19                                       510
+#DEFINE E_RP_44                                       511
 
+#DEFINE E_ALP_W77_T050                                512
+#DEFINE E_ALP_W77_T051                                513
+#DEFINE E_ALP_W77_T052                                514
+#DEFINE E_ALP_W77_T053                                515
+#DEFINE E_ALP_W77_T054                                516
+#DEFINE E_ALP_W77_T055                                517
+#DEFINE E_ALP_W77_T056                                518
+#DEFINE E_ALP_W77_T057                                519
+#DEFINE E_ALP_W77_T058                                520
+#DEFINE E_ALP_W77_T059                                521
+#DEFINE E_ALP_W77_T060                                522
+#DEFINE E_ALP_W77_T061                                523
+#DEFINE E_ALP_W77_T062                                524
+#DEFINE E_ALP_W77_T063                                525
+#DEFINE E_ALP_W77_T064                                526
+#DEFINE E_ALP_W77_T065                                527
+#DEFINE E_ALP_W77_T025                                528
+#DEFINE E_ALP_W77_T026                                529
+#DEFINE E_ALP_W77_T027                                530
+#DEFINE E_ALP_C_808                                   531
+#DEFINE E_ALP_W77_106                                 532
+#DEFINE E_W77_C_808_01                                533
+#DEFINE E_W77_C_808_02                                534
+#DEFINE E_ALP_W77_308                                 535
+#DEFINE E_ALP_W77_309                                 536
+#DEFINE E_W77_C_810_04                                537
+#DEFINE E_W77_C_811_04                                538
+#DEFINE E_ALP_W77_505                                 539
+#DEFINE E_ALP_W77_506                                 540
+#DEFINE E_ALP_W77_507                                 541
+#DEFINE E_ALP_W77_508                                 542
+
+#DEFINE E_W77_C_822_ZB_01                             543
+#DEFINE E_W77_C_822_ZB_02                             544
+#DEFINE E_W77_C_823_ZB_01                             545
+#DEFINE E_W77_C_823_ZB_02                             546
+#DEFINE E_W77_C_824_ZB_01                             547
+#DEFINE E_W77_C_824_ZB_02                             548
+#DEFINE E_W77_C_824_ZB_03                             549
+#DEFINE E_W77_C_825_ZB_01                             550
+#DEFINE E_W77_C_825_ZB_02                             551
+#DEFINE E_W77_C_825_ZB_03                             552
+#DEFINE E_ALP_C_822                                   553
+#DEFINE E_ALP_C_823                                   554
+#DEFINE E_ALP_C_824                                   555
+#DEFINE E_ALP_C_825                                   556
+  
+#DEFINE E_RP_23_20                                    557
+#DEFINE E_RP_23_26                                    558
+#DEFINE E_RP_23_34                                    559
+#DEFINE E_RP_23_48                                    560
+
+#DEFINE E_W77_D012R                                   561
+#DEFINE E_W77_D012L                                   562
+#DEFINE E_ALP_F50_307                                 563
+#DEFINE E_F50_A021                                    564
+#DEFINE E_F50_A022                                    565
+#DEFINE E_F50_A023                                    566
+#DEFINE E_F50_A024                                    567
 
 
 
@@ -953,5 +1018,79 @@
 #DEFINE E_PDKL_100_66_3                                   2400
 #DEFINE E_PDKL_100_34_3                                   2401
 
+#DEFINE E_ALP_C50_101                                     2402
+#DEFINE E_ALP_C50_102                                     2403
+#DEFINE E_ALP_C50_103                                     2404
+#DEFINE E_ALP_C50_104                                     2405
+#DEFINE E_ALP_C50_105                                     2406
+#DEFINE E_ALP_C50_106                                     2407
+#DEFINE E_ALP_C50_107                                     2408
+#DEFINE E_ALP_C50_201                                     2409
+#DEFINE E_ALP_C50_202                                     2410
+#DEFINE E_ALP_C50_203                                     2411
+#DEFINE E_ALP_C50_204                                     2412
+#DEFINE E_ALP_C50_205                                     2413
+#DEFINE E_ALP_C50_206                                     2414
+#DEFINE E_ALP_C50_207                                     2415
+#DEFINE E_ALP_C50_208                                     2416
+#DEFINE E_ALP_C50_209                                     2417
+#DEFINE E_ALP_C50_301                                     2418
+#DEFINE E_ALP_C50_302                                     2419
+#DEFINE E_ALP_C50_311                                     2420
+#DEFINE E_ALP_C50_321                                     2421
+#DEFINE E_ALP_C50_313                                     2422
+#DEFINE E_ALP_C50_611                                     2423
+#DEFINE E_ALP_C50_314                                     2424
+#DEFINE E_ALP_C50_315                                     2425
+#DEFINE E_ALP_C50_821                                     2426
+#DEFINE E_ALP_C50_822                                     2427
+#DEFINE E_ALP_C50_823                                     2428
+//#DEFINE E_ALP_C50_823                                     2429
+#DEFINE E_ALP_C50_609                                     2430
+#DEFINE E_ALP_C50_615                                     2431
+#DEFINE E_ALP_C50_614                                     2432
+#DEFINE E_ALP_C50_616                                     2433
+#DEFINE E_ALP_C50_617                                     2434
+#DEFINE E_ALP_C50_618                                     2435
+#DEFINE E_ALP_C50_619                                     2436
+#DEFINE E_ALP_C50_824                                     2437
+#DEFINE E_ALP_C50_825                                     2438
+#DEFINE E_ALP_C50_817                                     2439
+#DEFINE E_ALP_C50_812                                     2440
+#DEFINE E_C_801_05                                        2441
+#DEFINE E_C_802_04                                        2442
+#DEFINE E_C_803_04                                        2443
+#DEFINE E_C_804_03                                        2444
+#DEFINE E_C_805_06                                        2445
+#DEFINE E_C_805_07                                        2446
+#DEFINE E_C_806_03                                        2447
+#DEFINE E_C_812_01                                        2448
+#DEFINE E_C_812_02                                        2449
+#DEFINE E_C_812_03                                        2450
+#DEFINE E_C_709_02                                        2451
+#DEFINE E_shtift_5_8                                      2452
+#DEFINE E_M5_6_DIN914                                     2453
+#DEFINE E_Sam3_9x19_DIN7981                               2454
+#DEFINE E_RP_20                                           2455
+#DEFINE E_ALP_C_710                                       2456
+#DEFINE E_C50_D002                                        2457
+#DEFINE E_C50_D001                                        2458
+#DEFINE E_CW_D004R                                        2459
+#DEFINE E_CW_D004L                                        2460	  
+#DEFINE E_CW_D003R                                        2461
+#DEFINE E_CW_D003L                                        2462		
 
+#DEFINE E_C50_D005R                                       2463	
+#DEFINE E_C50_D005L                                       2464
 
+#DEFINE E_Sam3_5x25_DIN7982                               2465
+
+#DEFINE E_C50_D006R                                       2466
+#DEFINE E_C50_D006L                                       2467
+								
+#DEFINE E_PDKL_100_24_1                                   2468
+#DEFINE E_PDKL_100_24_3                                   2469
+#DEFINE E_PDKL_100_30_1                                   2470
+#DEFINE E_PDKL_100_30_3                                   2471				
+#DEFINE E_PDKL_100_32_1                                   2472
+#DEFINE E_PDKL_100_32_3                                   2473													  

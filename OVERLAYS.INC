@@ -2,5 +2,6 @@ ZACHODZENIA_PROFILI=
   <
      #INCLUDE "OVER_FASADA_F50.IN2"	 	
      #INCLUDE "OVER_W77.in2"	 
+     #INCLUDE "OVER_C50.in2"	 	 
      #INCLUDE "OVER_NVF.in2"	 	 	 	 
   >

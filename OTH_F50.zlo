@@ -152,10 +152,23 @@ PRZESLO[P_PROSTE_F50]=
             DLA_PROFILI=
               [
 		         PRF_F50_SLP_F50_106,
-                 PRF_F50_WSLP_F50_106,
-		         PRF_F50_SLP_F50_107,
-                 PRF_F50_WSLP_F50_107					 
+                 PRF_F50_WSLP_F50_106
               ]
+          >				  
+        WYLICZENIE=
+          <
+            PRZEKROJ_NR=1739
+            KOD=      E_ALP_F50_307
+            PAR_ILOSC=    '1'
+            PAR_DLUGOSC='WYSOKOSC_CALOSC'
+            PAR_KAT1='0'
+            PAR_KAT2='0'
+			KOLOR=KOLOR_SUROWY
+            DLA_PROFILI=
+              [
+		         PRF_F50_SLP_F50_107,
+                 PRF_F50_WSLP_F50_107
+              ]			  
           >		
     //Детали
         WYLICZENIE=
@@ -182,14 +195,14 @@ PRZESLO[P_PROSTE_F50]=
           <
             PRZEKROJ_NR=1750
             KOD=E_F50_D01030
-            PAR_ILOSC=    '1'
+            PAR_ILOSC='1'
 			GDY_PARAMETR='DETAL_KAPELNIKA_F50=0'
       >
         WYLICZENIE=
           <
             PRZEKROJ_NR=1750
             KOD=E_F50_D01040
-            PAR_ILOSC=    '1'
+            PAR_ILOSC='1'
 			GDY_PARAMETR='DETAL_KAPELNIKA_F50=1'
       >	  
     //Переток конденсата		  
@@ -197,7 +210,7 @@ PRZESLO[P_PROSTE_F50]=
           <
             PRZEKROJ_NR=1751
             KOD=E_F50_611_01
-            PAR_ILOSC=    '2'
+            PAR_ILOSC='2'
       >	  
    >
 >

@@ -742,7 +742,8 @@ STANDARDOWE_DEFINICJE=
           <
              PROFILE=[
 	                   PRF_RCHS_ALP_W77_610,
-                       PRF_RCHS_ALP_W77_611	
+                       PRF_RCHS_ALP_W77_611,
+                       PRF_RCHS_ALP_C50_611					   
                      ]
           >
         STANDARD[			TP_RamaHarm_RuchomySlupek_Ruchomy,
@@ -988,14 +989,18 @@ STANDARDOWE_DEFINICJE=
         STANDARD[TP_RamaDrzwiowa_DZ                       ]=
           <
              PROFILE=[
-                PRF_RAMA_DRZWIOWA_DZ_ALP_W77_401
+                PRF_RAMA_DRZWIOWA_DZ_ALP_W77_401,
+				PRF_RAMA_DRZWIOWA_DZ_ALP_C50_104,
+				PRF_RAMA_DRZWIOWA_DZ_ALP_C50_105
                      ]
           >
 
         STANDARD[TP_RamaDrzwiowa_DW                       ]=
           <
              PROFILE=[
-                PRF_RAMA_DRZWIOWA_DW_ALP_W77_402
+                PRF_RAMA_DRZWIOWA_DW_ALP_W77_402,
+				PRF_RAMA_DRZWIOWA_DW_ALP_C50_104,
+				PRF_RAMA_DRZWIOWA_DW_ALP_C50_105
                      ]
           >
 
@@ -1036,14 +1041,18 @@ STANDARDOWE_DEFINICJE=
         STANDARD[TP_RamaDrzwiowa_PodzialDZ                ]=
           <
              PROFILE=[
-                   PRF_PODZ_DX_ALP_W77
+                   PRF_PODZ_DX_ALP_W77,
+				   PRF_PODZ_DX_ALP_C50,
+				   PRF_PODZ_DX_ALP_C50_CD
                      ]
           >
 
         STANDARD[TP_RamaDrzwiowa_PodzialDW                ]=
           <
              PROFILE=[
-                   PRF_PODZ_DX_ALP_W77
+                   PRF_PODZ_DX_ALP_W77,
+				   PRF_PODZ_DX_ALP_C50,
+				   PRF_PODZ_DX_ALP_C50_CD
                      ]
           >
 
@@ -1084,16 +1093,33 @@ STANDARDOWE_DEFINICJE=
         STANDARD[TP_RamaDrzwiowa_ProgDZ                   ]=
           <
              PROFILE=[
-                    PRF_PROG_ALP_W77_614 
+                    PRF_PROG_ALP_W77_614,
+                    PRF_PROG_ALP_C50_614					
                      ]
           >
 
         STANDARD[TP_RamaDrzwiowa_ProgDW                   ]=
           <
              PROFILE=[
-                    PRF_PROG_ALP_W77_614
+                    PRF_PROG_ALP_W77_614,
+					PRF_PROG_ALP_C50_614
                      ]
           >
+		  
+		  
+        STANDARD[TP_RamaDrzwiowa_ProgDZ_CD                   ]=
+          <
+             PROFILE=[
+                    PRF_PROG_ALP_C50_619					
+                     ]
+          >
+
+        STANDARD[TP_RamaDrzwiowa_ProgDW_CD                   ]=
+          <
+             PROFILE=[
+                    PRF_PROG_ALP_C50_619
+                     ]
+          >		  
 
         STANDARD[TP_RamaDrzwiowa_ProgDH                   ]=
           <
@@ -1197,7 +1223,9 @@ STANDARDOWE_DEFINICJE=
                  PRF_SLP_OKIENNA_ALP_W77_303  ,
                  PRF_SLP_OKIENNA_ALP_W77_304  ,
                  PRF_SLP_OKIENNA_ALP_W77_305  ,
-                 PRF_SLP_OKIENNA_ALP_W77_307				 
+                 PRF_SLP_OKIENNA_ALP_W77_307  ,
+                 PRF_SLP_OKIENNA_ALP_C50_301  ,
+                 PRF_SLP_OKIENNA_ALP_C50_301_CD						 
                      ]
           >
 
@@ -1209,7 +1237,9 @@ STANDARDOWE_DEFINICJE=
                  PRF_SLP_OKIENNA_ALP_W77_303  ,
                  PRF_SLP_OKIENNA_ALP_W77_304  ,
                  PRF_SLP_OKIENNA_ALP_W77_305  ,
-                 PRF_SLP_OKIENNA_ALP_W77_307						 
+                 PRF_SLP_OKIENNA_ALP_W77_307  ,
+                 PRF_SLP_OKIENNA_ALP_C50_301  ,
+                 PRF_SLP_OKIENNA_ALP_C50_301_CD								 
                      ]
           >
         STANDARD[TP_SkrzydloDrzwiowe_DZ1  ]=
@@ -1274,7 +1304,8 @@ STANDARDOWE_DEFINICJE=
                    PRF_RAMA_OKIENNA_ALP_W77_102 ,
                    PRF_RAMA_OKIENNA_ALP_W77_103 ,
                    PRF_RAMA_OKIENNA_ALP_W77_104 ,
-                   PRF_RAMA_OKIENNA_ALP_W77_105 
+                   PRF_RAMA_OKIENNA_ALP_W77_105 ,
+				   PRF_RAMA_OKIENNA_ALP_C50_101
                     ]
           >
 
@@ -1285,7 +1316,8 @@ STANDARDOWE_DEFINICJE=
                    PRF_RAMA_OKIENNA_ALP_W77_102 ,
                    PRF_RAMA_OKIENNA_ALP_W77_103 ,
                    PRF_RAMA_OKIENNA_ALP_W77_104 ,
-                   PRF_RAMA_OKIENNA_ALP_W77_105 			  
+                   PRF_RAMA_OKIENNA_ALP_W77_105 ,
+				   PRF_RAMA_OKIENNA_ALP_C50_101 			  
                       ]
           >
 
@@ -1296,7 +1328,8 @@ STANDARDOWE_DEFINICJE=
                    PRF_RAMA_OKIENNA_ALP_W77_102 ,
                    PRF_RAMA_OKIENNA_ALP_W77_103 ,
                    PRF_RAMA_OKIENNA_ALP_W77_104 ,
-                   PRF_RAMA_OKIENNA_ALP_W77_105 
+                   PRF_RAMA_OKIENNA_ALP_W77_105 ,
+				   PRF_RAMA_OKIENNA_ALP_C50_101 
                       ]
           >
 
@@ -1307,7 +1340,8 @@ STANDARDOWE_DEFINICJE=
                    PRF_RAMA_OKIENNA_ALP_W77_102 ,
                    PRF_RAMA_OKIENNA_ALP_W77_103 ,
                    PRF_RAMA_OKIENNA_ALP_W77_104 ,
-                   PRF_RAMA_OKIENNA_ALP_W77_105 
+                   PRF_RAMA_OKIENNA_ALP_W77_105 ,
+				   PRF_RAMA_OKIENNA_ALP_C50_101 
                      ]
           >
 
@@ -1319,7 +1353,8 @@ STANDARDOWE_DEFINICJE=
                      PRF_SLP_OKIENNA_ALP_W77_303  ,
                      PRF_SLP_OKIENNA_ALP_W77_304  ,
                      PRF_SLP_OKIENNA_ALP_W77_305  ,
-                     PRF_SLP_OKIENNA_ALP_W77_307	 
+                     PRF_SLP_OKIENNA_ALP_W77_307  ,
+                     PRF_SLP_OKIENNA_ALP_C50_301					 
                      ]
           >
 
@@ -1331,7 +1366,8 @@ STANDARDOWE_DEFINICJE=
                      PRF_SLP_OKIENNA_ALP_W77_303  ,
                      PRF_SLP_OKIENNA_ALP_W77_304  ,
                      PRF_SLP_OKIENNA_ALP_W77_305  ,
-                     PRF_SLP_OKIENNA_ALP_W77_307	 
+                     PRF_SLP_OKIENNA_ALP_W77_307  ,
+                     PRF_SLP_OKIENNA_ALP_C50_301		 
                      ]
           >
 
@@ -2141,7 +2177,8 @@ STANDARDOWE_DEFINICJE=
         STANDARD[ TS_RamaOkienna_OW1                       ]=
           <
              SKRZYDLA=[
-	                	WNG_SKRZ_OK1_W77_201_UR	  
+	                	WNG_SKRZ_OK1_W77_201_UR,
+                        WNG_SKRZ_OK1_C50_201_UR						
                       ]
           >
         STANDARD[ TS_RamaOkienna_PVC_OW1                  ]=
@@ -2171,14 +2208,15 @@ STANDARDOWE_DEFINICJE=
         STANDARD[ TS_RamaOkienna_OW2                      ]=
           <
              SKRZYDLA=[
-				  WNG_SKRZ_OK2_W77_201_UR
+				  WNG_SKRZ_OK2_W77_201_UR,
+				  WNG_SKRZ_OK2_C50_201_UR
                       ]
           >
 
         STANDARD[ TS_RamaOkienna_OW3                      ]=
           <
              SKRZYDLA=[
-				  
+				  WNG_SKRZ_OK3_C50_201_R
                       ]
           >
         STANDARD[ TS_RamaOkienna_OW2v                     ]=
@@ -2326,9 +2364,18 @@ STANDARDOWE_DEFINICJE=
         STANDARD[ TS_Drzwi_DW1                             ]=
           <
             SKRZYDLA=[
-                 	WNG_SKRZ_DW1_W77_502				 
+                 	WNG_SKRZ_DW1_W77_502,
+                    WNG_SKRZ_DW1_C50_206					
                      ]
           >
+		  
+        STANDARD[ TS_Drzwi_DW1_CD                             ]=
+          <
+            SKRZYDLA=[
+                 	WNG_SKRZ_DW1_C50_208_CD					
+                     ]
+          >
+		  
 		STANDARD[ TS_Drzwi_T38_Fasad                        ]=
           <
             SKRZYDLA=[
@@ -2350,9 +2397,17 @@ STANDARDOWE_DEFINICJE=
         STANDARD[ TS_Drzwi_DW2                             ]=
           <
             SKRZYDLA=[
-               		WNG_SKRZ_DW2_W77_502			 
+               		WNG_SKRZ_DW2_W77_502,
+                    WNG_SKRZ_DW2_C50_206					
                      ]
           >
+		  
+        STANDARD[ TS_Drzwi_DW2_CD                             ]=
+          <
+            SKRZYDLA=[
+               		WNG_SKRZ_DW2_C50_208_CD				
+                     ]
+          >		  
 
         STANDARD[ TS_Drzwi_DW2_D40                             ]=
           <
@@ -2364,9 +2419,17 @@ STANDARDOWE_DEFINICJE=
         STANDARD[ TS_Drzwi_DW3                             ]=
           <
             SKRZYDLA=[
-               		WNG_SKRZ_DW3_W77_502			 
+               		WNG_SKRZ_DW3_W77_502,
+                    WNG_SKRZ_DW3_C50_206					
                      ]
           >
+		  
+        STANDARD[ TS_Drzwi_DW3_CD                             ]=
+          <
+            SKRZYDLA=[
+               		WNG_SKRZ_DW3_C50_208_CD					
+                     ]
+          >		  
 		  
         STANDARD[ TS_Drzwi_DW3_D40                             ]=
           <
@@ -2385,14 +2448,30 @@ STANDARDOWE_DEFINICJE=
         STANDARD[ TS_Drzwi_DZ1                             ]=
           <
             SKRZYDLA=[
-                    WNG_SKRZ_DZ1_W77_501 			 
+                    WNG_SKRZ_DZ1_W77_501,
+                    WNG_SKRZ_DZ1_C50_207					
                      ]
           >
 
+        STANDARD[ TS_Drzwi_DZ1_CD                             ]=
+          <
+            SKRZYDLA=[
+                    WNG_SKRZ_DZ1_C50_209_CD					
+                     ]
+          >
+		  
         STANDARD[ TS_Drzwi_DZ2                             ]=
           <
             SKRZYDLA=[
-               		WNG_SKRZ_DZ2_W77_501						 
+               		WNG_SKRZ_DZ2_W77_501,
+                    WNG_SKRZ_DZ2_C50_207						 
+                     ]
+          >
+		  
+        STANDARD[ TS_Drzwi_DZ2_CD                             ]=
+          <
+            SKRZYDLA=[
+               		WNG_SKRZ_DZ2_C50_209_CD						 
                      ]
           >
 		  
@@ -2406,10 +2485,18 @@ STANDARDOWE_DEFINICJE=
         STANDARD[ TS_Drzwi_DZ3                             ]=
           <
             SKRZYDLA=[
-                   WNG_SKRZ_DZ3_W77_501 								 
+                   WNG_SKRZ_DZ3_W77_501,
+                   WNG_SKRZ_DZ3_C50_207 								 
                      ]
           >
 
+        STANDARD[ TS_Drzwi_DZ3_CD                             ]=
+          <
+            SKRZYDLA=[
+                   WNG_SKRZ_DZ3_C50_209_CD								 
+                     ]
+          >
+		  
         STANDARD[ TS_Drzwi_DZ3_D40                             ]=
           <
             SKRZYDLA=[

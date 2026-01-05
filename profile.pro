@@ -1034,7 +1034,25 @@ PROFIL[E_ALP_F50_306]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
-  >     
+  >  
+PROFIL[E_ALP_F50_307]=
+  <  
+    NAZWA           = 'F50.307X'
+    OPIS            = 'Підсилювач F50.307 [Ф50]'
+    RYSUNEK         = 'F50_307.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  45
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6000
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
 PROFIL[E_ALP_F50_321]=
   <  
     NAZWA           = 'F50.321X'
@@ -1612,6 +1630,14 @@ PROFIL[E_BRAK_PROFILE_NVF_NAVESKA_FZP2]=
     RYSUNEK          = 'RP_35.VCT'
     MASA             = 46.4
   >  
+  AKCESORIA_METRY[E_RP_44]=
+  <
+    NAZWA            = 'RP-44'
+    OPIS             = 'Ущільнювач RP-44 [Ф50]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'RP_44.VCT'
+    MASA             = 46.4
+  >    
   AKCESORIA_METRY[E_RP_36]=
   <
     NAZWA            = 'RP-36'
@@ -2225,7 +2251,47 @@ AKCESORIA_SZTUKI[E_Podkladka_M10_DIN127  ]=
     MASA             = 0
 	KIEDY_POTRZEBA   = UZYTY_DO_MONTAZU
     RYSUNEK_DO_PRZEKROJOW = 'F50_A020cross.vct'		
-  >       
+  >     
+   AKCESORIA_SZTUKI[E_F50_A021]=
+  <
+    NAZWA            = 'F50.A021'
+    OPIS             = 'Опора стійки F50.А021 [Ф50]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'F50_A010.VCT'
+    MASA             = 0
+	KIEDY_POTRZEBA   = UZYTY_DO_MONTAZU
+    RYSUNEK_DO_PRZEKROJOW = 'F50_A020cross.vct'		
+  >     
+   AKCESORIA_SZTUKI[E_F50_A022]=
+  <
+    NAZWA            = 'F50.A022'
+    OPIS             = 'Опора стійки F50.А022 [Ф50]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'F50_A010.VCT'
+    MASA             = 0
+	KIEDY_POTRZEBA   = UZYTY_DO_MONTAZU
+    RYSUNEK_DO_PRZEKROJOW = 'F50_A020cross.vct'		
+  >    
+   AKCESORIA_SZTUKI[E_F50_A023]=
+  <
+    NAZWA            = 'F50.A023'
+    OPIS             = 'Опора стійки F50.А023 [Ф50]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'F50_A010.VCT'
+    MASA             = 0
+	KIEDY_POTRZEBA   = UZYTY_DO_MONTAZU
+    RYSUNEK_DO_PRZEKROJOW = 'F50_A020cross.vct'		
+  >  
+   AKCESORIA_SZTUKI[E_F50_A024]=
+  <
+    NAZWA            = 'F50.A024'
+    OPIS             = 'Опора стійки F50.А024 [Ф50]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'F50_A010.VCT'
+    MASA             = 0
+	KIEDY_POTRZEBA   = UZYTY_DO_MONTAZU
+    RYSUNEK_DO_PRZEKROJOW = 'F50_A020cross.vct'		
+  >           
    AKCESORIA_SZTUKI[E_F50_A001]=
   <
     NAZWA            = 'F50.A001'
@@ -2463,7 +2529,15 @@ AKCESORIA_SZTUKI[E_Sam4_2x22_DIN7981]=
     SYSTEMY          = [DEF_SYS_F50]
     RYSUNEK          = 'Sam_DIN7981.bmp'
     MASA             = 0
-  >    
+  >   
+AKCESORIA_SZTUKI[E_Sam3_9x19_DIN7981]=
+  <
+    NAZWA            = 'Саморіз 3.9*19 DIN7981'
+    OPIS             = 'Саморіз н/ж'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'Sam_DIN7981.bmp'
+    MASA             = 0
+  >      
 AKCESORIA_SZTUKI[E_Sam3_9x22_DIN7981]=
   <
     NAZWA            = 'Саморіз 3.9*22 DIN7981'
@@ -2497,7 +2571,16 @@ AKCESORIA_SZTUKI[E_Sam3_5x19_DIN7982]=
     RYSUNEK          = 'Sam_DIN7982.bmp'
 	RYSUNEK_DO_PRZEKROJOW='Sam3_5x19_DIN7982.vct'
     MASA             = 0
-  >    
+  > 
+AKCESORIA_SZTUKI[E_Sam3_5x38_DIN7982]=
+  <
+    NAZWA            = 'Саморіз 3.5*38 DIN7982'
+    OPIS             = 'Саморіз н/ж'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'Sam_DIN7982.bmp'
+	RYSUNEK_DO_PRZEKROJOW='Sam3_5x38_DIN7982.vct'
+    MASA             = 0
+  >      
 AKCESORIA_SZTUKI[E_Sam3_5x45_DIN7982]=
   <
     NAZWA            = 'Саморіз 3.5*45 DIN7982'
@@ -2603,6 +2686,7 @@ AKCESORIA_SZTUKI[E_Sam3_9x19_DIN7982]=
     OPIS             = 'Саморіз н/ж'
     SYSTEMY          = [DEF_SYS_F50]
     RYSUNEK          = 'Sam_DIN7982.bmp'
+    RYSUNEK_DO_PRZEKROJOW = 'Sam3_9x19_DIN7982.vct'				
     MASA             = 0
   >  
   
@@ -2614,7 +2698,16 @@ AKCESORIA_SZTUKI[E_Sam3_9x25_DIN7982]=
     RYSUNEK          = 'Sam_DIN7982.bmp'
     MASA             = 0
   >    
-    
+
+AKCESORIA_SZTUKI[E_Sam3_5x25_DIN7982]=
+  <
+    NAZWA            = 'Саморіз 3.5*25 DIN7982'
+    OPIS             = 'Саморіз н/ж'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'Sam_DIN7982.bmp'
+    MASA             = 0
+  >    
+	
 AKCESORIA_SZTUKI[E_Sam3_5x22_DIN7982]=
   <
     NAZWA            = 'Саморіз 3.5*22 DIN7982'
@@ -2703,9 +2796,25 @@ AKCESORIA_SZTUKI[E_Sam3_5x32_DIN7981]=
     NAZWA            = 'F50.D002'
     OPIS             = 'Підкладка підсилювача F50.D002 [Ф50]'
     SYSTEMY          = [DEF_SYS_F50]
-    RYSUNEK          = 'F50_D001.VCT'
+    RYSUNEK          = 'F50_D002.VCT'
     MASA             = 0
-  >       
+  > 
+   AKCESORIA_SZTUKI[E_C50_D001]=
+  <
+    NAZWA            = 'C50.D001'
+    OPIS             = 'Підкладка C50.D001 [C50]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'C50_D001.VCT'
+    MASA             = 0
+  >         
+   AKCESORIA_SZTUKI[E_C50_D002]=
+  <
+    NAZWA            = 'C50.D002'
+    OPIS             = 'Підкладка C50.D002 [C50]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'C50_D001.VCT'
+    MASA             = 0
+  >        
    AKCESORIA_SZTUKI[E_F50_D003]=
   <
     NAZWA            = 'F50.D003'
@@ -2937,6 +3046,7 @@ PROFIL[E_ALP_W77_101]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
   >     
 PROFIL[E_ALP_W77_102]=
   <  
@@ -2955,6 +3065,7 @@ PROFIL[E_ALP_W77_102]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'		
   >  
 PROFIL[E_ALP_W77_103]=
   <  
@@ -3009,7 +3120,25 @@ PROFIL[E_ALP_W77_105]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
-  >       
+  >  
+PROFIL[E_ALP_W77_106]=
+  <  
+    NAZWA           = 'W77.106X'
+    OPIS            = 'Рама віконної 61мм [W77]'
+    RYSUNEK         = 'W77_106.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  61
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6800
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
 PROFIL[E_ALP_W77_201]=
   <  
     NAZWA           = 'W77.201X'
@@ -3027,6 +3156,7 @@ PROFIL[E_ALP_W77_201]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'			
   >  
 PROFIL[E_ALP_W77_202]=
   <  
@@ -3045,6 +3175,7 @@ PROFIL[E_ALP_W77_202]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'		
   >    
 PROFIL[E_ALP_W77_203]=
   <  
@@ -3281,7 +3412,43 @@ PROFIL[E_ALP_W77_307]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
-  >     
+  >   
+PROFIL[E_ALP_W77_308]=
+  <  
+    NAZWA           = 'W77.308X'
+    OPIS            = 'Імпост 86мм в віконну стулку [W77]'
+    RYSUNEK         = 'W77_308.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  86
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6800
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W77_309]=
+  <  
+    NAZWA           = 'W77.309X'
+    OPIS            = 'Імпост 86мм в дверну стулку [W77]'
+    RYSUNEK         = 'W77_309.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  86
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6800
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >       
 PROFIL[E_ALP_W77_311]=
   <  
     NAZWA           = 'W77.311X'
@@ -3463,7 +3630,25 @@ PROFIL[E_ALP_W77_501]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
-  >    
+  >   
+PROFIL[E_ALP_W77_505]=
+  <  
+    NAZWA           = 'W77.505X'
+    OPIS            = 'Стулка дверей 95мм.зовн.відч. [W77]'
+    RYSUNEK         = 'W77_505.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  95
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6800
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >      
 PROFIL[E_ALP_W77_502]=
   <  
     NAZWA           = 'W77.502X'
@@ -3481,7 +3666,25 @@ PROFIL[E_ALP_W77_502]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
-  >       
+  >    
+PROFIL[E_ALP_W77_506]=
+  <  
+    NAZWA           = 'W77.506X'
+    OPIS            = 'Стулка дверей 95мм.внутр.відч. [W77]'
+    RYSUNEK         = 'W77_506.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  95
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6800
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >         
 PROFIL[E_ALP_W77_503]=
   <  
     NAZWA           = 'W77.503X'
@@ -3499,7 +3702,25 @@ PROFIL[E_ALP_W77_503]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
-  >           
+  >  
+PROFIL[E_ALP_W77_507]=
+  <  
+    NAZWA           = 'W77.507X'
+    OPIS            = 'Стулка дверей 103мм.зовн.відч. [W77]'
+    RYSUNEK         = 'W77_507.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  103
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6800
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >         
 PROFIL[E_ALP_W77_504]=
   <  
     NAZWA           = 'W77.504X'
@@ -3518,7 +3739,24 @@ PROFIL[E_ALP_W77_504]=
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
   >      
-
+PROFIL[E_ALP_W77_508]=
+  <  
+    NAZWA           = 'W77.508X'
+    OPIS            = 'Стулка дверей 103мм.внутр.відч. [W77]'
+    RYSUNEK         = 'W77_508.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  103
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6800
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
 PROFIL[E_ALP_W77_601]=
   <  
     NAZWA           = 'W77.601X'
@@ -3915,6 +4153,24 @@ PROFIL[E_ALP_C_708]=
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
   >    
+PROFIL[E_ALP_C_710]=
+  <  
+    NAZWA           = 'C.710X'
+    OPIS            = 'Штапік 40мм [W77]'
+    RYSUNEK         = 'C_710.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI = 22
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6800
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
 
 PROFIL[E_ALP_C_815]=
   <  
@@ -4167,7 +4423,97 @@ PROFIL[E_ALP_C_807]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
-  >    
+  >   
+PROFIL[E_ALP_C_822]=
+  <  
+    NAZWA           = 'C.822X'
+    OPIS            = 'Кутник сполучний [W77]'
+    RYSUNEK         = 'C_822.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI = 52
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_C_823]=
+  <  
+    NAZWA           = 'C.823X'
+    OPIS            = 'Кутник сполучний [W77]'
+    RYSUNEK         = 'C_823.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI = 52
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_C_824]=
+  <  
+    NAZWA           = 'C.824X'
+    OPIS            = 'Кутник сполучний [W77]'
+    RYSUNEK         = 'C_824.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI = 52
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >  
+PROFIL[E_ALP_C_825]=
+  <  
+    NAZWA           = 'C.825X'
+    OPIS            = 'Кутник сполучний [W77]'
+    RYSUNEK         = 'C_825.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI = 52
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_C_808]=
+  <  
+    NAZWA           = 'C.808X'
+    OPIS            = 'Кутник сполучний [W77]'
+    RYSUNEK         = 'C_808.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI = 52
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6800
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >      
 PROFIL[E_ALP_C_810]=
   <  
     NAZWA           = 'C.810X'
@@ -4294,7 +4640,15 @@ AKCESORIA_METRY[E_RP_09]=
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'RP_09.VCT'
     MASA             = 0
-  >      
+  >    
+AKCESORIA_METRY[E_RP_19]=
+  <
+    NAZWA            = 'RP-19'
+    OPIS             = 'Ущільнювач RP-19 [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'RP_19.VCT'
+    MASA             = 0
+  >        
 AKCESORIA_METRY[E_RP_10]=
   <
     NAZWA            = 'RP-10'
@@ -4318,7 +4672,31 @@ AKCESORIA_METRY[E_RP_17]=
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'RP_17.VCT'
     MASA             = 0
-  >                  
+  > 
+AKCESORIA_METRY[E_RP_20]=
+  <
+    NAZWA            = 'RP-20'
+    OPIS             = 'Ущільнювач RP-20 [C50]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'RP_20.VCT'
+    MASA             = 0
+  >        
+AKCESORIA_METRY[E_RP_21]=
+  <
+    NAZWA            = 'RP-21'
+    OPIS             = 'Ущільнювач RP-21 [C50]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'RP_XX.VCT'
+    MASA             = 0
+  >    
+AKCESORIA_METRY[E_RP_22]=
+  <
+    NAZWA            = 'RP-22'
+    OPIS             = 'Ущільнювач RP-22 [C50]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'RP_22.VCT'
+    MASA             = 0
+  >        
 AKCESORIA_METRY[E_W77_T01]=
   <
     NAZWA            = 'W77.T01 комплект'
@@ -4335,6 +4713,60 @@ AKCESORIA_METRY[E_E04036Tal]=
     RYSUNEK          = 'E04036Tal.VCT'
     MASA             = 0
   >          
+  
+AKCESORIA_SZTUKI[E_RP_23_20]=
+  <
+    NAZWA            = 'RP-23.20'
+    OPIS             = 'Деталь ущільнення стика імпоста [W77]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'RP_23_20.VCT'
+    MASA             = 0
+  >   
+  
+AKCESORIA_SZTUKI[E_RP_23_26]=
+  <
+    NAZWA            = 'RP-23.26'
+    OPIS             = 'Деталь ущільнення стика імпоста [W77]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'RP_23_26.VCT'
+    MASA             = 0
+  >   
+  
+AKCESORIA_SZTUKI[E_RP_23_34]=
+  <
+    NAZWA            = 'RP-23.34'
+    OPIS             = 'Деталь ущільнення стика імпоста [W77]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'RP_23_34.VCT'
+    MASA             = 0
+  >     
+   
+AKCESORIA_SZTUKI[E_RP_23_48]=
+  <
+    NAZWA            = 'RP-23.48'
+    OPIS             = 'Деталь ущільнення стика імпоста [W77]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'RP_23_48.VCT'
+    MASA             = 0
+  >   
+  
+AKCESORIA_SZTUKI[E_W77_D012R]=
+  <
+    NAZWA            = 'W77.D012R'
+    OPIS             = 'Заглушки профілю С.817 [W77]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'W77_D012R.VCT'
+    MASA             = 0
+  >  
+
+AKCESORIA_SZTUKI[E_W77_D012L]=
+  <
+    NAZWA            = 'W77.D012L'
+    OPIS             = 'Заглушки профілю С.817 [W77]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'W77_D012L.VCT'
+    MASA             = 0
+  >     
   
 AKCESORIA_SZTUKI[E_W77_D010]=
   <
@@ -4376,7 +4808,7 @@ AKCESORIA_SZTUKI[E_W77_C_801_04]=
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'C_801_04.VCT'
     MASA             = 0
-  >      
+  >   
 AKCESORIA_SZTUKI[E_W77_C_802_01]=
   <
     NAZWA            = 'C.802.01'
@@ -4529,6 +4961,14 @@ AKCESORIA_SZTUKI[E_W77_C_811_01]=
     RYSUNEK          = 'C_811_01.VCT'
     MASA             = 0
   >   
+AKCESORIA_SZTUKI[E_W77_C_810_04]=
+  <
+    NAZWA            = 'C.810.04'
+    OPIS             = 'Т-з"єднувач 22мм [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_810_04.VCT'
+    MASA             = 0
+  >    
 AKCESORIA_SZTUKI[E_W77_C_811_02]=
   <
     NAZWA            = 'C.811.02'
@@ -4545,6 +4985,113 @@ AKCESORIA_SZTUKI[E_W77_C_811_03]=
     RYSUNEK          = 'C_811_03.VCT'
     MASA             = 0
   >    
+AKCESORIA_SZTUKI[E_W77_C_811_04]=
+  <
+    NAZWA            = 'C.811.04'
+    OPIS             = 'Т-з"єднувач 22мм [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_811_04.VCT'
+    MASA             = 0
+  >    
+AKCESORIA_SZTUKI[E_W77_C_822_ZB_01]=
+  <
+    NAZWA            = 'C.822.ЗБ.01'
+    OPIS             = 'Кутник сполучний [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_822_ZB_01.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_W77_C_822_ZB_02]=
+  <
+    NAZWA            = 'C.822.ЗБ.02'
+    OPIS             = 'Кутник сполучний [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_822_ZB_02.VCT'
+    MASA             = 0
+  >   
+
+AKCESORIA_SZTUKI[E_W77_C_823_ZB_01]=
+  <
+    NAZWA            = 'C.823.ЗБ.01'
+    OPIS             = 'Кутник сполучний [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_823_ZB_01.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_W77_C_823_ZB_02]=
+  <
+    NAZWA            = 'C.823.ЗБ.02'
+    OPIS             = 'Кутник сполучний [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_823_ZB_02.VCT'
+    MASA             = 0
+  > 
+
+AKCESORIA_SZTUKI[E_W77_C_824_ZB_01]=
+  <
+    NAZWA            = 'C.824.ЗБ.01'
+    OPIS             = 'Кутник сполучний [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_824_ZB_01.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_W77_C_824_ZB_02]=
+  <
+    NAZWA            = 'C.824.ЗБ.02'
+    OPIS             = 'Кутник сполучний [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_824_ZB_02.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_W77_C_824_ZB_03]=
+  <
+    NAZWA            = 'C.824.ЗБ.03'
+    OPIS             = 'Кутник сполучний [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_824_ZB_03.VCT'
+    MASA             = 0
+  >    
+
+AKCESORIA_SZTUKI[E_W77_C_825_ZB_01]=
+  <
+    NAZWA            = 'C.825.ЗБ.01'
+    OPIS             = 'Кутник сполучний [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_825_ZB_01.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_W77_C_825_ZB_02]=
+  <
+    NAZWA            = 'C.825.ЗБ.02'
+    OPIS             = 'Кутник сполучний [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_825_ZB_02.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_W77_C_825_ZB_03]=
+  <
+    NAZWA            = 'C.825.ЗБ.03'
+    OPIS             = 'Кутник сполучний [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_825_ZB_03.VCT'
+    MASA             = 0
+  >        
+AKCESORIA_SZTUKI[E_W77_C_808_01]=
+  <
+    NAZWA            = 'C.808.01'
+    OPIS             = 'Кутник сполучний 8.2mm [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_808_01.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_W77_C_808_02]=
+  <
+    NAZWA            = 'C.808.02'
+    OPIS             = 'Кутник сполучний 18.8mm [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_808_02.VCT'
+    MASA             = 0
+  >     
 AKCESORIA_SZTUKI[E_W77_C_709_01]=
   <
     NAZWA            = 'C.709.01'
@@ -4555,7 +5102,7 @@ AKCESORIA_SZTUKI[E_W77_C_709_01]=
   >     
 AKCESORIA_SZTUKI[E_W77_KB_14_5]=
   <
-    NAZWA            = 'KB-14.5'
+    NAZWA            = 'КВ-14.5'
     OPIS             = 'Кутник [W77]'
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'KB_14_5.VCT'
@@ -4563,7 +5110,7 @@ AKCESORIA_SZTUKI[E_W77_KB_14_5]=
   >  
 AKCESORIA_SZTUKI[E_W77_KB_22_5]=
   <
-    NAZWA            = 'KB-22.5'
+    NAZWA            = 'КВ-22.5'
     OPIS             = 'Кутник [W77]'
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'KB_22_5.VCT'
@@ -4571,7 +5118,7 @@ AKCESORIA_SZTUKI[E_W77_KB_22_5]=
   >     
 AKCESORIA_SZTUKI[E_W77_KB_11_5]=
   <
-    NAZWA            = 'KB-11.5'
+    NAZWA            = 'КВ-11.5'
     OPIS             = 'Кутник [W77]'
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'KB_11_5.VCT'
@@ -4592,7 +5139,15 @@ AKCESORIA_SZTUKI[E_M6_8_DIN914]=
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'M6_8_DIN914.VCT'
     MASA             = 0
-  >     
+  >   
+AKCESORIA_SZTUKI[E_M5_6_DIN914]=
+  <
+    NAZWA            = 'M5х6 DIN914'
+    OPIS             = 'M5x6 DIN914'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'M5_6_DIN914.VCT'
+    MASA             = 0
+  >       
 AKCESORIA_SZTUKI[E_D5_10_DIN_EN_ISO8734]=
   <
     NAZWA            = 'D5х10мм DIN EN ISO 8734'
@@ -4608,7 +5163,15 @@ AKCESORIA_SZTUKI[E_D07004]=
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'D07004.VCT'
     MASA             = 0
-  >         
+  >   
+AKCESORIA_SZTUKI[E_shtift_5_8]=
+  <
+    NAZWA            = 'Штифт 5х8'
+    OPIS             = 'Штифт 5х8'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'shtift_5_8.VCT'
+    MASA             = 0
+  >    
 AKCESORIA_SZTUKI[E_W77_D007R]=
   <
     NAZWA            = 'W77.D007R'
@@ -4658,7 +5221,24 @@ AKCESORIA_SZTUKI[E_W77_D004L]=
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'W77_D004L.VCT'
     MASA             = 0
-  >     
+  >  
+
+AKCESORIA_SZTUKI[E_CW_D004R]=
+  <
+    NAZWA            = 'CW.D004R'
+    OPIS             = 'Деталь порога [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'CW_D004R.VCT'
+    MASA             = 0
+  > 
+AKCESORIA_SZTUKI[E_CW_D004L]=
+  <
+    NAZWA            = 'CW.D004L'
+    OPIS             = 'Деталь порога [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'CW_D004L.VCT'
+    MASA             = 0
+  >      
 
 AKCESORIA_SZTUKI[E_W77_D006R]=
   <
@@ -4700,8 +5280,23 @@ AKCESORIA_SZTUKI[E_W77_D011L]=
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'W77_D011L.VCT'
     MASA             = 0
-  >      
-
+  >     
+AKCESORIA_SZTUKI[E_CW_D003R]=
+  <
+    NAZWA            = 'CW.D003R'
+    OPIS             = 'Деталь [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'CW_D003R.VCT'
+    MASA             = 0
+  > 
+AKCESORIA_SZTUKI[E_CW_D003L]=
+  <
+    NAZWA            = 'CW.D003L'
+    OPIS             = 'Деталь [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'CW_D003L.VCT'
+    MASA             = 0
+  >   
 AKCESORIA_SZTUKI[E_W77_D003R]=
   <
     NAZWA            = 'W77.D003R'
@@ -4718,6 +5313,41 @@ AKCESORIA_SZTUKI[E_W77_D003L]=
     RYSUNEK          = 'W77_D003L.VCT'
     MASA             = 0
   >   
+  
+AKCESORIA_SZTUKI[E_C50_D005R]=
+  <
+    NAZWA            = 'C50.D005R'
+    OPIS             = 'Деталь [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C50_D005R.VCT'
+    MASA             = 0
+  > 
+AKCESORIA_SZTUKI[E_C50_D005L]=
+  <
+    NAZWA            = 'C50.D005L'
+    OPIS             = 'Деталь [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C50_D005L.VCT'
+    MASA             = 0
+  >   
+  
+AKCESORIA_SZTUKI[E_C50_D006R]=
+  <
+    NAZWA            = 'C50.D006R'
+    OPIS             = 'Деталь [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C50_D006R.VCT'
+    MASA             = 0
+  > 
+AKCESORIA_SZTUKI[E_C50_D006L]=
+  <
+    NAZWA            = 'C50.D006L'
+    OPIS             = 'Деталь [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C50_D006L.VCT'
+    MASA             = 0
+  >   
+  
 AKCESORIA_SZTUKI[E_W77_D001]=
   <
     NAZWA            = 'W77.D001'
@@ -4741,6 +5371,13 @@ AKCESORIA_SZTUKI[E_W77_D009]=
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'W77_D009.VCT'
     MASA             = 0
+	
+  ZGLOSZENIE_OBROBKI =
+  <
+    OBROBKA   = OBROBKA_ODWODNIENIE_DOD
+    POZYCJA   = '200'
+    POZYCJA   = 'PROFIL_DLG-200'
+  >	
   >     
 //****************************************
 //Система НВФ
@@ -5702,8 +6339,57 @@ AKCESORIA_SZTUKI[E_ALP_FZP_ANCHER]=
     MASA             = 0
   >        
 
+   AKCESORIA_SZTUKI[E_PDKL_100_24_1]=
+  <
+    NAZWA            = '100х24х1мм'
+    OPIS             = 'Підкладка 100х24х1'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'PDKL_100_24_1.VCT'
+    MASA             = 0
+  >     
+   AKCESORIA_SZTUKI[E_PDKL_100_24_3]=
+  <
+    NAZWA            = '100х24х3мм'
+    OPIS             = 'Підкладка 100х24х3'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'PDKL_100_24_3.VCT'
+    MASA             = 0
+  >   
 
+   AKCESORIA_SZTUKI[E_PDKL_100_30_1]=
+  <
+    NAZWA            = '100х30х1мм'
+    OPIS             = 'Підкладка 100х30х1'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'PDKL_100_30_1.VCT'
+    MASA             = 0
+  >     
+   AKCESORIA_SZTUKI[E_PDKL_100_30_3]=
+  <
+    NAZWA            = '100х30х3мм'
+    OPIS             = 'Підкладка 100х30х3'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'PDKL_100_30_3.VCT'
+    MASA             = 0
+  >       
 
+   AKCESORIA_SZTUKI[E_PDKL_100_32_1]=
+  <
+    NAZWA            = '100х32х1мм'
+    OPIS             = 'Підкладка 100х32х1'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'PDKL_100_32_1.VCT'
+    MASA             = 0
+  >     
+   AKCESORIA_SZTUKI[E_PDKL_100_32_3]=
+  <
+    NAZWA            = '100х32х3мм'
+    OPIS             = 'Підкладка 100х32х3'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'PDKL_100_32_3.VCT'
+    MASA             = 0
+  >    
+  
    AKCESORIA_SZTUKI[E_PDKL_100_34_5]=
   <
     NAZWA            = '100х34х5мм'
@@ -5927,3 +6613,1145 @@ AKCESORIA_SZTUKI[E_ALP_FZP_ANCHER]=
     RYSUNEK          = 'PDKL_100_66_1.VCT'
     MASA             = 0
   >        
+  
+  
+//****************************************
+//Система C50
+//****************************************
+PROFIL[E_ALP_C50_101]=
+  <  
+    NAZWA           = 'C50.101X'
+    OPIS            = 'Рама віконна 30мм [C50]'
+    RYSUNEK         = 'C50_101.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  52
+    MASA            =  0.87             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'			
+  >       
+PROFIL[E_ALP_C50_102]=
+  <  
+    NAZWA           = 'C50.102X'
+    OPIS            = 'Рама віконна 44мм [C50]'
+    RYSUNEK         = 'C50_102.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  66
+    MASA            =  0.984             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_C50_103]=
+  <  
+    NAZWA           = 'C50.103X'
+    OPIS            = 'Рама віконна 58мм [C50]'
+    RYSUNEK         = 'C50_103.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  80
+    MASA            =  1.097             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_C50_104]=
+  <  
+    NAZWA           = 'C50.104X'
+    OPIS            = 'Рама дверна 68мм [C50]'
+    RYSUNEK         = 'C50_104.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  68
+    MASA            =  1.097             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_C50_105]=
+  <  
+    NAZWA           = 'C50.105X'
+    OPIS            = 'Рама дверна 48,5мм [C50]'
+    RYSUNEK         = 'C50_105.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  48.5
+    MASA            =  0.974            
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >
+PROFIL[E_ALP_C50_106]=
+  <  
+    NAZWA           = 'C50.106X'
+    OPIS            = 'Рама дверна 54,5мм [C50]'
+    RYSUNEK         = 'C50_106.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  54.5
+    MASA            =  1.03             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_C50_107]=
+  <  
+    NAZWA           = 'C50.107X'
+    OPIS            = 'Рама дверна 68,5мм [C50]'
+    RYSUNEK         = 'C50_107.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  68.5
+    MASA            =  1.16             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_C50_201]=
+  <  
+    NAZWA           = 'C50.201X'
+    OPIS            = 'Стулка віконна 47мм, паз 20мм [C50]'
+    RYSUNEK         = 'C50_201.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  69
+    MASA            =  1.028            
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_C50_202]=
+  <  
+    NAZWA           = 'C50.202X'
+    OPIS            = 'Стулка віконна 57мм, паз 20мм [C50]'
+    RYSUNEK         = 'C50_202.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  79
+    MASA            =  1.11          
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_C50_203]=
+  <  
+    NAZWA           = 'C50.203X'
+    OPIS            = 'Стулка віконна 67мм, паз 20мм [C50]'
+    RYSUNEK         = 'C50_203.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  89
+    MASA            =  1.192          
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_C50_204]=
+  <  
+    NAZWA           = 'C50.204X'
+    OPIS            = 'Стулка віконна 83мм, паз 20мм [C50]'
+    RYSUNEK         = 'C50_204.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  105
+    MASA            =  1.325         
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_C50_205]=
+  <  
+    NAZWA           = 'C50.205X'
+    OPIS            = 'Стулка віконна 105мм, паз 20мм [C50]'
+    RYSUNEK         = 'C50_205.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  105
+    MASA            =  1.325         
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_C50_206]=
+  <  
+    NAZWA           = 'C50.206X'
+    OPIS            = 'Стулка дверна 69,5мм [C50]'
+    RYSUNEK         = 'C50_206.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  90
+    MASA            =  1.236         
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >  
+PROFIL[E_ALP_C50_207]=
+  <  
+    NAZWA           = 'C50.207X'
+    OPIS            = 'Стулка дверна 90мм [C50]'
+    RYSUNEK         = 'C50_207.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  90
+    MASA            =  1.236         
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_C50_208]=
+  <  
+    NAZWA           = 'C50.208X'
+    OPIS            = 'Стулка дверна 67мм [C50]'
+    RYSUNEK         = 'C50_208.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  96.5
+    MASA            =  1.33         
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_C50_209]=
+  <  
+    NAZWA           = 'C50.209X'
+    OPIS            = 'Стулка дверна 96,5мм [C50]'
+    RYSUNEK         = 'C50_209.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  96.5
+    MASA            =  1.33         
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_C50_301]=
+  <  
+    NAZWA           = 'C50.301X'
+    OPIS            = 'Імпост 30мм [C50]'
+    RYSUNEK         = 'C50_301.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  74
+    MASA            =  0.989        
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_C50_302]=
+  <  
+    NAZWA           = 'C50.302X'
+    OPIS            = 'Імпост 44мм [C50]'
+    RYSUNEK         = 'C50_302.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  88
+    MASA            =  1.03       
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >  
+PROFIL[E_ALP_C50_311]=
+  <  
+    NAZWA           = 'C50.311X'
+    OPIS            = 'Імпост посилений 44мм [C50]'
+    RYSUNEK         = 'C50_311.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  88
+    MASA            =  1.61      
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_C50_321]=
+  <  
+    NAZWA           = 'C50.321X'
+    OPIS            = 'Імпост у віконну стулку 30мм [C50]'
+    RYSUNEK         = 'C50_321.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  74
+    MASA            =  1.19      
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_C50_313]=
+  <  
+    NAZWA           = 'C50.313X'
+    OPIS            = 'Труба квадратна 50х50мм [C50]'
+    RYSUNEK         = 'C50_313.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  51.7
+    MASA            =  0.817   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_C50_611]=
+  <  
+    NAZWA           = 'C50.611X'
+    OPIS            = 'Штульп віконної стулки [C50]'
+    RYSUNEK         = 'C50_611.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  62
+    MASA            =  0.887   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_C50_314]=
+  <  
+    NAZWA           = 'C50.314X'
+    OPIS            = 'Труба кругла діаметр 50мм [C50]'
+    RYSUNEK         = 'C50_314.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  50
+    MASA            =  0.817   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >        
+PROFIL[E_ALP_C50_315]=
+  <  
+    NAZWA           = 'C50.315X'
+    OPIS            = 'Адаптер 22,4мм [C50]'
+    RYSUNEK         = 'C50_315.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  22.4
+    MASA            =  0.377   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_C50_821]=
+  <  
+    NAZWA           = 'C50.821X'
+    OPIS            = 'Тримач щітки 34мм [C50]'
+    RYSUNEK         = 'C50_821.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  34
+    MASA            =  0.287   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_C50_822]=
+  <  
+    NAZWA           = 'C50.822X'
+    OPIS            = 'Тримач щітки 20,5мм [C50]'
+    RYSUNEK         = 'C50_822.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  20.5
+    MASA            =  0.222   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >      
+PROFIL[E_ALP_C50_823]=
+  <  
+    NAZWA           = 'C50.823X'
+    OPIS            = 'Тримач щітки 29,5мм [C50]'
+    RYSUNEK         = 'C50_823.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  29.5
+    MASA            =  0.244   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_C50_609]=
+  <  
+    NAZWA           = 'C50.609X'
+    OPIS            = 'Адаптер 42,5мм [C50]'
+    RYSUNEK         = 'C50_609.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  42.5
+    MASA            =  0.705   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >  
+PROFIL[E_ALP_C50_615]=
+  <  
+    NAZWA           = 'C50.615X'
+    OPIS            = 'Адаптер 42,5мм [C50]'
+    RYSUNEK         = 'C50_615.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  20
+    MASA            =  0.761   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_C50_614]=
+  <  
+    NAZWA           = 'C50.614X'
+    OPIS            = 'Поріг 15,5мм [C50]'
+    RYSUNEK         = 'C50_614.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  15.5
+    MASA            =  0.414   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_C50_616]=
+  <  
+    NAZWA           = 'C50.616X'
+    OPIS            = 'Адаптер 16,5мм [C50]'
+    RYSUNEK         = 'C50_616.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  16.5
+    MASA            =  0.303   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >  
+PROFIL[E_ALP_C50_617]=
+  <  
+    NAZWA           = 'C50.617X'
+    OPIS            = 'Адаптер 51,5мм [C50]'
+    RYSUNEK         = 'C50_617.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  51.5
+    MASA            =  0.921   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_C50_618]=
+  <  
+    NAZWA           = 'C50.618X'
+    OPIS            = 'Адаптер 53,3мм [C50]'
+    RYSUNEK         = 'C50_618.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  55.1
+    MASA            =  0.965   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >  
+PROFIL[E_ALP_C50_619]=
+  <  
+    NAZWA           = 'C50.619X'
+    OPIS            = 'Поріг 15мм [C50]'
+    RYSUNEK         = 'C50_619.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI =  15
+    MASA            =  0.399   
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_C50_824]=
+  <  
+    NAZWA           = 'C50.824X'
+    OPIS            = 'Профіль [C50]'
+    RYSUNEK         = 'C50_824.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI = 19.8
+    MASA            =  0.244             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >  
+PROFIL[E_ALP_C50_825]=
+  <  
+    NAZWA           = 'C50.825X'
+    OPIS            = 'Профіль [C50]'
+    RYSUNEK         = 'C50_825.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI = 19.8
+    MASA            =  0.287             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_C50_817]=
+  <  
+    NAZWA           = 'C50.817X'
+    OPIS            = 'Профіль [C50]'
+    RYSUNEK         = 'C50_817.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI = 21.2
+    MASA            =  0.315             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >
+PROFIL[E_ALP_C50_812]=
+  <  
+    NAZWA           = 'C50.812X'
+    OPIS            = 'Профіль [C50]'
+    RYSUNEK         = 'C50_812.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI = 44.6
+    MASA            =  1.274             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >  
+PROFIL[E_ALP_DG1020]=
+  <  
+    NAZWA           = 'DG1020'
+    OPIS            = 'Щітка [C50]'
+    RYSUNEK         = 'DG1020.VCT'
+    SYSTEMY         = [DEF_SYS_C50]
+    SZEROKOSC_BELKI = 0
+    MASA            =  0            
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  2000
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+AKCESORIA_SZTUKI[E_C_801_05]=
+  <
+    NAZWA            = 'C.801.05'
+    OPIS             = 'Кутник сполучний 46mm [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C_801_05.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_C_802_04]=
+  <
+    NAZWA            = 'C.802.04'
+    OPIS             = 'Кутник сполучний 46mm [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C_802_04.VCT'
+    MASA             = 0
+  >   
+AKCESORIA_SZTUKI[E_C_803_04]=
+  <
+    NAZWA            = 'C.803.04'
+    OPIS             = 'Кутник сполучний 46mm [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C_803_04.VCT'
+    MASA             = 0
+  >     
+AKCESORIA_SZTUKI[E_C_804_03]=
+  <
+    NAZWA            = 'C.804.03'
+    OPIS             = 'Кутник сполучний 46mm [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C_804_03.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_C_805_06]=
+  <
+    NAZWA            = 'C.805.06'
+    OPIS             = 'Кутник сполучний 30mm [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C_805_06.VCT'
+    MASA             = 0
+  >   
+AKCESORIA_SZTUKI[E_C_805_07]=
+  <
+    NAZWA            = 'C.805.07'
+    OPIS             = 'Кутник сполучний 46mm [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C_805_07.VCT'
+    MASA             = 0
+  >   
+AKCESORIA_SZTUKI[E_C_806_03]=
+  <
+    NAZWA            = 'C.806.03'
+    OPIS             = 'Кутник сполучний 46mm [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C_806_03.VCT'
+    MASA             = 0
+  >       
+AKCESORIA_SZTUKI[E_C_812_01]=
+  <
+    NAZWA            = 'C.812.01'
+    OPIS             = 'Т-зєднувач 16мм [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C_812_01.VCT'
+    MASA             = 0
+  >      
+AKCESORIA_SZTUKI[E_C_812_02]=
+  <
+    NAZWA            = 'C.812.02'
+    OPIS             = 'Т-зєднувач 30мм [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C_812_02.VCT'
+    MASA             = 0
+  >   
+AKCESORIA_SZTUKI[E_C_812_03]=
+  <
+    NAZWA            = 'C.812.03'
+    OPIS             = 'Т-зєднувач 44мм [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C_812_03.VCT'
+    MASA             = 0
+  >       
+AKCESORIA_SZTUKI[E_C_709_02]=
+  <
+    NAZWA            = 'C.709.02'
+    OPIS             = 'Деталь [C50]'
+    SYSTEMY          = [DEF_SYS_C50]
+    RYSUNEK          = 'C_709_02.VCT'
+    MASA             = 0
+  >       
+  
+//****************************************
+//TERMO W77
+//****************************************
+PROFIL[E_ALP_W77_T050]=
+  <  
+    NAZWA           = 'W77.T050'
+    OPIS            = 'Термоізолятори 20х36 [W77]'
+    RYSUNEK         = 'W77_T050.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  20
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W77_T051]=
+  <  
+    NAZWA           = 'W77.T051'
+    OPIS            = 'Термоізолятори 23х9 [W77]'
+    RYSUNEK         = 'W77_T051.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  23
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >      
+PROFIL[E_ALP_W77_T052]=
+  <  
+    NAZWA           = 'W77.T052'
+    OPIS            = 'Термоізолятори 23х17 [W77]'
+    RYSUNEK         = 'W77_T052.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  23
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W77_T053]=
+  <  
+    NAZWA           = 'W77.T053'
+    OPIS            = 'Термоізолятори 23х44 [W77]'
+    RYSUNEK         = 'W77_T053.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  23
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W77_T054]=
+  <  
+    NAZWA           = 'W77.T054'
+    OPIS            = 'Термоізолятори 23х52 [W77]'
+    RYSUNEK         = 'W77_T054.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  23
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_W77_T055]=
+  <  
+    NAZWA           = 'W77.T055'
+    OPIS            = 'Термоізолятори 23х64 [W77]'
+    RYSUNEK         = 'W77_T055.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  23
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >      
+PROFIL[E_ALP_W77_T056]=
+  <  
+    NAZWA           = 'W77.T056'
+    OPIS            = 'Термоізолятори 31х7 [W77]'
+    RYSUNEK         = 'W77_T056.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W77_T057]=
+  <  
+    NAZWA           = 'W77.T057'
+    OPIS            = 'Термоізолятори 31х9 [W77]'
+    RYSUNEK         = 'W77_T057.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W77_T058]=
+  <  
+    NAZWA           = 'W77.T058'
+    OPIS            = 'Термоізолятори 31х15 [W77]'
+    RYSUNEK         = 'W77_T058.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W77_T059]=
+  <  
+    NAZWA           = 'W77.T059'
+    OPIS            = 'Термоізолятори 31х16 [W77]'
+    RYSUNEK         = 'W77_T059.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W77_T060]=
+  <  
+    NAZWA           = 'W77.T060'
+    OPIS            = 'Термоізолятори 31х18 [W77]'
+    RYSUNEK         = 'W77_T060.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W77_T061]=
+  <  
+    NAZWA           = 'W77.T061'
+    OPIS            = 'Термоізолятори 31х28 [W77]'
+    RYSUNEK         = 'W77_T061.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W77_T062]=
+  <  
+    NAZWA           = 'W77.T062'
+    OPIS            = 'Термоізолятори 31х30 [W77]'
+    RYSUNEK         = 'W77_T062.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W77_T063]=
+  <  
+    NAZWA           = 'W77.T063'
+    OPIS            = 'Термоізолятори 31х44 [W77]'
+    RYSUNEK         = 'W77_T063.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W77_T064]=
+  <  
+    NAZWA           = 'W77.T064'
+    OPIS            = 'Термоізолятори 31х84 [W77]'
+    RYSUNEK         = 'W77_T064.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W77_T065]=
+  <  
+    NAZWA           = 'W77.T065'
+    OPIS            = 'Термоізолятори 31х22 [W77]'
+    RYSUNEK         = 'W77_T065.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W77_T025]=
+  <  
+    NAZWA           = 'W77.T025'
+    OPIS            = 'Термоізолятори 30х30 [W77]'
+    RYSUNEK         = 'W77_T025.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  30
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W77_T026]=
+  <  
+    NAZWA           = 'W77.T026'
+    OPIS            = 'Термоізолятори 30х20 [W77]'
+    RYSUNEK         = 'W77_T026.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  30
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W77_T027]=
+  <  
+    NAZWA           = 'W77.T027'
+    OPIS            = 'Термоізолятори 40х17 [W77]'
+    RYSUNEK         = 'W77_T027.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  40
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   

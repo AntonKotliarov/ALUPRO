@@ -2235,7 +2235,7 @@ TYPY_SKRZYDEL=
         PROFILE[POL_LEWO ]= [ TP_SkrzydloOkienne_Zawias ]
         PROFILE[POL_PRAWO]= [ TP_SkrzydloOkienne_Klamka ]
         PROFILE[POL_GORA ]= [ TP_SkrzydloOkienne_Gora ]
-        PROFILE[POL_DOL  ]= [ TP_SkrzydloOkienne_Dol ]
+        PROFILE[POL_DOL  ]= [ TP_SkrzydloOkienne_PoprzeczkaBalkonowa ]
         PROFILE[POL_INNE ]= [ TP_SkrzydloOkienne_Inne ]
         PROFILE[POL_SRODEK]=[
                               TP_SkrzydloOkienne_PoprzeczkaPionowa,
@@ -2246,12 +2246,6 @@ TYPY_SKRZYDEL=
                                TS_Szyba,
 							   TS_Dveri_Vent_Reshetki_TBR1,
 							   TS_Dveri_Vent_Reshetki_TBR2
-                          //     TS_RamaOkienna_OW1,
-                          //     TS_RamaOkienna_OZ1,
-                          //     TS_RamaOkienna_PodawczePionStale,
-                          //     TS_RamaOkienna_PodawczePionRuch,
-                          //     TS_RamaOkienna_PodawczePoziomStale,
-                          //     TS_RamaOkienna_PodawczePoziomRuch
                            ]
       >
     TYP_SKRZYDLA[TS_RamaOkienna_OBW3]=
@@ -2335,7 +2329,7 @@ TYPY_SKRZYDEL=
         DOZWOLONE_SKRZYDLA=[
                                TS_Szyba,
                                TS_RamaOkienna_OW1,
-							 TS_RamaOkienna_PVC_OW1,
+							   TS_RamaOkienna_PVC_OW1,
                                TS_RamaOkienna_OZ1,
                                TS_RamaOkienna_PodawczePionStale,
                                TS_RamaOkienna_PodawczePionRuch,
@@ -3120,6 +3114,116 @@ TYPY_SKRZYDEL=
 //      >
 //
 //
+
+//**************************************************************
+
+    TYP_SKRZYDLA[TS_Drzwi_DW1_CD]=
+      <
+        NAZWA='DW1) Дверь открываемая внутрь CD'
+        OPIS='Одностворчатая дверь открываемая внутрь'
+        KATEGORIA='3) Дверь одностворчатая CD'
+        TYP=SK_SKRZYDLO
+        RYSUNEK='SKRZ_w1.EMF'
+        STANDARDOWE_OTWARCIE=OKUCIE_D_WEWN
+        PROFILE[POL_LEWO,
+                POL_PRAWO,
+                POL_GORA,
+                POL_INNE ]= [
+                               TP_SkrzydloDrzwiowe_DW1
+                            ]
+	PROFILE[POL_DOL,POL_INNE]=[
+                                    TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+                                    TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+                                    TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka
+				  ]
+        PROFILE[POL_SRODEK]=[
+                               TP_SkrzydloDrzwiowe_DW1Poprzeczka,
+                               TP_RamaOkienna_PodzialOknaPodawczego
+                            ]
+        DOZWOLONE_SKRZYDLA=[
+                             TS_Szyba,
+                             TS_RamaOkienna_OW1,
+							 TS_RamaOkienna_PVC_OW1,
+                             TS_RamaOkienna_OZ1,
+                             TS_RamaOkienna_PodawczePionStale,
+                             TS_RamaOkienna_PodawczePionRuch,
+                             TS_RamaOkienna_PodawczePoziomStale,
+                             TS_RamaOkienna_PodawczePoziomRuch
+                           ]
+      >
+    TYP_SKRZYDLA[TS_Drzwi_DW2_CD]=
+      <
+        NAZWA='DW2) Двери открываемые внутрь CD. Активная створка'
+        OPIS='Двери духстворчатые открываемые внутрь. Активная створка'
+        KATEGORIA='4) Дверь двухстворчатая откр. ВНУТРЬ CD'
+        TYP=SK_SKRZYDLO
+        RYSUNEK='SKRZ_w2.EMF'
+        STANDARDOWE_OTWARCIE=OKUCIE_D_WEWN2
+        PROFILE[POL_LEWO,
+                POL_GORA,
+                POL_INNE ]= [
+                               TP_SkrzydloDrzwiowe_DW1
+                            ]
+        PROFILE[POL_PRAWO ]=[  TP_SkrzydloDrzwiowe_DW2]
+
+	PROFILE[POL_DOL,POL_INNE]=[
+                                    TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+                                    TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+                                    TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka
+				  ]
+        PROFILE[POL_SRODEK]=[
+                               TP_SkrzydloDrzwiowe_DW1Poprzeczka,
+                               TP_RamaOkienna_PodzialOknaPodawczego
+                            ]
+        DOZWOLONE_SKRZYDLA=[
+                             TS_Szyba,
+                             TS_RamaOkienna_OW1,
+							 TS_RamaOkienna_PVC_OW1,
+                             TS_RamaOkienna_OZ1,
+                             TS_RamaOkienna_PodawczePionStale,
+                             TS_RamaOkienna_PodawczePionRuch,
+                             TS_RamaOkienna_PodawczePoziomStale,
+                             TS_RamaOkienna_PodawczePoziomRuch
+                           ]
+      >
+    TYP_SKRZYDLA[TS_Drzwi_DW3_CD]=
+      <
+        NAZWA='DW3) Дверь открываемая внутрь (без штульпа) CD. Пасивная створка'
+        OPIS='Дверь открываемая внутрь. Пасивная створка'
+        KATEGORIA='4) Дверь двухстворчатая откр. ВНУТРЬ CD'
+        TYP=SK_SKRZYDLO
+        RYSUNEK='SKRZ_w3.png'
+        STANDARDOWE_OTWARCIE=OKUCIE_D_WEWN2bk
+        PROFILE[POL_LEWO,
+                POL_GORA,
+                POL_INNE ]= [
+                               TP_SkrzydloDrzwiowe_DW1
+                            ]
+        PROFILE[POL_PRAWO ]=[  TP_SkrzydloDrzwiowe_DW3]
+
+	PROFILE[POL_DOL,POL_INNE]=[
+                                    TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+                                    TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+                                    TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka
+				  ]
+        PROFILE[POL_SRODEK]=[
+                               TP_SkrzydloDrzwiowe_DW1Poprzeczka,
+                               TP_RamaOkienna_PodzialOknaPodawczego
+                            ]
+        DOZWOLONE_SKRZYDLA=[
+                             TS_Szyba,
+                             TS_RamaOkienna_OW1,
+							 TS_RamaOkienna_PVC_OW1,
+                             TS_RamaOkienna_OZ1,
+                             TS_RamaOkienna_PodawczePionStale,
+                             TS_RamaOkienna_PodawczePionRuch,
+                             TS_RamaOkienna_PodawczePoziomStale,
+                             TS_RamaOkienna_PodawczePoziomRuch
+                           ]
+      >
+
+//**************************************************************
+
     TYP_SKRZYDLA[TS_Drzwi_DZ1b]=
       <
         NAZWA='DZB1) Двери открываемые наружу безопасные'
@@ -3610,8 +3714,8 @@ TYPY_SKRZYDEL=
         DOZWOLONE_SKRZYDLA =[ TS_Szyba ]
       >
 
-    //******************************************
-    // KONIEC
+   //******************************************
+   // KONIEC
    //******************************************
    TYP_SKRZYDLA[TS_Drzwi_DZ1]=
       <
@@ -3830,6 +3934,116 @@ TYPY_SKRZYDEL=
                         //     TS_RamaOkienna_PodawczePoziomRuch
                            ]
       >	  
+//*****************************************************************
+
+   TYP_SKRZYDLA[TS_Drzwi_DZ1_CD]=
+      <
+        NAZWA='DZ1) Дверь открываемая наружу CD'
+        OPIS='Одностворчатая дверь открываемая наружу'
+        KATEGORIA='3) Дверь одностворчатая CD'
+        TYP=SK_SKRZYDLO
+        RYSUNEK='SKRZ_Z1.EMF'
+        STANDARDOWE_OTWARCIE=OKUCIE_D_ZEWN
+        PROFILE[POL_LEWO,
+                POL_PRAWO,
+                POL_GORA,
+                POL_INNE ]= [
+                               TP_SkrzydloDrzwiowe_DZ1
+                            ]
+	    PROFILE[POL_DOL,POL_INNE]=[
+                                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka
+				  ]
+        PROFILE[POL_SRODEK]=[
+                               TP_SkrzydloDrzwiowe_DZ1Poprzeczka,
+							   TP_SkrzydloDrzwiowe_Proem,
+                               TP_RamaOkienna_PodzialOknaPodawczego
+                            ]
+        DOZWOLONE_SKRZYDLA=[
+                             TS_Szyba,
+                             //TS_RamaOkienna_OW1,
+							 //TS_RamaOkienna_PVC_OW1,
+                             //TS_RamaOkienna_OZ1,
+                             //TS_RamaOkienna_PodawczePionStale,
+                             //TS_RamaOkienna_PodawczePionRuch,
+                             //TS_RamaOkienna_PodawczePoziomStale,
+                             //TS_RamaOkienna_PodawczePoziomRuch,
+							 TS_Proem,
+							 TS_PANEL_RESIDANCE
+                           ]
+      >
+    TYP_SKRZYDLA[TS_Drzwi_DZ2_CD]=
+      <
+        NAZWA='DZ2) Дверь открываемая наружу CD. Активная створка'
+        OPIS='Двери двухстворчатые открываемые наружу. Активная створка'
+        KATEGORIA='5) Дверь двухстворчатая откр. НАРУЖУ CD'
+        TYP=SK_SKRZYDLO
+        RYSUNEK='SKRZ_Z2new.EMF'
+        STANDARDOWE_OTWARCIE=OKUCIE_D_ZEWN2
+        PROFILE[POL_LEWO,
+                POL_GORA,
+                POL_INNE ]= [
+                               TP_SkrzydloDrzwiowe_DZ1
+                            ]
+        PROFILE[POL_PRAWO ]=[  TP_SkrzydloDrzwiowe_DZ2]
+
+	    PROFILE[POL_DOL,POL_INNE]=[
+                                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka
+				  ]
+        PROFILE[POL_SRODEK]=[
+                               TP_SkrzydloDrzwiowe_DZ1Poprzeczka,
+                               TP_RamaOkienna_PodzialOknaPodawczego
+                            ]
+        DOZWOLONE_SKRZYDLA=[
+                             TS_Szyba,
+                             TS_RamaOkienna_OW1,
+							 TS_RamaOkienna_PVC_OW1,
+                             TS_RamaOkienna_OZ1,
+                             TS_RamaOkienna_PodawczePionStale,
+                             TS_RamaOkienna_PodawczePionRuch,
+                             TS_RamaOkienna_PodawczePoziomStale,
+                             TS_RamaOkienna_PodawczePoziomRuch,
+							 TS_PANEL_RESIDANCE
+                           ]
+      >
+    TYP_SKRZYDLA[TS_Drzwi_DZ3_CD]=
+      <
+        NAZWA=    'DZ3) Дверь открываемая наружу (без штульпа) CD. Пасивная створка'
+        OPIS=     'Двери двухстворчатые открываемые наружу. Пасивная створка'
+        KATEGORIA='5) Дверь двухстворчатая откр. НАРУЖУ CD'
+        TYP=SK_SKRZYDLO
+        RYSUNEK='SKRZ_Z3.EMF'
+        STANDARDOWE_OTWARCIE=OKUCIE_D_ZEWN2bk
+        PROFILE[POL_LEWO,
+                POL_GORA,
+                POL_INNE ]= [
+                               TP_SkrzydloDrzwiowe_DZ1
+                            ]
+        PROFILE[POL_PRAWO ]=[  TP_SkrzydloDrzwiowe_DZ3]
+
+	    PROFILE[POL_DOL,POL_INNE]=[
+                                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka
+				  ]
+        PROFILE[POL_SRODEK]=[
+                               TP_SkrzydloDrzwiowe_DZ1Poprzeczka,
+                               TP_RamaOkienna_PodzialOknaPodawczego
+							                               ]
+        DOZWOLONE_SKRZYDLA=[
+                             TS_Szyba,
+                             TS_RamaOkienna_OW1,
+							 TS_RamaOkienna_PVC_OW1,
+                             TS_RamaOkienna_OZ1,
+                             TS_RamaOkienna_PodawczePionStale,
+                             TS_RamaOkienna_PodawczePionRuch,
+                             TS_RamaOkienna_PodawczePoziomStale,
+                             TS_RamaOkienna_PodawczePoziomRuch
+                           ]
+      >
 //*****************************************************************
     TYP_SKRZYDLA[TS_Drzwi_Db1]=
       <

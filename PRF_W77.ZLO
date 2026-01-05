@@ -8,6 +8,12 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_101]=
     RYSUNEK=	 'W77_101.VCT'
     KATEGORIA=   '1) Профіль рами віконної'	
 	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.101X Hi'
+    >		
+	
     IX=             36.11
     IY=              6.311
 
@@ -27,6 +33,16 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_101]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
+          >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T059
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
           >  		  
       >
   >
@@ -36,6 +52,12 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_102]=
     OPIS=	     'Рама віконна 69мм. Система ALUPRO W77'
     RYSUNEK=	 'W77_102.VCT'
     KATEGORIA=   '1) Профіль рами віконної'	
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.102X Hi'
+    >		
 	
     IX=             45.054
     IY=             13.929
@@ -53,6 +75,16 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_102]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
+          >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
           >  		  
       >
   >
@@ -62,6 +94,12 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_103]=
     OPIS=	     'Рама віконна 83мм. Система ALUPRO W77'
     RYSUNEK=	 'W77_103.VCT'
     KATEGORIA=   '1) Профіль рами віконної'	
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.103X Hi'
+    >		
 	
     IX=             45.054
     IY=             13.929
@@ -79,7 +117,17 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_103]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
-          >  		  
+          >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T063
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
       >
   >
 PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_104]=
@@ -88,6 +136,12 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_104]=
     OPIS=	     'Рама віконна 50мм. Система ALUPRO W77'
     RYSUNEK=	 'W77_104.VCT'
     KATEGORIA=   '1) Профіль рами віконної'	
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.104X Hi'
+    >		
 	
     IX=             35.85
     IY=             11.418
@@ -104,7 +158,17 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_104]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
-          >  		  
+          >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T050
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
       >
   >
 PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_105]=
@@ -113,6 +177,12 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_105]=
     OPIS=	     'Рама віконна 123мм. Система ALUPRO W77'
     RYSUNEK=	 'W77_105.VCT'
     KATEGORIA=   '1) Профіль рами віконної'	
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.105X Hi'
+    >		
 	
     IX=             62.478
     IY=             91.92
@@ -130,6 +200,58 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_105]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
+          >  	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T064
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+      >
+  >  
+PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_106]=
+  <
+    NAZWA=       'W77.106X'
+    OPIS=	     'Рама віконна 61мм. Система ALUPRO W77'
+    RYSUNEK=	 'W77_106.VCT'
+    KATEGORIA=   '1) Профіль рами віконної'	
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.106X Hi'
+    >		
+	
+    IX=             39.932
+    IY=             9.057
+
+    SZEROKOSC=61
+    POLOWA=18
+
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_106
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+          >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T065
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
           >  		  
       >
   >  
@@ -144,7 +266,13 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_301]=
     OPIS=	         'Імпост 80мм. Система ALUPRO W77'
     RYSUNEK=	     'W77_301.VCT'	
     KATEGORIA=       '2) Профіль імпоста'
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.301X Hi'
+    >		
+	
     IX=               41.035
     IY=               10.91
 
@@ -165,6 +293,16 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_301]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T059
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
      >
   > 
 PROFIL[ PRF_SLP_OKIENNA_ALP_W77_302]=
@@ -173,7 +311,13 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_302]=
     OPIS=	         'Імпост 94мм. Система ALUPRO W77'
     RYSUNEK=	     'W77_302.VCT'	
     KATEGORIA=       '2) Профіль імпоста'
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.302X Hi'
+    >		
+	
     IX=               50.1
     IY=               20.747
 
@@ -191,6 +335,16 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_302]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
      >
   >   
 PROFIL[ PRF_SLP_OKIENNA_ALP_W77_303]=
@@ -199,7 +353,13 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_303]=
     OPIS=	         'Імпост 94мм. Система ALUPRO W77'
     RYSUNEK=	     'W77_303.VCT'	
     KATEGORIA=       '2) Профіль імпоста'
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.303X Hi'
+    >		
+	
     IX=               60.286
     IY=               35.865
 
@@ -217,6 +377,16 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_303]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T063
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
      >
   >     
 PROFIL[ PRF_SLP_OKIENNA_ALP_W77_304]=
@@ -225,7 +395,13 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_304]=
     OPIS=	         'Імпост 94мм. Система ALUPRO W77'
     RYSUNEK=	     'W77_304.VCT'	
     KATEGORIA=       '2) Профіль імпоста'
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.304X Hi'
+    >		
+	
     IX=               60.286
     IY=               35.865
 
@@ -243,6 +419,16 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_304]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T064
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
      >
   >      
 PROFIL[ PRF_SLP_OKIENNA_ALP_W77_305]=
@@ -251,7 +437,13 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_305]=
     OPIS=	         'Імпост 80мм. Система ALUPRO W77'
     RYSUNEK=	     'W77_305.VCT'	
     KATEGORIA=       '2) Профіль імпоста'
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.305X Hi'
+    >		
+	
     IX=               41.035
     IY=               10.91
 
@@ -269,6 +461,16 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_305]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T059
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
      >
   >        
 PROFIL[ PRF_SLP_OKIENNA_ALP_W77_306]=
@@ -277,7 +479,13 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_306]=
     OPIS=	         'Імпост 80мм. Система ALUPRO W77'
     RYSUNEK=	     'W77_306.VCT'	
     KATEGORIA=       '2) Профіль імпоста'
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.306X Hi'
+    >		
+	
     IX=               51.815
     IY=               11.148
 
@@ -295,6 +503,16 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_306]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T059
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
      >
   >          
 PROFIL[ PRF_SLP_OKIENNA_ALP_W77_307]=
@@ -303,7 +521,13 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_307]=
     OPIS=	         'Імпост 80мм. Система ALUPRO W77'
     RYSUNEK=	     'W77_307.VCT'	
     KATEGORIA=       '2) Профіль імпоста'
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.307X Hi'
+    >		
+	
     IX=               50.1
     IY=               20.747
 
@@ -321,9 +545,105 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_307]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
      >
-  >         
+  >    
+
+PROFIL[ PRF_SLP_OKIENNA_ALP_W77_308]=
+  <
+    NAZWA=           'W77.308X'
+    OPIS=	         'Імпост 86мм. Система ALUPRO W77'
+    RYSUNEK=	     'W77_308.VCT'	
+    KATEGORIA=       '2) Профіль імпоста'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.308X Hi'
+    >		
+	
+    IX=               41.035
+    IY=               10.91
+
+    SZEROKOSC=86
+	POLOWA=43	
+	
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_308
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T065
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+     >
+  >   
   
+PROFIL[ PRF_SLP_OKIENNA_ALP_W77_309]=
+  <
+    NAZWA=           'W77.309X'
+    OPIS=	         'Імпост 86мм. Система ALUPRO W77'
+    RYSUNEK=	     'W77_309.VCT'	
+    KATEGORIA=       '2) Профіль імпоста'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.309X Hi'
+    >		
+	
+    IX=               44.915
+    IY=               14.552
+
+    SZEROKOSC=86
+	POLOWA=43	
+	
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_309
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T065
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+     >
+  >   
+    
 //*******************************************
 //Импост усиленный 
 //*******************************************  
@@ -333,7 +653,13 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W77_311]=
     OPIS=	         'Імпост підсилений 94мм. Система ALUPRO W77'
     RYSUNEK=	     'W77_311.VCT'	
     KATEGORIA=       '2.1) Профіль імпоста підсилення'
-  
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.311X Hi'
+    >		
+	
     IX=               178.628
     IY=               33.555
 
@@ -351,6 +677,16 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W77_311]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL						
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
      >
   >     
 PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W77_312]=
@@ -359,9 +695,32 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W77_312]=
     OPIS=	         'Імпост підсилений 94мм. Система ALUPRO W77'
     RYSUNEK=	     'W77_312.VCT'	
     KATEGORIA=       '2.1) Профіль імпоста підсилення'
-  
-    IX=               252.759
-    IY=               67.085
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.312X Hi'
+    >		
+
+    IX_N=             78.981
+    IX_MM=            1050
+    IX_N=             93.390
+    IX_MM=            1350
+    IX_N=             106.533
+    IX_MM=            1650
+    IX_N=             121.190
+    IX_MM=            2050
+    IX_N=             144.952
+    IX_MM=            3050
+    IX_N=             157.257
+    IX_MM=            4050
+    IX_N=             164.126
+    IX_MM=            5050
+    IX_N=             168.200
+    IX_MM=            6050
+    IX_N=             169.635
+    IX_MM=            6550	
+    IY=               19.3121	
 
     SZEROKOSC=94
     POLOWA=94/2
@@ -377,6 +736,16 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W77_312]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL						
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T065
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
      >
   >       
   
@@ -389,7 +758,13 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_201 ]=
     OPIS=	         'Стулка віконна 72mm (Европаз 20). Система ALUPRO W77'
     KATEGORIA=       '4.1) Профіль стулки віконної (Европаз 20)'
     RYSUNEK=	     'W77_201.VCT'
-  
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.201X Hi'
+    >		
+	
     IX=               45.551
     IY=                8.517
 
@@ -406,6 +781,16 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_201 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T056
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
       >
   >
 PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_202 ]=
@@ -414,7 +799,13 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_202 ]=
     OPIS=	         'Стулка віконна 82mm (Европаз 20). Система ALUPRO W77'
     KATEGORIA=       '4.1) Профіль стулки віконної (Европаз 20)'
     RYSUNEK=	     'W77_202.VCT'
-  
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.202X Hi'
+    >		
+	
     IX=               53.872
     IY=               14.269
 
@@ -431,6 +822,16 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_202 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T060
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
       >
   >  
 PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_203 ]=
@@ -439,7 +840,13 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_203 ]=
     OPIS=	         'Стулка віконна 92mm (Европаз 20). Система ALUPRO W77'
     KATEGORIA=       '4.1) Профіль стулки віконної (Европаз 20)'
     RYSUNEK=	     'W77_203.VCT'
-  
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.203X Hi'
+    >		
+	
     IX=               61.832
     IY=               22.496
 
@@ -455,7 +862,17 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_203 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
-          >  
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T061
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
       >
   >   
 PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_204 ]=
@@ -464,7 +881,13 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_204 ]=
     OPIS=	         'Стулка віконна 108mm (Европаз 20). Система ALUPRO W77'
     KATEGORIA=       '4.1) Профіль стулки віконної (Европаз 20)'
     RYSUNEK=	     'W77_204.VCT'
-  
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.204X Hi'
+    >		
+	
     IX=               75.438
     IY=               41.664
 
@@ -481,6 +904,16 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_204 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T063
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
       >
   >      
 //*******************************************
@@ -492,7 +925,13 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_205 ]=
     OPIS=	         'Стулка віконна 72mm (Европаз 16). Система ALUPRO W77'
     KATEGORIA=       '4.2) Профіль стулки віконної (Европаз 16)'
     RYSUNEK=	     'W77_205.VCT'
-  
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.205X Hi'
+    >		
+	
     IX=               46.462
     IY=                8.138
 
@@ -509,6 +948,16 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_205 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T056
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
       >
   >      
 PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_206 ]=
@@ -517,7 +966,13 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_206 ]=
     OPIS=	         'Стулка віконна 82mm (Европаз 16). Система ALUPRO W77'
     KATEGORIA=       '4.2) Профіль стулки віконної (Европаз 16)'
     RYSUNEK=	     'W77_206.VCT'
-  
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.206X Hi'
+    >		
+	
     IX=               55.162
     IY=               13.755
 
@@ -534,6 +989,16 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_206 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T060
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
       >
   >        
 PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_207 ]=
@@ -542,7 +1007,13 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_207 ]=
     OPIS=	         'Стулка віконна 92mm (Европаз 16). Система ALUPRO W77'
     KATEGORIA=       '4.2) Профіль стулки віконної (Европаз 16)'
     RYSUNEK=	     'W77_207.VCT'
-  
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.207X Hi'
+    >		
+	
     IX=               63.208
     IY=               21.915
 
@@ -559,6 +1030,16 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_207 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T061
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
       >
   >    
 PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_208 ]=
@@ -567,7 +1048,13 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_208 ]=
     OPIS=	         'Стулка віконна 108mm (Европаз 16). Система ALUPRO W77'
     KATEGORIA=       '4.2) Профіль стулки віконної (Европаз 16)'
     RYSUNEK=	     'W77_208.VCT'
-  
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.208X Hi'
+    >		
+	
     IX=               63.208
     IY=               21.915
 
@@ -584,6 +1071,16 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_208 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T063
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
       >
   >          
 //***********************************
@@ -595,6 +1092,12 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZ_ALP_W77_401 ]=
     OPIS=	     'Рама двері зовн.відч. 70мм. Система ALUPRO W77'
     KATEGORIA=   '6) Профіль дверної рами'
     RYSUNEK=	 'W77_401.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.401X Hi'
+    >		
 	
     IX=               48.611
     IY=               20.858
@@ -612,6 +1115,16 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZ_ALP_W77_401 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T053
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
       >
   >  
 PROFIL[ PRF_RAMA_DRZWIOWA_DW_ALP_W77_402 ]=
@@ -620,6 +1133,12 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DW_ALP_W77_402 ]=
     OPIS=	     'Рама двері внутр.відч. 70мм. Система ALUPRO W77'
     KATEGORIA=   '6) Профіль дверної рами'
     RYSUNEK=	 'W77_402.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.402X Hi'
+    >		
 	
     IX=               49.089
     IY=               21.215
@@ -637,6 +1156,16 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DW_ALP_W77_402 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T053
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
       >
   >   
 //***********************************
@@ -648,6 +1177,12 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403 ]=
     OPIS=	     'Рама двері зовн.відч. 88мм. Система ALUPRO W77'
     KATEGORIA=   '6) Профіль дверної рами'
     RYSUNEK=	 'W77_403.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.403X Hi'
+    >		
 	
     IX=               49.392
     IY=               30.51
@@ -665,6 +1200,16 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T055
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
       >
   >    
 PROFIL[ PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404 ]=
@@ -673,6 +1218,12 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404 ]=
     OPIS=	     'Рама двері внутр.відч. 85мм. Система ALUPRO W77'
     KATEGORIA=   '6) Профіль дверної рами'
     RYSUNEK=	 'W77_404.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.404X Hi'
+    >		
 	
     IX=               49.175
     IY=               31.057
@@ -690,6 +1241,16 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T055
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
       >
   >        
   
@@ -702,6 +1263,12 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ]=
     OPIS=	         'Стулка дверей зовн.відч. 95мм. Система ALUPRO W77'
     KATEGORIA=       '5) Профіль дверної стулки'
     RYSUNEK=	     'W77_501.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.501X Hi'
+    >		
 	
     IX=               53.812
     IY=               29.081
@@ -719,14 +1286,132 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T053
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
       >
   > 
+PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ]=
+  <
+    NAZWA=           'W77.505X'
+    OPIS=	         'Стулка дверей зовн.відч. 95мм. Система ALUPRO W77'
+    KATEGORIA=       '5) Профіль дверної стулки'
+    RYSUNEK=	     'W77_505.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.505X Hi'
+    >		
+	
+    IX=               53.812
+    IY=               29.081
+
+    SZEROKOSC=95
+
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_505
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T051
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+      >
+  >   
+PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ]=
+  <
+    NAZWA=           'W77.507X'
+    OPIS=	         'Стулка дверей зовн.відч. 103мм. Система ALUPRO W77'
+    KATEGORIA=       '5) Профіль дверної стулки'
+    RYSUNEK=	     'W77_507.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.507X Hi'
+    >		
+	
+    IX=               58.985
+    IY=               39.514
+
+    SZEROKOSC=103
+
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    = E_ALP_W77_507
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T052
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+      >
+  >     
 PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ]=
   <
     NAZWA=           'W77.501X + W77.602X'
     OPIS=	         'Стулка дверей зовн.відч. 193мм. Система ALUPRO W77'
     KATEGORIA=       '5) Профіль дверної стулки'
     RYSUNEK=	     'W77_501_W77_602.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.501X Hi + W77.602X Hi'
+    >		
 	
     IX=               0
     IY=               0
@@ -747,13 +1432,33 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ]=
           >
         PROFIL=
           <
+            KOD    =E_ALP_W77_T053
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
             KOD    =E_ALP_W77_602
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
             KAT1   = KAT_0
             KAT2   = KAT_0		
-          >		  
+          >		
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T064
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
         PROFIL=
           <
             KOD    =E_ALP_C_818
@@ -851,12 +1556,353 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ]=
            >	  
       >
   >     
+  
+PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602 ]=
+  <
+    NAZWA=           'W77.505X + W77.602X'
+    OPIS=	         'Стулка дверей зовн.відч. 193мм. Система ALUPRO W77'
+    KATEGORIA=       '5) Профіль дверної стулки'
+    RYSUNEK=	     'W77_505_W77_602.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.505X Hi + W77.602X Hi'
+    >		
+	
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=95
+    WYROWNANIE_SZKLA=98				
+
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_505
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T051
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0		
+          >		
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T064
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
+            KOD    =E_ALP_C_818
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0			
+          >				  
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_5x9_5_DIN7981
+           ILE    = 1
+           CO     = 250
+           MINIMUM= 2
+           >
+        AKCESORIA_METRY=
+          <
+            KOD    = E_W77_T01
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(0)+D(0)'
+            GDY_PARAMETR='UTEPLITEL_GLASS_W77=1'			
+         > 	 
+        //******************************		 
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_811_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_810_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_709_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_811
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='16'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_810
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='16'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >	
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_709
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='22.4'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >				
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_M6_10_DIN914
+           ILE    = 2
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_9x13_DIN7982
+           ILE    = 2
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_D5_10_DIN_EN_ISO8734
+           ILE    = 4
+           >	  
+      >
+  >     
+  
+PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ]=
+  <
+    NAZWA=           'W77.507X + W77.602X'
+    OPIS=	         'Стулка дверей зовн.відч. 201мм. Система ALUPRO W77'
+    KATEGORIA=       '5) Профіль дверної стулки'
+    RYSUNEK=	     'W77_507_W77_602.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.507X Hi + W77.602X Hi'
+    >		
+	
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=103
+    WYROWNANIE_SZKLA=98				
+
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_507
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T052
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0		
+          >		
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T064
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
+            KOD    =E_ALP_C_818
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0			
+          >				  
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_5x9_5_DIN7981
+           ILE    = 1
+           CO     = 250
+           MINIMUM= 2
+           >
+        AKCESORIA_METRY=
+          <
+            KOD    = E_W77_T01
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(0)+D(0)'
+            GDY_PARAMETR='UTEPLITEL_GLASS_W77=1'			
+         > 	 
+        //******************************		 
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_811_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_810_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_709_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_811
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='16'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_810
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='16'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >	
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_709
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='22.4'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >				
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_M6_10_DIN914
+           ILE    = 2
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_9x13_DIN7982
+           ILE    = 2
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_D5_10_DIN_EN_ISO8734
+           ILE    = 4
+           >	  
+      >
+  >       
+  
 PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ]=
   <
     NAZWA=           'W77.503X'
     OPIS=	         'Стулка дверей зовн.відч. 103мм. Система ALUPRO W77'
     KATEGORIA=       '5) Профіль дверної стулки'
     RYSUNEK=	     'W77_503.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.503X Hi'
+    >		
 	
     IX=               58.985
     IY=               39.514
@@ -873,7 +1919,17 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >		  
+          >	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T054
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
       >
   >   
 PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ]=
@@ -882,6 +1938,12 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ]=
     OPIS=	         'Стулка дверей зовн.відч. 201мм. Система ALUPRO W77'
     KATEGORIA=       '5) Профіль дверної стулки'
     RYSUNEK=	     'W77_503_W77_602.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.503X Hi + W77.602X Hi'
+    >		
 	
     IX=               0
     IY=               0
@@ -902,6 +1964,16 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ]=
           >
         PROFIL=
           <
+            KOD    =E_ALP_W77_T054
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
             KOD    =E_ALP_W77_602
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
@@ -909,6 +1981,16 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T064
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
         PROFIL=
           <
             KOD    =E_ALP_C_818
@@ -1013,6 +2095,12 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ]=
     KATEGORIA=       '5) Профіль дверної стулки'
     RYSUNEK=	     'W77_502.VCT'
 	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.502X Hi'
+    >		
+	
     IX=               55.116
     IY=               29.001
 
@@ -1029,14 +2117,83 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T053
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
       >
   >   
+  
+PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ]=
+  <
+    NAZWA=           'W77.506X'
+    OPIS=	         'Стулка дверей внутр.відч. 95мм. Система ALUPRO W77'
+    KATEGORIA=       '5) Профіль дверної стулки'
+    RYSUNEK=	     'W77_506.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.506X Hi'
+    >		
+	
+    IX=               55.116
+    IY=               29.001
+
+    SZEROKOSC=95
+
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_506
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T051
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+      >
+  >   
+  
 PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ]=
   <
     NAZWA=           'W77.502X + W77.602X'
     OPIS=	         'Стулка дверей внутр.відч. 193мм. Система ALUPRO W77'
     KATEGORIA=       '5) Профіль дверної стулки'
     RYSUNEK=	     'W77_502_W77_602.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.502X Hi + W77.602X Hi'
+    >		
 	
     IX=               0
     IY=               0
@@ -1057,6 +2214,16 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ]=
           >
         PROFIL=
           <
+            KOD    =E_ALP_W77_T053
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
             KOD    =E_ALP_W77_602
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
@@ -1064,6 +2231,16 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T064
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
         PROFIL=
           <
             KOD    =E_ALP_C_818
@@ -1161,12 +2338,186 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ]=
            >	  
       >
   >     
+
+PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 ]=
+  <
+    NAZWA=           'W77.506X + W77.602X'
+    OPIS=	         'Стулка дверей внутр.відч. 193мм. Система ALUPRO W77'
+    KATEGORIA=       '5) Профіль дверної стулки'
+    RYSUNEK=	     'W77_506_W77_602.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.506X Hi + W77.602X Hi'
+    >		
+	
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=95
+    WYROWNANIE_SZKLA=98	
+
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_506
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T051
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T064
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
+            KOD    =E_ALP_C_818
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0			
+          >				  
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_5x9_5_DIN7981
+           ILE    = 1
+           CO     = 250
+           MINIMUM= 2
+           >
+        AKCESORIA_METRY=
+          <
+            KOD    = E_W77_T01
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(0)+D(0)'
+            GDY_PARAMETR='UTEPLITEL_GLASS_W77=1'
+           >				
+        //******************************		 
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_811_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_810_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_709_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_811
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='16'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_810
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='16'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >	
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_709
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='22.4'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >				
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_M6_10_DIN914
+           ILE    = 2
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_9x13_DIN7982
+           ILE    = 2
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_D5_10_DIN_EN_ISO8734
+           ILE    = 4
+           >	  
+      >
+  >     
+  
 PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ]=
   <
     NAZWA=           'W77.504X'
     OPIS=	         'Стулка дверей внутр.відч. 103мм. Система ALUPRO W77'
     KATEGORIA=       '5) Профіль дверної стулки'
     RYSUNEK=	     'W77_504.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.504X Hi'
+    >		
 	
     IX=               60.396
     IY=               39.311
@@ -1184,14 +2535,83 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T054
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
       >
   >     
+  
+PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ]=
+  <
+    NAZWA=           'W77.508X'
+    OPIS=	         'Стулка дверей внутр.відч. 103мм. Система ALUPRO W77'
+    KATEGORIA=       '5) Профіль дверної стулки'
+    RYSUNEK=	     'W77_508.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.508X Hi'
+    >		
+	
+    IX=               60.396
+    IY=               39.311
+
+    SZEROKOSC=103
+
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_508
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T052
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+      >
+  >    
+  
 PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ]=
   <
     NAZWA=           'W77.504X + W77.602X'
     OPIS=	         'Стулка дверей внутр.відч. 201мм. Система ALUPRO W77'
     KATEGORIA=       '5) Профіль дверної стулки'
     RYSUNEK=	     'W77_504_W77_602.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.504X Hi + W77.602X Hi'
+    >		
 	
     IX=               0
     IY=               0
@@ -1212,6 +2632,16 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ]=
           >
         PROFIL=
           <
+            KOD    =E_ALP_W77_T054
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
             KOD    =E_ALP_W77_602
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
@@ -1219,6 +2649,16 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >		
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T064
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
         PROFIL=
           <
             KOD    =E_ALP_C_818
@@ -1316,6 +2756,174 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ]=
            >	  
       >
   >     
+  
+PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ]=
+  <
+    NAZWA=           'W77.508X + W77.602X'
+    OPIS=	         'Стулка дверей внутр.відч. 201мм. Система ALUPRO W77'
+    KATEGORIA=       '5) Профіль дверної стулки'
+    RYSUNEK=	     'W77_508_W77_602.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.508X Hi + W77.602X Hi'
+    >		
+	
+    IX=               0
+    IY=               0
+
+    SZEROKOSC=103
+    WYROWNANIE_SZKLA=98	
+
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_508
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T052
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T062
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+          >		
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T064
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
+            KOD    =E_ALP_C_818
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0			
+          >				  
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_5x9_5_DIN7981
+           ILE    = 1
+           CO     = 250
+           MINIMUM= 2
+           >
+        AKCESORIA_METRY=
+          <
+            KOD    = E_W77_T01
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(0)+D(0)'
+            GDY_PARAMETR='UTEPLITEL_GLASS_W77=1'
+           >				
+        //******************************		 
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_811_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_810_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W77_C_709_01
+           ILE    = 2
+		   GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'
+           >
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_811
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='16'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_810
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='16'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >	
+         WYLICZENIE=
+           <
+           KOD=E_ALP_C_709
+           GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+   	       PAR_DLUGOSC='22.4'
+           ILE    = 2		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+           KOLOR=KOLOR_SUROWY		
+            >				
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_M6_10_DIN914
+           ILE    = 2
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_9x13_DIN7982
+           ILE    = 2
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_D5_10_DIN_EN_ISO8734
+           ILE    = 4
+           >	  
+      >
+  >     
+  
 //***********************************
 //Штульп двери
 //***********************************
@@ -1325,7 +2933,13 @@ PROFIL[ PRF_PODZ_DZ_ALP_W77_612]=
     OPIS=	         'Штульп дверний зовн.відч.. Система ALUPRO W77'
     KATEGORIA=       'Штульп'
     RYSUNEK=	     'W77_612.VCT'
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.612X Hi'
+    >		
+	
     //IX=              23.1
     //IY=              3.798
 	
@@ -1342,6 +2956,16 @@ PROFIL[ PRF_PODZ_DZ_ALP_W77_612]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T052
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
         AKCESORIA_METRY=
           <
             PRZEKROJ_NR=100
@@ -1375,7 +2999,15 @@ PROFIL[ PRF_PODZ_DZ_ALP_W77_612]=
            PRZEKROJ_NR=100		  
            KOD    = E_Sam3_9x19_DIN7982
            ILE    = 2
-           >			   
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_5x38_DIN7982
+           ILE    = 1
+           CO     = 250
+           MINIMUM= 2
+           >		   
       >
   >  
 PROFIL[ PRF_PODZ_DW_ALP_W77_613]=
@@ -1384,7 +3016,13 @@ PROFIL[ PRF_PODZ_DW_ALP_W77_613]=
     OPIS=	         'Штульп дверний внутр.відч.. Система ALUPRO W77'
     KATEGORIA=       'Штульп'
     RYSUNEK=	     'W77_613.VCT'
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.613X Hi'
+    >		
+	
     //IX=              25.659
     //IY=               3.804
 	
@@ -1401,6 +3039,16 @@ PROFIL[ PRF_PODZ_DW_ALP_W77_613]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
           >
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T052
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
         AKCESORIA_METRY=
           <
             PRZEKROJ_NR=100
@@ -1441,7 +3089,13 @@ PROFIL[ PRF_RCHS_ALP_W77_610]=
     OPIS=	         'Профиль 68мм. Система ALUPRO W77'
     KATEGORIA=       '3) Профіль штульпа віконного'
     RYSUNEK=	     'W77_610.VCT'
-  
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.610X Hi'
+    >		
+	
     IX=              36.924
     IY=               8.4  
   
@@ -1459,6 +3113,16 @@ PROFIL[ PRF_RCHS_ALP_W77_610]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL					
           >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T058
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
         AKCESORIA_METRY=
           <
             PRZEKROJ_NR=100
@@ -1470,7 +3134,7 @@ PROFIL[ PRF_RCHS_ALP_W77_610]=
         AKCESORIA_METRY=
           <
             PRZEKROJ_NR=100
-            KOD    = E_RP_09		
+            KOD    = E_RP_19		
             KOLOR  = KOLOR_WEWN
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1511,7 +3175,13 @@ PROFIL[ PRF_RCHS_ALP_W77_611]=
     OPIS=	         'Профиль 68мм. Система ALUPRO W77'
     KATEGORIA=       '3) Профіль штульпа віконного'
     RYSUNEK=	     'W77_611.VCT'
-  
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.611X Hi'
+    >		
+	
     IX=              38.294
     IY=               8.232  
   
@@ -1529,6 +3199,16 @@ PROFIL[ PRF_RCHS_ALP_W77_611]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL					
           >  	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T058
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
         AKCESORIA_METRY=
           <
             PRZEKROJ_NR=100
@@ -1540,7 +3220,7 @@ PROFIL[ PRF_RCHS_ALP_W77_611]=
         AKCESORIA_METRY=
           <
             PRZEKROJ_NR=100
-            KOD    = E_RP_09		
+            KOD    = E_RP_19		
             KOLOR  = KOLOR_WEWN
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1584,7 +3264,13 @@ PROFIL[ PRF_PROG_ALP_W77_614]=
     OPIS=	     'Порог 20мм. Система ALUPRO W77'
     KATEGORIA=   '7) Профіль порога'
     RYSUNEK=	 'W77_614.VCT'
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.614X Hi'
+    >		
+	
     IX=              14.859
     IY=               7.378
 
@@ -1601,6 +3287,16 @@ PROFIL[ PRF_PROG_ALP_W77_614]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
           >	  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T051
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
         AKCESORIA_SZTUKI=
            <
            PRZEKROJ_NR=100		  
@@ -1641,7 +3337,13 @@ PROFIL[ PRF_PROG_ALP_W77_615]=
     OPIS=	     'Порог 20мм. Система ALUPRO W77'
     KATEGORIA=   '7) Профіль порога'
     RYSUNEK=	 'W77_615.VCT'
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.615X Hi'
+    >		
+	
     IX=              20.702
     IY=               7.808
 
@@ -1658,6 +3360,16 @@ PROFIL[ PRF_PROG_ALP_W77_615]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
           >	  	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T051
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
         AKCESORIA_SZTUKI=
            <
            PRZEKROJ_NR=100		  
@@ -1700,7 +3412,13 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ]=
 
   SZEROKOSC      = 55*2+76.9
   CS_PODWOJNY_PROFIL_SZEROKOSC = 55   
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA          = 'W77.313X Hi + W77.101X Hi +90*'
+    >		
+	
   MATERIALY=
   <
         PROFIL=
@@ -1721,6 +3439,70 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ]=
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
           >	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T059
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
+		    PRZEKROJ_NR=100
+            KOD    =E_ALP_W77_T025
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 
+        PROFIL=
+          <
+		    PRZEKROJ_NR=100		  
+            KOD    =E_ALP_W77_T025
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+			TYLKO_W_PRZEKROJACH
+          > 		  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T026
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T026
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+			TYLKO_W_PRZEKROJACH			
+          > 		  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T051
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
         AKCESORIA_METRY=
           <
             KOD    = E_RP_04			
@@ -1758,7 +3540,7 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ]=
 
 FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ]=
 <  
-  NAZWA          = 'W77.313X + W77.101 +90*'
+  NAZWA          = 'W77.313X + W77.101X -90*'
   OPIS           = 'Поворот -90*'
   KATEGORIA      = '4) Поворот'
   RYSUNEK        = 'W77_313_W77_101M.VCT'
@@ -1767,7 +3549,13 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ]=
 
   SZEROKOSC      = 55*2
   CS_PODWOJNY_PROFIL_SZEROKOSC = 55   
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA          = 'W77.313X Hi + W77.101X Hi -90*'
+    >		
+	
   MATERIALY=
   <
         PROFIL=
@@ -1788,6 +3576,70 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ]=
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
           >	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T059
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
+		    PRZEKROJ_NR=100
+            KOD    =E_ALP_W77_T025
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 
+        PROFIL=
+          <
+		    PRZEKROJ_NR=100		  
+            KOD    =E_ALP_W77_T025
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+			TYLKO_W_PRZEKROJACH
+          > 		  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T026
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T026
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+			TYLKO_W_PRZEKROJACH			
+          > 		  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T051
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
         AKCESORIA_METRY=
           <
             KOD    = E_RP_04			
@@ -1818,7 +3670,7 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ]=
 
 FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45 ]=
 <  
-  NAZWA          = 'W77.314X + W77.101 +45*'
+  NAZWA          = 'W77.314X + W77.101X +45*'
   OPIS           = 'Поворот +45*'
   KATEGORIA      = '4) Поворот'
   RYSUNEK        = 'W77_314_W77_101.VCT'
@@ -1827,7 +3679,13 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45 ]=
 
   SZEROKOSC      = 55*2+31.8*2
   CS_PODWOJNY_PROFIL_SZEROKOSC = 55   
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA          = 'W77.314X Hi + W77.101X Hi +45*'
+    >		
+	
   MATERIALY=
   <
         PROFIL=
@@ -1841,6 +3699,16 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45 ]=
           >  
         PROFIL=
           <
+            KOD    =E_ALP_W77_T057
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
+        PROFIL=
+          <
             KOD     = E_ALP_W77_101
             KOLOR   = KOLOR_CALOSCI
             ILE     = 2
@@ -1848,6 +3716,16 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45 ]=
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
           >	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T059
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
         AKCESORIA_METRY=
           <
             KOD    = E_RP_04			
@@ -1894,7 +3772,13 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_314_W77_101_M45 ]=
 
   SZEROKOSC      = 55*2
   CS_PODWOJNY_PROFIL_SZEROKOSC = 55   
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA          = 'W77.314X Hi + W77.101X Hi -45*'
+    >		
+	
   MATERIALY=
   <
         PROFIL=
@@ -1908,6 +3792,16 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_314_W77_101_M45 ]=
           >  
         PROFIL=
           <
+            KOD    =E_ALP_W77_T057
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
+        PROFIL=
+          <
             KOD     = E_ALP_W77_101
             KOLOR   = KOLOR_CALOSCI
             ILE     = 2
@@ -1915,6 +3809,16 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_314_W77_101_M45 ]=
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
           >	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T059
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
         AKCESORIA_METRY=
           <
             KOD    = E_RP_04			
@@ -1963,7 +3867,13 @@ PROFIL[PRF_SLY_OKIENNA_ALP_W77_301_W77_315_0_60]=
   //SZEROKOSC      = 2*80+2*11.1
   SZEROKOSC      = 2*78.6  
   CS_PODWOJNY_PROFIL_SZEROKOSC = 80
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA          = 'W77.301X Hi + W77.315X Hi 10*..+60*'
+    >		
+	
   MATERIALY=
   <
         PROFIL=
@@ -1977,6 +3887,16 @@ PROFIL[PRF_SLY_OKIENNA_ALP_W77_301_W77_315_0_60]=
           >	
         PROFIL=
           <
+            KOD    =E_ALP_W77_T059
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+        PROFIL=
+          <
             KOD     = E_ALP_W77_315
             KOLOR   = KOLOR_CALOSCI
             ILE     = 1
@@ -1984,6 +3904,16 @@ PROFIL[PRF_SLY_OKIENNA_ALP_W77_301_W77_315_0_60]=
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
           >		
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T051
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
         AKCESORIA_METRY=
           <
             KOD    = E_RP_02			
@@ -2038,7 +3968,13 @@ PROFIL[PRF_SLY_OKIENNA_ALP_W77_101_W77_315_10_55]=
 
   SZEROKOSC      = 2*55+2*23.6
   CS_PODWOJNY_PROFIL_SZEROKOSC = 55
-
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA          = 'W77.301X Hi + W77.315X Hi -20*..-55*'
+    >		
+	
   MATERIALY=
   <
         PROFIL=
@@ -2050,6 +3986,16 @@ PROFIL[PRF_SLY_OKIENNA_ALP_W77_101_W77_315_10_55]=
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
           >	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T059
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
         PROFIL=
           <
             KOD     = E_ALP_C_701
@@ -2068,6 +4014,16 @@ PROFIL[PRF_SLY_OKIENNA_ALP_W77_101_W77_315_10_55]=
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
           >		
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T051
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 			  
         AKCESORIA_METRY=
           <
             KOD    = E_RP_02			
@@ -2120,6 +4076,7 @@ PROFIL[
         PRF_RAMA_OKIENNA_ALP_W77_103         ,
         PRF_RAMA_OKIENNA_ALP_W77_104         ,
         PRF_RAMA_OKIENNA_ALP_W77_105         ,
+		PRF_RAMA_OKIENNA_ALP_W77_106         ,
         PRF_SLP_OKIENNA_ALP_W77_301          ,
         PRF_SLP_OKIENNA_ALP_W77_302          ,
         PRF_SLP_OKIENNA_ALP_W77_303          ,
@@ -2127,6 +4084,8 @@ PROFIL[
         PRF_SLP_OKIENNA_ALP_W77_305          ,
         PRF_SLP_OKIENNA_ALP_W77_306          ,
         PRF_SLP_OKIENNA_ALP_W77_307          ,
+		PRF_SLP_OKIENNA_ALP_W77_308          ,
+		PRF_SLP_OKIENNA_ALP_W77_309          ,
         PRF_WZM_SLP_OKIENNA_ALP_W77_311      ,
         PRF_WZM_SLP_OKIENNA_ALP_W77_312      ,
         PRF_SKRZYDLO_OKIENNA_ALP_W77_201     ,
@@ -2142,13 +4101,21 @@ PROFIL[
         PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403    ,
         PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404    ,
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
+		PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,
+		PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,		
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,		
+		PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ,
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602 ,	
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ,				
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ,		
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 ,
         PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ,
         PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ,
         PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45 ,		
@@ -2178,7 +4145,9 @@ PROFIL[
         PRF_SLP_OKIENNA_ALP_W77_303          ,
         PRF_SLP_OKIENNA_ALP_W77_304          ,
         PRF_SLP_OKIENNA_ALP_W77_305          ,
-        PRF_SLP_OKIENNA_ALP_W77_307           
+        PRF_SLP_OKIENNA_ALP_W77_307          ,
+        PRF_SLP_OKIENNA_ALP_W77_308          ,
+        PRF_SLP_OKIENNA_ALP_W77_309		
       ]=
   <
     ZASTOSOWANIE=    [
@@ -2243,7 +4212,8 @@ PROFIL[
         PRF_RAMA_OKIENNA_ALP_W77_102         ,
         PRF_RAMA_OKIENNA_ALP_W77_103         ,
         PRF_RAMA_OKIENNA_ALP_W77_104         ,
-        PRF_RAMA_OKIENNA_ALP_W77_105        
+        PRF_RAMA_OKIENNA_ALP_W77_105         ,
+		PRF_RAMA_OKIENNA_ALP_W77_106
       ]=
   <
     ZASTOSOWANIE=    [
@@ -2301,8 +4271,12 @@ PROFIL[
 
 PROFIL[ 
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,		
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ,
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602 ,	
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ,				
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 	
       ]=
   <
@@ -2332,8 +4306,12 @@ PROFIL[
 PROFIL[	   
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,		
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,		
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ,
-        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 	
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ,			
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 	
       ]=
   <
     ZASTOSOWANIE=    [
@@ -2429,18 +4407,25 @@ PROFIL[
         PRF_RAMA_OKIENNA_ALP_W77_103         ,
         PRF_RAMA_OKIENNA_ALP_W77_104         ,
         PRF_RAMA_OKIENNA_ALP_W77_105         ,
+		PRF_RAMA_OKIENNA_ALP_W77_106         ,
         PRF_SLP_OKIENNA_ALP_W77_301          ,
         PRF_SLP_OKIENNA_ALP_W77_302          ,
         PRF_SLP_OKIENNA_ALP_W77_303          ,
         PRF_SLP_OKIENNA_ALP_W77_304          ,
         PRF_SLP_OKIENNA_ALP_W77_305          ,
         PRF_SLP_OKIENNA_ALP_W77_307          ,
+        PRF_SLP_OKIENNA_ALP_W77_308          ,
+        PRF_SLP_OKIENNA_ALP_W77_309          ,		
         PRF_WZM_SLP_OKIENNA_ALP_W77_311      ,
         PRF_WZM_SLP_OKIENNA_ALP_W77_312      ,
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,		
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,				
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,		
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,		
         PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ,
         PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ,
         PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45 ,		
@@ -2458,9 +4443,13 @@ PROFIL[
   
 PROFIL[
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ,
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602 ,		
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ,				
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ,
-        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 	
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ,			
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 	 	
       ]=
   <
     USZCZELNIENIE=   DEF_USZ_ALP_W77
@@ -2635,7 +4624,8 @@ PROFIL[
         PRF_RAMA_OKIENNA_ALP_W77_102         ,
         PRF_RAMA_OKIENNA_ALP_W77_103         ,
         PRF_RAMA_OKIENNA_ALP_W77_104         ,
-        PRF_RAMA_OKIENNA_ALP_W77_105         
+        PRF_RAMA_OKIENNA_ALP_W77_105         ,
+		PRF_RAMA_OKIENNA_ALP_W77_106
       ]=
   <
     MATERIALY=
@@ -2684,7 +4674,33 @@ PROFIL[
                 TP_RamaDrzwiowa_ProgDZ,
                 TP_RamaDrzwiowa_Prog2DZ                         
                     ]
-       >	 	   
+       >	 	
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T052
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+            KIEDY  =[				
+	               TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+	               TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+		           TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]	
+          > 	   
 	PROFIL=
        <
          KOD    = E_ALP_W77_616
@@ -2815,7 +4831,7 @@ PROFIL[
           > 	
         AKCESORIA_METRY=
           <
-            KOD    = E_RP_09
+            KOD    = E_RP_19
             KOLOR  = KOLOR_WEWN
             ILE    = 1
             DLUGOSC= 'OS_ODCINKA(0)+D(0)'
@@ -2840,6 +4856,8 @@ PROFIL[
         PRF_SLP_OKIENNA_ALP_W77_305          ,
         PRF_SLP_OKIENNA_ALP_W77_306          ,
         PRF_SLP_OKIENNA_ALP_W77_307          ,
+        PRF_SLP_OKIENNA_ALP_W77_308          ,
+        PRF_SLP_OKIENNA_ALP_W77_309          ,			
         PRF_WZM_SLP_OKIENNA_ALP_W77_311      ,
         PRF_WZM_SLP_OKIENNA_ALP_W77_312      ,
         PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ,
@@ -2877,7 +4895,33 @@ PROFIL[
                 TP_RamaDrzwiowa_ProgDZ,
                 TP_RamaDrzwiowa_Prog2DZ                         
                     ]
-       >	 	   
+       >	 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T052
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+            KIEDY  =[				
+	               TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+	               TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+	  	         TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]	
+          > 	   	   
 	PROFIL=
        <
          KOD    = E_ALP_W77_616
@@ -3007,7 +5051,7 @@ PROFIL[
           > 	
         AKCESORIA_METRY=
           <
-            KOD    = E_RP_09
+            KOD    = E_RP_19
             KOLOR  = KOLOR_WEWN
             ILE    = 1
             DLUGOSC= 'OS_ODCINKA(0)+D(0)'
@@ -3029,7 +5073,8 @@ PROFIL[
         PRF_RAMA_OKIENNA_ALP_W77_102         ,
         PRF_RAMA_OKIENNA_ALP_W77_103         ,
         PRF_RAMA_OKIENNA_ALP_W77_104         ,
-        PRF_RAMA_OKIENNA_ALP_W77_105         ,      
+        PRF_RAMA_OKIENNA_ALP_W77_105         ,
+        PRF_RAMA_OKIENNA_ALP_W77_106         ,		
         PRF_SLP_OKIENNA_ALP_W77_301          ,
         PRF_SLP_OKIENNA_ALP_W77_302          ,
         PRF_SLP_OKIENNA_ALP_W77_303          ,
@@ -3037,6 +5082,8 @@ PROFIL[
         PRF_SLP_OKIENNA_ALP_W77_305          ,
         PRF_SLP_OKIENNA_ALP_W77_306          ,
         PRF_SLP_OKIENNA_ALP_W77_307          ,
+        PRF_SLP_OKIENNA_ALP_W77_308          ,
+        PRF_SLP_OKIENNA_ALP_W77_309          ,			
         PRF_WZM_SLP_OKIENNA_ALP_W77_311      ,
         PRF_WZM_SLP_OKIENNA_ALP_W77_312      ,
         PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ,
@@ -3124,13 +5171,21 @@ PROFIL[
 //******************************************************************************
 PROFIL[	    
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,		
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,				
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,		
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,		
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ,
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602 ,	
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ,				
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ,
-        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 			
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ,			
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 	 			
       ]=
   <
     MATERIALY=
@@ -3224,7 +5279,7 @@ PROFIL[
             KOD    = E_ALP_C_815
             KOLOR  = KOLOR_WEWN
             ILE    = 1
-            DLUGOSC= 'OS_SKRZYDLA(0)-D(29)'
+            DLUGOSC= 'OS_SKRZYDLA(0)-D(29-22.5)'
 		    KAT1   = KAT_0
             KAT2   = KAT_0
             KIEDY  =[
@@ -3249,7 +5304,52 @@ PROFIL[
             NA_SKRZYDLE  =[
                     TS_Drzwi_DZ3				
                     ]							
-         > 				 
+         > 		
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_CW_D004L
+           ILE    = 1
+           KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDZ					
+                    ]	
+           NA_SKRZYDLE  =[
+                    TS_Drzwi_DZ1,
+                    TS_Drzwi_DZ2,			   
+		            TS_Drzwi_DZ3v,
+                    TS_Drzwi_DZ3				
+                    ]		
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_CW_D004R
+           ILE    = 1
+           KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDZ					
+                    ]	
+           NA_SKRZYDLE  =[
+                    TS_Drzwi_DZ1,
+                    TS_Drzwi_DZ2,			   
+		            TS_Drzwi_DZ3v,
+                    TS_Drzwi_DZ3				
+                    ]		
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_5x13_DIN7982
+           ILE    = 2
+           KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDZ					
+                    ]	
+           NA_SKRZYDLE  =[
+                    TS_Drzwi_DZ1,
+                    TS_Drzwi_DZ2,			   
+		            TS_Drzwi_DZ3v,
+                    TS_Drzwi_DZ3				
+                    ]		
+           >			   
 	    PROFIL=
           <
             PRZEKROJ_NR=100

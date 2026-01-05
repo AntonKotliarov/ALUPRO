@@ -31,6 +31,7 @@ NAKLADANIE=
              PRF_RAMA_OKIENNA_ALP_W77_103     ,
              PRF_RAMA_OKIENNA_ALP_W77_104     ,
              PRF_RAMA_OKIENNA_ALP_W77_105     ,
+             PRF_RAMA_OKIENNA_ALP_W77_106     ,			 
              PRF_SLP_OKIENNA_ALP_W77_301      ,
              PRF_SLP_OKIENNA_ALP_W77_302      ,
              PRF_SLP_OKIENNA_ALP_W77_303      ,
@@ -38,6 +39,8 @@ NAKLADANIE=
              PRF_SLP_OKIENNA_ALP_W77_305      ,
              PRF_SLP_OKIENNA_ALP_W77_306      ,
              PRF_SLP_OKIENNA_ALP_W77_307      ,
+             PRF_SLP_OKIENNA_ALP_W77_308      ,
+             PRF_SLP_OKIENNA_ALP_W77_309      ,			 
              PRF_WZM_SLP_OKIENNA_ALP_W77_311  ,
              PRF_WZM_SLP_OKIENNA_ALP_W77_312  ,
              PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ,
@@ -72,12 +75,20 @@ NAKLADANIE=
         SKRZYDLO= [
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,				   
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,			   
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ,
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ,
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ,			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ,
-               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 				   
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 ,			   
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ,				   			   
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602 			   
                   ]
         ZACHODZENIE_A=19
         ZACHODZENIE_B=19
@@ -90,12 +101,20 @@ NAKLADANIE=
         SKRZYDLO= [
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,			   			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,				   			   
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,			   			   
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ,
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ,
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ,			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ,
-               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 		 
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 ,			   			   
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ,				   			   
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602 			   
                   ]
         ZACHODZENIE_A=10
         ZACHODZENIE_B=10
@@ -110,12 +129,20 @@ NAKLADANIE=
         SKRZYDLO= [
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,			   
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,			   			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,				   			   
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ,
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ,
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ,			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ,
-               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 		 
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 ,			   			   
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ,				   			   
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602  		 
                   ]
         ZACHODZENIE_A=19
         ZACHODZENIE_B=19
@@ -129,12 +156,20 @@ NAKLADANIE=
         SKRZYDLO= [
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,			   			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,			   			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,				   			   
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,			   
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ,
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ,
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ,			   			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ,
-               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 		 
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 ,			   			   
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ,				   			   
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602  		 
                   ]
         ZACHODZENIE_A=19
         ZACHODZENIE_B=19
@@ -148,12 +183,20 @@ NAKLADANIE=
         SKRZYDLO= [
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,			   			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,			   			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,				   			   
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,			   
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ,
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ,
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ,			   			   
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ,
-               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 		 
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 ,			   			   
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ,				   			   
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602  		 
                   ]
         ZACHODZENIE_A=19/2-0.5
         ZACHODZENIE_B=19/2+0.5
@@ -198,6 +241,7 @@ NAKLADANIE=
                PRF_RAMA_OKIENNA_ALP_W77_103     ,
                PRF_RAMA_OKIENNA_ALP_W77_104     ,
                PRF_RAMA_OKIENNA_ALP_W77_105     ,
+               PRF_RAMA_OKIENNA_ALP_W77_106     ,	
                PRF_SLP_OKIENNA_ALP_W77_301      ,
                PRF_SLP_OKIENNA_ALP_W77_302      ,
                PRF_SLP_OKIENNA_ALP_W77_303      ,
@@ -205,6 +249,8 @@ NAKLADANIE=
                PRF_SLP_OKIENNA_ALP_W77_305      ,
                PRF_SLP_OKIENNA_ALP_W77_306      ,
                PRF_SLP_OKIENNA_ALP_W77_307      ,
+               PRF_SLP_OKIENNA_ALP_W77_308      ,
+               PRF_SLP_OKIENNA_ALP_W77_309      ,				   
                PRF_WZM_SLP_OKIENNA_ALP_W77_311  ,
                PRF_WZM_SLP_OKIENNA_ALP_W77_312  ,
                PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ,
@@ -216,7 +262,9 @@ NAKLADANIE=
   			      ]
         SKRZYDLO= [
                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
-               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 	 
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,			   			   
+               PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505			   
                   ]
         ZACHODZENIE_A=-6
         ZACHODZENIE_B=-6
@@ -231,6 +279,7 @@ NAKLADANIE=
                PRF_RAMA_OKIENNA_ALP_W77_103     ,
                PRF_RAMA_OKIENNA_ALP_W77_104     ,
                PRF_RAMA_OKIENNA_ALP_W77_105     ,
+               PRF_RAMA_OKIENNA_ALP_W77_106     ,	
                PRF_SLP_OKIENNA_ALP_W77_301      ,
                PRF_SLP_OKIENNA_ALP_W77_302      ,
                PRF_SLP_OKIENNA_ALP_W77_303      ,
@@ -238,6 +287,8 @@ NAKLADANIE=
                PRF_SLP_OKIENNA_ALP_W77_305      ,
                PRF_SLP_OKIENNA_ALP_W77_306      ,
                PRF_SLP_OKIENNA_ALP_W77_307      ,
+               PRF_SLP_OKIENNA_ALP_W77_308      ,
+               PRF_SLP_OKIENNA_ALP_W77_309      ,				   
                PRF_WZM_SLP_OKIENNA_ALP_W77_311  ,
                PRF_WZM_SLP_OKIENNA_ALP_W77_312  ,
                PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ,
@@ -249,7 +300,9 @@ NAKLADANIE=
   			      ]
         SKRZYDLO= [
                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
-               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 	 
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,			   			   
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+               PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508			 			   
                   ]
         ZACHODZENIE_A=25-6
         ZACHODZENIE_B=25-6

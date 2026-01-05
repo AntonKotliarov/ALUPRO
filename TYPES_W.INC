@@ -285,6 +285,18 @@ TYPY_SKRZYDEL=
           Z_LISTY=
             <
               KATEGORIA   = 'Окна W77'
+              KLUCZ       = 'TYPE_TERMO_W77'
+              PYTANIE     = 'Варіант теплоізоляції системи:'
+              ELEMENT     = 'Standart' 			  
+              ELEMENT     = 'HI'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'TYPE_TERMO_W77.vct'
+              ROZMIAR_RYSUNKU=135
+            >				
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Окна W77'
               KLUCZ       = 'UTEPLITEL_GLASS_W77'
               PYTANIE     = 'Використовувати утеплювач фальця склопакету:'
               ELEMENT     = 'Ні' 			  
@@ -374,7 +386,19 @@ TYPY_SKRZYDEL=
               PYTANIE     = 'rama drzwiowa'
               STANDARDOWO = '1'
               WIDZIANE    = NIE
-              >		
+              >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері W77'
+              KLUCZ       = 'TYPE_TERMO_W77'
+              PYTANIE     = 'Варіант теплоізоляції системи:'
+              ELEMENT     = 'Standart' 			  
+              ELEMENT     = 'HI'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'TYPE_TERMO_W77.vct'
+              ROZMIAR_RYSUNKU=135
+            >					  
           Z_LISTY=
             <
               KATEGORIA   = 'Двері W77'
@@ -442,7 +466,19 @@ TYPY_SKRZYDEL=
               PYTANIE     = 'rama drzwiowa'
               STANDARDOWO = '1'
               WIDZIANE    = NIE
-              >		
+              >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері W77'
+              KLUCZ       = 'TYPE_TERMO_W77'
+              PYTANIE     = 'Варіант теплоізоляції системи:'
+              ELEMENT     = 'Standart' 			  
+              ELEMENT     = 'HI'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'TYPE_TERMO_W77.vct'
+              ROZMIAR_RYSUNKU=135
+            >				  
           Z_LISTY=
             <
               KATEGORIA   = 'Двері W77'
@@ -467,6 +503,452 @@ TYPY_SKRZYDEL=
            >
          >
 #ENDIF	
+
+
+#IFDEF C50	
+
+   TYP_SKRZYDLA[TS_C50_windows]=
+    <
+      NAZWA_HTML=    'C50 - Вікна та балконні двері <font face="verdana" color="clblue">(Тестування!)</font>'
+      OPIS=          'Вікна та балконні двері. Система C50 (система "тепла")'
+      KATEGORIA_HTML=' 4) Система віконна-дверна <b>C50</b>'
+      RYSUNEK='C50_windows.jpg'	  
+      SYSTEMY=[DEF_SYS_C50,DEF_SYS_C50_CD]
+      DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_C50,WAR_C50_CD,WAR_C50_SKRZ_BK]
+      FASADA=NIE
+	  JAKIE_PRZEKROJE=2 
+      METODA_OBLICZEN_CIEPLNYCH=METODA_OKIENNA
+      TYP=SK_SRODEK
+      STANDARDOWE_OTWARCIE=OKUCIE_BRAK
+      STANDARDOWA_SZEROKOSC_PROFILI=52
+      MOZNA_NAROZA=TAK
+      PROFILE[ POL_LEWO   ] = [ TP_RamaUniw_RamaPion,TP_RamaUniw_PoprzeczkaPion,TP_RamaOkienna_RamaPion]
+      PROFILE[ POL_PRAWO  ] = [ TP_RamaUniw_RamaPion,TP_RamaUniw_PoprzeczkaPion,TP_RamaOkienna_RamaPion]
+      PROFILE[ POL_GORA   ] = [ TP_RamaUniw_RamaGora,TP_RamaUniw_PoprzeczkaPoziom,TP_PoprzeczkaAutoOK,TP_RamaOkienna_RamaGora ]
+
+      PROFILE[ POL_DOL,
+               POL_INNE   ] = [
+			                     TP_RamaOkienna_RamaDol,
+				                 TP_RamaOkienna_RamaInna,
+                                 TP_RamaUniw_RamaDol,
+                                 TP_RamaUniw_RamaInna,
+                                 TP_RamaOkienna_SzczelinaBalkonu,
+								 TP_RamaOkienna_SzczelinaBalkonu0,
+                                 TP_RamaOkienna_SzczelinaOknaPodawczego,
+                                 TP_RamaDrzwiowa_ProgDZ             ,
+                                 TP_RamaDrzwiowa_ProgDW             ,
+                                 TP_RamaDrzwiowa_ProgDZ0            ,
+                                 TP_RamaDrzwiowa_ProgDW0            ,								 
+                                 TP_RamaDrzwiowa_ProgDZ_CD          ,
+                                 TP_RamaDrzwiowa_ProgDW_CD          ,								 
+                                 TP_RamaDrzwiowa_ProgDH             ,
+                                 TP_RamaDrzwiowa_ProgDWZ            ,
+                                 TP_RamaDrzwiowa_ProgDZBezp         ,
+                                 TP_RamaDrzwiowa_ProgDWBezp         ,
+                                 TP_RamaDrzwiowa_SzczotkaDZ         ,
+                                 TP_RamaDrzwiowa_SzczotkaDW         ,
+                                 TP_RamaDrzwiowa_SzczotkaDH         ,
+                                 TP_RamaDrzwiowa_SzczotkaDWZ        ,
+                                 TP_RamaDrzwiowa_SzczotkaDZBezp     ,
+                                 TP_RamaDrzwiowa_SzczotkaDWBezp     ,
+                                 TP_RamaDrzwiowa_Prog2DZ            ,
+                                 TP_RamaDrzwiowa_Prog2DW            ,
+                                 TP_RamaDrzwiowa_Prog2DH            ,
+                                 TP_RamaDrzwiowa_Prog2DWZ           ,
+                                 TP_RamaDrzwiowa_Prog2DWBezp        ,
+                                 TP_RamaDrzwiowa_Prog2DZBezp        ,
+                                 TP_RamaDrzwiowa_ProgS              ,
+                                 TP_RamaUniw_PoprzeczkaPion         ,
+                                 TP_RamaUniw_PoprzeczkaPoziom       ,
+                                 TP_RamaUniw_Poprzeczka_O_DW,
+                                 TP_RamaUniw_Poprzeczka_O_DZ,
+                                 TP_ProgAutoOK
+                              ]
+      PROFILE[ POL_SRODEK ] = [
+                                TP_RamaUniw_PoprzeczkaPion,  
+                                TP_RamaUniw_PoprzeczkaPoziom,
+                                TP_RamaOkienna_PoprzeczkaPion,
+                                TP_RamaOkienna_PoprzeczkaPoziom,
+                                TP_RamaOkienna_PoprzeczkaPion,
+                                TP_RamaOkienna_PoprzeczkaPoziom,
+                                TP_RamaUniw_Poprzeczka_O_DW,
+                                TP_RamaUniw_Poprzeczka_O_DZ,
+                                TP_RamaOkienna_RuchomySlupek,
+								TP_RamaOkienna_RuchomySlupek_PVC,
+                                TP_RamaOkienna_RuchomySlupekVirtualny,
+                                TP_SkrzydloSzklane_Podzial,
+                                TP_RamaDrzwiowa_PodzialDZ      ,
+                                TP_RamaDrzwiowa_PodzialDW      ,
+                                TP_RamaDrzwiowa_RuchomySlupekDW,
+                                TP_RamaDrzwiowa_RuchomySlupekDZ,
+                                TP_RamaDrzwiowa_PodzialDH      ,
+                                TP_RamaDrzwiowa_PodzialDWZ     ,
+                                TP_RamaDrzwiowa_PodzialDZBezp  ,
+                                TP_RamaDrzwiowa_PodzialDWBezp  ,
+                                TP_RamaDrzwiowa_RuchomySlupekDZ,
+                                TP_RamaDrzwiowa_RuchomySlupekDW,
+                                TP_PodzialAutoOK               ,
+                                TP_RamaAutoOK_Zawias           ,
+                                TP_RamaAutoOK_Klamka           ,
+                                TP_RamaAutoOK_ZawiasJakoPoprzeczka,
+                                TP_RamaAutoOK_KlamkaJakoPoprzeczka,
+                                TP_PoprzeczkaAutoOK,
+                                TP_RamaUniw_Poprzeczka_O_DW,
+                                TP_RamaUniw_Poprzeczka_O_DZ,
+                                TP_RamaOkienna_Poprzeczka1Skrz,
+                                TP_RamaOkienna_Poprzeczka2Skrz
+                              ]
+      DOZWOLONE_SKRZYDLA=[
+                            TS_Szyba,
+                            TS_RamaOkienna_OW1                    ,
+                            TS_RamaOkienna_OW2                    ,
+                            TS_RamaOkienna_OW3                    ,	
+                            TS_RamaOkienna_OBW1                   ,							
+                            TS_Drzwi_DZ1                          ,
+                            TS_Drzwi_DZ2                          ,
+                            TS_Drzwi_DZ3                          ,							
+                            TS_Drzwi_DW1                          ,
+                            TS_Drzwi_DW2                          ,
+                            TS_Drzwi_DW3						  ,
+                            TS_Drzwi_DZ1_CD                       ,
+                            TS_Drzwi_DW1_CD                       							
+                         ]
+      DODATKOWE_PARAMETRY=
+        <
+          WARUNEK=
+            <
+              KATEGORIA   = 'Окна C50'			  
+              KLUCZ       = 'CZY_ZEWN'
+              PYTANIE     = 'Конструкция внешнняя (с учетом статики)'
+              STANDARDOWO = '0'
+              WIDZIANE    = TAK
+            >	
+            Z_LISTY=
+              <
+              KATEGORIA   = 'Доп. опции'
+              KLUCZ       = 'SBORKA_UGLOW_C50'
+              PYTANIE     = 'Способ зборки кутів'
+              ELEMENT     = 'Зачеканка'
+              ELEMENT     = 'Заштифтовка'
+              STANDARDOWO = '0'
+              >				
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Окна C50'
+              KLUCZ       = 'CORNER_ELEMENT_PROFILE_C50'
+              PYTANIE     = 'Як рахувати кутові елементи:'
+              ELEMENT     = 'Деталями' 			  
+              ELEMENT     = 'Профілем'
+              STANDARDOWO = '1'
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'OKAPNIK_C50'
+              PYTANIE     = 'Використовувати капельник С.819:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'C_819.vct'
+              ROZMIAR_RYSUNKU=135		  
+            >				
+        >
+  >
+
+    TYP_SKRZYDLA[TS_C50_RamaDZ]=
+      <  
+        NAZWA_HTML=    'C50 - Двері зовнішнього відкривання <font face="verdana" color="clblue">(Тестування!)</font>'
+        OPIS=          'Двери наружного открывания. Система C50 (система "тепла")'
+        KATEGORIA_HTML=' 4) Система віконна-дверна <b>C50</b>'
+        SYSTEMY=[DEF_SYS_C50]
+        DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_C50]
+        RYSUNEK='C50_RamaDZ.vct'
+	    JAKIE_PRZEKROJE=2 
+        FASADA=NIE
+        TYP=SK_SRODEK
+        STANDARDOWE_OTWARCIE=OKUCIE_BRAK
+        STANDARDOWA_SZEROKOSC_PROFILI=50
+        MOZNA_NAROZA=TAK
+        PROFILE[ POL_LEWO   ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_PRAWO  ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_GORA   ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_INNE   ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_DOL    ] = [
+                                   TP_RamaDrzwiowa_ProgDZ,
+								   TP_RamaDrzwiowa_ProgDZ0,
+                                   TP_RamaDrzwiowa_Prog2DZ,
+                                   TP_RamaDrzwiowa_SzczotkaDZ							
+                                ]
+        PROFILE[ POL_SRODEK ] = [
+                                  TP_RamaDrzwiowa_PodzialDZ,
+                                  TP_RamaDrzwiowa_RuchomySlupekDZ
+                                ]
+        DOZWOLONE_SKRZYDLA=[
+                                TS_Drzwi_DZ1,
+                                TS_Drzwi_DZ2,
+                                TS_Drzwi_DZ3             
+                           ]
+
+        METODA_OBLICZEN_CIEPLNYCH=METODA_OKIENNA
+
+        DODATKOWE_PARAMETRY=
+          <
+           WARUNEK=
+              <
+              KLUCZ       = 'RAMA_DRZWIOWA'
+              PYTANIE     = 'rama drzwiowa'
+              STANDARDOWO = '1'
+              WIDZIANE    = NIE
+              >		
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері C50'
+              KLUCZ       = 'UTEPLITEL_GLASS_C50'
+              PYTANIE     = 'Використовувати утеплювач фальця склопакету:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '1'
+
+              RYSUNEK     = 'UTEPLITEL_GLASS_C50.vct'
+              ROZMIAR_RYSUNKU=135
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері C50'
+              KLUCZ       = 'CORNER_ELEMENT_PROFILE_C50'
+              PYTANIE     = 'Як рахувати кутові елементи:'
+              ELEMENT     = 'Деталями' 			  
+              ELEMENT     = 'Профілем'
+              STANDARDOWO = '1'
+            >	
+            Z_LISTY=
+              <
+              KATEGORIA   = 'Доп. опции'
+              KLUCZ       = 'SBORKA_UGLOW_C50'
+              PYTANIE     = 'Способ зборки кутів'
+              ELEMENT     = 'Зачеканка'
+              ELEMENT     = 'Заштифтовка'
+              STANDARDOWO = '0'
+              >				
+           >
+         >
+    TYP_SKRZYDLA[TS_C50_RamaDW]=
+      <		  
+        NAZWA_HTML=    'C50 - Двері внутрішнього відкривання <font face="verdana" color="clblue">(Тестування!)</font>'
+        OPIS=          'Двері внутрішнього відкривання. Система C50 (система "тепла")'
+        KATEGORIA_HTML=' 4) Система віконна-дверна <b>C50</b>'
+        SYSTEMY=[DEF_SYS_C50]
+        DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_C50]
+        RYSUNEK='C50_RamaDW.vct'		
+	    JAKIE_PRZEKROJE=2
+        FASADA=NIE
+        TYP=SK_SRODEK
+        STANDARDOWE_OTWARCIE=OKUCIE_BRAK
+        STANDARDOWA_SZEROKOSC_PROFILI=50
+        MOZNA_NAROZA=TAK
+        PROFILE[ POL_LEWO   ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_PRAWO  ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_GORA   ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_INNE   ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_DOL    ] = [
+                                   TP_RamaDrzwiowa_ProgDW,
+								   TP_RamaDrzwiowa_ProgDW0,
+                                   TP_RamaDrzwiowa_Prog2DW,
+                                   TP_RamaDrzwiowa_SzczotkaDW
+                                ]
+        PROFILE[ POL_SRODEK ] = [
+                                  TP_RamaDrzwiowa_PodzialDW,
+                                  TP_RamaDrzwiowa_RuchomySlupekDW
+                                ]
+        DOZWOLONE_SKRZYDLA=[
+                                TS_Drzwi_DW1,
+                                TS_Drzwi_DW2,
+                                TS_Drzwi_DW3
+                           ]
+
+        METODA_OBLICZEN_CIEPLNYCH=METODA_OKIENNA
+
+        DODATKOWE_PARAMETRY=
+          <
+           WARUNEK=
+              <
+              KLUCZ       = 'RAMA_DRZWIOWA'
+              PYTANIE     = 'rama drzwiowa'
+              STANDARDOWO = '1'
+              WIDZIANE    = NIE
+              >		
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері C50'
+              KLUCZ       = 'UTEPLITEL_GLASS_C50'
+              PYTANIE     = 'Використовувати утеплювач фальця склопакету:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '1'
+
+              RYSUNEK     = 'UTEPLITEL_GLASS_C50.vct'
+              ROZMIAR_RYSUNKU=135
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері C50'
+              KLUCZ       = 'CORNER_ELEMENT_PROFILE_C50'
+              PYTANIE     = 'Як рахувати кутові елементи:'
+              ELEMENT     = 'Деталями' 			  
+              ELEMENT     = 'Профілем'
+              STANDARDOWO = '1'
+            >	
+            Z_LISTY=
+              <
+              KATEGORIA   = 'Доп. опции'
+              KLUCZ       = 'SBORKA_UGLOW_C50'
+              PYTANIE     = 'Способ зборки кутів'
+              ELEMENT     = 'Зачеканка'
+              ELEMENT     = 'Заштифтовка'
+              STANDARDOWO = '0'
+              >				
+           >
+         >
+		 	 
+    TYP_SKRZYDLA[TS_C50_RamaDZ_CD]=
+      <  
+        NAZWA_HTML=    'C50 - Двері зовнішнього відкривання CD <font face="verdana" color="clblue">(Тестування!)</font>'
+        OPIS=          'Двери наружного открывания. Система C50 (система "тепла")'
+        KATEGORIA_HTML=' 4) Система віконна-дверна <b>C50</b>|<b>Clamped doors</b>'
+        SYSTEMY=[DEF_SYS_C50_CD]
+        DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_C50_CD]
+        RYSUNEK='C50_RamaDZ.vct'
+	    JAKIE_PRZEKROJE=2 
+        FASADA=NIE
+        TYP=SK_SRODEK
+        STANDARDOWE_OTWARCIE=OKUCIE_BRAK
+        STANDARDOWA_SZEROKOSC_PROFILI=50
+        MOZNA_NAROZA=TAK
+        PROFILE[ POL_LEWO   ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_PRAWO  ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_GORA   ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_INNE   ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_DOL    ] = [
+                                   TP_RamaDrzwiowa_ProgDZ_CD,
+								   TP_RamaDrzwiowa_ProgDZ0,
+                                   TP_RamaDrzwiowa_Prog2DZ,
+                                   TP_RamaDrzwiowa_SzczotkaDZ							
+                                ]
+        PROFILE[ POL_SRODEK ] = [
+                                  TP_RamaDrzwiowa_PodzialDZ,
+                                  TP_RamaDrzwiowa_RuchomySlupekDZ
+                                ]
+        DOZWOLONE_SKRZYDLA=[
+                                TS_Drzwi_DZ1_CD,
+                                TS_Drzwi_DZ2_CD,
+                                TS_Drzwi_DZ3_CD             
+                           ]
+
+        METODA_OBLICZEN_CIEPLNYCH=METODA_OKIENNA
+
+        DODATKOWE_PARAMETRY=
+          <
+           WARUNEK=
+              <
+              KLUCZ       = 'RAMA_DRZWIOWA'
+              PYTANIE     = 'rama drzwiowa'
+              STANDARDOWO = '1'
+              WIDZIANE    = NIE
+              >		
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері C50'
+              KLUCZ       = 'UTEPLITEL_GLASS_C50'
+              PYTANIE     = 'Використовувати утеплювач фальця склопакету:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '1'
+
+              RYSUNEK     = 'UTEPLITEL_GLASS_C50.vct'
+              ROZMIAR_RYSUNKU=135
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері C50'
+              KLUCZ       = 'CORNER_ELEMENT_PROFILE_C50'
+              PYTANIE     = 'Як рахувати кутові елементи:'
+              ELEMENT     = 'Деталями' 			  
+              ELEMENT     = 'Профілем'
+              STANDARDOWO = '1'
+            >				
+           >
+         >
+    TYP_SKRZYDLA[TS_C50_RamaDW_CD]=
+      <		  
+        NAZWA_HTML=    'C50 - Двері внутрішнього відкривання CD <font face="verdana" color="clblue">(Тестування!)</font>'
+        OPIS=          'Двері внутрішнього відкривання. Система C50 (система "тепла")'
+        KATEGORIA_HTML=' 4) Система віконна-дверна <b>C50</b>|<b>Clamped doors</b>'
+        SYSTEMY=[DEF_SYS_C50_CD]
+        DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_C50_CD]
+        RYSUNEK='C50_RamaDW.vct'		
+	    JAKIE_PRZEKROJE=2
+        FASADA=NIE
+        TYP=SK_SRODEK
+        STANDARDOWE_OTWARCIE=OKUCIE_BRAK
+        STANDARDOWA_SZEROKOSC_PROFILI=50
+        MOZNA_NAROZA=TAK
+        PROFILE[ POL_LEWO   ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_PRAWO  ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_GORA   ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_INNE   ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_DOL    ] = [
+                                   TP_RamaDrzwiowa_ProgDW_CD,
+								   TP_RamaDrzwiowa_ProgDW0,
+                                   TP_RamaDrzwiowa_Prog2DW,
+                                   TP_RamaDrzwiowa_SzczotkaDW
+                                ]
+        PROFILE[ POL_SRODEK ] = [
+                                  TP_RamaDrzwiowa_PodzialDW,
+                                  TP_RamaDrzwiowa_RuchomySlupekDW
+                                ]
+        DOZWOLONE_SKRZYDLA=[
+                                TS_Drzwi_DW1_CD,
+                                TS_Drzwi_DW2_CD,
+                                TS_Drzwi_DW3_CD
+                           ]
+
+        METODA_OBLICZEN_CIEPLNYCH=METODA_OKIENNA
+
+        DODATKOWE_PARAMETRY=
+          <
+           WARUNEK=
+              <
+              KLUCZ       = 'RAMA_DRZWIOWA'
+              PYTANIE     = 'rama drzwiowa'
+              STANDARDOWO = '1'
+              WIDZIANE    = NIE
+              >		
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері C50'
+              KLUCZ       = 'UTEPLITEL_GLASS_C50'
+              PYTANIE     = 'Використовувати утеплювач фальця склопакету:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '1'
+
+              RYSUNEK     = 'UTEPLITEL_GLASS_C50.vct'
+              ROZMIAR_RYSUNKU=135
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері C50'
+              KLUCZ       = 'CORNER_ELEMENT_PROFILE_C50'
+              PYTANIE     = 'Як рахувати кутові елементи:'
+              ELEMENT     = 'Деталями' 			  
+              ELEMENT     = 'Профілем'
+              STANDARDOWO = '1'
+            >				
+           >
+         >		 
+#ENDIF	
+
 
 
 
@@ -510,67 +992,6 @@ TYPY_SKRZYDEL=
                 STANDARDOWO = '1'
                 WIDZIANE    = NIE
               >			  
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт у стіни'
-//                KLUCZ       = 'KASETA_SCIANA_TOP'
-//                PYTANIE     = 'На скільки заходить керамограніт зверху від края стіни'
-//                STANDARDOWO = '100'
-//				
-//			    RYSUNEK     = 'XOT_STENA_TOP.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт у стіни'
-//                KLUCZ       = 'KASETA_SCIANA_BOTTOM'
-//                PYTANIE     = 'На скільки заходить керамограніт знизу від края стіни'
-//                STANDARDOWO = '-60'
-//				
-//			    RYSUNEK     = 'XOT_STENA_DOL.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт у стіни'
-//                KLUCZ       = 'KASETA_SCIANA_BOK'
-//                PYTANIE     = 'На скільки заходить керамограніт збоку від края стіни'
-//                STANDARDOWO = '100'
-//              >
-
-
-
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт в проємі вікна'
-//                KLUCZ       = 'KASETA_SKRZYDLO_TOP'
-//                PYTANIE     = 'На скільки заходить профіль зверху'
-//                STANDARDOWO = '100'
-//              
-//			    RYSUNEK     = 'XOT_PRO_TOP.vct'
-//                ROZMIAR_RYSUNKU=150				
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт в проємі вікна'
-//                KLUCZ       = 'KASETA_SKRZYDLO_BOTTOM'
-//                PYTANIE     = 'На скільки заходить профіль (відлив) низу'
-//                STANDARDOWO = '-40'
-//				
-//			    RYSUNEK     = 'XOT_PRO_DOL.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт в проємі вікна'
-//                KLUCZ       = 'KASETA_SKRZYDLO_BOK'
-//                PYTANIE     = 'На скільки заходить профіль збоку'
-//                STANDARDOWO = '100'
-//				
-//			    RYSUNEK     = 'XOT_PRO_BOK.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-			  
             LICZBA_RZECZYWISTA=
               <
                 KATEGORIA   = 'Положення рами вікна в проємі'
@@ -649,67 +1070,6 @@ TYPY_SKRZYDEL=
                 STANDARDOWO = '1'
                 WIDZIANE    = NIE
               >			  
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт у стіни'
-//                KLUCZ       = 'KASETA_SCIANA_TOP'
-//                PYTANIE     = 'На скільки заходить керамограніт зверху від края стіни'
-//                STANDARDOWO = '100'
-//				
-//			    RYSUNEK     = 'XOT_STENA_TOP.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт у стіни'
-//                KLUCZ       = 'KASETA_SCIANA_BOTTOM'
-//                PYTANIE     = 'На скільки заходить керамограніт знизу від края стіни'
-//                STANDARDOWO = '-60'
-//				
-//			    RYSUNEK     = 'XOT_STENA_DOL.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт у стіни'
-//                KLUCZ       = 'KASETA_SCIANA_BOK'
-//                PYTANIE     = 'На скільки заходить керамограніт збоку від края стіни'
-//                STANDARDOWO = '100'
-//              >
-
-
-
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт в проємі вікна'
-//                KLUCZ       = 'KASETA_SKRZYDLO_TOP'
-//                PYTANIE     = 'На скільки заходить профіль зверху'
-//                STANDARDOWO = '100'
-//              
-//			    RYSUNEK     = 'XOT_PRO_TOP.vct'
-//                ROZMIAR_RYSUNKU=150				
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт в проємі вікна'
-//                KLUCZ       = 'KASETA_SKRZYDLO_BOTTOM'
-//                PYTANIE     = 'На скільки заходить профіль (відлив) низу'
-//                STANDARDOWO = '-40'
-//				
-//			    RYSUNEK     = 'XOT_PRO_DOL.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт в проємі вікна'
-//                KLUCZ       = 'KASETA_SKRZYDLO_BOK'
-//                PYTANIE     = 'На скільки заходить профіль збоку'
-//                STANDARDOWO = '100'
-//				
-//			    RYSUNEK     = 'XOT_PRO_BOK.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-			  
             LICZBA_RZECZYWISTA=
               <
                 KATEGORIA   = 'Положення рами вікна в проємі'
@@ -790,69 +1150,7 @@ TYPY_SKRZYDEL=
 	      
                 RYSUNEK     = 'VARIANT_NVF_AKP.vct'
                 ROZMIAR_RYSUNKU=135			  
-               >	
-			  
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт у стіни'
-//                KLUCZ       = 'KASETA_SCIANA_TOP'
-//                PYTANIE     = 'На скільки заходить керамограніт зверху від края стіни'
-//                STANDARDOWO = '100'
-//				
-//			    RYSUNEK     = 'XOT_STENA_TOP.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт у стіни'
-//                KLUCZ       = 'KASETA_SCIANA_BOTTOM'
-//                PYTANIE     = 'На скільки заходить керамограніт знизу від края стіни'
-//                STANDARDOWO = '-60'
-//				
-//			    RYSUNEK     = 'XOT_STENA_DOL.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт у стіни'
-//                KLUCZ       = 'KASETA_SCIANA_BOK'
-//                PYTANIE     = 'На скільки заходить керамограніт збоку від края стіни'
-//                STANDARDOWO = '100'
-//              >
-
-
-
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт в проємі вікна'
-//                KLUCZ       = 'KASETA_SKRZYDLO_TOP'
-//                PYTANIE     = 'На скільки заходить профіль зверху'
-//                STANDARDOWO = '100'
-//              
-//			    RYSUNEK     = 'XOT_PRO_TOP.vct'
-//                ROZMIAR_RYSUNKU=150				
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт в проємі вікна'
-//                KLUCZ       = 'KASETA_SKRZYDLO_BOTTOM'
-//                PYTANIE     = 'На скільки заходить профіль (відлив) низу'
-//                STANDARDOWO = '-40'
-//				
-//			    RYSUNEK     = 'XOT_PRO_DOL.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-//            LICZBA_RZECZYWISTA=
-//              <
-//                KATEGORIA   = 'Керамограніт в проємі вікна'
-//                KLUCZ       = 'KASETA_SKRZYDLO_BOK'
-//                PYTANIE     = 'На скільки заходить профіль збоку'
-//                STANDARDOWO = '100'
-//				
-//			    RYSUNEK     = 'XOT_PRO_BOK.vct'
-//                ROZMIAR_RYSUNKU=150					
-//              >
-			  
+               >				  
             LICZBA_RZECZYWISTA=
               <
                 KATEGORIA   = 'Положення рами вікна в проємі'

@@ -279,8 +279,167 @@ LACZENIE=
 	  
       AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=1 >	 	  	  
       >
+  >  
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE90]
+    PROFIL1=[
+        PRF_RAMA_OKIENNA_ALP_W77_106            
+            ]
+    PROFIL2=[
+        PRF_RAMA_OKIENNA_ALP_W77_106         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_808_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_808_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_808 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_808 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=1 >	 	  	  
+      >
+  >  
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE90]
+    PROFIL1=[
+        PRF_SLP_OKIENNA_ALP_W77_308            
+            ]
+    PROFIL2=[
+        PRF_SLP_OKIENNA_ALP_W77_308         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_808_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_808_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_808 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_808 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=2 >	 	  	  
+      >
   >    
   
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE90]
+    PROFIL1=[
+        PRF_SLP_OKIENNA_ALP_W77_308            
+            ]
+    PROFIL2=[
+        PRF_SLP_OKIENNA_ALP_W77_308         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_808_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_808_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_808 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_808 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=2 >	 	  	  
+      >
+  >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE90]
+    PROFIL1=[
+        PRF_SLP_OKIENNA_ALP_W77_309           
+            ]
+    PROFIL2=[
+        PRF_SLP_OKIENNA_ALP_W77_309         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_808_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_808_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_808 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_808 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=2 >	 	  	  
+      >
+  >      
   
 LACZENIE=
   <
@@ -831,6 +990,7 @@ LACZENIE=
     PROFIL2=[
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502,
+		PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602,
 		PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602		
             ]
     MATERIALY=
@@ -862,7 +1022,49 @@ LACZENIE=
       AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=1 >			 
       >
   >  
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE90]
+    PROFIL1=[
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505,
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602        
+            ]
+    PROFIL2=[
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506,
+		PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602,		
+		PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602		
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_804_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_805_04  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>	  
+	  	  			 
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_804
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='5.9'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_805
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='21.3'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
 
+      AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=1 >			 
+      >
+  >    
 
 LACZENIE=
   <
@@ -903,6 +1105,46 @@ LACZENIE=
       AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=1 >			 
       >
   >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE90]
+    PROFIL1=[
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506        
+            ]
+    PROFIL2=[
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_804_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_805_04  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>	  
+	  	  			 
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_804
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='5.9'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_805
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='21.3'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+
+      AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=1 >			 
+      >
+  >      
 
 LACZENIE=
   <
@@ -914,7 +1156,51 @@ LACZENIE=
     PROFIL2=[
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504,
+		PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602,
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602		
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_805_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_806_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>	  
+	  	  			 
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_805
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='5.9'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_806
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='21.3'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+
+      AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=1 >			 
+      >
+  >    
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE90]
+    PROFIL1=[
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507,
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602        
+            ]
+    PROFIL2=[
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508,
+		PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602,		
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602		
             ]
     MATERIALY=
       <
@@ -984,6 +1270,46 @@ LACZENIE=
 
       AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=1 >			 
       >
+  >        
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE90]
+    PROFIL1=[
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508        
+            ]
+    PROFIL2=[
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508,
+        PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602	         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_805_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_806_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>	  
+	  	  			 
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_805
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='5.9'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_806
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='21.3'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+
+      AKCESORIA_SZTUKI=< KOD=E_W77_KB_22_5    ILE=1 >			 
+      >
   >         
 ////***********************//***********************//********************************
 //T90
@@ -1003,6 +1329,7 @@ LACZENIE=
             PRF_RAMA_OKIENNA_ALP_W77_103         ,
             PRF_RAMA_OKIENNA_ALP_W77_104         ,
             PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         ,
             PRF_SLP_OKIENNA_ALP_W77_301          ,
             PRF_SLP_OKIENNA_ALP_W77_302          ,
             PRF_SLP_OKIENNA_ALP_W77_303          ,
@@ -1014,8 +1341,12 @@ LACZENIE=
             PRF_WZM_SLP_OKIENNA_ALP_W77_312      ,
             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
+            PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,			
             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
+            PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,			
             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+            PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,			
+            PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,			
             PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ,
             PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ,
             PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45 ,		
@@ -1067,9 +1398,11 @@ LACZENIE=
          >	
       //***********************		  
 	  
-      AKCESORIA_SZTUKI=< KOD=E_D07004    ILE=4 > 	  
+      AKCESORIA_SZTUKI=< KOD=E_D07004                  ILE=2 > 	  
       AKCESORIA_SZTUKI=< KOD=E_M6_10_DIN914            ILE=1 >	  
       AKCESORIA_SZTUKI=< KOD=E_Sam3_9x13_DIN7982       ILE=1 > 	  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_RP_23_20                ILE=1 > 	  
        >
   >  
   
@@ -1087,6 +1420,7 @@ LACZENIE=
             PRF_RAMA_OKIENNA_ALP_W77_103         ,
             PRF_RAMA_OKIENNA_ALP_W77_104         ,
             PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         ,
             PRF_SLP_OKIENNA_ALP_W77_301          ,
             PRF_SLP_OKIENNA_ALP_W77_302          ,
             PRF_SLP_OKIENNA_ALP_W77_303          ,
@@ -1098,8 +1432,12 @@ LACZENIE=
             PRF_WZM_SLP_OKIENNA_ALP_W77_312      ,
             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
+            PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,			
             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
+            PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,			
             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+            PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,			
+            PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,			
             PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ,
             PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ,
             PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45 ,		
@@ -1151,9 +1489,101 @@ LACZENIE=
          >	
       //***********************		  
 	  
-      AKCESORIA_SZTUKI=< KOD=E_D07004    ILE=4 > 	  
+      AKCESORIA_SZTUKI=< KOD=E_D07004                  ILE=4 > 	  
+      AKCESORIA_SZTUKI=< KOD=E_M6_10_DIN914            ILE=2 >	  
+      AKCESORIA_SZTUKI=< KOD=E_Sam3_9x13_DIN7982       ILE=2 > 	 
+
+      AKCESORIA_SZTUKI=< KOD=E_RP_23_34                ILE=1 > 	  	  
+       >
+  >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_SLP_OKIENNA_ALP_W77_308 ,
+            PRF_SLP_OKIENNA_ALP_W77_309		
+            ]
+    PROFIL2=[
+            PRF_RAMA_OKIENNA_ALP_W77_101         ,
+            PRF_RAMA_OKIENNA_ALP_W77_102         ,
+            PRF_RAMA_OKIENNA_ALP_W77_103         ,
+            PRF_RAMA_OKIENNA_ALP_W77_104         ,
+            PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         ,
+            PRF_SLP_OKIENNA_ALP_W77_301          ,
+            PRF_SLP_OKIENNA_ALP_W77_302          ,
+            PRF_SLP_OKIENNA_ALP_W77_303          ,
+            PRF_SLP_OKIENNA_ALP_W77_304          ,
+            PRF_SLP_OKIENNA_ALP_W77_305          ,
+            PRF_SLP_OKIENNA_ALP_W77_306          ,
+            PRF_SLP_OKIENNA_ALP_W77_307          ,
+            PRF_WZM_SLP_OKIENNA_ALP_W77_311      ,
+            PRF_WZM_SLP_OKIENNA_ALP_W77_312      ,
+            PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
+            PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
+            PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,			
+            PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
+            PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,			
+            PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+            PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,			
+            PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,			
+            PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ,
+            PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ,
+            PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45 ,		
+            PRF_SLY_OKIENNA_ALP_W77_314_W77_101_M45 ,
+            PRF_SLY_OKIENNA_ALP_W77_301_W77_315_0_60,
+            PRF_SLY_OKIENNA_ALP_W77_101_W77_315_10_55				
+      ]
+    ZACHODZENIE_A=25
+    ZACHODZENIE_B=25
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_811_04          ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_811
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='22'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+      //***********************	
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_810_04          ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_810
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='22'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+      //***********************	
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_709_01          ILE=2 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)' > 
+	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_709
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='22.4'
+        ILE    = 2	
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+      //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_D07004                  ILE=2 > 	  
       AKCESORIA_SZTUKI=< KOD=E_M6_10_DIN914            ILE=2 >	  
       AKCESORIA_SZTUKI=< KOD=E_Sam3_9x13_DIN7982       ILE=2 > 	  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_RP_23_34                ILE=1 > 	  	  	  
        >
   >    
   
@@ -1169,7 +1599,8 @@ LACZENIE=
             PRF_RAMA_OKIENNA_ALP_W77_102         ,
             PRF_RAMA_OKIENNA_ALP_W77_103         ,
             PRF_RAMA_OKIENNA_ALP_W77_104         ,
-            PRF_RAMA_OKIENNA_ALP_W77_105         		
+            PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         		
       ]
     ZACHODZENIE_A_TEKST='SZEROKOSC_PROFILU'
     ZACHODZENIE_B_TEKST='SZEROKOSC_PROFILU'
@@ -1216,7 +1647,7 @@ LACZENIE=
          >	
       //***********************		  
 	  
-      AKCESORIA_SZTUKI=< KOD=E_D07004    ILE=4 > 	  
+      AKCESORIA_SZTUKI=< KOD=E_D07004                  ILE=4 > 	  
       AKCESORIA_SZTUKI=< KOD=E_M6_10_DIN914            ILE=2 >	  
       AKCESORIA_SZTUKI=< KOD=E_Sam3_9x13_DIN7982       ILE=2 > 	  
        >
@@ -1235,6 +1666,7 @@ LACZENIE=
             PRF_RAMA_OKIENNA_ALP_W77_103         ,
             PRF_RAMA_OKIENNA_ALP_W77_104         ,
             PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         ,
             PRF_SLP_OKIENNA_ALP_W77_301          ,
             PRF_SLP_OKIENNA_ALP_W77_302          ,
             PRF_SLP_OKIENNA_ALP_W77_303          ,
@@ -1246,8 +1678,12 @@ LACZENIE=
             PRF_WZM_SLP_OKIENNA_ALP_W77_312      ,
             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
+            PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,			
             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ,
+            PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ,			
             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ,
+            PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ,			
+            PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,			
             PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ,
             PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ,
             PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45 ,		
@@ -1299,9 +1735,11 @@ LACZENIE=
          >	
       //***********************		  
 	  
-      AKCESORIA_SZTUKI=< KOD=E_D07004    ILE=4 > 	  
+      AKCESORIA_SZTUKI=< KOD=E_D07004                  ILE=4 > 	  
       AKCESORIA_SZTUKI=< KOD=E_M6_10_DIN914            ILE=3 >	  
-      AKCESORIA_SZTUKI=< KOD=E_Sam3_9x13_DIN7982       ILE=3 > 	  
+      AKCESORIA_SZTUKI=< KOD=E_Sam3_9x13_DIN7982       ILE=3 > 
+
+      AKCESORIA_SZTUKI=< KOD=E_RP_23_48                ILE=1 > 	  	  
        >
   >    
   
@@ -1365,9 +1803,11 @@ LACZENIE=
          >	
       //***********************		  
 	  
-      AKCESORIA_SZTUKI=< KOD=E_D07004    ILE=4 > 	  
+      AKCESORIA_SZTUKI=< KOD=E_D07004                  ILE=2 > 	  
       AKCESORIA_SZTUKI=< KOD=E_M6_10_DIN914            ILE=1 >	  
-      AKCESORIA_SZTUKI=< KOD=E_Sam3_9x13_DIN7982       ILE=1 > 	  
+      AKCESORIA_SZTUKI=< KOD=E_Sam3_9x13_DIN7982       ILE=1 > 	 
+
+      AKCESORIA_SZTUKI=< KOD=E_RP_23_20                ILE=1 > 	  	  
        >
   >    
   
@@ -1383,6 +1823,7 @@ LACZENIE=
             PRF_RAMA_OKIENNA_ALP_W77_103         ,
             PRF_RAMA_OKIENNA_ALP_W77_104         ,
             PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         ,
             PRF_SLP_OKIENNA_ALP_W77_301          ,
             PRF_SLP_OKIENNA_ALP_W77_302          ,
             PRF_SLP_OKIENNA_ALP_W77_303          ,
@@ -1419,6 +1860,7 @@ LACZENIE=
             PRF_RAMA_OKIENNA_ALP_W77_103         ,
             PRF_RAMA_OKIENNA_ALP_W77_104         ,
             PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         ,
             PRF_SLP_OKIENNA_ALP_W77_301          ,
             PRF_SLP_OKIENNA_ALP_W77_302          ,
             PRF_SLP_OKIENNA_ALP_W77_303          ,
@@ -1479,6 +1921,7 @@ LACZENIE=
             PRF_RAMA_OKIENNA_ALP_W77_103         ,
             PRF_RAMA_OKIENNA_ALP_W77_104         ,
             PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         ,
             PRF_SLP_OKIENNA_ALP_W77_301          ,
             PRF_SLP_OKIENNA_ALP_W77_302          ,
             PRF_SLP_OKIENNA_ALP_W77_303          ,
@@ -1518,6 +1961,7 @@ LACZENIE=
             PRF_RAMA_OKIENNA_ALP_W77_103         ,
             PRF_RAMA_OKIENNA_ALP_W77_104         ,
             PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         ,
             PRF_SLP_OKIENNA_ALP_W77_301          ,
             PRF_SLP_OKIENNA_ALP_W77_302          ,
             PRF_SLP_OKIENNA_ALP_W77_303          ,
@@ -1554,6 +1998,7 @@ LACZENIE=
             PRF_RAMA_OKIENNA_ALP_W77_103         ,
             PRF_RAMA_OKIENNA_ALP_W77_104         ,
             PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         ,
             PRF_SLP_OKIENNA_ALP_W77_301          ,
             PRF_SLP_OKIENNA_ALP_W77_302          ,
             PRF_SLP_OKIENNA_ALP_W77_303          ,
@@ -1612,6 +2057,7 @@ LACZENIE=
             PRF_RAMA_OKIENNA_ALP_W77_103         ,
             PRF_RAMA_OKIENNA_ALP_W77_104         ,
             PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         ,
             PRF_SLP_OKIENNA_ALP_W77_301          ,
             PRF_SLP_OKIENNA_ALP_W77_302          ,
             PRF_SLP_OKIENNA_ALP_W77_303          ,
@@ -1653,3 +2099,408 @@ LACZENIE=
       < 
       >
   >        
+  
+////***********************//***********************//********************************
+//Рамы вар
+////***********************//***********************//*********************************  
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE]
+    PROFIL1=[
+        PRF_RAMA_OKIENNA_ALP_W77_101            
+            ]
+    PROFIL2=[
+        PRF_RAMA_OKIENNA_ALP_W77_101         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_shtift_5_8    ILE=4 >	 	  	  
+      >
+  >  
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE]
+    PROFIL1=[
+        PRF_RAMA_OKIENNA_ALP_W77_104            
+            ]
+    PROFIL2=[
+        PRF_RAMA_OKIENNA_ALP_W77_104         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_shtift_5_8    ILE=4 >	 	  	  
+      >
+  >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE]
+    PROFIL1=[
+        PRF_SLP_OKIENNA_ALP_W77_301            
+            ]
+    PROFIL2=[
+        PRF_SLP_OKIENNA_ALP_W77_301         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_shtift_5_8    ILE=4 >	 	  	  
+      >
+  >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE]
+    PROFIL1=[
+        PRF_SLP_OKIENNA_ALP_W77_305            
+            ]
+    PROFIL2=[
+        PRF_SLP_OKIENNA_ALP_W77_305         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_shtift_5_8    ILE=4 >	 	  	  
+      >
+  >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE]
+    PROFIL1=[
+        PRF_SLP_OKIENNA_ALP_W77_306            
+            ]
+    PROFIL2=[
+        PRF_SLP_OKIENNA_ALP_W77_306         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_shtift_5_8    ILE=4 >	 	  	  
+      >
+  >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE]
+    PROFIL1=[
+        PRF_SLP_OKIENNA_ALP_W77_306            
+            ]
+    PROFIL2=[
+        PRF_SLP_OKIENNA_ALP_W77_306         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_822_ZB_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_822 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_shtift_5_8    ILE=4 >	 	  	  
+      >
+  >    
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE]
+    PROFIL1=[
+        PRF_RAMA_OKIENNA_ALP_W77_102            
+            ]
+    PROFIL2=[
+        PRF_RAMA_OKIENNA_ALP_W77_102         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_823_ZB_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_823_ZB_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_823
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_823 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_shtift_5_8    ILE=4 >	 	  	  
+      >
+  >      
+ 
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE]
+    PROFIL1=[
+        PRF_SLP_OKIENNA_ALP_W77_302            
+            ]
+    PROFIL2=[
+        PRF_SLP_OKIENNA_ALP_W77_302         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_823_ZB_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_823_ZB_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_823
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_823 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_shtift_5_8    ILE=4 >	 	  	  
+      >
+  >      
+    
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE]
+    PROFIL1=[
+        PRF_SLP_OKIENNA_ALP_W77_307            
+            ]
+    PROFIL2=[
+        PRF_SLP_OKIENNA_ALP_W77_307         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_823_ZB_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_823_ZB_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_823
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_823 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_shtift_5_8    ILE=4 >	 	  	  
+      >
+  >  
+
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_NAROZNE]
+    PROFIL1=[
+        PRF_WZM_SLP_OKIENNA_ALP_W77_311            
+            ]
+    PROFIL2=[
+        PRF_WZM_SLP_OKIENNA_ALP_W77_311         	 
+            ]
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_823_ZB_01  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_823_ZB_02  ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_823
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='8.2'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >			  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_823 
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='18.8'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >		
+       //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_shtift_5_8    ILE=4 >	 	  	  
+      >
+  >     	 
+    

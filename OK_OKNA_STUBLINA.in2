@@ -1,6 +1,6 @@
    GRUPA[OK_R1_VIS_STUBLINA_80]=
       <
-         NAZWA='STUBLINA - Фурнітура П (видима, 80кг)'
+         NAZWA='STUBLINA - Фурнітура П (видима, 100кг)'
          OPIS='Фурнітура для поворотного вікна STUBLINA. Натисніть кнопку: "Вибрати"'
          RODZAJ=OKUCIE_ROZWIERANE
 
@@ -9,7 +9,7 @@
       >	
     GRUPA[OK_R2_VIS_STUBLINA_80]=
       <
-         NAZWA='STUBLINA - Фурнітура П (видима, 80кг) [Активна]'
+         NAZWA='STUBLINA - Фурнітура П (видима, 100кг) [Активна]'
          OPIS='Фурнітура для П стулки для 2-х стулкового вікна зі штульпом STUBLINA. Натисніть кнопку: "Вибрати"'
          RODZAJ=OKUCIE_ROZWIERANE_RP 
 		
@@ -38,14 +38,15 @@
          GDY_WARIANT_SKRZYDLA=[WAR_W77]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]			 
 
-         WYMIAR_OKUCIA = 'KLAMKA'		 
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	 	 
          
-         OD_B=500 DO_B=1200
+         OD_B=300 DO_B=1400
          OD_H=500 DO_H=2400
-	     DO_M=80
+	     DO_M=100
 		 
-         ZLOZONY_LIMIT = 'OK_R1_VIS_STUBLINA_80'  
-         RYSUNEK='OK_R1_VIS_STUBLINA_80.bmp'			 
+         ZLOZONY_LIMIT = 'OK_R1_VIS_STUBLINA_100'  
+         RYSUNEK='OK_R1_VIS_STUBLINA_100.bmp'			 
 		 
          OSTRZEZENIE_WARUNEK='(B/H)>1.3'
          OSTRZEZENIE_TEKST='Співвідношення ширини стулки до її висоти не повинно перевищувати 1.3'
@@ -79,66 +80,92 @@
 	  >				 		 
 		 
 	 //**************klamka******************	 
-	 ELEMENT[ N ]=<KOD=E_1001_00_X   ILOSC=1     OD_B=500  DO_B=1200 OD_H=500  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_1001_00_X   ILOSC=1     OD_B=300  DO_B=1400 OD_H=500  DO_H=2400 > 
 	 
          ////////////////////////////////////////    
-	ELEMENT[ N ]=<KOD=E_4040_20      ILOSC=1     OD_B=500  DO_B=1200 OD_H=500  DO_H=2400 DLA_PYTAN = < WARUNEK=< PYT=PMikrovent_STUBLINA ODP=PMikrovent_STUBLINA_YES >> > 
+	ELEMENT[ N ]=<KOD=E_4040_20      ILOSC=1     OD_B=300  DO_B=1400 OD_H=500  DO_H=2400 DLA_PYTAN = < WARUNEK=< PYT=PMikrovent_STUBLINA ODP=PMikrovent_STUBLINA_YES >> > 
          ////////////////////////////////////////    
 
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=500  DO_H=1400 > 
-	 ELEMENT[ N ]=<KOD=E_2022_00_X	 ILOSC=2     OD_B=500  DO_B=900  OD_H=500  DO_H=1400 > 
-         ////////////////////////////////////////                                      
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=500  DO_H=1400 > 
-	 ELEMENT[ N ]=<KOD=E_2022_00_X	 ILOSC=3     OD_B=900  DO_B=1100 OD_H=500  DO_H=1400 > 
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=300  DO_B=900  OD_H=500  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_2022_00_X	 ILOSC=2     OD_B=300  DO_B=900  OD_H=500  DO_H=900 > 
+         ////////////////////////////////////////                                   
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=500  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_2022_00_X	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=500  DO_H=900 > 
+         ////////////////////////////////////////                                  
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=500  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=1200 DO_B=1400 OD_H=500  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=500  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=500  DO_H=900 > 	 
+	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=500  DO_H=900 > 
          ////////////////////////////////////////    
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=500  DO_H=1400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=500  DO_H=1400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=500  DO_H=1400 > 	 
-	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=4     OD_B=1100 DO_B=1200 OD_H=500  DO_H=1400 > 
+         ////////////////////////////////////////  
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=300  DO_B=900  OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=1     OD_B=300  DO_B=900  OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=300  DO_B=900  OD_H=900  DO_H=1300 > 	 
+	 ELEMENT[ N ]=<KOD=E_2022_00_X	 ILOSC=3     OD_B=300  DO_B=900  OD_H=900  DO_H=1300 > 
+         ////////////////////////////////////////                                  
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=3     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 	 
+	 ELEMENT[ N ]=<KOD=E_2022_00_X	 ILOSC=3     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 
+         ////////////////////////////////////////                                   
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=5     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=3     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 	 
+	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=3     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 
+         ////////////////////////////////////////    
+         //////////////////////////////////////// 		 
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=300  DO_B=900  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=300  DO_B=900  OD_H=1300  DO_H=1800 > 	
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=300  DO_B=900  OD_H=1300  DO_H=1800 > 	 	 
+	 ELEMENT[ N ]=<KOD=E_2022_00_X	 ILOSC=3     OD_B=300  DO_B=900  OD_H=1300  DO_H=1800 > 
+         ////////////////////////////////////////                               
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 	 
+	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=3     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 	 
+         ////////////////////////////////////////                              
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=6     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=4     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 	 	 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 	 
+	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=3     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 
          ////////////////////////////////////////    
          ////////////////////////////////////////                                      
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1400  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1400  DO_H=1800 > 	 
-	 ELEMENT[ N ]=<KOD=E_2022_00_X	 ILOSC=3     OD_B=500  DO_B=900  OD_H=1400  DO_H=1800 > 
-         ////////////////////////////////////////                                 
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=1400  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=1400  DO_H=1800 > 	 
-	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=3     OD_B=900  DO_B=1100 OD_H=1400  DO_H=1800 > 	 
-         ////////////////////////////////////////                                
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=1400  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=1400  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=1400  DO_H=1800 > 	 
-	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=1400  DO_H=1800 > 	 
-	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=4     OD_B=1100 DO_B=1200 OD_H=1400  DO_H=1800 > 
-         ////////////////////////////////////////    
-         ////////////////////////////////////////                                      
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1800  DO_H=2100 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=500  DO_B=900  OD_H=1800  DO_H=2100 > 	 
-	 ELEMENT[ N ]=<KOD=E_2022_00_X	 ILOSC=3     OD_B=500  DO_B=900  OD_H=1800  DO_H=2100 > 
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=300  DO_B=900  OD_H=1800  DO_H=2100 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=300  DO_B=900  OD_H=1800  DO_H=2100 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=300  DO_B=900  OD_H=1800  DO_H=2100 > 	 	 
+	 ELEMENT[ N ]=<KOD=E_2022_00_X	 ILOSC=4     OD_B=300  DO_B=900  OD_H=1800  DO_H=2100 > 
          ////////////////////////////////////////                   
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=1800  DO_H=2100 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=900  DO_B=1100 OD_H=1800  DO_H=2100 > 	 
-	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=4     OD_B=900  DO_B=1100 OD_H=1800  DO_H=2100 > 
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2100 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2100 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2100 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2100 > 	 	 
+	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=4     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2100 > 
          ////////////////////////////////////////                 
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=1800  DO_H=2100 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=1800  DO_H=2100 > 	 	 
-	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=1800  DO_H=2100 > 
-	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=1800  DO_H=2100 > 	 
-	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=4     OD_B=1100 DO_B=1200 OD_H=1800  DO_H=2100 > 
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2100 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=6     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2100 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2100 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=4     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2100 > 	 	 
+	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=4     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2100 > 
          ////////////////////////////////////////    
          ////////////////////////////////////////                                      
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=2100  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=500  DO_B=900  OD_H=2100  DO_H=2400 > 	 
-	 ELEMENT[ N ]=<KOD=E_2022_00_X	 ILOSC=4     OD_B=500  DO_B=900  OD_H=2100  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=300  DO_B=900  OD_H=2100  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=300  DO_B=900  OD_H=2100  DO_H=2400 > 	
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=300  DO_B=900  OD_H=2100  DO_H=2400 > 	 	 
+	 ELEMENT[ N ]=<KOD=E_2011_00_X	 ILOSC=4     OD_B=300  DO_B=900  OD_H=2100  DO_H=2400 > 
          ////////////////////////////////////////                      
 	 	 
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-H/4-21'      OD_B=500  DO_B=1200 OD_H=500  DO_H=1800 >                        
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-WYS_KLAMKI-57'    OD_B=500  DO_B=1200 OD_H=500  DO_H=1800 > 
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='B/2-114'                OD_B=1100 DO_B=1200 OD_H=500  DO_H=1800 > 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-H/4-21'      OD_B=300  DO_B=900  OD_H=500  DO_H=2400 >                        
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-WYS_KLAMKI-57'    OD_B=300  DO_B=900  OD_H=500  DO_H=2400 > 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='B/2-157'                OD_B=900  DO_B=1200 OD_H=500  DO_H=2100 > 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='2*B/3-157'              OD_B=1200 DO_B=1400 OD_H=500  DO_H=2100 > 
 	 	 
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-100'         OD_B=500  DO_B=1200 OD_H=1800 DO_H=2400 >                        
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H-WYS_KLAMKI-100'       OD_B=500  DO_B=1200 OD_H=1800 DO_H=2400 > 
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='B/2-114'                OD_B=1100 DO_B=1200 OD_H=1800 DO_H=2400 > 	    	 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-196'         OD_B=900  DO_B=1400 OD_H=500  DO_H=2100 >                        
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H-WYS_KLAMKI-196'       OD_B=900  DO_B=1400 OD_H=500  DO_H=2100 > 
       >
 
 
@@ -147,7 +174,7 @@
 
    GRUPA[OK_R1_HID_STUBLINA_95]=
       <
-         NAZWA='STUBLINA - Фурнітура П (прихована, 95кг)'
+         NAZWA='STUBLINA - Фурнітура П (прихована, 80кг)'
          OPIS='Фурнітура для поворотного вікна STUBLINA. Натисніть кнопку: "Вибрати"'
          RODZAJ=OKUCIE_ROZWIERANE
 
@@ -156,7 +183,7 @@
       >	
     GRUPA[OK_R2_HID_STUBLINA_95]=
       <
-         NAZWA='STUBLINA - Фурнітура П (прихована, 95кг) [Активна]'
+         NAZWA='STUBLINA - Фурнітура П (прихована, 80кг) [Активна]'
          OPIS='Фурнітура для П стулки для 2-х стулкового вікна зі штульпом STUBLINA. Натисніть кнопку: "Вибрати"'
          RODZAJ=OKUCIE_ROZWIERANE_RP 
 		
@@ -182,17 +209,18 @@
 	  
          WAZNOSC_OKUCIA=80
 		 
-         ZLOZONY_LIMIT = 'OK_R1_HID_STUBLINA_95'  
-         RYSUNEK='OK_R1_HID_STUBLINA_95.bmp'			 
+         ZLOZONY_LIMIT = 'OK_R1_HID_STUBLINA_80'  
+         RYSUNEK='OK_R1_HID_STUBLINA_80.bmp'			 
 		 
          GDY_WARIANT_SKRZYDLA=[WAR_W77]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]			 
 
-         WYMIAR_OKUCIA = 'KLAMKA'		 
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	 	 
          
-         OD_B=500 DO_B=1200
-         OD_H=500 DO_H=2400
-	     DO_M=95
+         OD_B=500 DO_B=1600
+         OD_H=600 DO_H=2400
+	     DO_M=80
 		 
          OSTRZEZENIE_WARUNEK='(B/H)>1.3'
          OSTRZEZENIE_TEKST='Співвідношення ширини стулки до її висоти не повинно перевищувати 1.3'
@@ -226,73 +254,94 @@
 	  >				 		 
 		 	 
 	 //**************klamka******************	 
-	 ELEMENT[ N ]=<KOD=E_1001_00_X   ILOSC=1     OD_B=500  DO_B=1200 OD_H=500  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_1001_00_X   ILOSC=1     OD_B=500  DO_B=1600 OD_H=600  DO_H=2400 > 
 	 
          ////////////////////////////////////////    
-	ELEMENT[ N ]=<KOD=E_4040_20      ILOSC=1     OD_B=500  DO_B=1200 OD_H=500  DO_H=2400 DLA_PYTAN = < WARUNEK=< PYT=PMikrovent_STUBLINA ODP=PMikrovent_STUBLINA_YES >> > 
+	 ELEMENT[ N ]=<KOD=E_4040_20     ILOSC=1     OD_B=500  DO_B=1600 OD_H=600  DO_H=2400 DLA_PYTAN = < WARUNEK=< PYT=PMikrovent_STUBLINA ODP=PMikrovent_STUBLINA_YES >> > 
          ////////////////////////////////////////    
 
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=500  DO_H=1400 > 
-	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=500  DO_H=1400 > 	 
-         ////////////////////////////////////////                                      
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=500  DO_H=1400 > 
-	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=500  DO_H=1400 > 
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=600  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=600  DO_H=900 > 	 
+         ////////////////////////////////////////                                    
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1300 OD_H=600  DO_H=900 >
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=900  DO_B=1300 OD_H=600  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=900  DO_B=1300 OD_H=600  DO_H=900 > 	 
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=900  DO_B=1300 OD_H=600  DO_H=900 > 
+         ////////////////////////////////////////                                   
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1300 DO_B=1600 OD_H=600  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=1300 DO_B=1600 OD_H=600  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1300 DO_B=1600 OD_H=600  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=1300 DO_B=1600 OD_H=600  DO_H=900 > 	 
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=2     OD_B=1300 DO_B=1600 OD_H=600  DO_H=900 > 
          ////////////////////////////////////////    
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=500  DO_H=1400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=500  DO_H=1400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=500  DO_H=1400 > 	 
-	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=500  DO_H=1400 > 
+         ////////////////////////////////////////      
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=1     OD_B=500  DO_B=900  OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=500  DO_B=900  OD_H=900  DO_H=1300 >  		 
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=900  DO_H=1300 >  	 
+         ////////////////////////////////////////                                   
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1300 OD_H=900  DO_H=1300 >
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=3     OD_B=900  DO_B=1300 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=900  DO_B=1300 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=900  DO_B=1300 OD_H=900  DO_H=1300 > 	 	 
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=900  DO_B=1300 OD_H=900  DO_H=1300 > 
+         ////////////////////////////////////////                                   
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1300 DO_B=1600 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=5     OD_B=1300 DO_B=1600 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1300 DO_B=1600 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=3     OD_B=1300 DO_B=1600 OD_H=900  DO_H=1300 > 	 
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=1300 DO_B=1600 OD_H=900  DO_H=1300 > 
          ////////////////////////////////////////    
-         ////////////////////////////////////////                                      
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1400  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1400  DO_H=1800 > 	 
-	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1400  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1400  DO_H=1800 > 
-         ////////////////////////////////////////                                 
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=1400  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=1400  DO_H=1800 > 	 
-	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=1400  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=1400  DO_H=1800 > 
+         ////////////////////////////////////////   
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=500  DO_B=900  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=500  DO_B=900  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1300  DO_H=1800 > 
          ////////////////////////////////////////                                
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=1400  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=1400  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=1400  DO_H=1800 > 	 
-	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=1400  DO_H=1800 > 	 
-	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=1400  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=1400  DO_H=1800 > 	 
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1300 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=900  DO_B=1300 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=900  DO_B=1300 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=900  DO_B=1300 OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=900  DO_B=1300 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=1     OD_B=900  DO_B=1300 OD_H=1300  DO_H=1800 > 
+         ////////////////////////////////////////                               
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1300 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=6     OD_B=1300 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1300 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=4     OD_B=1300 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=1300 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=1     OD_B=1300 DO_B=1600 OD_H=1300  DO_H=1800 > 	 
          ////////////////////////////////////////    
          ////////////////////////////////////////                                      
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1800  DO_H=2100 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=500  DO_B=900  OD_H=1800  DO_H=2100 > 	 
-	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1800  DO_H=2100 > 
-	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=2     OD_B=500  DO_B=900  OD_H=1800  DO_H=2100 > 	 
-         ////////////////////////////////////////                   
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=1800  DO_H=2100 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=900  DO_B=1100 OD_H=1800  DO_H=2100 > 	 
-	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=900  DO_B=1100 OD_H=1800  DO_H=2100 > 
-	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=2     OD_B=900  DO_B=1100 OD_H=1800  DO_H=2100 > 
-         ////////////////////////////////////////                 
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=1800  DO_H=2100 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=1800  DO_H=2100 > 	 	 
-	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=1800  DO_H=2100 > 
-	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=1800  DO_H=2100 > 	 
-	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=1100 DO_B=1200 OD_H=1800  DO_H=2100 > 
-	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=2     OD_B=1100 DO_B=1200 OD_H=1800  DO_H=2100 > 
-         ////////////////////////////////////////    
-         ////////////////////////////////////////                                      
-	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=2100  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=500  DO_B=900  OD_H=2100  DO_H=2400 > 	 
-	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=2100  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=2     OD_B=500  DO_B=900  OD_H=2100  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=500  DO_B=900  OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=500  DO_B=900  OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=1     OD_B=500  DO_B=900  OD_H=1800  DO_H=2400 > 
+         ////////////////////////////////////////                    
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=900  DO_B=1300 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=900  DO_B=1300 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=900  DO_B=1300 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=900  DO_B=1300 OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=900  DO_B=1300 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=2     OD_B=900  DO_B=1300 OD_H=1800  DO_H=2400 > 
+         ////////////////////////////////////////                      
+	 ELEMENT[ N ]=<KOD=E_4004_00	 ILOSC=1     OD_B=1300 DO_B=1600 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=6     OD_B=1300 DO_B=1600 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_20	 ILOSC=2     OD_B=1300 DO_B=1600 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=4     OD_B=1300 DO_B=1600 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_2101_00	 ILOSC=1     OD_B=1300 DO_B=1600 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4045_00	 ILOSC=2     OD_B=1300 DO_B=1600 OD_H=1800  DO_H=2400 > 	
          ////////////////////////////////////////                      
 	 	 
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-H/4-21'      OD_B=500  DO_B=1200 OD_H=500  DO_H=1800 >                        
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-WYS_KLAMKI-57'    OD_B=500  DO_B=1200 OD_H=500  DO_H=1800 > 
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='B/2-114'                OD_B=1100 DO_B=1200 OD_H=500  DO_H=1800 > 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-H/4-21'      OD_B=500  DO_B=900  OD_H=600  DO_H=2400 >                        
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-WYS_KLAMKI-57'    OD_B=500  DO_B=900  OD_H=600  DO_H=2400 > 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='B/2-157'                OD_B=900  DO_B=1300 OD_H=600  DO_H=2400 > 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='2*B/3-157'              OD_B=1300 DO_B=1600 OD_H=600  DO_H=2400 > 
 	 	 
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-100'         OD_B=500  DO_B=1200 OD_H=1800 DO_H=2400 >                        
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H-WYS_KLAMKI-100'       OD_B=500  DO_B=1200 OD_H=1800 DO_H=2400 > 
-     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='B/2-114'                OD_B=1100 DO_B=1200 OD_H=1800 DO_H=2400 > 	    	 
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-196'         OD_B=900  DO_B=1600 OD_H=600  DO_H=2400 >                        
+     ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H-WYS_KLAMKI-196'       OD_B=900  DO_B=1600 OD_H=600  DO_H=2400 >     	 
       >
 	  
 	  
@@ -303,7 +352,7 @@
 
 	  GRUPA[OK_UR1_VIS_STUBLINA_150]=
       <    	  
-      NAZWA='STUBLINA - Фурнітура вікна ПВ (видима, 150кг)'  
+      NAZWA='STUBLINA - Фурнітура вікна ПВ (видима, 100кг)'  
       OPIS='Фурнітура для поворотно-ухильні вікна STUBLINA. Натисніть кнопку: "Вибрати"'
       RODZAJ=OKUCIE_UR
 	  
@@ -329,17 +378,19 @@
       GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]	
 	  
       OD_B=445 DO_B=1600
-      OD_H=450 DO_H=2400
+      OD_H=465 DO_H=2400
+	  DO_M=100	  
 
       WAZNOSC_OKUCIA=80	  
 	  
-      ZLOZONY_LIMIT = 'OK_UR1_VIS_STUBLINA_150'  
-      RYSUNEK='OK_UR1_VIS_STUBLINA_150.bmp'			  
+      ZLOZONY_LIMIT = 'OK_UR1_VIS_STUBLINA_100'  
+      RYSUNEK='OK_UR1_VIS_STUBLINA_100.bmp'			  
 	  	  
       OSTRZEZENIE_WARUNEK='(B/H)>1.3'
       OSTRZEZENIE_TEKST='Соотношение B/H должно быть меньше 1.3'
 	  
-      WYMIAR_OKUCIA = 'KLAMKA'	
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	 
 
     //******** KLAMKI ZEWN *****
 
@@ -371,72 +422,128 @@
 	  
 	  //**************klamka******************	 	
          ////////////////////////////////////////    
-	ELEMENT[ N ]=<KOD=E_4010_60      ILOSC=1     OD_B=445  DO_B=1600 OD_H=450  DO_H=2400 DLA_PYTAN = < WARUNEK=< PYT=PMikrovent_STUBLINA ODP=PMikrovent_STUBLINA_YES >> > 
+	ELEMENT[ N ]=<KOD=E_4010_60      ILOSC=1     OD_B=445  DO_B=1600 OD_H=465  DO_H=2400 DLA_PYTAN = < WARUNEK=< PYT=PMikrovent_STUBLINA ODP=PMikrovent_STUBLINA_YES >> > 
          ////////////////////////////////////////    
 
-	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=450  DO_H=1200 > 
+	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=465  DO_H=900 > 
       ////////////////////////////////////////                             
-	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=1200 OD_H=450  DO_H=1200 > 
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=900  OD_H=465  DO_H=900 > 
       ////////////////////////////////////////                             
-	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=450  DO_H=1200 > 
-	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=450  DO_H=1200 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=450  DO_H=1200 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=450  DO_H=1200 > 
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=465  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=465  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=465  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=465  DO_H=900 > 	 
       ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=465  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=465  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=465  DO_H=900 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=465  DO_H=900 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=465  DO_H=900 > 
       ////////////////////////////////////////                             
+      ////////////////////////////////////////  
+
+	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=900  DO_H=1300 >
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=1     OD_B=445  DO_B=535  OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=445  DO_B=535  OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=445  DO_B=535  OD_H=900  DO_H=1300 > 	 
+      ////////////////////////////////////////                 
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=900  OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=1     OD_B=535  DO_B=900  OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=535  DO_B=900  OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=535  DO_B=900  OD_H=900  DO_H=1300 >  		 
+      ////////////////////////////////////////                   
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 	 
+      ////////////////////////////////////////                   
+	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 	 
+      ////////////////////////////////////////                   
+	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=4     OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 	 	 	 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////     	  
 	  
-	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=445  DO_B=535  OD_H=1200  DO_H=1800 > 
-      ////////////////////////////////////////                         
-	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=1200 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=1     OD_B=535  DO_B=1200 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=535  DO_B=1200 OD_H=1200  DO_H=1800 > 
-      ////////////////////////////////////////                         
-	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=4     OD_B=1200 DO_B=1400 OD_H=1200  DO_H=1800 > 
-      ////////////////////////////////////////                         
-	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=2     OD_B=1400 DO_B=1600 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=4     OD_B=1400 DO_B=1600 OD_H=1200  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1300  DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=3     OD_B=445  DO_B=535  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=3     OD_B=445  DO_B=535  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1300  DO_H=1800 > 	 
+      ////////////////////////////////////////                      
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=900  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=3     OD_B=535  DO_B=900  OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=3     OD_B=535  DO_B=900  OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=535  DO_B=900  OD_H=1300  DO_H=1800 >  		 
+      ////////////////////////////////////////                      
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=4     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 	 
+      ////////////////////////////////////////                   
+	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=4     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 	 
+      ////////////////////////////////////////             
+	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=6     OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=6     OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 	 	 	 
       ////////////////////////////////////////                             
-      ////////////////////////////////////////         	  
+      ////////////////////////////////////////     	       	  
 	  
-	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=4     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 
-      ////////////////////////////////////////                    
-	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=1200 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=1     OD_B=535  DO_B=1200 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=4     OD_B=535  DO_B=1200 OD_H=1800  DO_H=2400 > 
-      ////////////////////////////////////////                       
+	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 >
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=5     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=5     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 	 
+      ////////////////////////////////////////                     
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=900  OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=5     OD_B=535  DO_B=900  OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=5     OD_B=535  DO_B=900  OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=535  DO_B=900  OD_H=1800  DO_H=2400 >  		 
+      ////////////////////////////////////////                        
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=6     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=6     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2400 > 	 
+      ////////////////////////////////////////                      
 	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 
 	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=6     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 
-      ////////////////////////////////////////              
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=6     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=6     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 	 
+      ////////////////////////////////////////                 
 	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
 	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=2     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=6     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=8     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=8     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 	 	 	 
       ////////////////////////////////////////                             
-      ////////////////////////////////////////  	      
+      ////////////////////////////////////////   	      
 
       ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-201'                            >
       ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-196'                        >
 	  
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-378'                 OD_B=445  DO_B=535  OD_H=450  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-468'                 OD_B=535  DO_B=1200 OD_H=450  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-938'                 OD_B=1200 DO_B=1600 OD_H=450  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='128'                   OD_B=1200 DO_B=1600 OD_H=450  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-114'               OD_B=1200 DO_B=1600 OD_H=450  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-378'                 OD_B=445  DO_B=535  OD_H=465  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-468'                 OD_B=535  DO_B=1200 OD_H=465  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-938'                 OD_B=1200 DO_B=1600 OD_H=465  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='128'                   OD_B=1200 DO_B=1600 OD_H=465  DO_H=2400 >
 	  
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-150'               OD_B=535  DO_B=1600 OD_H=1200 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-157'               OD_B=1200 DO_B=1400 OD_H=465  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*B/3-157'             OD_B=1400 DO_B=1600 OD_H=465  DO_H=2400 >	  
 	  
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-120'             OD_B=535  DO_B=1600 OD_H=1800 DO_H=2400 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-193'               OD_B=535  DO_B=1600 OD_H=900  DO_H=1300 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-180'             OD_B=535  DO_B=1600 OD_H=1300 DO_H=1800 >	  
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-180'             OD_B=535  DO_B=1600 OD_H=1800 DO_H=2400 >	  
       >
 
 
@@ -467,7 +574,8 @@
       GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]	  
 
       OD_B=445 DO_B=1600
-      OD_H=450 DO_H=2400
+      OD_H=465 DO_H=2400
+	  DO_M=150
 
       WAZNOSC_OKUCIA=80	  
 	  
@@ -477,8 +585,9 @@
       OSTRZEZENIE_WARUNEK='(B/H)>1.3'
       OSTRZEZENIE_TEKST='Соотношение B/H должно быть меньше 1.3'
 	  
-      WYMIAR_OKUCIA = 'KLAMKA'	
-
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	 
+		 
     //******** KLAMKI ZEWN *****
 
       ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
@@ -507,73 +616,130 @@
 	  DLA_WIDOKU=1
 	  >		
 	  
+	  //**************klamka******************	 	
          ////////////////////////////////////////    
-	ELEMENT[ N ]=<KOD=E_4010_60      ILOSC=1     OD_B=445  DO_B=1600 OD_H=450  DO_H=2400 DLA_PYTAN = < WARUNEK=< PYT=PMikrovent_STUBLINA ODP=PMikrovent_STUBLINA_YES >> > 
+	ELEMENT[ N ]=<KOD=E_4010_60      ILOSC=1     OD_B=445  DO_B=1600 OD_H=465  DO_H=2400 DLA_PYTAN = < WARUNEK=< PYT=PMikrovent_STUBLINA ODP=PMikrovent_STUBLINA_YES >> > 
          ////////////////////////////////////////    
 
-	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=450  DO_H=1200 > 
+	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=465  DO_H=900 > 
       ////////////////////////////////////////                             
-	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=1200 OD_H=450  DO_H=1200 > 
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=900  OD_H=465  DO_H=900 > 
       ////////////////////////////////////////                             
-	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=450  DO_H=1200 > 
-	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=450  DO_H=1200 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=450  DO_H=1200 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=450  DO_H=1200 > 
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=465  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=465  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=465  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=465  DO_H=900 > 	 
       ////////////////////////////////////////                             
+	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=465  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=465  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=465  DO_H=900 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=465  DO_H=900 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=465  DO_H=900 > 
       ////////////////////////////////////////                             
+      ////////////////////////////////////////  
+
+	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=900  DO_H=1300 >
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=1     OD_B=445  DO_B=535  OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=445  DO_B=535  OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=445  DO_B=535  OD_H=900  DO_H=1300 > 	 
+      ////////////////////////////////////////                 
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=900  OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=1     OD_B=535  DO_B=900  OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=1     OD_B=535  DO_B=900  OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=535  DO_B=900  OD_H=900  DO_H=1300 >  		 
+      ////////////////////////////////////////                   
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=900  DO_H=1300 > 	 
+      ////////////////////////////////////////                   
+	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=900  DO_H=1300 > 	 
+      ////////////////////////////////////////                   
+	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=4     OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 	 	 	 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////     	  
 	  
-	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=3     OD_B=445  DO_B=535  OD_H=1200  DO_H=1800 > 
-      ////////////////////////////////////////                         
-	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=1200 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=1     OD_B=535  DO_B=1200 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=3     OD_B=535  DO_B=1200 OD_H=1200  DO_H=1800 > 
-      ////////////////////////////////////////                         
-	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=4     OD_B=1200 DO_B=1400 OD_H=1200  DO_H=1800 > 
-      ////////////////////////////////////////                         
-	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=2     OD_B=1400 DO_B=1600 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=4     OD_B=1400 DO_B=1600 OD_H=1200  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1300  DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=3     OD_B=445  DO_B=535  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=3     OD_B=445  DO_B=535  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1300  DO_H=1800 > 	 
+      ////////////////////////////////////////                      
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=900  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=3     OD_B=535  DO_B=900  OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=3     OD_B=535  DO_B=900  OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=535  DO_B=900  OD_H=1300  DO_H=1800 >  		 
+      ////////////////////////////////////////                      
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=4     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=1300  DO_H=1800 > 	 
+      ////////////////////////////////////////                   
+	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=4     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=4     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=1300  DO_H=1800 > 	 
+      ////////////////////////////////////////             
+	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=6     OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=6     OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 	 	 	 
       ////////////////////////////////////////                             
-      ////////////////////////////////////////         	  
+      ////////////////////////////////////////     	       	  
 	  
-	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=4     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 
-      ////////////////////////////////////////                    
-	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=1200 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=1     OD_B=535  DO_B=1200 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=4     OD_B=535  DO_B=1200 OD_H=1800  DO_H=2400 > 
-      ////////////////////////////////////////                       
+	 ELEMENT[ N ]=<KOD=E_4036_00_X	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 >
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=5     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=5     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=445  DO_B=535  OD_H=1800  DO_H=2400 > 	 
+      ////////////////////////////////////////                     
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=535  DO_B=900  OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=5     OD_B=535  DO_B=900  OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=5     OD_B=535  DO_B=900  OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=1     OD_B=535  DO_B=900  OD_H=1800  DO_H=2400 >  		 
+      ////////////////////////////////////////                        
+	 ELEMENT[ N ]=<KOD=E_4035_00_X	 ILOSC=1     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=6     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=6     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=900  DO_B=1200 OD_H=1800  DO_H=2400 > 	 
+      ////////////////////////////////////////                      
 	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 
 	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=6     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 
-      ////////////////////////////////////////              
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=6     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=6     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1200 DO_B=1400 OD_H=1800  DO_H=2400 > 	 
+      ////////////////////////////////////////                 
 	 ELEMENT[ N ]=<KOD=E_4037_00_X	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
 	 ELEMENT[ N ]=<KOD=E_4010_50	 ILOSC=1     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_28	 ILOSC=2     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4003_00	 ILOSC=6     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03	 ILOSC=8     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 	 
+	 ELEMENT[ N ]=<KOD=E_4010_27	 ILOSC=8     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_40	 ILOSC=2     OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 	 	 	 
       ////////////////////////////////////////                             
-      ////////////////////////////////////////  	      
+      ////////////////////////////////////////   	      
 
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-196'                            >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-201'                        >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-201'                            >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-196'                        >
 	  
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-378'                 OD_B=445  DO_B=535  OD_H=450  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-468'                 OD_B=535  DO_B=1200 OD_H=450  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-938'                 OD_B=1200 DO_B=1600 OD_H=450  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='128'                   OD_B=1200 DO_B=1600 OD_H=450  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-104'               OD_B=1200 DO_B=1600 OD_H=450  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-378'                 OD_B=445  DO_B=535  OD_H=465  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-468'                 OD_B=535  DO_B=1200 OD_H=465  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-938'                 OD_B=1200 DO_B=1600 OD_H=465  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='128'                   OD_B=1200 DO_B=1600 OD_H=465  DO_H=2400 >
 	  
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-150'               OD_B=535  DO_B=1600 OD_H=1200 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-157'               OD_B=1200 DO_B=1400 OD_H=465  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*B/3-157'             OD_B=1400 DO_B=1600 OD_H=465  DO_H=2400 >	  
 	  
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-120'             OD_B=535  DO_B=1600 OD_H=1800 DO_H=2400 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-193'               OD_B=535  DO_B=1600 OD_H=900  DO_H=1300 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-180'             OD_B=535  DO_B=1600 OD_H=1300 DO_H=1800 >	  
+	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-180'             OD_B=535  DO_B=1600 OD_H=1800 DO_H=2400 >	  
       >
 
 
@@ -589,6 +755,8 @@
 
          FILTR_NAZWA        = 'Виробник'
          FILTR_WARTOSC      = 'STUBLINA'	
+		 
+		 DO_M=150		 
 		 
   	    PYTANIA=
           <
@@ -606,13 +774,15 @@
 
     GRUPA[OK_UR2_HID_STUBLINA_150]=
       <
-         NAZWA='STUBLINA - Фурнітура вікна ПВ (прихована, 180кг) [Активна]' 
+         NAZWA='STUBLINA - Фурнітура вікна ПВ (прихована, 100кг) [Активна]' 
          OPIS='Фурнітура для ПВ стулки для 2-х стул. вікна для шт. STUBLINA. Натисніть кнопку: "Вибрати"'
          RODZAJ=OKUCIE_UR_RP
 		 ZAMIEN_OKUCIE_W_BIERNYM_SKRZYDLE = OK_R3_HID_STUBLINA_150	
 
          FILTR_NAZWA        = 'Виробник'
          FILTR_WARTOSC      = 'STUBLINA'	
+		 
+		 DO_M=100
 		 
   	    PYTANIA=
           <
@@ -644,8 +814,9 @@
       OSTRZEZENIE_WARUNEK='(B/H)>1.3'
       OSTRZEZENIE_TEKST='Соотношение B/H должно быть меньше 1.3'
 	  
-      WYMIAR_OKUCIA = 'KLAMKA'	
-
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	 
+		 
     //******** KLAMKI ZEWN *****
 
       ELEMENT[ N ]=<KOD=E_BRAK_KLAMKA   ILOSC=1     
@@ -681,98 +852,205 @@
 	 ELEMENT[ N ]=<KOD=E_4010_60      ILOSC=1     OD_B=505  DO_B=1600 OD_H=600  DO_H=2400 DLA_PYTAN = < WARUNEK=< PYT=PMikrovent_STUBLINA ODP=PMikrovent_STUBLINA_YES >> > 
          ////////////////////////////////////////  
 
-	 ELEMENT[ N ]=<KOD=E_4116_30R ILOSC=1    OD_B=505  DO_B=583  OD_H=600  DO_H=1200 STRONA_ZK=STRONA_PRAWA>	 
-	 ELEMENT[ N ]=<KOD=E_4116_30L ILOSC=1    OD_B=505  DO_B=583  OD_H=600  DO_H=1200 STRONA_ZK=STRONA_LEWA>	 	 	 	 
-	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=505  DO_B=583  OD_H=600  DO_H=1200 > 
-	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=505  DO_B=583  OD_H=600  DO_H=1200 >  
-
-      ////////////////////////////////////////                                
-	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=583  DO_B=1200 OD_H=600  DO_H=1200 STRONA_ZK=STRONA_PRAWA>	 
-	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=583  DO_B=1200 OD_H=600  DO_H=1200 STRONA_ZK=STRONA_LEWA>	 	 	 	 
-	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=583  DO_B=1200 OD_H=600  DO_H=1200 > 
-	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=583  DO_B=1200 OD_H=600  DO_H=1200 >  
-
-      ////////////////////////////////////////                                
-	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=1200 DO_B=1400 OD_H=600  DO_H=1200 STRONA_ZK=STRONA_PRAWA>	 
-	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=1200 DO_B=1400 OD_H=600  DO_H=1200 STRONA_ZK=STRONA_LEWA>	 	 	 	 
-	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=1200 DO_B=1400 OD_H=600  DO_H=1200 > 
-	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=1200 DO_B=1400 OD_H=600  DO_H=1200 >  	  
-	 ELEMENT[ N ]=<KOD=E_4010_50  ILOSC=1	 OD_B=1200 DO_B=1400 OD_H=600  DO_H=1200 >  	 
-	 ELEMENT[ N ]=<KOD=E_4010_28  ILOSC=1	 OD_B=1200 DO_B=1400 OD_H=600  DO_H=1200 >  	 
-	 ELEMENT[ N ]=<KOD=E_4003_00  ILOSC=2	 OD_B=1200 DO_B=1400 OD_H=600  DO_H=1200 >  	 
+	 ELEMENT[ N ]=<KOD=E_4116_30R ILOSC=1    OD_B=505  DO_B=583  OD_H=600  DO_H=900 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4116_30L ILOSC=1    OD_B=505  DO_B=583  OD_H=600  DO_H=900 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=505  DO_B=583  OD_H=600  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=505  DO_B=583  OD_H=600  DO_H=900 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=1	 OD_B=505  DO_B=583  OD_H=600  DO_H=900 >
+	 
+      ////////////////////////////////////////  	  
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=583  DO_B=900  OD_H=600  DO_H=900 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=583  DO_B=900  OD_H=600  DO_H=900 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=583  DO_B=900  OD_H=600  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=583  DO_B=900  OD_H=600  DO_H=900 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=1	 OD_B=583  DO_B=900  OD_H=600  DO_H=900 >  
+	 
+      ////////////////////////////////////////                               																																						      ////////////////////////////////////////                              
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=900  DO_B=1250 OD_H=600  DO_H=900 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=900  DO_B=1250 OD_H=600  DO_H=900 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=900  DO_B=1250 OD_H=600  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=900  DO_B=1250 OD_H=600  DO_H=900 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=2	 OD_B=900  DO_B=1250 OD_H=600  DO_H=900 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=1	 OD_B=900  DO_B=1250 OD_H=600  DO_H=900 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=1	 OD_B=900  DO_B=1250 OD_H=600  DO_H=900 >  
+	 
+      ////////////////////////////////////////        	  
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=1250 DO_B=1400 OD_H=600  DO_H=900 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=1250 DO_B=1400 OD_H=600  DO_H=900 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=600  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=600  DO_H=900 >  	  
+	 ELEMENT[ N ]=<KOD=E_4010_50  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=600  DO_H=900 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=2	 OD_B=1250 DO_B=1400 OD_H=600  DO_H=900 >  	  	 
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=600  DO_H=900 >  	 
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=600  DO_H=900 >  	 
 
       ////////////////////////////////////////   	 
-      ////////////////////////////////////////   
+      ////////////////////////////////////////  
 
-	 ELEMENT[ N ]=<KOD=E_4116_30R ILOSC=1    OD_B=505  DO_B=583  OD_H=1200  DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
-	 ELEMENT[ N ]=<KOD=E_4116_30L ILOSC=1    OD_B=505  DO_B=583  OD_H=1200  DO_H=1800 STRONA_ZK=STRONA_LEWA>	 	 	 	 
-	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=505  DO_B=583  OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=505  DO_B=583  OD_H=1200  DO_H=1800 >  	 
-	 ELEMENT[ N ]=<KOD=E_4010_28  ILOSC=1	 OD_B=505  DO_B=583  OD_H=1200  DO_H=1800 >  
-	 ELEMENT[ N ]=<KOD=E_4003_00  ILOSC=2	 OD_B=505  DO_B=583  OD_H=1200  DO_H=1800 >  
-																				  
-      ////////////////////////////////////////                                    
-	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=583  DO_B=1200 OD_H=1200  DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
-	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=583  DO_B=1200 OD_H=1200  DO_H=1800 STRONA_ZK=STRONA_LEWA>	 	 	 	 
-	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=583  DO_B=1200 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=583  DO_B=1200 OD_H=1200  DO_H=1800 >  
-	 ELEMENT[ N ]=<KOD=E_4010_28  ILOSC=1	 OD_B=583  DO_B=1200 OD_H=1200  DO_H=1800 >  
-	 ELEMENT[ N ]=<KOD=E_4003_00  ILOSC=2	 OD_B=583  DO_B=1200 OD_H=1200  DO_H=1800 >  
-																  
-      ////////////////////////////////////////                                    
-	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=1200 DO_B=1600 OD_H=1200  DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
-	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=1200 DO_B=1600 OD_H=1200  DO_H=1800 STRONA_ZK=STRONA_LEWA>	 	 	 	 
-	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=1200 DO_B=1600 OD_H=1200  DO_H=1800 > 
-	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=1200 DO_B=1600 OD_H=1200  DO_H=1800 >  	  
-	 ELEMENT[ N ]=<KOD=E_4010_50  ILOSC=1	 OD_B=1200 DO_B=1600 OD_H=1200  DO_H=1800 >  	 
-	 ELEMENT[ N ]=<KOD=E_4010_28  ILOSC=2	 OD_B=1200 DO_B=1600 OD_H=1200  DO_H=1800 >  	 
-	 ELEMENT[ N ]=<KOD=E_4003_00  ILOSC=4	 OD_B=1200 DO_B=1600 OD_H=1200  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4116_30R ILOSC=1    OD_B=505  DO_B=583  OD_H=900  DO_H=1300 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4116_30L ILOSC=1    OD_B=505  DO_B=583  OD_H=900  DO_H=1300 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=505  DO_B=583  OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=505  DO_B=583  OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=2	 OD_B=505  DO_B=583  OD_H=900  DO_H=1300 >
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=1	 OD_B=505  DO_B=583  OD_H=900  DO_H=1300 >
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=1	 OD_B=505  DO_B=583  OD_H=900  DO_H=1300 >
+																
+      ////////////////////////////////////////  	                 
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=583  DO_B=900  OD_H=900  DO_H=1300 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=583  DO_B=900  OD_H=900  DO_H=1300 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=583  DO_B=900  OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=583  DO_B=900  OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=2	 OD_B=583  DO_B=900  OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=1	 OD_B=583  DO_B=900  OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=1	 OD_B=583  DO_B=900  OD_H=900  DO_H=1300 >   
+	 
+      ////////////////////////////////////////               																																					      ////////////////////////////////////////                              
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=900  DO_B=1250 OD_H=900  DO_H=1300 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=900  DO_B=1250 OD_H=900  DO_H=1300 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=900  DO_B=1250 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=900  DO_B=1250 OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=3	 OD_B=900  DO_B=1250 OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=2	 OD_B=900  DO_B=1250 OD_H=900  DO_H=1300 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=2	 OD_B=900  DO_B=1250 OD_H=900  DO_H=1300 >  
+																	
+      ////////////////////////////////////////        	
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=1250 DO_B=1400 OD_H=900  DO_H=1300 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=1250 DO_B=1400 OD_H=900  DO_H=1300 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=900  DO_H=1300 >  	  
+	 ELEMENT[ N ]=<KOD=E_4010_50  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=3	 OD_B=1250 DO_B=1400 OD_H=900  DO_H=1300 >  	  	 
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=2	 OD_B=1250 DO_B=1400 OD_H=900  DO_H=1300 >  	 
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=2	 OD_B=1250 DO_B=1400 OD_H=900  DO_H=1300 >  	 
+																	
+      ////////////////////////////////////////        	
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 >  	  
+	 ELEMENT[ N ]=<KOD=E_4010_50  ILOSC=1	 OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=1	 OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 >  	  	 
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=4	 OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 >  	 
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=2	 OD_B=1400 DO_B=1600 OD_H=900  DO_H=1300 >  	
+	 
+      ////////////////////////////////////////   	 
+      ////////////////////////////////////////   	  
 
+	 ELEMENT[ N ]=<KOD=E_4116_30R ILOSC=1    OD_B=505  DO_B=583  OD_H=1300  DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4116_30L ILOSC=1    OD_B=505  DO_B=583  OD_H=1300  DO_H=1800 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=505  DO_B=583  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=505  DO_B=583  OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=4	 OD_B=505  DO_B=583  OD_H=1300  DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=3	 OD_B=505  DO_B=583  OD_H=1300  DO_H=1800 >
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=2	 OD_B=505  DO_B=583  OD_H=1300  DO_H=1800 >
+														
+      ////////////////////////////////////////  	      
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=583  DO_B=900  OD_H=1300  DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=583  DO_B=900  OD_H=1300  DO_H=1800 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=583  DO_B=900  OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=583  DO_B=900  OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=4	 OD_B=583  DO_B=900  OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=3	 OD_B=583  DO_B=900  OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=2	 OD_B=583  DO_B=900  OD_H=1300  DO_H=1800 >   
+																
+      ////////////////////////////////////////               																														      ////////////////////////////////////////                              
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=900  DO_B=1250 OD_H=1300  DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=900  DO_B=1250 OD_H=1300  DO_H=1800 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=900  DO_B=1250 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=900  DO_B=1250 OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=5	 OD_B=900  DO_B=1250 OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=4	 OD_B=900  DO_B=1250 OD_H=1300  DO_H=1800 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=2	 OD_B=900  DO_B=1250 OD_H=1300  DO_H=1800 >  
+															
+      ////////////////////////////////////////        	       
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=1250 DO_B=1400 OD_H=1300  DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=1250 DO_B=1400 OD_H=1300  DO_H=1800 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=1300  DO_H=1800 >  	  
+	 ELEMENT[ N ]=<KOD=E_4010_50  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=5	 OD_B=1250 DO_B=1400 OD_H=1300  DO_H=1800 >  	  	 
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=4	 OD_B=1250 DO_B=1400 OD_H=1300  DO_H=1800 >  	 
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=2	 OD_B=1250 DO_B=1400 OD_H=1300  DO_H=1800 >  	 
+																
+      ////////////////////////////////////////        	       
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 >  	  
+	 ELEMENT[ N ]=<KOD=E_4010_50  ILOSC=1	 OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=7	 OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 >  	  	 
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=6	 OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 >  	 
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=2	 OD_B=1400 DO_B=1600 OD_H=1300  DO_H=1800 >  	
+	 
       ////////////////////////////////////////   	 
       ////////////////////////////////////////   
 
 	 ELEMENT[ N ]=<KOD=E_4116_30R ILOSC=1    OD_B=505  DO_B=583  OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_PRAWA>	 
 	 ELEMENT[ N ]=<KOD=E_4116_30L ILOSC=1    OD_B=505  DO_B=583  OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_LEWA>	 	 	 	 
 	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=505  DO_B=583  OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=505  DO_B=583  OD_H=1800  DO_H=2400 >  	 
-	 ELEMENT[ N ]=<KOD=E_4010_28  ILOSC=1	 OD_B=505  DO_B=583  OD_H=1800  DO_H=2400 >  
-	 ELEMENT[ N ]=<KOD=E_4003_00  ILOSC=4	 OD_B=505  DO_B=583  OD_H=1800  DO_H=2400 >  
-														 
-      ////////////////////////////////////////                                   
-	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=583  DO_B=1200 OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_PRAWA>	 
-	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=583  DO_B=1200 OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_LEWA>	 	 	 	 
-	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=583  DO_B=1200 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=583  DO_B=1200 OD_H=1800  DO_H=2400 >  
-	 ELEMENT[ N ]=<KOD=E_4010_28  ILOSC=1	 OD_B=583  DO_B=1200 OD_H=1800  DO_H=2400 >  
-	 ELEMENT[ N ]=<KOD=E_4003_00  ILOSC=4	 OD_B=583  DO_B=1200 OD_H=1800  DO_H=2400 >  
-														 
-      ////////////////////////////////////////                                   
-	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=1200 DO_B=1600 OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_PRAWA>	 
-	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=1200 DO_B=1600 OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_LEWA>	 	 	 	 
-	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=1200 DO_B=1600 OD_H=1800  DO_H=2400 > 
-	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=1200 DO_B=1600 OD_H=1800  DO_H=2400 >  	  
-	 ELEMENT[ N ]=<KOD=E_4010_50  ILOSC=1	 OD_B=1200 DO_B=1600 OD_H=1800  DO_H=2400 >  	 
-	 ELEMENT[ N ]=<KOD=E_4010_28  ILOSC=2	 OD_B=1200 DO_B=1600 OD_H=1800  DO_H=2400 >  	 
-	 ELEMENT[ N ]=<KOD=E_4003_00  ILOSC=6	 OD_B=1200 DO_B=1600 OD_H=1800  DO_H=2400 >  
-
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=505  DO_B=583  OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=6	 OD_B=505  DO_B=583  OD_H=1800  DO_H=2400 >
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=5	 OD_B=505  DO_B=583  OD_H=1800  DO_H=2400 >
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=1	 OD_B=505  DO_B=583  OD_H=1800  DO_H=2400 >
+																	   
+      ////////////////////////////////////////  	                  
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=583  DO_B=900  OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=583  DO_B=900  OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=583  DO_B=900  OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=583  DO_B=900  OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=6	 OD_B=583  DO_B=900  OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=5	 OD_B=583  DO_B=900  OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=1	 OD_B=583  DO_B=900  OD_H=1800  DO_H=2400 >   
+																	
+      ////////////////////////////////////////               																								      ////////////////////////////////////////                              
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=900  DO_B=1250 OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=900  DO_B=1250 OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=900  DO_B=1250 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=900  DO_B=1250 OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=7	 OD_B=900  DO_B=1250 OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=6	 OD_B=900  DO_B=1250 OD_H=1800  DO_H=2400 >  
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=2	 OD_B=900  DO_B=1250 OD_H=1800  DO_H=2400 >  
+																	
+      ////////////////////////////////////////        	          
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=1250 DO_B=1400 OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=1250 DO_B=1400 OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=1800  DO_H=2400 >  	  
+	 ELEMENT[ N ]=<KOD=E_4010_50  ILOSC=1	 OD_B=1250 DO_B=1400 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=7	 OD_B=1250 DO_B=1400 OD_H=1800  DO_H=2400 >  	  	 
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=6	 OD_B=1250 DO_B=1400 OD_H=1800  DO_H=2400 >  	 
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=2	 OD_B=1250 DO_B=1400 OD_H=1800  DO_H=2400 >  	 
+																	  
+      ////////////////////////////////////////        	      
+	 ELEMENT[ N ]=<KOD=E_4115_30R ILOSC=1    OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_PRAWA>	 
+	 ELEMENT[ N ]=<KOD=E_4115_30L ILOSC=1    OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 STRONA_ZK=STRONA_LEWA>	 	 	 	 
+	 ELEMENT[ N ]=<KOD=E_4070_20  ILOSC=1	 OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_10  ILOSC=1	 OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 >  	  
+	 ELEMENT[ N ]=<KOD=E_4010_50  ILOSC=1	 OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03  ILOSC=9	 OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 >  	  	 
+	 ELEMENT[ N ]=<KOD=E_4010_27  ILOSC=8	 OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 >  	 
+	 ELEMENT[ N ]=<KOD=E_4010_40  ILOSC=2	 OD_B=1400 DO_B=1600 OD_H=1800  DO_H=2400 >  	
+	 
       ////////////////////////////////////////   	 
-      ////////////////////////////////////////   	    
+      ////////////////////////////////////////    	    
 
       ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-201'                            >
       ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-206'                        >
 	  
       ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-440'                 OD_B=505  DO_B=583  OD_H=600  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-519'                 OD_B=583  DO_B=1200 OD_H=600  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-519'                 OD_B=1200 DO_B=1600 OD_H=600  DO_H=1800 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-847'                 OD_B=1200 DO_B=1600 OD_H=1800 DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-519'                 OD_B=583  DO_B=1250 OD_H=600  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-519'                 OD_B=1250 DO_B=1600 OD_H=900  DO_H=1300 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-847'                 OD_B=1250 DO_B=1600 OD_H=600  DO_H=2400 >
 	  
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-114'               OD_B=1200 DO_B=1600 OD_H=600  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='166'                   OD_B=1200 DO_B=1600 OD_H=600  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-847'                 OD_B=1200 DO_B=1600 OD_H=600  DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-157'               OD_B=900  DO_B=1400 OD_H=600  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='166'                   OD_B=1250 DO_B=1600 OD_H=600  DO_H=2400 >
 	  
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-150'               OD_B=505  DO_B=1600 OD_H=1200 DO_H=1800 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-193'               OD_B=505  DO_B=1600 OD_H=900  DO_H=1300 >
 	  
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-137'             OD_B=505  DO_B=1600 OD_H=1800 DO_H=2400 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-180'             OD_B=505  DO_B=1600 OD_H=1300 DO_H=1800 >	
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='3*H/4-180'             OD_B=505  DO_B=1600 OD_H=1800 DO_H=2400 >
+
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*B/3-157'             OD_B=1400 DO_B=1600 OD_H=600  DO_H=2400 >	  
       >
 
 //******************************************************************************
@@ -793,74 +1071,129 @@
          WAZNOSC_OKUCIA=80
 		 
          OD_B=445 DO_B=1600
-         OD_H=450 DO_H=2400
+         OD_H=465 DO_H=2400
 		 
          ZLOZONY_LIMIT = 'OK_UR1_VIS_STUBLINA_150'  
          RYSUNEK='OK_UR1_VIS_STUBLINA_150.bmp'			 
 		 
-         WYMIAR_OKUCIA = 'KLAMKA'			 
-
-         TERAZ_OD_B=445  TERAZ_DO_B=535   TERAZ_OD_H=450  TERAZ_DO_H=1200
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	 
+		 
+         TERAZ_OD_B=445  TERAZ_DO_B=535   TERAZ_OD_H=465  TERAZ_DO_H=900
          ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
          ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=2 >
 
-         TERAZ_OD_B=535  TERAZ_DO_B=1200  TERAZ_OD_H=450  TERAZ_DO_H=1200
+         TERAZ_OD_B=535  TERAZ_DO_B=900   TERAZ_OD_H=465  TERAZ_DO_H=900
          ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
          ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=3 >
+		 
+	     TERAZ_OD_B=900  TERAZ_DO_B=1200  TERAZ_OD_H=465  TERAZ_DO_H=900
+         ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=3 >	 
+         ELEMENT[N]=< KOD=E_4010_40    ILOSC=2 >		 
 
-         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=450  TERAZ_DO_H=1200
-         ELEMENT[N]=< KOD=E_4010_28    ILOSC=2 >		 		 
-         ELEMENT[N]=< KOD=E_4003_00    ILOSC=2 >	
+         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=465  TERAZ_DO_H=900
          ELEMENT[N]=< KOD=E_4005_00    ILOSC=1 >		 		 
          ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=4 >
+         ELEMENT[N]=< KOD=E_4010_40    ILOSC=2 >		 		 		 
 		 
       ////////////////////////////////////////                             
       ////////////////////////////////////////  
 	  
-         TERAZ_OD_B=445  TERAZ_DO_B=535   TERAZ_OD_H=1200 TERAZ_DO_H=1800
-         ELEMENT[N]=< KOD=E_4003_00    ILOSC=1 >	
-         ELEMENT[N]=< KOD=E_4005_00    ILOSC=1 >		 		 
-         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=2 >
-
-         TERAZ_OD_B=535  TERAZ_DO_B=1200  TERAZ_OD_H=1200 TERAZ_DO_H=1800
-         ELEMENT[N]=< KOD=E_4003_00    ILOSC=1 >	
-         ELEMENT[N]=< KOD=E_4005_00    ILOSC=1 >		 		 		 
+         TERAZ_OD_B=445  TERAZ_DO_B=535   TERAZ_OD_H=900  TERAZ_DO_H=1300
+         ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
          ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=3 >
 
-         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=1200 TERAZ_DO_H=1800
-         ELEMENT[N]=< KOD=E_4010_28    ILOSC=2 >		 		 
-         ELEMENT[N]=< KOD=E_4003_00    ILOSC=3 >	
+         TERAZ_OD_B=535  TERAZ_DO_B=900   TERAZ_OD_H=900  TERAZ_DO_H=1300
+         ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=3 >
+		 
+	     TERAZ_OD_B=900  TERAZ_DO_B=1200  TERAZ_OD_H=900  TERAZ_DO_H=1300
+         ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=3 >	 
+         ELEMENT[N]=< KOD=E_4010_40    ILOSC=2 >		 
+
+         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=900  TERAZ_DO_H=1300
          ELEMENT[N]=< KOD=E_4005_00    ILOSC=1 >		 		 
          ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=4 >
+         ELEMENT[N]=< KOD=E_4010_40    ILOSC=2 >		 
+
+         TERAZ_OD_B=1400 TERAZ_DO_B=1600  TERAZ_OD_H=900  TERAZ_DO_H=1300
+         ELEMENT[N]=< KOD=E_4005_00    ILOSC=1 >		 		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=4 >
+         ELEMENT[N]=< KOD=E_4010_03    ILOSC=2 >	
+         ELEMENT[N]=< KOD=E_4010_27    ILOSC=2 >			 
+         ELEMENT[N]=< KOD=E_4010_40    ILOSC=2 >	
 		 
       ////////////////////////////////////////                             
       ////////////////////////////////////////  
 	  
-         TERAZ_OD_B=445  TERAZ_DO_B=535   TERAZ_OD_H=1800 TERAZ_DO_H=2400
-         ELEMENT[N]=< KOD=E_4003_00    ILOSC=2 >	
-         ELEMENT[N]=< KOD=E_4005_00    ILOSC=1 >		 		 
-         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=2 >
-
-         TERAZ_OD_B=535  TERAZ_DO_B=1200  TERAZ_OD_H=1800 TERAZ_DO_H=2400
-         ELEMENT[N]=< KOD=E_4003_00    ILOSC=2 >	
-         ELEMENT[N]=< KOD=E_4005_00    ILOSC=1 >		 		 		 
+         TERAZ_OD_B=445  TERAZ_DO_B=535   TERAZ_OD_H=1300  TERAZ_DO_H=1800
+         ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
          ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=3 >
 
-         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=1800 TERAZ_DO_H=2400
-         ELEMENT[N]=< KOD=E_4010_28    ILOSC=2 >		 		 
-         ELEMENT[N]=< KOD=E_4003_00    ILOSC=4 >	
+         TERAZ_OD_B=535  TERAZ_DO_B=900   TERAZ_OD_H=1300  TERAZ_DO_H=1800
+         ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=3 >
+		 
+	     TERAZ_OD_B=900  TERAZ_DO_B=1200  TERAZ_OD_H=1300  TERAZ_DO_H=1800
+         ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=3 >	 
+         ELEMENT[N]=< KOD=E_4010_40    ILOSC=2 >		 
+
+         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=1300  TERAZ_DO_H=1800
          ELEMENT[N]=< KOD=E_4005_00    ILOSC=1 >		 		 
-         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=4 >	
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=4 >
+         ELEMENT[N]=< KOD=E_4010_40    ILOSC=2 >		 
+
+         TERAZ_OD_B=1400 TERAZ_DO_B=1600  TERAZ_OD_H=1300  TERAZ_DO_H=1800
+         ELEMENT[N]=< KOD=E_4005_00    ILOSC=1 >		 		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=4 >
+         ELEMENT[N]=< KOD=E_4010_03    ILOSC=2 >	
+         ELEMENT[N]=< KOD=E_4010_27    ILOSC=2 >			 
+         ELEMENT[N]=< KOD=E_4010_40    ILOSC=2 >	
 		 	 
       ////////////////////////////////////////                             
-      ////////////////////////////////////////  	  
+      ////////////////////////////////////////  
+
+         TERAZ_OD_B=445  TERAZ_DO_B=535   TERAZ_OD_H=1800  TERAZ_DO_H=2400
+         ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=4 >
+
+         TERAZ_OD_B=535  TERAZ_DO_B=900   TERAZ_OD_H=1800  TERAZ_DO_H=2400
+         ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=4 >
+		 
+	     TERAZ_OD_B=900  TERAZ_DO_B=1200  TERAZ_OD_H=1800  TERAZ_DO_H=2400
+         ELEMENT[N]=< KOD=E_4001_00    ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=4 >	 
+         ELEMENT[N]=< KOD=E_4010_40    ILOSC=2 >		 
+
+         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=1800  TERAZ_DO_H=2400
+         ELEMENT[N]=< KOD=E_4005_00    ILOSC=1 >		 		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=4 >
+         ELEMENT[N]=< KOD=E_4010_40    ILOSC=2 >		 
+
+         TERAZ_OD_B=1400 TERAZ_DO_B=1600  TERAZ_OD_H=1800  TERAZ_DO_H=2400
+         ELEMENT[N]=< KOD=E_4005_00    ILOSC=1 >		 		 
+         ELEMENT[N]=< KOD=E_2022_00_X  ILOSC=4 >
+         ELEMENT[N]=< KOD=E_4010_03    ILOSC=2 >	
+         ELEMENT[N]=< KOD=E_4010_27    ILOSC=2 >			 
+         ELEMENT[N]=< KOD=E_4010_40    ILOSC=2 >	
+		 	 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  		  
 
          TERAZ_RESET
 		 
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-119'        OD_B=445  DO_B=1600 OD_H=450  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-119'    OD_B=445  DO_B=1600 OD_H=450  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-119'        OD_B=900  DO_B=1600 OD_H=465  DO_H=1300 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-119'    OD_B=900  DO_B=1600 OD_H=465  DO_H=1300 >		 
 		 
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='B/2-114'               OD_B=1200 DO_B=1600 OD_H=450  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-119'        OD_B=445  DO_B=1600 OD_H=1300  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-119'    OD_B=445  DO_B=1600 OD_H=1300  DO_H=2400 >
+		 
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='B/2-157'               OD_B=900  DO_B=1400 OD_H=465  DO_H=2400 >
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='2*B/3-157'             OD_B=1400 DO_B=1600 OD_H=465  DO_H=2400 >	  
       >
 	  
 
@@ -881,95 +1214,124 @@
 		 
          OD_B=505 DO_B=1600
          OD_H=600 DO_H=2400
+		 DO_M=80
 		 
-         ZLOZONY_LIMIT = 'OK_UR1_HID_STUBLINA_150'  
-         RYSUNEK='OK_UR1_HID_STUBLINA_150.bmp'			 
+         ZLOZONY_LIMIT = 'OK_R3_HID_STUBLINA_80'  
+         RYSUNEK='OK_R3_HID_STUBLINA_80.bmp'			 
 		 
-         WYMIAR_OKUCIA = 'KLAMKA'			 
-
-         TERAZ_OD_B=505  TERAZ_DO_B=583   TERAZ_OD_H=600  TERAZ_DO_H=1200	 
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	 
+		 
+         TERAZ_OD_B=505  TERAZ_DO_B=900   TERAZ_OD_H=600  TERAZ_DO_H=900	 
          ELEMENT[N]=< KOD=E_4001_00  ILOSC=1 >
          ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >	
 
-         TERAZ_OD_B=583  TERAZ_DO_B=1200  TERAZ_OD_H=600  TERAZ_DO_H=1200	 
-         ELEMENT[N]=< KOD=E_4001_00  ILOSC=1 >
-         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >	
-
-         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=600  TERAZ_DO_H=1200	 
-         ELEMENT[N]=< KOD=E_4010_28  ILOSC=2 >
-         ELEMENT[N]=< KOD=E_4003_00  ILOSC=2 >	
+         TERAZ_OD_B=900  TERAZ_DO_B=1200  TERAZ_OD_H=600  TERAZ_DO_H=900	 
          ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
          ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >	
+         ELEMENT[N]=< KOD=E_4010_40  ILOSC=2 >			 
+
+         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=600  TERAZ_DO_H=900	 
+         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_4010_03  ILOSC=2 >
+         ELEMENT[N]=< KOD=E_4010_27  ILOSC=2 >		 
+         ELEMENT[N]=< KOD=E_4010_40  ILOSC=2 >			 		 
 		 
       ////////////////////////////////////////                             
       ////////////////////////////////////////  
 	  
-         TERAZ_OD_B=505  TERAZ_DO_B=583   TERAZ_OD_H=1200  TERAZ_DO_H=1800	 
-         ELEMENT[N]=< KOD=E_4003_00  ILOSC=1 >
-         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >	
-         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >
-         ELEMENT[N]=< KOD=E_4045_00  ILOSC=1 >			 
-		 
-         TERAZ_OD_B=583  TERAZ_DO_B=1200  TERAZ_OD_H=1200  TERAZ_DO_H=1800	
-         ELEMENT[N]=< KOD=E_4003_00  ILOSC=1 >
-         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >	
-         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >
-         ELEMENT[N]=< KOD=E_4045_00  ILOSC=1 >		
-
-         TERAZ_OD_B=1200 TERAZ_DO_B=1600  TERAZ_OD_H=1200  TERAZ_DO_H=1800		 
-         ELEMENT[N]=< KOD=E_4010_28  ILOSC=2 >
-         ELEMENT[N]=< KOD=E_4003_00  ILOSC=3 >	
+         TERAZ_OD_B=505  TERAZ_DO_B=900   TERAZ_OD_H=900  TERAZ_DO_H=1300	 
          ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
          ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >	
          ELEMENT[N]=< KOD=E_4045_00  ILOSC=1 >	
+
+         TERAZ_OD_B=900  TERAZ_DO_B=1200  TERAZ_OD_H=900  TERAZ_DO_H=1300	 
+         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >	
+         ELEMENT[N]=< KOD=E_4045_00  ILOSC=1 >			 
+         ELEMENT[N]=< KOD=E_4010_40  ILOSC=2 >			 
+
+         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=900  TERAZ_DO_H=1300	 
+         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_4045_00  ILOSC=1 >		 
+         ELEMENT[N]=< KOD=E_4010_40  ILOSC=2 >	
+
+         TERAZ_OD_B=1400 TERAZ_DO_B=1600  TERAZ_OD_H=900  TERAZ_DO_H=1300	 
+         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_4045_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_4010_03  ILOSC=2 >
+         ELEMENT[N]=< KOD=E_4010_27  ILOSC=2 >			 
+         ELEMENT[N]=< KOD=E_4010_40  ILOSC=2 >	
 		 
       ////////////////////////////////////////                             
       ////////////////////////////////////////  
 	  
-         TERAZ_OD_B=505  TERAZ_DO_B=583   TERAZ_OD_H=1800  TERAZ_DO_H=2400	 
-         ELEMENT[N]=< KOD=E_4003_00  ILOSC=2 >
-         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >	
-         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >
-         ELEMENT[N]=< KOD=E_4045_00  ILOSC=2 >		
-
-         TERAZ_OD_B=583  TERAZ_DO_B=1200  TERAZ_OD_H=1800  TERAZ_DO_H=2400	
-         ELEMENT[N]=< KOD=E_4003_00  ILOSC=2 >
-         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >	
-         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >
-         ELEMENT[N]=< KOD=E_4045_00  ILOSC=2 >		
-
-         TERAZ_OD_B=1200 TERAZ_DO_B=1600  TERAZ_OD_H=1800  TERAZ_DO_H=2400		 
-         ELEMENT[N]=< KOD=E_4010_28  ILOSC=2 >
-         ELEMENT[N]=< KOD=E_4003_00  ILOSC=4 >	
+         TERAZ_OD_B=505  TERAZ_DO_B=900   TERAZ_OD_H=1300  TERAZ_DO_H=1800	 
          ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
          ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >	
          ELEMENT[N]=< KOD=E_4045_00  ILOSC=2 >	
+
+         TERAZ_OD_B=900  TERAZ_DO_B=1200  TERAZ_OD_H=1300  TERAZ_DO_H=1800	 
+         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >	
+         ELEMENT[N]=< KOD=E_4045_00  ILOSC=2 >			 
+         ELEMENT[N]=< KOD=E_4010_40  ILOSC=2 >			 
+
+         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=1300  TERAZ_DO_H=1800	 
+         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_4045_00  ILOSC=2 >		 
+         ELEMENT[N]=< KOD=E_4010_40  ILOSC=2 >	
+
+         TERAZ_OD_B=1400 TERAZ_DO_B=1600  TERAZ_OD_H=1300  TERAZ_DO_H=1800	 
+         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_4045_00  ILOSC=2 >
+         ELEMENT[N]=< KOD=E_4010_03  ILOSC=2 >
+         ELEMENT[N]=< KOD=E_4010_27  ILOSC=2 >			 
+         ELEMENT[N]=< KOD=E_4010_40  ILOSC=2 >	
+		 	 
+      ////////////////////////////////////////                             
+      ////////////////////////////////////////  
+	  
+         TERAZ_OD_B=505  TERAZ_DO_B=900   TERAZ_OD_H=1800  TERAZ_DO_H=2400	 
+         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >	
+         ELEMENT[N]=< KOD=E_4045_00  ILOSC=3 >	
+
+         TERAZ_OD_B=900  TERAZ_DO_B=1200  TERAZ_OD_H=1800  TERAZ_DO_H=2400	 
+         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >	
+         ELEMENT[N]=< KOD=E_4045_00  ILOSC=3 >			 
+         ELEMENT[N]=< KOD=E_4010_40  ILOSC=2 >			 
+
+         TERAZ_OD_B=1200 TERAZ_DO_B=1400  TERAZ_OD_H=1800  TERAZ_DO_H=2400	 
+         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_4045_00  ILOSC=3 >		 
+         ELEMENT[N]=< KOD=E_4010_40  ILOSC=2 >	
+
+         TERAZ_OD_B=1400 TERAZ_DO_B=1600  TERAZ_OD_H=1800  TERAZ_DO_H=2400	 
+         ELEMENT[N]=< KOD=E_4005_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_2101_00  ILOSC=1 >
+         ELEMENT[N]=< KOD=E_4045_00  ILOSC=3 >
+         ELEMENT[N]=< KOD=E_4010_03  ILOSC=2 >
+         ELEMENT[N]=< KOD=E_4010_27  ILOSC=2 >			 
+         ELEMENT[N]=< KOD=E_4010_40  ILOSC=2 >	
 		 	 
       ////////////////////////////////////////                             
       ////////////////////////////////////////  	  
 
          TERAZ_RESET
 		 
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-201'        OD_B=505  DO_B=1600 OD_H=600  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-206'    OD_B=505  DO_B=1600 OD_H=600  DO_H=2400 >
-		 
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-140'                 OD_B=505  DO_B=583  OD_H=600  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='H/2-150'               OD_B=505  DO_B=1600 OD_H=1200 DO_H=1800 >	  
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='2*H/3-137'             OD_B=583  DO_B=1600 OD_H=1800 DO_H=2400 >	  	  
-	  
       ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='WYS_KLAMKI-119'        OD_B=505  DO_B=1600 OD_H=600  DO_H=2400 >
       ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='(H-WYS_KLAMKI)-119'    OD_B=505  DO_B=1600 OD_H=600  DO_H=2400 >
-
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-519'                 OD_B=583  DO_B=1600 OD_H=600  DO_H=1800 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-519'                 OD_B=583  DO_B=1200 OD_H=1800 DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B-847'                 OD_B=1200 DO_B=1600 OD_H=600  DO_H=2400 >
-
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='B/2-114'               OD_B=1200 DO_B=1600 OD_H=600  DO_H=2400 >
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=1 DLUGOSC='166'                   OD_B=1200 DO_B=1600 OD_H=600  DO_H=2400 >
-	  
-      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='B/2-114'               OD_B=1200 DO_B=1600 OD_H=600  DO_H=2400 >
-	  
-	  
+		 
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='H/2-157'               OD_B=900  DO_B=1400 OD_H=600  DO_H=2400 >	  
+      ELEMENT[N]=< KOD=E_ALP_C_820 ILOSC=2 DLUGOSC='2*H/3-157'             OD_B=1400 DO_B=1600 OD_H=600  DO_H=2400 >	  	 	  
       >	  
 
 //*********************************************************************************************
@@ -1030,17 +1392,37 @@
 	  >				 	
 
 	 //**************klamka******************	 
-	 ELEMENT[ N ]=<KOD=E_1002_00_X   ILOSC=1 OD_B=400  DO_B=3600 OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_1002_00_X   ILOSC=1 OD_B=400   DO_B=3600  OD_H=300  DO_H=1000 > 
+													    
+	 ELEMENT[ N ]=<KOD=E_2011_00_X   ILOSC=2 OD_B=400   DO_B=1000  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4009_30     ILOSC=1 OD_B=400   DO_B=1000  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03     ILOSC=1 OD_B=400   DO_B=1000  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27     ILOSC=1 OD_B=400   DO_B=1000  OD_H=300  DO_H=1000 > 	 
+	 ELEMENT[ N ]=<KOD=E_4020_40     ILOSC=2 OD_B=400   DO_B=1000  OD_H=300  DO_H=1000 > 
 	 
-	 ELEMENT[ N ]=<KOD=E_4003_00     ILOSC=2 OD_B=400  DO_B=800  OD_H=300  DO_H=1000 > 
-	 ELEMENT[ N ]=<KOD=E_2011_00_X   ILOSC=2 OD_B=400  DO_B=800  OD_H=300  DO_H=1000 > 
-	 ELEMENT[ N ]=<KOD=E_4009_30     ILOSC=1 OD_B=400  DO_B=800  OD_H=300  DO_H=1000 > 
-	 ELEMENT[ N ]=<KOD=E_4020_40     ILOSC=2 OD_B=400  DO_B=800  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_2011_00_X   ILOSC=3 OD_B=1000  DO_B=1800  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4009_30     ILOSC=1 OD_B=1000  DO_B=1800  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03     ILOSC=2 OD_B=1000  DO_B=1800  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27     ILOSC=2 OD_B=1000  DO_B=1800  OD_H=300  DO_H=1000 > 	 
+	 ELEMENT[ N ]=<KOD=E_4020_40     ILOSC=2 OD_B=1000  DO_B=1800  OD_H=300  DO_H=1000 >  
 	 
-	 ELEMENT[ N ]=<KOD=E_4003_00     ILOSC=4 OD_B=800  DO_B=1400 OD_H=300  DO_H=1000 > 
-	 ELEMENT[ N ]=<KOD=E_2011_00_X   ILOSC=4 OD_B=800  DO_B=1400 OD_H=300  DO_H=1000 > 
-	 ELEMENT[ N ]=<KOD=E_4009_30     ILOSC=1 OD_B=800  DO_B=1400 OD_H=300  DO_H=1000 > 
-	 ELEMENT[ N ]=<KOD=E_4020_40     ILOSC=2 OD_B=800  DO_B=1400 OD_H=300  DO_H=1000 > 	 
+	 ELEMENT[ N ]=<KOD=E_2011_00_X   ILOSC=3 OD_B=1800  DO_B=2400  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4009_30     ILOSC=1 OD_B=1800  DO_B=2400  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03     ILOSC=3 OD_B=1800  DO_B=2400  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27     ILOSC=3 OD_B=1800  DO_B=2400  OD_H=300  DO_H=1000 > 	 
+	 ELEMENT[ N ]=<KOD=E_4020_40     ILOSC=2 OD_B=1800  DO_B=2400  OD_H=300  DO_H=1000 >  
+	 
+	 ELEMENT[ N ]=<KOD=E_2011_00_X   ILOSC=4 OD_B=2400  DO_B=3000  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4009_30     ILOSC=1 OD_B=2400  DO_B=3000  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03     ILOSC=4 OD_B=2400  DO_B=3000  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27     ILOSC=4 OD_B=2400  DO_B=3000  OD_H=300  DO_H=1000 > 	 
+	 ELEMENT[ N ]=<KOD=E_4020_40     ILOSC=2 OD_B=2400  DO_B=3000  OD_H=300  DO_H=1000 >  
+	 
+	 ELEMENT[ N ]=<KOD=E_2011_00_X   ILOSC=4 OD_B=3000  DO_B=3600  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4009_30     ILOSC=1 OD_B=3000  DO_B=3600  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4010_03     ILOSC=5 OD_B=3000  DO_B=3600  OD_H=300  DO_H=1000 > 
+	 ELEMENT[ N ]=<KOD=E_4010_27     ILOSC=5 OD_B=3000  DO_B=3600  OD_H=300  DO_H=1000 > 	 
+	 ELEMENT[ N ]=<KOD=E_4020_40     ILOSC=2 OD_B=3000  DO_B=3600  OD_H=300  DO_H=1000 >  
 	 
   ////////////////////////////////////////     
   ////////////////////////////////////////  
@@ -1065,7 +1447,7 @@
 		 
          WAZNOSC_OKUCIA=80
 
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77, WAR_C50]
 		 
          FILTR_NAZWA        = 'Виробник'
          FILTR_WARTOSC      = 'STUBLINA'	
@@ -1106,19 +1488,19 @@
 	  DLA_WIDOKU=1
 	  >				 	
 																 
-	 ELEMENT[ N ]=<KOD=E_2022_00_X   ILOSC=2     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	 
-	 ELEMENT[ N ]=<KOD=E_4020_01_X   ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	
+	 ELEMENT[ N ]=<KOD=E_2022_00_X     ILOSC=2     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_4020_01_X     ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	
 	 ELEMENT[ N ]=<KOD=E_4020_18	   ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	 
-	 ELEMENT[ N ]=<KOD=E_4020_19_X   ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_4020_19_X     ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 
 	 ELEMENT[ N ]=<KOD=E_4020_70	   ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 
 	 ELEMENT[ N ]=<KOD=E_4020_71	   ILOSC=3     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 
                                                                             
   ////////////////////////////////////////   
   
-	 ELEMENT[ N ]=<KOD=E_2022_00_X   ILOSC=3     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	 
-	 ELEMENT[ N ]=<KOD=E_4020_01_X   ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	
+	 ELEMENT[ N ]=<KOD=E_2022_00_X     ILOSC=3     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_4020_01_X     ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	
 	 ELEMENT[ N ]=<KOD=E_4020_18	   ILOSC=2     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	 
-	 ELEMENT[ N ]=<KOD=E_4020_19_X   ILOSC=2     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_4020_19_X     ILOSC=2     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 
 	 ELEMENT[ N ]=<KOD=E_4020_20	   ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	 
 	 ELEMENT[ N ]=<KOD=E_4020_70	   ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 
 	 ELEMENT[ N ]=<KOD=E_4020_71	   ILOSC=4     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200>   
@@ -1126,10 +1508,10 @@
                                                                             
   ////////////////////////////////////////   
   
-	 ELEMENT[ N ]=<KOD=E_2022_00_X   ILOSC=4     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	 
-	 ELEMENT[ N ]=<KOD=E_4020_01_X   ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	
+	 ELEMENT[ N ]=<KOD=E_2022_00_X     ILOSC=4     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	 
+	 ELEMENT[ N ]=<KOD=E_4020_01_X     ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	
 	 ELEMENT[ N ]=<KOD=E_4020_18	   ILOSC=3     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	 
-	 ELEMENT[ N ]=<KOD=E_4020_19_X   ILOSC=3     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 
+	 ELEMENT[ N ]=<KOD=E_4020_19_X     ILOSC=3     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 
 	 ELEMENT[ N ]=<KOD=E_4020_20	   ILOSC=2     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 	 
 	 ELEMENT[ N ]=<KOD=E_4020_70	   ILOSC=1     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200> 
 	 ELEMENT[ N ]=<KOD=E_4020_71	   ILOSC=5     OD_B=330  DO_B=1200  OD_H=300  DO_H=1200>   
