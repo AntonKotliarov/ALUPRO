@@ -118,7 +118,6 @@ KOLORY=
         LISTA_KOLOROW='7012 матовий'
         LISTA_KOLOROW='7013 матовий'
         LISTA_KOLOROW='7015 матовий'
-        LISTA_KOLOROW='7016 матовий'
         LISTA_KOLOROW='7021 матовий'
         LISTA_KOLOROW='7022 матовий'
         LISTA_KOLOROW='7023 матовий'
@@ -167,7 +166,6 @@ KOLORY=
         LISTA_KOLOROW='9005 матовий'
         LISTA_KOLOROW='9010 матовий'
         LISTA_KOLOROW='9011 матовий'
-        LISTA_KOLOROW='9016 матовий'
         LISTA_KOLOROW='9017 матовий'
         LISTA_KOLOROW='9018 матовий'
 		
@@ -272,7 +270,6 @@ KOLORY=
         LISTA_KOLOROW='7012 глянець'
         LISTA_KOLOROW='7013 глянець'
         LISTA_KOLOROW='7015 глянець'
-        LISTA_KOLOROW='7016 глянець'
         LISTA_KOLOROW='7021 глянець'
         LISTA_KOLOROW='7022 глянець'
         LISTA_KOLOROW='7023 глянець'
@@ -321,7 +318,6 @@ KOLORY=
         LISTA_KOLOROW='9005 глянець'
         LISTA_KOLOROW='9010 глянець'
         LISTA_KOLOROW='9011 глянець'
-        LISTA_KOLOROW='9016 глянець'
         LISTA_KOLOROW='9017 глянець'
         LISTA_KOLOROW='9018 глянець'
 
@@ -426,7 +422,6 @@ KOLORY=
         LISTA_KOLOROW='7012 структура'
         LISTA_KOLOROW='7013 структура'
         LISTA_KOLOROW='7015 структура'
-        LISTA_KOLOROW='7016 структура'
         LISTA_KOLOROW='7021 структура'
         LISTA_KOLOROW='7022 структура'
         LISTA_KOLOROW='7023 структура'
@@ -475,7 +470,6 @@ KOLORY=
         LISTA_KOLOROW='9005 структура'
         LISTA_KOLOROW='9010 структура'
         LISTA_KOLOROW='9011 структура'
-        LISTA_KOLOROW='9016 структура'
         LISTA_KOLOROW='9017 структура'
         LISTA_KOLOROW='9018 структура'		
 		
@@ -727,9 +721,33 @@ KOLORY=
         NAZWA           = '*B Нар.:RAL #O#/Bн.:#I#'
         OPIS            = 'Биколор Нар.:#O#/Bн.:#I#'
         KOLOR           = 'CZERWONY'
-        KONWERSJA_DO      =[DEF_KOLOR_0, DEF_KOLOR_1_G1, DEF_KOLOR_2_G2, DEF_KOLOR_3_G3, DEF_KOLOR_4_G4]	
-		DOZWOLONE_KOLORY_W=[DEF_KOLOR_0, DEF_KOLOR_1_G1, DEF_KOLOR_2_G2, DEF_KOLOR_3_G3, DEF_KOLOR_4_G4]
-	    DOZWOLONE_KOLORY_Z=[DEF_KOLOR_0, DEF_KOLOR_1_G1, DEF_KOLOR_2_G2, DEF_KOLOR_3_G3, DEF_KOLOR_4_G4]				
+        KONWERSJA_DO      =[DEF_KOLOR_0, DEF_KOLOR_6_G0, DEF_KOLOR_1_G1, DEF_KOLOR_2_G2, DEF_KOLOR_3_G3, DEF_KOLOR_4_G4]	
+		DOZWOLONE_KOLORY_W=[DEF_KOLOR_0, DEF_KOLOR_6_G0, DEF_KOLOR_1_G1, DEF_KOLOR_2_G2, DEF_KOLOR_3_G3, DEF_KOLOR_4_G4]
+	    DOZWOLONE_KOLORY_Z=[DEF_KOLOR_0, DEF_KOLOR_6_G0, DEF_KOLOR_1_G1, DEF_KOLOR_2_G2, DEF_KOLOR_3_G3, DEF_KOLOR_4_G4]				
         >
+		
+    KOLOR[DEF_KOLOR_6_G0]=
+      <
+        NAZWA           = '*G0 RAL #P#'
+        OPIS            = 'Група 0 #P#'
 
+    //MAT
+    PRODUCENT_RALU             = '/МАТОВИЙ'
+        LISTA_KOLOROW='7016 матовий'
+        LISTA_KOLOROW='9016 матовий'
+		
+    //ГЛЯНЕЦЬ
+    PRODUCENT_RALU             = '/ГЛЯНЕЦЬ'
+        LISTA_KOLOROW='7016 глянець'
+        LISTA_KOLOROW='9016 глянець'
+
+    //структура
+    PRODUCENT_RALU             = '/СТРУКТУРА'
+        LISTA_KOLOROW='7016 структура'
+        LISTA_KOLOROW='9016 структура'	
+		
+        KOLOR           = 'BIALY'
+
+        KONWERSJA_DO    = [DEF_KOLOR_0]	
+      >	  			
 >	  

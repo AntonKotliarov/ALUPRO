@@ -253,8 +253,153 @@
 #define PRF_NVF_HPL_PROEM_NVF                             223
 #define WNG_PROEM_WIN_NVF                                 224
 
+#define PRF_RAMA_OKIENNA_ALP_C50_101                      225
+#define PRF_RAMA_OKIENNA_ALP_C50_102                      226
+#define PRF_RAMA_OKIENNA_ALP_C50_103                      227
+#define PRF_SLP_OKIENNA_ALP_C50_301                       228
+#define PRF_SLP_OKIENNA_ALP_C50_302                       229
+#define PRF_WZM_SLP_OKIENNA_ALP_C50_311                   230
+#define PRF_SKRZYDLO_OKIENNA_ALP_C50_201                  231
+#define PRF_SKRZYDLO_OKIENNA_ALP_C50_202                  232
+#define PRF_SKRZYDLO_OKIENNA_ALP_C50_203                  233
+#define PRF_SKRZYDLO_OKIENNA_ALP_C50_204                  234
+#define PRF_SKRZYDLO_OKIENNA_ALP_C50_205                  235
+#define PRF_RAMA_DRZWIOWA_DZ_ALP_C50_104                  236
+#define PRF_RAMA_DRZWIOWA_DW_ALP_C50_104                  237
+#define PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207              238
+#define PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206              239
+#define PRF_PODZ_DX_ALP_C50                               240
+#define PRF_RCHS_ALP_C50_611                              241
+#define PRF_PROG_ALP_C50_615                              242
 
+#define WNG_SKRZ_OK1_C50_201_R                            243
+#define WNG_SKRZ_OK1_C50_202_R                            244
+#define WNG_SKRZ_OK1_C50_203_R                            245
+#define WNG_SKRZ_OK1_C50_204_R                            246
+#define WNG_SKRZ_OK1_C50_201_UR                           247
+#define WNG_SKRZ_OK1_C50_202_UR                           248
+#define WNG_SKRZ_OK1_C50_203_UR                           249
+#define WNG_SKRZ_OK1_C50_204_UR                           250
+#define WNG_SKRZ_OK1_C50_201_U                            251
+#define WNG_SKRZ_OK1_C50_202_U                            252
+#define WNG_SKRZ_OK1_C50_203_U                            253
+#define WNG_SKRZ_OK1_C50_204_U                            254
+#define WNG_SKRZ_OK2_C50_201_R                            255
+#define WNG_SKRZ_OK2_C50_202_R                            256
+#define WNG_SKRZ_OK2_C50_203_R                            257
+#define WNG_SKRZ_OK2_C50_204_R                            258
+#define WNG_SKRZ_OK3_C50_201_R                            259
+#define WNG_SKRZ_OK3_C50_202_R                            260
+#define WNG_SKRZ_OK3_C50_203_R                            261
+#define WNG_SKRZ_OK3_C50_204_R                            262
+#define WNG_SKRZ_OK2_C50_201_UR                           263
+#define WNG_SKRZ_OK2_C50_202_UR                           264
+#define WNG_SKRZ_OK2_C50_203_UR                           265
+#define WNG_SKRZ_OK2_C50_204_UR                           266
+#define PRF_PROG_ALP_C50_614                              267
 
+#define WNG_SKRZ_DZ1_C50_207                              268
+#define WNG_SKRZ_DZ2_C50_207                              269
+#define WNG_SKRZ_DZ3_C50_207                              270
+
+#define WNG_SKRZ_DW1_C50_206                              271
+#define WNG_SKRZ_DW2_C50_206                              272
+#define WNG_SKRZ_DW3_C50_206                              273
+
+#define PRF_PROG_ALP_C50_BRAK                             274
+#define PRF_SLP_OKIENNA_ALP_C50_321                       275
+
+#define PRF_RAMA_DRZWIOWA_DW_ALP_C50_105                  276
+#define PRF_RAMA_DRZWIOWA_DW_ALP_C50_106                  277
+#define PRF_RAMA_DRZWIOWA_DW_ALP_C50_107                  278
+
+#define PRF_RAMA_DRZWIOWA_DZ_ALP_C50_105                  279
+#define PRF_RAMA_DRZWIOWA_DZ_ALP_C50_106                  280
+#define PRF_RAMA_DRZWIOWA_DZ_ALP_C50_107                  281
+
+#define PRF_PROG_ALP_C50_619    	                      282
+#define PRF_PROG_ALP_C50_BRAK_CD                          283
+
+#define WNG_SKRZ_DW1_C50_208_CD                           284
+#define WNG_SKRZ_DW2_C50_208_CD                           285
+#define WNG_SKRZ_DW3_C50_208_CD                           286
+#define WNG_SKRZ_DZ1_C50_209_CD                           287
+#define WNG_SKRZ_DZ2_C50_209_CD                           288
+#define WNG_SKRZ_DZ3_C50_209_CD                           289
+
+#define PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208              290
+#define PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209              291
+
+//#define WNG_SKRZ_BK1_C50_201_R                            292
+#define WNG_SKRZ_BK1_C50_202_R                            293
+#define WNG_SKRZ_BK1_C50_203_R                            294
+#define WNG_SKRZ_BK1_C50_204_R                            295
+
+#define PRF_SKRZYDLO_BALKONA_ALP_C50_202                  296
+#define PRF_SKRZYDLO_BALKONA_ALP_C50_203                  297
+#define PRF_SKRZYDLO_BALKONA_ALP_C50_204                  298
+
+#define PRF_SLP_OKIENNA_ALP_C50_301_CD                    299
+#define PRF_SLP_OKIENNA_ALP_C50_302_CD                    300
+
+#define PRF_PODZ_DX_ALP_C50_CD                            301
+#define PRF_RAMA_OKIENNA_ALP_W77_106                      302
+
+#define PRF_SLP_OKIENNA_ALP_W77_308                       303
+#define PRF_SLP_OKIENNA_ALP_W77_309                       304
+#define PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505              305
+
+#define PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602      306
+
+#define WNG_SKRZ_DZ1_W77_505                              307
+#define WNG_SKRZ_DZ2_W77_505                              308
+#define WNG_SKRZ_DZ3_W77_505rs                            309
+#define WNG_SKRZ_DZ3_W77_505                              310
+
+#define WNG_SKRZ_DZ1_W77_505_W77_602                      311
+#define WNG_SKRZ_DZ2_W77_505_W77_602                      312
+#define WNG_SKRZ_DZ3_W77_505_W77_602rs                    313
+#define WNG_SKRZ_DZ3_W77_505_W77_602                      314
+
+#define PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506              315
+#define PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602      316
+
+#define PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507              317
+#define PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602      318
+
+#define WNG_SKRZ_DZ1_W77_507                              319
+#define WNG_SKRZ_DZ2_W77_507                              320
+#define WNG_SKRZ_DZ3_W77_507rs                            321
+#define WNG_SKRZ_DZ3_W77_507                              322
+
+#define WNG_SKRZ_DZ1_W77_507_W77_602                      323
+#define WNG_SKRZ_DZ2_W77_507_W77_602                      324
+#define WNG_SKRZ_DZ3_W77_507_W77_602rs                    325
+#define WNG_SKRZ_DZ3_W77_507_W77_602                      326
+
+#define WNG_SKRZ_DW1_W77_506                              327
+#define WNG_SKRZ_DW2_W77_506                              328
+#define WNG_SKRZ_DW3_W77_506rs                            329
+#define WNG_SKRZ_DW3_W77_506                              330
+
+#define WNG_SKRZ_DW1_W77_506_W77_602                      331
+#define WNG_SKRZ_DW2_W77_506_W77_602                      332
+#define WNG_SKRZ_DW3_W77_506_W77_602rs                    333
+#define WNG_SKRZ_DW3_W77_506_W77_602                      334
+
+#define PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508              335
+#define PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602      336
+
+#define WNG_SKRZ_DW1_W77_508                              337
+#define WNG_SKRZ_DW2_W77_508                              338
+#define WNG_SKRZ_DW3_W77_508rs                            339
+#define WNG_SKRZ_DW3_W77_508                              340
+
+#define WNG_SKRZ_DW1_W77_508_W77_602                      341
+#define WNG_SKRZ_DW2_W77_508_W77_602                      342
+#define WNG_SKRZ_DW3_W77_508_W77_602rs                    343
+#define WNG_SKRZ_DW3_W77_508_W77_602                      344
+         	
 
 //******************************************************************************
 //Szk³o i szprosy                                             

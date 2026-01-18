@@ -435,7 +435,7 @@ FPROFIL[ PRF_F50_WSLP_F50_106 ]=
   >      
 FPROFIL[ PRF_F50_WSLP_F50_107 ]=
   <
-    NAZWA=       'F50.107X + F50.306X IX=770.7'
+    NAZWA=       'F50.107X + F50.307X IX=770.7'
     OPIS=	     'Профіль стійки. Система Ф50'
     RYSUNEK=	 'F50_107.VCT'
 
@@ -459,7 +459,7 @@ FPROFIL[ PRF_F50_WSLP_F50_107 ]=
         >
         PROFIL=
           <
-            KOD    = E_ALP_F50_306
+            KOD    = E_ALP_F50_307
             KOLOR  = KOLOR_WEWN
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'

@@ -8,7 +8,8 @@
 #DEFINE DEF_SYS_NVF_AKP            5
 #DEFINE DEF_SYS_NVF_HPL_PANEL      6
 #DEFINE DEF_SYS_NVF_FZP            7
-
+#DEFINE DEF_SYS_C50                8
+#DEFINE DEF_SYS_C50_CD             9
 
 //******************************************************************************
 //Lista kolorow
@@ -19,6 +20,9 @@
 #DEFINE DEF_KOLOR_3_G3             3
 #DEFINE DEF_KOLOR_4_G4             4
 #DEFINE DEF_KOLOR_5_DWU            5
+#DEFINE DEF_KOLOR_6_G0             6
+
+
 
 
 //******************************************************************************
@@ -32,7 +36,8 @@
 #DEFINE DEF_USZ_NVF_AKP            5
 #DEFINE DEF_USZ_NVF_HPL_PANEL      6
 #DEFINE DEF_USZ_NVF_FZP            7
-
+#DEFINE DEF_USZ_ALP_C50            8
+#DEFINE DEF_USZ_ALP_C50_SKR        9
 
 //******************************************************************************
 //Kolory - grupy cen
@@ -76,6 +81,8 @@
 #DEFINE WAR_NVF_AKP                5
 #DEFINE WAR_NVF_HPL_PANEL          6
 #DEFINE WAR_NVF_FZP                7
-
+#DEFINE WAR_C50                    8
+#DEFINE WAR_C50_CD                 9
+#DEFINE WAR_C50_SKRZ_BK            10
 
 

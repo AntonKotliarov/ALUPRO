@@ -48,10 +48,16 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol1,
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
-                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_ProgDZ,				   
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,						   				   
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,	
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -106,9 +112,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -174,9 +184,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -231,9 +245,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -302,9 +320,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -587,9 +609,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -644,9 +670,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -714,9 +744,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -782,9 +816,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -839,9 +877,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -1068,9 +1110,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -1125,9 +1171,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -1193,9 +1243,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -1250,9 +1304,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -1321,9 +1379,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -1520,9 +1582,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -1723,9 +1789,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -1813,9 +1883,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -1868,9 +1942,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -1934,9 +2012,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -1989,9 +2071,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -2058,9 +2144,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -2127,9 +2217,13 @@ TYPY_PROFILI=
                    TP_RamaAuto2_Dol2,
                    TP_RamaAuto3_Dol,
                    TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_ProgDH,
                    TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_ProgDZBezp,
                    TP_RamaDrzwiowa_ProgDWBezp,
                    TP_RamaDrzwiowa_SzczotkaDZ,
@@ -3031,11 +3125,16 @@ TP_RamaOkiennaZ_Rama2,
                    TP_RamaUniw_RamaDol,
                    TP_RamaUniw_RamaInna,
                     TP_RamaOkienna_SzczelinaBalkonu,
+					TP_RamaOkienna_SzczelinaBalkonu0,
                     TP_RamaOkienna_SzczelinaOknaPodawczego,
                     TP_RamaDrzwiowa_ProgDZ,
+					TP_RamaDrzwiowa_ProgDZ0,
                     TP_RamaDrzwiowa_ProgDW,
+					TP_RamaDrzwiowa_ProgDW0,
                     TP_RamaDrzwiowa_ProgDH,
                     TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,						
                     TP_RamaDrzwiowa_ProgDZBezp,
                     TP_RamaDrzwiowa_ProgDWBezp,
                     TP_RamaDrzwiowa_SzczotkaDZ,
@@ -3095,11 +3194,16 @@ TP_RamaOkiennaZ_Rama2,
                    TP_RamaUniw_RamaPion,
                    TP_RamaUniw_RamaInna,
                     TP_RamaOkienna_SzczelinaBalkonu,
+					TP_RamaOkienna_SzczelinaBalkonu0,
                     TP_RamaOkienna_SzczelinaOknaPodawczego,
                     TP_RamaDrzwiowa_ProgDZ,
+					TP_RamaDrzwiowa_ProgDZ0,
                     TP_RamaDrzwiowa_ProgDW,
+					TP_RamaDrzwiowa_ProgDW0,
                     TP_RamaDrzwiowa_ProgDH,
                     TP_RamaDrzwiowa_ProgDWZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,						   
+                   TP_RamaDrzwiowa_ProgDW_CD,						
                     TP_RamaDrzwiowa_ProgDZBezp,
                     TP_RamaDrzwiowa_ProgDWBezp,
                     TP_RamaDrzwiowa_SzczotkaDZ,
@@ -3881,13 +3985,52 @@ TP_RamaOkiennaZ_Rama2,
                    TP_PolaczoneKonstrukcje_RamaDol,
                    TP_PolaczoneKonstrukcje_RamaInna,
                    TP_PolaczoneKonstrukcje_Brak,
-                   TP_PolaczoneKonstrukcje_LacznikPoziom
+                   TP_PolaczoneKonstrukcje_LacznikPoziom,
+				   TP_Fasada_Rygiel,
+                   TP_Fasada_RygielSciana,
+                   TP_Fasada_Slup,
+                   TP_Fasada_SlupSciana,
+				   TP_Fasada_PodProgiem,
+				   TP_Peregorodka_Rygiel,
+                   TP_Peregorodka_RygielSciana,
+                   TP_Peregorodka_Slup,
+                   TP_Peregorodka_SlupSciana
                  ]
         STRONA_B=[
                    TP_SkrzydloOkienne_Dol,
-                   TP_SkrzydloOkienneZ_O1
+                   TP_SkrzydloOkienneZ_O1,
+				   TP_SkrzydloOkienne_PoprzeczkaBalkonowa
                  ]
       >
+    TYP_PROFILU[TP_RamaOkienna_SzczelinaBalkonu0]=
+      <
+        NAZWA='Szczelina balkonowa'
+        OPIS ='Szczelina balkonowa'
+        POLOZENIA=[
+	           MOZE_POZIOM,MOZE_UKOS,MOZE_LUK
+                  ]
+        STRONA_A=[
+                   TP_Sciana,
+                   TP_PolaczoneKonstrukcje_RamaDol,
+                   TP_PolaczoneKonstrukcje_RamaInna,
+                   TP_PolaczoneKonstrukcje_Brak,
+                   TP_PolaczoneKonstrukcje_LacznikPoziom,
+				   TP_Fasada_Rygiel,
+                   TP_Fasada_RygielSciana,
+                   TP_Fasada_Slup,
+                   TP_Fasada_SlupSciana,
+				   TP_Fasada_PodProgiem,
+				   TP_Peregorodka_Rygiel,
+                   TP_Peregorodka_RygielSciana,
+                   TP_Peregorodka_Slup,
+                   TP_Peregorodka_SlupSciana
+                 ]
+        STRONA_B=[
+                   TP_SkrzydloOkienne_Dol,
+                   TP_SkrzydloOkienneZ_O1,
+				   TP_SkrzydloOkienne_PoprzeczkaBalkonowa
+                 ]
+      >	  
     TYP_PROFILU[TP_RamaOkienna_RuchomySlupek]=
       <
         NAZWA='Ruchomy slupek'
@@ -4291,6 +4434,7 @@ TP_SkrzydloOkienneZ_O1
                    TP_RamaUniw_Poprzeczka_O_DW,
                    TP_RamaUniw_Poprzeczka_O_DZ,
                    TP_RamaOkienna_SzczelinaBalkonu,
+				   TP_RamaOkienna_SzczelinaBalkonu0,
                    TP_PoprzeczkaAutoOK,
                    TP_OscieznicaAutoOK,
                     TP_SkrzydloOkienne_Zawias,
@@ -4461,10 +4605,11 @@ TP_SkrzydloOkienneZ_O1
         NAZWA='Poprzeczka balkonowa'
         OPIS ='Poprzeczka balkonowa'
         POLOZENIA=[
-	           MOZE_PION,MOZE_UKOS,MOZE_LUK
+	           MOZE_PION,MOZE_POZIOM,MOZE_UKOS,MOZE_LUK
                   ]
         STRONA_A=[
-                   TP_RamaOkienna_SzczelinaBalkonu
+                   TP_RamaOkienna_SzczelinaBalkonu,
+				   TP_RamaOkienna_SzczelinaBalkonu0
                  ]
         STRONA_B=[
                    TP_Szyba,
@@ -4632,6 +4777,7 @@ TP_SkrzydloOkienneZ_O1
 TP_RamaOkiennaZ_Rama2,
                    TP_RamaOkiennaZ_Poprzeczka,
                    TP_RamaOkienna_SzczelinaBalkonu,
+				   TP_RamaOkienna_SzczelinaBalkonu0,
                    TP_PoprzeczkaAutoOK,
                    TP_OscieznicaAutoOK,
                    TP_RamaAutoOK_ZawiasJakoPoprzeczka,
@@ -5906,6 +6052,78 @@ TP_RamaOkiennaZ_Rama2,
                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1
                  ]
       >
+    TYP_PROFILU[TP_RamaDrzwiowa_ProgDZ_CD]=
+      <
+        NAZWA='Próg drzwiowy DZ1 CD'
+        OPIS ='Próg drzwi otwieranych na zewnatrz. typ 1'
+        POLOZENIA=[
+	           MOZE_POZIOM
+                  ]
+        STRONA_A=[
+                   TP_Sciana,
+                   TP_PolaczoneKonstrukcje_RamaInna,
+                   TP_PolaczoneKonstrukcje_Brak,
+                   TP_PolaczoneKonstrukcje_RamaDol,
+                   TP_PolaczoneKonstrukcje_LacznikPoziom,
+                   TP_Fasada_Slup,
+                   TP_Fasada_SlupSciana,
+                   TP_Fasada_Rygiel,
+				   
+                   TP_50_Fasada_Slup,
+                   TP_50_Fasada_Rygiel,
+                   TP_50_Fasada_SlupSciana,
+
+                   TP_Fasada_PodProgiem,
+				   
+                   TP_Peregorodka_Slup,
+                   TP_Peregorodka_SlupSciana,
+                   TP_Peregorodka_Rygiel,
+                   TP_Peregorodka_PodProgiem,				   
+                   TP_Struktura_Slup,
+                   TP_Struktura_Rygiel,
+                   TP_Struktura_SlupSciana,
+                   TP_Struktura_RygielSciana
+                 ]
+        STRONA_B=[
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1
+                 ]
+      >	  
+    TYP_PROFILU[TP_RamaDrzwiowa_ProgDZ0]=
+      <
+        NAZWA='Próg drzwiowy DZ1'
+        OPIS ='Próg drzwi otwieranych na zewnatrz. typ 1'
+        POLOZENIA=[
+	           MOZE_POZIOM
+                  ]
+        STRONA_A=[
+                   TP_Sciana,
+                   TP_PolaczoneKonstrukcje_RamaInna,
+                   TP_PolaczoneKonstrukcje_Brak,
+                   TP_PolaczoneKonstrukcje_RamaDol,
+                   TP_PolaczoneKonstrukcje_LacznikPoziom,
+                   TP_Fasada_Slup,
+                   TP_Fasada_SlupSciana,
+                   TP_Fasada_Rygiel,
+				   
+                   TP_50_Fasada_Slup,
+                   TP_50_Fasada_Rygiel,
+                   TP_50_Fasada_SlupSciana,
+
+                   TP_Fasada_PodProgiem,
+				   
+                   TP_Peregorodka_Slup,
+                   TP_Peregorodka_SlupSciana,
+                   TP_Peregorodka_Rygiel,
+                   TP_Peregorodka_PodProgiem,				   
+                   TP_Struktura_Slup,
+                   TP_Struktura_Rygiel,
+                   TP_Struktura_SlupSciana,
+                   TP_Struktura_RygielSciana
+                 ]
+        STRONA_B=[
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1
+                 ]
+      >	  
     TYP_PROFILU[TP_RamaDrzwiowa_ProgDW]=
       <
         NAZWA='Próg drzwiowy DW1'
@@ -5943,6 +6161,80 @@ TP_RamaOkiennaZ_Rama2,
                    TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1
                  ]
       >
+    TYP_PROFILU[TP_RamaDrzwiowa_ProgDW_CD]=
+      <
+        NAZWA='Próg drzwiowy DW1 CD'
+        OPIS ='Próg drzwi otwieranych do wewnatrz. typ 1'
+        POLOZENIA=[
+	           MOZE_POZIOM
+                  ]
+        STRONA_A=[
+                   TP_Sciana,
+                   TP_PolaczoneKonstrukcje_RamaInna,
+                   TP_PolaczoneKonstrukcje_Brak,
+                   TP_PolaczoneKonstrukcje_RamaDol,
+                   TP_PolaczoneKonstrukcje_LacznikPoziom,
+                   TP_Fasada_Slup,
+                   TP_Fasada_SlupSciana,
+                   TP_Fasada_Rygiel,
+                   TP_Fasada_RygielSciana,
+				   
+                   TP_50_Fasada_Slup,
+                   TP_50_Fasada_Rygiel,
+                   TP_50_Fasada_SlupSciana,
+                   TP_50_Fasada_RygielSciana,
+				   				   
+                   TP_Fasada_PodProgiem,
+                   TP_Peregorodka_Slup,
+                   TP_Peregorodka_SlupSciana,
+                   TP_Peregorodka_Rygiel,
+                   TP_Peregorodka_PodProgiem,					   
+                   TP_Struktura_Slup,
+                   TP_Struktura_Rygiel,
+                   TP_Struktura_SlupSciana,
+                   TP_Struktura_RygielSciana
+                 ]
+        STRONA_B=[
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1
+                 ]
+      >	  
+    TYP_PROFILU[TP_RamaDrzwiowa_ProgDW0]=
+      <
+        NAZWA='Próg drzwiowy DW1'
+        OPIS ='Próg drzwi otwieranych do wewnatrz. typ 1'
+        POLOZENIA=[
+	           MOZE_POZIOM
+                  ]
+        STRONA_A=[
+                   TP_Sciana,
+                   TP_PolaczoneKonstrukcje_RamaInna,
+                   TP_PolaczoneKonstrukcje_Brak,
+                   TP_PolaczoneKonstrukcje_RamaDol,
+                   TP_PolaczoneKonstrukcje_LacznikPoziom,
+                   TP_Fasada_Slup,
+                   TP_Fasada_SlupSciana,
+                   TP_Fasada_Rygiel,
+                   TP_Fasada_RygielSciana,
+				   
+                   TP_50_Fasada_Slup,
+                   TP_50_Fasada_Rygiel,
+                   TP_50_Fasada_SlupSciana,
+                   TP_50_Fasada_RygielSciana,
+				   				   
+                   TP_Fasada_PodProgiem,
+                   TP_Peregorodka_Slup,
+                   TP_Peregorodka_SlupSciana,
+                   TP_Peregorodka_Rygiel,
+                   TP_Peregorodka_PodProgiem,					   
+                   TP_Struktura_Slup,
+                   TP_Struktura_Rygiel,
+                   TP_Struktura_SlupSciana,
+                   TP_Struktura_RygielSciana
+                 ]
+        STRONA_B=[
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1
+                 ]
+      >	  
     TYP_PROFILU[TP_RamaDrzwiowa_ProgDH]=
       <
         NAZWA='Próg drzwiowy DH1'
@@ -7298,6 +7590,8 @@ TP_RamaOkiennaZ_Rama2,
                   ]
         STRONA_A=[
                    TP_RamaDrzwiowa_ProgDW,
+                   TP_RamaDrzwiowa_ProgDW_CD,				   
+				   TP_RamaDrzwiowa_ProgDW0,
 				   TP_RamaDrzwiowa_DW
                  ]
         STRONA_B=[
@@ -7319,6 +7613,8 @@ TP_RamaOkiennaZ_Rama2,
                   ]
         STRONA_A=[
                    TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,				   
+				   TP_RamaDrzwiowa_ProgDZ0,
 				   TP_RamaDrzwiowa_DZ
                  ]
         STRONA_B=[
@@ -8310,8 +8606,12 @@ TP_RamaOkiennaZ_Rama2,
                    TP_RamaUniw_RamaGora,
 				   
 				   TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_Prog2DZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,	
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_SzczotkaDZ				   
                  ]
         >
@@ -8353,8 +8653,12 @@ TP_RamaOkiennaZ_Rama2,
                    TP_RamaUniw_RamaGora,
 				   
 				   TP_RamaDrzwiowa_ProgDZ,
+				   TP_RamaDrzwiowa_ProgDZ0,
                    TP_RamaDrzwiowa_ProgDW,
+				   TP_RamaDrzwiowa_ProgDW0,
                    TP_RamaDrzwiowa_Prog2DZ,
+                   TP_RamaDrzwiowa_ProgDZ_CD,	
+                   TP_RamaDrzwiowa_ProgDW_CD,					   
                    TP_RamaDrzwiowa_SzczotkaDZ				   
                  ]
         >

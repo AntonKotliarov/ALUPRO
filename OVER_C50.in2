@@ -1,0 +1,312 @@
+NAKLADANIE=
+      <
+        PRZEKROJ_NR=108
+        FUTRYNA=  [
+	              PRF_F50_BRAK		  
+                  ]
+        SKRZYDLO= [
+                  PRF_PROG_ALP_C50_615   
+                    ]
+        ZACHODZENIE=50
+      >
+	  
+NAKLADANIE=
+      <
+        PRZEKROJ_NR=108
+        FUTRYNA=  [
+                  PRF_F50_BRAK0	  
+                  ]
+        SKRZYDLO= [
+                  PRF_PROG_ALP_C50_615    
+                    ]
+        ZACHODZENIE=0
+      >	  
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=33
+        FUTRYNA=  [
+             PRF_RCHS_ALP_C50_611
+                  ]
+        SKRZYDLO= [          
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_201       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_202       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_203       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_204       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_205       ,
+			 
+             PRF_SKRZYDLO_BALKONA_ALP_C50_202       ,
+             PRF_SKRZYDLO_BALKONA_ALP_C50_203       ,
+             PRF_SKRZYDLO_BALKONA_ALP_C50_204			 
+                  ]
+        ZACHODZENIE_A=28
+        ZACHODZENIE_B=28
+      >
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=33
+        FUTRYNA=  [
+             PRF_RAMA_OKIENNA_ALP_C50_101           ,
+             PRF_RAMA_OKIENNA_ALP_C50_102           ,
+             PRF_RAMA_OKIENNA_ALP_C50_103           ,
+             PRF_SLP_OKIENNA_ALP_C50_301            ,
+             PRF_SLP_OKIENNA_ALP_C50_302            ,
+             PRF_WZM_SLP_OKIENNA_ALP_C50_311       
+                  ]
+        SKRZYDLO= [          
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_201       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_202       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_203       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_204       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_205       ,
+			 
+             PRF_SKRZYDLO_BALKONA_ALP_C50_202       ,
+             PRF_SKRZYDLO_BALKONA_ALP_C50_203       ,
+             PRF_SKRZYDLO_BALKONA_ALP_C50_204		
+                  ]
+        ZACHODZENIE_A=28
+        ZACHODZENIE_B=28
+      >
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+             PRF_RAMA_DRZWIOWA_DZ_ALP_C50_105 ,
+             PRF_RAMA_DRZWIOWA_DW_ALP_C50_105 ,
+             PRF_RAMA_DRZWIOWA_DZ_ALP_C50_106 ,
+             PRF_RAMA_DRZWIOWA_DW_ALP_C50_106 ,
+             PRF_RAMA_DRZWIOWA_DZ_ALP_C50_107 ,
+             PRF_RAMA_DRZWIOWA_DW_ALP_C50_107 
+                  ]
+        SKRZYDLO= [
+	         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209 ,
+	         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208 
+                  ]
+        ZACHODZENIE_A=16-1.5+6
+        ZACHODZENIE_B=16-1.5+6
+      >	
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+             PRF_RAMA_DRZWIOWA_DZ_ALP_C50_104       ,
+             PRF_RAMA_DRZWIOWA_DW_ALP_C50_104      	
+                  ]
+        SKRZYDLO= [
+             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207   ,
+             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206   		   
+                  ]
+        ZACHODZENIE_A=16-1.5
+        ZACHODZENIE_B=16-1.5
+      >		  
+NAKLADANIE=
+      <
+        FUTRYNA=  [                 
+             PRF_PROG_ALP_C50_614          	 		   
+                  ]
+        SKRZYDLO= [
+             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207   ,
+             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206  
+                  ]
+        ZACHODZENIE_A=5.5
+        ZACHODZENIE_B=5.5
+        ZACHODZENIE_Y='-8*(PROFIL_ZEWN=1)+(-8)*(PROFIL_ZEWN=0)'		
+      > 
+NAKLADANIE=
+      <
+        FUTRYNA=  [                 
+             PRF_PROG_ALP_C50_619          	 		   
+                  ]
+        SKRZYDLO= [
+	         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209 ,
+	         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208 
+                  ]
+        ZACHODZENIE_A=7
+        ZACHODZENIE_B=7
+        ZACHODZENIE_Y='-10*(PROFIL_ZEWN=1)+(-10)*(PROFIL_ZEWN=0)'		
+      > 	  
+NAKLADANIE=
+      <
+        FUTRYNA=  [                 
+             PRF_PROG_ALP_C50_BRAK          	 		   
+                  ]
+        SKRZYDLO= [
+             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207   ,
+             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206  
+                  ]
+        ZACHODZENIE_A=-10
+        ZACHODZENIE_B=-10
+      >    	
+
+NAKLADANIE=
+      <
+        FUTRYNA=  [                 
+             PRF_PROG_ALP_C50_BRAK_CD          	 		   
+                  ]
+        SKRZYDLO= [
+	         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209 ,
+	         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208 
+                  ]
+        ZACHODZENIE_A=-8
+        ZACHODZENIE_B=-8
+      >   
+	  
+//NAKLADANIE=
+//      <
+//        FUTRYNA=  [                 
+//             PRF_PROG_ALP_C50_615           	 		   
+//                  ]
+//        SKRZYDLO= [
+//             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207   ,
+//             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206  
+//                  ]
+//        ZACHODZENIE_A=10
+//        ZACHODZENIE_B=10
+//        ZACHODZENIE_Y='-8*(PROFIL_ZEWN=1)+(-8+3.6)*(PROFIL_ZEWN=0)'		
+//      >   	
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+               PRF_PODZ_DX_ALP_C50
+                  ]
+        SKRZYDLO= [
+             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207   ,
+             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206  
+                  ]
+        ZACHODZENIE_A=7.25
+        ZACHODZENIE_B=7.25
+      >	  	
+
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+               PRF_PODZ_DX_ALP_C50_CD
+                  ]
+        SKRZYDLO= [
+	           PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209 ,
+	           PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208 
+                  ]
+        ZACHODZENIE_A=7.25+3
+        ZACHODZENIE_B=7.25+3
+      >	  	  	  
+
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+             PRF_RCHS_ALP_C50_611       	 
+                  ]
+        SKRZYDLO= [
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_201       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_202       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_203       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_204       ,
+             PRF_SKRZYDLO_OKIENNA_ALP_C50_205       ,
+			 
+             PRF_SKRZYDLO_BALKONA_ALP_C50_202       ,
+             PRF_SKRZYDLO_BALKONA_ALP_C50_203       ,
+             PRF_SKRZYDLO_BALKONA_ALP_C50_204		
+                  ]
+        ZACHODZENIE_A=31
+        ZACHODZENIE_B=31
+      >		  
+NAKLADANIE=
+      <
+        FUTRYNA=  [                 
+             PRF_PROG_ALP_C50_615         	 		   
+                  ]
+        SKRZYDLO= [
+             PRF_SKRZYDLO_BALKONA_ALP_C50_202       ,
+             PRF_SKRZYDLO_BALKONA_ALP_C50_203       ,
+             PRF_SKRZYDLO_BALKONA_ALP_C50_204		
+                  ]
+        ZACHODZENIE_A=10
+        ZACHODZENIE_B=10
+        ZACHODZENIE_Y='-4.2'		
+      > 
+NAKLADANIE=
+      <
+        FUTRYNA=  [                 
+             PRF_PROG_ALP_C50_BRAK         	 		   
+                  ]
+        SKRZYDLO= [
+             PRF_SKRZYDLO_BALKONA_ALP_C50_202       ,
+             PRF_SKRZYDLO_BALKONA_ALP_C50_203       ,
+             PRF_SKRZYDLO_BALKONA_ALP_C50_204		
+                  ]
+        ZACHODZENIE_A=-10
+        ZACHODZENIE_B=-10
+        ZACHODZENIE_Y='0'		
+      > 	  
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+             PRF_RAMA_OKIENNA_ALP_C50_101           ,
+             PRF_RAMA_OKIENNA_ALP_C50_102           ,
+             PRF_RAMA_OKIENNA_ALP_C50_103           ,
+             PRF_SLP_OKIENNA_ALP_C50_301            ,
+             PRF_SLP_OKIENNA_ALP_C50_302            ,
+             PRF_WZM_SLP_OKIENNA_ALP_C50_311       
+  			      ]
+        SKRZYDLO= [
+             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_207 
+                  ]
+        ZACHODZENIE_A=-6
+        ZACHODZENIE_B=-6
+      >	 
+	  
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+             PRF_RAMA_OKIENNA_ALP_C50_101           ,
+             PRF_RAMA_OKIENNA_ALP_C50_102           ,
+             PRF_RAMA_OKIENNA_ALP_C50_103           ,
+             PRF_SLP_OKIENNA_ALP_C50_301            ,
+             PRF_SLP_OKIENNA_ALP_C50_302            ,
+             PRF_WZM_SLP_OKIENNA_ALP_C50_311       
+  			      ]
+        SKRZYDLO= [
+             PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_C50_209 
+                  ]
+        ZACHODZENIE_A=-9
+        ZACHODZENIE_B=-9
+      >	 	
+
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+             PRF_RAMA_OKIENNA_ALP_C50_101           ,
+             PRF_RAMA_OKIENNA_ALP_C50_102           ,
+             PRF_RAMA_OKIENNA_ALP_C50_103           ,
+             PRF_SLP_OKIENNA_ALP_C50_301            ,
+             PRF_SLP_OKIENNA_ALP_C50_302            ,
+             PRF_WZM_SLP_OKIENNA_ALP_C50_311       
+  			      ]
+        SKRZYDLO= [
+             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_208 
+                  ]
+        ZACHODZENIE_A=-9
+        ZACHODZENIE_B=-9
+      >	 	  
+
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+             PRF_RAMA_OKIENNA_ALP_C50_101           ,
+             PRF_RAMA_OKIENNA_ALP_C50_102           ,
+             PRF_RAMA_OKIENNA_ALP_C50_103           ,
+             PRF_SLP_OKIENNA_ALP_C50_301            ,
+             PRF_SLP_OKIENNA_ALP_C50_302            ,
+             PRF_WZM_SLP_OKIENNA_ALP_C50_311   
+  			      ]
+        SKRZYDLO= [
+             PRF_SKRZYDLO_DRZWIOWE_DW_ALP_C50_206   
+                  ]
+        ZACHODZENIE_A=25-6-4.5
+        ZACHODZENIE_B=25-6-4.5
+      >	 	  	  

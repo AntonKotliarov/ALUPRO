@@ -29,6 +29,10 @@ ELEMENTY_ZLOZONE=
     //NVF FZP
     #INCLUDE 'PRF_NVF_FZP.ZLO' 	
     #INCLUDE 'WNG_NVF.ZLO' 	
+	
+    //C50
+    #INCLUDE 'PRF_C50.ZLO' 
+    #INCLUDE 'WNG_C50.ZLO' 			
   >
 
 

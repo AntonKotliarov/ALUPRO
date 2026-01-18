@@ -175,7 +175,8 @@
          GDY_WARIANT_SKRZYDLA=[WAR_W77]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]			 
 
-         WYMIAR_OKUCIA = 'KLAMKA'		 
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	  	  		 
          
          OD_B=400 DO_B=1300
          OD_H=500 DO_H=2600
@@ -328,7 +329,8 @@
          GDY_WARIANT_SKRZYDLA=[WAR_W77]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]			 
 
-         WYMIAR_OKUCIA = 'KLAMKA'		 
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	  	  		 
          
          OD_B=401 DO_B=1300
          OD_H=450 DO_H=2400
@@ -475,7 +477,8 @@
       OSTRZEZENIE_WARUNEK='(B/H)>1.2'
       OSTRZEZENIE_TEKST='Соотношение B/H должно быть меньше 1.2'
 	  
-      WYMIAR_OKUCIA = 'KLAMKA'	
+      WYMIAR_OKUCIA = 'KLAMKA'
+      ZMIENNA='WYS_KLAMKI=KLAMKA'	  	  	  		 	  
 
     //******** KLAMKI ZEWN *****
 
@@ -731,7 +734,8 @@
       OSTRZEZENIE_WARUNEK='(B/H)>1.2'
       OSTRZEZENIE_TEKST='Соотношение B/H должно быть меньше 1.2'
 	  
-      WYMIAR_OKUCIA = 'KLAMKA'	
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	 
 
     //******** KLAMKI ZEWN *****
 
@@ -999,7 +1003,8 @@
       OSTRZEZENIE_WARUNEK='(B/H)>1.2'
       OSTRZEZENIE_TEKST='Соотношение B/H должно быть меньше 1.2'
 	  
-      WYMIAR_OKUCIA = 'KLAMKA'	
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	 
 
     //******** KLAMKI ZEWN *****
 
@@ -1176,7 +1181,8 @@
          ZLOZONY_LIMIT = 'OK_R1_VIS_FAPIM'  
          RYSUNEK='OK_R1_VIS_FAPIM.bmp'			 
 		 
-         WYMIAR_OKUCIA = 'KLAMKA'			 
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	 		 
 
          TERAZ_OD_B=364  TERAZ_DO_B=1200   TERAZ_OD_H=450  TERAZ_DO_H=1000
          ELEMENT[N]=< KOD=E_1414A  ILOSC=1 >		 
@@ -1261,7 +1267,8 @@
          ZLOZONY_LIMIT = 'OK_R1_HID_FAPIM'  
          RYSUNEK='OK_R1_HID_FAPIM.bmp'			 
 		 
-         WYMIAR_OKUCIA = 'KLAMKA'			 
+         WYMIAR_OKUCIA = 'KLAMKA'
+         ZMIENNA='WYS_KLAMKI=KLAMKA'	 		 
 
          TERAZ_OD_B=422  TERAZ_DO_B=1700   TERAZ_OD_H=480  TERAZ_DO_H=1000
 	     ELEMENT[N]=< KOD=E_1201R  ILOSC=1     STRONA_ZK=STRONA_PRAWA>	 

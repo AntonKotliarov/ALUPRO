@@ -1139,6 +1139,84 @@ SKRZYDLO[WNG_SKRZ_DW3_W77_502]=
        OKUCIA=[OKUCIE_D_WEWN2bk]
        KLAMKI=TAK
   >  
+  
+//***********************************************************************
+SKRZYDLO[WNG_SKRZ_DW1_W77_506]=
+  <
+       NAZWA='W77.506-x h=95mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_506.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW2_W77_506]=
+  <
+       NAZWA='W77.506-x h=95mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_506.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_506rs]=
+  <
+       NAZWA='W77.506-x h=95mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_506.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_506]=
+  <
+       NAZWA='W77.506-x h=95mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_506.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >    
 //**************************
 SKRZYDLO[WNG_SKRZ_DW1_W77_504]=
   <
@@ -1217,6 +1295,83 @@ SKRZYDLO[WNG_SKRZ_DW3_W77_504]=
        KLAMKI=TAK
   >
 
+//**************************
+SKRZYDLO[WNG_SKRZ_DW1_W77_508]=
+  <
+       NAZWA='W77.508-x h=103mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_508.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW2_W77_508]=
+  <
+       NAZWA='W77.508-x h=103mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_508.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_508rs]=
+  <
+       NAZWA='W77.508-x h=103mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_508.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_508]=
+  <
+       NAZWA='W77.508-x h=103mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_508.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
 
 //***************************
 //***************************  
@@ -1291,6 +1446,85 @@ SKRZYDLO[ WNG_SKRZ_DZ3_W77_501]=
        STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
        STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
        STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+  
+//**********************************
+
+SKRZYDLO[WNG_SKRZ_DZ1_W77_505]=
+  <
+       NAZWA='W77.505-x h=95mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_505.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ2_W77_505]=
+  <
+       NAZWA='W77.505-x h=95mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_505.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_505rs]=
+  <
+       NAZWA='W77.505-x h=95mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_505.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_505]=
+  <
+       NAZWA='W77.505-x h=95mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_505.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
        SKRZYDLO=TYP_SKRZYDLA_OKIENNE
        DOZWOLONE_WARIANTY=[WAR_W77]
        WARIANT=WAR_W77
@@ -1377,7 +1611,164 @@ SKRZYDLO[ WNG_SKRZ_DZ3_W77_503]=
        KLAMKI=TAK
   >      
   
+//**********************************
+
+SKRZYDLO[WNG_SKRZ_DZ1_W77_507]=
+  <
+       NAZWA='W77.507-x h=103mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_507.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ2_W77_507]=
+  <
+       NAZWA='W77.507-x h=103mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_507.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_507rs]=
+  <
+       NAZWA='W77.507-x h=103mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_507.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_507]=
+  <
+       NAZWA='W77.507-x h=103mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77. <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_507.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >      
   
+//**********************************
+
+SKRZYDLO[WNG_SKRZ_DZ1_W77_507_W77_602]=
+  <
+       NAZWA='W77.507x + W77.602x h=201mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_507_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ2_W77_507_W77_602]=
+  <
+       NAZWA='W77.507x + W77.602x h=201mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_507_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_507_W77_602rs]=
+  <
+       NAZWA='W77.507x + W77.602x h=201mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_507_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_507_W77_602]=
+  <
+       NAZWA='W77.507x + W77.602x h=201mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_507_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >        
+    
 //***********************************************************************
 //COKOL OUT
 //***********************************************************************  
@@ -1452,6 +1843,85 @@ SKRZYDLO[ WNG_SKRZ_DZ3_W77_501_W77_602]=
        STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
        STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602]
        STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+    
+//**********************************
+
+SKRZYDLO[WNG_SKRZ_DZ1_W77_505_W77_602]=
+  <
+       NAZWA='W77.505x + W77.602x h=193mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_505_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ2_W77_505_W77_602]=
+  <
+       NAZWA='W77.505x + W77.602x h=193mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_505_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_505_W77_602rs]=
+  <
+       NAZWA='W77.505x + W77.602x h=193mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_505_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_ZEWN2bk]
+       KLAMKI=TAK
+  >  
+SKRZYDLO[ WNG_SKRZ_DZ3_W77_505_W77_602]=
+  <
+       NAZWA='W77.505x + W77.602x h=193mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються назовні. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DZ3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_505_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
        SKRZYDLO=TYP_SKRZYDLA_OKIENNE
        DOZWOLONE_WARIANTY=[WAR_W77]
        WARIANT=WAR_W77
@@ -1618,6 +2088,83 @@ SKRZYDLO[WNG_SKRZ_DW3_W77_502_W77_602]=
        OKUCIA=[OKUCIE_D_WEWN2bk]
        KLAMKI=TAK
   >  
+//***********************************************************************
+SKRZYDLO[WNG_SKRZ_DW1_W77_506_W77_602]=
+  <
+       NAZWA='W77.506x + W77.602x h=193mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_506_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW2_W77_506_W77_602]=
+  <
+       NAZWA='W77.506x + W77.602x h=193mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_506_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_506_W77_602rs]=
+  <
+       NAZWA='W77.506x + W77.602x h=193mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_506_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_506_W77_602]=
+  <
+       NAZWA='W77.506x + W77.602x h=193mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_506_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >    
 //**************************
 SKRZYDLO[WNG_SKRZ_DW1_W77_504_W77_602]=
   <
@@ -1696,7 +2243,83 @@ SKRZYDLO[WNG_SKRZ_DW3_W77_504_W77_602]=
        KLAMKI=TAK
   >
 
-
+//**************************
+SKRZYDLO[WNG_SKRZ_DW1_W77_508_W77_602]=
+  <
+       NAZWA='W77.508x + W77.602x h=201mm'
+       OPIS ='Стулка для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW1]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_508_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW2_W77_508_W77_602]=
+  <
+       NAZWA='W77.508x + W77.602x h=201mm'
+       OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW2]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_508_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_508_W77_602rs]=
+  <
+       NAZWA='W77.508x + W77.602x h=201mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW3v]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_508_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
+SKRZYDLO[WNG_SKRZ_DW3_W77_508_W77_602]=
+  <
+       NAZWA='W77.508x + W77.602x h=201mm'
+       OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W77'
+       KATEGORIA_HTML='Стулка дверей W77 (з цокольним профілем). <b>Анти-біметал</b>'
+       ZASTOSOWANIE=[TS_Drzwi_DW3]
+       SYSTEMY=	    [DEF_SYS_W77]
+       RYSUNEK='W77_508_W77_602.VCT'
+       STANDARD[POL_LEWO]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_PRAWO] =  [PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507]
+       STANDARD[POL_GORA]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       STANDARD[POL_DOL]   =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602]
+       STANDARD[POL_INNE]  =  [PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508]
+       SKRZYDLO=TYP_SKRZYDLA_OKIENNE
+       DOZWOLONE_WARIANTY=[WAR_W77]
+       WARIANT=WAR_W77
+       OKUCIA=[OKUCIE_D_WEWN2bk]
+       KLAMKI=TAK
+  >
   
   
 //***********************************************************************

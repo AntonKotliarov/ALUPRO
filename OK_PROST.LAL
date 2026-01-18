@@ -140,4 +140,95 @@
 #DEFINE E_3046_30_P                   -126
 #DEFINE E_3046_30_10_P                -127
 
+#DEFINE E_L500_X300_P45_AISI304       -128
+#DEFINE E_L600_X400_P45_AISI304       -129
+#DEFINE E_L1000_X800_P45_AISI304      -130
+#DEFINE E_L1200_X1000_P45_AISI304     -131
+#DEFINE E_L1400_X1200_P45_AISI304     -132
+#DEFINE E_L1800_X1300_P45_AISI304     -133
+
+#DEFINE E_WR2R_A01A0K0435K0435MR12_X  -134
+#DEFINE E_WR1R_A01A0ONITSKPUMR12_X    -135
+#DEFINE E_WR1R_A01A0K0435K0480MR12_X  -136
+
+#DEFINE E_5052_00_520                 -137
+#DEFINE E_2050_95                     -138
+#DEFINE E_2150_95                     -139
+#DEFINE E_3033_00                     -140
+#DEFINE E_3028_00                     -141
+#DEFINE E_3093_00                     -142
+#DEFINE E_5056_00_520                 -143
+#DEFINE E_2006_00                     -144
+#DEFINE E_2096_00                     -146
+
+#DEFINE E_WR1R_02A1ONITSKPUMR12_X     -147
+#DEFINE E_WR1R_02A1K0435SKPUMR12_X    -148
+
+#DEFINE E_5520B_X                     -149
+#DEFINE E_5521B_X                     -150
+
+#DEFINE E_5410                        -151
+#DEFINE E_5413D                       -152
+#DEFINE E_3738                        -153
+#DEFINE E_3046_24_10                  -154
+#DEFINE E_3046_24                     -155
+#DEFINE E_5413B                       -156
+#DEFINE E_5413C                       -157
+#DEFINE E_3094_30_P                   -158
+#DEFINE E_3045_24_10                  -159
+#DEFINE E_3045_24                     -160
+
+#DEFINE E_4010_27                     -161
+#DEFINE E_4010_40                     -162
+
+#DEFINE E_3096_00                     -163
+#DEFINE E_3093_16                     -164
+
+#DEFINE E_L500_AL                     -165
+#DEFINE E_L1000_AL                    -166
+#DEFINE E_L1500_AL                    -167
+#DEFINE E_L2000_AL                    -168
+#DEFINE E_L500_INOX                   -169
+#DEFINE E_L1000_INOX                  -170
+#DEFINE E_L1500_INOX                  -171
+#DEFINE E_L2000_INOX                  -172
+#DEFINE E_TS_1500                     -173
+#DEFINE E_WX80SU4700                  -174
+
+#DEFINE E_WX8010460X                  -175
+#DEFINE E_WX8010461X                  -176
+#DEFINE E_WX80SD5220                  -177
+#DEFINE E_WX80SD5230                  -178
+#DEFINE E_WX80SU4710                  -179
+#DEFINE E_WXSU082705                  -180
+
+#DEFINE E_3032_00                     -181
+#DEFINE E_3022_00                     -182
+#DEFINE E_WX80SD5100                  -183
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

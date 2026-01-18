@@ -354,14 +354,28 @@ AKCESORIA_SZTUKI[E_2150_65]=
     OPIS             = 'Болт анкерній, L=74мм, комплект 6шт *Stublina*'
     RYSUNEK          = '2150_65.jpg'
     MASA             = 0
-  >      
+  >    
+AKCESORIA_SZTUKI[E_2150_95]=
+  <
+    NAZWA            = '2150.95'
+    OPIS             = 'Болт анкерній, комплект 6шт *Stublina*'
+    RYSUNEK          = '2150_95.jpg'
+    MASA             = 0
+  >        
 AKCESORIA_SZTUKI[E_2050_65]=
   <
     NAZWA            = '2050.65'
     OPIS             = 'Болт анкерній, L=74мм, комплект 4шт *Stublina*'
     RYSUNEK          = '2050_65.jpg'
     MASA             = 0
-  >        
+  >    
+AKCESORIA_SZTUKI[E_2050_95]=
+  <
+    NAZWA            = '2050.95'
+    OPIS             = 'Болт анкерній, комплект 4шт *Stublina*'
+    RYSUNEK          = '2050_95.jpg'
+    MASA             = 0
+  >         
 AKCESORIA_SZTUKI[E_2110_00]=
   <
     NAZWA            = '2110.00X'
@@ -400,18 +414,81 @@ AKCESORIA_SZTUKI[E_3012_20]=
     
 AKCESORIA_SZTUKI[E_MX8020456X]=
   <
-    NAZWA            = 'MХ8020456ХX'
+    NAZWA            = 'MХ8020456.X'
     OPIS             = 'MX Завіс регульований 2-стулковий асиметричний *WALA*'
     RYSUNEK          = 'MX8020456X.jpg'
     MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_WX8010460X]=
+  <
+    NAZWA            = 'WX8010460.X'
+    OPIS             = 'Кутова накладна петля двосекційна *WALA*'
+    RYSUNEK          = 'WX8010460.vct'
+	RYSUNEK_DO_PRZEKROJOW='CS_WX8010460.vct'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_WX8010461X]=
+  <
+    NAZWA            = 'WX8010461.X'
+    OPIS             = 'Кутова накладна петля трисекційна *WALA*'
+    RYSUNEK          = 'WX8010461.vct'
+	RYSUNEK_DO_PRZEKROJOW='CS_WX8010460.vct'	
+    MASA             = 0
+  >      
+AKCESORIA_SZTUKI[E_WX80SD5220]=
+  <
+    NAZWA            = 'WX80SD5220'
+    OPIS             = 'Набір для кріплення накладної петлі двосекційної *WALA*'
+    RYSUNEK          = 'WX80SD5220.png'
+	RYSUNEK_DO_PRZEKROJOW='CS_WX80SD5220.vct'		
+    MASA             = 0
   >     
+AKCESORIA_SZTUKI[E_WX80SD5230]=
+  <
+    NAZWA            = 'WX80SD5230'
+    OPIS             = 'Набір для кріплення накладної петлі трисекційної *WALA*'
+    RYSUNEK          = 'WX80SD5230.png'
+	RYSUNEK_DO_PRZEKROJOW='CS_WX80SD5220.vct'			
+    MASA             = 0
+  >    
+AKCESORIA_SZTUKI[E_WX80SU4700]=
+  <
+    NAZWA            = 'WX80SU4700'
+    OPIS             = 'Набір для кріплення накладної петлі двосекційної *WALA*'
+    RYSUNEK          = 'WX80SU4700.png'
+	RYSUNEK_DO_PRZEKROJOW='CS_WX80SU4700.vct'					
+    MASA             = 0
+  >     
+AKCESORIA_SZTUKI[E_WX80SU4710]=
+  <
+    NAZWA            = 'WX80SU4710'
+    OPIS             = 'Набір для кріплення накладної петлі трисекційної *WALA*'
+    RYSUNEK          = 'WX80SU4710.png'
+	RYSUNEK_DO_PRZEKROJOW='CS_WX80SU4700.vct'						
+    MASA             = 0
+  >          
+AKCESORIA_SZTUKI[E_WXSU082705]=
+  <
+    NAZWA            = 'WXSU082705.X'
+    OPIS             = 'Пластина t=5мм для кріплення петлі *WALA*'
+    RYSUNEK          = 'WXSU082705.vct'
+	RYSUNEK_DO_PRZEKROJOW='CS_WXSU082705.vct'				
+    MASA             = 0
+  >            
 AKCESORIA_SZTUKI[E_WX_50SD5100]=
   <
-    NAZWA            = 'WX_50SD5100X'
+    NAZWA            = 'WХ_50SD5100'
     OPIS             = 'WALA_Набір кріплення завісу WX 2-стулкового, дюбельний болт 71.5мм *WALA*'
     RYSUNEK          = 'WX_50SD5100.jpg'
     MASA             = 0
-  >       
+  >   
+AKCESORIA_SZTUKI[E_WX80SD5100]=
+  <
+    NAZWA            = 'WX80SD5100'
+    OPIS             = 'WALA_Набір кріплення завісу WX 2-стулкового, дюбельний болт 71.5мм *WALA*'
+    RYSUNEK          = 'WX80SD5100.jpg'
+    MASA             = 0
+  >        
 AKCESORIA_SZTUKI[E_MX8020457X]=
   <
     NAZWA            = 'MХ8020457ХX'
@@ -441,6 +518,27 @@ AKCESORIA_SZTUKI[E_3031_00]=
     RYSUNEK          = '3031_00.jpg'
     MASA             = 0
   >    
+AKCESORIA_SZTUKI[E_3032_00]=
+  <
+    NAZWA            = '3032.00'
+    OPIS             = 'Замок фалевий з роликом *Stublina*'
+    RYSUNEK          = '3032_00.jpg'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_3028_00]=
+  <
+    NAZWA            = '3028.00'
+    OPIS             = 'Замок фалевий з засувкою *Stublina*'
+    RYSUNEK          = '3028_00.jpg'
+    MASA             = 0
+  > 
+AKCESORIA_SZTUKI[E_3033_00]=
+  <
+    NAZWA            = '3033.00'
+    OPIS             = 'Замок фалевий з роликом *Stublina*'
+    RYSUNEK          = '3033_00.jpg'
+    MASA             = 0
+  >       
 AKCESORIA_SZTUKI[E_3021_00]=
   <
     NAZWA            = '3021.00'
@@ -448,6 +546,67 @@ AKCESORIA_SZTUKI[E_3021_00]=
     RYSUNEK          = '3021_00.jpg'
     MASA             = 0
   >  
+AKCESORIA_SZTUKI[E_3022_00]=
+  <
+    NAZWA            = '3022.00'
+    OPIS             = 'Замок фалевий з засувкою *Stublina*'
+    RYSUNEK          = '3022_00.jpg'
+    MASA             = 0
+  >    
+AKCESORIA_SZTUKI[E_3045_24]=
+  <
+    NAZWA            = '3045.24'
+    OPIS             = 'Замок 3-х точковий із клямкою, 1650mm, керування ключем *Stublina*'
+    RYSUNEK          = '3045_24.jpg'
+    MASA             = 0
+  >    
+ AKCESORIA_SZTUKI[E_3045_24_10]=
+  <
+    NAZWA            = '3045.24.10'
+    OPIS             = 'Замок 3-х точковий із клямкою, 2200mm, керування ключем *Stublina*'
+    RYSUNEK          = '3045_24_10.jpg'
+    MASA             = 0
+  >       
+  
+  
+  
+AKCESORIA_SZTUKI[E_3046_24]=
+  <
+    NAZWA            = '3046.24'
+    OPIS             = 'Замок 3-х точковий з роликом, 1650mm, керування ключем *Stublina*'
+    RYSUNEK          = '3046_24.jpg'
+    MASA             = 0
+  >    
+ AKCESORIA_SZTUKI[E_3046_24_10]=
+  <
+    NAZWA            = '3046.24.10'
+    OPIS             = 'Замок 3-х точковий з роликом, 2200mm, керування ключем *Stublina*'
+    RYSUNEK          = '3046_24_10.jpg'
+    MASA             = 0
+  >     
+AKCESORIA_SZTUKI[E_5413B]=
+  <
+    NAZWA            = '5413B'
+    OPIS             = 'Відповідна планка до замку *Stublina*'
+    RYSUNEK          = '5413B.jpg'
+    MASA             = 0
+  >     
+AKCESORIA_SZTUKI[E_5413C]=
+  <
+    NAZWA            = '5413C'
+    OPIS             = 'Відповідна планка до замку *Stublina*'
+    RYSUNEK          = '5413C.jpg'
+    MASA             = 0
+  >     
+AKCESORIA_SZTUKI[E_3094_30_P]=
+  <
+    NAZWA            = '3094.30/P'
+    OPIS             = 'Набір відповідних планок до 3-х точкових замків *Stublina*'
+    RYSUNEK          = '3094_30_P.jpg'
+    MASA             = 0
+  >       
+
+  
 AKCESORIA_SZTUKI[E_3045_30_P]=
   <
     NAZWA            = '3045.30/P'
@@ -483,6 +642,13 @@ AKCESORIA_SZTUKI[E_3096_30_P]=
     OPIS             = 'Відповідна планка до замка *Stublina*'
     RYSUNEK          = '3096_30_P.jpg'
     MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_3096_00]=
+  <
+    NAZWA            = '3096.00'
+    OPIS             = 'Відповідна планка до замка *Stublina*'
+    RYSUNEK          = '3096_00.jpg'
+    MASA             = 0
   >   
 AKCESORIA_SZTUKI[E_3093_30_P]=
   <
@@ -490,14 +656,28 @@ AKCESORIA_SZTUKI[E_3093_30_P]=
     OPIS             = 'Відповідна планка до замка *Stublina*'
     RYSUNEK          = '3093_30_P.jpg'
     MASA             = 0
-  >        
+  >    
+AKCESORIA_SZTUKI[E_3093_00]=
+  <
+    NAZWA            = '3093.00'
+    OPIS             = 'Відповідна планка до замку *Stublina*'
+    RYSUNEK          = '3093_300.jpg'
+    MASA             = 0
+  >      
 AKCESORIA_SZTUKI[E_3093_60]=
   <
     NAZWA            = '3093.60'
     OPIS             = 'Набір відповідних планок до 3-х точкових замків *Stublina*'
     RYSUNEK          = '3093_60.jpg'
     MASA             = 0
-  >          
+  >  
+AKCESORIA_SZTUKI[E_3093_16]=
+  <
+    NAZWA            = '3093.16'
+    OPIS             = 'Підкладка під засувку *Stublina*'
+    RYSUNEK          = '3093_16.jpg'
+    MASA             = 0
+  >       
 AKCESORIA_SZTUKI[E_2501F]=
   <
     NAZWA            = '2501F'
@@ -539,7 +719,21 @@ AKCESORIA_SZTUKI[E_5057_00_520]=
     OPIS             = 'Профільний циліндр Stublina 31+61 (92мм) *Stublina*'
     RYSUNEK          = '5057_00_520.jpg'
     MASA             = 0
-  >       
+  >    
+AKCESORIA_SZTUKI[E_5052_00_520]=
+  <
+    NAZWA            = '5052.00.520'
+    OPIS             = 'Профільний циліндр Stublina 31+31 (62мм) *Stublina*'
+    RYSUNEK          = '5052_00_520.jpg'
+    MASA             = 0
+  >     
+AKCESORIA_SZTUKI[E_5056_00_520]=
+  <
+    NAZWA            = '5056.00.520'
+    OPIS             = 'Профільний циліндр Stublina 31+51 (82мм) *Stublina*'
+    RYSUNEK          = '5056_00_520.jpg'
+    MASA             = 0
+  >         
 AKCESORIA_SZTUKI[E_1031_02_313]=
   <
     NAZWA            = '1031.02X'
@@ -595,7 +789,14 @@ AKCESORIA_SZTUKI[E_3110_00]=
     OPIS             = 'Відповідна частина під шпінгалет (нижня) *Stublina*'
     RYSUNEK          = '3110_00.jpg'
     MASA             = 0
-  >   
+  >  
+AKCESORIA_SZTUKI[E_TS_1500]=
+  <
+    NAZWA            = 'TS 1500 (в комплекті з тягою).X'
+    OPIS             = 'Доводчик *GEZE*'
+    RYSUNEK          = 'TS_1500.jpg'
+    MASA             = 0
+  >     
 AKCESORIA_SZTUKI[E_TS_2000_NV_BC]=
   <
     NAZWA            = 'TS 2000 NV BCX'
@@ -664,6 +865,20 @@ AKCESORIA_SZTUKI[E_4004_00]=
     RYSUNEK          = '4004_00.jpg'
     MASA             = 0
   >  	
+AKCESORIA_SZTUKI[E_2006_00]=
+  <
+    NAZWA            = '2006.00.X'
+    OPIS             = 'Петля дверна двосекційна *Stublina*'
+    RYSUNEK          = '2006_00.jpg'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_2096_00]=
+  <
+    NAZWA            = '2096.00.X'
+    OPIS             = 'Петля дверна трисекційна *Stublina*'
+    RYSUNEK          = '2096_00.jpg'
+    MASA             = 0
+  >  	    
 AKCESORIA_SZTUKI[E_2022_00_X]=
   <
     NAZWA            = '2022.00.X'
@@ -684,7 +899,14 @@ AKCESORIA_SZTUKI[E_4010_20]=
     OPIS             = 'Кутовий перемикач для поворотних стулок *Stublina*'
     RYSUNEK          = '4010_20.jpg'
     MASA             = 0
-  >  	     
+  >  
+AKCESORIA_SZTUKI[E_4010_27]=
+  <
+    NAZWA            = '4010.27'
+    OPIS             = 'Втулка регульована двосекціонна *Stublina*'
+    RYSUNEK          = '4010_27.jpg'
+    MASA             = 0
+  >    
 AKCESORIA_SZTUKI[E_2011_00_X]=
   <
     NAZWA            = '2011.00.X'
@@ -741,7 +963,14 @@ AKCESORIA_SZTUKI[E_4037_00_X]=
     OPIS             = 'Ком-кт пристроїв для поворотно-відкідних стулок 1201-1400мм з ручкою 1001.00 *Stublina*'
     RYSUNEK          = '4037_00.jpg'
     MASA             = 0
-  >  	    
+  >  
+AKCESORIA_SZTUKI[E_4010_40]=
+  <
+    NAZWA            = '4010.40'
+    OPIS             = 'Додаткові ножиці *Stublina*'
+    RYSUNEK          = '4010_40.jpg'
+    MASA             = 0
+  >  	  
 AKCESORIA_SZTUKI[E_4010_50]=
   <
     NAZWA            = '4010.50'
@@ -881,6 +1110,209 @@ AKCESORIA_SZTUKI[E_4020_60]=
     OPIS             = 'Напрямна накладка *Stublina*'
     RYSUNEK          = '4020_60.jpg'
     MASA             = 0
-  >     
+  >  
+AKCESORIA_SZTUKI[E_L500_AL]=
+  <
+    NAZWA            = 'Ручка офісна L=500, AL.X'
+    OPIS             = 'Ручка офісна L=500 труба алюміній'
+    RYSUNEK          = 'L500_AL.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_L500_2000.vct'								
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_L1000_AL]=
+  <
+    NAZWA            = 'Ручка офісна L=1000, AL.X'
+    OPIS             = 'Ручка офісна L=1000 труба алюміній'
+    RYSUNEK          = 'L1000_AL.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_L500_2000.vct'								
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_L1500_AL]=
+  <
+    NAZWA            = 'Ручка офісна L=1500, AL.X'
+    OPIS             = 'Ручка офісна L=1500 труба алюміній'
+    RYSUNEK          = 'L1500_AL.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_L500_2000.vct'								
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_L2000_AL]=
+  <
+    NAZWA            = 'Ручка офісна L=2000, AL.X'
+    OPIS             = 'Ручка офісна L=2000 труба алюміній'
+    RYSUNEK          = 'L2000_AL.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_L500_2000.vct'								
+    MASA             = 0
+  >    
   
+AKCESORIA_SZTUKI[E_L500_INOX]=
+  <
+    NAZWA            = 'Ручка офісна L=500, INOХ.X'
+    OPIS             = 'Ручка офісна L=500 труба нержавіюча сталь'
+    RYSUNEK          = 'L500_INOX.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_L500_2000.vct'								
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_L1000_INOX]=
+  <
+    NAZWA            = 'Ручка офісна L=1000, INOХ.X'
+    OPIS             = 'Ручка офісна L=1000 труба нержавіюча сталь'
+    RYSUNEK          = 'L1000_INOX.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_L500_2000.vct'								
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_L1500_INOX]=
+  <
+    NAZWA            = 'Ручка офісна L=1500, INOХ.X'
+    OPIS             = 'Ручка офісна L=1500 труба нержавіюча сталь'
+    RYSUNEK          = 'L1500_INOX.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_L500_2000.vct'								
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_L2000_INOX]=
+  <
+    NAZWA            = 'Ручка офісна L=2000, INOХ.X'
+    OPIS             = 'Ручка офісна L=2000 труба нержавіюча сталь'
+    RYSUNEK          = 'L2000_INOX.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_L500_2000.vct'								
+    MASA             = 0
+  >      
+  
+AKCESORIA_SZTUKI[E_L500_X300_P45_AISI304]=
+  <
+    NAZWA            = 'L=500, Х=300 Р45(30) AISI 304 *Wala*'
+    OPIS             = 'Ручка офісна L=500, X=300 Р45(30) AISI 304 *Wala*'
+    RYSUNEK          = 'L500_X300_P45_AISI304.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_WALA.vct'								
+    MASA             = 0
+  >    
+AKCESORIA_SZTUKI[E_L600_X400_P45_AISI304]=
+  <
+    NAZWA            = 'L=600, Х=400 Р45(30) AISI 304 *Wala*'
+    OPIS             = 'Ручка офісна L=600, X=400 Р45(30) AISI 304 *Wala*'
+    RYSUNEK          = 'L600_X400_P45_AISI304.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_WALA.vct'								
+    MASA             = 0
+  >    
+AKCESORIA_SZTUKI[E_L1000_X800_P45_AISI304]=
+  <
+    NAZWA            = 'L=1000, Х=800 Р45(30) AISI 304 *Wala*'
+    OPIS             = 'Ручка офісна L=1000, X=800 Р45(30) AISI 304 *Wala*'
+    RYSUNEK          = 'L1000_X800_P45_AISI304.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_WALA.vct'								
+    MASA             = 0
+  >    
+AKCESORIA_SZTUKI[E_L1200_X1000_P45_AISI304]=
+  <
+    NAZWA            = 'L=1200, Х=1000 Р45(30) AISI 304 *Wala*'
+    OPIS             = 'Ручка офісна L=1200, X=1000 Р45(30) AISI 304 *Wala*'
+    RYSUNEK          = 'L1200_X1000_P45_AISI304.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_WALA.vct'								
+    MASA             = 0
+  >    
+AKCESORIA_SZTUKI[E_L1400_X1200_P45_AISI304]=
+  <
+    NAZWA            = 'L=1400, Х=1200 Р45(30) AISI 304 *Wala*'
+    OPIS             = 'Ручка офісна L=1400, X=1200 Р45(30) AISI 304 *Wala*'
+    RYSUNEK          = 'L1400_X1200_P45_AISI304.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_WALA.vct'								
+    MASA             = 0
+  >    
+AKCESORIA_SZTUKI[E_L1800_X1300_P45_AISI304]=
+  <
+    NAZWA            = 'L=1800, Х=1300 Р45(30) AISI 304 *Wala*'
+    OPIS             = 'Ручка офісна L=1800, X=1300 Р45(30) AISI 304 *Wala*'
+    RYSUNEK          = 'L1800_X1300_P45_AISI304.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_OFICE_WALA.vct'							
+    MASA             = 0
+  >    
+
+AKCESORIA_SZTUKI[E_WR2R_A01A0K0435K0435MR12_X]=
+  <
+    NAZWA            = 'WR2R-A01A0K0435K0435MR12.X'
+    OPIS             = 'Петля роликова *Wala*'
+    RYSUNEK          = 'WR2R_A01A0K0435K0435MR12_X.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_WR2R_A01A0K0435K0435MR12.vct'				
+    MASA             = 0
+  >   
+AKCESORIA_SZTUKI[E_WR1R_A01A0ONITSKPUMR12_X]=
+  <
+    NAZWA            = 'WR1R-A01A0ONITSKPUMR12.X'
+    OPIS             = 'Петля роликова *Wala*'
+    RYSUNEK          = 'WR1R_A01A0ONITSKPUMR12_X.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_WR1R_A01A0ONITSKPUMR12.vct'					
+    MASA             = 0
+  >   
+AKCESORIA_SZTUKI[E_WR1R_A01A0K0435K0480MR12_X]=
+  <
+    NAZWA            = 'WR1R-A01A0K0435K0480MR12.X'
+    OPIS             = 'Петля роликова *Wala*'
+    RYSUNEK          = 'WR1R_A01A0K0435K0480MR12_X.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_WR1R_A01A0K0435K0480MR12.vct'						
+    MASA             = 0
+  >   
+  
+AKCESORIA_SZTUKI[E_WR1R_02A1ONITSKPUMR12_X]=
+  <
+    NAZWA            = 'WR1R-02А1ONITSKPUMR12.X'
+    OPIS             = 'Петля роликова *Wala*'
+    RYSUNEK          = 'WR1R_02А1ONITSKPUMR12_X.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_WR1R_02А1ONITSKPUMR12_X.vct'						
+    MASA             = 0
+  >     
+AKCESORIA_SZTUKI[E_WR1R_02A1K0435SKPUMR12_X]=
+  <
+    NAZWA            = 'WR1R-02А1K0435SKPUMR12.X'
+    OPIS             = 'Петля роликова *Wala*'
+    RYSUNEK          = 'WR1R_02А1K0435SKPUMR12_X.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_WR1R_02А1K0435SKPUMR12_X.vct'						
+    MASA             = 0
+  >       
+  
+  
+AKCESORIA_SZTUKI[E_5520B_X]=
+  <
+    NAZWA            = '5520B.X'
+    OPIS             = 'Петля дверна двосекційна VELOX TOP  *FAPIM*'
+    RYSUNEK          = '5520B_X.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_5520B_X.vct'						
+    MASA             = 0
+  >        
+AKCESORIA_SZTUKI[E_5521B_X]=
+  <
+    NAZWA            = '5521B.X'
+    OPIS             = 'Петля дверна двосекційна VELOX TOP  *FAPIM*'
+    RYSUNEK          = '5521B_X.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_5521B_X.vct'						
+    MASA             = 0
+  >       
+AKCESORIA_SZTUKI[E_5410]=
+  <
+    NAZWA            = '5410'
+    OPIS             = 'Шпінгалет *FAPIM*'
+    RYSUNEK          = '5410.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_5410.vct'						
+    MASA             = 0
+  >     
+AKCESORIA_SZTUKI[E_5413D]=
+  <
+    NAZWA            = '5413D'
+    OPIS             = 'Відповідна частина під шпінгалет (верння) *FAPIM*'
+    RYSUNEK          = '5413D.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_5413D.vct'						
+    MASA             = 0
+  >       
+AKCESORIA_SZTUKI[E_3738]=
+  <
+    NAZWA            = '3738'
+    OPIS             = 'Відповідна частина під шпінгалет (нижня) *FAPIM*'
+    RYSUNEK          = '3738.jpg'
+    RYSUNEK_DO_PRZEKROJOW = 'CS_3738.vct'						
+    MASA             = 0
+  >     
+
+  
+
+
+
+
 

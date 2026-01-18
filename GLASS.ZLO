@@ -10,11 +10,13 @@ SZYBA[SZYBA_0]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows     		
+        TS_W77_windows,
+        TS_C50_windows     		     		
             ] 
     SYSTEMY=[
         DEF_SYS_F50,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   > 
 
@@ -99,11 +101,16 @@ SZYBA[SZYBA_1]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows,
+        TS_C50_RamaDZ_CD,
+        TS_C50_RamaDW_CD   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50,
-        DEF_SYS_W77   		
+        DEF_SYS_W77,
+        DEF_SYS_C50,
+        DEF_SYS_C50_CD    		
             ] 
   >
 
@@ -119,11 +126,16 @@ SZYBA[SZYBA_2]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows,
+        TS_C50_RamaDZ_CD,
+        TS_C50_RamaDW_CD   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50,
-        DEF_SYS_W77   		
+        DEF_SYS_W77,
+        DEF_SYS_C50,
+        DEF_SYS_C50_CD      		
             ] 
   >
   
@@ -139,11 +151,16 @@ SZYBA[SZYBA_3]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows,
+        TS_C50_RamaDZ_CD,
+        TS_C50_RamaDW_CD		
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50,
+        DEF_SYS_C50_CD     		
             ] 
   >
   
@@ -178,11 +195,13 @@ SZYBA[SZYBA_1R1]=
 	
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   
   >
@@ -200,11 +219,13 @@ SZYBA[SZYBA_3R1]=
 	
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   > 
  
@@ -263,11 +284,13 @@ SZYBA[SZYBA_BIB]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   
   >
@@ -286,11 +309,13 @@ SZYBA[SZYBA_BB]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   >
 SZYBA[SZYBA_PIB]=
@@ -306,11 +331,13 @@ SZYBA[SZYBA_PIB]=
 	
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50,
-        DEF_SYS_W77   		
+        DEF_SYS_W77,
+        DEF_SYS_C50    		
             ] 
   
   >
@@ -327,11 +354,13 @@ SZYBA[SZYBA_PB]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   >
 
@@ -347,11 +376,13 @@ SZYBA[SZYBA_BIP]=
 	
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   
   >
@@ -368,11 +399,13 @@ SZYBA[SZYBA_BP]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   >
 
@@ -388,11 +421,13 @@ SZYBA[SZYBA_PIP]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   >
 
@@ -408,11 +443,13 @@ SZYBA[SZYBA_PP]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   >
 
@@ -429,11 +466,13 @@ SZYBA[SZYBA_MODUL_NIEPRZ_Z1]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   >
 SZYBA[SZYBA_MODUL_NIEPRZ_Z2]=
@@ -449,11 +488,13 @@ SZYBA[SZYBA_MODUL_NIEPRZ_Z2]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   
   >
@@ -471,11 +512,13 @@ SZYBA[SZYBA_MODUL_NIEPRZ_IZO]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   
   >
@@ -493,11 +536,13 @@ SZYBA[SZYBA_MODUL_NIEPRZ]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   >
 
@@ -514,11 +559,13 @@ SZYBA[SZYBA_IZOLACJA]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   >
 
@@ -572,11 +619,13 @@ SZYBA[SZYBA_NIETYPOWA]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   
   >
@@ -592,11 +641,13 @@ SZYBA[SZYBA_POLYCARBON]=
 
     DLA_TYPOW_RAM=[
 		TS_FASADA_F50,
-        TS_W77_windows 	
+        TS_W77_windows,
+        TS_C50_windows   	
             ] 
     SYSTEMY=[
         DEF_SYS_F50 ,
-        DEF_SYS_W77  		
+        DEF_SYS_W77,
+        DEF_SYS_C50   		
             ] 
   >  
 SZYBA[SZYBA_PENOPOLISTIROL]=
