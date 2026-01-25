@@ -976,24 +976,24 @@
 #define EGLASS_10_HPL                                     2362
 #define EGLASS_12_HPL                                     2363
 
-#define E_PDKL_100_34_5                                   2364
-#define E_PDKL_100_34_1                                   2365
-#define E_PDKL_100_40_5                                   2366
-#define E_PDKL_100_40_1                                   2367
-#define E_PDKL_100_44_5                                   2368
-#define E_PDKL_100_44_1                                   2369
-#define E_PDKL_100_48_5                                   2370
-#define E_PDKL_100_48_1                                   2371
-#define E_PDKL_100_50_5                                   2372
-#define E_PDKL_100_50_1                                   2373
-#define E_PDKL_100_54_5                                   2374
-#define E_PDKL_100_54_1                                   2375
-#define E_PDKL_100_56_5                                   2376
-#define E_PDKL_100_56_1                                   2377
-#define E_PDKL_100_60_5                                   2378
-#define E_PDKL_100_60_1                                   2379
-#define E_PDKL_100_66_5                                   2380
-#define E_PDKL_100_66_1                                   2381  
+#define E_PODKL_100_34_5                                   2364
+#define E_PODKL_100_34_1                                   2365
+#define E_PODKL_100_40_5                                   2366
+#define E_PODKL_100_40_1                                   2367
+#define E_PODKL_100_44_5                                   2368
+#define E_PODKL_100_44_1                                   2369
+#define E_PODKL_100_48_5                                   2370
+#define E_PODKL_100_48_1                                   2371
+#define E_PODKL_100_50_5                                   2372
+#define E_PODKL_100_50_1                                   2373
+#define E_PODKL_100_54_5                                   2374
+#define E_PODKL_100_54_1                                   2375
+#define E_PODKL_100_56_5                                   2376
+#define E_PODKL_100_56_1                                   2377
+#define E_PODKL_100_60_5                                   2378
+#define E_PODKL_100_60_1                                   2379
+#define E_PODKL_100_66_5                                   2380
+#define E_PODKL_100_66_1                                   2381  
 
 #define E_F50_D003                                        2382
 
@@ -1007,16 +1007,16 @@
 #DEFINE TAFLA_28                                          2390
 #DEFINE TAFLA_30                                          2391
 #DEFINE E_D07004                                          2392
-#DEFINE E_PDKL_100_40_3                                   2393
+//#DEFINE E_PODKL_100_40_3                                   2393
 
-#DEFINE E_PDKL_100_44_3                                   2394
-#DEFINE E_PDKL_100_48_3                                   2395
-#DEFINE E_PDKL_100_50_3                                   2396
-#DEFINE E_PDKL_100_54_3                                   2397
-#DEFINE E_PDKL_100_56_3                                   2398
-#DEFINE E_PDKL_100_60_3                                   2399
-#DEFINE E_PDKL_100_66_3                                   2400
-#DEFINE E_PDKL_100_34_3                                   2401
+//#DEFINE E_PODKL_100_44_3                                   2394
+//#DEFINE E_PODKL_100_48_3                                   2395
+//#DEFINE E_PODKL_100_50_3                                   2396
+//#DEFINE E_PODKL_100_54_3                                   2397
+#DEFINE E_PODKL_100_56_3                                   2398
+#DEFINE E_PODKL_100_60_3                                   2399
+#DEFINE E_PODKL_100_66_3                                   2400
+#DEFINE E_PODKL_100_34_3                                   2401
 
 #DEFINE E_ALP_C50_101                                     2402
 #DEFINE E_ALP_C50_102                                     2403
@@ -1088,9 +1088,9 @@
 #DEFINE E_C50_D006R                                       2466
 #DEFINE E_C50_D006L                                       2467
 								
-#DEFINE E_PDKL_100_24_1                                   2468
-#DEFINE E_PDKL_100_24_3                                   2469
-#DEFINE E_PDKL_100_30_1                                   2470
-#DEFINE E_PDKL_100_30_3                                   2471				
-#DEFINE E_PDKL_100_32_1                                   2472
-#DEFINE E_PDKL_100_32_3                                   2473													  
+#DEFINE E_PODKL_100_24_1                                   2468
+//#DEFINE E_PODKL_100_24_3                                   2469
+#DEFINE E_PODKL_100_30_1                                   2470
+//#DEFINE E_PODKL_100_30_3                                   2471				
+#DEFINE E_PODKL_100_32_1                                   2472
+//#DEFINE E_PODKL_100_32_3                                   2473													  
