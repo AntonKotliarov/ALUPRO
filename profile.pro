@@ -3470,7 +3470,7 @@ PROFIL[E_ALP_W77_311]=
 PROFIL[E_ALP_W77_312]=
   <  
     NAZWA           = 'W77.312X'
-    OPIS            = 'Імпост 44мм посилений, 76мм [W77]'
+    OPIS            = 'Імпост 36мм посилений [W77]'
     RYSUNEK         = 'W77_312.VCT'
     SYSTEMY         = [DEF_SYS_W77]
     SZEROKOSC_BELKI =  94

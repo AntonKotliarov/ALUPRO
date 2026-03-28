@@ -692,7 +692,7 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W77_311]=
 PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W77_312]=
   <
     NAZWA=           'W77.312X'
-    OPIS=	         'Імпост підсилений 94мм. Система ALUPRO W77'
+    OPIS=	         'Імпост підсилений 86мм. Система ALUPRO W77'
     RYSUNEK=	     'W77_312.VCT'	
     KATEGORIA=       '2.1) Профіль імпоста підсилення'
 	
@@ -722,8 +722,8 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W77_312]=
     IX_MM=            6550	
     IY=               19.3121	
 
-    SZEROKOSC=94
-    POLOWA=94/2
+    SZEROKOSC=86
+    POLOWA=86/2
 	
     MATERIALY=          
       <

@@ -36,7 +36,73 @@ SKRZYDLO[ WNG_RAMA_OF_W77_104]=
        DOZWOLONE_WARIANTY=[WAR_W77]
        WARIANT=WAR_W77
        ZMIENNA='OKNO_W77=1'	 	   
-  >      
+  >    
+
+SKRZYDLO[          
+	   WNG_RAMA_OF_W77_104
+        ]=
+  <  
+      DODATKOWE_PARAMETRY=
+        <	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Окна W77'
+              KLUCZ       = 'TYPE_TERMO_W77'
+              PYTANIE     = 'Варіант теплоізоляції системи:'
+              ELEMENT     = 'Standart' 			  
+              ELEMENT     = 'HI'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'TYPE_TERMO_W77.vct'
+              ROZMIAR_RYSUNKU=135
+            >				
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Окна W77'
+              KLUCZ       = 'UTEPLITEL_GLASS_W77'
+              PYTANIE     = 'Використовувати утеплювач фальця склопакету:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '1'
+
+              RYSUNEK     = 'UTEPLITEL_GLASS_W77.vct'
+              ROZMIAR_RYSUNKU=135
+            >		
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Окна W77'
+              KLUCZ       = 'DETAIL_CENTR_GASK_W77'
+              PYTANIE     = 'Використовувати деталь центрального ущільнювача:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '1'
+
+              RYSUNEK     = 'DETAIL_CENTR_GASK_W77.vct'
+              ROZMIAR_RYSUNKU=135
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Окна W77'
+              KLUCZ       = 'CORNER_ELEMENT_PROFILE_W77'
+              PYTANIE     = 'Як рахувати кутові елементи:'
+              ELEMENT     = 'Деталями' 			  
+              ELEMENT     = 'Профілем'
+              STANDARDOWO = '1'
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'OKAPNIK_W77'
+              PYTANIE     = 'Використовувати капельник С.819:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'C_819.vct'
+              ROZMIAR_RYSUNKU=135		  
+            >				
+        >	
+  >        
 //***********************************************************************
 //Створки оконные (ПВХ)
 //***********************************************************************
@@ -2361,3 +2427,47 @@ SKRZYDLO[ WNG_RAMA_DWF_W77_404 ]=
        WARIANT=WAR_W77	  
        ZMIENNA='DVERI_W77=1'			   
   >    
+  
+
+SKRZYDLO[          
+       WNG_RAMA_DZF_W77_403,
+	   WNG_RAMA_DWF_W77_404
+        ]=
+  <  
+      DODATKOWE_PARAMETRY=
+        <	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері W77'
+              KLUCZ       = 'TYPE_TERMO_W77'
+              PYTANIE     = 'Варіант теплоізоляції системи:'
+              ELEMENT     = 'Standart' 			  
+              ELEMENT     = 'HI'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'TYPE_TERMO_W77.vct'
+              ROZMIAR_RYSUNKU=135
+            >					  
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері W77'
+              KLUCZ       = 'UTEPLITEL_GLASS_W77'
+              PYTANIE     = 'Використовувати утеплювач фальця склопакету:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '1'
+
+              RYSUNEK     = 'UTEPLITEL_GLASS_W77.vct'
+              ROZMIAR_RYSUNKU=135
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері W77'
+              KLUCZ       = 'CORNER_ELEMENT_PROFILE_W77'
+              PYTANIE     = 'Як рахувати кутові елементи:'
+              ELEMENT     = 'Деталями' 			  
+              ELEMENT     = 'Профілем'
+              STANDARDOWO = '1'
+            >					
+        >	
+  >        

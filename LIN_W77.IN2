@@ -1591,8 +1591,72 @@ LACZENIE=
   <
     POLACZENIE=[POLACZENIE_T90]
     PROFIL1=[
-            PRF_WZM_SLP_OKIENNA_ALP_W77_311	,
             PRF_WZM_SLP_OKIENNA_ALP_W77_312			
+            ]
+    PROFIL2=[
+            PRF_RAMA_OKIENNA_ALP_W77_101         ,
+            PRF_RAMA_OKIENNA_ALP_W77_102         ,
+            PRF_RAMA_OKIENNA_ALP_W77_103         ,
+            PRF_RAMA_OKIENNA_ALP_W77_104         ,
+            PRF_RAMA_OKIENNA_ALP_W77_105         ,
+			PRF_RAMA_OKIENNA_ALP_W77_106         		
+      ]
+    ZACHODZENIE_A_TEKST='SZEROKOSC_PROFILU'
+    ZACHODZENIE_B_TEKST='SZEROKOSC_PROFILU'
+	
+    MATERIALY=
+      <
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_811_04          ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_811
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='22.5'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+      //***********************	
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_810_04          ILE=1 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)'>
+	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_810
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='22.5'
+        ILE    = 1		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+      //***********************	
+      AKCESORIA_SZTUKI=< KOD=E_W77_C_709_01          ILE=2 GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=0)' > 
+	  
+      WYLICZENIE=
+        <
+        KOD=E_ALP_C_709
+        GDY_PARAMETR='(CORNER_ELEMENT_PROFILE_W77=1)'
+	    PAR_DLUGOSC='22.4'
+        ILE    = 2		
+	    PAR_KAT1='0'
+	    PAR_KAT2='0'
+        KOLOR=KOLOR_SUROWY		
+         >	
+      //***********************		  
+	  
+      AKCESORIA_SZTUKI=< KOD=E_D07004                  ILE=4 > 	  
+      AKCESORIA_SZTUKI=< KOD=E_M6_10_DIN914            ILE=2 >	  
+      AKCESORIA_SZTUKI=< KOD=E_Sam3_9x13_DIN7982       ILE=2 > 	  
+       >
+  >      
+  
+LACZENIE=
+  <
+    POLACZENIE=[POLACZENIE_T90]
+    PROFIL1=[
+            PRF_WZM_SLP_OKIENNA_ALP_W77_311	
             ]
     PROFIL2=[
             PRF_RAMA_OKIENNA_ALP_W77_101         ,
@@ -1651,7 +1715,7 @@ LACZENIE=
       AKCESORIA_SZTUKI=< KOD=E_M6_10_DIN914            ILE=2 >	  
       AKCESORIA_SZTUKI=< KOD=E_Sam3_9x13_DIN7982       ILE=2 > 	  
        >
-  >      
+  >       
   
 LACZENIE=
   <
