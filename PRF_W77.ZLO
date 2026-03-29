@@ -32,8 +32,60 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_101]=
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
-            KAT2   = KAT_JAK_PROFIL	
-          >  
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_101
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4691
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4509
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
         PROFIL=
           <
             KOD    =E_ALP_W77_T059
@@ -75,7 +127,59 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_102]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_102
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4524
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4510
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
         PROFIL=
           <
             KOD    =E_ALP_W77_T062
@@ -117,7 +221,59 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_103]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_103
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4905
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4906
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
         PROFIL=
           <
             KOD    =E_ALP_W77_T063
@@ -158,7 +314,59 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_104]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_104
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_5364
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_5363
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T050
@@ -200,7 +408,59 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_105]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
-          >  	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_105
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_5500
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4777
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T064
@@ -242,7 +502,59 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_106]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_106
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_5364
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_5363
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T065
@@ -292,7 +604,59 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_301]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_301
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4511
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4509
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T059
@@ -334,7 +698,59 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_302]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_302
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4512
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4510
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T062
@@ -376,7 +792,59 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_303]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_303
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_5647
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4906
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T063
@@ -418,7 +886,59 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_304]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_304
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_5651
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4777
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T064
@@ -460,7 +980,59 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_305]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_305
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4511
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4509
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T059
@@ -502,7 +1074,59 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_306]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_306
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4511
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4768
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T059
@@ -544,6 +1168,58 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_307]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_307
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4512
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4510
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -587,6 +1263,58 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_308]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_308
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_5362
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_5363
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -630,6 +1358,58 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W77_309]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_309
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_5362
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_5363
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -676,6 +1456,58 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W77_311]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL						
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_311
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4912
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4510
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -735,6 +1567,58 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W77_312]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL						
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_312
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_5513
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_5363
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -780,6 +1664,58 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_201 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_201
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4430
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4431
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_840100
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -821,6 +1757,58 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_202 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_202
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4432
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4433
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_840100
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -862,7 +1850,59 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_203 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
           > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_203
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4692
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4693
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_840100
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          >  
         PROFIL=
           <
             KOD    =E_ALP_W77_T061
@@ -903,6 +1943,58 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_204 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_204
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4908
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4909
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_840100
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -947,6 +2039,58 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_205 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_205
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4430
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4694
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_840100
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -988,6 +2132,58 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_206 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_206
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4432
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4695
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_840100
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -1029,6 +2225,58 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_207 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_207
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4692
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4696
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_840100
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -1070,6 +2318,58 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W77_208 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL							
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_208
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4908
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4910
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_840100
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -1114,6 +2414,58 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZ_ALP_W77_401 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_401
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4513
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4514
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -1155,6 +2507,58 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DW_ALP_W77_402 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_402
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4515
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4516
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -1199,6 +2603,58 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_403
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4519
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4528
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -1240,6 +2696,58 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_404
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4520
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4521
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
           >  
         PROFIL=
           <
@@ -1285,7 +2793,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_501
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4517
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4516
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          >  
         PROFIL=
           <
             KOD    =E_ALP_W77_T053
@@ -1326,7 +2886,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_505
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4517
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4516
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T062
@@ -1377,7 +2989,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_507
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4967
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4968
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T062
@@ -1429,7 +3093,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_501
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4517
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4516
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T053
@@ -1448,7 +3164,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
             KAT1   = KAT_0
             KAT2   = KAT_0		
-          >		
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4776
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4777
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T064
@@ -1586,7 +3354,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'	
+          > 			
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_505
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4517
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4516
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T062
@@ -1615,7 +3435,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
             KAT1   = KAT_0
             KAT2   = KAT_0		
-          >		
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'	
+          > 			
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4776
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4777
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T064
@@ -1753,7 +3625,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'
+          >			
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_507
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4967
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4968
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T062
@@ -1782,7 +3706,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
             KAT1   = KAT_0
             KAT2   = KAT_0		
-          >		
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_0
+            KAT2   = KAT_0	
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4776
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4777
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		
         PROFIL=
           <
             KOD    =E_ALP_W77_T064
@@ -1919,7 +3895,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_503
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4967
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4968
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T054
@@ -1961,7 +3989,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_503
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4967
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4968
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T054
@@ -1980,7 +4060,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4776
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4777
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T064
@@ -2116,7 +4248,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_502
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4518
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4514
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T053
@@ -2158,7 +4342,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_506
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4518
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4514
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T062
@@ -2211,7 +4447,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_502
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4518
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4514
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T053
@@ -2230,7 +4518,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_502_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4776
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4777
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T064
@@ -2368,7 +4708,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_506
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4518
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4514
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T062
@@ -2397,7 +4789,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_506_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4776
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4777
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T064
@@ -2534,7 +4978,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_504
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4969
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4970
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T054
@@ -2576,7 +5072,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_508
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4969
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4970
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T052
@@ -2629,7 +5177,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_504
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4969
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4970
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T054
@@ -2648,7 +5248,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_504_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >		
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4776
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4777
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T064
@@ -2786,7 +5438,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_508
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4969
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4970
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_429900
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T052
@@ -2815,7 +5519,59 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W77_508_W77_602 ]=
             DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >		
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_602
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4776
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4777
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T064
@@ -2955,7 +5711,59 @@ PROFIL[ PRF_PODZ_DZ_ALP_W77_612]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_612
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4769
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4770
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T052
@@ -3038,7 +5846,59 @@ PROFIL[ PRF_PODZ_DW_ALP_W77_613]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_613
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4771
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4772
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T052
@@ -3112,7 +5972,59 @@ PROFIL[ PRF_RCHS_ALP_W77_610]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL					
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_610
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_5071
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_5072
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T058
@@ -3198,7 +6110,59 @@ PROFIL[ PRF_RCHS_ALP_W77_611]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL					
-          >  	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_611
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_5071
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_5648
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T058
@@ -3286,7 +6250,59 @@ PROFIL[ PRF_PROG_ALP_W77_614]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
-          >	  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_614
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4535
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4536
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T051
@@ -3359,7 +6375,59 @@ PROFIL[ PRF_PROG_ALP_W77_615]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
-          >	  	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_615
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4535
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4907
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T051
@@ -3429,7 +6497,59 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_313
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4913
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4915
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD     = E_ALP_W77_101
@@ -3438,7 +6558,59 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_313_W77_101_P90 ]=
             DLUGOSC = 'OS_PROFILU(0)'
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
-          >	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_101
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4691
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4509
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T059
@@ -3566,7 +6738,59 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ]=
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL			
-          >  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_313
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4913
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4915
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD     = E_ALP_W77_101
@@ -3575,7 +6799,59 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_313_W77_101_M90 ]=
             DLUGOSC = 'OS_PROFILU(0)'
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
-          >	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_101
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4691
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4509
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T059
@@ -3715,7 +6991,59 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_314_W77_101_P45 ]=
             DLUGOSC = 'OS_PROFILU(0)'
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
-          >	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_101
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4691
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4509
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T059
@@ -3808,7 +7136,59 @@ FPROFIL[ PRF_SLY_OKIENNA_ALP_W77_314_W77_101_M45 ]=
             DLUGOSC = 'OS_PROFILU(0)'
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
-          >	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_101
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4691
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4509
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T059
@@ -3884,7 +7264,59 @@ PROFIL[PRF_SLY_OKIENNA_ALP_W77_301_W77_315_0_60]=
             DLUGOSC = 'OS_PROFILU(0)'
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
-          >	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_301
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4511
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4509
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T059
@@ -3903,7 +7335,59 @@ PROFIL[PRF_SLY_OKIENNA_ALP_W77_301_W77_315_0_60]=
             DLUGOSC = 'OS_PROFILU(0)'
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
-          >		
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_315
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_5649
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_5650
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
         PROFIL=
           <
             KOD    =E_ALP_W77_T051
@@ -3985,7 +7469,59 @@ PROFIL[PRF_SLY_OKIENNA_ALP_W77_101_W77_315_10_55]=
             DLUGOSC = 'OS_PROFILU(0)'
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
-          >	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_101
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4691
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4509
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_835600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_806800
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 2
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T059
@@ -4013,7 +7549,59 @@ PROFIL[PRF_SLY_OKIENNA_ALP_W77_101_W77_315_10_55]=
             DLUGOSC = 'OS_PROFILU(0)'
             KAT1    = KAT_JAK_PROFIL
             KAT2    = KAT_JAK_PROFIL
-          >		
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_315
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_5649
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_5650
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W77_T051
@@ -4648,7 +8236,7 @@ PROFIL[
 				TP_RamaDoFasadyWentylowanej,
 				TP_RamaDoFasadyWentylowanej_PION			
                  ]
-       >		    
+        >
 //*************************	  
 	PROFIL=
        <
@@ -4674,7 +8262,140 @@ PROFIL[
                 TP_RamaDrzwiowa_ProgDZ,
                 TP_RamaDrzwiowa_Prog2DZ                         
                     ]
-       >	 	
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_609
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+   	            TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4769
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+   	            TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4977
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+   	            TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+   	            TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+   	            TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          >      	
         PROFIL=
           <
             KOD    =E_ALP_W77_T052
@@ -4725,7 +8446,113 @@ PROFIL[
                 TP_RamaDrzwiowa_ProgDW,
                 TP_RamaDrzwiowa_Prog2DW                         
                     ]
-       >		  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_616
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DW1,
+                   TP_SkrzydloDrzwiowe_DW2,
+   	            TP_SkrzydloDrzwiowe_DW3,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDW,
+                   TP_RamaDrzwiowa_RuchomySlupekDW           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDW,
+                   TP_RamaDrzwiowa_Prog2DW                         
+                       ]
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_5652
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DW1,
+                   TP_SkrzydloDrzwiowe_DW2,
+   	            TP_SkrzydloDrzwiowe_DW3,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDW,
+                   TP_RamaDrzwiowa_RuchomySlupekDW           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDW,
+                   TP_RamaDrzwiowa_Prog2DW                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_5653
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DW1,
+                   TP_SkrzydloDrzwiowe_DW2,
+   	            TP_SkrzydloDrzwiowe_DW3,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDW,
+                   TP_RamaDrzwiowa_RuchomySlupekDW           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDW,
+                   TP_RamaDrzwiowa_Prog2DW                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DW1,
+                   TP_SkrzydloDrzwiowe_DW2,
+   	            TP_SkrzydloDrzwiowe_DW3,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDW,
+                   TP_RamaDrzwiowa_RuchomySlupekDW           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDW,
+                   TP_RamaDrzwiowa_Prog2DW                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	  
 	AKCESORIA_METRY=
               <
                 KOD    = E_RP_01
@@ -4895,7 +8722,139 @@ PROFIL[
                 TP_RamaDrzwiowa_ProgDZ,
                 TP_RamaDrzwiowa_Prog2DZ                         
                     ]
-       >	 
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_609
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+   	            TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  
+        PROFIL=
+          <
+            KOD    = E_PAS_4769
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+   	            TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4977
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+   	            TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+   	            TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DZ1,
+                   TP_SkrzydloDrzwiowe_DZ2,
+   	            TP_SkrzydloDrzwiowe_DZ3,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDZ,
+                   TP_RamaDrzwiowa_RuchomySlupekDZ           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_Prog2DZ                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          >    
         PROFIL=
           <
             KOD    =E_ALP_W77_T052
@@ -4946,7 +8905,113 @@ PROFIL[
                 TP_RamaDrzwiowa_ProgDW,
                 TP_RamaDrzwiowa_Prog2DW                         
                     ]
-       >		  
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_616
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DW1,
+                   TP_SkrzydloDrzwiowe_DW2,
+   	            TP_SkrzydloDrzwiowe_DW3,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDW,
+                   TP_RamaDrzwiowa_RuchomySlupekDW           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDW,
+                   TP_RamaDrzwiowa_Prog2DW                         
+                       ]
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 			  		  
+        PROFIL=
+          <
+            KOD    = E_PAS_5652
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DW1,
+                   TP_SkrzydloDrzwiowe_DW2,
+   	            TP_SkrzydloDrzwiowe_DW3,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDW,
+                   TP_RamaDrzwiowa_RuchomySlupekDW           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDW,
+                   TP_RamaDrzwiowa_Prog2DW                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_5653
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DW1,
+                   TP_SkrzydloDrzwiowe_DW2,
+   	            TP_SkrzydloDrzwiowe_DW3,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDW,
+                   TP_RamaDrzwiowa_RuchomySlupekDW           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDW,
+                   TP_RamaDrzwiowa_Prog2DW                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(25)'
+            KAT1   = KAT_JAK_SKRZYDLO_DRZWI
+            KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
+            KIEDY  =[				
+   	            TP_SkrzydloDrzwiowe_DW1,
+                   TP_SkrzydloDrzwiowe_DW2,
+   	            TP_SkrzydloDrzwiowe_DW3,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+                   TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka				
+                    ]
+            PRZESKOCZ=[
+   		        TP_RamaDrzwiowa_PodzialDW,
+                   TP_RamaDrzwiowa_RuchomySlupekDW           
+                      ]
+            ZAKONCZ_ZA=[
+                   TP_RamaDrzwiowa_ProgDW,
+                   TP_RamaDrzwiowa_Prog2DW                         
+                       ]
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
 	AKCESORIA_METRY=
               <
                 KOD    = E_RP_01

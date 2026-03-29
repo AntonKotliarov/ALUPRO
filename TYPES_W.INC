@@ -338,7 +338,21 @@ TYPY_SKRZYDEL=
 
               RYSUNEK     = 'C_819.vct'
               ROZMIAR_RYSUNKU=135		  
-            >				
+            >	
+#IFDEF UNIT_PROFILE_W77				
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'UNIT_PROFILE_W77'
+              PYTANIE     = 'Як розарховувати профілі:'
+              ELEMENT     = 'В зборі' 			  
+              ELEMENT     = 'Окремо профіль та термомости'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'UNIT_PROFILE_W77.vct'
+              ROZMIAR_RYSUNKU=135		  
+            >	
+#ENDIF				
         >
   >
 
@@ -419,7 +433,21 @@ TYPY_SKRZYDEL=
               ELEMENT     = 'Деталями' 			  
               ELEMENT     = 'Профілем'
               STANDARDOWO = '1'
-            >				
+            >		
+#IFDEF UNIT_PROFILE_W77				
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'UNIT_PROFILE_W77'
+              PYTANIE     = 'Як розарховувати профілі:'
+              ELEMENT     = 'В зборі' 			  
+              ELEMENT     = 'Окремо профіль та термомости'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'UNIT_PROFILE_W77.vct'
+              ROZMIAR_RYSUNKU=135		  
+            >	
+#ENDIF					
            >
          >
     TYP_SKRZYDLA[TS_W77_RamaDW]=
@@ -499,7 +527,21 @@ TYPY_SKRZYDEL=
               ELEMENT     = 'Деталями' 			  
               ELEMENT     = 'Профілем'
               STANDARDOWO = '1'
-            >				
+            >	
+#IFDEF UNIT_PROFILE_W77				
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'UNIT_PROFILE_W77'
+              PYTANIE     = 'Як розарховувати профілі:'
+              ELEMENT     = 'В зборі' 			  
+              ELEMENT     = 'Окремо профіль та термомости'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'UNIT_PROFILE_W77.vct'
+              ROZMIAR_RYSUNKU=135		  
+            >	
+#ENDIF					
            >
          >
 #ENDIF	

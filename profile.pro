@@ -7715,3 +7715,1379 @@ PROFIL[E_ALP_W77_T027]=
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
   >   
+  
+  
+  
+  
+  
+PROFIL[E_PAS_4768]=
+  <  
+    NAZWA           = 'ПАС-4768X'
+    OPIS            = 'Внутрішня чашка імпоста 30мм [W77]'
+    RYSUNEK         = 'PAS_4768.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >      
+PROFIL[E_PAS_4509]=
+  <  
+    NAZWA           = 'ПАС-4509X'
+    OPIS            = 'Внутрішня чашка імпоста 30мм [W77]'
+    RYSUNEK         = 'PAS_4509.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >    
+PROFIL[E_PAS_4511]=
+  <  
+    NAZWA           = 'ПАС-4511X'
+    OPIS            = 'Зовнішня чашка імпоста 80мм [W77]'
+    RYSUNEK         = 'PAS_4511.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >    
+PROFIL[E_PAS_5513]=
+  <  
+    NAZWA           = 'ПАС-5513X'
+    OPIS            = 'Зовнішня чашка імпоста 86мм [W77]'
+    RYSUNEK         = 'PAS_5513.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >    
+PROFIL[E_PAS_5363]=
+  <  
+    NAZWA           = 'ПАС-5363X'
+    OPIS            = 'Внутрішня чашка імпоста 36мм [W77]'
+    RYSUNEK         = 'PAS_5363.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >      
+PROFIL[E_PAS_4512]=
+  <  
+    NAZWA           = 'ПАС-4512X'
+    OPIS            = 'Зовнішня чашка імпоста 94мм [W77]'
+    RYSUNEK         = 'PAS_4512.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4510]=
+  <  
+    NAZWA           = 'ПАС-4510X'
+    OPIS            = 'Внутрішня чашка імпоста 44мм [W77]'
+    RYSUNEK         = 'PAS_4510.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4912]=
+  <  
+    NAZWA           = 'ПАС-4912X'
+    OPIS            = 'Зовнішня чашка імпоста 94мм [W77]'
+    RYSUNEK         = 'PAS_4912.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_5647]=
+  <  
+    NAZWA           = 'ПАС-5647X'
+    OPIS            = 'Зовнішня чашка імпоста 108мм [W77]'
+    RYSUNEK         = 'PAS_5647.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4906]=
+  <  
+    NAZWA           = 'ПАС-4906X'
+    OPIS            = 'Внутрішня чашка рами віконної 58мм [W77]'
+    RYSUNEK         = 'PAS_4906.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_5362]=
+  <  
+    NAZWA           = 'ПАС-5362X'
+    OPIS            = 'Зовнішня чашка імпоста 86мм [W77]'
+    RYSUNEK         = 'PAS_5362.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_5651]=
+  <  
+    NAZWA           = 'ПАС-5651X'
+    OPIS            = 'Зовнішня чашка імпоста 148мм [W77]'
+    RYSUNEK         = 'PAS_5651.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4777]=
+  <  
+    NAZWA           = 'ПАС-4777X'
+    OPIS            = 'Внутрішня чашка розширювача 98мм [W77]'
+    RYSUNEK         = 'PAS_4777.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_5649]=
+  <  
+    NAZWA           = 'ПАС-5649X'
+    OPIS            = 'Зовнішня чашка імпоста кутового 66мм [W77]'
+    RYSUNEK         = 'PAS_5649.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_5650]=
+  <  
+    NAZWA           = 'ПАС-5650X'
+    OPIS            = 'Внутрішня чашка імпоста кутового 50мм [W77]'
+    RYSUNEK         = 'PAS_5650.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4913]=
+  <  
+    NAZWA           = 'ПАС-4913X'
+    OPIS            = 'Зовнішня чашка профілю повороту 90 [W77]'
+    RYSUNEK         = 'PAS_4913.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4915]=
+  <  
+    NAZWA           = 'ПАС-4915X'
+    OPIS            = 'Внутрішня чашка профілю повороту 90 [W77]'
+    RYSUNEK         = 'PAS_4915.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4535]=
+  <  
+    NAZWA           = 'ПАС-4535X'
+    OPIS            = 'Чашка порога 20мм [W77]'
+    RYSUNEK         = 'PAS_4535.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4907]=
+  <  
+    NAZWA           = 'ПАС-4907X'
+    OPIS            = 'Чашка порога 15мм [W77]'
+    RYSUNEK         = 'PAS_4907.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4536]=
+  <  
+    NAZWA           = 'ПАС-4536X'
+    OPIS            = 'Чашка порога 15мм [W77]'
+    RYSUNEK         = 'PAS_4536.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4769]=
+  <  
+    NAZWA           = 'ПАС-4769X'
+    OPIS            = 'Зовнішня чашка штульпа 27,4мм [W77]'
+    RYSUNEK         = 'PAS_4769.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   	
+PROFIL[E_PAS_4977]=
+  <  
+    NAZWA           = 'ПАС-4977X'
+    OPIS            = 'Внутрішня чашка адаптера 49,9мм [W77]'
+    RYSUNEK         = 'PAS_4977.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   		
+PROFIL[E_PAS_5652]=
+  <  
+    NAZWA           = 'ПАС-5652X'
+    OPIS            = 'Зовнішня чашка адаптера 12,9мм [W77]'
+    RYSUNEK         = 'PAS_5652.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_5653]=
+  <  
+    NAZWA           = 'ПАС-5653X'
+    OPIS            = 'Внутрішня чашка адаптера 15,4мм [W77]'
+    RYSUNEK         = 'PAS_5653.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4435]=
+  <  
+    NAZWA           = 'ПАС-4435X'
+    OPIS            = 'Зовнішня чашка рами віконної 71мм [W77]'
+    RYSUNEK         = 'PAS_4435.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4436]=
+  <  
+    NAZWA           = 'ПАС-4436X'
+    OPIS            = 'Внутрішня чашка рами віконної 46мм [W77]'
+    RYSUNEK         = 'PAS_4436.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4691]=
+  <  
+    NAZWA           = 'ПАС-4691X'
+    OPIS            = 'Зовнішня чашка рами віконної 55мм [W77]'
+    RYSUNEK         = 'PAS_4691.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4524]=
+  <  
+    NAZWA           = 'ПАС-4524X'
+    OPIS            = 'Зовнішня чашка рами віконної 69мм [W77]'
+    RYSUNEK         = 'PAS_4524.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4905]=
+  <  
+    NAZWA           = 'ПАС-4905X'
+    OPIS            = 'Зовнішня чашка рами віконної 83мм [W77]'
+    RYSUNEK         = 'PAS_4905.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_5364]=
+  <  
+    NAZWA           = 'ПАС-5364X'
+    OPIS            = 'Зовнішня чашка рами віконної 61мм [W77]'
+    RYSUNEK         = 'PAS_5364.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_5500]=
+  <  
+    NAZWA           = 'ПАС-5500X'
+    OPIS            = 'Зовнішня чашка рами віконної 123мм [W77]'
+    RYSUNEK         = 'PAS_5500.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4515]=
+  <  
+    NAZWA           = 'ПАС-4515X'
+    OPIS            = 'Зовнішня чашка рами дверної 70мм [W77]'
+    RYSUNEK         = 'PAS_4515.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4516]=
+  <  
+    NAZWA           = 'ПАС-4516X'
+    OPIS            = 'Внутрішня чашка рами дверної 55,5мм [W77]'
+    RYSUNEK         = 'PAS_4516.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4520]=
+  <  
+    NAZWA           = 'ПАС-4520X'
+    OPIS            = 'Зовнішня чашка рами дверної 86мм [W77]'
+    RYSUNEK         = 'PAS_4520.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4521]=
+  <  
+    NAZWA           = 'ПАС-4521X'
+    OPIS            = 'Внутрішня чашка рами дверної 71,5мм [W77]'
+    RYSUNEK         = 'PAS_4521.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4513]=
+  <  
+    NAZWA           = 'ПАС-4513X'
+    OPIS            = 'Зовнішня чашка рами дверної 55.5мм [W77]'
+    RYSUNEK         = 'PAS_4513.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4514]=
+  <  
+    NAZWA           = 'ПАС-4514X'
+    OPIS            = 'Внутрішня чашка рами дверної 70мм [W77]'
+    RYSUNEK         = 'PAS_4514.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  
+PROFIL[E_PAS_4519]=
+  <  
+    NAZWA           = 'ПАС-4519X'
+    OPIS            = 'Зовнішня чашка рами дверної 71,5мм [W77]'
+    RYSUNEK         = 'PAS_4519.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >    
+PROFIL[E_PAS_4528]=
+  <  
+    NAZWA           = 'ПАС-4528X'
+    OPIS            = 'Внутрішня чашка рами дверної 86мм [W77]'
+    RYSUNEK         = 'PAS_4528.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >      
+PROFIL[E_PAS_4773]=
+  <  
+    NAZWA           = 'ПАС-4773X'
+    OPIS            = 'Зовнішня чашка розширювача рами 30мм [W77]'
+    RYSUNEK         = 'PAS_4773.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >      
+PROFIL[E_PAS_4774]=
+  <  
+    NAZWA           = 'ПАС-4774X'
+    OPIS            = 'Зовнішня чашка розширювача рами 44мм [W77]'
+    RYSUNEK         = 'PAS_4774.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >     
+PROFIL[E_PAS_5499]=
+  <  
+    NAZWA           = 'ПАС-5499X'
+    OPIS            = 'Зовнішня чашка розширювача рами 58мм [W77]'
+    RYSUNEK         = 'PAS_5499.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >    
+PROFIL[E_PAS_4776]=
+  <  
+    NAZWA           = 'ПАС-4776X'
+    OPIS            = 'Зовнішня чашка розширювача 119мм [W77]'
+    RYSUNEK         = 'PAS_4776.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4430]=
+  <  
+    NAZWA           = 'ПАС-4430X'
+    OPIS            = 'Зовнішня чашка стулки віконної 46мм [W77]'
+    RYSUNEK         = 'PAS_4430.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4694]=
+  <  
+    NAZWA           = 'ПАС-4694X'
+    OPIS            = 'Внутрішня чашка стулки віконної 47мм [W77]'
+    RYSUNEK         = 'PAS_4694.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_PAS_4431]=
+  <  
+    NAZWA           = 'ПАС-4431X'
+    OPIS            = 'Внутрішня чашка стулки віконної 47мм [W77]'
+    RYSUNEK         = 'PAS_4431.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4432]=
+  <  
+    NAZWA           = 'ПАС-4432X'
+    OPIS            = 'Зовнішня чашка стулки віконної 56мм [W77]'
+    RYSUNEK         = 'PAS_4432.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4695]=
+  <  
+    NAZWA           = 'ПАС-4695X'
+    OPIS            = 'Внутрішня чашка стулки віконної 57мм [W77]'
+    RYSUNEK         = 'PAS_4695.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4433]=
+  <  
+    NAZWA           = 'ПАС-4433X'
+    OPIS            = 'Внутрішня чашка стулки віконної 57мм [W77]'
+    RYSUNEK         = 'PAS_4433.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4692]=
+  <  
+    NAZWA           = 'ПАС-4692X'
+    OPIS            = 'Зовнішня чашка стулки віконної 55мм [W77]'
+    RYSUNEK         = 'PAS_4692.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4696]=
+  <  
+    NAZWA           = 'ПАС-4696X'
+    OPIS            = 'Внутрішня чашка стулки віконної 67мм [W77]'
+    RYSUNEK         = 'PAS_4696.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4693]=
+  <  
+    NAZWA           = 'ПАС-4693X'
+    OPIS            = 'Внутрішня чашка стулки віконної 67мм [W77]'
+    RYSUNEK         = 'PAS_4693.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4908]=
+  <  
+    NAZWA           = 'ПАС-4908X'
+    OPIS            = 'Зовнішня чашка стулки віконної 71мм [W77]'
+    RYSUNEK         = 'PAS_4908.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4910]=
+  <  
+    NAZWA           = 'ПАС-4910X'
+    OPIS            = 'Внутрішня чашка стулки віконної 83мм [W77]'
+    RYSUNEK         = 'PAS_4910.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4909]=
+  <  
+    NAZWA           = 'ПАС-4909X'
+    OPIS            = 'Внутрішня чашка стулки віконної 83мм [W77]'
+    RYSUNEK         = 'PAS_4909.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4969]=
+  <  
+    NAZWA           = 'ПАС-4969X'
+    OPIS            = 'Зовнішня чашка стулки дверної 88.5мм [W77]'
+    RYSUNEK         = 'PAS_4969.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4970]=
+  <  
+    NAZWA           = 'ПАС-4970X'
+    OPIS            = 'Внутрішня чашка рами дверної 78мм [W77]'
+    RYSUNEK         = 'PAS_4970.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4967]=
+  <  
+    NAZWA           = 'ПАС-4967X'
+    OPIS            = 'Зовнішня чашка стулки дверної 103мм [W77]'
+    RYSUNEK         = 'PAS_4967.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4968]=
+  <  
+    NAZWA           = 'ПАС-4968X'
+    OPIS            = 'Внутрішня чашка стулки дверної 63,5мм [W77]'
+    RYSUNEK         = 'PAS_4968.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4518]=
+  <  
+    NAZWA           = 'ПАС-4518X'
+    OPIS            = 'Зовнішня чашка стулки дверної 80.5мм [W77]'
+    RYSUNEK         = 'PAS_4518.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4517]=
+  <  
+    NAZWA           = 'ПАС-4517X'
+    OPIS            = 'Зовнішня чашка стулки дверної 95мм [W77]'
+    RYSUNEK         = 'PAS_4517.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_5071]=
+  <  
+    NAZWA           = 'ПАС-5071X'
+    OPIS            = 'Зовнішня чашка віконного штульпа 68мм [W77]'
+    RYSUNEK         = 'PAS_5071.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_5648]=
+  <  
+    NAZWA           = 'ПАС-5648X'
+    OPIS            = 'Зовнішня чашка віконного штульпа 39,7мм [W77]'
+    RYSUNEK         = 'PAS_5648.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_5072]=
+  <  
+    NAZWA           = 'ПАС-5072X'
+    OPIS            = 'Внутрішня чашка віконного штульпа 38,7мм [W77]'
+    RYSUNEK         = 'PAS_5072.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4771]=
+  <  
+    NAZWA           = 'ПАС-4771X'
+    OPIS            = 'Зовнішня чашка штульпа 44мм [W77]'
+    RYSUNEK         = 'PAS_4771.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4772]=
+  <  
+    NAZWA           = 'ПАС-4772X'
+    OPIS            = 'Внутрішня чашка штульпа 27,4мм [W77]'
+    RYSUNEK         = 'PAS_4772.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_PAS_4770]=
+  <  
+    NAZWA           = 'ПАС-4770X'
+    OPIS            = 'Внутрішня чашка штульпа 44мм [W77]'
+    RYSUNEK         = 'PAS_4770.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+
+PROFIL[E_835600]=
+  <  
+    NAZWA           = '835600'
+    OPIS            = 'Термоміст Low Lambda PA 66 GF25 [W77]'
+    RYSUNEK         = '835600.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_806800]=
+  <  
+    NAZWA           = '806800'
+    OPIS            = 'Термоміст Low Lambda PA 66 GF25 [W77]'
+    RYSUNEK         = '806800.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_807600]=
+  <  
+    NAZWA           = '807600'
+    OPIS            = 'Термоміст Low Lambda PA 66 GF25 [W77]'
+    RYSUNEK         = '807600.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  	
+PROFIL[E_840100]=
+  <  
+    NAZWA           = '840100'
+    OPIS            = 'Термоміст Low Lambda PA 66 GF25 [W77]'
+    RYSUNEK         = '840100.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  	
+PROFIL[E_429900]=
+  <  
+    NAZWA           = '429900'
+    OPIS            = 'Термоміст ANTI-BI-METALL PA 66 GF25 [W77]'
+    RYSUNEK         = '429900.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >  		
+	
+	
