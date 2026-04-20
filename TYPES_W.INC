@@ -547,6 +547,380 @@ TYPY_SKRZYDEL=
 #ENDIF	
 
 
+#IFDEF W69	
+
+   TYP_SKRZYDLA[TS_W69_windows]=
+    <
+      NAZWA_HTML=    'W69 - Вікна та балконні двері <font face="verdana" color="clblue">(Тестування!)</font>'
+      OPIS=          'Вікна та балконні двері. Система W69 (система "тепла")'
+      KATEGORIA_HTML=' 2) Система віконна-дверна <b>W69</b>'
+      RYSUNEK='W69_windows.jpg'	  
+      SYSTEMY=[DEF_SYS_W69]
+      DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_W69]
+      FASADA=NIE
+	  JAKIE_PRZEKROJE=2 
+      METODA_OBLICZEN_CIEPLNYCH=METODA_OKIENNA
+      TYP=SK_SRODEK
+      STANDARDOWE_OTWARCIE=OKUCIE_BRAK
+      STANDARDOWA_SZEROKOSC_PROFILI=50
+      MOZNA_NAROZA=TAK
+      PROFILE[ POL_LEWO   ] = [ TP_RamaUniw_RamaPion,TP_RamaUniw_PoprzeczkaPion,TP_RamaOkienna_RamaPion]
+      PROFILE[ POL_PRAWO  ] = [ TP_RamaUniw_RamaPion,TP_RamaUniw_PoprzeczkaPion,TP_RamaOkienna_RamaPion]
+      PROFILE[ POL_GORA   ] = [ TP_RamaUniw_RamaGora,TP_RamaUniw_PoprzeczkaPoziom,TP_PoprzeczkaAutoOK,TP_RamaOkienna_RamaGora ]
+
+      PROFILE[ POL_DOL,
+               POL_INNE   ] = [
+			                     TP_RamaOkienna_RamaDol,
+				                 TP_RamaOkienna_RamaInna,
+                                 TP_RamaUniw_RamaDol,
+                                 TP_RamaUniw_RamaInna,
+                                 TP_RamaOkienna_SzczelinaBalkonu,
+                                 TP_RamaOkienna_SzczelinaOknaPodawczego,
+                                 TP_RamaDrzwiowa_ProgDZ             ,
+                                 TP_RamaDrzwiowa_ProgDW             ,
+                                 TP_RamaDrzwiowa_ProgDH             ,
+                                 TP_RamaDrzwiowa_ProgDWZ            ,
+                                 TP_RamaDrzwiowa_ProgDZBezp         ,
+                                 TP_RamaDrzwiowa_ProgDWBezp         ,
+                                 TP_RamaDrzwiowa_SzczotkaDZ         ,
+                                 TP_RamaDrzwiowa_SzczotkaDW         ,
+                                 TP_RamaDrzwiowa_SzczotkaDH         ,
+                                 TP_RamaDrzwiowa_SzczotkaDWZ        ,
+                                 TP_RamaDrzwiowa_SzczotkaDZBezp     ,
+                                 TP_RamaDrzwiowa_SzczotkaDWBezp     ,
+                                 TP_RamaDrzwiowa_Prog2DZ            ,
+                                 TP_RamaDrzwiowa_Prog2DW            ,
+                                 TP_RamaDrzwiowa_Prog2DH            ,
+                                 TP_RamaDrzwiowa_Prog2DWZ           ,
+                                 TP_RamaDrzwiowa_Prog2DWBezp        ,
+                                 TP_RamaDrzwiowa_Prog2DZBezp        ,
+                                 TP_RamaDrzwiowa_ProgS              ,
+                                 TP_RamaUniw_PoprzeczkaPion         ,
+                                 TP_RamaUniw_PoprzeczkaPoziom       ,
+                                 TP_RamaUniw_Poprzeczka_O_DW,
+                                 TP_RamaUniw_Poprzeczka_O_DZ,
+                                 TP_ProgAutoOK
+                              ]
+      PROFILE[ POL_SRODEK ] = [
+                                TP_RamaUniw_PoprzeczkaPion,  
+                                TP_RamaUniw_PoprzeczkaPoziom,
+                                TP_RamaOkienna_PoprzeczkaPion,
+                                TP_RamaOkienna_PoprzeczkaPoziom,
+                                TP_RamaOkienna_PoprzeczkaPion,
+                                TP_RamaOkienna_PoprzeczkaPoziom,
+                                TP_RamaUniw_Poprzeczka_O_DW,
+                                TP_RamaUniw_Poprzeczka_O_DZ,
+                                TP_RamaOkienna_RuchomySlupek,
+								TP_RamaOkienna_RuchomySlupek_PVC,
+                                TP_RamaOkienna_RuchomySlupekVirtualny,
+                                TP_SkrzydloSzklane_Podzial,
+                                TP_RamaDrzwiowa_PodzialDZ      ,
+                                TP_RamaDrzwiowa_PodzialDW      ,
+                                TP_RamaDrzwiowa_RuchomySlupekDW,
+                                TP_RamaDrzwiowa_RuchomySlupekDZ,
+                                TP_RamaDrzwiowa_PodzialDH      ,
+                                TP_RamaDrzwiowa_PodzialDWZ     ,
+                                TP_RamaDrzwiowa_PodzialDZBezp  ,
+                                TP_RamaDrzwiowa_PodzialDWBezp  ,
+                                TP_RamaDrzwiowa_RuchomySlupekDZ,
+                                TP_RamaDrzwiowa_RuchomySlupekDW,
+                                TP_PodzialAutoOK               ,
+                                TP_RamaAutoOK_Zawias           ,
+                                TP_RamaAutoOK_Klamka           ,
+                                TP_RamaAutoOK_ZawiasJakoPoprzeczka,
+                                TP_RamaAutoOK_KlamkaJakoPoprzeczka,
+                                TP_PoprzeczkaAutoOK,
+                                TP_RamaUniw_Poprzeczka_O_DW,
+                                TP_RamaUniw_Poprzeczka_O_DZ,
+                                TP_RamaOkienna_Poprzeczka1Skrz,
+                                TP_RamaOkienna_Poprzeczka2Skrz
+                              ]
+      DOZWOLONE_SKRZYDLA=[
+                            TS_Szyba,
+                            TS_RamaOkienna_OW1                    ,
+                            TS_RamaOkienna_OW2                    ,
+                            TS_RamaOkienna_OW3                    ,
+                            TS_RamaOkienna_PVC_OW1                ,
+                            TS_RamaOkienna_PVC_OW2                ,
+                            TS_RamaOkienna_PVC_OW3                ,							
+                            TS_Drzwi_DZ1                          ,
+                            TS_Drzwi_DZ2                          ,
+                            TS_Drzwi_DZ3                          ,							
+                            TS_Drzwi_DZ3v                         ,
+                            TS_Drzwi_DW1                          ,
+                            TS_Drzwi_DW2                          ,
+                            TS_Drzwi_DW3						  ,
+                            TS_Drzwi_DW3v								
+                         ]
+      DODATKOWE_PARAMETRY=
+        <
+          WARUNEK=
+            <
+              KATEGORIA   = 'Окна W69'			  
+              KLUCZ       = 'CZY_ZEWN'
+              PYTANIE     = 'Конструкция внешнняя (с учетом статики)'
+              STANDARDOWO = '0'
+              WIDZIANE    = TAK
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Окна W69'
+              KLUCZ       = 'TYPE_TERMO_W69'
+              PYTANIE     = 'Варіант теплоізоляції системи:'
+              ELEMENT     = 'Standart' 			  
+              ELEMENT     = 'HI'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'TYPE_TERMO_W69.vct'
+              ROZMIAR_RYSUNKU=135
+            >				
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Окна W69'
+              KLUCZ       = 'UTEPLITEL_GLASS_W69'
+              PYTANIE     = 'Використовувати утеплювач фальця склопакету:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '1'
+
+              RYSUNEK     = 'UTEPLITEL_GLASS_W69.vct'
+              ROZMIAR_RYSUNKU=135
+            >		
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Окна W69'
+              KLUCZ       = 'DETAIL_CENTR_GASK_W69'
+              PYTANIE     = 'Використовувати деталь центрального ущільнювача:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '1'
+
+              RYSUNEK     = 'DETAIL_CENTR_GASK_W69.vct'
+              ROZMIAR_RYSUNKU=135
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Окна W69'
+              KLUCZ       = 'CORNER_ELEMENT_PROFILE_W69'
+              PYTANIE     = 'Як рахувати кутові елементи:'
+              ELEMENT     = 'Деталями' 			  
+              ELEMENT     = 'Профілем'
+              STANDARDOWO = '1'
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'OKAPNIK_W69'
+              PYTANIE     = 'Використовувати капельник С.819:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'C_819.vct'
+              ROZMIAR_RYSUNKU=135		  
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'UNIT_PROFILE_W69'
+              PYTANIE     = 'Як розарховувати профілі:'
+              ELEMENT     = 'В зборі' 			  
+              ELEMENT     = 'Окремо профіль та термомости'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'UNIT_PROFILE_W69.vct'
+              ROZMIAR_RYSUNKU=135		  
+            >	
+        >
+  >
+
+    TYP_SKRZYDLA[TS_W69_RamaDZ]=
+      <  
+        NAZWA_HTML=    'W69 - Двері зовнішнього відкривання <font face="verdana" color="clblue">(Тестування!)</font>'
+        OPIS=          'Двери наружного открывания. Система W69 (система "тепла")'
+        KATEGORIA_HTML=' 2) Система віконна-дверна <b>W69</b>'
+        SYSTEMY=[DEF_SYS_W69]
+        DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_W69]
+        RYSUNEK='W69_RamaDZ.vct'
+	    JAKIE_PRZEKROJE=2 
+        FASADA=NIE
+        TYP=SK_SRODEK
+        STANDARDOWE_OTWARCIE=OKUCIE_BRAK
+        STANDARDOWA_SZEROKOSC_PROFILI=50
+        MOZNA_NAROZA=TAK
+        PROFILE[ POL_LEWO   ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_PRAWO  ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_GORA   ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_INNE   ] = [ TP_RamaDrzwiowa_DZ ]
+        PROFILE[ POL_DOL    ] = [
+                                   TP_RamaDrzwiowa_ProgDZ,
+                                   TP_RamaDrzwiowa_Prog2DZ,
+                                   TP_RamaDrzwiowa_SzczotkaDZ							
+                                ]
+        PROFILE[ POL_SRODEK ] = [
+                                  TP_RamaDrzwiowa_PodzialDZ,
+                                  TP_RamaDrzwiowa_RuchomySlupekDZ
+                                ]
+        DOZWOLONE_SKRZYDLA=[
+                                TS_Drzwi_DZ1,
+                                TS_Drzwi_DZ2,
+                                TS_Drzwi_DZ3,
+                                TS_Drzwi_DZ3v                
+                           ]
+
+        METODA_OBLICZEN_CIEPLNYCH=METODA_OKIENNA
+
+        DODATKOWE_PARAMETRY=
+          <
+           WARUNEK=
+              <
+              KLUCZ       = 'RAMA_DRZWIOWA'
+              PYTANIE     = 'rama drzwiowa'
+              STANDARDOWO = '1'
+              WIDZIANE    = NIE
+              >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері W69'
+              KLUCZ       = 'TYPE_TERMO_W69'
+              PYTANIE     = 'Варіант теплоізоляції системи:'
+              ELEMENT     = 'Standart' 			  
+              ELEMENT     = 'HI'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'TYPE_TERMO_W69.vct'
+              ROZMIAR_RYSUNKU=135
+            >					  
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері W69'
+              KLUCZ       = 'UTEPLITEL_GLASS_W69'
+              PYTANIE     = 'Використовувати утеплювач фальця склопакету:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '1'
+
+              RYSUNEK     = 'UTEPLITEL_GLASS_W69.vct'
+              ROZMIAR_RYSUNKU=135
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері W69'
+              KLUCZ       = 'CORNER_ELEMENT_PROFILE_W69'
+              PYTANIE     = 'Як рахувати кутові елементи:'
+              ELEMENT     = 'Деталями' 			  
+              ELEMENT     = 'Профілем'
+              STANDARDOWO = '1'
+            >		
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'UNIT_PROFILE_W69'
+              PYTANIE     = 'Як розарховувати профілі:'
+              ELEMENT     = 'В зборі' 			  
+              ELEMENT     = 'Окремо профіль та термомости'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'UNIT_PROFILE_W69.vct'
+              ROZMIAR_RYSUNKU=135		  
+            >	
+           >
+         >
+    TYP_SKRZYDLA[TS_W69_RamaDW]=
+      <		  
+        NAZWA_HTML=    'W69 - Двері внутрішнього відкривання <font face="verdana" color="clblue">(Тестування!)</font>'
+        OPIS=          'Двері внутрішнього відкривання. Система W69 (система "тепла")'
+        KATEGORIA_HTML=' 2) Система віконна-дверна <b>W69</b>'
+        SYSTEMY=[DEF_SYS_W69]
+        DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_W69]
+        RYSUNEK='W69_RamaDW.vct'		
+	    JAKIE_PRZEKROJE=2
+        FASADA=NIE
+        TYP=SK_SRODEK
+        STANDARDOWE_OTWARCIE=OKUCIE_BRAK
+        STANDARDOWA_SZEROKOSC_PROFILI=50
+        MOZNA_NAROZA=TAK
+        PROFILE[ POL_LEWO   ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_PRAWO  ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_GORA   ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_INNE   ] = [ TP_RamaDrzwiowa_DW ]
+        PROFILE[ POL_DOL    ] = [
+                                   TP_RamaDrzwiowa_ProgDW,
+                                   TP_RamaDrzwiowa_Prog2DW,
+                                   TP_RamaDrzwiowa_SzczotkaDW
+                                ]
+        PROFILE[ POL_SRODEK ] = [
+                                  TP_RamaDrzwiowa_PodzialDW,
+                                  TP_RamaDrzwiowa_RuchomySlupekDW
+                                ]
+        DOZWOLONE_SKRZYDLA=[
+                                TS_Drzwi_DW1,
+                                TS_Drzwi_DW2,
+                                TS_Drzwi_DW3,
+                                TS_Drzwi_DW3v
+                           ]
+
+        METODA_OBLICZEN_CIEPLNYCH=METODA_OKIENNA
+
+        DODATKOWE_PARAMETRY=
+          <
+           WARUNEK=
+              <
+              KLUCZ       = 'RAMA_DRZWIOWA'
+              PYTANIE     = 'rama drzwiowa'
+              STANDARDOWO = '1'
+              WIDZIANE    = NIE
+              >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері W69'
+              KLUCZ       = 'TYPE_TERMO_W69'
+              PYTANIE     = 'Варіант теплоізоляції системи:'
+              ELEMENT     = 'Standart' 			  
+              ELEMENT     = 'HI'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'TYPE_TERMO_W69.vct'
+              ROZMIAR_RYSUNKU=135
+            >				  
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері W69'
+              KLUCZ       = 'UTEPLITEL_GLASS_W69'
+              PYTANIE     = 'Використовувати утеплювач фальця склопакету:'
+              ELEMENT     = 'Ні' 			  
+              ELEMENT     = 'Так'
+              STANDARDOWO = '1'
+
+              RYSUNEK     = 'UTEPLITEL_GLASS_W69.vct'
+              ROZMIAR_RYSUNKU=135
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Двері W69'
+              KLUCZ       = 'CORNER_ELEMENT_PROFILE_W69'
+              PYTANIE     = 'Як рахувати кутові елементи:'
+              ELEMENT     = 'Деталями' 			  
+              ELEMENT     = 'Профілем'
+              STANDARDOWO = '1'
+            >	
+          Z_LISTY=
+            <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'UNIT_PROFILE_W69'
+              PYTANIE     = 'Як розарховувати профілі:'
+              ELEMENT     = 'В зборі' 			  
+              ELEMENT     = 'Окремо профіль та термомости'
+              STANDARDOWO = '0'
+
+              RYSUNEK     = 'UNIT_PROFILE_W69.vct'
+              ROZMIAR_RYSUNKU=135		  
+            >	
+           >
+         >
+#ENDIF	
+
+
 #IFDEF C50	
 
    TYP_SKRZYDLA[TS_C50_windows]=

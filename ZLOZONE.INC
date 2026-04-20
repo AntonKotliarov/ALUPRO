@@ -6,7 +6,11 @@ ELEMENTY_ZLOZONE=
     //F50
     #INCLUDE 'PRF_F50.ZLO' 	
     #INCLUDE 'LIS_F50.ZLO' 		
-    #INCLUDE 'OTH_F50.ZLO'		
+    #INCLUDE 'OTH_F50.ZLO'	
+
+    //W69
+    #INCLUDE 'PRF_W69.ZLO' 		
+    #INCLUDE 'WNG_W69.ZLO' 		
 	
     //W77
     #INCLUDE 'PRF_W77.ZLO' 		

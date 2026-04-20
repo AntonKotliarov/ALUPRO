@@ -10,6 +10,8 @@
 #DEFINE DEF_SYS_NVF_FZP            7
 #DEFINE DEF_SYS_C50                8
 #DEFINE DEF_SYS_C50_CD             9
+#DEFINE DEF_SYS_W69                10
+
 
 //******************************************************************************
 //Lista kolorow
@@ -38,6 +40,8 @@
 #DEFINE DEF_USZ_NVF_FZP            7
 #DEFINE DEF_USZ_ALP_C50            8
 #DEFINE DEF_USZ_ALP_C50_SKR        9
+#DEFINE DEF_USZ_ALP_W69            10
+#DEFINE DEF_USZ_ALP_W69_SKR        11
 
 //******************************************************************************
 //Kolory - grupy cen
@@ -84,5 +88,6 @@
 #DEFINE WAR_C50                    8
 #DEFINE WAR_C50_CD                 9
 #DEFINE WAR_C50_SKRZ_BK            10
+#DEFINE WAR_W69                    11
 
 

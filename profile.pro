@@ -1693,7 +1693,15 @@ PROFIL[E_BRAK_PROFILE_NVF_NAVESKA_FZP2]=
     SYSTEMY          = [DEF_SYS_F50]
     RYSUNEK          = 'RP_42.VCT'
     MASA             = 0
-  >        
+  >    
+  AKCESORIA_METRY[E_RP_69]=
+  <
+    NAZWA            = 'RP-69'
+    OPIS             = 'Ущільнювач RP-69 [W69]'
+    SYSTEMY          = [DEF_SYS_W69]
+    RYSUNEK          = 'RP_69.VCT'
+    MASA             = 0
+  >       
   
   AKCESORIA_METRY[E_F50_T001]=
   <
@@ -4287,7 +4295,25 @@ PROFIL[E_ALP_C_820]=
     MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
     POWIERZCHNIA_ANODOWANIA=0 
     POWIERZCHNIA_MALOWANIA=0
-  >   
+  > 
+PROFIL[E_ALP_C_821]=
+  <  
+    NAZWA           = 'C.821X'
+    OPIS            = 'Профіль кутового зєднувача для довільного кута [W77]'
+    RYSUNEK         = 'C_821.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI = 10
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
 PROFIL[E_ALP_C_800]=
   <  
     NAZWA           = 'C.800X'
@@ -4665,6 +4691,14 @@ AKCESORIA_METRY[E_RP_10]=
     RYSUNEK          = 'RP_10.VCT'
     MASA             = 0
   >    
+AKCESORIA_METRY[E_RP_12]=
+  <
+    NAZWA            = 'RP-12'
+    OPIS             = 'Ущільнювач RP-12 [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'RP_12.VCT'
+    MASA             = 0
+  >      
 AKCESORIA_METRY[E_RP_13]=
   <
     NAZWA            = 'RP-13'
@@ -4672,7 +4706,31 @@ AKCESORIA_METRY[E_RP_13]=
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'RP_13.VCT'
     MASA             = 0
-  >   
+  >  
+AKCESORIA_METRY[E_RP_14]=
+  <
+    NAZWA            = 'RP-14'
+    OPIS             = 'Ущільнювач RP-14 [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'RP_14.VCT'
+    MASA             = 0
+  >     
+AKCESORIA_METRY[E_RP_15]=
+  <
+    NAZWA            = 'RP-15'
+    OPIS             = 'Ущільнювач RP-15 [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'RP_15.VCT'
+    MASA             = 0
+  >      
+AKCESORIA_METRY[E_RP_16]=
+  <
+    NAZWA            = 'RP-16'
+    OPIS             = 'Ущільнювач RP-16 [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'RP_16.VCT'
+    MASA             = 0
+  >         
 AKCESORIA_METRY[E_RP_17]=
   <
     NAZWA            = 'RP-17'
@@ -4681,6 +4739,14 @@ AKCESORIA_METRY[E_RP_17]=
     RYSUNEK          = 'RP_17.VCT'
     MASA             = 0
   > 
+AKCESORIA_METRY[E_RP_18]=
+  <
+    NAZWA            = 'RP-18'
+    OPIS             = 'Ущільнювач RP-18 [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'RP_18.VCT'
+    MASA             = 0
+  >   
 AKCESORIA_METRY[E_RP_20]=
   <
     NAZWA            = 'RP-20'
@@ -4784,6 +4850,15 @@ AKCESORIA_SZTUKI[E_W77_D010]=
     RYSUNEK          = 'W77_D010.VCT'
     MASA             = 0
   >   
+  
+AKCESORIA_SZTUKI[E_W69_D010]=
+  <
+    NAZWA            = 'W69.D010'
+    OPIS             = 'Кутник центрального ущільнювача [W69]'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'W69_D010.VCT'
+    MASA             = 0
+  >     
 
 AKCESORIA_SZTUKI[E_W77_C_800_01]=
   <
@@ -5099,6 +5174,94 @@ AKCESORIA_SZTUKI[E_W77_C_808_02]=
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'C_808_02.VCT'
     MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_W77_C_822_01]=
+  <
+    NAZWA            = 'C.822.01'
+    OPIS             = 'Деталь [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_822_01.VCT'
+    MASA             = 0
+  >     
+AKCESORIA_SZTUKI[E_W77_C_822_02]=
+  <
+    NAZWA            = 'C.822.02'
+    OPIS             = 'Деталь [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_822_02.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_W77_C_822_03]=
+  <
+    NAZWA            = 'C.822.03'
+    OPIS             = 'Деталь [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_822_03.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_W77_C_823_01]=
+  <
+    NAZWA            = 'C.823.01'
+    OPIS             = 'Деталь [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_823_01.VCT'
+    MASA             = 0
+  >      
+AKCESORIA_SZTUKI[E_W77_C_823_02]=
+  <
+    NAZWA            = 'C.823.02'
+    OPIS             = 'Деталь [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_823_02.VCT'
+    MASA             = 0
+  >   
+AKCESORIA_SZTUKI[E_W77_C_824_01]=
+  <
+    NAZWA            = 'C.824.01'
+    OPIS             = 'Деталь [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_824_01.VCT'
+    MASA             = 0
+  >   
+AKCESORIA_SZTUKI[E_W77_C_824_02]=
+  <
+    NAZWA            = 'C.824.02'
+    OPIS             = 'Деталь [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_824_02.VCT'
+    MASA             = 0
+  >    
+AKCESORIA_SZTUKI[E_W77_C_824_03]=
+  <
+    NAZWA            = 'C.824.03'
+    OPIS             = 'Деталь [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_824_03.VCT'
+    MASA             = 0
+  > 
+AKCESORIA_SZTUKI[E_W77_C_825_01]=
+  <
+    NAZWA            = 'C.825.01'
+    OPIS             = 'Деталь [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_825_01.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_W77_C_825_02]=
+  <
+    NAZWA            = 'C.825.02'
+    OPIS             = 'Деталь [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_825_02.VCT'
+    MASA             = 0
+  >     
+AKCESORIA_SZTUKI[E_W77_C_825_03]=
+  <
+    NAZWA            = 'C.825.03'
+    OPIS             = 'Деталь [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'C_825_03.VCT'
+    MASA             = 0
   >     
 AKCESORIA_SZTUKI[E_W77_C_709_01]=
   <
@@ -5230,6 +5393,23 @@ AKCESORIA_SZTUKI[E_W77_D004L]=
     RYSUNEK          = 'W77_D004L.VCT'
     MASA             = 0
   >  
+  
+AKCESORIA_SZTUKI[E_W69_D004R]=
+  <
+    NAZWA            = 'W69.D004R'
+    OPIS             = 'Деталь порога [W69]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'W69_D004R.VCT'
+    MASA             = 0
+  > 
+AKCESORIA_SZTUKI[E_W69_D004L]=
+  <
+    NAZWA            = 'W69.D004L'
+    OPIS             = 'Деталь порога [W69]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'W69_D004L.VCT'
+    MASA             = 0
+  >    
 
 AKCESORIA_SZTUKI[E_CW_D004R]=
   <
@@ -5270,6 +5450,14 @@ AKCESORIA_SZTUKI[E_W77_D005]=
     OPIS             = 'Деталь [W77]'
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'W77_D005.VCT'
+    MASA             = 0
+  >        
+AKCESORIA_SZTUKI[E_W69_D005]=
+  <
+    NAZWA            = 'W69.D005'
+    OPIS             = 'Деталь [W69]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'W69_D005.VCT'
     MASA             = 0
   >         
 
@@ -5355,7 +5543,14 @@ AKCESORIA_SZTUKI[E_C50_D006L]=
     RYSUNEK          = 'C50_D006L.VCT'
     MASA             = 0
   >   
-  
+AKCESORIA_SZTUKI[E_W69_D001]=
+  <
+    NAZWA            = 'W69.D001'
+    OPIS             = 'Деталь опори під склопакет [W69]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'W69_D001.VCT'
+    MASA             = 0
+  >    
 AKCESORIA_SZTUKI[E_W77_D001]=
   <
     NAZWA            = 'W77.D001'
@@ -9098,4 +9293,1060 @@ PROFIL[E_429900]=
     WYKONAJ_OBROBKI_TYPU = 'OKNA'	
   >  		
 	
-	
+//****************************************
+//Система W69
+//****************************************
+PROFIL[E_ALP_W69_101]=
+  <  
+    NAZWA           = 'W69.101X'
+    OPIS            = 'Рама віконна вузька 30мм [W69]'
+    RYSUNEK         = 'W69_101.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  55
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >     
+PROFIL[E_ALP_W69_102]=
+  <  
+    NAZWA           = 'W69.102X'
+    OPIS            = 'Рама віконна середня 44мм [W69]'
+    RYSUNEK         = 'W69_102.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  69
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'		
+  >  
+PROFIL[E_ALP_W69_103]=
+  <  
+    NAZWA           = 'W69.103X'
+    OPIS            = 'Рама віконна широка 58мм [W69]'
+    RYSUNEK         = 'W69_103.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  83
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_W69_104]=
+  <  
+    NAZWA           = 'W69.104X'
+    OPIS            = 'Рама віконна інтеграції вікон в вітраж [W69]'
+    RYSUNEK         = 'W69_104.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  70
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W69_107]=
+  <  
+    NAZWA           = 'W69.107X'
+    OPIS            = 'Рама віконна інтеграції вікон в вітраж [W69]'
+    RYSUNEK         = 'W69_107.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  70
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >        
+PROFIL[E_ALP_W69_105]=
+  <  
+    NAZWA           = 'W69.105X'
+    OPIS            = 'Рама віконна 98мм [W69]'
+    RYSUNEK         = 'W69_105.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  123
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >  
+PROFIL[E_ALP_W69_106]=
+  <  
+    NAZWA           = 'W69.106X'
+    OPIS            = 'Рама віконна середня 36мм [W69]'
+    RYSUNEK         = 'W69_106.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  61
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_W69_201]=
+  <  
+    NAZWA           = 'W69.201X'
+    OPIS            = 'Стулка віконна вузька 47мм, з європазом [W69]'
+    RYSUNEK         = 'W69_201.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  72
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'			
+  >  
+PROFIL[E_ALP_W69_202]=
+  <  
+    NAZWA           = 'W69.202X'
+    OPIS            = 'Стулка віконна середня 57мм, з європазом [W69]'
+    RYSUNEK         = 'W69_202.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  82
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'		
+  >    
+PROFIL[E_ALP_W69_203]=
+  <  
+    NAZWA           = 'W69.203X'
+    OPIS            = 'Стулка віконна широка 67мм, з європазом [W69]'
+    RYSUNEK         = 'W69_203.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  92
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >        
+PROFIL[E_ALP_W69_204]=
+  <  
+    NAZWA           = 'W69.204X'
+    OPIS            = 'Стулка віконна широка 83мм, з європазом [W69]'
+    RYSUNEK         = 'W69_204.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  108
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >      
+PROFIL[E_ALP_W69_205]=
+  <  
+    NAZWA           = 'W69.205X'
+    OPIS            = 'Стулка віконна вузька 47мм, з ПВХ пазом [W69]'
+    RYSUNEK         = 'W69_205.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  72
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_206]=
+  <  
+    NAZWA           = 'W69.206X'
+    OPIS            = 'Стулка віконна середня 57мм, з ПВХ пазом [W69]'
+    RYSUNEK         = 'W69_206.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  82
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W69_207]=
+  <  
+    NAZWA           = 'W69.207X'
+    OPIS            = 'Стулка віконна широка 67мм, з ПВХ пазом [W69]'
+    RYSUNEK         = 'W69_207.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  92
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >        
+PROFIL[E_ALP_W69_208]=
+  <  
+    NAZWA           = 'W69.208X'
+    OPIS            = 'Стулка віконна середня 83мм, з ПВХ пазом [W69]'
+    RYSUNEK         = 'W69_208.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  108
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W69_301]=
+  <  
+    NAZWA           = 'W69.301X'
+    OPIS            = 'Імпост 30мм [W69]'
+    RYSUNEK         = 'W69_301.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  80
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_W69_302]=
+  <  
+    NAZWA           = 'W69.302X'
+    OPIS            = 'Імпост 44мм [W69]'
+    RYSUNEK         = 'W69_302.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  94
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W69_303]=
+  <  
+    NAZWA           = 'W69.303X'
+    OPIS            = 'Імпост 58мм [W69]'
+    RYSUNEK         = 'W69_303.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  108
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_W69_305]=
+  <  
+    NAZWA           = 'W69.305X'
+    OPIS            = 'Імпост 30мм дверної стулки [W69]'
+    RYSUNEK         = 'W69_305.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  80
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >      
+PROFIL[E_ALP_W69_306]=
+  <  
+    NAZWA           = 'W69.306X'
+    OPIS            = 'Імпост 30мм віконної стулки [W69]'
+    RYSUNEK         = 'W69_306.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  80
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >      
+PROFIL[E_ALP_W69_307]=
+  <  
+    NAZWA           = 'W69.307X'
+    OPIS            = 'Імпост 44мм дверної стулки [W69]'
+    RYSUNEK         = 'W69_307.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  94
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_308]=
+  <  
+    NAZWA           = 'W69.308X'
+    OPIS            = 'Імпост 36мм в віконну стулку [W69]'
+    RYSUNEK         = 'W69_308.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  86
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W69_309]=
+  <  
+    NAZWA           = 'W69.309X'
+    OPIS            = 'Імпост 36мм дверної стулки [W69]'
+    RYSUNEK         = 'W69_309.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  86
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >       
+PROFIL[E_ALP_W69_311]=
+  <  
+    NAZWA           = 'W69.311X'
+    OPIS            = 'Імпост 44мм посилений [W69]'
+    RYSUNEK         = 'W69_311.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  94
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_W69_312]=
+  <  
+    NAZWA           = 'W69.312X'
+    OPIS            = 'Імпост 36мм посилений [W69]'
+    RYSUNEK         = 'W69_312.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  94
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W69_313]=
+  <  
+    NAZWA           = 'W69.313X'
+    OPIS            = 'Імпост кутовий 90* [W69]'
+    RYSUNEK         = 'W69_313.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  78.9
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >       
+
+PROFIL[E_ALP_W69_401]=
+  <  
+    NAZWA           = 'W69.401X'
+    OPIS            = 'Рама дверей зовнішнього відчинення [W69]'
+    RYSUNEK         = 'W69_401.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  70
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >        
+PROFIL[E_ALP_W69_402]=
+  <  
+    NAZWA           = 'W69.402X'
+    OPIS            = 'Рама дверей внутрішнього відчинення [W69]'
+    RYSUNEK         = 'W69_402.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  70
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_403]=
+  <  
+    NAZWA           = 'W69.403X'
+    OPIS            = 'Рама інтеграції дверей зовнішнього відчинення у вітраж [W69]'
+    RYSUNEK         = 'W69_403.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  85
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W69_404]=
+  <  
+    NAZWA           = 'W69.404X'
+    OPIS            = 'Рама інтеграції дверей внутрішнього відчинення у вітраж [W69]'
+    RYSUNEK         = 'W69_404.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  85
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+
+PROFIL[E_ALP_W69_501]=
+  <  
+    NAZWA           = 'W69.501X'
+    OPIS            = 'Стулка дверей зовнішнього відчинення [W69]'
+    RYSUNEK         = 'W69_501.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  95
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_502]=
+  <  
+    NAZWA           = 'W69.502X'
+    OPIS            = 'Стулка дверей внутрішнього відчинення [W69]'
+    RYSUNEK         = 'W69_502.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  95
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W69_503]=
+  <  
+    NAZWA           = 'W69.503X'
+    OPIS            = 'Стулка дверей зовнішнього відчинення збільшена [W69]'
+    RYSUNEK         = 'W69_503.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  103
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >  
+PROFIL[E_ALP_W69_504]=
+  <  
+    NAZWA           = 'W69.504X'
+    OPIS            = 'Стулка дверей внутрішнього відчинення збільшена [W69]'
+    RYSUNEK         = 'W69_504.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  103
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >      
+PROFIL[E_ALP_W69_602]=
+  <  
+    NAZWA           = 'W69.602X'
+    OPIS            = 'Цоколь дверної стулки [W69]'
+    RYSUNEK         = 'W69_602.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  123
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >  
+PROFIL[E_ALP_W69_606]=
+  <  
+    NAZWA           = 'W69.606X'
+    OPIS            = 'Розширювач доборний 30мм [W69]'
+    RYSUNEK         = 'W69_606.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  30
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_607]=
+  <  
+    NAZWA           = 'W69.607X'
+    OPIS            = 'Розширювач доборний 44мм [W69]'
+    RYSUNEK         = 'W69_607.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  44
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_608]=
+  <  
+    NAZWA           = 'W69.608X'
+    OPIS            = 'Розширювач доборний 58мм [W69]'
+    RYSUNEK         = 'W69_608.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  58
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_609]=
+  <  
+    NAZWA           = 'W69.609X'
+    OPIS            = 'Адаптер дверей у вікна [W69]'
+    RYSUNEK         = 'W69_609.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI =  49.9
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_W69_614]=
+  <  
+    NAZWA           = 'W69.614X'
+    OPIS            = 'Поріг двері [W69]'
+    RYSUNEK         = 'W69_614.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI = 20
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_616]=
+  <  
+    NAZWA           = 'W69.616X'
+    OPIS            = 'Адаптер дверей внутрішнього відчинення [W69]'
+    RYSUNEK         = 'W69_616.VCT'
+    SYSTEMY         = [DEF_SYS_W69]
+    SZEROKOSC_BELKI = 15.4
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >           
+
+//****************************************
+//TERMO W69
+//****************************************
+PROFIL[E_ALP_W69_T050]=
+  <  
+    NAZWA           = 'W69.T050'
+    OPIS            = 'Термоізолятори 36х13 [W69]'
+    RYSUNEK         = 'W69_T050.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  20
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W69_T051]=
+  <  
+    NAZWA           = 'W69.T051'
+    OPIS            = 'Термоізолятори 25х7 [W69]'
+    RYSUNEK         = 'W69_T051.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  23
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >      
+PROFIL[E_ALP_W69_T052]=
+  <  
+    NAZWA           = 'W69.T052'
+    OPIS            = 'Термоізолятори 23х16 [W69]'
+    RYSUNEK         = 'W69_T052.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  23
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W69_T053]=
+  <  
+    NAZWA           = 'W69.T053'
+    OPIS            = 'Термоізолятори 23х22 [W69]'
+    RYSUNEK         = 'W69_T053.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  23
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W69_T054]=
+  <  
+    NAZWA           = 'W69.T054'
+    OPIS            = 'Термоізолятори 23х30 [W69]'
+    RYSUNEK         = 'W69_T054.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  23
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >     
+PROFIL[E_ALP_W69_T055]=
+  <  
+    NAZWA           = 'W69.T055'
+    OPIS            = 'Термоізолятори 24х18 [W69]'
+    RYSUNEK         = 'W69_T055.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  23
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >      
+PROFIL[E_ALP_W69_T056]=
+  <  
+    NAZWA           = 'W69.T056'
+    OPIS            = 'Термоізолятори 24х28 [W69]'
+    RYSUNEK         = 'W69_T056.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >    
+PROFIL[E_ALP_W69_T057]=
+  <  
+    NAZWA           = 'W69.T057'
+    OPIS            = 'Термоізолятори 17х44 [W69]'
+    RYSUNEK         = 'W69_T057.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_T058]=
+  <  
+    NAZWA           = 'W69.T058'
+    OPIS            = 'Термоізолятори 17х52 [W69]'
+    RYSUNEK         = 'W69_T058.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_T059]=
+  <  
+    NAZWA           = 'W69.T059'
+    OPIS            = 'Термоізолятори 17х64 [W69]'
+    RYSUNEK         = 'W69_T059.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_T060]=
+  <  
+    NAZWA           = 'W69.T060'
+    OPIS            = 'Термоізолятори 23х44 [W69]'
+    RYSUNEK         = 'W69_T060.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  >   
+PROFIL[E_ALP_W69_T061]=
+  <  
+    NAZWA           = 'W69.T061'
+    OPIS            = 'Термоізолятори 23х84 [W69]'
+    RYSUNEK         = 'W69_T061.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W69_T062]=
+  <  
+    NAZWA           = 'W69.T062'
+    OPIS            = 'Термоізолятори 24х44 [W69]'
+    RYSUNEK         = 'W69_T062.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W69_T063]=
+  <  
+    NAZWA           = 'W69.T063'
+    OPIS            = 'Термоізолятори 29х19 [W69]'
+    RYSUNEK         = 'W69_T063.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W69_T064]=
+  <  
+    NAZWA           = 'W69.T064'
+    OPIS            = 'Термоізолятори 20х24.5 [W69]'
+    RYSUNEK         = 'W69_T064.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W69_T065]=
+  <  
+    NAZWA           = 'W69.T065'
+    OPIS            = 'Термоізолятори 12.5х9.5 [W69]'
+    RYSUNEK         = 'W69_T065.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 
+PROFIL[E_ALP_W69_T066]=
+  <  
+    NAZWA           = 'W69.T066'
+    OPIS            = 'Термоізолятори 21х36 [W69]'
+    RYSUNEK         = 'W69_T066.VCT'
+    SYSTEMY         = [DEF_SYS_F50]
+    SZEROKOSC_BELKI =  31
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  1150
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+  > 	

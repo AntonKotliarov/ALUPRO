@@ -679,6 +679,94 @@
 #DEFINE E_840100                                      639
 #DEFINE E_429900                                      640
 
+#DEFINE E_ALP_W69_101                                 641
+#DEFINE E_ALP_W69_102                                 642
+#DEFINE E_ALP_W69_103                                 643
+#DEFINE E_ALP_W69_104                                 644
+#DEFINE E_ALP_W69_107                                 645
+#DEFINE E_ALP_W69_105                                 646
+#DEFINE E_ALP_W69_106                                 647
+#DEFINE E_ALP_W69_201                                 648
+#DEFINE E_ALP_W69_202                                 649
+#DEFINE E_ALP_W69_203                                 650
+#DEFINE E_ALP_W69_204                                 651
+#DEFINE E_ALP_W69_205                                 652
+#DEFINE E_ALP_W69_206                                 653
+#DEFINE E_ALP_W69_207                                 654
+#DEFINE E_ALP_W69_208                                 655
+#DEFINE E_ALP_W69_301                                 656
+#DEFINE E_ALP_W69_302                                 657
+#DEFINE E_ALP_W69_303                                 658
+#DEFINE E_ALP_W69_305                                 659
+#DEFINE E_ALP_W69_306                                 660
+#DEFINE E_ALP_W69_307                                 661
+#DEFINE E_ALP_W69_308                                 662
+#DEFINE E_ALP_W69_309                                 663
+#DEFINE E_ALP_W69_311                                 664
+#DEFINE E_ALP_W69_312                                 665
+#DEFINE E_ALP_W69_313                                 666
+#DEFINE E_ALP_W69_401                                 667
+#DEFINE E_ALP_W69_402                                 668
+#DEFINE E_ALP_W69_403                                 669
+#DEFINE E_ALP_W69_404                                 670
+#DEFINE E_ALP_W69_501                                 671
+#DEFINE E_ALP_W69_502                                 672
+#DEFINE E_ALP_W69_503                                 673
+#DEFINE E_ALP_W69_504                                 674
+#DEFINE E_ALP_W69_602                                 675
+#DEFINE E_ALP_W69_606                                 676
+#DEFINE E_ALP_W69_607                                 677
+#DEFINE E_ALP_W69_608                                 678
+#DEFINE E_ALP_W69_609                                 679
+#DEFINE E_ALP_W69_614                                 680
+#DEFINE E_ALP_W69_616                                 681
+
+#DEFINE E_ALP_W69_T050                                682
+#DEFINE E_ALP_W69_T051                                683
+#DEFINE E_ALP_W69_T052                                684
+#DEFINE E_ALP_W69_T053                                685
+#DEFINE E_ALP_W69_T054                                686
+#DEFINE E_ALP_W69_T055                                687
+#DEFINE E_ALP_W69_T056                                688
+#DEFINE E_ALP_W69_T057                                689
+#DEFINE E_ALP_W69_T058                                690
+#DEFINE E_ALP_W69_T059                                691
+#DEFINE E_ALP_W69_T060                                692
+#DEFINE E_ALP_W69_T061                                693
+#DEFINE E_ALP_W69_T062                                694
+#DEFINE E_ALP_W69_T063                                695
+#DEFINE E_ALP_W69_T064                                696
+#DEFINE E_ALP_W69_T065                                697
+#DEFINE E_ALP_W69_T066                                698
+#DEFINE E_ALP_C_821                                   699
+//#DEFINE E_ALP_C_823                                   700
+
+#DEFINE E_W77_C_822_01                                701
+#DEFINE E_W77_C_822_02                                702
+#DEFINE E_W77_C_822_03                                703
+#DEFINE E_W77_C_823_01                                704
+#DEFINE E_W77_C_823_02                                705
+#DEFINE E_W77_C_824_01                                706
+#DEFINE E_W77_C_824_02                                707
+#DEFINE E_W77_C_824_03                                708
+#DEFINE E_W77_C_825_01                                709
+#DEFINE E_W77_C_825_02                                710
+#DEFINE E_W77_C_825_03                                711
+#DEFINE E_W69_D001                                    712
+#DEFINE E_W69_D010                                    713
+#DEFINE E_W69_D004R                                   714
+#DEFINE E_W69_D004L                                   715
+#DEFINE E_W69_D005                                    716
+#DEFINE E_RP_69                                       717
+#DEFINE E_RP_12                                       718
+#DEFINE E_RP_14                                       719
+#DEFINE E_RP_15                                       720
+#DEFINE E_RP_16                                       721
+#DEFINE E_RP_18                                       722
+
+
+
+
 
 
 //*************************************************

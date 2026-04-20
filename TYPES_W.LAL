@@ -21,6 +21,9 @@
 #DEFINE TS_C50_RamaDW                   13
 #DEFINE TS_C50_RamaDZ_CD                14
 #DEFINE TS_C50_RamaDW_CD                15
+#DEFINE TS_W69_windows                  16
+#DEFINE TS_W69_RamaDZ                   17
+#DEFINE TS_W69_RamaDW                   18
 
 //******************************************
 // Fasada
