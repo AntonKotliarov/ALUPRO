@@ -1,0 +1,278 @@
+NAKLADANIE=
+      <
+        PRZEKROJ_NR=108
+        FUTRYNA=  [
+	              PRF_F50_BRAK		  
+                  ]
+        SKRZYDLO= [
+                  PRF_PROG_ALP_W69_614    
+                    ]
+        ZACHODZENIE=50
+      >
+	  
+NAKLADANIE=
+      <
+        PRZEKROJ_NR=108
+        FUTRYNA=  [
+                  PRF_F50_BRAK0	  
+                  ]
+        SKRZYDLO= [
+                  PRF_PROG_ALP_W69_614    
+                    ]
+        ZACHODZENIE=0
+      >	  
+
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=33
+        FUTRYNA=  [
+                PRF_RAMA_OKIENNA_ALP_W69_101         ,
+                PRF_RAMA_OKIENNA_ALP_W69_102         ,
+                PRF_RAMA_OKIENNA_ALP_W69_103         ,
+                PRF_RAMA_OKIENNA_ALP_W69_104         ,
+		        PRF_RAMA_OKIENNA_ALP_W69_107         ,
+                PRF_RAMA_OKIENNA_ALP_W69_105         ,
+		        PRF_RAMA_OKIENNA_ALP_W69_106         ,
+                PRF_SLP_OKIENNA_ALP_W69_301          ,
+                PRF_SLP_OKIENNA_ALP_W69_302          ,
+                PRF_SLP_OKIENNA_ALP_W69_303          ,
+                PRF_SLP_OKIENNA_ALP_W69_305          ,
+                PRF_SLP_OKIENNA_ALP_W69_306          ,
+                PRF_SLP_OKIENNA_ALP_W69_307          ,
+		        PRF_SLP_OKIENNA_ALP_W69_308          ,
+		        PRF_SLP_OKIENNA_ALP_W69_309          ,
+                PRF_WZM_SLP_OKIENNA_ALP_W69_311      ,
+                PRF_WZM_SLP_OKIENNA_ALP_W69_312      
+                  ]
+        SKRZYDLO= [          
+                PRF_SKRZYDLO_OKIENNA_ALP_W69_201     ,
+                PRF_SKRZYDLO_OKIENNA_ALP_W69_202     ,
+                PRF_SKRZYDLO_OKIENNA_ALP_W69_203     ,
+                PRF_SKRZYDLO_OKIENNA_ALP_W69_204     ,
+                PRF_SKRZYDLO_OKIENNA_ALP_W69_205     ,
+                PRF_SKRZYDLO_OKIENNA_ALP_W69_206     ,
+                PRF_SKRZYDLO_OKIENNA_ALP_W69_207     ,
+                PRF_SKRZYDLO_OKIENNA_ALP_W69_208   
+                  ]
+        ZACHODZENIE_A=31
+        ZACHODZENIE_B=31
+      >
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+                PRF_RAMA_DRZWIOWA_DZ_ALP_W69_401     ,
+                PRF_RAMA_DRZWIOWA_DW_ALP_W69_402     ,
+                PRF_RAMA_DRZWIOWA_DZF_ALP_W69_403    ,
+                PRF_RAMA_DRZWIOWA_DWF_ALP_W69_404    
+                  ]
+        SKRZYDLO= [
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501_W69_602 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503_W69_602 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502_W69_602 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504_W69_602
+                  ]
+        ZACHODZENIE_A=19
+        ZACHODZENIE_B=19
+      >	 
+NAKLADANIE=
+      <
+        FUTRYNA=  [                 
+        PRF_PROG_ALP_W69_614    
+                  ]
+        SKRZYDLO= [
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501_W69_602 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503_W69_602 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502_W69_602 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504_W69_602
+                  ]
+        ZACHODZENIE_A=10
+        ZACHODZENIE_B=10
+        ZACHODZENIE_Y='-8*(PROFIL_ZEWN=1)+(-8+3.6)*(PROFIL_ZEWN=0)'		
+      >   
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+               PRF_PODZ_DX_ALP_W69
+                  ]
+        SKRZYDLO= [
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501_W69_602 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503_W69_602 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502_W69_602 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504_W69_602		 
+                  ]
+        ZACHODZENIE_A=19/2-0.5
+        ZACHODZENIE_B=19/2+0.5
+      >	  	  
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+                PRF_RAMA_OKIENNA_ALP_W69_101         ,
+                PRF_RAMA_OKIENNA_ALP_W69_102         ,
+                PRF_RAMA_OKIENNA_ALP_W69_103         ,
+                PRF_RAMA_OKIENNA_ALP_W69_104         ,
+		        PRF_RAMA_OKIENNA_ALP_W69_107         ,
+                PRF_RAMA_OKIENNA_ALP_W69_105         ,
+		        PRF_RAMA_OKIENNA_ALP_W69_106         ,
+                PRF_SLP_OKIENNA_ALP_W69_301          ,
+                PRF_SLP_OKIENNA_ALP_W69_302          ,
+                PRF_SLP_OKIENNA_ALP_W69_303          ,
+                PRF_SLP_OKIENNA_ALP_W69_305          ,
+                PRF_SLP_OKIENNA_ALP_W69_306          ,
+                PRF_SLP_OKIENNA_ALP_W69_307          ,
+		        PRF_SLP_OKIENNA_ALP_W69_308          ,
+		        PRF_SLP_OKIENNA_ALP_W69_309          ,
+                PRF_WZM_SLP_OKIENNA_ALP_W69_311      ,
+                PRF_WZM_SLP_OKIENNA_ALP_W69_312      
+  			      ]
+        SKRZYDLO= [
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501_W69_602 ,
+                PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503_W69_602 
+                  ]
+        ZACHODZENIE_A=-6
+        ZACHODZENIE_B=-6
+      >	 
+
+NAKLADANIE=
+      <
+	    PRZEKROJ_NR=500
+        FUTRYNA=  [
+                PRF_RAMA_OKIENNA_ALP_W69_101         ,
+                PRF_RAMA_OKIENNA_ALP_W69_102         ,
+                PRF_RAMA_OKIENNA_ALP_W69_103         ,
+                PRF_RAMA_OKIENNA_ALP_W69_104         ,
+		        PRF_RAMA_OKIENNA_ALP_W69_107         ,
+                PRF_RAMA_OKIENNA_ALP_W69_105         ,
+		        PRF_RAMA_OKIENNA_ALP_W69_106         ,
+                PRF_SLP_OKIENNA_ALP_W69_301          ,
+                PRF_SLP_OKIENNA_ALP_W69_302          ,
+                PRF_SLP_OKIENNA_ALP_W69_303          ,
+                PRF_SLP_OKIENNA_ALP_W69_305          ,
+                PRF_SLP_OKIENNA_ALP_W69_306          ,
+                PRF_SLP_OKIENNA_ALP_W69_307          ,
+		        PRF_SLP_OKIENNA_ALP_W69_308          ,
+		        PRF_SLP_OKIENNA_ALP_W69_309          ,
+                PRF_WZM_SLP_OKIENNA_ALP_W69_311      ,
+                PRF_WZM_SLP_OKIENNA_ALP_W69_312     
+  			      ]
+        SKRZYDLO= [
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502_W69_602 ,
+                PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504_W69_602   
+                  ]
+        ZACHODZENIE_A=25-6
+        ZACHODZENIE_B=25-6
+      >	 	  	  
+
+NAKLADANIE=
+      <
+        FUTRYNA=  [                 
+             PRF_F50_BRAK0,
+        	 PRF_F50_BRAK,
+             PRF_F50_SLP_F50_101  ,
+             PRF_F50_SLP_F50_102  ,
+             PRF_F50_SLP_F50_103  ,
+             PRF_F50_SLP_F50_104  ,
+             PRF_F50_SLP_F50_105  ,
+             PRF_F50_SLP_F50_106  ,
+             PRF_F50_SLP_F50_107  ,	 
+        
+             PRF_F50_WSLP_F50_102 ,
+             PRF_F50_WSLP_F50_103 ,
+             PRF_F50_WSLP_F50_104 ,
+             PRF_F50_WSLP_F50_105 ,
+             PRF_F50_WSLP_F50_106 ,
+             PRF_F50_WSLP_F50_107 ,
+        	 
+             PRF_F50_RYG_F50_201  ,
+             PRF_F50_RYG_F50_220  ,
+             PRF_F50_RYG_F50_202  ,
+             PRF_F50_RYG_F50_203  ,
+             PRF_F50_RYG_F50_204  ,
+             PRF_F50_RYG_F50_205  ,
+             PRF_F50_RYG_F50_206  ,
+             PRF_F50_RYG_F50_207  ,
+        	 
+             PRF_F50_WRYG_F50_220 ,
+             PRF_F50_WRYG_F50_202 ,
+             PRF_F50_WRYG_F50_203 ,
+             PRF_F50_WRYG_F50_204 ,
+             PRF_F50_WRYG_F50_205 ,
+             PRF_F50_WRYG_F50_206 ,
+             PRF_F50_WRYG_F50_207 ,
+        
+             PRF_F50_SLY_F50_102_F50_101 	 		 
+                  ]
+        SKRZYDLO= [
+                PRF_RAMA_DRZWIOWA_DZF_ALP_W69_403    ,
+                PRF_RAMA_DRZWIOWA_DWF_ALP_W69_404   
+                  ]
+        ZACHODZENIE_A=14
+        ZACHODZENIE_B=14	
+        ZACHODZENIE_Y='-OSTEKLENIE-8'		
+      >   	  
+
+NAKLADANIE=
+      <
+        FUTRYNA=  [                 
+             PRF_F50_BRAK0,
+        	 PRF_F50_BRAK,
+             PRF_F50_SLP_F50_101  ,
+             PRF_F50_SLP_F50_102  ,
+             PRF_F50_SLP_F50_103  ,
+             PRF_F50_SLP_F50_104  ,
+             PRF_F50_SLP_F50_105  ,
+             PRF_F50_SLP_F50_106  ,
+             PRF_F50_SLP_F50_107  ,	 
+        
+             PRF_F50_WSLP_F50_102 ,
+             PRF_F50_WSLP_F50_103 ,
+             PRF_F50_WSLP_F50_104 ,
+             PRF_F50_WSLP_F50_105 ,
+             PRF_F50_WSLP_F50_106 ,
+             PRF_F50_WSLP_F50_107 ,
+        	 
+             PRF_F50_RYG_F50_201  ,
+             PRF_F50_RYG_F50_220  ,
+             PRF_F50_RYG_F50_202  ,
+             PRF_F50_RYG_F50_203  ,
+             PRF_F50_RYG_F50_204  ,
+             PRF_F50_RYG_F50_205  ,
+             PRF_F50_RYG_F50_206  ,
+             PRF_F50_RYG_F50_207  ,
+        	 
+             PRF_F50_WRYG_F50_220 ,
+             PRF_F50_WRYG_F50_202 ,
+             PRF_F50_WRYG_F50_203 ,
+             PRF_F50_WRYG_F50_204 ,
+             PRF_F50_WRYG_F50_205 ,
+             PRF_F50_WRYG_F50_206 ,
+             PRF_F50_WRYG_F50_207 ,
+        
+             PRF_F50_SLY_F50_102_F50_101 	 		 
+                  ]
+        SKRZYDLO= [
+             PRF_RAMA_OKIENNA_ALP_W69_104 ,
+		     PRF_RAMA_OKIENNA_ALP_W69_107     
+				]
+        ZACHODZENIE_A=14
+        ZACHODZENIE_B=14	
+        ZACHODZENIE_Y='-OSTEKLENIE-8'		
+      >   		  

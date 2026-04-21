@@ -763,6 +763,9 @@
 #DEFINE E_RP_15                                       720
 #DEFINE E_RP_16                                       721
 #DEFINE E_RP_18                                       722
+#DEFINE E_D07003                                      723
+#DEFINE E_Sam3_9x60_65_DIN7996                        724
+#DEFINE E_W77_T02                                     725
 
 
 

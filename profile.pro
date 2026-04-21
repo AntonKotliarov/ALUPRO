@@ -1871,7 +1871,16 @@ AKCESORIA_SZTUKI[E_Szaiba_M6_2_16]=
     RYSUNEK          = 'M5_5_16.jpg'
     RYSUNEK_DO_PRZEKROJOW = 'CS_Szaiba_M6_2_16.vct'			
     MASA             = 0
-  >	    
+  >	
+AKCESORIA_SZTUKI[E_Sam3_9x60_65_DIN7996]=
+  <
+    NAZWA            = 'Саморіз 3.9*60-65 DIN7996'
+    OPIS             = 'Саморіз н/ж'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'Sam_DIN7996.bmp'
+    RYSUNEK_DO_PRZEKROJOW = 'Sam_3_9_60_65_DIN7996.vct'	
+    MASA             = 0
+  >   
 AKCESORIA_SZTUKI[E_Sam5_5x35_DIN7981]=
   <
     NAZWA            = 'Саморіз 5.5*35 DIN7981'
@@ -4778,7 +4787,15 @@ AKCESORIA_METRY[E_W77_T01]=
     SYSTEMY          = [DEF_SYS_W77]
     RYSUNEK          = 'W77_T01.VCT'
     MASA             = 0
-  >      
+  >  
+AKCESORIA_METRY[E_W77_T02]=
+  <
+    NAZWA            = 'W77.T02 комплект'
+    OPIS             = 'Термовставка W77.T02 комплект [W77]'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'W77_T02.VCT'
+    MASA             = 0
+  >     
 AKCESORIA_METRY[E_E04036Tal]=
   <
     NAZWA            = 'E04036Tal'
@@ -5335,6 +5352,14 @@ AKCESORIA_SZTUKI[E_D07004]=
     RYSUNEK          = 'D07004.VCT'
     MASA             = 0
   >   
+AKCESORIA_SZTUKI[E_D07003]=
+  <
+    NAZWA            = 'Штифт 3х7.8 D07003'
+    OPIS             = 'Штифт 3х7.8 D07003'
+    SYSTEMY          = [DEF_SYS_W77]
+    RYSUNEK          = 'D07003.VCT'
+    MASA             = 0
+  >     
 AKCESORIA_SZTUKI[E_shtift_5_8]=
   <
     NAZWA            = 'Штифт 5х8'

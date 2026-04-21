@@ -3004,7 +3004,15 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501_W69_602 ]=
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL	
 			GDY_PARAMETR='TYPE_TERMO_W69=1'
-          > 		  
+          > 
+        AKCESORIA_METRY=
+          <
+            KOD    = E_W77_T02
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(0)+D(0)'
+            GDY_PARAMETR='UTEPLITEL_GLASS_W69=1'
+           >			  
 //        PROFIL=
 //          <
 //            KOD    =E_ALP_C_818
@@ -3378,7 +3386,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503_W69_602 ]=
            >	
         AKCESORIA_METRY=
           <
-            KOD    = E_W77_T01
+            KOD    = E_W77_T02
             KOLOR  = KOLOR_WEWN
             ILE    = 1
             DLUGOSC= 'OS_ODCINKA(0)+D(0)'
@@ -3732,7 +3740,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502_W69_602 ]=
            >
         AKCESORIA_METRY=
           <
-            KOD    = E_W77_T01
+            KOD    = E_W77_T02
             KOLOR  = KOLOR_WEWN
             ILE    = 1
             DLUGOSC= 'OS_ODCINKA(0)+D(0)'
@@ -4087,7 +4095,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504_W69_602 ]=
            >
         AKCESORIA_METRY=
           <
-            KOD    = E_W77_T01
+            KOD    = E_W77_T02
             KOLOR  = KOLOR_WEWN
             ILE    = 1
             DLUGOSC= 'OS_ODCINKA(0)+D(0)'
@@ -4268,33 +4276,38 @@ PROFIL[ PRF_PROG_ALP_W69_614]=
 //           PRZEKROJ_NR=100		  
 //           KOD    = E_W69_D004R
 //           ILE    = 1
+//		   GDY_PARAMETR='KREPLENIE_POROGA_W69=1'		   
 //           >	
 //        AKCESORIA_SZTUKI=
 //           <
 //           PRZEKROJ_NR=100		  
 //           KOD    = E_W69_D004L
 //           ILE    = 1
+//		   GDY_PARAMETR='KREPLENIE_POROGA_W69=1'		   		   
 //           >	
 //        AKCESORIA_SZTUKI=
 //           <
 //           PRZEKROJ_NR=100		  
 //           KOD    = E_Sam3_9x13_DIN7982
 //           ILE    = 4
+//		   GDY_PARAMETR='KREPLENIE_POROGA_W69=1'		   		   
 //           >	
 //        AKCESORIA_SZTUKI=
 //           <
 //           PRZEKROJ_NR=100		  
 //           KOD    = E_Sam3_9x25_DIN7982
 //           ILE    = 4
+//		   GDY_PARAMETR='KREPLENIE_POROGA_W69=1'		   		   
 //           >	
 //         WYLICZENIE=
 //           <
-//           KOD=E_E04036Tal
+//           KOD=E_RP_18
 //   	       PAR_DLUGOSC='56'
 //           ILE    = 4		
 //   	       PAR_KAT1='0'
-//   	       PAR_KAT2='0'		   
-//            >				   
+//   	       PAR_KAT2='0'	
+//		   GDY_PARAMETR='KREPLENIE_POROGA_W69=1'		   		   
+//            >				
       >
   >  
 
@@ -6286,121 +6299,119 @@ PROFIL[
   <
     MATERIALY=
       <
-//        AKCESORIA_SZTUKI=
-//           <
-//           PRZEKROJ_NR=100		  
-//           KOD    = E_W69_D005
-//           ILE    = 2
-//		   POLOZENIE_ZK=POL_DOL
-//		   POLOZENIE=ORIENTACJA_POZIOM
-//		   GDY_PARAMETR='(PROFIL_U_GORY=0)'	
-//           >	
-//        AKCESORIA_SZTUKI=
-//           <
-//           PRZEKROJ_NR=100		  
-//           KOD    = E_Sam3_9x16_DIN7982
-//           ILE    = 4
-//		   POLOZENIE_ZK=POL_DOL
-//		   POLOZENIE=ORIENTACJA_POZIOM
-//		   GDY_PARAMETR='(PROFIL_U_GORY=0)'			   
-//           >		
-//         WYLICZENIE=
-//           <
-//           KOD=E_E04036Tal
-//   	       PAR_DLUGOSC='56'
-//           ILE    = 4		
-//   	       PAR_KAT1='0'
-//   	       PAR_KAT2='0'
-//		   POLOZENIE_ZK=POL_DOL
-//		   POLOZENIE=ORIENTACJA_POZIOM
-//		   GDY_PARAMETR='(PROFIL_U_GORY=0)'				   
-//            >		   
-//        AKCESORIA_METRY=
-//          <
-//            KOD    = E_W69_T01
-//            KOLOR  = KOLOR_WEWN
-//            ILE    = 1
-//            DLUGOSC= 'OS_ODCINKA(0)+D(60)'
-//            GDY_PARAMETR='UTEPLITEL_GLASS_W69=1'			
-//            KIEDY  =[
-//                    TP_Szyba
-//                    ]
-//         > 	  	  
-//    AKCESORIA_METRY=
-//      <
-//        PRZEKROJ_NR=100
-//        KOD    = E_RP_01		
-//        KOLOR  = KOLOR_WEWN
-//        ILE    = 1
-//        DLUGOSC= 'OS_SKRZYDLA(0)'
-//               NA=[
-//	         TP_RamaDrzwiowa_DZ,	
-//	         TP_RamaDrzwiowa_DW,	
-//             TP_RamaDrzwiowa_DWDoFasady,
-//             TP_RamaDrzwiowa_DZDoFasady,		
-//             TP_SkrzydloDrzwiowe_DW1,
-//             TP_SkrzydloDrzwiowe_DZ1,
-//             TP_SkrzydloDrzwiowe_DW2,
-//             TP_SkrzydloDrzwiowe_DZ2,
-//             TP_SkrzydloDrzwiowe_DW3,	
-//             TP_SkrzydloDrzwiowe_DZ3,			
-//             TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
-//             TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
-//             TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka,
-//             TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
-//             TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
-//             TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka
-//               ]	
-//     >	
-//	    PROFIL=
-//          <
-//            PRZEKROJ_NR=100
-//            KOD    = E_ALP_C_815
-//            KOLOR  = KOLOR_WEWN
-//            ILE    = 1
-//            DLUGOSC= 'OS_SKRZYDLA(0)-D(29)'
-//		    KAT1   = KAT_0
-//            KAT2   = KAT_0
-//            KIEDY  =[
-//                    TP_RamaDrzwiowa_ProgDZ			
-//                    ]	
-//            NA_SKRZYDLE  =[
-//                    TS_Drzwi_DZ1,
-//                    TS_Drzwi_DZ2					
-//                    ]							
-//         > 				
-//	    PROFIL=
-//          <
-//            PRZEKROJ_NR=100
-//            KOD    = E_ALP_C_815
-//            KOLOR  = KOLOR_WEWN
-//            ILE    = 1
-//            DLUGOSC= 'OS_SKRZYDLA(0)-D(29-22.5)'
-//		    KAT1   = KAT_0
-//            KAT2   = KAT_0
-//            KIEDY  =[
-//                    TP_RamaDrzwiowa_ProgDZ					
-//                    ]	
-//            NA_SKRZYDLE  =[
-//                    TS_Drzwi_DZ3v			
-//                    ]							
-//         >
-//	    PROFIL=
-//          <
-//            PRZEKROJ_NR=100
-//            KOD    = E_ALP_C_815
-//            KOLOR  = KOLOR_WEWN
-//            ILE    = 1
-//            DLUGOSC= 'OS_SKRZYDLA(0)-D(29-14.5)'
-//		    KAT1   = KAT_0
-//            KAT2   = KAT_0
-//            KIEDY  =[
-//                    TP_RamaDrzwiowa_ProgDZ					
-//                    ]	
-//            NA_SKRZYDLE  =[
-//                    TS_Drzwi_DZ3				
-//                    ]							
-//         > 		
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_W69_D005
+           ILE    = 2
+		   POLOZENIE_ZK=POL_DOL
+		   POLOZENIE=ORIENTACJA_POZIOM
+		   GDY_PARAMETR='(PROFIL_U_GORY=0)'	
+           >	
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_9x16_DIN7982
+           ILE    = 4
+		   POLOZENIE_ZK=POL_DOL
+		   POLOZENIE=ORIENTACJA_POZIOM
+		   GDY_PARAMETR='(PROFIL_U_GORY=0)'			   
+           >		
+         WYLICZENIE=
+           <
+           KOD=E_RP_18
+   	       PAR_DLUGOSC='56'
+           ILE    = 4		
+   	       PAR_KAT1='0'
+   	       PAR_KAT2='0'
+		   POLOZENIE_ZK=POL_DOL
+		   POLOZENIE=ORIENTACJA_POZIOM
+		   GDY_PARAMETR='(PROFIL_U_GORY=0)'				   
+            >		   
+        AKCESORIA_METRY=
+          <
+            KOD    = E_W77_T02
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_ODCINKA(0)+D(60)'
+            GDY_PARAMETR='UTEPLITEL_GLASS_W69=1'			
+            KIEDY  =[TP_Szyba]
+         > 	  	  
+    AKCESORIA_METRY=
+      <
+        PRZEKROJ_NR=100
+        KOD    = E_RP_01		
+        KOLOR  = KOLOR_WEWN
+        ILE    = 1
+        DLUGOSC= 'OS_SKRZYDLA(0)'
+               NA=[
+	         TP_RamaDrzwiowa_DZ,	
+	         TP_RamaDrzwiowa_DW,	
+             TP_RamaDrzwiowa_DWDoFasady,
+             TP_RamaDrzwiowa_DZDoFasady,		
+             TP_SkrzydloDrzwiowe_DW1,
+             TP_SkrzydloDrzwiowe_DZ1,
+             TP_SkrzydloDrzwiowe_DW2,
+             TP_SkrzydloDrzwiowe_DZ2,
+             TP_SkrzydloDrzwiowe_DW3,	
+             TP_SkrzydloDrzwiowe_DZ3,			
+             TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg1,
+             TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaProg2,
+             TP_SkrzydloDrzwiowe_DW1PoprzeczkaDrzwiowaSzczotka,
+             TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
+             TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
+             TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka
+               ]	
+     >	
+	    PROFIL=
+          <
+            PRZEKROJ_NR=100
+            KOD    = E_ALP_C_815
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_SKRZYDLA(0)-D(29)'
+		    KAT1   = KAT_0
+            KAT2   = KAT_0
+            KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDZ			
+                    ]	
+            NA_SKRZYDLE  =[
+                    TS_Drzwi_DZ1,
+                    TS_Drzwi_DZ2					
+                    ]							
+         > 				
+	    PROFIL=
+          <
+            PRZEKROJ_NR=100
+            KOD    = E_ALP_C_815
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_SKRZYDLA(0)-D(29-22.5)'
+		    KAT1   = KAT_0
+            KAT2   = KAT_0
+            KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDZ					
+                    ]	
+            NA_SKRZYDLE  =[
+                    TS_Drzwi_DZ3v			
+                    ]							
+         >
+	    PROFIL=
+          <
+            PRZEKROJ_NR=100
+            KOD    = E_ALP_C_815
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_SKRZYDLA(0)-D(29-14.5)'
+		    KAT1   = KAT_0
+            KAT2   = KAT_0
+            KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDZ					
+                    ]	
+            NA_SKRZYDLE  =[
+                    TS_Drzwi_DZ3				
+                    ]							
+         > 		
 //        AKCESORIA_SZTUKI=
 //           <
 //           PRZEKROJ_NR=100		  
@@ -6446,79 +6457,79 @@ PROFIL[
 //                    TS_Drzwi_DZ3				
 //                    ]		
 //           >			   
-//	    PROFIL=
-//          <
-//            PRZEKROJ_NR=100
-//            KOD    = E_ALP_C_816
-//            KOLOR  = KOLOR_WEWN
-//            ILE    = 1
-//            DLUGOSC= 'OS_SKRZYDLA(0)-D(29)'
-//		    KAT1   = KAT_0
-//            KAT2   = KAT_0
-//            KIEDY  =[
-//                    TP_RamaDrzwiowa_ProgDW					
-//                    ]	
-//            NA_SKRZYDLE  =[
-//                    TS_Drzwi_DW1,
-//                    TS_Drzwi_DW2						
-//                    ]							
-//         > 				
-//	    PROFIL=
-//          <
-//            PRZEKROJ_NR=100
-//            KOD    = E_ALP_C_816
-//            KOLOR  = KOLOR_WEWN
-//            ILE    = 1
-//            DLUGOSC= 'OS_SKRZYDLA(0)-D(29)'
-//		    KAT1   = KAT_0
-//            KAT2   = KAT_0
-//            KIEDY  =[
-//                    TP_RamaDrzwiowa_ProgDW					
-//                    ]	
-//            NA_SKRZYDLE  =[
-//                    TS_Drzwi_DW3v					
-//                    ]							
-//         > 	
-//	    PROFIL=
-//          <
-//            PRZEKROJ_NR=100
-//            KOD    = E_ALP_C_816
-//            KOLOR  = KOLOR_WEWN
-//            ILE    = 1
-//            DLUGOSC= 'OS_SKRZYDLA(0)-D(29-14.5)'
-//		    KAT1   = KAT_0
-//            KAT2   = KAT_0
-//            KIEDY  =[
-//                    TP_RamaDrzwiowa_ProgDW					
-//                    ]	
-//            NA_SKRZYDLE  =[
-//                    TS_Drzwi_DW3						
-//                    ]							
-//         > 				 
-//        AKCESORIA_SZTUKI=
-//           <
-//           PRZEKROJ_NR=100		  
-//           KOD    = E_Sam3_5x19_DIN7982
-//           ILE    = 1
-//           CO     = 250
-//           MINIMUM= 2
-//           KIEDY  =[
-//                   TP_RamaDrzwiowa_ProgDZ,
-//                   TP_RamaDrzwiowa_ProgDW				   
-//                   ]
-//           >	
-//        AKCESORIA_METRY=
-//          <
-//            PRZEKROJ_NR=100
-//            KOD    = E_RP_10		
-//            KOLOR  = KOLOR_WEWN
-//            ILE    = 1
-//            DLUGOSC= 'OS_SKRZYDLA(0)'
-//            KIEDY  =[
-//                    TP_RamaDrzwiowa_ProgDZ,
-//                    TP_RamaDrzwiowa_ProgDW					
-//                     ]	
-//         >	  	
+	    PROFIL=
+          <
+            PRZEKROJ_NR=100
+            KOD    = E_ALP_C_816
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_SKRZYDLA(0)-D(29)'
+		    KAT1   = KAT_0
+            KAT2   = KAT_0
+            KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDW					
+                    ]	
+            NA_SKRZYDLE  =[
+                    TS_Drzwi_DW1,
+                    TS_Drzwi_DW2						
+                    ]							
+         > 				
+	    PROFIL=
+          <
+            PRZEKROJ_NR=100
+            KOD    = E_ALP_C_816
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_SKRZYDLA(0)-D(29)'
+		    KAT1   = KAT_0
+            KAT2   = KAT_0
+            KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDW					
+                    ]	
+            NA_SKRZYDLE  =[
+                    TS_Drzwi_DW3v					
+                    ]							
+         > 	
+	    PROFIL=
+          <
+            PRZEKROJ_NR=100
+            KOD    = E_ALP_C_816
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_SKRZYDLA(0)-D(29-14.5)'
+		    KAT1   = KAT_0
+            KAT2   = KAT_0
+            KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDW					
+                    ]	
+            NA_SKRZYDLE  =[
+                    TS_Drzwi_DW3						
+                    ]							
+         > 				 
+        AKCESORIA_SZTUKI=
+           <
+           PRZEKROJ_NR=100		  
+           KOD    = E_Sam3_5x19_DIN7982
+           ILE    = 1
+           CO     = 250
+           MINIMUM= 2
+           KIEDY  =[
+                   TP_RamaDrzwiowa_ProgDZ,
+                   TP_RamaDrzwiowa_ProgDW				   
+                   ]
+           >	
+        AKCESORIA_METRY=
+          <
+            PRZEKROJ_NR=100
+            KOD    = E_RP_10		
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_SKRZYDLA(0)'
+            KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDZ,
+                    TP_RamaDrzwiowa_ProgDW					
+                     ]	
+         >	  	
 //      //Дренажный колпачок
 //		AKCESORIA_SZTUKI=
 //		<

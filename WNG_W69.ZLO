@@ -1536,7 +1536,7 @@ SKRZYDLO[WNG_SKRZ_DW1_W69_504]=
   <
        NAZWA='W69.504-x h=103mm'
        OPIS ='Стулка для одностулкових дверей, які відкриваються всередину. Система W69'
-       KATEGORIA_HTML='Стулка дверей W69. <b>Анти-біметал</b>'
+       KATEGORIA='Стулка дверей W69'
        ZASTOSOWANIE=[TS_Drzwi_DW1]
        SYSTEMY=	    [DEF_SYS_W69]
        RYSUNEK='W69_504.VCT'
@@ -1562,7 +1562,7 @@ SKRZYDLO[WNG_SKRZ_DW2_W69_504]=
   <
        NAZWA='W69.504-x h=103mm'
        OPIS ='Стулка АКТИВНА для одностулкових дверей, які відкриваються всередину. Система W69'
-       KATEGORIA_HTML='Стулка дверей W69. <b>Анти-біметал</b>'
+       KATEGORIA='Стулка дверей W69'
        ZASTOSOWANIE=[TS_Drzwi_DW2]
        SYSTEMY=	    [DEF_SYS_W69]
        RYSUNEK='W69_504.VCT'
@@ -1588,7 +1588,7 @@ SKRZYDLO[WNG_SKRZ_DW3_W69_504rs]=
   <
        NAZWA='W69.504-x h=103mm'
        OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W69'
-       KATEGORIA_HTML='Стулка дверей W69. <b>Анти-біметал</b>'
+       KATEGORIA='Стулка дверей W69'
        ZASTOSOWANIE=[TS_Drzwi_DW3v]
        SYSTEMY=	    [DEF_SYS_W69]
        RYSUNEK='W69_504.VCT'
@@ -1614,7 +1614,7 @@ SKRZYDLO[WNG_SKRZ_DW3_W69_504]=
   <
        NAZWA='W69.506-x h=103mm'
        OPIS ='Стулка ПАСИВНА для одностулкових дверей, які відкриваються всередину. Система W69'
-       KATEGORIA_HTML='Стулка дверей W69. <b>Анти-біметал</b>'
+       KATEGORIA='Стулка дверей W69'
        ZASTOSOWANIE=[TS_Drzwi_DW3]
        SYSTEMY=	    [DEF_SYS_W69]
        RYSUNEK='W69_504.VCT'

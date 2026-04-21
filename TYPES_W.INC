@@ -731,6 +731,15 @@ TYPY_SKRZYDEL=
               RYSUNEK     = 'UNIT_PROFILE_W69.vct'
               ROZMIAR_RYSUNKU=135		  
             >	
+            Z_LISTY=
+              <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'SBORKA_UGLOW_W69'
+              PYTANIE     = 'Спосіб збирання кутів:'
+              ELEMENT     = 'Зачеканка'
+              ELEMENT     = 'Механічна (за допомогою штифтів)'
+              STANDARDOWO = '0'
+              >				
         >
   >
 
@@ -824,6 +833,24 @@ TYPY_SKRZYDEL=
               RYSUNEK     = 'UNIT_PROFILE_W69.vct'
               ROZMIAR_RYSUNKU=135		  
             >	
+            Z_LISTY=
+              <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'SBORKA_UGLOW_W69'
+              PYTANIE     = 'Спосіб збирання кутів:'
+              ELEMENT     = 'Зачеканка'
+              ELEMENT     = 'Механічна (за допомогою штифтів)'
+              STANDARDOWO = '0'
+              >	
+            Z_LISTY=
+              <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'KREPLENIE_POROGA_W69'
+              PYTANIE     = 'Спосіб кріплення порога:'
+              ELEMENT     = 'На саморізах'
+              ELEMENT     = 'За допомогою W69.D004'
+              STANDARDOWO = '0'
+              >				  
            >
          >
     TYP_SKRZYDLA[TS_W69_RamaDW]=
@@ -916,6 +943,24 @@ TYPY_SKRZYDEL=
               RYSUNEK     = 'UNIT_PROFILE_W69.vct'
               ROZMIAR_RYSUNKU=135		  
             >	
+            Z_LISTY=
+              <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'SBORKA_UGLOW_W69'
+              PYTANIE     = 'Спосіб збирання кутів:'
+              ELEMENT     = 'Зачеканка'
+              ELEMENT     = 'Механічна (за допомогою штифтів)'
+              STANDARDOWO = '0'
+              >		
+            Z_LISTY=
+              <
+              KATEGORIA   = 'Доп. опції'
+              KLUCZ       = 'KREPLENIE_POROGA_W69'
+              PYTANIE     = 'Спосіб кріплення порога:'
+              ELEMENT     = 'На саморізах'
+              ELEMENT     = 'За допомогою W69.D004'
+              STANDARDOWO = '0'
+              >					  
            >
          >
 #ENDIF	
