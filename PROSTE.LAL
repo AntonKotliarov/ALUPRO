@@ -767,8 +767,11 @@
 #DEFINE E_Sam3_9x60_65_DIN7996                        724
 #DEFINE E_W77_T02                                     725
 
-
-
+#DEFINE E_915340                                      726
+#DEFINE E_933340                                      727
+#DEFINE E_913260                                      728
+#DEFINE E_PAS_5689                                    729
+#DEFINE E_976340                                      730
 
 
 

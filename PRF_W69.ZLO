@@ -68,7 +68,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_101]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -78,7 +78,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_101]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -162,7 +162,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_102]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -172,7 +172,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_102]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -256,7 +256,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_103]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -266,7 +266,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_103]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -329,7 +329,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_104]=
           > 		  
         PROFIL=
           <
-            KOD    = E_PAS_5364
+            KOD    = E_PAS_4436
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -339,7 +339,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_104]=
           > 
         PROFIL=
           <
-            KOD    = E_PAS_5363
+            KOD    = E_PAS_4435
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -349,7 +349,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_104]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -359,14 +359,14 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_104]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          > 	
+          > 		
         PROFIL=
           <
             KOD    =E_ALP_W69_T050
@@ -422,7 +422,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_107]=
           > 		  
         PROFIL=
           <
-            KOD    = E_PAS_5364
+            KOD    = E_PAS_5689
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -432,7 +432,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_107]=
           > 
         PROFIL=
           <
-            KOD    = E_PAS_5363
+            KOD    = E_PAS_4435
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -442,7 +442,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_107]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -452,7 +452,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_107]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -536,7 +536,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_105]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -546,14 +546,14 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_105]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          > 	
+          > 		
         PROFIL=
           <
             KOD    =E_ALP_W69_T061
@@ -630,7 +630,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_106]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -640,7 +640,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W69_106]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -732,7 +732,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_301]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -742,7 +742,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_301]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -826,7 +826,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_302]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -836,14 +836,14 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_302]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          > 	
+          > 		
         PROFIL=
           <
             KOD    =E_ALP_W69_T054
@@ -920,7 +920,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_303]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -930,7 +930,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_303]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1015,7 +1015,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_305]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1025,7 +1025,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_305]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1109,7 +1109,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_306]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1119,7 +1119,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_306]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1203,7 +1203,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_307]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1213,14 +1213,14 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_307]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T054
@@ -1298,7 +1298,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_308]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1308,14 +1308,14 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_308]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_915340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T053
@@ -1393,7 +1393,7 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_309]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1403,14 +1403,14 @@ PROFIL[ PRF_SLP_OKIENNA_ALP_W69_309]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T053
@@ -1491,7 +1491,7 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W69_311]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1501,14 +1501,14 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W69_311]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T054
@@ -1585,7 +1585,7 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W69_312]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1595,14 +1595,14 @@ PROFIL[ PRF_WZM_SLP_OKIENNA_ALP_W69_312]=
           > 
         PROFIL=
           <
-            KOD    = E_835600
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T053
@@ -1682,7 +1682,7 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_201 ]=
           > 
         PROFIL=
           <
-            KOD    = E_840100
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1692,14 +1692,14 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_201 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_976340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T051
@@ -1775,7 +1775,7 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_202 ]=
           > 
         PROFIL=
           <
-            KOD    = E_840100
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1785,14 +1785,14 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_202 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_976340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T055
@@ -1868,7 +1868,7 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_203 ]=
           > 
         PROFIL=
           <
-            KOD    = E_840100
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1878,14 +1878,14 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_203 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_976340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T056
@@ -1961,7 +1961,7 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_204 ]=
           > 
         PROFIL=
           <
-            KOD    = E_840100
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -1971,14 +1971,14 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_204 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_976340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T062
@@ -2057,7 +2057,7 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_205 ]=
           > 
         PROFIL=
           <
-            KOD    = E_840100
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2067,14 +2067,14 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_205 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_976340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T051
@@ -2150,7 +2150,7 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_206 ]=
           > 
         PROFIL=
           <
-            KOD    = E_840100
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2160,14 +2160,14 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_206 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_976340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T055
@@ -2243,7 +2243,7 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_207 ]=
           > 
         PROFIL=
           <
-            KOD    = E_840100
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2253,14 +2253,14 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_207 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_976340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T056
@@ -2336,7 +2336,7 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_208 ]=
           > 
         PROFIL=
           <
-            KOD    = E_840100
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2346,14 +2346,14 @@ PROFIL[ PRF_SKRZYDLO_OKIENNA_ALP_W69_208 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_976340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 		  
         PROFIL=
           <
             KOD    =E_ALP_W69_T062
@@ -2432,7 +2432,7 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZ_ALP_W69_401 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2442,14 +2442,14 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZ_ALP_W69_401 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T053
@@ -2525,7 +2525,7 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DW_ALP_W69_402 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2535,14 +2535,14 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DW_ALP_W69_402 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T053
@@ -2621,7 +2621,7 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZF_ALP_W69_403 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2631,14 +2631,14 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZF_ALP_W69_403 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T055
@@ -2714,7 +2714,7 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DWF_ALP_W69_404 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2724,14 +2724,14 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DWF_ALP_W69_404 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T055
@@ -2811,7 +2811,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2821,14 +2821,14 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          >  
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T053
@@ -2906,7 +2906,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2916,7 +2916,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2977,20 +2977,20 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
-            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
-            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
@@ -3174,7 +3174,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -3184,7 +3184,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -3268,7 +3268,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -3278,7 +3278,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -3339,20 +3339,20 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
-            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
-            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
@@ -3527,7 +3527,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -3537,7 +3537,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -3622,7 +3622,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -3632,7 +3632,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -3693,20 +3693,20 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
-            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
-            DLUGOSC= 'OS_PROFILU(0)-D(2*70)'
+            DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
@@ -3882,7 +3882,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -3892,7 +3892,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -3977,7 +3977,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -3987,7 +3987,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -4048,24 +4048,24 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_504_W69_602 ]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
-            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_933340
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
-            DLUGOSC= 'OS_PROFILU(0)-D(2*78)'
+            DLUGOSC= 'OS_PROFILU(0)'
             KAT1   = KAT_JAK_PROFIL
             KAT2   = KAT_JAK_PROFIL
             GDY_PARAMETR='UNIT_PROFILE_W69=1'			
-          > 	
+          > 
         PROFIL=
           <
             KOD    =E_ALP_W69_T064
@@ -4253,7 +4253,7 @@ PROFIL[ PRF_PROG_ALP_W69_614]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -4263,7 +4263,7 @@ PROFIL[ PRF_PROG_ALP_W69_614]=
           > 
         PROFIL=
           <
-            KOD    = E_807600
+            KOD    = E_913260
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -5405,7 +5405,7 @@ PROFIL[
 //          > 
 //        PROFIL=
 //          <
-//            KOD    = E_807600
+//            KOD    = E_913260
 //            KOLOR  = KOLOR_CALOSCI
 //            ILE    = 1
 //            DLUGOSC= 'OS_ODCINKA(25)'
@@ -5431,7 +5431,7 @@ PROFIL[
 //          > 
 //        PROFIL=
 //          <
-//            KOD    = E_807600
+//            KOD    = E_913260
 //            KOLOR  = KOLOR_CALOSCI
 //            ILE    = 1
 //            DLUGOSC= 'OS_ODCINKA(25)'
@@ -5588,7 +5588,7 @@ PROFIL[
 //          > 
 //        PROFIL=
 //          <
-//            KOD    = E_807600
+//            KOD    = E_913260
 //            KOLOR  = KOLOR_CALOSCI
 //            ILE    = 1
 //            DLUGOSC= 'OS_ODCINKA(25)'
@@ -5860,7 +5860,7 @@ PROFIL[
 //          > 
 //        PROFIL=
 //          <
-//            KOD    = E_807600
+//            KOD    = E_913260
 //            KOLOR  = KOLOR_CALOSCI
 //            ILE    = 1
 //            DLUGOSC= 'OS_ODCINKA(25)'
@@ -5886,7 +5886,7 @@ PROFIL[
 //          > 
 //        PROFIL=
 //          <
-//            KOD    = E_807600
+//            KOD    = E_913260
 //            KOLOR  = KOLOR_CALOSCI
 //            ILE    = 1
 //            DLUGOSC= 'OS_ODCINKA(25)'
@@ -6043,7 +6043,7 @@ PROFIL[
 //          > 
 //        PROFIL=
 //          <
-//            KOD    = E_807600
+//            KOD    = E_913260
 //            KOLOR  = KOLOR_CALOSCI
 //            ILE    = 1
 //            DLUGOSC= 'OS_ODCINKA(25)'

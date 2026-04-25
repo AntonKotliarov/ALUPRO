@@ -9221,7 +9221,102 @@ PROFIL[E_PAS_4770]=
     POWIERZCHNIA_MALOWANIA=0
     WYKONAJ_OBROBKI_TYPU = 'OKNA'	
   > 
-
+PROFIL[E_PAS_5689]=
+  <  
+    NAZWA           = 'ПАС-5689X'
+    OPIS            = 'Чашка [W77]'
+    RYSUNEK         = 'PAS_5689.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_976340]=
+  <  
+    NAZWA           = '976340'
+    OPIS            = 'Термоміст Low Lambda PA 66 GF25 [W69]'
+    RYSUNEK         = '976340.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >     
+PROFIL[E_913260]=
+  <  
+    NAZWA           = '913260'
+    OPIS            = 'Термоміст Low Lambda PA 66 GF25 [W69]'
+    RYSUNEK         = '913260.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+PROFIL[E_915340]=
+  <  
+    NAZWA           = '915340'
+    OPIS            = 'Термоміст Low Lambda PA 66 GF25 [W69]'
+    RYSUNEK         = '915340.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  > 
+PROFIL[E_933340]=
+  <  
+    NAZWA           = '933340'
+    OPIS            = 'Термоміст Low Lambda PA 66 GF25 [W69]'
+    RYSUNEK         = '933340.VCT'
+    SYSTEMY         = [DEF_SYS_W77]
+    SZEROKOSC_BELKI =  0
+    MASA            =  0             
+    KOLOR           = KOLOR_CALOSCI
+    POWIERZCHNIA_ANODOWANIA  = 0/100
+    POWIERZCHNIA_MALOWANIA   = 0/100
+    DLUGOSC_BELKI   =  6500
+    SYMETRYCZNA     =  TAK
+    PODSTAWOWY      =  TAK
+    MOZLIWE_KOLORY  =  CG_WSZYSTKIE 
+    POWIERZCHNIA_ANODOWANIA=0 
+    POWIERZCHNIA_MALOWANIA=0
+    WYKONAJ_OBROBKI_TYPU = 'OKNA'	
+  >   
+  
 PROFIL[E_835600]=
   <  
     NAZWA           = '835600'
