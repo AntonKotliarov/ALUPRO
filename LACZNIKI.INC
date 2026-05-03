@@ -378,3 +378,204 @@ LACZNIK[ LACZNIK_C50_C818 ]=
       ]
   >
 >  
+
+LACZNIK[ LACZNIK_W69_C818 ]=
+<
+  NAZWA             = 'З"эднувачі C.818'
+  OPIS              = 'З"эднувачі C.818'
+  RYSUNEK           = 'C50_C818.vct'
+  KATEGORIA         = 'З"эднувачі рами'
+  SZEROKOSC         = '0'
+  KATOWY            = NIE
+  PRZEKROJ_WIDOK    = 'LACZNIK_W69_C818'
+
+  MATERIAL=< KOD=E_ALP_C_818                             ILOSC='1' DLUGOSC='PROFIL_DLG'        >    
+  MATERIAL=< KOD=E_Sam3_5x9_5_DIN7981                    ILOSC='1*((FLOOR(PROFIL_DLG/280))+2)' >  
+  
+  OGRANICZENIA_A=
+  <
+    SCIANA_GORA     = TAK
+    SCIANA_DOL      = TAK
+    SCIANA_PION     = TAK
+    INNY_LACZNIK    = NIE
+    DLA_KONSTRUKCJI = [
+       TS_W69_windows    ,	
+       TS_W69_RamaDZ     ,
+       TS_W69_RamaDW 
+      ]
+  >
+  OGRANICZENIA_B=
+  <
+    SCIANA_GORA     = TAK
+    SCIANA_DOL      = TAK
+    SCIANA_PION     = TAK
+    INNY_LACZNIK    = NIE
+    DLA_KONSTRUKCJI = [
+       TS_W69_windows    ,	
+       TS_W69_RamaDZ     ,
+       TS_W69_RamaDW   
+      ]
+  >
+>  
+
+LACZNIK[ LACZNIK_W69_C818_W69_C818 ]=
+<
+  NAZWA             = 'З"эднувачі 2xC.818'
+  OPIS              = 'З"эднувачі 2xC.818'
+  RYSUNEK           = 'C50_C818.vct'
+  KATEGORIA         = 'З"эднувачі рами'
+  SZEROKOSC         = '0'
+  KATOWY            = NIE
+  PRZEKROJ_WIDOK    = 'LACZNIK_W69_C818'
+
+  MATERIAL=< KOD=E_ALP_C_818                             ILOSC='2' DLUGOSC='PROFIL_DLG'        >    
+  MATERIAL=< KOD=E_Sam3_5x9_5_DIN7981                    ILOSC='2*((FLOOR(PROFIL_DLG/280))+2)' >  
+  
+  OGRANICZENIA_A=
+  <
+    SCIANA_GORA     = TAK
+    SCIANA_DOL      = TAK
+    SCIANA_PION     = TAK
+    INNY_LACZNIK    = NIE
+    DLA_KONSTRUKCJI = [
+       TS_W69_windows    ,	
+       TS_W69_RamaDZ     ,
+       TS_W69_RamaDW 
+      ]
+  >
+  OGRANICZENIA_B=
+  <
+    SCIANA_GORA     = TAK
+    SCIANA_DOL      = TAK
+    SCIANA_PION     = TAK
+    INNY_LACZNIK    = NIE
+    DLA_KONSTRUKCJI = [
+       TS_W69_windows    ,	
+       TS_W69_RamaDZ     ,
+       TS_W69_RamaDW   
+      ]
+  >
+>  
+
+LACZNIK[ LACZNIK_W69_606 ]=
+<
+  NAZWA             = 'Розширювач доборний 30мм'
+  OPIS              = 'Розширювач доборний 30мм'
+  RYSUNEK           = 'W69_606.vct'
+  KATEGORIA         = 'Соединитель рам'
+  SZEROKOSC         = '30'
+  KATOWY            = NIE
+  PRZEKROJ_WIDOK    = 'LACZNIK_W69_606'
+
+  MATERIAL=< KOD=E_ALP_W69_606                           ILOSC='1'                             DLUGOSC='PROFIL_DLG' >    
+  MATERIAL=< KOD=E_ALP_W69_T052                          ILOSC='1*(TYPE_TERMO_W69=1)'          DLUGOSC='PROFIL_DLG' >      
+  MATERIAL=< KOD=E_ALP_C_818                             ILOSC='2'                             DLUGOSC='PROFIL_DLG' >    
+  MATERIAL=< KOD=E_Sam3_5x9_5_DIN7981                    ILOSC='2*((FLOOR(PROFIL_DLG/280))+2)' >  
+  
+  OGRANICZENIA_A=
+  <
+    SCIANA_GORA     = TAK
+    SCIANA_DOL      = TAK
+    SCIANA_PION     = TAK
+    INNY_LACZNIK    = NIE
+    DLA_KONSTRUKCJI = [
+       TS_W69_windows ,	
+       TS_W69_RamaDZ  ,
+       TS_W69_RamaDW  
+      ]
+  >
+  OGRANICZENIA_B=
+  <
+    SCIANA_GORA     = TAK
+    SCIANA_DOL      = TAK
+    SCIANA_PION     = TAK
+    INNY_LACZNIK    = NIE
+    DLA_KONSTRUKCJI = [
+       TS_W69_windows ,	
+       TS_W69_RamaDZ  ,
+       TS_W69_RamaDW  
+      ]
+  >
+>  
+
+LACZNIK[ LACZNIK_W69_607 ]=
+<
+  NAZWA             = 'Розширювач доборний 44мм'
+  OPIS              = 'Розширювач доборний 44мм'
+  RYSUNEK           = 'W69_607.vct'
+  KATEGORIA         = 'Соединитель рам'
+  SZEROKOSC         = '44'
+  KATOWY            = NIE
+  PRZEKROJ_WIDOK    = 'LACZNIK_W69_607'
+
+  MATERIAL=< KOD=E_ALP_W69_607                           ILOSC='1'                             DLUGOSC='PROFIL_DLG' >   
+  MATERIAL=< KOD=E_ALP_W69_T054                          ILOSC='1*(TYPE_TERMO_W69=1)'          DLUGOSC='PROFIL_DLG' >        
+  MATERIAL=< KOD=E_ALP_C_818                             ILOSC='2'                             DLUGOSC='PROFIL_DLG' >    
+  MATERIAL=< KOD=E_Sam3_5x9_5_DIN7981                    ILOSC='2*((FLOOR(PROFIL_DLG/280))+2)' >  
+  
+  OGRANICZENIA_A=
+  <
+    SCIANA_GORA     = TAK
+    SCIANA_DOL      = TAK
+    SCIANA_PION     = TAK
+    INNY_LACZNIK    = NIE
+    DLA_KONSTRUKCJI = [
+       TS_W69_windows ,	
+       TS_W69_RamaDZ  ,
+       TS_W69_RamaDW  
+      ]
+  >
+  OGRANICZENIA_B=
+  <
+    SCIANA_GORA     = TAK
+    SCIANA_DOL      = TAK
+    SCIANA_PION     = TAK
+    INNY_LACZNIK    = NIE
+    DLA_KONSTRUKCJI = [
+       TS_W69_windows ,	
+       TS_W69_RamaDZ  ,
+       TS_W69_RamaDW  
+      ]
+  >
+>  
+
+LACZNIK[ LACZNIK_W69_608 ]=
+<
+  NAZWA             = 'Розширювач доборний 58мм'
+  OPIS              = 'Розширювач доборний 58мм'
+  RYSUNEK           = 'W69_608.vct'
+  KATEGORIA         = 'Соединитель рам'
+  SZEROKOSC         = '58'
+  KATOWY            = NIE
+  PRZEKROJ_WIDOK    = 'LACZNIK_W69_608'
+
+  MATERIAL=< KOD=E_ALP_W69_608                           ILOSC='1'                             DLUGOSC='PROFIL_DLG' > 
+  MATERIAL=< KOD=E_ALP_W69_T060                          ILOSC='1*(TYPE_TERMO_W69=1)'          DLUGOSC='PROFIL_DLG' >          
+  MATERIAL=< KOD=E_ALP_C_818                             ILOSC='2'                             DLUGOSC='PROFIL_DLG' >    
+  MATERIAL=< KOD=E_Sam3_5x9_5_DIN7981                    ILOSC='2*((FLOOR(PROFIL_DLG/280))+2)' >  
+  
+  OGRANICZENIA_A=
+  <
+    SCIANA_GORA     = TAK
+    SCIANA_DOL      = TAK
+    SCIANA_PION     = TAK
+    INNY_LACZNIK    = NIE
+    DLA_KONSTRUKCJI = [
+       TS_W69_windows ,	
+       TS_W69_RamaDZ  ,
+       TS_W69_RamaDW  
+      ]
+  >
+  OGRANICZENIA_B=
+  <
+    SCIANA_GORA     = TAK
+    SCIANA_DOL      = TAK
+    SCIANA_PION     = TAK
+    INNY_LACZNIK    = NIE
+    DLA_KONSTRUKCJI = [
+       TS_W69_windows ,	
+       TS_W69_RamaDZ  ,
+       TS_W69_RamaDW  
+      ]
+  >
+>  
