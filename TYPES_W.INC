@@ -173,7 +173,7 @@ TYPY_SKRZYDEL=
     <
       NAZWA_HTML=    'W77 - Вікна та балконні двері <font face="verdana" color="clblue">(Тестування!)</font>'
       OPIS=          'Вікна та балконні двері. Система W77 (система "тепла")'
-      KATEGORIA_HTML=' 2) Система віконна-дверна <b>W77</b>'
+      KATEGORIA_HTML=' 3) Система віконна-дверна <b>W77</b>'
       RYSUNEK='W77_windows.jpg'	  
       SYSTEMY=[DEF_SYS_W77]
       DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_W77]
@@ -360,7 +360,7 @@ TYPY_SKRZYDEL=
       <  
         NAZWA_HTML=    'W77 - Двері зовнішнього відкривання <font face="verdana" color="clblue">(Тестування!)</font>'
         OPIS=          'Двери наружного открывания. Система W77 (система "тепла")'
-        KATEGORIA_HTML=' 2) Система віконна-дверна <b>W77</b>'
+        KATEGORIA_HTML=' 3) Система віконна-дверна <b>W77</b>'
         SYSTEMY=[DEF_SYS_W77]
         DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_W77]
         RYSUNEK='W77_RamaDZ.vct'
@@ -454,7 +454,7 @@ TYPY_SKRZYDEL=
       <		  
         NAZWA_HTML=    'W77 - Двері внутрішнього відкривання <font face="verdana" color="clblue">(Тестування!)</font>'
         OPIS=          'Двері внутрішнього відкривання. Система W77 (система "тепла")'
-        KATEGORIA_HTML=' 2) Система віконна-дверна <b>W77</b>'
+        KATEGORIA_HTML=' 3) Система віконна-дверна <b>W77</b>'
         SYSTEMY=[DEF_SYS_W77]
         DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_W77]
         RYSUNEK='W77_RamaDW.vct'		
@@ -695,7 +695,7 @@ TYPY_SKRZYDEL=
               ELEMENT     = 'Так'
               STANDARDOWO = '1'
 
-              RYSUNEK     = 'DETAIL_CENTR_GASK_W69.vct'
+              RYSUNEK     = 'DETAIL_CENTR_GASK_W77.vct'
               ROZMIAR_RYSUNKU=135
             >	
           Z_LISTY=
@@ -726,10 +726,7 @@ TYPY_SKRZYDEL=
               PYTANIE     = 'Як розарховувати профілі:'
               ELEMENT     = 'В зборі' 			  
               ELEMENT     = 'Окремо профіль та термомости'
-              STANDARDOWO = '0'
-
-              RYSUNEK     = 'UNIT_PROFILE_W69.vct'
-              ROZMIAR_RYSUNKU=135		  
+              STANDARDOWO = '0'	  
             >	
             Z_LISTY=
               <
@@ -828,10 +825,7 @@ TYPY_SKRZYDEL=
               PYTANIE     = 'Як розарховувати профілі:'
               ELEMENT     = 'В зборі' 			  
               ELEMENT     = 'Окремо профіль та термомости'
-              STANDARDOWO = '0'
-
-              RYSUNEK     = 'UNIT_PROFILE_W69.vct'
-              ROZMIAR_RYSUNKU=135		  
+              STANDARDOWO = '0'	  
             >	
             Z_LISTY=
               <
@@ -939,10 +933,7 @@ TYPY_SKRZYDEL=
               ELEMENT     = 'В зборі' 			  
               ELEMENT     = 'Окремо профіль та термомости'
               STANDARDOWO = '0'
-
-              RYSUNEK     = 'UNIT_PROFILE_W69.vct'
-              ROZMIAR_RYSUNKU=135		  
-            >	
+             >			  
             Z_LISTY=
               <
               KATEGORIA   = 'Доп. опції'
@@ -972,7 +963,7 @@ TYPY_SKRZYDEL=
     <
       NAZWA_HTML=    'C50 - Вікна та балконні двері <font face="verdana" color="clblue">(Тестування!)</font>'
       OPIS=          'Вікна та балконні двері. Система C50 (система "тепла")'
-      KATEGORIA_HTML=' 4) Система віконна-дверна <b>C50</b>'
+      KATEGORIA_HTML=' 5) Система віконна-дверна <b>C50</b>'
       RYSUNEK='C50_windows.jpg'	  
       SYSTEMY=[DEF_SYS_C50,DEF_SYS_C50_CD]
       DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_C50,WAR_C50_CD,WAR_C50_SKRZ_BK]
@@ -1121,7 +1112,7 @@ TYPY_SKRZYDEL=
       <  
         NAZWA_HTML=    'C50 - Двері зовнішнього відкривання <font face="verdana" color="clblue">(Тестування!)</font>'
         OPIS=          'Двери наружного открывания. Система C50 (система "тепла")'
-        KATEGORIA_HTML=' 4) Система віконна-дверна <b>C50</b>'
+        KATEGORIA_HTML=' 5) Система віконна-дверна <b>C50</b>'
         SYSTEMY=[DEF_SYS_C50]
         DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_C50]
         RYSUNEK='C50_RamaDZ.vct'
@@ -1198,7 +1189,7 @@ TYPY_SKRZYDEL=
       <		  
         NAZWA_HTML=    'C50 - Двері внутрішнього відкривання <font face="verdana" color="clblue">(Тестування!)</font>'
         OPIS=          'Двері внутрішнього відкривання. Система C50 (система "тепла")'
-        KATEGORIA_HTML=' 4) Система віконна-дверна <b>C50</b>'
+        KATEGORIA_HTML=' 5) Система віконна-дверна <b>C50</b>'
         SYSTEMY=[DEF_SYS_C50]
         DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_C50]
         RYSUNEK='C50_RamaDW.vct'		
@@ -1276,7 +1267,7 @@ TYPY_SKRZYDEL=
       <  
         NAZWA_HTML=    'C50 - Двері зовнішнього відкривання CD <font face="verdana" color="clblue">(Тестування!)</font>'
         OPIS=          'Двери наружного открывания. Система C50 (система "тепла")'
-        KATEGORIA_HTML=' 4) Система віконна-дверна <b>C50</b>|<b>Clamped doors</b>'
+        KATEGORIA_HTML=' 5) Система віконна-дверна <b>C50</b>|<b>Clamped doors</b>'
         SYSTEMY=[DEF_SYS_C50_CD]
         DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_C50_CD]
         RYSUNEK='C50_RamaDZ.vct'
@@ -1344,7 +1335,7 @@ TYPY_SKRZYDEL=
       <		  
         NAZWA_HTML=    'C50 - Двері внутрішнього відкривання CD <font face="verdana" color="clblue">(Тестування!)</font>'
         OPIS=          'Двері внутрішнього відкривання. Система C50 (система "тепла")'
-        KATEGORIA_HTML=' 4) Система віконна-дверна <b>C50</b>|<b>Clamped doors</b>'
+        KATEGORIA_HTML=' 5) Система віконна-дверна <b>C50</b>|<b>Clamped doors</b>'
         SYSTEMY=[DEF_SYS_C50_CD]
         DOZWOLONE_WARIANTY=[WAR_DEFAULT,WAR_C50_CD]
         RYSUNEK='C50_RamaDW.vct'		
@@ -1419,7 +1410,7 @@ TYPY_SKRZYDEL=
       <
         NAZWA_HTML='Плити керамограніту на кляймерах <font face="verdana" color="clblue">(Тестування!)</font>'
         OPIS='Система НВФ'
-        KATEGORIA=' 3) СИСТЕМА НАВІСНИХ ВЕНТИЛЬОВАНИХ ФАСАДІВ'
+        KATEGORIA=' 4) СИСТЕМА НАВІСНИХ ВЕНТИЛЬОВАНИХ ФАСАДІВ'
         DOZWOLONE_WARIANTY=[WAR_DEFAULT,
                             WAR_NVF_KERAM_KLIAM,WAR_W77
                            ]
@@ -1497,7 +1488,7 @@ TYPY_SKRZYDEL=
       <
         NAZWA_HTML='Плити керамограніту/HPL-панелі на клею <font face="verdana" color="clblue">(Тестування!)</font>'
         OPIS='Система НВФ'
-        KATEGORIA=' 3) СИСТЕМА НАВІСНИХ ВЕНТИЛЬОВАНИХ ФАСАДІВ'
+        KATEGORIA=' 4) СИСТЕМА НАВІСНИХ ВЕНТИЛЬОВАНИХ ФАСАДІВ'
         DOZWOLONE_WARIANTY=[WAR_DEFAULT,
                             WAR_NVF_KERAM_GLUE,WAR_W77
                            ]
@@ -1566,7 +1557,7 @@ TYPY_SKRZYDEL=
       <
         NAZWA_HTML='Касети з АКП <font face="verdana" color="clblue">(Тестування!)</font>'
         OPIS='Система НВФ'
-        KATEGORIA=' 3) СИСТЕМА НАВІСНИХ ВЕНТИЛЬОВАНИХ ФАСАДІВ'
+        KATEGORIA=' 4) СИСТЕМА НАВІСНИХ ВЕНТИЛЬОВАНИХ ФАСАДІВ'
         DOZWOLONE_WARIANTY=[WAR_DEFAULT,
                             WAR_NVF_AKP,WAR_W77
                            ]
@@ -1647,7 +1638,7 @@ TYPY_SKRZYDEL=
       <
         NAZWA_HTML=' HPL-панелі на заклепках <font face="verdana" color="clblue">(Тестування!)</font>'
         OPIS='Система НВФ'
-        KATEGORIA=' 3) СИСТЕМА НАВІСНИХ ВЕНТИЛЬОВАНИХ ФАСАДІВ'
+        KATEGORIA=' 4) СИСТЕМА НАВІСНИХ ВЕНТИЛЬОВАНИХ ФАСАДІВ'
         DOZWOLONE_WARIANTY=[WAR_DEFAULT,
                             WAR_NVF_HPL_PANEL,WAR_W77
                            ]
@@ -1726,7 +1717,7 @@ TYPY_SKRZYDEL=
       <
         NAZWA_HTML='Плити з натурального каменю на FZP анкерах <font face="verdana" color="clblue">(Тестування!)</font>'
         OPIS='Система НВФ'
-        KATEGORIA=' 3) СИСТЕМА НАВІСНИХ ВЕНТИЛЬОВАНИХ ФАСАДІВ'
+        KATEGORIA=' 4) СИСТЕМА НАВІСНИХ ВЕНТИЛЬОВАНИХ ФАСАДІВ'
         DOZWOLONE_WARIANTY=[WAR_DEFAULT,
                             WAR_NVF_FZP, WAR_W77
                            ]

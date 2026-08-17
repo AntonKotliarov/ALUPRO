@@ -205,7 +205,10 @@
 #DEFINE E_3032_00                     -181
 #DEFINE E_3022_00                     -182
 #DEFINE E_WX80SD5100                  -183
-
+#DEFINE E_6604i                       -184
+#DEFINE E_2050_60                     -185
+#DEFINE E_2150_60                     -186
+#DEFINE E_WX80SD4980                  -187
 
 
 

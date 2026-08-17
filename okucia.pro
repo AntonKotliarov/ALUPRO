@@ -277,7 +277,14 @@ AKCESORIA_SZTUKI[E_6605i]=
     OPIS             = 'Анкер для петель LOIRA 76мм *FAPIM*'
     RYSUNEK          = '6605i.jpg'
     MASA             = 0
-  >        
+  >  
+AKCESORIA_SZTUKI[E_6604i]=
+  <
+    NAZWA            = '6604i'
+    OPIS             = 'К-кт закладних анкеров, 60мм *FAPIM*'
+    RYSUNEK          = '6604i.jpg'
+    MASA             = 0
+  >    
 AKCESORIA_SZTUKI[E_3722A]=
   <
     NAZWA            = '3722AX'
@@ -354,7 +361,14 @@ AKCESORIA_SZTUKI[E_2150_65]=
     OPIS             = 'Болт анкерній, L=74мм, комплект 6шт *Stublina*'
     RYSUNEK          = '2150_65.jpg'
     MASA             = 0
-  >    
+  >  
+AKCESORIA_SZTUKI[E_2150_60]=
+  <
+    NAZWA            = '2150.60'
+    OPIS             = 'Болт анкерний, L=58мм, комплект 6шт *Stublina*'
+    RYSUNEK          = '2150_60.jpg'
+    MASA             = 0
+  >      
 AKCESORIA_SZTUKI[E_2150_95]=
   <
     NAZWA            = '2150.95'
@@ -368,7 +382,14 @@ AKCESORIA_SZTUKI[E_2050_65]=
     OPIS             = 'Болт анкерній, L=74мм, комплект 4шт *Stublina*'
     RYSUNEK          = '2050_65.jpg'
     MASA             = 0
-  >    
+  >  
+AKCESORIA_SZTUKI[E_2050_60]=
+  <
+    NAZWA            = '2050.60'
+    OPIS             = 'Болт анкерний, L=58мм, комплект 4шт *Stublina*'
+    RYSUNEK          = '2050_60.jpg'
+    MASA             = 0
+  >      
 AKCESORIA_SZTUKI[E_2050_95]=
   <
     NAZWA            = '2050.95'
@@ -488,7 +509,14 @@ AKCESORIA_SZTUKI[E_WX80SD5100]=
     OPIS             = 'WALA_Набір кріплення завісу WX 2-стулкового, дюбельний болт 71.5мм *WALA*'
     RYSUNEK          = 'WX80SD5100.jpg'
     MASA             = 0
-  >        
+  >  
+AKCESORIA_SZTUKI[E_WX80SD4980]=
+  <
+    NAZWA            = 'WX80SD4980'
+    OPIS             = 'Болт анкерний, L=58,5мм, комплект 4шт  *Wala*'
+    RYSUNEK          = 'WX80SD4980.jpg'
+    MASA             = 0
+  >         
 AKCESORIA_SZTUKI[E_MX8020457X]=
   <
     NAZWA            = 'MХ8020457ХX'

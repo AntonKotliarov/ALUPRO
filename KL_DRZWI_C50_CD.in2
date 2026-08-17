@@ -176,7 +176,20 @@ GRUPA[KL_DRZWI_KLAMKA_NAGIM_LOCK_C50_CD]=
   
   FILTR_NAZWA        = 'Тип ручки'
   FILTR_WARTOSC      = 'Ручка натискна' 
-
+  
+  	    PYTANIA=
+          < 
+             PYTANIE=
+             <
+               NR    = PLock_DOOR
+               NAZWA = 'Вибір замка:'
+               OPIS  = 'Вибір замка:'
+       
+               ODPOWIEDZ=< NR=PLock_DOOR_1T         NAZWA='Замок 1-но точковий Stublina'            OPIS=''   PRIORYTET=1 RYSUNEK='.jpg' >
+               ODPOWIEDZ=< NR=PLock_DOOR_3T_1650    NAZWA='Замок 3-х точковий із клямкою, 1650mm'   OPIS=''   PRIORYTET=0 RYSUNEK='.jpg' >	
+               ODPOWIEDZ=< NR=PLock_DOOR_3T_2200    NAZWA='Замок 3-х точковий із клямкою, 2200mm'   OPIS=''   PRIORYTET=0 RYSUNEK='.jpg' >				   
+       		 >				 
+	      >	     
 
   WYMIAR_OKUCIA='Klamka_1050'
   WAZNOSC_OKUCIA=20   

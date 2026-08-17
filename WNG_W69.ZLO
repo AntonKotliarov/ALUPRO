@@ -2378,3 +2378,72 @@ SKRZYDLO[
             >					
         >	
   >        
+  
+//------------------------------------------------------------------------------
+// Ограничения для полотен			--------------------------------------------
+//------------------------------------------------------------------------------
+SKRZYDLO
+[
+      WNG_SKRZ_DZ1_W69_501           ,  
+      WNG_SKRZ_DZ2_W69_501           ,  
+      WNG_SKRZ_DZ3_W69_501rs         ,  
+      WNG_SKRZ_DZ3_W69_501           ,  
+									 
+      WNG_SKRZ_DZ1_W69_501_W69_602   ,  
+      WNG_SKRZ_DZ2_W69_501_W69_602   ,  
+      WNG_SKRZ_DZ3_W69_501_W69_602rs ,  
+      WNG_SKRZ_DZ3_W69_501_W69_602   ,  
+									 
+      WNG_SKRZ_DW1_W69_502           ,  
+      WNG_SKRZ_DW2_W69_502           ,  
+      WNG_SKRZ_DW3_W69_502rs         ,  
+      WNG_SKRZ_DW3_W69_502           ,  
+									 
+      WNG_SKRZ_DW1_W69_502_W69_602   ,  
+      WNG_SKRZ_DW2_W69_502_W69_602   ,  
+      WNG_SKRZ_DW3_W69_502_W69_602rs ,  
+      WNG_SKRZ_DW3_W69_502_W69_602     
+] =
+<
+	BLAD_WARUNEK			= 'MASA_SKRZYDLA>130'
+	BLAD_TEKST				= 'Маса стулки превишує допустиму (130кг)'
+
+	BLAD_WARUNEK			= 'B>1150'
+	BLAD_TEKST				= 'Ширина стулки більше допустимої (1150мм)'
+
+	BLAD_WARUNEK			= 'H>2500'
+	BLAD_TEKST				= 'Висота стулки більше допустимої (2500мм)'
+>  
+
+SKRZYDLO
+[
+    WNG_SKRZ_DW1_W69_504           ,
+    WNG_SKRZ_DW2_W69_504           ,
+    WNG_SKRZ_DW3_W69_504rs         ,
+    WNG_SKRZ_DW3_W69_504           ,
+    
+    WNG_SKRZ_DZ1_W69_503           ,
+    WNG_SKRZ_DZ2_W69_503           ,
+    WNG_SKRZ_DZ3_W69_503rs         ,
+    WNG_SKRZ_DZ3_W69_503           ,
+    
+    WNG_SKRZ_DZ1_W69_503_W69_602   ,
+    WNG_SKRZ_DZ2_W69_503_W69_602   ,
+    WNG_SKRZ_DZ3_W69_503_W69_602rs ,
+    WNG_SKRZ_DZ3_W69_503_W69_602   ,
+    
+    WNG_SKRZ_DW1_W69_504_W69_602   ,
+    WNG_SKRZ_DW2_W69_504_W69_602   ,
+    WNG_SKRZ_DW3_W69_504_W69_602rs ,
+    WNG_SKRZ_DW3_W69_504_W69_602   
+] =
+<
+	BLAD_WARUNEK			= 'MASA_SKRZYDLA>150'
+	BLAD_TEKST				= 'Маса стулки превишує допустиму (130кг)'
+
+	BLAD_WARUNEK			= 'B>1250'
+	BLAD_TEKST				= 'Ширина стулки більше допустимої (1150мм)'
+
+	BLAD_WARUNEK			= 'H>2500'
+	BLAD_TEKST				= 'Висота стулки більше допустимої (2500мм)'
+>  

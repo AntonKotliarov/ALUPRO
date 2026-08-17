@@ -772,6 +772,17 @@
 #DEFINE E_913260                                      728
 #DEFINE E_PAS_5689                                    729
 #DEFINE E_976340                                      730
+#DEFINE E_F50_613_04                                  731
+#DEFINE E_F50_613_05                                  732
+#DEFINE E_F50_613_06                                  733
+#DEFINE E_Sam3_5x19_DIN7050                           734
+#DEFINE E_PODKL_100_24_5                              735
+#DEFINE E_PODKL_100_26_5                              736
+#DEFINE E_PODKL_100_26_1                              737
+#DEFINE E_PODKL_100_30_5                              738
+#DEFINE E_PODKL_100_32_5                              739
+#DEFINE E_PODKL_100_36_5                              740
+#DEFINE E_PODKL_100_36_1                              741
 
 
 

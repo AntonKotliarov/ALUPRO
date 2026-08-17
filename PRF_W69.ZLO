@@ -2452,7 +2452,7 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZ_ALP_W69_401 ]=
           > 
         PROFIL=
           <
-            KOD    =E_ALP_W69_T053
+            KOD    =E_ALP_W69_T057
             KOLOR  =KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2545,7 +2545,7 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DW_ALP_W69_402 ]=
           > 
         PROFIL=
           <
-            KOD    =E_ALP_W69_T053
+            KOD    =E_ALP_W69_T057
             KOLOR  =KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2641,7 +2641,7 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DZF_ALP_W69_403 ]=
           > 
         PROFIL=
           <
-            KOD    =E_ALP_W69_T055
+            KOD    =E_ALP_W69_T059
             KOLOR  =KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2734,7 +2734,7 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DWF_ALP_W69_404 ]=
           > 
         PROFIL=
           <
-            KOD    =E_ALP_W69_T055
+            KOD    =E_ALP_W69_T059
             KOLOR  =KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2748,7 +2748,7 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DWF_ALP_W69_404 ]=
 //***********************************
 //Створка ДВЕРИ
 //***********************************
-PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501 ]=
+PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501, PRF_RAMA_DRZWIOWE_DZ_ALP_W69_501 ]=
   <
     NAZWA=           'W69.501X'
     OPIS=	         'Стулка дверей зовнішнього відчинення. Система ALUPRO W69'
@@ -3464,7 +3464,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503_W69_602 ]=
 //           >	  
       >
   >     
-PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502 ]=
+PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502,PRF_RAMA_DRZWIOWE_DW_ALP_W69_502 ]=
   <
     NAZWA=           'W69.502X'
     OPIS=	         'Стулка дверей внутрішнього відчинення. Система ALUPRO W69'
@@ -4878,6 +4878,8 @@ PROFIL[
         PRF_RAMA_DRZWIOWA_DW_ALP_W69_402     ,
         PRF_RAMA_DRZWIOWA_DZF_ALP_W69_403    ,
         PRF_RAMA_DRZWIOWA_DWF_ALP_W69_404    ,
+		PRF_RAMA_DRZWIOWE_DW_ALP_W69_502     ,
+		PRF_RAMA_DRZWIOWE_DZ_ALP_W69_501     ,
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501 ,
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_503 ,
         PRF_SKRZYDLO_DRZWIOWE_DW_ALP_W69_502 ,
@@ -5015,6 +5017,18 @@ PROFIL[
                      ]
     TYP_DO_OKUC=PROFIL_DRZWIOWY
   >
+  
+PROFIL[     
+        PRF_RAMA_DRZWIOWE_DW_ALP_W69_502    
+      ]=
+  <
+    ZASTOSOWANIE=    [
+                     TP_RamaDrzwiowa_DZ,
+					 TP_RamaDrzwiowa_SzczotkaDZ
+                     ]
+    TYP_DO_OKUC=PROFIL_DRZWIOWY
+  >  
+
 PROFIL[		         
         PRF_RAMA_DRZWIOWA_DW_ALP_W69_402    
       ]=
@@ -5025,6 +5039,17 @@ PROFIL[
                      ]
     TYP_DO_OKUC=PROFIL_DRZWIOWY
   >
+
+PROFIL[		         
+        PRF_RAMA_DRZWIOWE_DZ_ALP_W69_501    
+      ]=
+  <
+    ZASTOSOWANIE=    [
+                     TP_RamaDrzwiowa_DW,
+					 TP_RamaDrzwiowa_SzczotkaDW
+                     ]
+    TYP_DO_OKUC=PROFIL_DRZWIOWY
+  >  
 
 PROFIL[ 
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501 ,
@@ -5264,7 +5289,7 @@ PROFIL[
           > 
 		AKCESORIA_SZTUKI=
 		<
-			KOD	= E_W77_D010
+			KOD	= E_W69_D010
 			ILE	= 1
 			NA = [
 				TP_SkrzydloOkienne_Zawias,
@@ -5354,7 +5379,7 @@ PROFIL[
          KOD    = E_ALP_W69_609
          KOLOR  = KOLOR_CALOSCI
          ILE    = 1
-         DLUGOSC= 'OS_ODCINKA(25)'
+         DLUGOSC= 'OS_ODCINKA(25+1.8)'
          KAT1   = KAT_JAK_SKRZYDLO_DRZWI
          KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
          KIEDY  =[				
@@ -5380,13 +5405,13 @@ PROFIL[
             KOD    =E_ALP_W69_609
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
-            DLUGOSC= 'OS_ODCINKA(25)'
+            DLUGOSC= 'OS_ODCINKA(25+1.8)'
             KAT1   = KAT_JAK_SKRZYDLO_DRZWI
             KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
             KIEDY  =[				
-   	            TP_SkrzydloDrzwiowe_DZ1,
+   	               TP_SkrzydloDrzwiowe_DZ1,
                    TP_SkrzydloDrzwiowe_DZ2,
-   	            TP_SkrzydloDrzwiowe_DZ3,
+   	               TP_SkrzydloDrzwiowe_DZ3,
                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg1,
                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaProg2,
                    TP_SkrzydloDrzwiowe_DZ1PoprzeczkaDrzwiowaSzczotka				
@@ -5784,7 +5809,7 @@ PROFIL[
          KOD    = E_ALP_W69_609
          KOLOR  = KOLOR_CALOSCI
          ILE    = 1
-         DLUGOSC= 'OS_ODCINKA(25)'
+         DLUGOSC= 'OS_ODCINKA(25+1.8)'
          KAT1   = KAT_JAK_SKRZYDLO_DRZWI
          KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
          KIEDY  =[				
@@ -5810,7 +5835,7 @@ PROFIL[
             KOD    =E_ALP_W69_609
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
-            DLUGOSC= 'OS_ODCINKA(25)'
+            DLUGOSC= 'OS_ODCINKA(25+1.8)'
             KAT1   = KAT_JAK_SKRZYDLO_DRZWI
             KAT2   = KAT_JAK_SKRZYDLO_DRZWI		 
             KIEDY  =[				
@@ -6376,10 +6401,25 @@ PROFIL[
                     TP_RamaDrzwiowa_ProgDZ			
                     ]	
             NA_SKRZYDLE  =[
-                    TS_Drzwi_DZ1,
+                    TS_Drzwi_DZ1				
+                    ]							
+         > 	
+	    PROFIL=
+          <
+            PRZEKROJ_NR=100
+            KOD    = E_ALP_C_815
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_SKRZYDLA(0)-D(41)'
+		    KAT1   = KAT_0
+            KAT2   = KAT_0
+            KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDZ			
+                    ]	
+            NA_SKRZYDLE  =[
                     TS_Drzwi_DZ2					
                     ]							
-         > 				
+         > 			 
 	    PROFIL=
           <
             PRZEKROJ_NR=100
@@ -6402,7 +6442,7 @@ PROFIL[
             KOD    = E_ALP_C_815
             KOLOR  = KOLOR_WEWN
             ILE    = 1
-            DLUGOSC= 'OS_SKRZYDLA(0)-D(29-14.5)'
+            DLUGOSC= 'OS_SKRZYDLA(0)-D(29-26.5)'
 		    KAT1   = KAT_0
             KAT2   = KAT_0
             KIEDY  =[
@@ -6411,52 +6451,7 @@ PROFIL[
             NA_SKRZYDLE  =[
                     TS_Drzwi_DZ3				
                     ]							
-         > 		
-//        AKCESORIA_SZTUKI=
-//           <
-//           PRZEKROJ_NR=100		  
-//           KOD    = E_CW_D004L
-//           ILE    = 1
-//           KIEDY  =[
-//                    TP_RamaDrzwiowa_ProgDZ					
-//                    ]	
-//           NA_SKRZYDLE  =[
-//                    TS_Drzwi_DZ1,
-//                    TS_Drzwi_DZ2,			   
-//		            TS_Drzwi_DZ3v,
-//                    TS_Drzwi_DZ3				
-//                    ]		
-//           >	
-//        AKCESORIA_SZTUKI=
-//           <
-//           PRZEKROJ_NR=100		  
-//           KOD    = E_CW_D004R
-//           ILE    = 1
-//           KIEDY  =[
-//                    TP_RamaDrzwiowa_ProgDZ					
-//                    ]	
-//           NA_SKRZYDLE  =[
-//                    TS_Drzwi_DZ1,
-//                    TS_Drzwi_DZ2,			   
-//		            TS_Drzwi_DZ3v,
-//                    TS_Drzwi_DZ3				
-//                    ]		
-//           >	
-//        AKCESORIA_SZTUKI=
-//           <
-//           PRZEKROJ_NR=100		  
-//           KOD    = E_Sam3_5x13_DIN7982
-//           ILE    = 2
-//           KIEDY  =[
-//                    TP_RamaDrzwiowa_ProgDZ					
-//                    ]	
-//           NA_SKRZYDLE  =[
-//                    TS_Drzwi_DZ1,
-//                    TS_Drzwi_DZ2,			   
-//		            TS_Drzwi_DZ3v,
-//                    TS_Drzwi_DZ3				
-//                    ]		
-//           >			   
+         > 			   
 	    PROFIL=
           <
             PRZEKROJ_NR=100
@@ -6470,10 +6465,25 @@ PROFIL[
                     TP_RamaDrzwiowa_ProgDW					
                     ]	
             NA_SKRZYDLE  =[
-                    TS_Drzwi_DW1,
+                    TS_Drzwi_DW1					
+                    ]							
+         > 	
+	    PROFIL=
+          <
+            PRZEKROJ_NR=100
+            KOD    = E_ALP_C_816
+            KOLOR  = KOLOR_WEWN
+            ILE    = 1
+            DLUGOSC= 'OS_SKRZYDLA(0)-D(29+22.5)'
+		    KAT1   = KAT_0
+            KAT2   = KAT_0
+            KIEDY  =[
+                    TP_RamaDrzwiowa_ProgDW					
+                    ]	
+            NA_SKRZYDLE  =[
                     TS_Drzwi_DW2						
                     ]							
-         > 				
+         > 		 
 	    PROFIL=
           <
             PRZEKROJ_NR=100
@@ -6496,7 +6506,7 @@ PROFIL[
             KOD    = E_ALP_C_816
             KOLOR  = KOLOR_WEWN
             ILE    = 1
-            DLUGOSC= 'OS_SKRZYDLA(0)-D(29-14.5)'
+            DLUGOSC= 'OS_SKRZYDLA(0)-D(29-16.0)'
 		    KAT1   = KAT_0
             KAT2   = KAT_0
             KIEDY  =[
@@ -6530,40 +6540,40 @@ PROFIL[
                     TP_RamaDrzwiowa_ProgDW					
                      ]	
          >	  	
-//      //Дренажный колпачок
-//		AKCESORIA_SZTUKI=
-//		<
-//            PRZEKROJ_NR=100		 				
-//			KOD	= E_W69_D009
-//			ILE	= 1
-//			POLOZENIE_ZK=POL_DOL
-//			POLOZENIE=ORIENTACJA_POZIOM
-//			GDY_PARAMETR='(PROFIL_U_GORY=0)'			
-//		>
-//		AKCESORIA_SZTUKI=
-//		<
-//            PRZEKROJ_NR=100		 				
-//			KOD	= E_W69_D009
-//			ILE	= 1
-//			OD	= 300
-//			CO	= 10000
-//			SPOSOB_ZAOKRAGLENIA	= 2
-//			POLOZENIE_ZK=POL_DOL
-//			POLOZENIE=ORIENTACJA_POZIOM
-//			GDY_PARAMETR='(PROFIL_U_GORY=0)'						
-//		>
-//		AKCESORIA_SZTUKI=
-//		<
-//            PRZEKROJ_NR=100		 				
-//			KOD	= E_W69_D009
-//			ILE	= 1
-//			OD	= 1000
-//			CO	= 10000
-//			SPOSOB_ZAOKRAGLENIA	= 2
-//			POLOZENIE_ZK=POL_DOL
-//			POLOZENIE=ORIENTACJA_POZIOM
-//			GDY_PARAMETR='(PROFIL_U_GORY=0)'						
-//		>				 
+      //Дренажный колпачок
+		AKCESORIA_SZTUKI=
+		<
+            PRZEKROJ_NR=100		 				
+			KOD	= E_W77_D009
+			ILE	= 1
+			POLOZENIE_ZK=POL_DOL
+			POLOZENIE=ORIENTACJA_POZIOM
+			GDY_PARAMETR='(PROFIL_U_GORY=0)'			
+		>
+		AKCESORIA_SZTUKI=
+		<
+            PRZEKROJ_NR=100		 				
+			KOD	= E_W77_D009
+			ILE	= 1
+			OD	= 300
+			CO	= 10000
+			SPOSOB_ZAOKRAGLENIA	= 2
+			POLOZENIE_ZK=POL_DOL
+			POLOZENIE=ORIENTACJA_POZIOM
+			GDY_PARAMETR='(PROFIL_U_GORY=0)'						
+		>
+		AKCESORIA_SZTUKI=
+		<
+            PRZEKROJ_NR=100		 				
+			KOD	= E_W77_D009
+			ILE	= 1
+			OD	= 1000
+			CO	= 10000
+			SPOSOB_ZAOKRAGLENIA	= 2
+			POLOZENIE_ZK=POL_DOL
+			POLOZENIE=ORIENTACJA_POZIOM
+			GDY_PARAMETR='(PROFIL_U_GORY=0)'						
+		>				 
      >
 >
 
@@ -6573,7 +6583,9 @@ PROFIL[
         PRF_RAMA_DRZWIOWA_DZ_ALP_W69_401     ,
         PRF_RAMA_DRZWIOWA_DW_ALP_W69_402     ,
         PRF_RAMA_DRZWIOWA_DZF_ALP_W69_403    ,
-        PRF_RAMA_DRZWIOWA_DWF_ALP_W69_404   		 
+        PRF_RAMA_DRZWIOWA_DWF_ALP_W69_404    ,
+        PRF_RAMA_DRZWIOWE_DW_ALP_W69_502	 ,
+        PRF_RAMA_DRZWIOWE_DZ_ALP_W69_501		
       ]=
   <
     MATERIALY=

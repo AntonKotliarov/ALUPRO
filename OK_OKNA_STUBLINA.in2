@@ -35,7 +35,7 @@
 	  
          WAZNOSC_OKUCIA=80
 		 
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]			 
 
          WYMIAR_OKUCIA = 'KLAMKA'
@@ -212,7 +212,7 @@
          ZLOZONY_LIMIT = 'OK_R1_HID_STUBLINA_80'  
          RYSUNEK='OK_R1_HID_STUBLINA_80.bmp'			 
 		 
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]			 
 
          WYMIAR_OKUCIA = 'KLAMKA'
@@ -374,7 +374,7 @@
        		 >					
 	      >		
 		  
-      GDY_WARIANT_SKRZYDLA=[WAR_W77]
+      GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
       GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]	
 	  
       OD_B=445 DO_B=1600
@@ -570,7 +570,7 @@
        		 >					
 	      >		
 		  
-      GDY_WARIANT_SKRZYDLA=[WAR_W77]
+      GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
       GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]	  
 
       OD_B=445 DO_B=1600
@@ -800,7 +800,7 @@
 
 	  GRUPA[OK_UR1_HID_STUBLINA_150,OK_UR2_HID_STUBLINA_150]=
       <    
-      GDY_WARIANT_SKRZYDLA=[WAR_W77]
+      GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
       GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]	  
 
       OD_B=505 DO_B=1600
@@ -1059,7 +1059,7 @@
       <
          NAZWA='STUBLINA (Видима) - Фурнітура для пасивної стулки (зі штульпом)'
          OPIS='Фурнітура для поворотно вікна STUBLINA. Натисніть кнопку: "Вибрати"'
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW3,TS_RamaOkienna_OBW3]	
 		 RODZAJ=OKUCIE_RP
 		 
@@ -1201,7 +1201,7 @@
       <
          NAZWA='STUBLINA (Прихована) - Фурнітура для пасивної стулки (зі штульпом)'
          OPIS='Фурнітура для поворотно вікна STUBLINA. Натисніть кнопку: "Вибрати"'
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW3,TS_RamaOkienna_OBW3]
 		 RODZAJ=OKUCIE_RP		 
 		 
@@ -1350,7 +1350,7 @@
 		 
          WAZNOSC_OKUCIA=80
 
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
 		 
          FILTR_NAZWA        = 'Виробник'
          FILTR_WARTOSC      = 'STUBLINA'	
@@ -1447,7 +1447,7 @@
 		 
          WAZNOSC_OKUCIA=80
 
-         GDY_WARIANT_SKRZYDLA=[WAR_W77, WAR_C50]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69, WAR_C50]
 		 
          FILTR_NAZWA        = 'Виробник'
          FILTR_WARTOSC      = 'STUBLINA'	

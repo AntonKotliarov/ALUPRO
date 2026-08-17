@@ -17,7 +17,7 @@
       <
         NAZWA='Відсутня ручка віконна'
         OPIS='Отсутствует ручка оконная'
-        SYSTEMY=[DEF_SYS_W77]  
+        SYSTEMY=[DEF_SYS_W77,DEF_SYS_W69]  
     
         RODZAJ=OKUCIE_KLAMKA
         WAZNOSC_OKUCIA=80     
@@ -31,7 +31,7 @@
          NAZWA='Без фурнітури'  
          OPIS='Без фурнітури'
          RODZAJ=OKUCIE_ROZWIERANE
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
 		 
          OSTRZEZENIE_WARUNEK='1'
          OSTRZEZENIE_TEKST='Без фурнітури!'				 
@@ -46,7 +46,7 @@
          NAZWA='Без фурнітури'  
          OPIS='Без фурнітури'
          RODZAJ=OKUCIE_UR
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
 		 
          OSTRZEZENIE_WARUNEK='1'
          OSTRZEZENIE_TEKST='Без фурнітури!'				 
@@ -61,7 +61,7 @@
          NAZWA='Без фурнітури'  
          OPIS='Без фурнітури'
          RODZAJ=OKUCIE_ROZWIERANE_RP
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
 		 
          OSTRZEZENIE_WARUNEK='1'
          OSTRZEZENIE_TEKST='Без фурнітури!'				 
@@ -76,7 +76,7 @@
          NAZWA='Без фурнітури'  
          OPIS='Без фурнітури'
          RODZAJ=OKUCIE_RP
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
 		 
          OSTRZEZENIE_WARUNEK='1'
          OSTRZEZENIE_TEKST='Без фурнітури!'				 
@@ -92,7 +92,7 @@
          NAZWA='Без фурнітури'  
          OPIS='Без фурнітури'
          RODZAJ=OKUCIE_UR_RP
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
 		 
          OSTRZEZENIE_WARUNEK='1'
          OSTRZEZENIE_TEKST='Без фурнітури!'				 
@@ -107,7 +107,7 @@
          NAZWA='Без фурнітури'  
          OPIS='Без фурнітури'
          RODZAJ=OKUCIE_UCHYLNE
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
 		 
          OSTRZEZENIE_WARUNEK='1'
          OSTRZEZENIE_TEKST='Без фурнітури!'				 
@@ -172,7 +172,7 @@
 	  
          WAZNOSC_OKUCIA=80
 		 
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]			 
 
          WYMIAR_OKUCIA = 'KLAMKA'
@@ -326,7 +326,7 @@
          ZLOZONY_LIMIT = 'OK_R1_HID_FAPIM'  
          RYSUNEK='OK_R1_HID_FAPIM.bmp'			 
 		 
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]			 
 
          WYMIAR_OKUCIA = 'KLAMKA'
@@ -463,7 +463,7 @@
             >					
 	      >		
 		  
-      GDY_WARIANT_SKRZYDLA=[WAR_W77]
+      GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
       GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]	
 	  
       OD_B=364 DO_B=1700
@@ -720,7 +720,7 @@
             >				
 	      >		
 		  
-      GDY_WARIANT_SKRZYDLA=[WAR_W77]
+      GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
       GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]
 
       OD_B=364 DO_B=1700
@@ -989,7 +989,7 @@
 
 	  GRUPA[OK_UR1_HID_FAPIM,OK_UR2_HID_FAPIM]=
       <    
-      GDY_WARIANT_SKRZYDLA=[WAR_W77]
+      GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
       GDY_KONSTRUKCJA=[TS_RamaOkienna_OW1,TS_RamaOkienna_OBW1,TS_RamaOkienna_OW2,TS_RamaOkienna_OBW2]	  
 
       OD_B=422 DO_B=1700
@@ -1164,7 +1164,7 @@
       <
          NAZWA='Fapim Galicube - Фурнітура для пасивної стулки (зі штульпом)'
          OPIS='Фурнітура для поворотно вікна Fapim. Натисніть кнопку: "Вибрати"'
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW3,TS_RamaOkienna_OBW3]	
 		 RODZAJ=OKUCIE_RP
 		 
@@ -1250,7 +1250,7 @@
       <
          NAZWA='Fapim MAGICUBE - Фурнітура для пасивної стулки (зі штульпом)'
          OPIS='Фурнітура для поворотно вікна Fapim. Натисніть кнопку: "Вибрати"'
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
          GDY_KONSTRUKCJA=[TS_RamaOkienna_OW3,TS_RamaOkienna_OBW3]
 		 RODZAJ=OKUCIE_RP		 
 		 
@@ -1352,7 +1352,7 @@
 		 
          WAZNOSC_OKUCIA=80
 
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
 		 
          FILTR_NAZWA        = 'Виробник'
          FILTR_WARTOSC      = 'FAPIM'	
@@ -1535,7 +1535,7 @@
 		 
          WAZNOSC_OKUCIA=80
 
-         GDY_WARIANT_SKRZYDLA=[WAR_W77]
+         GDY_WARIANT_SKRZYDLA=[WAR_W77,WAR_W69]
 		 
          FILTR_NAZWA        = 'Виробник'
          FILTR_WARTOSC      = 'FAPIM'	

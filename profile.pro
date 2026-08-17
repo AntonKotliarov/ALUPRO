@@ -2707,6 +2707,16 @@ AKCESORIA_SZTUKI[E_Sam3_9x19_DIN7982]=
     MASA             = 0
   >  
   
+AKCESORIA_SZTUKI[E_Sam3_5x19_DIN7050]=
+  <
+    NAZWA            = 'Саморіз 3.5*19 DIN7050'
+    OPIS             = 'Саморіз н/ж'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'Sam_DIN7050.bmp'
+    RYSUNEK_DO_PRZEKROJOW = 'Sam3_5x19_DIN7050.vct'				
+    MASA             = 0
+  >    
+  
 AKCESORIA_SZTUKI[E_Sam3_9x25_DIN7982]=
   <
     NAZWA            = 'Саморіз 3.9*25 DIN7982'
@@ -2896,7 +2906,15 @@ AKCESORIA_SZTUKI[E_PODKL_100_24_3]=
     SYSTEMY         =  [DEF_SYS_F50]
     RYSUNEK          = 'PODKL_100_24_3.VCT'
     MASA             = 0
-  >     
+  > 
+AKCESORIA_SZTUKI[E_PODKL_100_26_1]=
+  <
+    NAZWA            = '100х26х1мм'
+    OPIS             = 'Підкладка 100х26х1мм'
+    SYSTEMY         =  [DEF_SYS_F50]
+    RYSUNEK          = 'PODKL_100_26_1.VCT'
+    MASA             = 0
+  >    
 AKCESORIA_SZTUKI[E_PODKL_100_26_3]=
   <
     NAZWA            = '100х26х3мм'
@@ -2904,7 +2922,15 @@ AKCESORIA_SZTUKI[E_PODKL_100_26_3]=
     SYSTEMY         =  [DEF_SYS_F50]
     RYSUNEK          = 'PODKL_100_26_3.VCT'
     MASA             = 0
-  >     
+  >  
+AKCESORIA_SZTUKI[E_PODKL_100_26_5]=
+  <
+    NAZWA            = '100х26х5мм'
+    OPIS             = 'Підкладка 100х26х5мм'
+    SYSTEMY         =  [DEF_SYS_F50]
+    RYSUNEK          = 'PODKL_100_26_5.VCT'
+    MASA             = 0
+  >    
 AKCESORIA_SZTUKI[E_PODKL_100_30_3]=
   <
     NAZWA            = '100х30х3мм'
@@ -2912,7 +2938,15 @@ AKCESORIA_SZTUKI[E_PODKL_100_30_3]=
     SYSTEMY         =  [DEF_SYS_F50]
     RYSUNEK          = 'PODKL_100_30_3.VCT'
     MASA             = 0
-  >      
+  >  
+AKCESORIA_SZTUKI[E_PODKL_100_30_5]=
+  <
+    NAZWA            = '100х30х5мм'
+    OPIS             = 'Підкладка 100х30х5мм'
+    SYSTEMY         =  [DEF_SYS_F50]
+    RYSUNEK          = 'PODKL_100_30_5.VCT'
+    MASA             = 0
+  >        
 AKCESORIA_SZTUKI[E_PODKL_100_32_3]=
   <
     NAZWA            = '100х32х3мм'
@@ -2928,7 +2962,23 @@ AKCESORIA_SZTUKI[E_PODKL_100_36_3]=
     SYSTEMY         =  [DEF_SYS_F50]
     RYSUNEK          = 'PODKL_100_36_3.VCT'
     MASA             = 0
-  >   
+  >  
+AKCESORIA_SZTUKI[E_PODKL_100_36_5]=
+  <
+    NAZWA            = '100х36х5мм'
+    OPIS             = 'Підкладка 100х36х5мм'
+    SYSTEMY         =  [DEF_SYS_F50]
+    RYSUNEK          = 'PODKL_100_36_5.VCT'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_PODKL_100_36_1]=
+  <
+    NAZWA            = '100х36х1мм'
+    OPIS             = 'Підкладка 100х36х1мм'
+    SYSTEMY         =  [DEF_SYS_F50]
+    RYSUNEK          = 'PODKL_100_36_1.VCT'
+    MASA             = 0
+  >       
 AKCESORIA_SZTUKI[E_PODKL_100_38_3]=
   <
     NAZWA            = '100х38х3мм'
@@ -2993,7 +3043,31 @@ AKCESORIA_SZTUKI[E_F50_613_01]=
     SYSTEMY          = [DEF_SYS_F50]
     RYSUNEK          = 'F50_613_01.png'
     MASA             = 0
-  >    
+  >   
+AKCESORIA_SZTUKI[E_F50_613_04]=
+  <
+    NAZWA            = 'F50.613.04'
+    OPIS             = 'Опора підсилена'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'F50_613_04.png'
+    MASA             = 0
+  >  
+AKCESORIA_SZTUKI[E_F50_613_05]=
+  <
+    NAZWA            = 'F50.613.05'
+    OPIS             = 'Опора підсилена'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'F50_613_05.png'
+    MASA             = 0
+  >   
+AKCESORIA_SZTUKI[E_F50_613_06]=
+  <
+    NAZWA            = 'F50.613.06'
+    OPIS             = 'Опора підсилена'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'F50_613_06.png'
+    MASA             = 0
+  >          
 AKCESORIA_SZTUKI[E_F50_613_02]=
   <
     NAZWA            = 'F50.613.02'
@@ -6575,14 +6649,14 @@ AKCESORIA_SZTUKI[E_ALP_FZP_ANCHER]=
     RYSUNEK          = 'PDKL_100_24_1.VCT'
     MASA             = 0
   >     
-//   AKCESORIA_SZTUKI[E_PODKL_100_24_3]=
-//  <
-//    NAZWA            = '100х24х3мм'
-//    OPIS             = 'Підкладка 100х24х3'
-//    SYSTEMY          = [DEF_SYS_F50]
-//    RYSUNEK          = 'PDKL_100_24_3.VCT'
-//    MASA             = 0
-//  >   
+   AKCESORIA_SZTUKI[E_PODKL_100_24_5]=
+  <
+    NAZWA            = '100х24х5мм'
+    OPIS             = 'Підкладка 100х24х5'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'PDKL_100_24_5.VCT'
+    MASA             = 0
+  >   
 
    AKCESORIA_SZTUKI[E_PODKL_100_30_1]=
   <
@@ -6609,14 +6683,14 @@ AKCESORIA_SZTUKI[E_ALP_FZP_ANCHER]=
     RYSUNEK          = 'PDKL_100_32_1.VCT'
     MASA             = 0
   >     
-//   AKCESORIA_SZTUKI[E_PODKL_100_32_3]=
-//  <
-//    NAZWA            = '100х32х3мм'
-//    OPIS             = 'Підкладка 100х32х3'
-//    SYSTEMY          = [DEF_SYS_F50]
-//    RYSUNEK          = 'PDKL_100_32_3.VCT'
-//    MASA             = 0
-//  >    
+   AKCESORIA_SZTUKI[E_PODKL_100_32_5]=
+  <
+    NAZWA            = '100х32х5мм'
+    OPIS             = 'Підкладка 100х32х5'
+    SYSTEMY          = [DEF_SYS_F50]
+    RYSUNEK          = 'PDKL_100_32_5.VCT'
+    MASA             = 0
+  >    
   
    AKCESORIA_SZTUKI[E_PODKL_100_34_5]=
   <

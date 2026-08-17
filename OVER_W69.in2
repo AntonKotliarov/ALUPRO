@@ -64,7 +64,9 @@ NAKLADANIE=
                 PRF_RAMA_DRZWIOWA_DZ_ALP_W69_401     ,
                 PRF_RAMA_DRZWIOWA_DW_ALP_W69_402     ,
                 PRF_RAMA_DRZWIOWA_DZF_ALP_W69_403    ,
-                PRF_RAMA_DRZWIOWA_DWF_ALP_W69_404    
+                PRF_RAMA_DRZWIOWA_DWF_ALP_W69_404    ,
+				PRF_RAMA_DRZWIOWE_DW_ALP_W69_502     ,
+				PRF_RAMA_DRZWIOWE_DZ_ALP_W69_501
                   ]
         SKRZYDLO= [
                 PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W69_501 ,

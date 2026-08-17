@@ -16,6 +16,14 @@ PODSYSTEM[DEF_SYS_W77]=
         RYSUNEK     = 'W77.BMP'
         KOD         = 'W77'
       >	
+PODSYSTEM[DEF_SYS_W69]=
+      <
+        NAZWA       = 'W69 - Вікна та двері'
+        OPIS        = 'Вікна та двері W69. Ширина профилю 69мм'
+        KATEGORIA   = 'Вікна та двері'
+        RYSUNEK     = 'W69.BMP'
+        KOD         = 'W69'
+      >		  
 PODSYSTEM[DEF_SYS_C50]=
       <
         NAZWA       = 'C50 - Вікна та двері'
