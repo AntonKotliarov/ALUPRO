@@ -329,7 +329,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_104]=
           > 		  
         PROFIL=
           <
-            KOD    = E_PAS_5364
+            KOD    = E_PAS_4435
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -339,7 +339,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_104]=
           > 
         PROFIL=
           <
-            KOD    = E_PAS_5363
+            KOD    = E_PAS_4436
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -359,7 +359,7 @@ PROFIL[ PRF_RAMA_OKIENNA_ALP_W77_104]=
           > 
         PROFIL=
           <
-            KOD    = E_806800
+            KOD    = E_807600
             KOLOR  = KOLOR_CALOSCI
             ILE    = 1
             DLUGOSC= 'OS_PROFILU(0)'
@@ -2760,7 +2760,195 @@ PROFIL[ PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404 ]=
 			GDY_PARAMETR='TYPE_TERMO_W77=1'
           > 		  
       >
-  >        
+  > 
+
+PROFIL[ PRF_RAMA_DRZWIOWE_DW_ALP_W77_501 ]=
+  <
+    NAZWA=           'W77.501X'
+    OPIS=	         'Стулка дверей зовн.відч. 95мм. Система ALUPRO W77'
+    KATEGORIA=   	 '6) Профіль дверної рами'
+    RYSUNEK=	     'W77_501.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=       'W77.501X Hi'
+    >
+	
+    IX=               53.812
+    IY=               29.081
+
+    SZEROKOSC=95
+
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_501
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_501
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 	
+        PROFIL=
+          <
+            KOD    = E_PAS_4517
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4516
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          >  
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T053
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+      >
+  >
+
+PROFIL[ PRF_RAMA_DRZWIOWE_DZ_ALP_W77_502 ]=
+  <
+    NAZWA=           'W77.502X'
+    OPIS=	         'Стулка дверей внутр.відч. 95мм. Система ALUPRO W77'
+    KATEGORIA=   	 '6) Профіль дверної рами'
+    RYSUNEK=	     'W77_502.VCT'
+	
+    INNE_NAZWY=
+    <
+    GDY_PARAMETR = 'TYPE_TERMO_W77=1'
+    NAZWA=           'W77.502X Hi'
+    >		
+	
+    IX=               55.116
+    IY=               29.001
+
+    SZEROKOSC=95
+
+    MATERIALY=          
+      <
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_502
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL			
+            GDY_PARAMETR='UNIT_PROFILE_W77=0'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_502
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+			TYLKO_W_PRZEKROJACH
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 		  
+        PROFIL=
+          <
+            KOD    = E_PAS_4518
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_PAS_4514
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    = E_807600
+            KOLOR  = KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL
+            GDY_PARAMETR='UNIT_PROFILE_W77=1'			
+          > 
+        PROFIL=
+          <
+            KOD    =E_ALP_W77_T053
+            KOLOR  =KOLOR_CALOSCI
+            ILE    = 1
+            DLUGOSC= 'OS_PROFILU(0)'
+            KAT1   = KAT_JAK_PROFIL
+            KAT2   = KAT_JAK_PROFIL	
+			GDY_PARAMETR='TYPE_TERMO_W77=1'
+          > 		  
+      >
+  >     
   
 //***********************************
 //Створка ДВЕРИ
@@ -2776,7 +2964,7 @@ PROFIL[ PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ]=
     <
     GDY_PARAMETR = 'TYPE_TERMO_W77=1'
     NAZWA=       'W77.501X Hi'
-    >		
+    >
 	
     IX=               53.812
     IY=               29.081
@@ -7688,6 +7876,8 @@ PROFIL[
         PRF_RAMA_DRZWIOWA_DW_ALP_W77_402     ,
         PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403    ,
         PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404    ,
+		PRF_RAMA_DRZWIOWE_DW_ALP_W77_501	 ,
+		PRF_RAMA_DRZWIOWE_DZ_ALP_W77_502	 ,
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
 		PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,
 		PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,		
@@ -7858,7 +8048,7 @@ PROFIL[
   >
 
 PROFIL[ 
-        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,
+        PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_501 ,	
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_505 ,
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_507 ,		
         PRF_SKRZYDLO_DRZWIOWE_DZ_ALP_W77_503 ,
@@ -7879,6 +8069,18 @@ PROFIL[
                      ]
     TYP_DO_OKUC=PROFIL_DRZWIOWY
   >
+  
+PROFIL[ 
+        PRF_RAMA_DRZWIOWE_DW_ALP_W77_501	
+      ]=
+  <
+    ZASTOSOWANIE=    [
+						TP_RamaDrzwiowa_DW,
+						TP_RamaDrzwiowa_SzczotkaDW		
+                     ]
+    TYP_DO_OKUC=PROFIL_DRZWIOWY
+  >
+  
 PROFIL[ 
         PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404    
       ]=
@@ -7914,6 +8116,17 @@ PROFIL[
     TYP_DO_OKUC=PROFIL_DRZWIOWY
   >  
 
+PROFIL[	   
+        PRF_RAMA_DRZWIOWE_DZ_ALP_W77_502
+      ]=
+  <
+    ZASTOSOWANIE=    [
+                     TP_RamaDrzwiowa_DZ,
+					 TP_RamaDrzwiowa_SzczotkaDZ		
+                     ]
+    TYP_DO_OKUC=PROFIL_DRZWIOWY
+  >  
+  
 PROFIL[	   
         PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403    
       ]=
@@ -9531,7 +9744,9 @@ PROFIL[
         PRF_RAMA_DRZWIOWA_DZ_ALP_W77_401     ,
         PRF_RAMA_DRZWIOWA_DW_ALP_W77_402     ,
         PRF_RAMA_DRZWIOWA_DZF_ALP_W77_403    ,
-        PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404   		 
+        PRF_RAMA_DRZWIOWA_DWF_ALP_W77_404    ,
+		PRF_RAMA_DRZWIOWE_DW_ALP_W77_501	 ,
+		PRF_RAMA_DRZWIOWE_DZ_ALP_W77_502
       ]=
   <
     MATERIALY=
